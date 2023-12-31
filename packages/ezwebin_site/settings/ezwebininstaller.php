@@ -129,7 +129,7 @@ class eZWebinInstaller extends eZSiteInstaller
             'translation' => $this->createSiteaccessUrls( array( 
                 'siteaccess_list' => $this->setting( 'language_based_siteaccess_list' ), 
                 'access_type' => $this->setting( 'access_type' ), 
-                'access_type_value' => $this->setting( 'access_type_value' ) + 1,  // 'access_type_value' is for 'ezwein_site_user', so take next port number.
+                'access_type_value' => (int)$this->setting( 'access_type_value' ) + 1,  // 'access_type_value' is for 'ezwein_site_user', so take next port number.
                 'host' => $this->setting( 'host' ), 
                 'exclude_port_list' => array( 
                     $this->setting( 'admin_access_type_value' ), 
