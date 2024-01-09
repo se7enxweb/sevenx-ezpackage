@@ -1334,6 +1334,10 @@ class eZWebinInstaller extends eZSiteInstaller
         {
             switch ($db->databaseName())
             {
+	        case 'sqlite':
+                    $sqlFile = 'sqlite.sql';
+                    $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/sqlite';
+                    break;
                 case 'mysql':
                     $sqlFile = 'mysql.sql';
                     $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/mysql';
@@ -1346,7 +1350,7 @@ class eZWebinInstaller extends eZSiteInstaller
             $res = $db->insertFile( $path, $sqlFile, false );
             if ( ! $res )
             {
-                eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database shema.', __METHOD__ );
+                eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database schema.', __METHOD__ );
             }
             if ( $res && $loadContent )
             {
