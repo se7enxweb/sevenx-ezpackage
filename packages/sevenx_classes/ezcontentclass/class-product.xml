@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false"
                always-available="false" sort-field="path" sort-order="1">
-    <serialized-name-list>a:2:{s:6:"eng-GB";s:7:"Product";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+    <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Product";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
     <identifier>product</identifier>
     <remote-id>77f3ede996a3a39c7159cc69189c5307</remote-id>
     <object-name-pattern>&lt;name&gt;</object-name-pattern>
@@ -30,7 +30,7 @@
             <remote>
                 <id>219</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Name";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>name</identifier>
             <placement>1</placement>
@@ -44,7 +44,7 @@
             <remote>
                 <id>220</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:14:"Product number";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:14:"Product number";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>product_number</identifier>
             <placement>2</placement>
@@ -58,7 +58,7 @@
             <remote>
                 <id>221</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:17:"Short description";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:17:"Short description";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>short_description</identifier>
             <placement>3</placement>
@@ -71,7 +71,7 @@
             <remote>
                 <id>222</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Description";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Description";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>description</identifier>
             <placement>4</placement>
@@ -84,7 +84,7 @@
             <remote>
                 <id>223</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:5:"Price";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Price";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>price</identifier>
             <placement>5</placement>
@@ -98,7 +98,7 @@
             <remote>
                 <id>224</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:5:"Image";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Image";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>image</identifier>
             <placement>6</placement>
@@ -111,7 +111,7 @@
             <remote>
                 <id>225</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:15:"Caption (Image)";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:15:"Caption (Image)";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>caption</identifier>
             <placement>7</placement>
@@ -124,7 +124,7 @@
             <remote>
                 <id>226</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:18:"Additional options";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:18:"Additional options";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>additional_options</identifier>
             <placement>8</placement>
@@ -137,7 +137,7 @@
             <remote>
                 <id>227</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>tags</identifier>
             <placement>9</placement>

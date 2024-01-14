@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false"
                always-available="false" sort-field="path" sort-order="1">
-    <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Poll";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+    <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Poll";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
     <identifier>poll</identifier>
     <remote-id>232937a3a2eacbbf24e2601aebe16522</remote-id>
     <object-name-pattern>&lt;name&gt;</object-name-pattern>
@@ -30,7 +30,7 @@
             <remote>
                 <id>254</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Name";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>name</identifier>
             <placement>1</placement>
@@ -44,7 +44,7 @@
             <remote>
                 <id>255</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Description";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Description";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>description</identifier>
             <placement>2</placement>
@@ -57,7 +57,7 @@
             <remote>
                 <id>256</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:8:"Question";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:8:"Question";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>question</identifier>
             <placement>3</placement>

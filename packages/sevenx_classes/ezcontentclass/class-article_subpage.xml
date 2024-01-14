@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false"
                always-available="false" sort-field="path" sort-order="1">
-    <serialized-name-list>a:2:{s:6:"eng-GB";s:18:"Article (sub-page)";s:16:"always-available";s:6:"eng-GB";}
+    <serialized-name-list>a:2:{s:6:"eng-US";s:18:"Article (sub-page)";s:16:"always-available";s:6:"eng-US";}
     </serialized-name-list>
     <identifier>article_subpage</identifier>
     <remote-id>68f305a18c76d9d03df36b810f290732</remote-id>
@@ -31,7 +31,7 @@
             <remote>
                 <id>206</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:5:"Title";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Title";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>title</identifier>
             <placement>1</placement>
@@ -45,7 +45,7 @@
             <remote>
                 <id>207</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Index title";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Index title";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>index_title</identifier>
             <placement>2</placement>
@@ -59,7 +59,7 @@
             <remote>
                 <id>208</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"body";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"body";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>body</identifier>
             <placement>3</placement>
@@ -72,7 +72,7 @@
             <remote>
                 <id>209</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>tags</identifier>
             <placement>4</placement>

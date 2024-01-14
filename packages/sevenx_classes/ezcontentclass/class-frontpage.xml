@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true"
                always-available="false" sort-field="path" sort-order="1">
-    <serialized-name-list>a:2:{s:6:"eng-GB";s:9:"Frontpage";s:16:"always-available";s:6:"eng-GB";}
+    <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Frontpage";s:16:"always-available";s:6:"eng-US";}
     </serialized-name-list>
     <identifier>frontpage</identifier>
     <remote-id>e36c458e3e4a81298a0945f53a2c81f4</remote-id>
@@ -31,7 +31,7 @@
             <remote>
                 <id>235</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Name";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>name</identifier>
             <placement>1</placement>
@@ -45,7 +45,7 @@
             <remote>
                 <id>236</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:9:"Billboard";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Billboard";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>billboard</identifier>
             <placement>2</placement>
@@ -59,7 +59,7 @@
             <remote>
                 <id>237</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Left column";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Left column";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>left_column</identifier>
             <placement>3</placement>
@@ -72,7 +72,7 @@
             <remote>
                 <id>238</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:13:"Center column";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Center column";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>center_column</identifier>
             <placement>4</placement>
@@ -85,7 +85,7 @@
             <remote>
                 <id>239</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:12:"Right column";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Right column";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>right_column</identifier>
             <placement>5</placement>
@@ -98,7 +98,7 @@
             <remote>
                 <id>240</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:13:"Bottom column";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Bottom column";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>bottom_column</identifier>
             <placement>6</placement>
@@ -111,7 +111,7 @@
             <remote>
                 <id>241</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>tags</identifier>
             <placement>7</placement>

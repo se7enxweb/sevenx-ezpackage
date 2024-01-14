@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true"
                always-available="false" sort-field="path" sort-order="1">
-    <serialized-name-list>a:2:{s:6:"eng-GB";s:14:"Event calendar";s:16:"always-available";s:6:"eng-GB";}
+    <serialized-name-list>a:2:{s:6:"eng-US";s:14:"Event calendar";s:16:"always-available";s:6:"eng-US";}
     </serialized-name-list>
     <identifier>event_calendar</identifier>
     <remote-id>020cbeb6382c8c89dcec2cd406fb47a8</remote-id>
@@ -31,7 +31,7 @@
             <remote>
                 <id>299</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:10:"Full Title";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:10:"Full Title";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>title</identifier>
             <placement>1</placement>
@@ -45,7 +45,7 @@
             <remote>
                 <id>300</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Short Title";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Short Title";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>short_title</identifier>
             <placement>2</placement>
@@ -59,7 +59,7 @@
             <remote>
                 <id>301</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"View";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"View";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>view</identifier>
             <placement>3</placement>

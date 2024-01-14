@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true"
                always-available="false" sort-field="path" sort-order="1">
-    <serialized-name-list>a:2:{s:6:"eng-GB";s:13:"Feedback form";s:16:"always-available";s:6:"eng-GB";}
+    <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Feedback form";s:16:"always-available";s:6:"eng-US";}
     </serialized-name-list>
     <identifier>feedback_form</identifier>
     <remote-id>df0257b8fc55f6b8ab179d6fb915455e</remote-id>
@@ -31,7 +31,7 @@
             <remote>
                 <id>228</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Name";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>name</identifier>
             <placement>1</placement>
@@ -45,7 +45,7 @@
             <remote>
                 <id>229</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Description";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Description";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>description</identifier>
             <placement>2</placement>
@@ -58,7 +58,7 @@
             <remote>
                 <id>230</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Sender name";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Sender name";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>sender_name</identifier>
             <placement>3</placement>
@@ -72,7 +72,7 @@
             <remote>
                 <id>231</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:7:"Subject";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Subject";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>subject</identifier>
             <placement>4</placement>
@@ -85,7 +85,7 @@
             <remote>
                 <id>232</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:7:"Message";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Message";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>message</identifier>
             <placement>5</placement>
@@ -98,7 +98,7 @@
             <remote>
                 <id>233</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:5:"Email";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Email";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>email</identifier>
             <placement>6</placement>
@@ -109,7 +109,7 @@
             <remote>
                 <id>234</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:9:"Recipient";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Recipient";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>recipient</identifier>
             <placement>7</placement>

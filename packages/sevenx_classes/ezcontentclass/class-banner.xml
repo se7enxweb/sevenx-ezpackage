@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false"
                always-available="false" sort-field="path" sort-order="1">
-    <serialized-name-list>a:2:{s:6:"eng-GB";s:6:"Banner";s:16:"always-available";s:6:"eng-GB";}</serialized-name-list>
+    <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Banner";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
     <identifier>banner</identifier>
     <remote-id>9cb558e25fd946246bbb32950c00228e</remote-id>
     <object-name-pattern>&lt;name&gt;</object-name-pattern>
@@ -30,7 +30,7 @@
             <remote>
                 <id>302</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Name";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>name</identifier>
             <placement>1</placement>
@@ -44,7 +44,7 @@
             <remote>
                 <id>303</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:3:"URL";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:3:"URL";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>url</identifier>
             <placement>2</placement>
@@ -58,7 +58,7 @@
             <remote>
                 <id>304</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:5:"Image";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Image";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>image</identifier>
             <placement>3</placement>
@@ -71,7 +71,7 @@
             <remote>
                 <id>305</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:9:"Image map";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Image map";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>image_map</identifier>
             <placement>4</placement>
@@ -84,7 +84,7 @@
             <remote>
                 <id>306</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>tags</identifier>
             <placement>5</placement>

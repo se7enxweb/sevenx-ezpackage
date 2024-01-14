@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false"
                always-available="false" sort-field="path" sort-order="1">
-    <serialized-name-list>a:2:{s:6:"eng-GB";s:11:"Forum reply";s:16:"always-available";s:6:"eng-GB";}
+    <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Forum reply";s:16:"always-available";s:6:"eng-US";}
     </serialized-name-list>
     <identifier>forum_reply</identifier>
     <remote-id>80ee42a66b2b8b6ee15f5c5f4b361562</remote-id>
@@ -31,7 +31,7 @@
             <remote>
                 <id>291</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:7:"Subject";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Subject";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>subject</identifier>
             <placement>1</placement>
@@ -45,7 +45,7 @@
             <remote>
                 <id>292</id>
             </remote>
-            <serialized-name-list>a:2:{s:6:"eng-GB";s:7:"Message";s:16:"always-available";s:6:"eng-GB";}
+            <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Message";s:16:"always-available";s:6:"eng-US";}
             </serialized-name-list>
             <identifier>message</identifier>
             <placement>2</placement>
