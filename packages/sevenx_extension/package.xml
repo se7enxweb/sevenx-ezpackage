@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="5.0-0"
+<package version="6.0.2-0"
          development="false"
          install_type="install">
-  <name>ezwebin_extension</name>
-  <summary>ezwebin extension</summary>
-  <description>ezwebin extension</description>
-  <vendor>eZ systems</vendor>
+  <name>sevenx_extension</name>
+  <summary>sevenx extension</summary>
+  <description>sevenx extension</description>
+  <vendor>7x</vendor>
   <type value="extension" />
   <ezpublish>
-    <version>5.0.0-alpha1</version>
-    <named-version>5.0</named-version>
+    <version>6.0.2-alpha1</version>
+    <named-version>6.0</named-version>
   </ezpublish>
   <packaging>
-    <timestamp>1173346361</timestamp>
-    <host>packages.ez.no</host>
+    <timestamp>1705210212</timestamp>
+    <host>packages.se7enx.com</host>
   </packaging>
   <documents>
     <document mime-type="text/plain"
@@ -36,10 +36,16 @@
     <item type="ezextension"
           filename="extension-ezwebin"
           sub-directory="ezextension" />
+      <item type="ezextension"
+          filename="extension-sevenx-themes-simple"
+          sub-directory="ezextension" />
   </install>
   <uninstall>
     <item type="ezextension"
           filename="extension-ezwebin"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-sevenx-themes-simple"
           sub-directory="ezextension" />
   </uninstall>
 </package>
