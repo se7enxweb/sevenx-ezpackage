@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="5.0-0"
+<package version="6.0.2-0"
          development="false"
          install_type="install">
-  <name>ezwebin_classes</name>
-  <summary>ezwebin content classes</summary>
-  <description>This package contains definitions of content classes used by the ezwebin extension</description>
-  <vendor>eZ systems</vendor>
+  <name>sevenx_classes</name>
+  <summary>sevenx content classes</summary>
+  <description>This package contains definitions of content classes used by the sevenx extension</description>
+  <vendor>7x</vendor>
   <type value="contentclass" />
   <ezpublish>
-    <version>5.0.0-alpha1</version>
-    <named-version>5.0</named-version>
+    <version>6.0.2-alpha1</version>
+    <named-version>6.0</named-version>
   </ezpublish>
   <maintainers>
     <maintainer>
@@ -19,8 +19,8 @@
     </maintainer>
   </maintainers>
   <packaging>
-    <timestamp>1160074602</timestamp>
-    <host>packages.ez.no</host>
+    <timestamp>1705211775</timestamp>
+    <host>packages.se7enx.com</host>
   </packaging>
   <documents>
     <document mime-type="text/plain"
@@ -36,7 +36,7 @@
   </changelog>
   <simple-files />
   <version>
-    <number>5.0</number>
+    <number>6.0</number>
     <release>0-alpha1</release>
   </version>
   <licence>GPL</licence>
@@ -133,6 +133,9 @@
       <provide type="ezcontentclass"
                name="contentclass"
                value="silverlight" />
+      <provide type="ezcontentclass"
+               name="contentclass"
+               value="video" />
     </provides>
     <requires />
     <obsoletes />
@@ -314,6 +317,9 @@
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-silverlight"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-video"
           sub-directory="ezcontentclass" />
   </uninstall>
 </package>
