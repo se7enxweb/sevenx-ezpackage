@@ -14,7 +14,7 @@
   <maintainers>
     <maintainer>
       <name>Administrator User</name>
-      <email>nospam@ez.no</email>
+      <email>nospam@se7enx.com</email>
       <role>lead</role>
     </maintainer>
   </maintainers>
@@ -27,9 +27,9 @@
               name="LICENCE" />
   </documents>
   <changelog>
-    <entry timestamp="1160074602"
+    <entry timestamp="1705211779"
            person="Administrator User"
-           email="nospam@ez.no"
+           email="nospam@se7enx.com"
            release="1">
       <change>Creation of package.</change>
     </entry>
@@ -228,6 +228,9 @@
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-silverlight"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-video"
           sub-directory="ezcontentclass" />
   </install>
   <uninstall>

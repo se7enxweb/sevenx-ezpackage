@@ -1,11 +1,11 @@
 <?php
 //
-// Created on: <13-Nov-2006 15:00:00 dl>
+// Created on: <13-Jan-2024 13:00:00 gb>
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ publish
-// SOFTWARE RELEASE: 3.9.x
-// COPYRIGHT NOTICE: Copyright (C) 1999-2014 eZ Systems AS
+// SOFTWARE RELEASE: 6.0.x
+// COPYRIGHT NOTICE: Copyright (C) 1999-2024 7x
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -26,21 +26,21 @@
 // ## END COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 //
 
-class eZWebinInstaller extends eZSiteInstaller
+class SevenxeZWebinInstaller extends eZSiteInstaller
 {
     const MAJOR_VERSION = 1.5;
     const MINOR_VERSION = 0;
 
-    function eZWebinInstaller( $parameters = false )
+    function __construct( $parameters = false )
     {
-        eZSiteInstaller::eZSiteInstaller( $parameters );
+        parent::__construct( $parameters );
     }
 
     function &instance( $params )
     {
         $impl = & $GLOBALS["eZWebinInstallerGlobalInstance"];
         if ( get_class( $impl ) != "ezwebininstaller" )
-            $impl = new eZWebinInstaller( $params );
+            $impl = new SevenxeZWebinInstaller( $params );
         return $impl;
     }
 

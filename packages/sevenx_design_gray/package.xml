@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="5.0-0"
+<package version="6.0-0"
          development="false"
          install_type="import">
-  <name>ezwebin_design_gray</name>
+  <name>sevenx_design_gray</name>
   <summary>eZ Publish Website Interface design (gray)</summary>
   <description>This site style package contains the design for the Website Interface</description>
-  <vendor>eZ systems</vendor>
+  <vendor>7x</vendor>
   <type value="sitestyle" />
   <ezpublish>
-    <version>5.0.0-alpha1</version>
-    <named-version>5.0</named-version>
+    <version>6.0.0-alpha1</version>
+    <named-version>6.0</named-version>
   </ezpublish>
   <maintainers>
     <maintainer>
       <name>Administrator User</name>
-      <email>nospam@ez.no</email>
+      <email>nospam@se7enx.com</email>
       <role>lead</role>
     </maintainer>
   </maintainers>
   <packaging>
-    <timestamp>1162333368</timestamp>
-    <host>packages.ez.no</host>
+    <timestamp>1705211779</timestamp>
+    <host>packages.se7enx.com</host>
   </packaging>
   <documents>
     <document mime-type="text/plain"
               name="LICENCE" />
   </documents>
   <changelog>
-    <entry timestamp="1162333368"
+    <entry timestamp="1705211779"
            person="Administrator User"
-           email="jkn@ez.no"
+           email="nospam@se7enx.com"
            release="1">
       <change>Creation of package.</change>
     </entry>
@@ -58,7 +58,7 @@
     </collection>
   </files>
   <version>
-    <number>5.0</number>
+    <number>6.0</number>
     <release>0-alpha1</release>
   </version>
   <licence>GPL</licence>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="5.0-0"
+<package version="6.0.2-0"
          development="false"
          is_active="true"
          install_type="import">
-  <name>ezwebin_site</name>
-  <summary>Website Interface LS</summary>
-  <description>Website Interface is a web based CMS solution based on eZ Publish. It contains templates and settings that meets the most common requirements for content management systems.</description>
-  <vendor>eZ systems</vendor>
+  <name>sevenx_site</name>
+  <summary>Website Interface</summary>
+  <description>The 7x Website Interface is a web based CMS solution with eZ Publish. It contains templates and settings that meets the most common requirements for content management systems.</description>
+  <vendor>7x</vendor>
   <type value="site" />
   <ezpublish>
-    <version>5.0.0-alpha1</version>
-    <named-version>5.0</named-version>
+    <version>6.0.2-alpha1</version>
+    <named-version>6.0</named-version>
   </ezpublish>
   <maintainers>
     <maintainer>
       <name>Administrator User</name>
-      <email>nospam@ez.no</email>
+      <email>nospam@se7enx.com</email>
       <role>lead</role>
     </maintainer>
   </maintainers>
   <packaging>
-    <timestamp>1153313252</timestamp>
-    <host>packages.ez.no</host>
+    <timestamp>1705211779</timestamp>
+    <host>packages.se7enx.com</host>
   </packaging>
   <documents>
     <document mime-type="text/plain"
@@ -29,7 +29,7 @@
   </documents>
   <changelog>
     <entry person="Administrator User"
-           email="nospam@ez.no"
+           email="nospam@se7enx.com"
            release="1">
       <change>Creation of package.</change>
     </entry>
@@ -50,7 +50,7 @@
      </collection>
   </files>
   <version>
-    <number>5.0</number>
+    <number>6.0</number>
     <release>0-alpha1</release>
   </version>
   <licence>GPL</licence>
@@ -68,25 +68,25 @@
                name="ezgmaplocation_extension"
                min-version="5.1" />
       <require type="ezpackage"
-               name="ezwebin_extension"
+               name="sevenx_extension"
                min-version="5.1" />
       <require type="ezpackage"
-               name="ezwebin_classes"
+               name="sevenx_classes"
                min-version="5.1" />
       <require type="ezpackage"
-               name="ezwebin_banners"
+               name="sevenx_banners"
                min-version="5.1" />
       <require type="ezpackage"
-               name="ezwebin_democontent"
+               name="sevenx_democontent"
                min-version="5.1" />
       <require type="ezpackage"
-               name="ezwebin_design_cleangray"
+               name="sevenx_design_cleangray"
                min-version="5.1" />
       <require type="ezpackage"
-               name="ezwebin_design_gray"
+               name="sevenx_design_gray"
                min-version="5.1" />
       <require type="ezpackage"
-               name="ezwebin_design_blue"
+               name="sevenx_design_blue"
                min-version="5.1" />
     </requires>
     <obsoletes />
@@ -96,7 +96,7 @@
     <settings-file filename='ini-site.php'/>
     <settings-file filename='ini-admin.php'/>
     <settings-file filename='ini-common.php'/>
-    <settings-file filename='ezwebininstaller.php'/>
+    <settings-file filename='sevenxezwebininstaller.php'/>
     <settings-file filename='install-scripts.php'/>
     <settings-file filename='roles.php'/>
     <settings-file filename='preferences.php'/>

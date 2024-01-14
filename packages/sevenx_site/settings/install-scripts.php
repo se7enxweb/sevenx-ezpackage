@@ -38,7 +38,7 @@ This get called by ezstep_create_sites.php
 */
 function eZSitePreInstall( )
 {
-    $installer = new eZWebinInstaller( array( 'var_dir' => 'var/ezwebin_site' ) );
+    $installer = new SevenxeZWebinInstaller( array( 'var_dir' => 'var/ezwebin_site' ) );
 
     $installer->preInstall();
 }
@@ -49,7 +49,7 @@ This get called by ezstep_create_sites.php
 */
 function eZSitePostInstall( &$parameters )
 {
-    $installer = new eZWebinInstaller( $parameters );
+    $installer = new SevenxeZWebinInstaller( $parameters );
 
     $installer->postInstall();
 }
