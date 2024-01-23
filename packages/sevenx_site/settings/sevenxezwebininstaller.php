@@ -28,7 +28,7 @@
 
 class SevenxeZWebinInstaller extends eZSiteInstaller
 {
-    const MAJOR_VERSION = 1.5;
+    const MAJOR_VERSION = 1.6;
     const MINOR_VERSION = 0;
 
     function __construct( $parameters = false )
@@ -87,6 +87,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'ezwt', 
             'ezstarrating', 
             'ezgmaplocation', 
+            'ezwebin', 
             strtolower( $this->solutionExtensionName() ) 
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
@@ -1683,6 +1684,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 'TreeMenu' => array( 
                     'ShowClasses' => array( 
                         'folder', 
+                        'article', 
+                        'link', 
                         'user_group', 
                         'documentation_page', 
                         'event_calendar', 
@@ -2728,7 +2731,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 'MenuContentSettings' => array( 
                     'TopIdentifierList' => array( 
                         'folder', 
-                        'feedback_form' 
+                        'feedback_form', 
+                        'article', 
+                        'link', 
                     ), 
                     'LeftIdentifierList' => array( 
                         'folder', 
