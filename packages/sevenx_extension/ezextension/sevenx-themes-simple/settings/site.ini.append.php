@@ -5,21 +5,22 @@
 # AdditionalSiteDesignList[]=base
 # AdditionalSiteDesignList[]=themewhite
 
-[RegionalSettings]
-Locale=eng-US
-ContentObjectLocale=eng-US
-ShowUntranslatedObjects=disabled
-SiteLanguageList[]=eng-US
-TextTranslation=disabled
+#
+#[RegionalSettings]
+#Locale=eng-US
+#ContentObjectLocale=eng-US
+#ShowUntranslatedObjects=disabled
+#SiteLanguageList[]=eng-US
+#TextTranslation=disabled
 
-[FileSettings]
-VarDir=var/site
+#[FileSettings]
+#VarDir=var/site
 
-[ContentSettings]
-TranslationList=
+#[ContentSettings]
+#TranslationList=
 
-[MailSettings]
-AdminEmail=info@se7enx.com
-EmailSender=info@se7enx.com
+#[MailSettings]
+#AdminEmail=info@se7enx.com
+#EmailSender=info@se7enx.com
 
 */ ?>

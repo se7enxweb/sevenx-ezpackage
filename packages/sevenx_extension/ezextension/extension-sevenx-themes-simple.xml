@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension name="se7enx-themes-simple">
+<extension name="sevenx-themes-simple">
   <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezarchive.php" path="/autoloads" md5sum="cebf3474c6f599b6fbb0570d90141aed"/>
   <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="dadc89bc774538478d7e9e04a287e5b2"/>

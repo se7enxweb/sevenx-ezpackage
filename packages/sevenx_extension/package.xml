@@ -8,7 +8,7 @@
   <vendor>7x</vendor>
   <type value="extension" />
   <ezpublish>
-    <version>6.0.2-alpha1</version>
+    <version>6.0.0-stable</version>
     <named-version>6.0</named-version>
   </ezpublish>
   <packaging>
@@ -21,8 +21,8 @@
   </documents>
   <simple-files />
   <version>
-    <number>5.0</number>
-    <release>0-alpha1</release>
+    <number>6.0.2</number>
+    <release>0-alpha2</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
