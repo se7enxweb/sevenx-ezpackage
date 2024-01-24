@@ -87,8 +87,12 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'ezwt', 
             'ezstarrating', 
             'ezgmaplocation', 
-            'ezwebin', 
-            strtolower( $this->solutionExtensionName() ) 
+            strtolower( $this->solutionExtensionName() ), 
+            'ezpaypal', 
+            'owsimpleopertator', 
+            'bcgooglesitemaps', 
+            'bcwebsitestatistics', 
+            'ezwebin' 
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
