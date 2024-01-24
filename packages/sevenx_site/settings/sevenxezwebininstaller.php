@@ -240,6 +240,12 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                     'role_name' => 'Anonymous', 
                     'policies' => array( 
                         array( 
+                            'module' => 'shop', 
+                            'function' => 'buy', 
+                            'limitation' => array( 
+                            ) 
+                        ),
+                        array( 
                             'module' => 'content', 
                             'function' => 'read', 
                             'limitation' => array( 
