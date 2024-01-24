@@ -1657,6 +1657,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         $siteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'user_siteaccess' ), null, false, null, true );
         $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'main_site_design' ) );
         $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->setting( 'all_siteaccess_list' ) );
+        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 
+            'ezwebin', 'standard', 'base'
+        ) );
         $siteINI->save( false, false, false, false, true, true );
         unset( $siteINI );
     }
