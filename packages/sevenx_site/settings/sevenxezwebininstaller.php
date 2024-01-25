@@ -255,8 +255,13 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                             'function' => 'call', 
                             'limitation' => array( 
                                 'FunctionList' => array( 
-                                    array( 'ezstarrating_rate', 'ezstarrating_user_has_rated' )
-                                )
+                                    array( 
+                                        '_function' => 'classIDbyIdentifier', 
+                                        '_params' => array( 
+                                            'identifier' => 'ezstarrating_user_has_rated' 
+                                        ) 
+                                    ) 
+                                ) 
                             ) 
                         ), 
                         array( 
