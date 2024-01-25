@@ -255,14 +255,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                             'function' => 'call', 
                             'limitation' => array( 
                                 'FunctionList' => array( 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'ezstarrating_user_has_rated' 
-                                        ) 
+                                    'ezstarrating_rate', 'ezstarrating_user_has_rated' 
                                     ) 
                                 ) 
-                            ) 
                         ), 
                         array( 
                             'module' => 'content', 
@@ -1615,8 +1610,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                     'function' => 'login', 
                     'limitation' => array( 
                         'SiteAccess' => array( 
-//                            eZSys::ezcrc32( $this->setting( 'user_siteaccess' ) )
-                            $this->setting( 'user_siteaccess' ) 
+                            eZSys::ezcrc32( $this->setting( 'user_siteaccess' ) ) 
                         ) 
                     ) 
                 ) 
