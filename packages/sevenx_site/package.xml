@@ -68,6 +68,9 @@
                name="ezgmaplocation_extension"
                min-version="5.1" />
       <require type="ezpackage"
+               name="ezpaypal_extension"
+               min-version="5.1" />
+      <require type="ezpackage"
                name="sevenx_extension"
                min-version="5.1" />
       <require type="ezpackage"
