@@ -92,6 +92,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'owsimpleopertator', 
             'bcgooglesitemaps', 
             'bcwebsitestatistics', 
+            'bcwebshop', 
             'ezwebin' 
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
