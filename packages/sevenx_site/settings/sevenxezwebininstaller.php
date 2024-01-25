@@ -1606,7 +1606,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             ) 
         );
         include_once ('lib/ezutils/classes/ezsys.php');
-        // Make sure anonymous can only login to use side
+        // Make sure anonymous can only login to user side
         $roles[] = array( 
             'name' => 'Anonymous', 
             'policies' => array( 
@@ -1615,7 +1615,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                     'function' => 'login', 
                     'limitation' => array( 
                         'SiteAccess' => array( 
-                            eZSys::ezcrc32( $this->setting( 'user_siteaccess' ) ) 
+//                            eZSys::ezcrc32( $this->setting( 'user_siteaccess' ) )
+                            $this->setting( 'user_siteaccess' ) 
                         ) 
                     ) 
                 ) 
