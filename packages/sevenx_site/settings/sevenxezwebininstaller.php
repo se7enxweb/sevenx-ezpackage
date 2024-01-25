@@ -105,8 +105,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         // extra siteaccess based on languages info, like 'eng', 'rus', ...
         $this->addSetting( 'language_based_siteaccess_list', $this->languageNameListFromLocaleList( $this->setting( 'locales' ) ) );
         $this->addSetting( 'user_siteaccess_list', array_merge( array( 
-            $this->setting( 'user_siteaccess' ) 
-        ), $this->setting( 'language_based_siteaccess_list' ) ) );
+            $this->setting( 'user_siteaccess' )
+        ), array() ) );
+        //), $this->setting( 'language_based_siteaccess_list' ) ) );
         $this->addSetting( 'all_siteaccess_list', array_merge( $this->setting( 'user_siteaccess_list' ), array( 
             $this->setting( 'admin_siteaccess' ) 
         ) ) );
@@ -132,18 +133,20 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 'access_type_value' => $this->setting( 'access_type_value' ), 
                 'host' => $this->setting( 'host' ), 
                 'host_prepend_siteaccess' => false 
-            ) ), 
+            ) )
+/* , 
             'translation' => $this->createSiteaccessUrls( array( 
                 'siteaccess_list' => $this->setting( 'language_based_siteaccess_list' ), 
                 'access_type' => $this->setting( 'access_type' ), 
-                'access_type_value' => (int)$this->setting( 'access_type_value' ) + 1,  // 'access_type_value' is for 'ezwein_site_user', so take next port number.
+                'access_type_value' => (int)$this->setting( 'access_type_value' ) + 1,  // 'access_type_value' is for 'ezwebin_site_user', so take next port number.
                 'host' => $this->setting( 'host' ), 
                 'exclude_port_list' => array( 
                     $this->setting( 'admin_access_type_value' ), 
                     $this->setting( 'access_type_value' ) 
                 ) 
             ) ) 
-        );
+*/
+            );
         $this->addSetting( 'siteaccess_urls', $siteaccessUrls );
         $this->addSetting( 'primary_language', eZSiteInstaller::getParam( $parameters, 'all_language_codes/0', '' ) );
         $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/' . $this->setting( 'user_siteaccess' ) ) );
@@ -2148,7 +2151,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         );
         $settings['SiteSettings'] = array( 
             'SiteList' => $this->setting( 'all_siteaccess_list' ), 
-            'DefaultAccess' => $this->languageNameFromLocale( $this->setting( 'primary_language' ) ), 
+            // 'DefaultAccess' => $this->languageNameFromLocale( $this->setting( 'primary_language' ) ),
+            'DefaultAccess' => $this->setting( 'user_siteaccess' ), 
             'RootNodeDepth' => 1 
         );
         $settings['ExtensionSettings'] = array( 
