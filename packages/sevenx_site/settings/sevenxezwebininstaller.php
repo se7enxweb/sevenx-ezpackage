@@ -249,7 +249,16 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                             'function' => 'buy', 
                             'limitation' => array( 
                             ) 
-                        ),
+                        ), 
+                        array( 
+                            'module' => 'ezjscore', 
+                            'function' => 'call', 
+                            'limitation' => array( 
+                                'FunctionList' => array( 
+                                    array( 'ezstarrating_rate', 'ezstarrating_user_has_rated' )
+                                )
+                            ) 
+                        ), 
                         array( 
                             'module' => 'content', 
                             'function' => 'read', 
@@ -289,6 +298,12 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
                                             'identifier' => 'quicktime' 
+                                        ) 
+                                    ),
+                                    array( 
+                                        '_function' => 'classIDbyIdentifier', 
+                                        '_params' => array( 
+                                            'identifier' => 'video' 
                                         ) 
                                     ) 
                                 ), 
