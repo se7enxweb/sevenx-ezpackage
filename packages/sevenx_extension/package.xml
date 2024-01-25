@@ -36,6 +36,9 @@
     <item type="ezextension"
           filename="extension-ezwebin"
           sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-bcwebshop"
+          sub-directory="ezextension" />
       <item type="ezextension"
           filename="extension-sevenx-themes-simple"
           sub-directory="ezextension" />
@@ -43,6 +46,9 @@
   <uninstall>
     <item type="ezextension"
           filename="extension-ezwebin"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-bcwebshop"
           sub-directory="ezextension" />
     <item type="ezextension"
           filename="extension-sevenx-themes-simple"
