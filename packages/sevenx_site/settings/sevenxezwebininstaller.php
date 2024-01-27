@@ -89,7 +89,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'ezgmaplocation', 
             strtolower( $this->solutionExtensionName() ), 
             'ezpaypal', 
-            'owsimpleoperatator', 
+            'owsimpleoperator', 
             'bcgooglesitemaps', 
             'bcwebsitestatistics', 
             'bcwebshop', 
