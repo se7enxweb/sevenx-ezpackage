@@ -790,7 +790,7 @@ form h4 + div {
 }
 
 textarea,
-input:not([type="checkbox"], [type="radio"]) {
+input:not([type="checkbox"], [type="radio"], [type="image"]) {
   --7x-outline-opacity: 0;
   --7x-border-opacity: 0.25;
 
@@ -1089,6 +1089,11 @@ div.split div.three-center {
 }
 div.content-view-full div.class-frontpage div.columns-frontpage {
   padding: unset;
+}
+
+body.floating-wt div#ezwt {
+  top: 6rem;
+  z-index: unset;
 }
 /*========== existing styles: END ==========*/
 
