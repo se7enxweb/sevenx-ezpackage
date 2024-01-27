@@ -85,12 +85,11 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         $this->addSetting( 'main_site_design', strtolower( $this->solutionName() ) );
         $this->addSetting( 'extension_list', array( 
             'ezwt', 
-            'ezmultiupload', 
             'ezstarrating', 
             'ezgmaplocation', 
             strtolower( $this->solutionExtensionName() ), 
             'ezpaypal', 
-            'owsimpleopertator', 
+            'owsimpleoperatator', 
             'bcgooglesitemaps', 
             'bcwebsitestatistics', 
             'bcwebshop', 
