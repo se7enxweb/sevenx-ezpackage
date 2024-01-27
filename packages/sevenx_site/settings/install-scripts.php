@@ -38,7 +38,7 @@ This get called by ezstep_create_sites.php
 */
 function eZSitePreInstall( )
 {
-    $installer = new SevenxeZWebinInstaller( array( 'var_dir' => 'var/ezwebin_site' ) );
+    $installer = new SevenxeZWebinInstaller( array( 'var_dir' => 'var/site' ) );
 
     $installer->preInstall();
 }
