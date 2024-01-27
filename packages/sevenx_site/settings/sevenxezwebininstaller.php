@@ -28,7 +28,7 @@
 
 class SevenxeZWebinInstaller extends eZSiteInstaller
 {
-    const MAJOR_VERSION = 1.6;
+    const MAJOR_VERSION = 1.0;
     const MINOR_VERSION = 0;
 
     function __construct( $parameters = false )
@@ -93,7 +93,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'bcgooglesitemaps', 
             'bcwebsitestatistics', 
             'bcwebshop', 
-            'ezwebin' 
+            'ezwebin', 
+            'ezmultiupload' 
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
