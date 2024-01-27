@@ -10,6 +10,7 @@ DesignExtensions[]=sevenx-themes-simple
 #CSSFileList[]=site-colors.css
 #CSSFileList[]=project.css
 CSSFileList[]=libs/fontawesome/css/all.min.css
+CSSFileList[]=websitetoolbar.css
 #CSSFileList[]=libs/splide/css/splide.min.css
 CSSFileList[]=main.css
 CSSFileList[]=main.res.css
