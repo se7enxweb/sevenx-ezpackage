@@ -8,11 +8,11 @@
  * @package sevenx-themes-simple
  */
 
-class sevenx-themes-simpleInfo
+class sevenxthemessimpleInfo
 {
     public static function info()
     {
-        return array( 'Name' => "<a href='https://github.com/se7enxweb/sevenx-themes-simple">7x Themes : Simple</a>",
+        return array( 'Name' => "<a href='https://github.com/se7enxweb/sevenx-themes-simple'>7x Themes : Simple</a>",
                       'Version' => "1.0.1",
                       'Copyright' => "Copyright (C) 1999 - 2024 <a href='https://se7enx.com' title='7x'>Brookins Consulting</a>",
                       'License' => "GNU General Public License v2.0 (or later)",

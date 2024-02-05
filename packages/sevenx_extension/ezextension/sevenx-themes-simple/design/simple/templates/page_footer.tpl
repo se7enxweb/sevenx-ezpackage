@@ -21,7 +21,8 @@
         {/if}
       </div>
 *}
-        <div class="hosting-sponsor">
+{*
+      <div class="hosting-sponsor">
           Proudly hosted by
           <br />
           <a href="http://se7enx.com" title="se7enx.com">se7enx.com</a>
@@ -30,5 +31,6 @@
             <img src={'bc-icon.png'|ezimage} alt="Se7enx" border="0" width="65" height="65" style="position:relative;top:3px;padding-right:1px;" />
           </a>
         </div>
+*}
     </div>
 </footer>

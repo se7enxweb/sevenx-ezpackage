@@ -63,7 +63,6 @@ body {
   color: rgba(var(--7x-very-dark-blue) / var(--7x-text-opacity));
   overflow-x: hidden;
   background-color: var(--7x-white);
-  /* background-image: url(/extension/aaronschlosberg/design/aaronschlosberg/images/background.png); */
   background: linear-gradient(115deg, #e20303, #9c0606);
 }
 
