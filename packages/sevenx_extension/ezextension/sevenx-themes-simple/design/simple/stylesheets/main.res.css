@@ -1,7 +1,7 @@
 @media only screen and (min-width: 430px) {
   /*========== common styles: START ==========*/
   /*========== common styles: END ==========*/
-  
+
   /*========== existing styles: START ==========*/
   /*========== existing styles: END ==========*/
 }
@@ -87,7 +87,8 @@
     grid-template-columns: 1fr 320px;
   }
 
-  table td, table th {
+  table td,
+  table th {
     display: revert;
     word-break: unset;
   }
@@ -112,12 +113,12 @@
     align-items: center;
   }
 
-  .navbar-brand > img {
-    width: 32rem;
+  .navbar-brand {
+    margin-left: -1.25rem;
   }
 
-  .header-main.sticky .navbar-brand > img {
-    width: 26rem;
+  .navbar-brand > img {
+    width: 18rem;
   }
 
   .navbar-toggle {
@@ -151,7 +152,7 @@
     border: 0;
     padding: 1.5rem 0.75rem;
   }
-  
+
   .nav-link,
   .dropdown-button a {
     white-space: nowrap;
@@ -234,9 +235,9 @@
   }
 
   i.fa-solid.fa-cart-shopping {
-      position: relative;
-      right: 0.8rem;
-      top: -2.7rem;
+    position: relative;
+    right: 0.8rem;
+    top: -2.7rem;
   }
   /*========== header: END ==========*/
 
@@ -246,7 +247,7 @@
   }
 
   .main-sections {
-     padding-top: 8.2rem;
+    padding-top: 8.2rem;
   }
 
   /*========== existing styles: End ==========*/
@@ -274,7 +275,7 @@
   /*========== header: START ==========*/
   .nav-link,
   .dropdown-button,
-  :not(.dropdown) .nav-link  {
+  :not(.dropdown) .nav-link {
     padding: 1.5rem 1rem;
   }
   /*========== header: END ==========*/
