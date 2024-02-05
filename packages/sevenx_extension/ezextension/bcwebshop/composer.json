@@ -1,0 +1,30 @@
+{
+    "name": "se7enxweb/bcwebshop",
+    "description": "eZ Publish Legacy extension which provides a simple solution for extending thet default eZ Publish Web Shop within an well developed extension. Great for smart developers!",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "shop", "webshop", "store", "extension", "usa", "north-america" ],
+    "homepage": "https://github.com/se7enxweb/bcwebshop",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name" : "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Developer"
+        },
+        {
+            "name" : "Brookins Consulting",
+            "homepage": "http://brookinsconsulting.com",
+            "email": "info@brookinsconsulting.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "se7enxweb/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "bcwebshop"
+    }
+}
