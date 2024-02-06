@@ -35,8 +35,8 @@
                              xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                              xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                         <paragraph><link target="_blank" xhtml:id="internal-source-marker_0.15448186383582652"
-                                         href="http://share.ez.no/forums">Forums</link>,&amp;nbsp;<link target="_blank"
-                                                                                                        href="http://share.ez.no/blogs">
+                                         href="https://share.se7enx.com/forums">Forums</link>,&amp;nbsp;<link target="_blank"
+                                                                                                        href="https://share.se7enx.com/blogs">
                             Blogs</link>,&amp;nbsp;<link target="_blank" href="http://twitter.com/ezcommunity">
                             Twitter</link>,&amp;nbsp;
                             <link target="_blank" href="http://www.linkedin.com/groups?gid=2759">LinkedIn</link>
@@ -50,10 +50,10 @@
                              xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                              xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                         <paragraph>[<link target="_self" anchor_name="contact"
-                                          href="http://share.ez.no/about/get-involved">contact</link>] [<link
-                                target="_self" anchor_name="share" href="http://share.ez.no/about/get-involved">
+                                          href="https://share.se7enx.com/about/get-involved">contact</link>] [<link
+                                target="_self" anchor_name="share" href="https://share.se7enx.com/about/get-involved">
                             share</link>] [<link target="_self" anchor_name="develop"
-                                                 href="http://share.ez.no/about/get-involved">develop</link>]
+                                                 href="https://share.se7enx.com/about/get-involved">develop</link>]
                         </paragraph>
                         <paragraph>If you want to get involved in the eZ Community's life, help, be helped, share and
                             participate, this page is for you. It gives you a list of hints and tricks on how to
@@ -61,7 +61,7 @@
                         </paragraph>
                         <paragraph>Make sure you also read the&amp;nbsp;
                             <link target="_self"
-                                  href="http://share.ez.no/about/etiquette-blogging-and-usage-guidelines">Etiquette,
+                                  href="https://share.se7enx.com/about/etiquette-blogging-and-usage-guidelines">Etiquette,
                                 blogging and usage guidelines
                             </link>
                         </paragraph>
@@ -120,8 +120,8 @@
                                             <header>Forums</header>
                                             <paragraph>From&amp;nbsp;<link target="_self"
                                                                            xhtml:title="eZ Community forums"
-                                                                           href="http://share.ez.no/forums">
-                                                http://share.ez.no/forums</link>, you can pick one of the existing
+                                                                           href="https://share.se7enx.com/forums">
+                                                https://share.se7enx.com/forums</link>, you can pick one of the existing
                                                 forums and ask a question, make a remark, answers others' questions, or
                                                 simply read through, looking for a bit of information. The following
                                                 forums are available:
@@ -132,20 +132,20 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/install-configuration">
+                                                                  href="https://share.se7enx.com/forums/install-configuration">
                                                                 Install &amp; configuration</link>&amp;nbsp;(<link
                                                                 target="_self" anchor_name="RSS"
-                                                                href="http://share.ez.no/about/get-involved">rss</link>)
+                                                                href="https://share.se7enx.com/about/get-involved">rss</link>)
                                                         </paragraph>
                                                     </li>
                                                     <li>
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/setup-design">Setup
+                                                                  href="https://share.se7enx.com/forums/setup-design">Setup
                                                                 &amp; design</link>&amp;nbsp;(<link target="_self"
                                                                                                     anchor_name="RSS"
-                                                                                                    href="http://share.ez.no/about/get-involved">
+                                                                                                    href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -153,10 +153,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/general">
+                                                                  href="https://share.se7enx.com/forums/general">
                                                                 General</link>&amp;nbsp;(<link target="_self"
                                                                                                anchor_name="RSS"
-                                                                                               href="http://share.ez.no/about/get-involved">
+                                                                                               href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -164,10 +164,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/developer">
+                                                                  href="https://share.se7enx.com/forums/developer">
                                                                 Developer</link>&amp;nbsp;(<link target="_self"
                                                                                                  anchor_name="RSS"
-                                                                                                 href="http://share.ez.no/about/get-involved">
+                                                                                                 href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -175,10 +175,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/suggestions">
+                                                                  href="https://share.se7enx.com/forums/suggestions">
                                                                 Suggestions</link>&amp;nbsp;(<link target="_self"
                                                                                                    anchor_name="RSS"
-                                                                                                   href="http://share.ez.no/about/get-involved">
+                                                                                                   href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -186,10 +186,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/extensions">
+                                                                  href="https://share.se7enx.com/forums/extensions">
                                                                 Extensions</link>&amp;nbsp;(<link target="_self"
                                                                                                   anchor_name="RSS"
-                                                                                                  href="http://share.ez.no/about/get-involved">
+                                                                                                  href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -204,10 +204,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/extensions/ez-newsletter">
+                                                                  href="https://share.se7enx.com/forums/extensions/ez-newsletter">
                                                                 eZ Newsletter</link>&amp;nbsp;(<link target="_self"
                                                                                                      anchor_name="RSS"
-                                                                                                     href="http://share.ez.no/about/get-involved">
+                                                                                                     href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -215,10 +215,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/extensions/website-interface">
+                                                                  href="https://share.se7enx.com/forums/extensions/website-interface">
                                                                 Website Interface</link>&amp;nbsp;(<link target="_self"
                                                                                                          anchor_name="RSS"
-                                                                                                         href="http://share.ez.no/about/get-involved">
+                                                                                                         href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -226,10 +226,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/extensions/ez-flow">eZ
+                                                                  href="https://share.se7enx.com/forums/extensions/ez-flow">eZ
                                                                 Flow</link>&amp;nbsp;(<link target="_self"
                                                                                             anchor_name="RSS"
-                                                                                            href="http://share.ez.no/about/get-involved">
+                                                                                            href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -237,10 +237,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/extensions/ez-find">eZ
+                                                                  href="https://share.se7enx.com/forums/extensions/ez-find">eZ
                                                                 Find</link>&amp;nbsp;(<link target="_self"
                                                                                             anchor_name="RSS"
-                                                                                            href="http://share.ez.no/about/get-involved">
+                                                                                            href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -256,10 +256,10 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
                                                                   xhtml:title="Forum dedicated to translators"
-                                                                  href="http://share.ez.no/forums/translation">
+                                                                  href="https://share.se7enx.com/forums/translation">
                                                                 Translations</link>&amp;nbsp;(<link target="_self"
                                                                                                     anchor_name="RSS"
-                                                                                                    href="http://share.ez.no/about/get-involved">
+                                                                                                    href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -275,10 +275,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self" xhtml:title="Localized forums"
-                                                                  href="http://share.ez.no/forums/localized-forums">
+                                                                  href="https://share.se7enx.com/forums/localized-forums">
                                                                 Localized forums</link>&amp;nbsp;(<link target="_self"
                                                                                                         anchor_name="RSS"
-                                                                                                        href="http://share.ez.no/about/get-involved">
+                                                                                                        href="https://share.se7enx.com/about/get-involved">
                                                             rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -291,10 +291,10 @@
                                                         <paragraph
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/forums/feedback-and-ideas-for-this-portal">
+                                                                  href="https://share.se7enx.com/forums/feedback-and-ideas-for-this-portal">
                                                                 Feedback and ideas for this portal</link>&amp;nbsp;(
                                                             <link target="_self" anchor_name="RSS"
-                                                                  href="http://share.ez.no/about/get-involved">
+                                                                  href="https://share.se7enx.com/about/get-involved">
                                                                 rss</link>)
                                                         </paragraph>
                                                     </li>
@@ -303,7 +303,7 @@
                                             <paragraph>It is often used in conjunction with the&amp;nbsp;<link
                                                     target="_blank" xhtml:title="Issue tracker for the Community Portal"
                                                     href="http://issues.ez.no/ProjectSelect.php?Id=6">
-                                                share.ez.no-dedicated issue tracker</link>&amp;nbsp;(not to be confused
+                                                share.se7enx.com-dedicated issue tracker</link>&amp;nbsp;(not to be confused
                                                 with the&amp;nbsp;<link target="_blank"
                                                                         xhtml:title="General eZ Publish issue tracker"
                                                                         href="http://issues.ez.no/ProjectSelect.php?Id=3">
@@ -323,15 +323,15 @@
                                             <header>Your experience through an article or tutorial</header>
                                             <paragraph>The&amp;nbsp;<link target="_self"
                                                                           xhtml:title="eZ Community Articles"
-                                                                          href="http://share.ez.no/articles">
+                                                                          href="https://share.se7enx.com/articles">
                                                 Articles</link>&amp;nbsp;and&amp;nbsp;<link target="_self"
                                                                                             xhtml:title="eZ Community Tutorials"
-                                                                                            href="http://share.ez.no/tutorials">
+                                                                                            href="https://share.se7enx.com/tutorials">
                                                 Tutorials</link>&amp;nbsp;sections are gold mines of useful, practical
                                                 information on eZ Publish and eZ Software usage. You may be willing to
                                                 contribute to growing the amount of common gold by sharing one of your
                                                 experiences, right here. Read more on this here :<link target="_self"
-                                                                                                       href="http://share.ez.no/blogs/share.ez.no-team/share-your-experience-write-a-tutorial-for-the-community">
+                                                                                                       href="https://share.se7enx.com/blogs/share.se7enx.com-team/share-your-experience-write-a-tutorial-for-the-community">
                                                     Share your experience, write a tutorial for the Community</link>.
                                             </paragraph>
                                             <paragraph>
@@ -506,8 +506,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             All forums (topics &amp; replies):&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/all_forums">
-                                                                http://share.ez.no/rss/feed/all_forums
+                                                                  href="https://share.se7enx.com/rss/feed/all_forums">
+                                                                https://share.se7enx.com/rss/feed/all_forums
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -517,8 +517,8 @@
                                                             Forum topics ONLY :&amp;nbsp;
                                                             <link target="_self"
                                                                   xhtml:title="RSS feed for forum topics ONLY"
-                                                                  href="http://share.ez.no/rss/feed/forum_topics_only">
-                                                                http://share.ez.no/rss/feed/forum_topics_only
+                                                                  href="https://share.se7enx.com/rss/feed/forum_topics_only">
+                                                                https://share.se7enx.com/rss/feed/forum_topics_only
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -527,8 +527,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Articles and Tutorials :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/articles">
-                                                                http://share.ez.no/rss/feed/articles
+                                                                  href="https://share.se7enx.com/rss/feed/articles">
+                                                                https://share.se7enx.com/rss/feed/articles
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -537,8 +537,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Blogs :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/blogs">
-                                                                http://share.ez.no/rss/feed/blogs
+                                                                  href="https://share.se7enx.com/rss/feed/blogs">
+                                                                https://share.se7enx.com/rss/feed/blogs
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -547,8 +547,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; Developer :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/forums_developer">
-                                                                http://share.ez.no/rss/feed/forums_developer
+                                                                  href="https://share.se7enx.com/rss/feed/forums_developer">
+                                                                https://share.se7enx.com/rss/feed/forums_developer
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -557,8 +557,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; Discussions :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/forums_discussions">
-                                                                http://share.ez.no/rss/feed/forums_discussions
+                                                                  href="https://share.se7enx.com/rss/feed/forums_discussions">
+                                                                https://share.se7enx.com/rss/feed/forums_discussions
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -567,8 +567,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; Extensions :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/forums_extensions">
-                                                                http://share.ez.no/rss/feed/forums_extensions
+                                                                  href="https://share.se7enx.com/rss/feed/forums_extensions">
+                                                                https://share.se7enx.com/rss/feed/forums_extensions
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -577,8 +577,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; Feedback :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/forums_feedback">
-                                                                http://share.ez.no/rss/feed/forums_feedback
+                                                                  href="https://share.se7enx.com/rss/feed/forums_feedback">
+                                                                https://share.se7enx.com/rss/feed/forums_feedback
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -587,8 +587,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; General :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/forums_general">
-                                                                http://share.ez.no/rss/feed/forums_general
+                                                                  href="https://share.se7enx.com/rss/feed/forums_general">
+                                                                https://share.se7enx.com/rss/feed/forums_general
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -597,8 +597,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; Install and Configuration :
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/forums_install_and_configuration">
-                                                                http://share.ez.no/rss/feed/forums_install_and_configuration
+                                                                  href="https://share.se7enx.com/rss/feed/forums_install_and_configuration">
+                                                                https://share.se7enx.com/rss/feed/forums_install_and_configuration
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -607,8 +607,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; Setup and Design :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/forums_setup_and_design">
-                                                                http://share.ez.no/rss/feed/forums_setup_and_design
+                                                                  href="https://share.se7enx.com/rss/feed/forums_setup_and_design">
+                                                                https://share.se7enx.com/rss/feed/forums_setup_and_design
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -617,8 +617,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; Suggestions :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/forums_suggestions">
-                                                                http://share.ez.no/rss/feed/forums_suggestions
+                                                                  href="https://share.se7enx.com/rss/feed/forums_suggestions">
+                                                                https://share.se7enx.com/rss/feed/forums_suggestions
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -627,8 +627,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Forums &gt; Translation :&amp;nbsp;
                                                             <link target="_self" xhtml:title="Translation related forum"
-                                                                  href="http://share.ez.no/rss/feed/forums_translation">
-                                                                http://share.ez.no/rss/feed/forums_translation
+                                                                  href="https://share.se7enx.com/rss/feed/forums_translation">
+                                                                https://share.se7enx.com/rss/feed/forums_translation
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -637,8 +637,8 @@
                                                                 xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                             Projects :&amp;nbsp;
                                                             <link target="_self"
-                                                                  href="http://share.ez.no/rss/feed/projects">
-                                                                http://share.ez.no/rss/feed/projects
+                                                                  href="https://share.se7enx.com/rss/feed/projects">
+                                                                https://share.se7enx.com/rss/feed/projects
                                                             </link>
                                                         </paragraph>
                                                     </li>
@@ -676,13 +676,13 @@
                                                 them is to search, from Google Wave, the following: "with:public
                                                 ezpublish". So come by and wave on with us. In case you need an
                                                 invitation, drop a word here :<link target="_self"
-                                                                                    href="http://share.ez.no/forums/general/ez-publish-on-google-wave">
-                                                    http://share.ez.no/forums/general/ez-publish-on-google-wave</link>.
+                                                                                    href="https://share.se7enx.com/forums/general/ez-publish-on-google-wave">
+                                                    https://share.se7enx.com/forums/general/ez-publish-on-google-wave</link>.
                                             </paragraph>
                                             <paragraph><anchor name="develop"/>[<link target="_self"
                                                                                       xhtml:title="Back to top"
                                                                                       anchor_name="top"
-                                                                                      href="http://share.ez.no/about/get-involved">
+                                                                                      href="https://share.se7enx.com/about/get-involved">
                                                 back to top</link>]
                                             </paragraph>
                                             <paragraph>
@@ -721,7 +721,7 @@
                                                                                    xhtml:title="eZ Community projects"
                                                                                    href="http://projects.ez.no/">
                                                     http://projects.ez.no</link>&amp;nbsp;and open-source it there. You
-                                                can log in with your ez.no account (the same as your share.ez.no
+                                                can log in with your ez.no account (the same as your share.se7enx.com
                                                 account), and create a new project there. You may want to first check
                                                 that no similar extension already exists, in which case you would
                                                 probably prefer joining the existing team and tell about your ideas,
@@ -843,7 +843,7 @@
                                                 checking out the trunk version of it. It is hosted on a Github server.
                                                 All you need is to visit&amp;nbsp;<link target="_blank"
                                                                                         xhtml:title="eZ Publish Community Project's github repository"
-                                                                                        href="http://share.ez.no/github.com/ezsystems/ezpublish">
+                                                                                        href="https://share.se7enx.com/github.com/ezsystems/ezpublish">
                                                     eZ Publish Community Project's github repository</link>, and enjoy
                                                 :)
                                             </paragraph>
