@@ -265,17 +265,18 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                                         '_function' => 'classIDbyIdentifier', 
                                         '_params' => array( 
                                             'identifier' => 'comment' 
-                                        ) 
-                                    ),
-                               'Section' => array(
+                                        )
+                                    )
+                                ), 
+                               'Section' => array( 
                                     '_function' => 'sectionIDbyName', 
                                     '_params' => array( 
                                         'section_name' => 'Standard' 
                                     ) 
-                               ),
+                               ), 
                                'Language' => array( 
-                                          'English (American)'
-                                    )
+                                          'English (American)' 
+                               ) 
                             ) 
                         ), 
                         array( 
