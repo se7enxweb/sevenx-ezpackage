@@ -154,7 +154,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             );
         $this->addSetting( 'siteaccess_urls', $siteaccessUrls );
         $this->addSetting( 'primary_language', eZSiteInstaller::getParam( $parameters, 'all_language_codes/0', '' ) );
-//        $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/' . $this->setting( 'user_siteaccess' ) ) );
+        // $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/' . $this->setting( 'user_siteaccess' ) ) );
         $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/site' ) );
     }
 
@@ -254,6 +254,28 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                             'module' => 'shop', 
                             'function' => 'buy', 
                             'limitation' => array( 
+                            ) 
+                        ), 
+                        array( 
+                            'module' => 'content', 
+                            'function' => 'create', 
+                            'limitation' => array(
+                               'Class' => array( 
+                                    array( 
+                                        '_function' => 'classIDbyIdentifier', 
+                                        '_params' => array( 
+                                            'identifier' => 'comment' 
+                                        ) 
+                                    ),
+                               'Section' => array(
+                                    '_function' => 'sectionIDbyName', 
+                                    '_params' => array( 
+                                        'section_name' => 'Standard' 
+                                    ) 
+                               ),
+                               'Language' => array( 
+                                          'English (American)'
+                                    )
                             ) 
                         ), 
                         array( 
