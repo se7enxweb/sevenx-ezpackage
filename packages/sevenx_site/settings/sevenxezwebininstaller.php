@@ -275,7 +275,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                                     ) 
                                ), 
                                'Language' => array( 
-                                          'English (American)' 
+                                          'eng-US' 
                                ) 
                             ) 
                         ), 
