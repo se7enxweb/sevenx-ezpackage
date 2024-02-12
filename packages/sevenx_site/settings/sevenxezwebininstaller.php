@@ -1365,7 +1365,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         // need to set siteaccess to have correct placement(VarDir) for files in SetupWizard
         $ini = eZINI::instance();
         // $this->setting( 'var_dir' ) );
-        $ini->setVariable( 'FileSettings', 'VarDir', 'var/site' ) );
+        $ini->setVariable( 'FileSettings', 'VarDir', 'var/site' );
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezstarrating';
