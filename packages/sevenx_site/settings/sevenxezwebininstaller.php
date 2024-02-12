@@ -108,7 +108,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         // usual admin siteaccess like 'ezwebin_site_admin'
         $this->addSetting( 'admin_siteaccess', eZSiteInstaller::getParam( $parameters, 'admin_siteaccess', '' ) );
         // extra siteaccess based on languages info, like 'eng', 'rus', ...
-        $this->addSetting( 'language_based_siteaccess_list', $this->languageNameListFromLocaleList( $this->setting( 'locales' ) ) );
+        // $this->addSetting( 'language_based_siteaccess_list', $this->languageNameListFromLocaleList( $this->setting( 'locales' ) ) );
         $this->addSetting( 'user_siteaccess_list', array_merge( array( 
             $this->setting( 'user_siteaccess' )
         ), array() ) );
@@ -1364,7 +1364,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         // hack for images/binaryfiles
         // need to set siteaccess to have correct placement(VarDir) for files in SetupWizard
         $ini = eZINI::instance();
-        $ini->setVariable( 'FileSettings', 'VarDir', $this->setting( 'var_dir' ) );
+        // $this->setting( 'var_dir' ) );
+        $ini->setVariable( 'FileSettings', 'VarDir', 'var/site' ) );
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezstarrating';
