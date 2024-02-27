@@ -52,11 +52,13 @@
            {attribute_view_gui attribute=$node.object.data_map.short_description}
         </div>
 
+        {if $node.data_map.product_size.has_content}
         <div class="attribute-product_size">
           <p>
-           Size: {attribute_view_gui attribute=$node.object.data_map.product_size} Seeds
+           Size: {attribute_view_gui attribute=$node.object.data_map.product_size}
           </p>
         </div>
+        {/if}
 
         <div class="attribute-price">
           <p>
