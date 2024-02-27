@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="6.0-0" development="false" install_type="install">
   <name>sevenx_democontent</name>
-  <summary>Products, Solutions, Training, Support, Getting started, eZ Publish Enterprise, Partners, Community,
-    Company
+  <summary>Products, Solutions, Training, Support, Getting started, eZ Publish 6, Partners, Company
   </summary>
   <description>This package contains the following nodes :&#13;
     Products - subtree&#13;
@@ -10,9 +9,8 @@
     Training - subtree&#13;
     Support - subtree&#13;
     Getting started - subtree&#13;
-    eZ Publish Enterprise - subtree&#13;
+    eZ Publish 6 - subtree&#13;
     Partners - subtree&#13;
-    Community - subtree&#13;
     Company - subtree&#13;
   </description>
   <vendor>7x</vendor>
