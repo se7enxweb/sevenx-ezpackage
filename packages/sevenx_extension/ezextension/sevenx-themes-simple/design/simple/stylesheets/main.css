@@ -201,6 +201,13 @@ table tbody tr:last-of-type td {
   padding-top: 5.5rem;
 }
 
+.attribute-billboard img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden !important;
 }
