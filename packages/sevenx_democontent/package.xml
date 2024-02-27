@@ -114,77 +114,12 @@
     <simple-file key="84494d23e2d5fd360df29579d8c7cb7a" original-path="var/site/storage/images/company/contact/morbi-neque/1226-1-eng-US/Morbi-neque.jpg" package-path="simplefiles/ce2260da.jpg"/>
     <simple-file key="2b3255cdcfb964ff8f49fe051131ef4e" original-path="var/site/storage/images/company/company-banner/1232-1-eng-US/Company-banner.jpg" package-path="simplefiles/f62ebb75.jpg"/>
     <simple-file key="7406466dd0075bb53d8d055a8998e7a2"
-           original-path="var/ezwebin_site/storage/images/media/images/rest_api/251-1-eng-GB/rest_api.png"
+           original-path="var/ezwebin_site/storage/images/media/images/rest_api/251-1-eng-US/rest_api.png"
            package-path="simplefiles/7ddd3112.png"/>
   </simple-files>
   <version>
     <number>6.0</number>
     <release>0-alpha1</release>
-  </version>
-  <licence>GPL</licence>
-  <state>stable</state>
-  <dependencies>
-    <provides/>
-    <requires/>
-    <obsoletes/>
-    <conflicts/>
-  </dependencies>
-  <install>
-    <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject"/>
-  </install>
-  <uninstall>
-    <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject"/>
-  </uninstall>
-</package>
-
-
-
-
-
-
-<?xml version="1.0" encoding="utf-8"?>
-<package version="3.5.2" development="false" install_type="install">
-  <name>products_solutions_training_support_getting_started_ez_publish_6_partners_company</name>
-  <summary>Products, Solutions, Training, Support, Getting started, eZ Publish 6, Partners, Company</summary>
-  <description>This package contains the following nodes :&#13;
-Products - subtree&#13;
-Solutions - subtree&#13;
-Training - subtree&#13;
-Support - subtree&#13;
-Getting started - subtree&#13;
-eZ Publish 6 - subtree&#13;
-Partners - subtree&#13;
-Company - subtree&#13;
-</description>
-  <type value="contentobject"/>
-  <ezpublish>
-    <version>6.0.2stable</version>
-    <named-version>6.0stable</named-version>
-  </ezpublish>
-  <maintainers>
-    <maintainer>
-      <name>Administrator User</name>
-      <email>info@se7enx.com</email>
-      <role>lead</role>
-    </maintainer>
-  </maintainers>
-  <packaging>
-    <timestamp>1709007608</timestamp>
-    <host>admin.alpha.se7enx.com</host>
-  </packaging>
-  <documents>
-    <document mime-type="text/plain" name="LICENCE"/>
-  </documents>
-  <changelog>
-    <entry timestamp="1709007608" person="Administrator User" email="info@se7enx.com" release="1">
-      <change>Creation of package.</change>
-    </entry>
-  </changelog>
-  <simple-files>
-  </simple-files>
-  <version>
-    <number>1.0</number>
-    <release>1</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
