@@ -7,14 +7,14 @@
   <object-name-pattern>&lt;name&gt;</object-name-pattern>
   <url-alias-pattern></url-alias-pattern>
   <remote>
-    <site-url>http://localhost/~ls/ezdemo_dev/index.php/</site-url>
-    <url>http://localhost/~ls/ezdemo_dev/index.php/class/view/36</url>
+    <site-url>http://alpha.se7enx.com/</site-url>
+    <url>http://alpha.se7enx.com/class/view/45</url>
     <groups>
       <group id="3" name="Media"/>
     </groups>
-    <id>36</id>
-    <created>1332426596</created>
-    <modified>1332490869</modified>
+    <id>45</id>
+    <created>1707722630</created>
+    <modified>1709005503</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -27,7 +27,7 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>272</id>
+        <id>329</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>name</identifier>
@@ -40,43 +40,44 @@
         <default-string/>
       </datatype-parameters>
     </attribute>
+    <attribute datatype="ezmedia" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>346</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"File";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>file</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+        <type>html5_video</type>
+      </datatype-parameters>
+    </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>273</id>
+        <id>330</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Caption";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>caption</identifier>
       <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>2</placement>
+      <placement>3</placement>
       <datatype-parameters>
         <text-column-count>10</text-column-count>
       </datatype-parameters>
     </attribute>
-    <attribute datatype="ezbinaryfile" required="false" searchable="true" information-collector="false" translatable="true">
-      <remote>
-        <id>274</id>
-      </remote>
-      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"File";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
-      <identifier>file</identifier>
-      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
-      <category></category>
-      <serialized-data-text>a:0:{}</serialized-data-text>
-      <placement>3</placement>
-      <datatype-parameters>
-        <max-size unit-size="mega">0</max-size>
-      </datatype-parameters>
-    </attribute>
     <attribute datatype="ezsrrating" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>298</id>
+        <id>332</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Star Rating";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>star_rating</identifier>
       <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category></category>
-      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>4</placement>
       <datatype-parameters/>
     </attribute>
