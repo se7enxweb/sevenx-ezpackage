@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="6.0-0" development="false" install_type="install">
   <name>sevenx_democontent</name>
-  <summary>Products, Solutions, Training, Support, Getting started, eZ Publish 6, Partners, Company
+  <summary>Home, Products, Solutions, Training, Support, Getting started, eZ Publish 6, Partners, Company
   </summary>
   <description>This package contains the following nodes :&#13;
+    Home - subtree&#13;
     Products - subtree&#13;
     Solutions - subtree&#13;
     Training - subtree&#13;
@@ -34,7 +35,7 @@
     <document mime-type="text/plain" name="LICENCE"/>
   </documents>
   <changelog>
-    <entry timestamp="1705211779" person="Administrator User" email="nospam@ez.no" release="1">
+    <entry timestamp="1705211779" person="Administrator User" email="info@se7enx.com" release="1">
       <change>Creation of package.</change>
     </entry>
   </changelog>

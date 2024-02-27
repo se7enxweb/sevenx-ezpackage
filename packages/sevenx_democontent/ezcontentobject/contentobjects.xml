@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-object>
   <object-files-list>
+    <object-file filename="object-8a9c9c761004866fb458d89910f52bee.xml"/>
     <object-file filename="object-5dba9f5125423db2eda9ba8858a38775.xml"/>
     <object-file filename="object-02d35489c12bcbff3239c3b739823678.xml"/>
     <object-file filename="object-2995f126f24a5ef2b937c63ecae2ffc0.xml"/>
@@ -150,6 +151,7 @@
     <site-access>sevenx_site_user</site-access>
   </site-access-list>
   <top-node-list>
+    <top-node node-id="2" remote-id="f3e90596361e31d496d4026eb624c983">Home</top-node>
     <top-node node-id="68" remote-id="9cec85d730eec7578190ee95ce5a36f5">Products</top-node>
     <top-node node-id="76" remote-id="dbc2f3c8716c12f32c379dbf0b1cb133">Solutions</top-node>
     <top-node node-id="85" remote-id="95f3c4261719ea27ab67f980fbee0694">Training</top-node>
