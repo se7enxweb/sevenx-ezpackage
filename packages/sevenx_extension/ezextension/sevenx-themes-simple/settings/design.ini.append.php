@@ -12,10 +12,12 @@ DesignExtensions[]=sevenx-themes-simple
 CSSFileList[]=websitetoolbar.css
 CSSFileList[]=libs/fontawesome/css/all.min.css
 #CSSFileList[]=libs/splide/css/splide.min.css
+CSSFileList[]=magnific-popup.css
 CSSFileList[]=main.css
 CSSFileList[]=main.res.css
 
 [JavaScriptSettings]
+#JavaScriptList[]=jquery/jquery-3.7.0.min.js
 #JavaScriptList[]=insertmedia.js
 #JavaScriptList[]=yui/build/yahoo-dom-event/yahoo-dom-event.js
 #JavaScriptList[]=yui/build/calendar/calendar.js

@@ -4,6 +4,7 @@
 /*========== document root: START ==========*/
 :root {
   /* colors */
+  --7x-moderate-orange: 247 130 0;
   --7x-moderate-red: 231 3 43;
   --7x-very-dark-blue: 10 58 98;
   --7x-border-color: 233 233 233;
@@ -63,7 +64,7 @@ body {
   color: rgba(var(--7x-very-dark-blue) / var(--7x-text-opacity));
   overflow-x: hidden;
   background-color: var(--7x-white);
-  background: linear-gradient(115deg, #e20303, #9c0606);
+  background: linear-gradient(115deg, #e36305, #e36305);
 }
 
 h1,
@@ -123,7 +124,7 @@ p {
 }
 
 a {
-  --7x-link-color: var(--7x-moderate-red);
+  --7x-link-color: var(--7x-moderate-orange);
 
   color: rgba(var(--7x-link-color) / var(--7x-text-opacity));
   text-decoration: none;
@@ -231,7 +232,7 @@ table tbody tr:last-of-type td {
 }
 
 .link-dark-blue:hover {
-  --7x-link-color: var(--7x-moderate-red);
+  --7x-link-color: var(--7x-moderate-orange);
 }
 
 .link-black {
@@ -239,7 +240,7 @@ table tbody tr:last-of-type td {
 }
 
 .link-black:hover {
-  --7x-link-color: var(--7x-moderate-red);
+  --7x-link-color: var(--7x-moderate-orange);
 }
 
 .line-clamp {
@@ -298,7 +299,7 @@ table tbody tr:last-of-type td {
 
 i.fa-solid.fa-cart-shopping {
   position: relative;
-  right: 0.6rem;
+  right: 3.95rem;
   top: -1.7rem;
   float: right;
 }
@@ -385,12 +386,12 @@ i.fa-solid.fa-cart-shopping {
   --7x-bg-opacity: 0;
 
   background-color: transparent;
-  border-top: 1px solid rgba(var(--7x-moderate-red) / var(--7x-border-opacity));
+  border-top: 1px solid rgba(var(--7x-moderate-orange) / var(--7x-border-opacity));
   display: flex;
   align-items: center;
   gap: 0.75rem;
   color: rgba(var(--7x-very-dark-blue) / var(--7x-text-opacity));
-  background-color: rgba(var(--7x-moderate-red) / var(--7x-bg-opacity));
+  background-color: rgba(var(--7x-moderate-orange) / var(--7x-bg-opacity));
   font-size: 1rem;
   font-weight: 500;
   transition: var(--7x-transition-md-duration);
@@ -421,7 +422,7 @@ i.fa-solid.fa-cart-shopping {
 .nav-link:hover,
 .dropdown:hover a,
 .dropdown.active a {
-  color: rgba(var(--7x-moderate-red) / var(--7x-text-opacity));
+  color: rgba(var(--7x-moderate-orange) / var(--7x-text-opacity));
 }
 
 .dropdown-button {
@@ -472,14 +473,14 @@ i.fa-solid.fa-cart-shopping {
 }
 
 .dropdown.active .dropdown-toggle::before {
-  --7x-bg-color: var(--7x-moderate-red);
+  --7x-bg-color: var(--7x-moderate-orange);
 
   width: 1rem;
   transform: translateY(1px);
 }
 
 .dropdown.active .dropdown-toggle::after {
-  --7x-bg-color: var(--7x-moderate-red);
+  --7x-bg-color: var(--7x-moderate-orange);
 
   width: 1rem;
   transform: translateY(-1px);
@@ -589,12 +590,12 @@ i.fa-solid.fa-cart-shopping {
   justify-content: center;
   border: 1px solid rgba(var(--7x-border-color) / var(--7x-border-opacity));
   border-radius: 50rem;
-  background-color: rgba(var(--7x-moderate-red) / var(--7x-bg-opacity));
+  background-color: rgba(var(--7x-moderate-orange) / var(--7x-bg-opacity));
 }
 
 .social-link:hover {
   --7x-border-opacity: 1;
-  --7x-border-color: var(--7x-moderate-red);
+  --7x-border-color: var(--7x-moderate-orange);
   --7x-fill-opacity: 1;
   --7x-fill-color: var(--7x-white);
   --7x-bg-opacity: 1;
@@ -753,15 +754,15 @@ div.attribute-image {
   height: 2.5rem;
   border: 1px solid rgba(var(--7x-border-color) / var(--7x-border-opacity));
   border-radius: 0.125rem;
-  background-color: rgba(var(--7x-moderate-red) / var(--7x-bg-opacity));
+  background-color: rgba(var(--7x-moderate-orange) / var(--7x-bg-opacity));
   transition: var(--7x-transition-md-duration);
-  color: rgba(var(--7x-moderate-red) / var(--7x-text-opacity));
+  color: rgba(var(--7x-moderate-orange) / var(--7x-text-opacity));
 }
 
 .pagenavigator .pages span.current,
 .pagenavigator .pages a:hover {
   --7x-bg-opacity: 1;
-  --7x-border-color: var(--7x-moderate-red);
+  --7x-border-color: var(--7x-moderate-orange);
 
   color: rgba(var(--7x-white) / var(--7x-text-opacity));
 }
@@ -811,7 +812,7 @@ input:not([type="checkbox"], [type="radio"]) {
   margin-bottom: 0.5rem;
   resize: none;
   outline: 0.25rem solid
-    rgba(var(--7x-moderate-red) / var(--7x-outline-opacity));
+    rgba(var(--7x-moderate-orange) / var(--7x-outline-opacity));
   font-family: var(--font-open-sans);
 }
 
@@ -826,8 +827,8 @@ textarea {
 
 input[type="submit"],
 .btn-primary {
-  border: 1px solid rgba(var(--7x-moderate-red) / var(--7x-border-opacity));
-  background-color: rgba(var(--7x-moderate-red) / var(--7x-bg-opacity));
+  border: 1px solid rgba(var(--7x-moderate-orange) / var(--7x-border-opacity));
+  background-color: rgba(var(--7x-moderate-orange) / var(--7x-bg-opacity));
   color: rgba(var(--7x-white) / var(--7x-text-opacity));
   font-size: 1rem;
   font-weight: 500;

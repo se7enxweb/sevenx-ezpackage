@@ -14,5 +14,9 @@
         <div class="attribute-short">
            {attribute_view_gui attribute=$node.data_map.short_description}
         </div>
+
+        <div class="attribute-star-rating">
+           {attribute_view_gui attribute=$node.data_map.rating}
+        </div>
     </div>
 </div>

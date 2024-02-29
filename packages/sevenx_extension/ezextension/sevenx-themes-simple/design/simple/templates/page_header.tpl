@@ -23,7 +23,7 @@
                 {* include uri='design:menu/multi-dropdown.tpl' *}
                 {include uri='design:menu/dropdown.tpl'}
             </div>
-            {* <a href="/shop/cart"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a> *}
+            <a href="/shop/cart"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a>
     </nav>
   </header>
   <!-- Header area: END -->
