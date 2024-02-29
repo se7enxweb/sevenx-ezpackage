@@ -96,7 +96,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'owsimpleoperator',
             'swark', 
             'bcgooglesitemaps', 
-            'bcwebsitestatistics', 
+            'bcwebsitestatistics',
+            'bccie',
+            'xrowextract', 
             'bcwebshop', 
             'ezwebin', 
             'ezmultiupload' 
