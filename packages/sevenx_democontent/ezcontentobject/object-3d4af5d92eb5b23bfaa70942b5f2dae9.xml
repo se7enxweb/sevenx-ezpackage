@@ -66,7 +66,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Contact" node-id="221" remote-id="ecc1f4e5dfce65d8694af6ee315bfb7c" sort-field="path" sort-order="1" priority="3850"/>
+        <node-assignment is-main-node="1" name="Contact" node-id="221" remote-id="ecc1f4e5dfce65d8694af6ee315bfb7c" sort-field="path" sort-order="1" priority="3850"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-object>
   <object-files-list>
-    <object-file filename="object-8a9c9c761004866fb458d89910f52bee.xml"/>
+    <object-file filename="object-4a470ac46703b80abc5e5407ed78faf2.xml"/>
+    <object-file filename="object-b6f9ecfc933a6dd416d68c00e14df6de.xml"/>
+    <object-file filename="object-38c34069e8b9bef088b44a9849bf6ee6.xml"/>
+    <object-file filename="object-54a0372fda46cb313a148a92f5875d5d.xml"/>
+    <object-file filename="object-6aae387bb9cca2f23a31ef6c277e5bc3.xml"/>
+    <object-file filename="object-72ddda23a702785b8e3b3130b82efbd8.xml"/>
+    <object-file filename="object-0bcebe6739f06f239fba8e6d1ba344d8.xml"/>
+    <object-file filename="object-1fb4110986054dca3d9ebea04931f982.xml"/>
+    <object-file filename="object-ae27e3f1465ecd59af1063d601fdd7db.xml"/>
+    <object-file filename="object-aee0b0e8c751c451ab54e42bfeaecb9f.xml"/>
+    <object-file filename="object-f7bd1396a0e0ca437fcab4d197c96955.xml"/>
+    <object-file filename="object-e4e73ee321ec3b3280e054107379c595.xml"/>
+    <object-file filename="object-ff319044bae7d9fd9017500d83d27482.xml"/>
+    <object-file filename="object-c35aad21cca38aa901eae78f343b361b.xml"/>
+    <object-file filename="object-8aeae343e7b20c0ffdd30b33b1972f41.xml"/>
+    <object-file filename="object-7d8d99eff2b66b6385e156cb41126c99.xml"/>
+    <object-file filename="object-71274c0bb89939eb4f5954120a549469.xml"/>
+    <object-file filename="object-f796445992add42167ce7761ab1813f2.xml"/>
+    <object-file filename="object-5af0c2c0917f2c2ef9ac80bfaf4d71b9.xml"/>
+    <object-file filename="object-6028ccb5ca56456834cb6fa53fde1b9d.xml"/>
+    <object-file filename="object-e9d53b25f9e3f134e47aa92284c9b286.xml"/>
+    <object-file filename="object-2ec6145b336868fca2df62b7d313e4c1.xml"/>
+    <object-file filename="object-fea1e2267f6a89e5993b282a97fe4cd8.xml"/>
+    <object-file filename="object-b0f2508bd057fd9afd9a27f30241f659.xml"/>
+    <object-file filename="object-04a4ccc2c7ef44ea4a3ccaa2e74aa1f1.xml"/>
+    <object-file filename="object-b7e1b8c25aa2d0a0b5cfad7b96e7c938.xml"/>
+    <object-file filename="object-30fb1979057f3d98be4e6fd9ad772818.xml"/>
+    <object-file filename="object-3d4af5d92eb5b23bfaa70942b5f2dae9.xml"/>
+    <object-file filename="object-59df97cc0bbe755f42e02e5fde9a9c3b.xml"/>
+    <object-file filename="object-86ca3f5f57cd4de7a928500de8d0f082.xml"/>
     <object-file filename="object-b4668ac60d726ddfb655c3895cb0cae5.xml"/>
     <object-file filename="object-4ce71da8102ee02db016158cd06895ed.xml"/>
     <object-file filename="object-96525aef27696fa39e69d43481ffc2b1.xml"/>
@@ -96,6 +125,23 @@
     <object-file filename="object-c4d3b3ee85f36777a744015c7f234387.xml"/>
     <object-file filename="object-c8294dd0b321e556905fa73df3d7ca8e.xml"/>
     <object-file filename="object-9ca41b0930e91ae61b2d67bab735ea76.xml"/>
+    <object-file filename="object-5dba9f5125423db2eda9ba8858a38775.xml"/>
+    <object-file filename="object-02d35489c12bcbff3239c3b739823678.xml"/>
+    <object-file filename="object-2995f126f24a5ef2b937c63ecae2ffc0.xml"/>
+    <object-file filename="object-7e60420c152b5b1821ff8dda1d5002aa.xml"/>
+    <object-file filename="object-c0e62f667c7edf5b69f3131c98292387.xml"/>
+    <object-file filename="object-71692736085cf6f8a36cdbb082249764.xml"/>
+    <object-file filename="object-14f969f0d7f75f507394372c22919d00.xml"/>
+    <object-file filename="object-3524ea164ee11e7e102c9aaa56d02488.xml"/>
+    <object-file filename="object-3388409c96f37a7974f35befa5a14650.xml"/>
+    <object-file filename="object-f21f7c41fd73c70814c46cb26b0851ed.xml"/>
+    <object-file filename="object-91ac81d846554a305a4029b19ba52d31.xml"/>
+    <object-file filename="object-f20f40a2f49aeec1ec40e9fb5d7cb86c.xml"/>
+    <object-file filename="object-b703033b4165a4e5b13a5b8d36b02cd1.xml"/>
+    <object-file filename="object-7dfe6d524e63a6759fd31db11a3e1490.xml"/>
+    <object-file filename="object-4179733ef0b35e2608ce72158ffe3893.xml"/>
+    <object-file filename="object-5e182ad2a35120c9579c3f6d61e143cc.xml"/>
+    <object-file filename="object-a771e29e5157372b4798dd69a3f3eaaf.xml"/>
     <object-file filename="object-210a5dd3f6cf3190f4f21e127ebcfdb6.xml"/>
     <object-file filename="object-5eeb942341753fc43a2c03c64e86f849.xml"/>
     <object-file filename="object-fe77fde45a90fa16043f39d3e3e87e4b.xml"/>
@@ -132,55 +178,11 @@
     <object-file filename="object-bea2aa5ed17c617531344b6c71aff596.xml"/>
     <object-file filename="object-ezoo-0b8f65be2b80b4a7138990b335736563.xml"/>
     <object-file filename="object-ezoo-db3fcade578f2fc9da52a81f503394c2.xml"/>
-    <object-file filename="object-6aae387bb9cca2f23a31ef6c277e5bc3.xml"/>
-    <object-file filename="object-72ddda23a702785b8e3b3130b82efbd8.xml"/>
-    <object-file filename="object-0bcebe6739f06f239fba8e6d1ba344d8.xml"/>
-    <object-file filename="object-1fb4110986054dca3d9ebea04931f982.xml"/>
-    <object-file filename="object-ae27e3f1465ecd59af1063d601fdd7db.xml"/>
-    <object-file filename="object-aee0b0e8c751c451ab54e42bfeaecb9f.xml"/>
-    <object-file filename="object-f7bd1396a0e0ca437fcab4d197c96955.xml"/>
-    <object-file filename="object-e4e73ee321ec3b3280e054107379c595.xml"/>
-    <object-file filename="object-ff319044bae7d9fd9017500d83d27482.xml"/>
-    <object-file filename="object-c35aad21cca38aa901eae78f343b361b.xml"/>
-    <object-file filename="object-8aeae343e7b20c0ffdd30b33b1972f41.xml"/>
-    <object-file filename="object-7d8d99eff2b66b6385e156cb41126c99.xml"/>
-    <object-file filename="object-71274c0bb89939eb4f5954120a549469.xml"/>
-    <object-file filename="object-f796445992add42167ce7761ab1813f2.xml"/>
-    <object-file filename="object-5af0c2c0917f2c2ef9ac80bfaf4d71b9.xml"/>
-    <object-file filename="object-6028ccb5ca56456834cb6fa53fde1b9d.xml"/>
-    <object-file filename="object-e9d53b25f9e3f134e47aa92284c9b286.xml"/>
-    <object-file filename="object-2ec6145b336868fca2df62b7d313e4c1.xml"/>
-    <object-file filename="object-fea1e2267f6a89e5993b282a97fe4cd8.xml"/>
-    <object-file filename="object-b0f2508bd057fd9afd9a27f30241f659.xml"/>
-    <object-file filename="object-04a4ccc2c7ef44ea4a3ccaa2e74aa1f1.xml"/>
-    <object-file filename="object-b7e1b8c25aa2d0a0b5cfad7b96e7c938.xml"/>
-    <object-file filename="object-30fb1979057f3d98be4e6fd9ad772818.xml"/>
-    <object-file filename="object-3d4af5d92eb5b23bfaa70942b5f2dae9.xml"/>
-    <object-file filename="object-59df97cc0bbe755f42e02e5fde9a9c3b.xml"/>
-    <object-file filename="object-86ca3f5f57cd4de7a928500de8d0f082.xml"/>
-    <object-file filename="object-4a470ac46703b80abc5e5407ed78faf2.xml"/>
-    <object-file filename="object-b6f9ecfc933a6dd416d68c00e14df6de.xml"/>
-    <object-file filename="object-38c34069e8b9bef088b44a9849bf6ee6.xml"/>
-    <object-file filename="object-54a0372fda46cb313a148a92f5875d5d.xml"/>
-    <object-file filename="object-5dba9f5125423db2eda9ba8858a38775.xml"/>
-    <object-file filename="object-02d35489c12bcbff3239c3b739823678.xml"/>
-    <object-file filename="object-2995f126f24a5ef2b937c63ecae2ffc0.xml"/>
-    <object-file filename="object-7e60420c152b5b1821ff8dda1d5002aa.xml"/>
-    <object-file filename="object-c0e62f667c7edf5b69f3131c98292387.xml"/>
-    <object-file filename="object-71692736085cf6f8a36cdbb082249764.xml"/>
-    <object-file filename="object-14f969f0d7f75f507394372c22919d00.xml"/>
-    <object-file filename="object-3524ea164ee11e7e102c9aaa56d02488.xml"/>
-    <object-file filename="object-3388409c96f37a7974f35befa5a14650.xml"/>
-    <object-file filename="object-f21f7c41fd73c70814c46cb26b0851ed.xml"/>
-    <object-file filename="object-91ac81d846554a305a4029b19ba52d31.xml"/>
-    <object-file filename="object-f20f40a2f49aeec1ec40e9fb5d7cb86c.xml"/>
-    <object-file filename="object-b703033b4165a4e5b13a5b8d36b02cd1.xml"/>
-    <object-file filename="object-7dfe6d524e63a6759fd31db11a3e1490.xml"/>
-    <object-file filename="object-4179733ef0b35e2608ce72158ffe3893.xml"/>
-    <object-file filename="object-5e182ad2a35120c9579c3f6d61e143cc.xml"/>
-    <object-file filename="object-a771e29e5157372b4798dd69a3f3eaaf.xml"/>
-    <object-file filename="object-a6e35cbcb7cd6ae4b691f3eee30cd262.xml"/>
-    <object-file filename="object-e7ff633c6b8e0fd3531e74c6e712bead.xml"/>
+    <object-file filename="object-8a9c9c761004866fb458d89910f52bee.xml"/>
+    <object-file filename="object-82947e41c83fce361077a49fd5de262b.xml"/>
+    <object-file filename="object-8bba6aa85120fde482f119c1868a0939.xml"/>
+    <object-file filename="object-7cc45003efb26531c91320e5f7ce65c5.xml"/>
+    <object-file filename="object-9b594cdc08d4a83a3dbb811d5a8dcce4.xml"/>
     <object-file filename="object-730c3ed0651b4b0dfe197359450fb3af.xml"/>
     <object-file filename="object-69c16f04095743acd554d1b665d14caf.xml"/>
     <object-file filename="object-24f80c40f6693f21e26846a93b42b142.xml"/>
@@ -190,26 +192,24 @@
     <object-file filename="object-900f903db3d475be75848c4f0b111daa.xml"/>
     <object-file filename="object-e57692585094804bc95c66e07afd3ccc.xml"/>
     <object-file filename="object-3943fea47ad7fa8b89fcd5fd495e2ca7.xml"/>
-    <object-file filename="object-82947e41c83fce361077a49fd5de262b.xml"/>
-    <object-file filename="object-8bba6aa85120fde482f119c1868a0939.xml"/>
-    <object-file filename="object-7cc45003efb26531c91320e5f7ce65c5.xml"/>
-    <object-file filename="object-9b594cdc08d4a83a3dbb811d5a8dcce4.xml"/>
-    <object-file filename="object-732a5acd01b51a6fe6eab448ad4138a9.xml"/>
-    <object-file filename="object-09082deb98662a104f325aaa8c4933d3.xml"/>
-    <object-file filename="object-f1826ada5e88c8f79e7048b2145040b2.xml"/>
-    <object-file filename="object-99730850bd806030c4ae9ea92571bdd0.xml"/>
-    <object-file filename="object-52f728d4880ca5def392e4f2e782ee6d.xml"/>
-    <object-file filename="object-ec19f2662ebb0f930ce024a48f17f7ee.xml"/>
-    <object-file filename="object-55e6c9acf534ff2f3564290cb38ffddc.xml"/>
-    <object-file filename="object-768a04778081c6e08db5d77dd01f98a9.xml"/>
-    <object-file filename="object-a7c0be8039efe452ca7d1e7ec1d28dcf.xml"/>
-    <object-file filename="object-1000aa14a05b968a2faa3def83aa1994.xml"/>
   </object-files-list>
   <site-access-list>
     <site-access>sevenx_site_user</site-access>
   </site-access-list>
   <top-node-list>
-    <top-node node-id="2" remote-id="f3e90596361e31d496d4026eb624c983">Home</top-node>
-    <top-node node-id="43" remote-id="75c715a51699d2d309a924eca6a95145">Media</top-node>
+    <top-node node-id="226" remote-id="4b187321642c334da157de92adee2682">Store</top-node>
+    <top-node node-id="216" remote-id="e74472eaa56fc0f7523ddb60a5290a33">About</top-node>
+    <top-node node-id="218" remote-id="520239c23d4e12f645e2faa62dcc6709">News</top-node>
+    <top-node node-id="221" remote-id="ecc1f4e5dfce65d8694af6ee315bfb7c">Contact</top-node>
+    <top-node node-id="152" remote-id="e060ff40aa17eb21dc1e4595c9a5eb9a">Company</top-node>
+    <top-node node-id="68" remote-id="9cec85d730eec7578190ee95ce5a36f5">Products</top-node>
+    <top-node node-id="76" remote-id="dbc2f3c8716c12f32c379dbf0b1cb133">Solutions</top-node>
+    <top-node node-id="215" remote-id="54c27dd9195c3874eaefe75999aefed0">eZ Publish 6</top-node>
+    <top-node node-id="263" remote-id="07c8562ea3b354e28baf003c603c2cca">Home</top-node>
+    <top-node node-id="237" remote-id="e7eeaf73c9bd821dc260d849f73a3598">Articles</top-node>
+    <top-node node-id="228" remote-id="bf8927ea98493f9baed6853a03850b1d">Artwork</top-node>
+    <top-node node-id="229" remote-id="7c236389e94f769021b8b9a283cc00bc">Brand</top-node>
+    <top-node node-id="231" remote-id="f33686096b7e551a24e9c19cb04128c2">Galleries</top-node>
+    <top-node node-id="232" remote-id="bf80970e31b3365dae3f5169a1ae079b">Products</top-node>
   </top-node-list>
 </content-object>

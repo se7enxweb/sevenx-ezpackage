@@ -6,7 +6,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1277" ezremote:identifier="header" name="Header" type="ezstring">
           <text>Morbi neque</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1278" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="2a1cfbd9457922e4c5d35ed0bf186b0f" alternative-text="Morbi neque"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1278" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="7f006c9dc2e55d316eb1bd076c1cb9ac" alternative-text="Morbi neque"/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1279" ezremote:identifier="image_url" name="URL (image)" type="ezstring">
           <text></text>
         </ezobject:attribute>

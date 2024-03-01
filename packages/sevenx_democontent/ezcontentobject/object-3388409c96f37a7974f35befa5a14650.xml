@@ -104,7 +104,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Solutions" node-id="76" remote-id="dbc2f3c8716c12f32c379dbf0b1cb133" sort-field="published" sort-order="1" priority="300"/>
+        <node-assignment is-main-node="1" name="Solutions" node-id="76" remote-id="dbc2f3c8716c12f32c379dbf0b1cb133" sort-field="published" sort-order="1" priority="300"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

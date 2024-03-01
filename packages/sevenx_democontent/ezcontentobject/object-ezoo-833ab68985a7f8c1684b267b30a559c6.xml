@@ -11,7 +11,7 @@
             <paragraph>graphics1</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="667" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="26e4daa2e3b549d86f2619f86fc52c95" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="667" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="0f50b225ec9ab9aa43e5bb14cf361198" alternative-text=""/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="668" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string></keyword-string>
         </ezobject:attribute>

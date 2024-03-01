@@ -9,7 +9,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1661" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1662" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="6cfe4de92f720a1c22a0ff7b5acf754d" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1662" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="8577fb88cf6b15a3c0b73d9e7636befa" alternative-text=""/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1663" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string></keyword-string>
         </ezobject:attribute>

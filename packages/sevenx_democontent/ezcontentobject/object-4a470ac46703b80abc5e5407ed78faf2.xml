@@ -24,7 +24,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1397" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime"/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Store" node-id="226" remote-id="4b187321642c334da157de92adee2682" sort-field="published" sort-order="1" priority="20000"/>
+        <node-assignment is-main-node="1" name="Store" node-id="226" remote-id="4b187321642c334da157de92adee2682" sort-field="published" sort-order="1" priority="20000"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

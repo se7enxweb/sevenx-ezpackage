@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="65" name="Home" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23" ezremote:published="Thu, 01 Jan 1970 00:00:00 GMT" ezremote:modified="Thu, 01 Jan 1970 00:00:00 GMT" remote_id="8a9c9c761004866fb458d89910f52bee" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="frontpage" ezremote:always_available="1" initial_language="eng-US">
-  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="2" ezremote:status="1" ezremote:created="Thu, 01 Jan 1970 00:00:00 GMT" ezremote:modified="Thu, 01 Jan 1970 00:00:00 GMT" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="65" name="Home" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23" ezremote:published="Fri, 01 Mar 2024 12:12:37 GMT" ezremote:modified="Fri, 01 Mar 2024 12:12:37 GMT" remote_id="8a9c9c761004866fb458d89910f52bee" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="frontpage" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="3" ezremote:status="1" ezremote:created="Fri, 01 Mar 2024 12:12:25 GMT" ezremote:modified="Fri, 01 Mar 2024 12:12:37 GMT" initial_language="eng-US">
       <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="Home">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="242" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Home</text>
@@ -9,11 +9,11 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="243" ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation"/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="244" ezremote:identifier="left_column" name="Left column" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph>
-              <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <line>
                 <embed view="embed" size="medium" align="center" custom:offset="0" custom:limit="5" object_remote_id="24f80c40f6693f21e26846a93b42b142"/>
               </line>
-              <line xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Welcome to this website! We offer the finest products to our customers who download and use our software worldwide. Buy your products from this website Today!</line>
+              <line>Welcome to this website! We offer the finest products to our customers who download and use our software worldwide. Buy your products from this website Today!</line>
             </paragraph>
             <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
               <embed view="embed" size="medium" align="left" custom:offset="0" custom:limit="5" node_remote_id="4b187321642c334da157de92adee2682"/>
@@ -34,7 +34,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" name="Home" node-id="2" remote-id="f3e90596361e31d496d4026eb624c983" sort-field="priority" sort-order="0" priority="0"/>
+        <node-assignment is-main-node="1" name="Home" node-id="263" remote-id="07c8562ea3b354e28baf003c603c2cca" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

@@ -150,7 +150,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Products" node-id="68" remote-id="9cec85d730eec7578190ee95ce5a36f5" sort-field="published" sort-order="1" priority="400"/>
+        <node-assignment is-main-node="1" name="Products" node-id="68" remote-id="9cec85d730eec7578190ee95ce5a36f5" sort-field="published" sort-order="1" priority="400"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>
