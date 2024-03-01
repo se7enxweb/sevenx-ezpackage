@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="239" name="In-hac-habitasse-platea" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="30" ezremote:published="Thu, 29 Feb 2024 14:26:05 GMT" ezremote:modified="Thu, 29 Feb 2024 14:26:05 GMT" remote_id="9b594cdc08d4a83a3dbb811d5a8dcce4" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 29 Feb 2024 14:26:05 GMT" ezremote:modified="Thu, 29 Feb 2024 14:26:05 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="In-hac-habitasse-platea">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1543" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>In-hac-habitasse-platea</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1544" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1545" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="380ccd6e23706bdd66d24ebde87995d9" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1546" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1547" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="e7eeaf73c9bd821dc260d849f73a3598" name="In-hac-habitasse-platea" node-id="240" remote-id="3c09f907c2165f51c5566a238dc67e78" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

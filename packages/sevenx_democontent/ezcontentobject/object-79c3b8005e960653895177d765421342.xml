@@ -3,16 +3,16 @@
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 02 Apr 2007 11:38:10 GMT" ezremote:modified="Mon, 02 Apr 2007 11:38:34 GMT" initial_language="eng-US">
       <ezobject:object-translation xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="Training">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="406" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="410" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Training</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="407" ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="411" ezremote:identifier="billboard" name="Billboard" type="ezobjectrelation">
           <related-object-remote-id>a7c0be8039efe452ca7d1e7ec1d28dcf</related-object-remote-id>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="408" ezremote:identifier="left_column" name="Left column" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="412" ezremote:identifier="left_column" name="Left column" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="409" ezremote:identifier="center_column" name="Center column" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="413" ezremote:identifier="center_column" name="Center column" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>
               <table class="default" width="100%" border="0">
@@ -97,7 +97,7 @@
             </paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="410" ezremote:identifier="right_column" name="Right column" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="414" ezremote:identifier="right_column" name="Right column" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>
               <custom name="factbox" custom:title="Next steps">
@@ -124,15 +124,15 @@
             </paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="411" ezremote:identifier="bottom_column" name="Bottom column" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="415" ezremote:identifier="bottom_column" name="Bottom column" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="412" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="416" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string></keyword-string>
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" name="Training" node-id="85" remote-id="95f3c4261719ea27ab67f980fbee0694" sort-field="published" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="e060ff40aa17eb21dc1e4595c9a5eb9a" name="Training" node-id="85" remote-id="95f3c4261719ea27ab67f980fbee0694" sort-field="published" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

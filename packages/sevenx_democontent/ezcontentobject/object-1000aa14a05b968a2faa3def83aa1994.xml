@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="64" name="Woman (Solutions)" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="42" ezremote:published="Fri, 30 Mar 2007 08:35:16 GMT" ezremote:modified="Mon, 02 Apr 2007 07:56:42 GMT" remote_id="1000aa14a05b968a2faa3def83aa1994" class_remote_id="9cb558e25fd946246bbb32950c00228e" ezremote:class_identifier="banner" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 02 Apr 2007 07:56:01 GMT" ezremote:modified="Mon, 02 Apr 2007 07:56:42 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Woman (Solutions)">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="237" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Woman (Solutions)</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="238" ezremote:identifier="url" name="URL" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="239" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="6ca3389dd81fbd16259994b27d841ed7" alternative-text="Woman (Solutions)"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="240" ezremote:identifier="image_map" name="Image map" type="eztext">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="241" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="437ef9d0a9b7ae326ec83fa3bb73956d" name="Woman (Solutions)" node-id="66" remote-id="93d5115082a23b266613868051b8d803" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

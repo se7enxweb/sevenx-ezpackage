@@ -3,18 +3,18 @@
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 15 Sep 2009 10:16:24 GMT" ezremote:modified="Tue, 15 Sep 2009 10:16:24 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="gallery_large">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1057" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1094" ezremote:identifier="name" name="Name" type="ezstring">
           <text>gallery_large</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1058" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1095" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1059" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="a5f4071956a799682a32b10f375abb9a" alternative-text=""/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1060" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1096" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="c42a3a90704bc9b19fd8dc61e2ef5b68" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1097" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string></keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1289" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
-          <data-int></data-int>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1098" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int>0</data-int>
           <data-float>0</data-float>
           <data-text></data-text>
         </ezobject:attribute>

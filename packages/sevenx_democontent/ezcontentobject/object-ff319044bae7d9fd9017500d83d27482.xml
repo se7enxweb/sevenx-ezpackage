@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="250" name="Alexander on the past, Gaby on today and tomorrow" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="30" ezremote:published="Thu, 29 Feb 2024 21:14:48 GMT" ezremote:modified="Thu, 29 Feb 2024 21:14:48 GMT" remote_id="ff319044bae7d9fd9017500d83d27482" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 29 Feb 2024 21:14:48 GMT" ezremote:modified="Thu, 29 Feb 2024 21:14:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Alexander on the past, Gaby on today and tomorrow">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1615" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Alexander on the past, Gaby on today and tomorrow</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1616" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1617" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="4e9baa7a1845938f95fab77cef64c899" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1618" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1619" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int>0</data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="4ffbf19bad462a645c16ef2d04f16a7d" name="Alexander on the past, Gaby on today and tomorrow" node-id="251" remote-id="9af87f812f5d66a82777a4f14b9bcf09" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

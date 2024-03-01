@@ -3,14 +3,14 @@
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Fri, 23 Mar 2007 13:00:20 GMT" ezremote:modified="Fri, 23 Mar 2007 13:00:30 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Morbi neque">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1225" ezremote:identifier="header" name="Header" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1277" ezremote:identifier="header" name="Header" type="ezstring">
           <text>Morbi neque</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1226" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="84494d23e2d5fd360df29579d8c7cb7a" alternative-text="Morbi neque"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1227" ezremote:identifier="image_url" name="URL (image)" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1278" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="2a1cfbd9457922e4c5d35ed0bf186b0f" alternative-text="Morbi neque"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1279" ezremote:identifier="image_url" name="URL (image)" type="ezstring">
           <text></text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1228" ezremote:identifier="content" name="Content" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1280" ezremote:identifier="content" name="Content" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>
               <strong>Morbi neque. Proin porta dapibus turpis.</strong>
@@ -20,7 +20,7 @@
                         </paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1229" ezremote:identifier="url" name="URL" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1281" ezremote:identifier="url" name="URL" type="ezurl"/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
         <node-assignment is-main-node="1" parent-node-remote-id="daa3004ede25b0130ca5bef83c1922c3" name="Morbi neque" node-id="210" remote-id="9d2bdcb8b35464ee03651c191ac4d1ff" sort-field="published" sort-order="1" priority="0"/>

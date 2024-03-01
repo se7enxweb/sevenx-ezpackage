@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="221" name="Contact Form" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="22" ezremote:published="Thu, 29 Feb 2024 12:04:10 GMT" ezremote:modified="Thu, 29 Feb 2024 12:04:10 GMT" remote_id="59df97cc0bbe755f42e02e5fde9a9c3b" class_remote_id="df0257b8fc55f6b8ab179d6fb915455e" ezremote:class_identifier="feedback_form" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Thu, 29 Feb 2024 12:04:05 GMT" ezremote:modified="Thu, 29 Feb 2024 12:04:10 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Contact Form">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1369" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Contact Form</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1370" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Please use the following contact form for your general questions.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1371" ezremote:identifier="sender_name" name="Sender name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1372" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Contact Form for Example Company</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1373" ezremote:identifier="message" name="Message" type="eztext">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1374" ezremote:identifier="email" name="Email" type="ezemail">
+          <email></email>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1375" ezremote:identifier="recipient" name="Recipient" type="ezemail">
+          <email>info@example.com</email>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ecc1f4e5dfce65d8694af6ee315bfb7c" name="Contact Form" node-id="222" remote-id="8b71347678fc370a2c8f32801c062b0a" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

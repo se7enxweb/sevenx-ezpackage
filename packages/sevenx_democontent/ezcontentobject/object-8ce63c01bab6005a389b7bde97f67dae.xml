@@ -3,13 +3,13 @@
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 20 Mar 2007 11:20:26 GMT" ezremote:modified="Tue, 20 Mar 2007 11:20:33 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Events and seminars">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="463" ezremote:identifier="title" name="Full Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="467" ezremote:identifier="title" name="Full Title" type="ezstring">
           <text>Events and seminars</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="464" ezremote:identifier="short_title" name="Short Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="468" ezremote:identifier="short_title" name="Short Title" type="ezstring">
           <text></text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="465" ezremote:identifier="view" name="View" type="ezselection">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="469" ezremote:identifier="view" name="View" type="ezselection">
           <data-int>0</data-int>
           <data-float>0</data-float>
           <data-text>0</data-text>

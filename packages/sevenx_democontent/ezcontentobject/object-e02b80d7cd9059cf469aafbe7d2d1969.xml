@@ -3,20 +3,20 @@
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 13 Sep 2010 17:16:11 GMT" ezremote:modified="Mon, 13 Sep 2010 17:19:17 GMT" initial_language="eng-US">
       <ezobject:object-translation xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" language="eng-US" object_name="Adding Siteaccesses in eZ Publish">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="694" ezremote:identifier="title" name="Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="717" ezremote:identifier="title" name="Title" type="ezstring">
           <text>Lots of Websites, One eZ Publish Installation</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="695" ezremote:identifier="short_title" name="Short title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="718" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text>Adding Siteaccesses in eZ Publish</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="696" ezremote:identifier="author" name="Author" type="ezauthor">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="719" ezremote:identifier="author" name="Author" type="ezauthor">
           <ezauthor>
             <authors>
               <author id="0" name="Greg McAvoy-Jensen" email="admin@myportal.com"/>
             </authors>
           </ezauthor>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="697" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="720" ezremote:identifier="intro" name="Summary" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>This tutorial gives developers the power to extend the features and flexibility of eZ
                             Publish beyond a single website, to having an unlimited number in one installation. At the
@@ -26,7 +26,7 @@
                         </paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="698" ezremote:identifier="body" name="Body" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="721" ezremote:identifier="body" name="Body" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <section>
               <header>Introduction</header>
@@ -78,23 +78,27 @@
             </section>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="699" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="722" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
           <value>1</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="700" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="701" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1450" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="724" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="702" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="725" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
           <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="703" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="726" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime">
           <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="704" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="727" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string>siteaccess, multiple sites, internationalization</keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="705" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="728" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
           <data-int>0</data-int>
           <data-float>0</data-float>
           <data-text></data-text>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="212" name="I’m going " ezremote:section_id="1" ezremote:owner_id="10" ezremote:class_id="13" ezremote:published="Tue, 27 Feb 2024 10:14:33 GMT" ezremote:modified="Tue, 27 Feb 2024 10:14:33 GMT" remote_id="d4a3371edf82fbde6a3c7d7d166e4a3c" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 27 Feb 2024 10:14:21 GMT" ezremote:modified="Tue, 27 Feb 2024 10:14:33 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="I’m going ">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1304" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>I’m going </text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1305" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>The </text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1306" ezremote:identifier="message" name="Message" type="eztext">
+          <text>The </text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="416c28c9ba34a9114381a6ec3ae197e0" name="I’m going " node-id="214" remote-id="721ee737c59d23fe72cd130670864f44" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

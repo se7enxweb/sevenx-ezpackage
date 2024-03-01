@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="222" name="Newsletter" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="22" ezremote:published="Thu, 29 Feb 2024 12:04:18 GMT" ezremote:modified="Thu, 29 Feb 2024 12:04:18 GMT" remote_id="86ca3f5f57cd4de7a928500de8d0f082" class_remote_id="df0257b8fc55f6b8ab179d6fb915455e" ezremote:class_identifier="feedback_form" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Thu, 29 Feb 2024 12:04:16 GMT" ezremote:modified="Thu, 29 Feb 2024 12:04:18 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Newsletter">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1376" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Newsletter</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1377" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Subscribe to my newsletter for news of upcoming shows and other relevent information.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1378" ezremote:identifier="sender_name" name="Sender name" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1379" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Subscribe to newsletter for Example Company</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1380" ezremote:identifier="message" name="Message" type="eztext">
+          <text>Please subscribe me to the newsletter!&#13;
+&#13;
+Thank you</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1381" ezremote:identifier="email" name="Email" type="ezemail">
+          <email></email>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1382" ezremote:identifier="recipient" name="Recipient" type="ezemail">
+          <email>info@example.com</email>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ecc1f4e5dfce65d8694af6ee315bfb7c" name="Newsletter" node-id="223" remote-id="bebbf897a49fb5ae17600c80216a2bc7" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

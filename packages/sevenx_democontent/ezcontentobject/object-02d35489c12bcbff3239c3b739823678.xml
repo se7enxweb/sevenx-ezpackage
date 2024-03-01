@@ -18,10 +18,10 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="260" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
           <value>1</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="261" ezremote:identifier="tags" name="" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="261" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string></keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="262" ezremote:identifier="publish_date" name="" type="ezdatetime">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="262" ezremote:identifier="publish_date" name="Publish Date" type="ezdatetime">
           <date_time>Tue, 10 Apr 2007 06:47:50 GMT</date_time>
         </ezobject:attribute>
       </ezobject:object-translation>

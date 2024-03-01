@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="220" name="Contact" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 29 Feb 2024 12:03:51 GMT" ezremote:modified="Thu, 29 Feb 2024 12:03:51 GMT" remote_id="3d4af5d92eb5b23bfaa70942b5f2dae9" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Thu, 29 Feb 2024 12:03:49 GMT" ezremote:modified="Thu, 29 Feb 2024 12:03:51 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Contact">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1357" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Contact</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1358" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1359" ezremote:identifier="author" name="Author" type="ezauthor">
+          <ezauthor>
+            <authors>
+              <author id="0" name="Administrator User" email="info@se7enx.com"/>
+            </authors>
+          </ezauthor>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1360" ezremote:identifier="intro" name="Summary" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Contact information like phone number, email, contact form.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1361" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Please feel free to reach out to Example Company's founder John Smith. any time through the following contact methods.</paragraph>
+            <section>
+              <header>Phone</header>
+              <paragraph>
+                <link href="tel:1-800-555-1212">1-800-555-1212</link>
+              </paragraph>
+            </section>
+            <section>
+              <header>Email</header>
+              <paragraph>For best results please email me at:</paragraph>
+              <paragraph>
+                <link href="info@example.com">info@example.com</link>
+              </paragraph>
+            </section>
+            <section>
+              <header>Feedback</header>
+              <paragraph>For your general questions use our <link object_remote_id="59df97cc0bbe755f42e02e5fde9a9c3b">contact form</link>.</paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1362" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1474" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1364" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1365" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1366" ezremote:identifier="unpublish_date" name="Unpublish date" type="ezdatetime"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1367" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1368" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Contact" node-id="221" remote-id="ecc1f4e5dfce65d8694af6ee315bfb7c" sort-field="path" sort-order="1" priority="3850"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

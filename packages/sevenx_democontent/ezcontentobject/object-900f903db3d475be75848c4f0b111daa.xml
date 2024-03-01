@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="233" name="CD-DVD-Box-II" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="30" ezremote:published="Thu, 29 Feb 2024 14:23:24 GMT" ezremote:modified="Thu, 29 Feb 2024 14:23:24 GMT" remote_id="900f903db3d475be75848c4f0b111daa" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 29 Feb 2024 14:23:24 GMT" ezremote:modified="Thu, 29 Feb 2024 14:23:24 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="CD-DVD-Box-II">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1511" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>CD-DVD-Box-II</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1512" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1513" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="0de1567d859b95cc9997e37b0a4ed5b1" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1514" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1515" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="bf80970e31b3365dae3f5169a1ae079b" name="CD-DVD-Box-II" node-id="234" remote-id="7baa695831af300ebad48d283b06bbc5" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

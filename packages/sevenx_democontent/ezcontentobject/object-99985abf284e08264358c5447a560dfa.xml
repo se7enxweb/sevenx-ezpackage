@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="211" name="Test" ezremote:section_id="1" ezremote:owner_id="10" ezremote:class_id="13" ezremote:published="Tue, 27 Feb 2024 08:39:55 GMT" ezremote:modified="Tue, 27 Feb 2024 08:39:55 GMT" remote_id="99985abf284e08264358c5447a560dfa" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 27 Feb 2024 08:39:48 GMT" ezremote:modified="Tue, 27 Feb 2024 08:39:55 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1301" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1302" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1303" ezremote:identifier="message" name="Message" type="eztext">
+          <text>test</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="416c28c9ba34a9114381a6ec3ae197e0" name="Test" node-id="213" remote-id="98e8d60c5d4e14eec594cf996d350ca7" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="256" name="Let's work together!" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="30" ezremote:published="Thu, 29 Feb 2024 21:44:06 GMT" ezremote:modified="Thu, 29 Feb 2024 21:44:06 GMT" remote_id="5af0c2c0917f2c2ef9ac80bfaf4d71b9" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 29 Feb 2024 21:44:06 GMT" ezremote:modified="Thu, 29 Feb 2024 21:44:06 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Let's work together!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1645" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Let's work together!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1646" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1647" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="eb8aeabcbca58c93a03171856ecea1e1" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1648" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string></keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1649" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int>0</data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="e0c3802fcb374bc3490cca29cfcc44b9" name="Let's work together!" node-id="257" remote-id="b10b0d8cad56cf949e6f981b34561fde" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

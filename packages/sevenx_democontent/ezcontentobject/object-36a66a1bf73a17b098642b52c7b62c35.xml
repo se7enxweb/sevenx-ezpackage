@@ -3,13 +3,13 @@
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 19 Mar 2007 12:00:36 GMT" ezremote:modified="Mon, 19 Mar 2007 12:00:43 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Events">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1201" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1253" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Events</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1202" ezremote:identifier="description" name="Description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1254" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1203" ezremote:identifier="calendars" name="Calendars" type="ezobjectrelationlist">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1255" ezremote:identifier="calendars" name="Calendars" type="ezobjectrelationlist">
           <related-objects>
             <relation-list/>
           </related-objects>

@@ -3,25 +3,25 @@
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 19 Mar 2007 12:52:18 GMT" ezremote:modified="Mon, 19 Mar 2007 12:52:36 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Contact">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1218" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1270" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Contact</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1219" ezremote:identifier="description" name="Description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1271" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"/>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1220" ezremote:identifier="sender_name" name="Sender name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1272" ezremote:identifier="sender_name" name="Sender name" type="ezstring">
           <text></text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1221" ezremote:identifier="subject" name="Subject" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1273" ezremote:identifier="subject" name="Subject" type="ezstring">
           <text></text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1222" ezremote:identifier="message" name="Message" type="eztext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1274" ezremote:identifier="message" name="Message" type="eztext">
           <text></text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1223" ezremote:identifier="email" name="Email" type="ezemail">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1275" ezremote:identifier="email" name="Email" type="ezemail">
           <email></email>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1224" ezremote:identifier="recipient" name="Recipient" type="ezemail">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1276" ezremote:identifier="recipient" name="Recipient" type="ezemail">
           <email></email>
         </ezobject:attribute>
       </ezobject:object-translation>
