@@ -923,7 +923,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             array( 
                 '_function' => 'setSection', 
                 '_params' => array( 
-                    'location' => 'partners', 
+                    'location' => 'company/partners', 
                     'section_name' => 'Restricted' 
                 ) 
             ), 
