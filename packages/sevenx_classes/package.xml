@@ -48,6 +48,12 @@
                value="article" />
       <provide type="ezcontentclass"
                name="contentclass"
+               value="folder" />
+      <provide type="ezcontentclass"
+               name="contentclass"
+               value="comment" />
+      <provide type="ezcontentclass"
+               name="contentclass"
                value="article_mainpage" />
       <provide type="ezcontentclass"
                name="contentclass"
@@ -146,6 +152,12 @@
           filename="class-article"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
+          filename="class-folder"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-comment"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
           filename="class-article_mainpage"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
@@ -236,6 +248,12 @@
   <uninstall>
     <item type="ezcontentclass"
           filename="class-article"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-folder"
+          sub-directory="ezcontentclass" />
+    <item type="ezcontentclass"
+          filename="class-comment"
           sub-directory="ezcontentclass" />
     <item type="ezcontentclass"
           filename="class-article_mainpage"
