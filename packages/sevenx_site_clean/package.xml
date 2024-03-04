@@ -3,9 +3,9 @@
          development="false"
          is_active="true"
          install_type="import">
-  <name>se7enx_site_clean</name>
-  <summary>7x Website Interface (without demo content)</summary>
-  <description>Website Interface is a web based CMS solution based on eZ Publish. It contains templates and settings that meets the most common requirements for content management systems.</description>
+  <name>sevenx_site_clean</name>
+  <summary>7x Simple Website Interface (without demo content)</summary>
+  <description>The 7x Website Interface is a web based CMS solution with eZ Publish. It contains templates and settings that meets the most common requirements for content management systems.</description>
   <vendor>7x</vendor>
   <type value="site" />
   <ezpublish>
@@ -63,10 +63,13 @@
                min-version="5.1" />
       <require type="ezpackage"
                name="ezstarrating_extension"
-               min-version="5.1" />
+               min-version="1.0" />
       <require type="ezpackage"
                name="ezgmaplocation_extension"
-               min-version="5.1" />
+               min-version="1.0" />
+      <require type="ezpackage"
+               name="ezpaypal_extension"
+               min-version="1.0" />
       <require type="ezpackage"
                name="sevenx_extension"
                min-version="5.1" />
@@ -83,7 +86,7 @@
                name="sevenx_design_gray"
                min-version="5.1" />
       <require type="ezpackage"
-               name="se7enx_design_blue"
+               name="sevenx_design_blue"
                min-version="5.1" />
     </requires>
     <obsoletes />
