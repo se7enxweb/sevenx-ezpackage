@@ -1752,7 +1752,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                     'ShowClasses' => array( 
                         'folder', 
                         'article', 
-                        'link', 
+                        'link',
+                        'product', 
                         'user_group', 
                         'documentation_page', 
                         'event_calendar', 
