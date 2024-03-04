@@ -28,7 +28,7 @@
 
 class SevenxeZWebinInstaller extends eZSiteInstaller
 {
-    const MAJOR_VERSION = 1.5;
+    const MAJOR_VERSION = 1.0;
     const MINOR_VERSION = 0;
 
     function __construct( $parameters = false )
@@ -87,7 +87,21 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'ezwt', 
             'ezstarrating', 
             'ezgmaplocation', 
-            strtolower( $this->solutionName() ) 
+            'ezautosave', 
+            'ezodf', 
+            'ezie', 
+            'ezprestapiprovider', 
+            strtolower( $this->solutionExtensionName() ), 
+            'ezpaypal', 
+            'owsimpleoperator',
+            'swark', 
+            'bcgooglesitemaps', 
+            'bcwebsitestatistics', 
+            'bccie', 
+            'xrowextract', 
+            'bcwebshop', 
+            'ezwebin', 
+            'ezmultiupload' 
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
@@ -96,10 +110,11 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         // usual admin siteaccess like 'ezwebin_site_admin'
         $this->addSetting( 'admin_siteaccess', eZSiteInstaller::getParam( $parameters, 'admin_siteaccess', '' ) );
         // extra siteaccess based on languages info, like 'eng', 'rus', ...
-        $this->addSetting( 'language_based_siteaccess_list', $this->languageNameListFromLocaleList( $this->setting( 'locales' ) ) );
+        // $this->addSetting( 'language_based_siteaccess_list', $this->languageNameListFromLocaleList( $this->setting( 'locales' ) ) );
         $this->addSetting( 'user_siteaccess_list', array_merge( array( 
-            $this->setting( 'user_siteaccess' ) 
-        ), $this->setting( 'language_based_siteaccess_list' ) ) );
+            $this->setting( 'user_siteaccess' )
+        ), array() ) );
+        //), $this->setting( 'language_based_siteaccess_list' ) ) );
         $this->addSetting( 'all_siteaccess_list', array_merge( $this->setting( 'user_siteaccess_list' ), array( 
             $this->setting( 'admin_siteaccess' ) 
         ) ) );
@@ -125,7 +140,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 'access_type_value' => $this->setting( 'access_type_value' ), 
                 'host' => $this->setting( 'host' ), 
                 'host_prepend_siteaccess' => false 
-            ) ), 
+            ) )
+	   /* , 
             'translation' => $this->createSiteaccessUrls( array( 
                 'siteaccess_list' => $this->setting( 'language_based_siteaccess_list' ), 
                 'access_type' => $this->setting( 'access_type' ), 
@@ -135,11 +151,13 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                     $this->setting( 'admin_access_type_value' ), 
                     $this->setting( 'access_type_value' ) 
                 ) 
-            ) ) 
+            ) )
+	    */
         );
         $this->addSetting( 'siteaccess_urls', $siteaccessUrls );
         $this->addSetting( 'primary_language', eZSiteInstaller::getParam( $parameters, 'all_language_codes/0', '' ) );
-        $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/' . $this->setting( 'user_siteaccess' ) ) );
+        // $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/' . $this->setting( 'user_siteaccess' ) ) );
+        $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/site' ) );
     }
 
     function initSteps()
@@ -232,8 +250,46 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             array( 
                 '_function' => 'addPoliciesForRole', 
                 '_params' => array( 
-                    'role_name' => 'Anonymous', 
+                    'role_name' => 'Anonymous',
                     'policies' => array( 
+                        array( 
+                            'module' => 'shop', 
+                            'function' => 'buy', 
+                            'limitation' => array( 
+                            ) 
+                        ), 
+                        array( 
+                            'module' => 'content', 
+                            'function' => 'create', 
+                            'limitation' => array(
+                               'Class' => array( 
+                                    array( 
+                                        '_function' => 'classIDbyIdentifier', 
+                                        '_params' => array( 
+                                            'identifier' => 'comment' 
+                                        )
+                                    )
+                                ), 
+                               'Section' => array( 
+                                    '_function' => 'sectionIDbyName', 
+                                    '_params' => array( 
+                                        'section_name' => 'Standard' 
+                                    ) 
+                               ), 
+                               'Language' => array( 
+                                          'eng-US' 
+                               ) 
+                            ) 
+                        ), 
+                        array( 
+                            'module' => 'ezjscore', 
+                            'function' => 'call', 
+                            'limitation' => array( 
+                                'FunctionList' => array( 
+                                    'ezstarrating_rate', 'ezstarrating_user_has_rated' 
+                                    ) 
+                                ) 
+                        ), 
                         array( 
                             'module' => 'content', 
                             'function' => 'read', 
@@ -274,7 +330,13 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'quicktime' 
                                         ) 
-                                    ) 
+                                    ), 
+                                    array( 
+                                        '_function' => 'classIDbyIdentifier', 
+                                        '_params' => array( 
+                                            'identifier' => 'video' 
+                                        ) 
+                                    )
                                 ), 
                                 'Section' => array( 
                                     '_function' => 'sectionIDbyName', 
@@ -1276,7 +1338,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         // hack for images/binaryfiles
         // need to set siteaccess to have correct placement(VarDir) for files in SetupWizard
         $ini = eZINI::instance();
-        $ini->setVariable( 'FileSettings', 'VarDir', $this->setting( 'var_dir' ) );
+        // $this->setting( 'var_dir' )
+        $ini->setVariable( 'FileSettings', 'VarDir', 'var/site' );
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezstarrating';
@@ -1306,6 +1369,10 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         {
             switch ($db->databaseName())
             {
+                case 'sqlite':
+                    $sqlFile = 'sqlite.sql';
+                    $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/sqlite';
+                    break;
                 case 'mysql':
                     $sqlFile = 'mysql.sql';
                     $path = $extensionPackage->path() . '/ezextension/' . $extensionName . '/sql/mysql';
@@ -1318,7 +1385,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             $res = $db->insertFile( $path, $sqlFile, false );
             if ( ! $res )
             {
-                eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database shema.', __METHOD__ );
+                eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database schema.', __METHOD__ );
             }
             if ( $res && $loadContent )
             {
@@ -1439,7 +1506,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 "DataText" => "Site settings" 
             ), 
             "footer_text" => array( 
-                "DataText" => "Copyright &#169; " . date( 'Y' ) . " <a href=\"http://ez.no\" title=\"eZ Systems\">eZ Systems AS</a> (except where otherwise noted). All rights reserved." 
+                "DataText" => "Copyright &#169; " . date( 'Y' ) . " <a href=\"https://se7enx.com\" title=\"7x\">7x</a> (except where otherwise noted). All rights reserved." 
             ), 
             "hide_powered_by" => array( 
                 "DataInt" => 0 
@@ -1462,7 +1529,12 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
 
     function solutionName()
     {
-        return 'eZWebin';
+        return 'simple';
+    }
+
+    function solutionExtensionName()
+    {
+        return 'sevenx-themes-simple';
     }
 
     function createTranslationSiteAccesses()
@@ -1602,6 +1674,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
     function postInstallAdminSiteaccessINIUpdate( $params = false )
     {
         $siteINI = eZINI::instance( 'site.ini.append.php', 'settings/siteaccess/' . $this->setting( 'admin_siteaccess' ), null, false, null, true );
+        $siteINI->setVariable( "FileSettings", "VarDir", "var/site" );
         $siteINI->setVariable( 'DesignSettings', 'SiteDesign', $this->setting( 'admin_siteaccess' ) );
         $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 
             'admin2', 'admin'
@@ -1613,8 +1686,13 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
     function postInstallUserSiteaccessINIUpdate( $params = false )
     {
         $siteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'user_siteaccess' ), null, false, null, true );
+        $siteINI->setVariable( "SiteSettings", "SiteDescription", "This is an eZ Publish website about online shopping!" );
+        $siteINI->setVariable( "FileSettings", "VarDir", "var/site" );
         $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'main_site_design' ) );
         $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->setting( 'all_siteaccess_list' ) );
+        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 
+            'ezwebin', 'standard', 'base'
+        ) );
         $siteINI->save( false, false, false, false, true, true );
         unset( $siteINI );
     }
@@ -1646,6 +1724,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 'TreeMenu' => array( 
                     'ShowClasses' => array( 
                         'folder', 
+                        'article', 
+                        'link', 
+                        'product', 
                         'user_group', 
                         'documentation_page', 
                         'event_calendar', 
@@ -2093,7 +2174,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         );
         $settings['SiteSettings'] = array( 
             'SiteList' => $this->setting( 'all_siteaccess_list' ), 
-            'DefaultAccess' => $this->languageNameFromLocale( $this->setting( 'primary_language' ) ), 
+            // 'DefaultAccess' => $this->languageNameFromLocale( $this->setting( 'primary_language' ) ),
+            'DefaultAccess' => $this->setting( 'user_siteaccess' ), 
             'RootNodeDepth' => 1 
         );
         $settings['ExtensionSettings'] = array( 
@@ -2614,11 +2696,13 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                     'JavaScriptList' => array( 
                         'insertmedia.js'
                     ) 
-                ), 
+                )
+/* , 
                 'StylesheetSettings' => array( 
                     'CSSFileList' => array( 
                     ) 
-                ) 
+                )
+*/
             ) 
         );
         return $settings;
@@ -2690,7 +2774,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 'MenuContentSettings' => array( 
                     'TopIdentifierList' => array( 
                         'folder', 
-                        'feedback_form' 
+                        'feedback_form', 
+                        'article', 
+                        'link' 
                     ), 
                     'LeftIdentifierList' => array( 
                         'folder', 
