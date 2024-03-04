@@ -5,7 +5,7 @@ Source=node/view/embed.tpl
 MatchFile=full/folder.tpl
 Subdir=templates
 Match[class_identifier]=folder
-Match[node]=226
+Match[node]=67
 
 [full_video]
 Source=node/view/full.tpl
