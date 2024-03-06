@@ -40,6 +40,7 @@
     <link rel="stylesheet" href={"javascript/splide/css/splide.min.css"|ezdesign()} >*}
     <!-- custom styles -->
     {include uri='design:page_head_style.tpl'}
+    {include uri='design:page_head_script.tpl'}
 </head>
 {* To simplify IE css targeting. IE9 conforms, so threat as rest *}
 <!--[if lt IE 7 ]><body class="ie6"><![endif]-->
@@ -166,8 +167,6 @@
       </div>
     </div>
     <!-- scroll to top ends -->
-
-    {include uri='design:page_head_script.tpl'}
 
     <!-- Google tag (gtag.js) -->
     {'false'|bc_ga_urchin()}
