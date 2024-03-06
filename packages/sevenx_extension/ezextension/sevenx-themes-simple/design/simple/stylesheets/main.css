@@ -806,7 +806,7 @@ input:not([type="checkbox"], [type="radio"]) {
   border: 1px solid rgba(var(--7x-very-dark-gray) / var(--7x-border-opacity));
   border-radius: 0.25rem;
   transition: var(--7x-transition-duration) ease-in-out;
-  width: 100%;
+  /* width: 100%; */
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
@@ -1108,6 +1108,17 @@ div.split div.three-center {
 div.content-view-full div.class-frontpage div.columns-frontpage {
   padding: unset;
 }
+
+body.floating-wt div#ezwt {
+  position: relative;
+  z-index: 9999;
+  top: -6.6rem;
+  left: 0px;
+  -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
 /*========== existing styles: END ==========*/
 
 /*========== magnific popup: START ==========*/
