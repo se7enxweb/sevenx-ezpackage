@@ -14,7 +14,7 @@
     </groups>
     <id>1</id>
     <created>1024392098</created>
-    <modified>1709215627</modified>
+    <modified>1712046643</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -123,6 +123,18 @@
         <default-value type="empty"/>
         <use-seconds>0</use-seconds>
       </datatype-parameters>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>361</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>8</placement>
+      <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>
 </content-class>

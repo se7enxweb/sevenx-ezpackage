@@ -8,13 +8,13 @@
   <url-alias-pattern></url-alias-pattern>
   <remote>
     <site-url>http://alpha.se7enx.com/</site-url>
-    <url>http://alpha.se7enx.com/class/view/45</url>
+    <url>http://alpha.se7enx.com/class/view/46</url>
     <groups>
       <group id="3" name="Media"/>
     </groups>
-    <id>45</id>
-    <created>1709023118</created>
-    <modified>1709215389</modified>
+    <id>46</id>
+    <created>1709755759</created>
+    <modified>1712046422</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -27,7 +27,7 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>331</id>
+        <id>336</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>name</identifier>
@@ -42,7 +42,7 @@
     </attribute>
     <attribute datatype="ezmedia" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>332</id>
+        <id>337</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"File";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>file</identifier>
@@ -57,7 +57,7 @@
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>333</id>
+        <id>338</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Caption";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>caption</identifier>
@@ -71,19 +71,19 @@
     </attribute>
     <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>347</id>
+        <id>339</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>tags</identifier>
       <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category></category>
-      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>4</placement>
       <datatype-parameters/>
     </attribute>
     <attribute datatype="ezsrrating" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>334</id>
+        <id>340</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Star Rating";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>star_rating</identifier>
@@ -91,6 +91,18 @@
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>5</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>353</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>6</placement>
       <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>

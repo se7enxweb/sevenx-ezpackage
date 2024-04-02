@@ -8,13 +8,13 @@
   <url-alias-pattern></url-alias-pattern>
   <remote>
     <site-url>http://alpha.se7enx.com/</site-url>
-    <url>http://alpha.se7enx.com/class/view/33</url>
+    <url>http://alpha.se7enx.com/class/view/34</url>
     <groups>
       <group id="3" name="Media"/>
     </groups>
-    <id>33</id>
-    <created>1709023117</created>
-    <modified>1709023117</modified>
+    <id>34</id>
+    <created>1709755758</created>
+    <modified>1709755758</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -27,7 +27,7 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>280</id>
+        <id>283</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>name</identifier>
@@ -42,7 +42,7 @@
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>281</id>
+        <id>284</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>description</identifier>
@@ -56,7 +56,7 @@
     </attribute>
     <attribute datatype="ezmedia" required="true" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>282</id>
+        <id>285</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"File";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>file</identifier>
@@ -71,7 +71,7 @@
     </attribute>
     <attribute datatype="ezkeyword" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>283</id>
+        <id>286</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>tags</identifier>

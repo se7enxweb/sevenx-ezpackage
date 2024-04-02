@@ -2,19 +2,19 @@
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="path" sort-order="1">
   <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Feedback form";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>feedback_form</identifier>
-  <serialized-description-list>a:0:{}</serialized-description-list>
+  <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
   <remote-id>df0257b8fc55f6b8ab179d6fb915455e</remote-id>
   <object-name-pattern>&lt;name&gt;</object-name-pattern>
   <url-alias-pattern></url-alias-pattern>
   <remote>
     <site-url>http://alpha.se7enx.com/</site-url>
-    <url>http://alpha.se7enx.com/class/view/22</url>
+    <url>http://alpha.se7enx.com/class/view/23</url>
     <groups>
       <group id="1" name="Content"/>
     </groups>
-    <id>22</id>
-    <created>1709023116</created>
-    <modified>1709023116</modified>
+    <id>23</id>
+    <created>1709755757</created>
+    <modified>1712046600</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -27,11 +27,11 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>230</id>
+        <id>233</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>name</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>1</placement>
@@ -42,11 +42,11 @@
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>231</id>
+        <id>234</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>description</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>2</placement>
@@ -56,11 +56,11 @@
     </attribute>
     <attribute datatype="ezstring" required="true" searchable="false" information-collector="true" translatable="false">
       <remote>
-        <id>232</id>
+        <id>235</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Sender name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>sender_name</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>3</placement>
@@ -71,11 +71,11 @@
     </attribute>
     <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
       <remote>
-        <id>233</id>
+        <id>236</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Subject";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>subject</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>4</placement>
@@ -86,11 +86,11 @@
     </attribute>
     <attribute datatype="eztext" required="true" searchable="true" information-collector="true" translatable="true">
       <remote>
-        <id>234</id>
+        <id>237</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Message";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>message</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>5</placement>
@@ -100,11 +100,11 @@
     </attribute>
     <attribute datatype="ezemail" required="true" searchable="false" information-collector="true" translatable="false">
       <remote>
-        <id>235</id>
+        <id>238</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Email";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>email</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>6</placement>
@@ -112,14 +112,26 @@
     </attribute>
     <attribute datatype="ezemail" required="false" searchable="false" information-collector="false" translatable="false">
       <remote>
-        <id>236</id>
+        <id>239</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Recipient";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>recipient</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>7</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>360</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>8</placement>
       <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>
