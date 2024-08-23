@@ -8,13 +8,13 @@
   <url-alias-pattern></url-alias-pattern>
   <remote>
     <site-url>http://alpha.se7enx.com/</site-url>
-    <url>http://alpha.se7enx.com/class/view/44</url>
+    <url>http://alpha.se7enx.com/class/view/45</url>
     <groups>
       <group id="3" name="Media"/>
     </groups>
-    <id>44</id>
-    <created>1709023118</created>
-    <modified>1709023118</modified>
+    <id>45</id>
+    <created>1709755759</created>
+    <modified>1709755759</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -27,7 +27,7 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>328</id>
+        <id>333</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>name</identifier>
@@ -42,7 +42,7 @@
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>329</id>
+        <id>334</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>description</identifier>
@@ -56,7 +56,7 @@
     </attribute>
     <attribute datatype="ezmedia" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>330</id>
+        <id>335</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"File";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>file</identifier>

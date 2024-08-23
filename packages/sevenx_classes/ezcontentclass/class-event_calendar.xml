@@ -2,19 +2,19 @@
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="path" sort-order="1">
   <serialized-name-list>a:2:{s:6:"eng-US";s:14:"Event calendar";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>event_calendar</identifier>
-  <serialized-description-list>a:0:{}</serialized-description-list>
+  <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
   <remote-id>020cbeb6382c8c89dcec2cd406fb47a8</remote-id>
   <object-name-pattern>&lt;short_title|title&gt;</object-name-pattern>
   <url-alias-pattern></url-alias-pattern>
   <remote>
     <site-url>http://alpha.se7enx.com/</site-url>
-    <url>http://alpha.se7enx.com/class/view/41</url>
+    <url>http://alpha.se7enx.com/class/view/42</url>
     <groups>
       <group id="1" name="Content"/>
     </groups>
-    <id>41</id>
-    <created>1709023118</created>
-    <modified>1709023118</modified>
+    <id>42</id>
+    <created>1709755759</created>
+    <modified>1712046838</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -27,11 +27,11 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>318</id>
+        <id>323</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:10:"Full Title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>title</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>1</placement>
@@ -42,11 +42,11 @@
     </attribute>
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>319</id>
+        <id>324</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Short Title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>short_title</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>2</placement>
@@ -57,11 +57,11 @@
     </attribute>
     <attribute datatype="ezselection" required="true" searchable="false" information-collector="false" translatable="false">
       <remote>
-        <id>320</id>
+        <id>325</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:4:"View";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>view</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";s:0:"";}</serialized-description-list>
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>3</placement>
@@ -72,6 +72,18 @@
         </options>
         <is-multiselect>0</is-multiselect>
       </datatype-parameters>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>367</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>
 </content-class>

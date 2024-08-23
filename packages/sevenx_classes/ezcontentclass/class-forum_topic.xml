@@ -8,13 +8,13 @@
   <url-alias-pattern></url-alias-pattern>
   <remote>
     <site-url>http://alpha.se7enx.com/</site-url>
-    <url>http://alpha.se7enx.com/class/view/38</url>
+    <url>http://alpha.se7enx.com/class/view/39</url>
     <groups>
       <group id="1" name="Content"/>
     </groups>
-    <id>38</id>
-    <created>1709023117</created>
-    <modified>1709023117</modified>
+    <id>39</id>
+    <created>1709755758</created>
+    <modified>1709755758</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -27,7 +27,7 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>306</id>
+        <id>311</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Subject";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>subject</identifier>
@@ -42,7 +42,7 @@
     </attribute>
     <attribute datatype="eztext" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>307</id>
+        <id>312</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Message";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>message</identifier>
@@ -56,7 +56,7 @@
     </attribute>
     <attribute datatype="ezboolean" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>308</id>
+        <id>313</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Sticky";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>sticky</identifier>
@@ -70,7 +70,7 @@
     </attribute>
     <attribute datatype="ezsubtreesubscription" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>309</id>
+        <id>314</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Notify me about updates";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>notify_me</identifier>

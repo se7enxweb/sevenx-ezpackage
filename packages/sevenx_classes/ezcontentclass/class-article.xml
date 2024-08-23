@@ -13,8 +13,8 @@
       <group id="1" name="Content"/>
     </groups>
     <id>16</id>
-    <created>1709023116</created>
-    <modified>1709215540</modified>
+    <created>1709755757</created>
+    <modified>1712046487</modified>
     <creator>
       <user-id>14</user-id>
       <user-login>admin</user-login>
@@ -111,13 +111,13 @@
     </attribute>
     <attribute datatype="ezobjectrelationlist" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>348</id>
+        <id>189</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Image";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>image</identifier>
       <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category></category>
-      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>7</placement>
       <datatype-parameters>
         <default-placement node-id="51"/>
@@ -194,6 +194,18 @@
       <category></category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>12</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>355</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>13</placement>
       <datatype-parameters/>
     </attribute>
   </ezcontentclass-attri:attributes>

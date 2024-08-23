@@ -98,7 +98,10 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'bcgooglesitemaps', 
             'bcwebsitestatistics', 
             'bccie', 
+            'xrowmetadata', 
             'xrowextract', 
+            'enhancedezbinaryfile', 
+            'enhancedselection2', 
             'bcwebshop', 
             'ezwebin', 
             'ezmultiupload' 
