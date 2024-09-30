@@ -39,8 +39,11 @@
     <item type="ezextension"
           filename="extension-bcwebshop"
           sub-directory="ezextension" />
-      <item type="ezextension"
+    <item type="ezextension"
           filename="extension-sevenx-themes-simple"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-xrowmetadata"
           sub-directory="ezextension" />
   </install>
   <uninstall>
@@ -52,6 +55,9 @@
           sub-directory="ezextension" />
     <item type="ezextension"
           filename="extension-sevenx-themes-simple"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-xrowmetadata"
           sub-directory="ezextension" />
   </uninstall>
 </package>
