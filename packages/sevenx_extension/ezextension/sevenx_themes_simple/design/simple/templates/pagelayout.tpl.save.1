@@ -1,0 +1,182 @@
+{* <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> *}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$site.http_equiv.Content-language|wash}" lang="{$site.http_equiv.Content-language|wash}">
+<head>
+    {def $basket_is_empty   = cond( $current_user.is_logged_in, fetch( shop, basket ).is_empty, 1 )
+        $current_node_id   = first_set( $module_result.node_id, 0 )
+        $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ) )
+        $user_id           = $current_user.contentobject_id}
+
+    {if and( $current_node_id|eq(0), is_set( $module_result.path.0 ) , is_set( $module_result.path[$module_result.path|count|dec].node_id ) )}
+        {set $current_node_id = $module_result.path[$module_result.path|count|dec].node_id}
+    {/if}
+
+    {cache-block keys=array( $uri_string, $basket_is_empty, $user_id )}
+    {def $pagestyle        = 'nosidemenu noextrainfo'
+        $locales          = fetch( 'content', 'translation_list' )
+        $pagerootdepth    = ezini( 'SiteSettings', 'RootNodeDepth', 'site.ini' )
+        $indexpage        = ezini( 'NodeSettings', 'RootNode', 'content.ini' )
+        $infobox_count    = 0
+        $path_normalized  = ''
+        $path_array       = array()
+        $pagedesign_class = fetch( 'content', 'class', hash( 'class_id', 'template_look' ) )
+        $pagedepth        = $module_result.path|count
+        $content_info     = hash()
+    }
+
+    {if $pagedesign_class.object_count|eq( 0 )|not}
+        {def $pagedesign = $pagedesign_class.object_list[1]}
+    {/if}
+
+    {if is_set( $module_result.content_info )}
+        {set $content_info = $module_result.content_info}
+    {/if}
+
+    {include uri='design:page_head.tpl'}
+
+    {def $stylesheets_core = array()}
+    {*set $stylesheets_core = $stylesheets_core|append(concat("stylesheets/ezpublish.minified.css"|ezdesign(no)))*}
+
+    {* set $stylesheets_core = $stylesheets_core|append(concat("stylesheets/core.css"|ezdesign(no)))}
+    {set $stylesheets_core = $stylesheets_core|append(concat("stylesheets/pagelayout.css"|ezdesign(no)))}
+    {set $stylesheets_core = $stylesheets_core|append(concat("stylesheets/content.css"|ezdesign(no)))}
+    {set $stylesheets_core = $stylesheets_core|append(concat("stylesheets/websitetoolbar.css"|ezdesign(no)))}
+    {set $stylesheets_core = $stylesheets_core|append(ezini('StylesheetSettings','ClassesCSS','design.ini')|ezroot(no))}
+    {set $stylesheets_core = $stylesheets_core|append(ezini('StylesheetSettings','SiteCSS','design.ini')|ezroot(no)) *}
+    {foreach $stylesheets_core as $css_file}
+
+    <link rel="stylesheet" id="" href={$css_file} type="text/css" media="all" />
+    {/foreach}
+    {foreach ezini( 'StylesheetSettings', 'CSSFileList', 'design.ini' ) as $css_file}
+
+    <link rel="stylesheet" id="" href={concat( 'stylesheets/', $css_file )|ezdesign} type="text/css" media="all" />
+    {/foreach}
+
+    <link rel="stylesheet" type="text/css" href={"stylesheets/print.css"|ezdesign} media="print" />
+    <!-- IE conditional comments; for bug fixes for different IE versions -->
+    <!--[if IE 5]>     <style type="text/css"> @import url({"stylesheets/browsers/ie5.css"|ezdesign(no)});    </style> <![endif]-->
+    <!--[if lte IE 7]> <style type="text/css"> @import url({"stylesheets/browsers/ie7lte.css"|ezdesign(no)}); </style> <![endif]-->
+    {foreach ezini( 'JavaScriptSettings', 'JavaScriptList', 'design.ini' ) as $script}
+
+    <script language="javascript" type="text/javascript" defer src={concat( 'javascript/', $script )|ezdesign}></script>
+    {/foreach}
+
+    {include uri="design:lightbox/inits.tpl"}
+</head>
+<body>
+  <!-- Header area: START -->
+  <header id="headerMain" class="header-main">
+    {include uri='design:menu/topbar.tpl'}
+    <nav class="navbar-main">
+        <div class="container">
+            <a href={"/"|add_view_parameters|ezurl} title="{ezini('SiteSettings','SiteName')}" class="navbar-brand">
+                {if $pagedesign.data_map.image.content.is_valid|not()}
+                    {ezini('SiteSettings','SiteName')}
+                {else}
+                    <img src={$pagedesign.data_map.image.content[original].full_path|ezroot} alt="{$pagedesign.data_map.image.content[logo].text}" width="{$pagedesign.data_map.image.content[original].width}" height="{$pagedesign.data_map.image.content[original].height}" />
+                {/if}
+            </a>
+            <button type="button" class="navbar-toggle" data-collapse-menu="#navbarCollapse" aria-label="Menu Icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div id="navbarCollapse" class="navbar-collapse">
+                {* include uri='design:menu/multi-dropdown.tpl' *}
+                {include uri='design:menu/dropdown.tpl'}
+            </div>
+        </div>
+    </nav>
+  </header>
+  <!-- Header area: END -->
+
+  <main class="main-sections">
+    <!-- Complete page area: START -->
+    {if $pagerootdepth|not}
+        {set $pagerootdepth = 1}
+    {/if}
+
+    {if and( is_set( $content_info.class_identifier ), ezini( 'MenuSettings', 'HideLeftMenuClasses', 'menu.ini' )|contains( $content_info.class_identifier ) )}
+        {set $pagestyle = 'nosidemenu noextrainfo'}
+    {elseif and( eq( $ui_context, 'edit' ), $uri_string|contains("content/versionview")|not )}
+        {set $pagestyle       = 'nosidemenu noextrainfo'}
+    {elseif eq( $ui_context, 'browse' )}
+        {set $pagestyle       = 'nosidemenu noextrainfo'}
+    {elseif $current_node_id}
+        {if is_set( $module_result.path[$pagerootdepth|dec].node_id )}
+            {set $indexpage = $module_result.path[$pagerootdepth|dec].node_id}
+        {/if}
+        {if is_set( $module_result.path[1] )}
+            {set $infobox_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $current_node_id, 'class_filter_type', 'include', 'class_filter_array', array( 'infobox' ) ) )}
+            {if ne( $infobox_count , 0 ) }
+                {set $pagestyle = 'sidemenu extrainfo'}
+            {else}
+                {set $pagestyle = 'sidemenu noextrainfo'}
+            {/if}
+        {/if}
+    {/if}
+
+    {if is_set($module_result.section_id)}
+        {set $pagestyle = concat( $pagestyle, " section_id_", $module_result.section_id )}
+    {/if}
+
+    {foreach $module_result.path as $index => $path}
+        {if $index|ge($pagerootdepth)}
+            {set $path_array = $path_array|append($path)}
+        {/if}
+        {if is_set($path.node_id)}
+            {set $path_normalized = $path_normalized|append( concat('subtree_level_', $index, '_node_id_', $path.node_id, ' ' ))}
+        {/if}
+    {/foreach}
+
+    <!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
+    {cache-block keys=array( $uri_string, $user_hash, $view_parameters )}
+    {if not( and( is_set( $content_info.class_identifier ),
+            eq( $content_info.class_identifier, 'frontpage' ),
+            and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'sitemap' ) ),
+            and( is_set( $content_info.viewmode ), ne( $content_info.viewmode, 'tagcloud' ) )
+            )
+        )
+    }
+        <!-- Path area: START -->
+        <div id="path">
+            {include uri='design:parts/path.tpl'}
+        </div>
+        <!-- Path area: END -->
+    {/if}
+
+    <!-- Main area content: START -->
+    <div class="container">
+        {$module_result.content}
+    </div>
+    <!-- Main area content: END -->
+
+    {if is_unset($pagedesign)}
+        {if is_unset($pagedesign_class)}
+            {def $pagedesign_class = fetch( 'content', 'class', hash( 'class_id', 'template_look' ) )}
+        {/if}
+        {if $pagedesign_class.object_count|gt( 0 )}
+            {def $pagedesign = $pagedesign_class.object_list[1]}
+        {/if}
+    {/if}
+  </main>
+  <!-- Complete page area: END -->
+
+  <!-- Footer area: START -->
+    {include uri='design:page_footer.tpl'}
+  <!-- Footer area: END -->
+
+  {*
+  {if $pagedesign.data_map.footer_script.has_content}
+    <!--<script language="javascript" type="text/javascript">
+        {$pagedesign.data_map.footer_script.content}
+    </script>-->
+  {/if}
+  *}
+  {/cache-block}
+
+  {'false'|bc_ga_urchin()}
+  {* This comment will be replaced with actual debug report (if debug is on). *}
+  <!--DEBUG_REPORT-->
+</body>
+</html>
