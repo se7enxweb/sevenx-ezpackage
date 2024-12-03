@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="6.0.2-0"
+<package version="6.0.6-0"
          development="false"
          install_type="install">
   <name>sevenx_extension</name>
@@ -8,7 +8,7 @@
   <vendor>7x</vendor>
   <type value="extension" />
   <ezpublish>
-    <version>6.0.0-stable</version>
+    <version>6.0.6-stable</version>
     <named-version>6.0</named-version>
   </ezpublish>
   <packaging>
@@ -21,8 +21,8 @@
   </documents>
   <simple-files />
   <version>
-    <number>6.0.2</number>
-    <release>0-alpha2</release>
+    <number>6.0</number>
+    <release>6.0.6-stable</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
@@ -40,7 +40,7 @@
           filename="extension-bcwebshop"
           sub-directory="ezextension" />
     <item type="ezextension"
-          filename="extension-sevenx-themes-simple"
+          filename="extension-sevenx_themes_simple"
           sub-directory="ezextension" />
     <item type="ezextension"
           filename="extension-xrowmetadata"
@@ -54,7 +54,7 @@
           filename="extension-bcwebshop"
           sub-directory="ezextension" />
     <item type="ezextension"
-          filename="extension-sevenx-themes-simple"
+          filename="extension-sevenx_themes_simple"
           sub-directory="ezextension" />
     <item type="ezextension"
           filename="extension-xrowmetadata"
