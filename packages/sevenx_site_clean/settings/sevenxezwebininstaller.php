@@ -1537,7 +1537,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
 
     function solutionExtensionName()
     {
-        return 'sevenx-themes-simple';
+        return 'sevenx_themes_simple';
     }
 
     function createTranslationSiteAccesses()
