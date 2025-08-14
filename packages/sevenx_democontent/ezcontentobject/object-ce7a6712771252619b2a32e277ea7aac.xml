@@ -18,7 +18,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1232" ezremote:identifier="intro" name="Summary" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph>combined with eZ Publish Enterprise, you can now a system supported all through the stack!</paragraph>
+            <paragraph>combined with Exponential Enterprise, you can now a system supported all through the stack!</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1233" ezremote:identifier="body" name="Body" type="ezxmltext">

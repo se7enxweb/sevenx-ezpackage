@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="6.0-0"
+<package version="6.0.10-0"
          development="false"
          install_type="import">
   <name>sevenx_design_blue</name>
@@ -8,7 +8,7 @@
   <vendor>7x</vendor>
   <type value="sitestyle" />
   <ezpublish>
-    <version>6.0.2-alpha1</version>
+    <version>6.0.10-stable</version>
     <named-version>6.0</named-version>
   </ezpublish>
   <maintainers>
@@ -717,7 +717,7 @@
   </files>
   <version>
     <number>6.0</number>
-    <release>0-alpha1</release>
+    <release>10-stable</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>

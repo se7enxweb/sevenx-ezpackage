@@ -18,7 +18,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="775" ezremote:identifier="intro" name="Summary" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph>Check out the<link href="https://share.se7enx.com/learn/ez-publish/building-native-mobile-applications-with-the-ez-publish-rest-api"> tutorial on building native mobile apps with eZ Publish</link>. </paragraph>
+            <paragraph>Check out the<link href="https://share.se7enx.com/learn/ez-publish/building-native-mobile-applications-with-the-ez-publish-rest-api"> tutorial on building native mobile apps with Exponential</link>. </paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="776" ezremote:identifier="body" name="Body" type="ezxmltext">

@@ -135,10 +135,10 @@
     <!-- main ends -->
 {cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
 
-    {if is_unset($pagedesign)}
+    {* if is_unset($pagedesign)}
         {def $pagedata   = ezpagedata()
              $pagedesign = $pagedata.template_look}
-    {/if}
+    {/if *}
 
     {*<!-- Extra area: START -->
     {if $pagedata.extra_menu}

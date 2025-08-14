@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="176" name="Separate content &amp; design in eZ Publish" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 01 Nov 2007 08:52:05 GMT" ezremote:modified="Tue, 27 Feb 2024 03:33:00 GMT" remote_id="932072228b62943d3d3521e7712b54e9" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="176" name="Separate content &amp; design in Exponential" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 01 Nov 2007 08:52:05 GMT" ezremote:modified="Tue, 27 Feb 2024 03:33:00 GMT" remote_id="932072228b62943d3d3521e7712b54e9" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 27 Feb 2024 03:32:49 GMT" ezremote:modified="Tue, 27 Feb 2024 03:33:00 GMT" initial_language="eng-US">
-      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="Separate content &amp; design in eZ Publish">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="Separate content &amp; design in Exponential">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1050" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>Separate content &amp; design in eZ Publish</text>
+          <text>Separate content &amp; design in Exponential</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1051" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text></text>
@@ -26,7 +26,7 @@
             <section>
               <section>
                 <header>What is content and design?</header>
-                <paragraph>Content is information that is organized and stored in a structured manner by <link href="http://ez.no/ezpublish">eZ Publish</link>. For example, content may be the components of a news article (such as the title, introduction, body, and images) or the properties of a car (such as the model, year, and color).</paragraph>
+                <paragraph>Content is information that is organized and stored in a structured manner by <link href="http://ez.no/ezpublish">Exponential</link>. For example, content may be the components of a news article (such as the title, introduction, body, and images) or the properties of a car (such as the model, year, and color).</paragraph>
                 <paragraph>All information that is stored for the purpose of later retrieval is referred to as content. The presentation of content is determined by the design of a site.</paragraph>
                 <paragraph>While content refers to structured data, design refers to the way the data is visually presented. Design includes the things that make up a web interface: HTML, stylesheets (CSS), images that are not part of the content, typography, fonts, and so on.</paragraph>
                 <paragraph>So, while content deals with storing and structuring data, design dictates how the content should be presented.</paragraph>
@@ -38,7 +38,7 @@
             <section>
               <section>
                 <header>Benefits of a Content Management System</header>
-                <paragraph>The ability to handle the distinction between structuring and displaying content is one of the<link href="http://ez.no/ezpublish/use_ez_publish">key features of eZ Publish</link>. The separation of content and design provides the following benefits:</paragraph>
+                <paragraph>The ability to handle the distinction between structuring and displaying content is one of the<link href="http://ez.no/ezpublish/use_ez_publish">key features of Exponential</link>. The separation of content and design provides the following benefits:</paragraph>
                 <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                   <ul>
                     <li>
@@ -60,8 +60,8 @@
             <section>
               <section>
                 <header>Presenting the content: templates</header>
-                <paragraph>Templates represent the fundamental unit of site design in eZ Publish. For example, a template might dictate that a page should appear with the site's title at the top and with the main content in the middle. When the page is accessed, the Content Management System places the content (the actual title and body text) into the appropriate locations in the template.</paragraph>
-                <paragraph>An eZ Publish template is a custom, extended HTML file that describes how particular types of content should be presented. For example, there is a template for viewing a folder and its contents, a news article, the contents of a <link anchor_name="picturegallery" href="http://ez.no/solutions/digital_media/online_magazines">gallery </link> as thumbnails, <link anchor_name="videoplayer" href="http://ez.no/solutions/digital_media/online_newspapers">media files </link> as list items, <link anchor_name="visitorinteraction" href="http://ez.no/solutions/community_portal">forum posts </link> and so on.</paragraph>
+                <paragraph>Templates represent the fundamental unit of site design in Exponential. For example, a template might dictate that a page should appear with the site's title at the top and with the main content in the middle. When the page is accessed, the Content Management System places the content (the actual title and body text) into the appropriate locations in the template.</paragraph>
+                <paragraph>An Exponential template is a custom, extended HTML file that describes how particular types of content should be presented. For example, there is a template for viewing a folder and its contents, a news article, the contents of a <link anchor_name="picturegallery" href="http://ez.no/solutions/digital_media/online_magazines">gallery </link> as thumbnails, <link anchor_name="videoplayer" href="http://ez.no/solutions/digital_media/online_newspapers">media files </link> as list items, <link anchor_name="visitorinteraction" href="http://ez.no/solutions/community_portal">forum posts </link> and so on.</paragraph>
                 <paragraph>In some cases, you can even have different article templates based on different kinds of articles or where they are located in the content hierarchy. In short, templates are the transforming unit that produces the site layout, either for an entire webpage or some part of that page. The following screenshots illustrate how different templates work together to produce a page.</paragraph>
                 <paragraph>Learn more in<link href="http://ez.no/developer">Developers section</link>.</paragraph>
               </section>
@@ -95,7 +95,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="9f804eee139dcee343dbe4175d14654c" name="Separate content &amp; design in eZ Publish" node-id="178" remote-id="10d57795c986ca61689e6c2c11382eb3" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="9f804eee139dcee343dbe4175d14654c" name="Separate content &amp; design in Exponential" node-id="178" remote-id="10d57795c986ca61689e6c2c11382eb3" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

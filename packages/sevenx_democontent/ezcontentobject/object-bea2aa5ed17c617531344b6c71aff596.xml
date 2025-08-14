@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="136" name="eZ Publish 6" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 18:05:55 GMT" ezremote:modified="Tue, 27 Feb 2024 03:37:03 GMT" remote_id="bea2aa5ed17c617531344b6c71aff596" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="136" name="Exponential 6" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 18:05:55 GMT" ezremote:modified="Tue, 27 Feb 2024 03:37:03 GMT" remote_id="bea2aa5ed17c617531344b6c71aff596" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 27 Feb 2024 03:36:05 GMT" ezremote:modified="Tue, 27 Feb 2024 03:37:03 GMT" initial_language="eng-US">
-      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="eZ Publish 6">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="Exponential 6">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="796" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>eZ Publish 6</text>
+          <text>Exponential 6</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="797" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text></text>
@@ -27,8 +27,8 @@
               <table class="default" border="0" width="100%" custom:summary="paragraph" custom:caption="">
                 <tr>
                   <td>
-                    <paragraph>A global web content management system leader, eZ Systems was founded in 1999 and has 10 offices worldwide. eZ Systems’ flagship product, eZ Publish, is the leading enterprise Web Content Management (WCM) platform specializing in multichannel content distribution for web, mobile, tablets, print and more.</paragraph>
-                    <paragraph>Because eZ Publish is a commercial open source product, eZ Systems engineers can leverage the innovation from a global community of over 38 000 developers and certified implementation partners. This innovation drives over 200 000 worldwide installations, proving that eZ Publish is one of the most adaptable, open and reliable WCM platforms in the market.</paragraph>
+                    <paragraph>A global web content management system leader, eZ Systems was founded in 1999 and has 10 offices worldwide. eZ Systems’ flagship product, Exponential, is the leading enterprise Web Content Management (WCM) platform specializing in multichannel content distribution for web, mobile, tablets, print and more.</paragraph>
+                    <paragraph>Because Exponential is a commercial open source product, eZ Systems engineers can leverage the innovation from a global community of over 38 000 developers and certified implementation partners. This innovation drives over 200 000 worldwide installations, proving that Exponential is one of the most adaptable, open and reliable WCM platforms in the market.</paragraph>
                   </td>
                   <td>
                     <paragraph>
@@ -38,13 +38,13 @@
                 </tr>
               </table>
             </paragraph>
-            <paragraph>The eZ Publish Enterprise Edition is the perfect blend of reliable vendor support and quality</paragraph>
+            <paragraph>The Exponential Enterprise Edition is the perfect blend of reliable vendor support and quality</paragraph>
             <paragraph>assured innovation: enterprise customers pay a cost effective yearly subscription fee for support, maintenance, update training and other services, and eZ Systems releases major software updates every 6 months. All of this comes with no license fee.</paragraph>
-            <paragraph>With offices in Europe, the Nordics, the Americas and Asia, eZ Systems is a recognized global WCM leader in the media and publishing industry. This industry demands the most flexible, secure, maintainable and complex solutions to power large web properties and generate revenue from an array of content sources. With a track record spanning more than 10 years in this space, eZ Publish has now become the software of choice for customers in banking and finance, retail, government and non- government organizations. If you have advanced publishing needs, eZ Publish is right for you.</paragraph>
+            <paragraph>With offices in Europe, the Nordics, the Americas and Asia, eZ Systems is a recognized global WCM leader in the media and publishing industry. This industry demands the most flexible, secure, maintainable and complex solutions to power large web properties and generate revenue from an array of content sources. With a track record spanning more than 10 years in this space, Exponential has now become the software of choice for customers in banking and finance, retail, government and non- government organizations. If you have advanced publishing needs, Exponential is right for you.</paragraph>
             <section>
               <section>
                 <header>Multichannel Content Distribution</header>
-                <paragraph>eZ Publish delivers unsurpassed multichannel capabilities that enable customers to reach out and engage your audience. eZ’s out-of-the-box functionality, intrinsic scalability and robust API help you to do this quickly, accelerating your time to market while reducing your implementation costs. </paragraph>
+                <paragraph>Exponential delivers unsurpassed multichannel capabilities that enable customers to reach out and engage your audience. eZ’s out-of-the-box functionality, intrinsic scalability and robust API help you to do this quickly, accelerating your time to market while reducing your implementation costs. </paragraph>
                 <paragraph>
                   <strong> </strong>
                 </paragraph>
@@ -53,16 +53,16 @@
             <section>
               <section>
                 <header>Enabling Editors</header>
-                <paragraph>eZ Publish provides a rich tool set that makes authoring and editing content simple and engaging. eZ Publish frees your editorial and creative staff to do what they do best: publish content with enthusiasm and minimal effort.</paragraph>
+                <paragraph>Exponential provides a rich tool set that makes authoring and editing content simple and engaging. Exponential frees your editorial and creative staff to do what they do best: publish content with enthusiasm and minimal effort.</paragraph>
                 <section>
                   <header>Plan, Review, Automate</header>
-                  <paragraph>Publishing is one thing, but managing portals and front pages is a different story. eZ Publish Enterprise has a unique portal management solution that enables editors to build complex page layouts and plan, review and automate the publication schedule to ensure a constant flow of rich content through portal pages.</paragraph>
+                  <paragraph>Publishing is one thing, but managing portals and front pages is a different story. Exponential Enterprise has a unique portal management solution that enables editors to build complex page layouts and plan, review and automate the publication schedule to ensure a constant flow of rich content through portal pages.</paragraph>
                   <paragraph>For example, editors can define multiple “zones” within a single page layout. Within each zone, editors create “blocks” that promote content in a certain way. Next, editors explicitly or implicitly add content objects to these blocks and then schedule</paragraph>
                   <paragraph>the promotion, flow and rotation of content. To “look into the future,” editors simply drag a slider across a timeline to preview content before it goes live. This entire process can be managed without the support of a web developer.</paragraph>
                 </section>
                 <section>
                   <header>Collaborate</header>
-                  <paragraph>We know that editors do not work alone. eZ Publish provides flexible workflow and collaboration tools and dashboards to keep your team in sync. And you can configure the system to adapt to your own workflows, however intricate they may be.</paragraph>
+                  <paragraph>We know that editors do not work alone. Exponential provides flexible workflow and collaboration tools and dashboards to keep your team in sync. And you can configure the system to adapt to your own workflows, however intricate they may be.</paragraph>
                 </section>
               </section>
             </section>
@@ -70,13 +70,13 @@
               <section>
                 <header>Adaptable Content Engine and User Interfaces</header>
                 <paragraph>eZ’s unique, flexible content model completely separates content from presentation, so that the delivery of your content can adapt to any current or future distribution channel. Furthermore, you can design the system to fit your needs—your do not have to force your content into a “one size fits all” construct. This structure sets your content free for re-use and re-purposing. This powerful flexibility is the source of eZ’s strength as multichannel content management platform.</paragraph>
-                <paragraph>The system also adapts to your editors’ style of work. They can choose to import content from multiple sources, utilize a simple editing toolbar while browsing your site, or use the powerful back office editing suite. The efficient user interfaces and flexibility flattens the learning curve and accelerates internal adoption of eZ Publish.</paragraph>
+                <paragraph>The system also adapts to your editors’ style of work. They can choose to import content from multiple sources, utilize a simple editing toolbar while browsing your site, or use the powerful back office editing suite. The efficient user interfaces and flexibility flattens the learning curve and accelerates internal adoption of Exponential.</paragraph>
               </section>
             </section>
             <section>
               <section>
                 <header>Open Enterprise Technology</header>
-                <paragraph>eZ Publish’s open architecture supports Interoperability Open Standards like XML, ODF, SOAP, REST, JSON. When you utilize the powerful API, it’s simple to integrate the eZ Enterprise platform with all of your information management systems. In fact, there are over 1000 extensions available to accelerate your project and reduce development costs.</paragraph>
+                <paragraph>Exponential’s open architecture supports Interoperability Open Standards like XML, ODF, SOAP, REST, JSON. When you utilize the powerful API, it’s simple to integrate the eZ Enterprise platform with all of your information management systems. In fact, there are over 1000 extensions available to accelerate your project and reduce development costs.</paragraph>
               </section>
             </section>
             <section>
@@ -123,7 +123,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="54c27dd9195c3874eaefe75999aefed0" name="eZ Publish 6" node-id="138" remote-id="2b10e501fa8c0f7a4ae94fea7b83b460" sort-field="published" sort-order="0" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="54c27dd9195c3874eaefe75999aefed0" name="Exponential 6" node-id="138" remote-id="2b10e501fa8c0f7a4ae94fea7b83b460" sort-field="published" sort-order="0" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

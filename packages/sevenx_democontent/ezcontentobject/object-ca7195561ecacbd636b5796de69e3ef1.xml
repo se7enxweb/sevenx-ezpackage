@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="135" name="Building mobile browser and hybrid applications with eZ Publish" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Fri, 21 Oct 2011 14:06:46 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:48 GMT" remote_id="ca7195561ecacbd636b5796de69e3ef1" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="135" name="Building mobile browser and hybrid applications with Exponential" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Fri, 21 Oct 2011 14:06:46 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:48 GMT" remote_id="ca7195561ecacbd636b5796de69e3ef1" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 27 Feb 2024 03:38:42 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:48 GMT" initial_language="eng-US">
-      <ezobject:object-translation language="eng-US" object_name="Building mobile browser and hybrid applications with eZ Publish">
+      <ezobject:object-translation language="eng-US" object_name="Building mobile browser and hybrid applications with Exponential">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="784" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>Building mobile browser and hybrid applications with eZ Publish</text>
+          <text>Building mobile browser and hybrid applications with Exponential</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="785" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text></text>
@@ -51,7 +51,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4" name="Building mobile browser and hybrid applications with eZ Publish" node-id="137" remote-id="acdb01c7b131f38057d0c777564d4785" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4" name="Building mobile browser and hybrid applications with Exponential" node-id="137" remote-id="acdb01c7b131f38057d0c777564d4785" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>
