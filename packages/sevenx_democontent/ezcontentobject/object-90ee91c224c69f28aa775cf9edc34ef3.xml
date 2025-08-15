@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="117" name="How to manage eZ Publish" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 15:55:45 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:14 GMT" remote_id="90ee91c224c69f28aa775cf9edc34ef3" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="117" name="How to manage Exponential" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 15:55:45 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:14 GMT" remote_id="90ee91c224c69f28aa775cf9edc34ef3" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 27 Feb 2024 03:38:09 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:14 GMT" initial_language="eng-US">
-      <ezobject:object-translation language="eng-US" object_name="How to manage eZ Publish">
+      <ezobject:object-translation language="eng-US" object_name="How to manage Exponential">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="643" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>How to manage eZ Publish</text>
+          <text>How to manage Exponential</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="644" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text></text>
@@ -18,7 +18,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="646" ezremote:identifier="intro" name="Summary" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph>To provide you with full control over your website, eZ Publish has many features that make it easy to manage both content and users.</paragraph>
+            <paragraph>To provide you with full control over your website, Exponential has many features that make it easy to manage both content and users.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="647" ezremote:identifier="body" name="Body" type="ezxmltext">
@@ -67,7 +67,7 @@
                 <paragraph>
                   <embed view="embed" size="original" align="center" object_remote_id="ezoo-9a1aaccfcceb5f0c6deed712dc3e8ad2"/>
                 </paragraph>
-                <paragraph>The eZ Publish access system is multi-level and role-based. This means that you can give a user or a group of users access to a combination of functions across the whole site or within a specific area of the site. For example, you restrict a certain part of a site to community or partner members.</paragraph>
+                <paragraph>The Exponential access system is multi-level and role-based. This means that you can give a user or a group of users access to a combination of functions across the whole site or within a specific area of the site. For example, you restrict a certain part of a site to community or partner members.</paragraph>
               </section>
             </section>
             <section>
@@ -76,7 +76,7 @@
                 <paragraph>
                   <embed view="embed" size="original" align="center" object_remote_id="ezoo-833ab68985a7f8c1684b267b30a559c6"/>
                 </paragraph>
-                <paragraph>eZ Publish comes with an integrated workflow mechanism. An example of this is the built-in collaboration system, which defines an ordered sequence of actions to be executed after a content editor has published an object.</paragraph>
+                <paragraph>Exponential comes with an integrated workflow mechanism. An example of this is the built-in collaboration system, which defines an ordered sequence of actions to be executed after a content editor has published an object.</paragraph>
                 <paragraph>Suppose that your site has a restriction that all content has to go through an editor-in-chief before being published. It can be set as “pending” before being approved to be published. On the other hand, if a pending version is rejected by the editor, it can be set as “rejected”.</paragraph>
                 <paragraph> Another example is the e-commerce engine, which can be used to manage subscriptions on a media site, automating access for paid subscribers to read premium news content, watch videos, and so on.</paragraph>
               </section>
@@ -87,7 +87,7 @@
                 <paragraph>
                   <embed view="embed" size="original" align="center" object_remote_id="ezoo-93e2315c451c7126eae706b473b1c52a"/>
                 </paragraph>
-                <paragraph>Having access to older versions of content enables supervisors or editors-in-chief to check for inconsistency or errors in the content. eZ Publish automatically keeps track of which content changes were made by which users at what time, and provides the option to revert content to a previous version.</paragraph>
+                <paragraph>Having access to older versions of content enables supervisors or editors-in-chief to check for inconsistency or errors in the content. Exponential automatically keeps track of which content changes were made by which users at what time, and provides the option to revert content to a previous version.</paragraph>
               </section>
             </section>
             <section>
@@ -96,7 +96,7 @@
                 <paragraph>
                   <embed view="embed" size="original" align="center" object_remote_id="ezoo-23e06358318331a1c2106d7c33a58418"/>
                 </paragraph>
-                <paragraph>Publishing content is no longer only about publishing articles. Depending on your needs you must define specific content structures for cars, recipes, specific products for your webshop and more. eZ Publish has a flexible content engine that enables administrators to create these content definitions directly through graphical user interfaces.</paragraph>
+                <paragraph>Publishing content is no longer only about publishing articles. Depending on your needs you must define specific content structures for cars, recipes, specific products for your webshop and more. Exponential has a flexible content engine that enables administrators to create these content definitions directly through graphical user interfaces.</paragraph>
               </section>
             </section>
             <section>
@@ -114,7 +114,7 @@
                 <paragraph>
                   <embed view="embed" size="original" align="center" object_remote_id="ezoo-074e119f8e73af31122dbb65c5e2e051"/>
                 </paragraph>
-                <paragraph>One installation of eZ Publish can host many different websites with the possibility to re-use content, functionality and design across the different sites. You can have a continuous overview of all your sites and can even industrialize this deployment via the Site Factory management service in <link href="http://ez.no/support_and_services/ez_publish_premium">eZ Publish Premium </link> subscription services.</paragraph>
+                <paragraph>One installation of Exponential can host many different websites with the possibility to re-use content, functionality and design across the different sites. You can have a continuous overview of all your sites and can even industrialize this deployment via the Site Factory management service in <link href="http://ez.no/support_and_services/ez_publish_premium">Exponential Premium </link> subscription services.</paragraph>
               </section>
             </section>
             <section>
@@ -123,7 +123,7 @@
                 <paragraph>
                   <embed view="embed" size="original" align="center" object_remote_id="ezoo-523ece70d73d5d9181766024536432ac"/>
                 </paragraph>
-                <paragraph>eZ Publish makes it easy for you to create content that will be effectively indexed by search engines. Sitemaps, friendly URLs, and easy management of key XHTML tags are all built-in features.</paragraph>
+                <paragraph>Exponential makes it easy for you to create content that will be effectively indexed by search engines. Sitemaps, friendly URLs, and easy management of key XHTML tags are all built-in features.</paragraph>
               </section>
             </section>
           </section>
@@ -155,7 +155,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3" name="How to manage eZ Publish" node-id="119" remote-id="262d8c936d3757ff81e7bb49392b703f" sort-field="published" sort-order="0" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3" name="How to manage Exponential" node-id="119" remote-id="262d8c936d3757ff81e7bb49392b703f" sort-field="published" sort-order="0" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

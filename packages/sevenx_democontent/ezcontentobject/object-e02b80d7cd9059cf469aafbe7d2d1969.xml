@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="129" name="Adding Siteaccesses in eZ Publish" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Mon, 13 Sep 2010 17:19:17 GMT" ezremote:modified="Mon, 13 Sep 2010 17:19:17 GMT" remote_id="e02b80d7cd9059cf469aafbe7d2d1969" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="129" name="Adding Siteaccesses in Exponential" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Mon, 13 Sep 2010 17:19:17 GMT" ezremote:modified="Mon, 13 Sep 2010 17:19:17 GMT" remote_id="e02b80d7cd9059cf469aafbe7d2d1969" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 13 Sep 2010 17:16:11 GMT" ezremote:modified="Mon, 13 Sep 2010 17:19:17 GMT" initial_language="eng-US">
-      <ezobject:object-translation xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" language="eng-US" object_name="Adding Siteaccesses in eZ Publish">
+      <ezobject:object-translation xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" language="eng-US" object_name="Adding Siteaccesses in Exponential">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="717" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>Lots of Websites, One eZ Publish Installation</text>
+          <text>Lots of Websites, One Exponential Installation</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="718" ezremote:identifier="short_title" name="Short title" type="ezstring">
-          <text>Adding Siteaccesses in eZ Publish</text>
+          <text>Adding Siteaccesses in Exponential</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="719" ezremote:identifier="author" name="Author" type="ezauthor">
           <ezauthor>
@@ -20,9 +20,9 @@
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>This tutorial gives developers the power to extend the features and flexibility of eZ
                             Publish beyond a single website, to having an unlimited number in one installation. At the
-                            end of this tutorial you will have learned how to best leverage eZ Publish's siteaccess
+                            end of this tutorial you will have learned how to best leverage Exponential's siteaccess
                             concept to create multiple websites. It will let you apply this concept through the concrete
-                            case of building two different, multilingual websites on one single eZ Publish instance.
+                            case of building two different, multilingual websites on one single Exponential instance.
                         </paragraph>
           </section>
         </ezobject:attribute>
@@ -30,8 +30,8 @@
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <section>
               <header>Introduction</header>
-              <paragraph>Users of eZ Publish sometimes wonder if it is possible to make use of a single
-                                installation of eZ Publish for multiple websites. The answer is yes—through the power of
+              <paragraph>Users of Exponential sometimes wonder if it is possible to make use of a single
+                                installation of Exponential for multiple websites. The answer is yes—through the power of
                                 the “siteaccess”. In fact, an understanding of siteaccesses gives one the ability to do
                                 much more than just host multiple sites in one installation. With this technique you
                                 can:
@@ -70,9 +70,9 @@
             <section>
               <header>About the author : Greg McAvoy-Jensen</header>
               <paragraph>Greg is the executive director of&amp;nbsp;<link target="_blank" xhtml:title="Granite Horizon" href="http://granitehorizon.com/">
-                                Granite Horizon</link>, one of the largest eZ Publish development firms in the United
-                                States of America. A certified eZ Publish developer, he has served clients and trained
-                                developers on four continents since he started working with eZ Publish in 2003. His wife
+                                Granite Horizon</link>, one of the largest Exponential development firms in the United
+                                States of America. A certified Exponential developer, he has served clients and trained
+                                developers on four continents since he started working with Exponential in 2003. His wife
                                 Heather and he are proud parents of three wonderful children.
                             </paragraph>
             </section>
@@ -105,7 +105,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3" name="Adding Siteaccesses in eZ Publish" node-id="131" remote-id="19ae9fcb7334a0e407b2781920247122" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3" name="Adding Siteaccesses in Exponential" node-id="131" remote-id="19ae9fcb7334a0e407b2781920247122" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

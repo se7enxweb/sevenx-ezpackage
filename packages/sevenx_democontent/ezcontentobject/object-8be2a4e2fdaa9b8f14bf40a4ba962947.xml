@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="132" name="eZ Publish Public API" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Fri, 21 Oct 2011 14:04:03 GMT" ezremote:modified="Tue, 27 Feb 2024 03:39:17 GMT" remote_id="8be2a4e2fdaa9b8f14bf40a4ba962947" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="132" name="Exponential Public API" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Fri, 21 Oct 2011 14:04:03 GMT" ezremote:modified="Tue, 27 Feb 2024 03:39:17 GMT" remote_id="8be2a4e2fdaa9b8f14bf40a4ba962947" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 27 Feb 2024 03:39:13 GMT" ezremote:modified="Tue, 27 Feb 2024 03:39:17 GMT" initial_language="eng-US">
-      <ezobject:object-translation language="eng-US" object_name="eZ Publish Public API">
+      <ezobject:object-translation language="eng-US" object_name="Exponential Public API">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="748" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>eZ Publish Public API</text>
+          <text>Exponential Public API</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="749" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text></text>
@@ -53,7 +53,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4" name="eZ Publish Public API" node-id="134" remote-id="692130a39f1f25da927d394e6dc5d911" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="423b6d20325263abaa2012536cc736a4" name="Exponential Public API" node-id="134" remote-id="692130a39f1f25da927d394e6dc5d911" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

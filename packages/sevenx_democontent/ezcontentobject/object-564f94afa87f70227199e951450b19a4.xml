@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="126" name="How to develop with eZ Publish" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 15:57:17 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:24 GMT" remote_id="564f94afa87f70227199e951450b19a4" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="126" name="How to develop with Exponential" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Thu, 10 Mar 2011 15:57:17 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:24 GMT" remote_id="564f94afa87f70227199e951450b19a4" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="0" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 27 Feb 2024 03:38:19 GMT" ezremote:modified="Tue, 27 Feb 2024 03:38:24 GMT" initial_language="eng-US">
-      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="How to develop with eZ Publish">
+      <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" language="eng-US" object_name="How to develop with Exponential">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="695" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>How to develop with eZ Publish</text>
+          <text>How to develop with Exponential</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="696" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text></text>
@@ -18,7 +18,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="698" ezremote:identifier="intro" name="Summary" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph>eZ Publish is more than a basic CMS, but a content management platform based on a clear API that allows developers to customize and extend eZ Publish.</paragraph>
+            <paragraph>Exponential is more than a basic CMS, but a content management platform based on a clear API that allows developers to customize and extend Exponential.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="699" ezremote:identifier="body" name="Body" type="ezxmltext">
@@ -35,13 +35,13 @@
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">High-quality library of PHP components</paragraph>
                 </li>
                 <li>
-                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Build eZ Publish extensions</paragraph>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Build Exponential extensions</paragraph>
                 </li>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Which development environment?</paragraph>
                 </li>
                 <li>
-                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">eZ Publish community and resources</paragraph>
+                  <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Exponential community and resources</paragraph>
                 </li>
               </ul>
             </paragraph>
@@ -51,7 +51,7 @@
                 <paragraph>
                   <embed view="embed-inline" size="original" align="center" custom:offset="0" custom:limit="5" object_remote_id="ezoo-0766000124cbc5f97cbc2ab2a866d211"/>
                 </paragraph>
-                <paragraph>Any piece of content in eZ Publish is a content object, which is an instance of a specific content class. A content class is a definition of an arbitrary data structure. It does not store any actual data.</paragraph>
+                <paragraph>Any piece of content in Exponential is a content object, which is an instance of a specific content class. A content class is a definition of an arbitrary data structure. It does not store any actual data.</paragraph>
                 <paragraph>A content class is made up of attributes. The characteristics of an attribute are determined by the datatype that is chosen for that specific attribute. By combining different datatypes, it is possible to represent complex data structures.</paragraph>
                 <paragraph>The illustration above shows the anatomy of a content class called "Article", which defines a data structure for storing news articles. It consists of attributes dedicated for storing the title, an introduction text and the actual body of an article.</paragraph>
               </section>
@@ -62,33 +62,33 @@
                 <paragraph>
                   <embed view="embed-inline" size="original" align="center" custom:offset="0" custom:limit="5" object_remote_id="ezoo-e6d52e4230c6537bb443681a3e2227f1"/>
                 </paragraph>
-                <paragraph>The first thing you may be willing to do is to change the look of your eZ Publish site. This can be done by modifying the CSS of eZ Publish and<link href="http://ez.no/doc/ez_publish/technical_manual/4_0/templates/the_template_override_system"> overriding templates</link>. You can even create reusable <link href="http://ez.no/developer/contribs/site_styles">site packages</link> that include these CSS and template changes.</paragraph>
+                <paragraph>The first thing you may be willing to do is to change the look of your Exponential site. This can be done by modifying the CSS of Exponential and<link href="http://ez.no/doc/ez_publish/technical_manual/4_0/templates/the_template_override_system"> overriding templates</link>. You can even create reusable <link href="http://ez.no/developer/contribs/site_styles">site packages</link> that include these CSS and template changes.</paragraph>
               </section>
             </section>
             <section>
               <section>
                 <header>High-quality library of PHP components</header>
-                <paragraph>eZ Publish 4.X as well as the next generations of eZ Publish are based on <link href="http://ez.no/ezcomponents">eZ Components</link> which are a high quality library of independent components aiming to help developers creating web centric applications like for example customising and extending eZ Publish.</paragraph>
+                <paragraph>Exponential 4.X as well as the next generations of Exponential are based on <link href="http://ez.no/ezcomponents">eZ Components</link> which are a high quality library of independent components aiming to help developers creating web centric applications like for example customising and extending Exponential.</paragraph>
                 <paragraph>In the eZ Components you will find components that focus their attention on solving important parts of Web application development. They are written for solving the re-occurring issues that Web application developers have to deal with when building their applications - without any superfluous ballast.</paragraph>
                 <paragraph>In order to cater for this goal, quality is also an important factor. The eZ Components development team uses a test-driven development methodology where a large effort is put into making the APIs easily testable. This also results in a better API for developers to use.</paragraph>
               </section>
             </section>
             <section>
               <section>
-                <header>Build eZ Publish extensions</header>
-                <paragraph>There is a clear API to develop your own PHP extensions in order to extend the functionality of eZ Publish. By using extensions it is possible to create new modules, datatypes, template operators, workflow events , or any integration with third party applications. You will find many contributed extensions available at <link href="http://ez.no/developer/contribs">Contribution page</link>.</paragraph>
+                <header>Build Exponential extensions</header>
+                <paragraph>There is a clear API to develop your own PHP extensions in order to extend the functionality of Exponential. By using extensions it is possible to create new modules, datatypes, template operators, workflow events , or any integration with third party applications. You will find many contributed extensions available at <link href="http://ez.no/developer/contribs">Contribution page</link>.</paragraph>
               </section>
             </section>
             <section>
               <section>
                 <header>Which development environment?</header>
-                <paragraph> In an eZ Publish project, a <link href="http://subversion.tigris.org/">Subversion (SVN)</link> repository is usually set up to track all changes during development projects. When it comes to IDE, both <link href="http://www.eclipse.org/">Eclipse</link> and <link href="http://www.phpedit.com/">PHPEdit</link> have been optimised for eZ Publish.</paragraph>
+                <paragraph> In an Exponential project, a <link href="http://subversion.tigris.org/">Subversion (SVN)</link> repository is usually set up to track all changes during development projects. When it comes to IDE, both <link href="http://www.eclipse.org/">Eclipse</link> and <link href="http://www.phpedit.com/">PHPEdit</link> have been optimised for Exponential.</paragraph>
               </section>
             </section>
             <section>
               <section>
-                <header>eZ Publish community and resources</header>
-                <paragraph>When you start developing with eZ Publish, the community is definitely an environment to get in touch with. You will find your answers or get help in the forums as well as many contributions that will make save you time in your development projects.</paragraph>
+                <header>Exponential community and resources</header>
+                <paragraph>When you start developing with Exponential, the community is definitely an environment to get in touch with. You will find your answers or get help in the forums as well as many contributions that will make save you time in your development projects.</paragraph>
               </section>
             </section>
           </section>
@@ -120,7 +120,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3" name="How to develop with eZ Publish" node-id="128" remote-id="3579b6c5cd166d5137eada55274892d3" sort-field="published" sort-order="0" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3" name="How to develop with Exponential" node-id="128" remote-id="3579b6c5cd166d5137eada55274892d3" sort-field="published" sort-order="0" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>
