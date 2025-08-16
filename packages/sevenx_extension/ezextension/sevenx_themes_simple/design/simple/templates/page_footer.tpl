@@ -3,12 +3,11 @@
     <div class="container">
       <div class="copyright-text">
         {if $pagedesign.data_map.hide_powered_by.data_int|not}
-            Powered by <a href="https://ezpublishlegacy.se7enx.com" title="Exponential CMS Open Source Web Content Management">Exponential CMS{* Open Source Web Content Management *}</a>. 
+            Powered by <a href="https://exponential.se7enx.com" title="Exponential CMS Open Source Web Content Management">Exponential CMS{* Open Source Web Content Management *}</a>. 
         {/if}
-        Copyright &#169; {$startyear} - {currentdate()|datetime( 'custom', '%Y' )} {ezini( 'SiteSettings', 'SiteName', 'site.ini' )}. All rights reserved.
-{*        <br><br><a href="https://x.com/peopleaftergodsownheart" title="instagram.com">
-	<i class="fa-brands fa-x-twitter fa-2xl"></i></a>
-*}
+
+	Copyright &#169; {$startyear} - {currentdate()|datetime( 'custom', '%Y' )} {ezini( 'SiteSettings', 'SiteName', 'site.ini' )}. All rights reserved.
+
        </div>
 
       <div class="poweredby-text">
