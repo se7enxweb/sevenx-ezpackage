@@ -1,6 +1,6 @@
 {
     "name": "se7enxweb/sevenx_themes_simple",
-    "description": "eZ Publish extension which provides for a brand new default design for any ezwebin, ezflow or ezdemo website. Great for all ecommerce websites. Great for smart developers!",
+    "description": "Exponential extension which provides for a brand new default design for any ezwebin, ezflow or ezdemo website. Great for all ecommerce websites. Great for smart developers!",
     "type": "ezpublish-legacy-extension",
     "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "ezpaypal-compatible", "webshop", "extension", "design" ],
     "homepage": "https://github.com/se7enxweb/ezpaypal",
