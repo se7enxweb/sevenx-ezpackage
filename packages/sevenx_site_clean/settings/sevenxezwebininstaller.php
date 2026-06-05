@@ -1370,6 +1370,32 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         $extensionPackage = eZPackage::fetch( $packageName, false, false, false );
         if ( $extensionPackage instanceof eZPackage )
         {
+            if ( $db->databaseName() === 'mongo' )
+            {
+                // MongoDB is schema-less – use the DBA schema file to create
+                // collections and indexes via the eZMongoSchema handler.
+                $dbaFile = $extensionPackage->path() . '/ezextension/' . $extensionName . '/share/db_schema.dba';
+                if ( file_exists( $dbaFile ) )
+                {
+                    $schemaArray = eZDbSchema::read( $dbaFile, true );
+                    if ( is_array( $schemaArray ) )
+                    {
+                        $schemaArray['type']     = 'mongo';
+                        $schemaArray['instance'] = $db;
+                        $dbSchema = eZDbSchema::instance( $schemaArray );
+                        if ( $dbSchema )
+                        {
+                            $res = $dbSchema->insertSchema( array( 'schema' => true, 'data' => false ) );
+                            if ( !$res )
+                            {
+                                eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' MongoDB collections/indexes.', __METHOD__ );
+                            }
+                        }
+                    }
+                }
+                return;
+            }
+
             switch ($db->databaseName())
             {
                 case 'sqlite':
