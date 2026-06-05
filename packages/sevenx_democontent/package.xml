@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package version="6.0.10-0" development="false" install_type="install">
+<package version="6.0.14-0" development="false" install_type="install">
   <name>sevenx_democontent</name>
-  <summary>Products, Solutions, Support, eZ Publish 6, Company
+  <summary>Products, Solutions, Support, Exponential 6, Company
   </summary>
   <description>This package contains the following nodes :&#13;
     Products - subtree&#13;
     Solutions - subtree&#13;
     Training - subtree&#13;
     Support - subtree&#13;
-    eZ Publish 6 - subtree&#13;
+    Exponential 6 - subtree&#13;
     Company - subtree&#13;
   </description>
   <vendor>7x</vendor>
   <type value="contentobject"/>
   <ezpublish>
-    <version>6.0.10-stable</version>
+    <version>6.0.14-stable</version>
     <named-version>6.0</named-version>
   </ezpublish>
   <maintainers>
@@ -116,7 +116,7 @@
  </simple-files>
   <version>
     <number>6.0</number>
-    <release>10-stable</release>
+    <release>14-stable</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
