@@ -9,15 +9,15 @@
                          ezremote:published="Thu, 01 Nov 2007 08:33:32 GMT"
                          ezremote:modified="Mon, 21 Sep 2009 07:44:23 GMT" remote_id="8a9c9c761004866fb458d89910f52bee"
                          class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="frontpage"
-                         ezremote:always_available="1" initial_language="eng-GB">
+                         ezremote:always_available="1" initial_language="eng-US">
             <ezobject:version-list xmlns:ezobject="http://ez.no/object/"
                                    xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" active_version="13">
                 <ezobject:version xmlns:ezremote="http://ez.no/ezobject"
                                   xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:version="13"
                                   ezremote:status="1" ezremote:created="Mon, 21 Sep 2009 07:44:03 GMT"
-                                  ezremote:modified="Mon, 21 Sep 2009 07:44:22 GMT" initial_language="eng-GB">
+                                  ezremote:modified="Mon, 21 Sep 2009 07:44:22 GMT" initial_language="eng-US">
                     <ezobject:object-translation xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"
-                                                 language="eng-GB" object_name="Home">
+                                                 language="eng-US" object_name="Home">
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="200"
                                             ezremote:identifier="name" name="Name" type="ezstring">
                             <text>Home</text>
@@ -37,16 +37,16 @@
                                      xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"
                                      xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
                                 <section>
-                                    <header>Welcome to your new eZ Publish installation</header>
+                                    <header>Welcome to your new Exponential installation</header>
                                     <paragraph align="LEFT">You chose the Website Interface package with a clean install
                                         and no evaluation data, this installation is empty of content.
                                     </paragraph>
                                     <paragraph align="LEFT">This page is the home page of your website, you can access
                                         the administration interface of your website by selecting the appropriate check
                                         box on the<link href="/user/login">login page</link>. You will need to use the
-                                        "admin" username and the password you defined when installing eZ Publish.
+                                        "admin" username and the password you defined when installing Exponential.
                                     </paragraph>
-                                    <paragraph align="LEFT">If you want to use the eZ toolbar for front end editing,
+                                    <paragraph align="LEFT">If you want to use the toolbar for front end editing,
                                         please
                                         <link href="/user/login">login</link>
                                         to the website with the same administrator account or with any account you might
@@ -61,25 +61,22 @@
                                                 <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                     <strong>Configure users and permissions</strong>
                                                     using the administration interface, to grant access and rights to
-                                                    all the team involved in the making of your website. See<link
-                                                        href="http://ez.no/doc/ez_publish/user_manual/4_0/the_administration_interface/the_user_accounts_tab">
-                                                    user manual</link>.
+                                                    all the team involved in the making of your website. See the
+                                                    user manual.
                                                 </paragraph>
                                             </li>
                                             <li>
                                                 <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                     <strong>Customize the layout styles and templates</strong>
                                                     of your website in order to match your branding requirements. See
-                                                    <link href="http://ez.no/doc/ez_publish/technical_manual/4_x/templates">
-                                                        the documentation</link>.
+                                                    the documentation.
                                                 </paragraph>
                                             </li>
                                             <li>
                                                 <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
                                                     <strong>Add additional new features</strong>
-                                                    leveraging existing extensions in the ecosystem. See<link
-                                                        href="http://ez.no/doc/ez_publish/technical_manual/4_x/installation/extensions">
-                                                    the documentation</link>.
+                                                    leveraging existing extensions in the ecosystem. See
+                                                    the documentation.
                                                 </paragraph>
                                             </li>
                                             <li>
@@ -87,28 +84,14 @@
                                                     <strong>Start publishing content</strong>
                                                     in the repository and
                                                     <strong>launch your website.</strong>
-                                                    See<link
-                                                        href="http://ez.no/doc/ez_publish/user_manual/4_0/daily_tasks">
-                                                    the documentation</link>.
+                                                    See the documentation.
                                                 </paragraph>
                                             </li>
                                         </ol>
                                     </paragraph>
-                                    <paragraph align="LEFT">For more information, please visit our<link
-                                            href="http://ez.no/doc">documentation</link>. You might also consider
-                                        exchanging with our community via our
-                                        <link href="http://ez.no/developer/forum">forums</link>
-                                        or browsing existing extensions in the<link href="http://projects.ez.no/">
-                                            community contribution corner</link>.
-                                    </paragraph>
-                                    <paragraph align="LEFT">If you are running a business project, you should consider
-                                        help from eZ Systems professional services such as<link
-                                                href="http://ez.no/support_and_services/training">training</link>,
-                                        <link href="http://ez.no/support_and_services/expert_consulting">consulting
-                                        </link>
-                                        or
-                                        <link href="http://ez.no/support_and_services/ez_publish_premium">Premium</link>
-                                        support and maintenance.
+                                    <paragraph align="LEFT">For more information, please visit the
+                                        documentation, exchange with the community via the forums,
+                                        or browse existing extensions in the community contribution corner.
                                     </paragraph>
                                     <paragraph align="center">
                                         <embed size="medium" view="embed-inline" align="right" custom:offset="0"
@@ -147,15 +130,15 @@
                          ezremote:class_id="30" ezremote:published="Mon, 21 Sep 2009 10:04:37 GMT"
                          ezremote:modified="Mon, 21 Sep 2009 10:04:37 GMT" remote_id="82005c9dbc259a187e1f4784fcd699f8"
                          class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image"
-                         ezremote:always_available="0" initial_language="eng-GB">
+                         ezremote:always_available="0" initial_language="eng-US">
             <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
                 <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1"
                                   ezremote:created="Mon, 21 Sep 2009 10:04:36 GMT"
-                                  ezremote:modified="Mon, 21 Sep 2009 10:04:36 GMT" initial_language="eng-GB">
-                    <ezobject:object-translation language="eng-GB" object_name="original_outlined_ez_logo-mini">
+                                  ezremote:modified="Mon, 21 Sep 2009 10:04:36 GMT" initial_language="eng-US">
+                    <ezobject:object-translation language="eng-US" object_name="original_outlined_ez_logo-mini">
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="222"
                                             ezremote:identifier="name" name="Name" type="ezstring">
-                            <text>eZ Logo</text>
+                            <text>7x Logo</text>
                         </ezobject:attribute>
                         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="223"
                                             ezremote:identifier="caption" name="Caption" type="ezxmltext">
