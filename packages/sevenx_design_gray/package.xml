@@ -3,7 +3,7 @@
          development="false"
          install_type="import">
   <name>sevenx_design_gray</name>
-  <summary>eZ Publish Website Interface design (gray)</summary>
+  <summary>Exponential Website Interface design (gray)</summary>
   <description>This site style package contains the design for the Website Interface</description>
   <vendor>7x</vendor>
   <type value="sitestyle" />
