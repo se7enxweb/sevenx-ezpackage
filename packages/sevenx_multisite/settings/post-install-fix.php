@@ -269,6 +269,21 @@ if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
         // references in ezxmltext fields from package IDs to installed IDs.
         sevenxFixEmbeddedObjectIDs( $packageObjectMap, $packageNodeMap );
 
+        // Everything above rewrote settings and content ids AFTER the package
+        // installer had already populated caches. sevenxFixMenuINIFiles() writes
+        // a fresh menu.ini per siteaccess with this install's node ids, and the
+        // remaps touch content and tags. Nothing else clears eZ's caches at the
+        // end of an install - the installer clears only the explayouts resolver
+        // cache - so the first page views were served from caches built before
+        // these fixes and showed the previous install's node ids. The footer
+        // menu is where this surfaced: its second entry pointed at whatever
+        // content happened to hold the old node id.
+        if ( class_exists( 'eZCache' ) )
+        {
+            eZCache::clearAll();
+            eZDebug::writeNotice( 'Cleared all caches after the post-install fixes', __FUNCTION__ );
+        }
+
         return true;
     }
 }
