@@ -4,7 +4,7 @@
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 15 Feb 2023 08:02:24 GMT" ezremote:modified="Wed, 15 Feb 2023 08:02:33 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Privacy Policy">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="226" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>Datenschutz</text>
+          <text>Privacy Policy</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="227" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
           <text>Datenschutz</text>

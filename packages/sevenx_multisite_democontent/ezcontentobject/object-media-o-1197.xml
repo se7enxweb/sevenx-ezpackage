@@ -4,7 +4,7 @@
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 05:54:17 GMT" ezremote:modified="Tue, 01 Sep 2026 05:54:17 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Contact Us">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="343" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>Kontakt</text>
+          <text>Contact Us</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="344" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
           <text></text>
