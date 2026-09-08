@@ -75,7 +75,7 @@
 }</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5387" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
-          <text>{"id":367,"label":"Finden Sie uns auf Glassador","type":"external","target":"link_new_tab","suffix":null,"url":"https:\/\/www.glassdoor.com\/index.htm"}</text>
+          <text>{"id":367,"label":"Finden Sie uns auf Glassador","type":"external","target":"link_new_tab","suffix":null,"url":"https:\/\/www.glassdoor.com"}</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5388" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
