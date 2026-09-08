@@ -244,6 +244,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_params' => array() 
             ), 
             array( 
+                '_function' => 'createSecondarySiteaccesses', 
+                '_params' => array() 
+            ), 
+            array( 
                 '_function' => 'updateTemplateLookClassAttributes', 
                 '_params' => array() 
             ), 
@@ -2622,7 +2626,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array(
             'admin3', 'admin2', 'admin'
         ) );
-        $siteINI->setVariable( 'SiteAccessSettings', 'RelatedSiteAccessList', $this->setting( 'all_siteaccess_list' ) );
+        $siteINI->setVariable( 'SiteAccessSettings', 'RelatedSiteAccessList', $this->servedSiteaccessList() );
         $siteINI->setVariable( 'FileSettings', 'VarDir', 'var/site' );
         $siteINI->setVariable( 'SiteSettings', 'SiteName', 'Admin' );
         $siteINI->save();
@@ -2641,7 +2645,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $siteINI->setVariable( "SiteSettings", "SiteDescription", "An Exponential multisite installation" );
         $siteINI->setVariable( "FileSettings", "VarDir", "var/site" );
         $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'main_site_design' ) );
-        $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->setting( 'all_siteaccess_list' ) );
+        $siteINI->setVariable( "SiteAccessSettings", "RelatedSiteAccessList", $this->servedSiteaccessList() );
         $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array(
             'ezwebin', 'standard', 'base'
         ) );
@@ -3199,10 +3203,119 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 continue;
             if ( in_array( $siteaccess, (array)$this->setting( 'all_siteaccess_list' ), true ) )
                 continue;
-            if ( file_exists( 'settings/siteaccess/' . $siteaccess . '/site.ini.append.php' ) )
+            if ( $this->secondarySiteaccessIsAvailable( $siteaccess ) )
                 $list[] = $siteaccess;
         }
         return $list;
+    }
+
+    /**
+     * Whether this installation provides the given secondary siteaccess.
+     *
+     * settings/siteaccess/<name> cannot be the only signal: on a first install
+     * it does not exist yet, and the override is generated during CreateSites,
+     * before createSecondarySiteaccesses() writes it in post-install. A theme
+     * extension always ships siteaccess settings for the sites it provides, so
+     * that is the durable signal.
+     */
+    function secondarySiteaccessIsAvailable( $siteaccess )
+    {
+        if ( file_exists( 'settings/siteaccess/' . $siteaccess . '/site.ini.append.php' ) )
+            return true;
+
+        $shipped = glob( 'extension/*/settings/siteaccess/' . $siteaccess . '/site.ini.append.php' );
+        return is_array( $shipped ) && count( $shipped ) > 0;
+    }
+
+    /**
+     * Write settings/siteaccess/<name>/site.ini.append.php for each secondary
+     * siteaccess this installation provides.
+     *
+     * These deliberately carry NO [DatabaseSettings]. The database belongs to
+     * the installation and is written once into
+     * settings/override/site.ini.append.php, so every siteaccess inherits it.
+     * Per-siteaccess database settings previously pinned Bold Agency to a
+     * database the kickstarter never creates, which left the siteaccess
+     * resolving and then failing to connect on a fresh machine.
+     *
+     * Design, SiteName, RootNode and TranslationList come from the theme
+     * extension's own siteaccess settings, so they are not repeated here.
+     * IndexPage, DefaultPage and PathPrefix are filled in later by
+     * fixPackageNodesAndExplayouts(), once the Bold home node id is known -
+     * that step previously skipped these siteaccesses because the file it
+     * wanted to edit did not exist.
+     */
+    function createSecondarySiteaccesses()
+    {
+        $secondary = $this->secondarySiteaccessList();
+        if ( empty( $secondary ) )
+        {
+            eZDebug::writeNotice( 'No secondary siteaccesses provided by this installation', __FUNCTION__ );
+            return true;
+        }
+
+        $related = $this->servedSiteaccessList();
+        $siteaccessUrl = $this->setting( 'siteaccess_urls' );
+        $adminSiteaccess = $this->setting( 'admin_siteaccess' );
+        $loginFormURL = isset( $siteaccessUrl['admin'][$adminSiteaccess]['url'] )
+            ? 'http://' . $siteaccessUrl['admin'][$adminSiteaccess]['url'] . '/user/login'
+            : '';
+        $userSiteaccess = $this->setting( 'user_siteaccess' );
+        $siteURL = isset( $siteaccessUrl['user'][$userSiteaccess]['url'] )
+            ? $siteaccessUrl['user'][$userSiteaccess]['url']
+            : $this->setting( 'host' );
+
+        foreach ( $secondary as $siteaccess )
+        {
+            $dir = 'settings/siteaccess/' . $siteaccess;
+            if ( !file_exists( $dir ) )
+                eZDir::mkdir( $dir, false, true );
+
+            $lines = array(
+                '<?php /* #?ini charset="utf-8"?',
+                '',
+                '# Written by the multisite installer. No [DatabaseSettings] here on',
+                '# purpose: the database is declared once in settings/override and',
+                '# inherited, so this siteaccess follows the installation it lives in.',
+                '',
+                '[InformationCollectionSettings]',
+                'EmailReceiver=',
+                '',
+                '[Session]',
+                'SessionNamePerSiteAccess=disabled',
+                '',
+                '[UserSettings]',
+                'RegistrationEmail=',
+                '',
+                '[SiteAccessSettings]',
+                'RequireUserLogin=false',
+                'ShowHiddenNodes=false',
+                'RelatedSiteAccessList[]',
+            );
+            foreach ( $related as $r )
+                $lines[] = 'RelatedSiteAccessList[]=' . $r;
+            $lines[] = '';
+            $lines[] = '[DesignSettings]';
+            $lines[] = 'SiteDesign=' . $this->setting( 'main_site_design' );
+            $lines[] = 'AdditionalSiteDesignList[]';
+            foreach ( array( 'simple', 'ezwebin', 'standard', 'base' ) as $design )
+                $lines[] = 'AdditionalSiteDesignList[]=' . $design;
+            $lines[] = '';
+            $lines[] = '[SiteSettings]';
+            if ( $siteURL !== '' )
+                $lines[] = 'SiteURL=' . $siteURL;
+            $lines[] = 'LoginPage=embedded';
+            if ( $loginFormURL !== '' )
+                $lines[] = 'AdditionalLoginFormActionURL=' . $loginFormURL;
+            $lines[] = '';
+            $lines[] = '*/ ?>';
+
+            $path = $dir . '/site.ini.append.php';
+            eZFile::create( basename( $path ), dirname( $path ), implode( "\n", $lines ) . "\n" );
+            eZDebug::writeNotice( "Wrote $path without DatabaseSettings", __FUNCTION__ );
+        }
+
+        return true;
     }
 
     /**
