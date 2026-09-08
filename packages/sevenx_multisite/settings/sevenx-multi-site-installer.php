@@ -2360,14 +2360,18 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     }
 
     /**
-     * The language switcher map for the main site: the user siteaccess plus its
-     * translation siteaccesses.
+     * The language switcher map for the administration interface: the user
+     * siteaccess plus its translation siteaccesses.
      *
-     * This belongs in each of those siteaccesses, not in settings/override.
-     * TranslationSA is a whole-array setting, so the copy written to the
-     * override was loaded last and its reset wiped the entries a theme
-     * extension ships for its own siteaccesses, leaving the Bold sites
-     * offering every language on the installation instead of their own two.
+     * Only the admin siteaccess gets one. TranslationSA is what drives the
+     * header language dropdown (see setupTranslationSAList(), which returns
+     * nothing when the setting is absent), and the public sites do not offer
+     * that control - the main site is single-language, and the Bold sites get
+     * their own two-entry map from the theme extension.
+     *
+     * It must not go in settings/override either: TranslationSA is a
+     * whole-array setting, so a copy there is loaded last and its reset wipes
+     * the entries a theme extension ships for its own siteaccesses.
      */
     function mainTranslationSAMap()
     {
@@ -2487,8 +2491,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                                 'Locale' => $locale,
                                 'ContentObjectLocale' => $locale,
                                 'TextTranslation' => $locale != 'eng-GB' ? 'enabled' : 'disabled',
-                                'SiteLanguageList' => $languageList,
-                                'TranslationSA' => $this->mainTranslationSAMap()
+                                'SiteLanguageList' => $languageList
                             ),
                             'SiteSettings' => array(
                                 'SiteName' => $siteTitle,
@@ -3497,9 +3500,9 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // TranslationSA, being a whole-array setting, wiped the switcher
         // entries the theme extension ships for its own siteaccesses.
         //
-        // Each siteaccess declares its own language instead, and its own
-        // switcher map: see mainTranslationSAMap(), siteSiteINISettings(),
-        // adminSiteINISettings() and createTranslationSiteAccesses().
+        // Each siteaccess declares its own language instead. The switcher map
+        // is written only for the admin siteaccess: see mainTranslationSAMap()
+        // and adminSiteINISettings().
         $portMatch = array();
         $hostMatch = array();
         // get info about translation siteacceses.
@@ -3966,8 +3969,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'Locale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
             'ContentObjectLocale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
             'SiteLanguageList' => $this->setting( 'locales' ) ? $this->setting( 'locales' ) : array( $primaryLanguage ? $primaryLanguage : 'eng-US' ),
-            'ShowUntranslatedObjects' => 'disabled', 
-            'TranslationSA' => $this->mainTranslationSAMap() 
+            'ShowUntranslatedObjects' => 'disabled' 
         );
         $settings['SiteAccessSettings'] = array( 
             'RequireUserLogin' => 'false', 
