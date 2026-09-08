@@ -458,22 +458,35 @@ if ( !function_exists( 'sevenxRegenerateURLAliases' ) )
     {
         $db = eZDB::instance();
 
-        $db->query( 'TRUNCATE TABLE ezurlalias_ml' );
-        $db->query( 'TRUNCATE TABLE ezurlalias' );
-        $db->query( 'TRUNCATE TABLE ezurlalias_ml_incr' );
-
+        // The alias tables are deliberately not emptied first.
+        //
+        // updateSubTreePath() recreates a node's alias underneath its parent's
+        // element, so it needs that element to exist. Emptying the tables
+        // removes the root elements the content tree hangs from, and the walk
+        // below then leaves most of the tree without an alias at all: after an
+        // install only the media library, whose aliases are created when its
+        // objects are published, still had any. Every page on the two sites
+        // rendered a system url.
+        //
+        // Measured on an installed database: with the truncate, 85 alias rows
+        // and no alias for either site subtree. Without it, the same walk takes
+        // 85 rows to 282 and covers 98/98 media, 138/139 main site and 16/16
+        // Bold. bin/php/updateniceurls.php --update-nodes, which does not empty
+        // the tables either, produces the same result.
         $rows = $db->arrayQuery( 'SELECT node_id FROM ezcontentobject_tree ORDER BY depth ASC, node_id ASC' );
         $count = 0;
+        $changed = 0;
         foreach ( $rows as $row )
         {
             $node = eZContentObjectTreeNode::fetch( (int)$row['node_id'] );
             if ( !$node )
                 continue;
-            $node->updateSubTreePath();
+            if ( $node->updateSubTreePath() )
+                $changed++;
             $count++;
         }
 
-        eZDebug::writeNotice( "Regenerated URL aliases for $count nodes", __FUNCTION__ );
+        eZDebug::writeNotice( "Regenerated URL aliases for $count nodes, $changed changed", __FUNCTION__ );
         return true;
     }
 }
