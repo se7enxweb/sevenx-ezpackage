@@ -137,8 +137,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'powercontent',
             'sevenx_dse',
             'sevenx_themes_media',
-            'sevenx_themes_simple',
-            'bcwebshop'
+            'sevenx_themes_simple'
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
@@ -2360,6 +2359,36 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         return $homeNode->attribute( 'url_alias' );
     }
 
+    /**
+     * The language switcher map for the main site: the user siteaccess plus its
+     * translation siteaccesses.
+     *
+     * This belongs in each of those siteaccesses, not in settings/override.
+     * TranslationSA is a whole-array setting, so the copy written to the
+     * override was loaded last and its reset wiped the entries a theme
+     * extension ships for its own siteaccesses, leaving the Bold sites
+     * offering every language on the installation instead of their own two.
+     */
+    function mainTranslationSAMap()
+    {
+        $siteaccessTypes = $this->setting( 'siteaccess_urls' );
+        $userSiteaccess = $this->setting( 'user_siteaccess' );
+
+        $map = array();
+        $map[$userSiteaccess] = $this->translationSALabel( $userSiteaccess, $this->setting( 'primary_language' ) );
+
+        if ( isset( $siteaccessTypes['translation'] ) )
+        {
+            foreach ( $siteaccessTypes['translation'] as $name => $urlInfo )
+            {
+                if ( !isset( $map[$name] ) )
+                    $map[$name] = $this->translationSALabel( $name );
+            }
+        }
+
+        return $map;
+    }
+
     function translationSALabel( $siteaccess, $locale = false )
     {
         $labelMap = array(
@@ -2458,7 +2487,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                                 'Locale' => $locale,
                                 'ContentObjectLocale' => $locale,
                                 'TextTranslation' => $locale != 'eng-GB' ? 'enabled' : 'disabled',
-                                'SiteLanguageList' => $languageList
+                                'SiteLanguageList' => $languageList,
+                                'TranslationSA' => $this->mainTranslationSAMap()
                             ),
                             'SiteSettings' => array(
                                 'SiteName' => $siteTitle,
@@ -3099,7 +3129,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings['RegionalSettings'] = array( 
             'Locale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
             'ContentObjectLocale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
-            'SiteLanguageList' => $this->setting( 'locales' ) ? $this->setting( 'locales' ) : array( $primaryLanguage ? $primaryLanguage : 'eng-US' )
+            'SiteLanguageList' => $this->setting( 'locales' ) ? $this->setting( 'locales' ) : array( $primaryLanguage ? $primaryLanguage : 'eng-US' ), 
+            'TranslationSA' => $this->mainTranslationSAMap() 
         );
         return array( 
             'name' => 'site.ini', 
@@ -3228,6 +3259,21 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     }
 
     /**
+     * Remote id of the home node for a secondary siteaccess.
+     *
+     * Node ids differ between installations, so the home node is addressed by
+     * the remote id the content package assigns it.
+     */
+    function secondarySiteaccessHomeRemoteID( $siteaccess )
+    {
+        $map = array(
+            'bold'     => 'media-n-940',
+            'bold_ger' => 'media-n-940'
+        );
+        return isset( $map[$siteaccess] ) ? $map[$siteaccess] : false;
+    }
+
+    /**
      * Write settings/siteaccess/<name>/site.ini.append.php for each secondary
      * siteaccess this installation provides.
      *
@@ -3238,12 +3284,17 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
      * database the kickstarter never creates, which left the siteaccess
      * resolving and then failing to connect on a fresh machine.
      *
-     * Design, SiteName, RootNode and TranslationList come from the theme
-     * extension's own siteaccess settings, so they are not repeated here.
-     * IndexPage, DefaultPage and PathPrefix are filled in later by
-     * fixPackageNodesAndExplayouts(), once the Bold home node id is known -
-     * that step previously skipped these siteaccesses because the file it
-     * wanted to edit did not exist.
+     * SiteName, RootNode and TranslationList come from the theme extension's
+     * own siteaccess settings, so they are not repeated here.
+     *
+     * IndexPage, DefaultPage and PathPrefix are written here, from the home
+     * node resolved by remote id. They cannot be left to the theme extension:
+     * settings/siteaccess outranks extension/<ext>/settings/siteaccess, and
+     * the extension can only ship node ids from whichever installation it was
+     * exported on. Without them the siteaccess falls back to the shipped
+     * default of node 2 and an empty PathPrefix, which serves the content root
+     * instead of the site and turns every prefixed path into an undefined
+     * module.
      */
     function createSecondarySiteaccesses()
     {
@@ -3271,6 +3322,27 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             if ( !file_exists( $dir ) )
                 eZDir::mkdir( $dir, false, true );
 
+            $homeURL = '';
+            $pathPrefix = '';
+            $homeRemoteID = $this->secondarySiteaccessHomeRemoteID( $siteaccess );
+            if ( $homeRemoteID )
+            {
+                $homeNode = eZContentObjectTreeNode::fetchByRemoteID( $homeRemoteID );
+                if ( $homeNode )
+                {
+                    $homeNodeID = (int)$homeNode->attribute( 'node_id' );
+                    $homeURL = $this->homeNodeURL( $homeNodeID );
+                    // convertToAlias derives the prefix from the node name and
+                    // is therefore stable here. url_alias cannot be read yet:
+                    // postInstallRegenerateURLAliases runs much later.
+                    $pathPrefix = eZURLAliasML::convertToAlias( $homeNode->attribute( 'name' ), 'node_' . $homeNodeID );
+                }
+                else
+                {
+                    eZDebug::writeWarning( "Could not resolve home node $homeRemoteID for siteaccess $siteaccess, leaving IndexPage and PathPrefix unset", __FUNCTION__ );
+                }
+            }
+
             $lines = array(
                 '<?php /* #?ini charset="utf-8"?',
                 '',
@@ -3294,6 +3366,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             );
             foreach ( $related as $r )
                 $lines[] = 'RelatedSiteAccessList[]=' . $r;
+            if ( $pathPrefix !== '' )
+                $lines[] = 'PathPrefix=' . $pathPrefix;
             $lines[] = '';
             $lines[] = '[DesignSettings]';
             $lines[] = 'SiteDesign=' . $this->setting( 'main_site_design' );
@@ -3302,6 +3376,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 $lines[] = 'AdditionalSiteDesignList[]=' . $design;
             $lines[] = '';
             $lines[] = '[SiteSettings]';
+            if ( $homeURL !== '' )
+            {
+                $lines[] = 'IndexPage=' . $homeURL;
+                $lines[] = 'DefaultPage=' . $homeURL;
+            }
             if ( $siteURL !== '' )
                 $lines[] = 'SiteURL=' . $siteURL;
             $lines[] = 'LoginPage=embedded';
@@ -3391,13 +3470,18 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             if ( !isset( $translationSA[$name] ) )
                 $translationSA[$name] = $this->translationSALabel( $name );
         }
-        $primaryLanguage = $this->setting( 'primary_language' );
-        $settings['RegionalSettings'] = array( 
-            'Locale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
-            'ContentObjectLocale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
-            'SiteLanguageList' => $this->setting( 'locales' ) ? $this->setting( 'locales' ) : array( $primaryLanguage ? $primaryLanguage : 'eng-US' ),
-            'TranslationSA' => $translationSA 
-        );
+        // No [RegionalSettings] is written to settings/override on purpose.
+        // The override outranks every siteaccess, so anything language-related
+        // set here is forced on all of them: Locale pinned the German Bold
+        // siteaccess to eng-US, which left its content German (that follows
+        // ContentSettings/TranslationList) but every template string English -
+        // 'Search' for 'Suche', 'Accept all' for 'Alles akzeptieren'. And
+        // TranslationSA, being a whole-array setting, wiped the switcher
+        // entries the theme extension ships for its own siteaccesses.
+        //
+        // Each siteaccess declares its own language instead, and its own
+        // switcher map: see mainTranslationSAMap(), siteSiteINISettings(),
+        // adminSiteINISettings() and createTranslationSiteAccesses().
         $portMatch = array();
         $hostMatch = array();
         // get info about translation siteacceses.
@@ -3864,7 +3948,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'Locale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
             'ContentObjectLocale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
             'SiteLanguageList' => $this->setting( 'locales' ) ? $this->setting( 'locales' ) : array( $primaryLanguage ? $primaryLanguage : 'eng-US' ),
-            'ShowUntranslatedObjects' => 'disabled' 
+            'ShowUntranslatedObjects' => 'disabled', 
+            'TranslationSA' => $this->mainTranslationSAMap() 
         );
         $settings['SiteAccessSettings'] = array( 
             'RequireUserLogin' => 'false', 
