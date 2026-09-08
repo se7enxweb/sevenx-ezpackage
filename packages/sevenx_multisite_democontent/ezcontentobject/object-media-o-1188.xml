@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="66" name="What does the selection process look like?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="46" ezremote:published="Mon, 24 Oct 2022 18:43:53 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:22 GMT" remote_id="media-o-1188" class_remote_id="bdc2a54ae5074d9c18b8bc7349375d4e" ezremote:class_identifier="ng_accordion_item" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 07:02:22 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:22 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="What does the selection process look like?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="290" ezremote:identifier="title" name="Meta Data" type="ezstring">
+          <text>What does the selection process look like?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="291" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <paragraph>We have a multi-step selection process that is designed to identify the best candidates for our open positions. First, we accept applications and resumes online or via email. We also encourage potential candidates to include a cover letter and contact information so that we can follow up with them. Next, our team of recruiters reviews all of the applications and identifies the most qualified candidates. These candidates are then invited to participate in a phone screen, which is an opportunity for us to learn more about their skills and experience. Finally, the top candidates are invited to come in for an interview with Bold Agency's hiring manager. This is usually the last step in the process, and it's an opportunity for us to get to know the candidate better and ask any remaining questions we may have.</paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="292" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="Wie läuft das Auswahlverfahren ab?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4113" ezremote:identifier="title" name="Meta Data" type="ezstring">
+          <text>Wie läuft das Auswahlverfahren ab?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4114" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Wir haben ein mehrstufiges Auswahlverfahren, mit dem wir die besten Kandidaten für unsere offenen Stellen ermitteln wollen. Zunächst nehmen wir Bewerbungen und Lebensläufe online oder per E-Mail entgegen. Außerdem bitten wir potenzielle Bewerber, ein Anschreiben und ihre Kontaktdaten beizufügen, damit wir uns mit ihnen in Verbindung setzen können. Anschließend prüft unser Team von Personalverantwortlichen alle Bewerbungen und ermittelt die am besten qualifizierten Bewerber. Diese Bewerber werden dann zu einem Telefongespräch eingeladen, bei dem wir mehr über ihre Fähigkeiten und Erfahrungen erfahren können. Schließlich werden die besten Kandidaten zu einem Vorstellungsgespräch mit dem Personalleiter der Bold Agency eingeladen. Dies ist in der Regel der letzte Schritt im Prozess und bietet uns die Gelegenheit, den Kandidaten besser kennenzulernen und alle noch offenen Fragen zu stellen.</paragraph>
+          </section>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-948" name="What does the selection process look like?" node-id="68" remote-id="media-n-950" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

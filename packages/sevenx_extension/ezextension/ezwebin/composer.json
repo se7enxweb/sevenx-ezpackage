@@ -1,22 +1,22 @@
 {
-    "name": "ezsystems/ezwebin-ls-extension",
+    "name": "se7enxweb/ezwebin",
     "description": "eZ Publish Legacy website interface extension",
     "type": "ezpublish-legacy-extension",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "eZ Publish dev-team & eZ Community",
-            "homepage": "https://github.com/ezsystems/ezwebin-extension"
+            "homepage": "https://github.com/se7enxweb/ezwebin-extension"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "ezsystems/ezpublish-legacy-installer": "*"
+        "se7enxweb/ezpublish-legacy-installer": "*"
     },
     "suggest": {
-        "ezsystems/ezwt-ls-extension": "~5.3",
-        "ezsystems/ezstarrating-ls-extension": "~5.3",
-        "ezsystems/ezgmaplocation-ls-extension": "~5.3"
+        "se7enxweb/ezwt-ls-extension": "~5.3",
+        "se7enxweb/ezstarrating-ls-extension": "~5.3",
+        "se7enxweb/ezgmaplocation-ls-extension": "~5.3"
     },
     "extra": {
         "ezpublish-legacy-extension-name": "ezwebin"

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="1194" name="Art Director" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="228" ezremote:published="Mon, 24 Oct 2022 20:10:15 GMT" ezremote:modified="Mon, 13 Feb 2023 12:01:00 GMT" remote_id="media-o-1194" class_remote_id="47a8aec1ed59550174e050f714c95011" ezremote:class_identifier="ng_job_position" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 13 Feb 2023 12:00:23 GMT" ezremote:modified="Mon, 13 Feb 2023 12:01:00 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" language="eng-US" object_name="Art Director">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26050" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Art Director</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26051" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26052" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="2d7e131ed85243fb63cc48f47a22b7f1" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26053" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26054" ezremote:identifier="job_location" name="Location" type="ezstring">
+          <text>London</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26055" ezremote:identifier="engagement_type" name="Engagement type" type="ezstring">
+          <text>Vollzeit</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26056" ezremote:identifier="application_deadline" name="Application deadline" type="ezdatetime">
+          <date_time>Wed, 31 Dec 2025 11:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="26057" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Wir suchen einen kreativen Art Director, der gerne in einem schnelllebigen Umfeld arbeitet und die Herausforderung liebt, herauszufinden, was beim Verbraucher "Klick" macht. Sie werden mit einem designaffinen Team zusammenarbeiten, um ein Gesamtkonzept zu entwickeln.</default:para>
+            <default:para>Ziel ist es, Marketing- und Branding-Strategien in innovative und beeindruckende Kampagnen umzusetzen, die das Zielpublikum stimulieren.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="26058" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="26059" ezremote:identifier="job_overview" name="Job overview" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Als Art Director sind Sie verantwortlich für die Leitung des Kreativteams und die Entwicklung von Konzepten und Designs, die den Zielen unserer Kunden entsprechen. Außerdem sind Sie für die Überwachung der Produktion aller Materialien verantwortlich, von Print bis Digital. Wenn Sie ein strategischer Denker mit einer Leidenschaft für Fitness und einem ausgeprägten Sinn für Kreativität sind, möchten wir von Ihnen hören!</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="26060" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Nachgewiesene Berufserfahrung als Art Director</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Praktische Erfahrung in den Bereichen Logodesign, Typografie, Farbe, Web-Layout-Design, Druckproduktion, Bildauswahl und Verpackungsdesign</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Sicherer Umgang mit InDesign, Photoshop, Illustrator oder anderen visuellen Design- und Wire-Framing-Tools</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Nachgewiesene Fähigkeiten im Grafikdesign mit einem soliden Portfolio</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Fähigkeit, Feedback einzuarbeiten und Anweisungen zu geben/aufzunehmen</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Teamplayer mit guten Kommunikations- und Präsentationsfähigkeiten</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Einschlägige Ausbildung oder Schulung</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Berufserfahrung in der Gesundheits- und Fitnessbranche ist ein Plus</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="26061" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Entwicklung klarer Ideen und Konzepte in Zusammenarbeit mit dem Copywriter</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Anfertigung von Skizzen, Storyboards und Entwürfen zur Visualisierung von Ideen</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Verstehen von Marketinginitiativen, strategischer Positionierung und Zielgruppen</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Zusammenarbeit mit dem übrigen Kreativteam über verschiedene Medien hinweg die Arbeit vom Konzept bis zur endgültigen Ausführung innerhalb der Fristen zu erledigen</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Verwalten und Delegieren von Aufgaben an andere Designer und Erteilen von Anweisungen</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Präsentation fertiger Ideen vor Kunden/Teammitgliedern</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Sie behalten den Überblick über alle Trends und halten Sie sich an bewährte Verfahren</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26063" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-953" name="Art Director" node-id="956" remote-id="media-n-956" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

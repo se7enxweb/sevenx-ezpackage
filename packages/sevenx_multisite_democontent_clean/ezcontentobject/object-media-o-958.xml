@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="958" name="Why Should You Choose Strength Training?" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Mon, 23 Jul 2018 11:24:13 GMT" ezremote:modified="Thu, 24 Sep 2020 08:30:34 GMT" remote_id="media-o-958" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="8">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="8" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:30:25 GMT" ezremote:modified="Thu, 24 Sep 2020 08:30:34 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Why Should You Choose Strength Training?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23498" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Why Should You Choose Strength Training?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23499" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24328" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23500" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23501" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="daa1c931e4161477bc7dbfede18ac69b" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23502" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>If you only had 1 hour a week to exercise, that hour should be spent strength training.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23503" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="23504" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Strength training is resistance training using free weights (e.g. dumbbells), machines, or body weight (e.g. push ups) to improve muscular fitness whereas cardiovascular training is performing an activity rhythmically and continuously maintaining physical exertion (e.g. jogging, swimming, etc).</default:para>
+            <default:para>Traditionally, people only performed strength training if their goal was to build muscle. Leading health organizations now recommend strength training no matter what your goal is because of its wide range of health benefits. Some of these benefits include:</default:para>
+            <default:title ezxhtml:level="2">Increased metabolic rate</default:title>
+            <default:para>
+              <default:emphasis>Short term: noticed within 6 weeks</default:emphasis>
+            </default:para>
+            <default:para>Aside from the leaner and more defined aesthetics that strength training brings, muscle tissue burns more calories at rest than fat tissue. As you develop muscle, you increase your energy needs, resulting in a higher metabolic rate (calories burned at rest). A higher metabolic rate can lead to fat loss and easier weight management.</default:para>
+            <default:para>After any high intensity strength training or cardio training session, your metabolic rate will spike. But with strength training, you will see a prolonged effect derived from muscle development. If you’re committed to your strength training program, you’ll see this effect stick around and improve over time.</default:para>
+            <default:title ezxhtml:level="2">Better body mechanics</default:title>
+            <default:para>
+              <default:emphasis>Medium term: noticed within 6–12 weeks</default:emphasis>
+            </default:para>
+            <default:para>Strength training is about performing movement patterns (e.g. a squat) under progressively heavier resistances to become both psychologically and physically stronger. Many of these movement patterns, such as lunges, hip-hinges, rows, and presses are considered fundamental movement patterns, mimicking the activities we do from day to day. As you progress at the gym, becoming stronger and better at each movement pattern, your everyday activities also become easier and safer.</default:para>
+            <default:para>In one session of strength training, you can target up to 6 movement patterns that benefit everyday activities. Movement patterns in cardio dominant training do not translate as well to daily movement patterns because you would need to incorporate many different cardio focused activities to cover the same daily movement patterns.</default:para>
+            <default:title ezxhtml:level="2">Chronic disease prevention and management</default:title>
+            <default:para>
+              <default:emphasis>Long term: noticed after 12 weeks</default:emphasis>
+            </default:para>
+            <default:para>Strength training is <default:link xlink:href="ezurl://158" xlink:show="new">effective</default:link> at preventing premature death, especially cancer. Chronic diseases like, osteoporosis (lack of bone density) and heart disease are also <default:link xlink:href="ezurl://159" xlink:show="new">less likely</default:link> among people who do strength training.</default:para>
+            <default:para>As more research on strength training is conducted, more evidence is presented around chronic disease prevention and management. The World Health Organization’s <default:link xlink:href="ezurl://160" xlink:show="new">recommends</default:link> at least 2 strength training sessions a week to help mitigate current diseases and help prevent future illnesses from ever starting or becoming life-threatening.</default:para>
+            <default:title ezxhtml:level="2">Cardiovascular crossover training</default:title>
+            <default:para>
+              <default:emphasis>Bonus: you actually get both</default:emphasis>
+            </default:para>
+            <default:para>With the right strength training plan, you can train your cardiovascular health as well. For example, circuit training involves performing multiple different strength training exercises back to back with very little rest in between; this keeps the heart rate elevated for a longer period of time which can contribute to the strengthening of the cardiovascular system. Therefore, circuit training is an effective way to combine both strength training and cardio training and reap the benefits of both.</default:para>
+            <default:para>There are many mental and physical advantages to strength training but it can be complex to do effectively as there are multiple movement patterns to be trained, different set and rep schemes to follow, and different ways to set up a training session. CoachBot considers all these variables, as well as your goals and preferences, to create a strategic plan that is simple and efficient for you to follow, progress, and become a better version of yourself.</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Article credit: <default:link xlink:href="ezurl://127" xlink:show="none">Coachbot</default:link>  / <default:link xlink:href="ezurl://116" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Cover photo: <default:link xlink:href="ezurl://313" xlink:show="none">GMB Monkey</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23506" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23507" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23844" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23508" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23875" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23510" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23511" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Why Should You Choose Strength Training?" node-id="729" remote-id="media-n-729" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

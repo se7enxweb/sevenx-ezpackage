@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="1186" name="Q &amp; A" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="167" ezremote:published="Mon, 24 Oct 2022 18:41:27 GMT" ezremote:modified="Wed, 30 Nov 2022 07:50:34 GMT" remote_id="media-o-1186" class_remote_id="d16e2ce1aa04a16963b9594c634711ad" ezremote:class_identifier="ng_container" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Wed, 30 Nov 2022 07:49:40 GMT" ezremote:modified="Wed, 30 Nov 2022 07:50:34 GMT">
+      <ezobject:object-translation language="eng-US" object_name="Q &amp; A">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26012" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Fragen &amp; Antworten</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-947" name="Q &amp; A" node-id="948" remote-id="media-n-948" sort-field="published" sort-order="1" priority="10"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

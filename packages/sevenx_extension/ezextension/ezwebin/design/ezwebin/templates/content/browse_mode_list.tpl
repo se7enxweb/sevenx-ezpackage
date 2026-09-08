@@ -3,7 +3,7 @@
 <tr>
     <th class="tight">
     {section show=eq( $select_type, 'checkbox' )}
-        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection'|i18n( 'design/ezwebin/content/browse_mode_list' )}" title="{'Invert selection'|i18n( 'design/ezwebin/content/browse_mode_list' )}" onclick="ezjs_toggleCheckboxes( document.browse, '{$select_name}[]' ); return false;" />
+        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection'|i18n( 'design/ezwebin/content/browse_mode_list' )}" title="{'Invert selection'|i18n( 'design/ezwebin/content/browse_mode_list' )}" onclick="ezjs_toggleCheckboxes( document.browse, '{$select_name}[]' ); return false;">
     {section-else}
         &nbsp;
     {/section}
@@ -39,19 +39,19 @@
                                $ignore_nodes_merge|unique|count ) )}
         {section show=is_array( $browse.class_array )}
             {section show=$browse.class_array|contains( $Nodes.item.object.content_class.identifier )}
-                <input type="{$select_type}" name="{$select_name}[]" value="{$Nodes.item[$select_attribute]}" />
+                <input type="{$select_type}" name="{$select_name}[]" value="{$Nodes.item[$select_attribute]}">
             {section-else}
-                <input type="{$select_type}" name="" value="" disabled="disabled" />
+                <input type="{$select_type}" name="" value="" disabled="disabled">
             {/section}
         {section-else}
             {section show=and( or( eq( $browse.action_name, 'MoveNode' ), eq( $browse.action_name, 'CopyNode' ), eq( $browse.action_name, 'AddNodeAssignment' ) ), $Nodes.item.object.content_class.is_container|not )}
-                <input type="{$select_type}" name="{$select_name}[]" value="{$Nodes.item[$select_attribute]}" disabled="disabled" />
+                <input type="{$select_type}" name="{$select_name}[]" value="{$Nodes.item[$select_attribute]}" disabled="disabled">
             {section-else}
-                <input type="{$select_type}" name="{$select_name}[]" value="{$Nodes.item[$select_attribute]}" />
+                <input type="{$select_type}" name="{$select_name}[]" value="{$Nodes.item[$select_attribute]}">
             {/section}
         {/section}
     {section-else}
-        <input type="{$select_type}" name="" value="" disabled="disabled" />
+        <input type="{$select_type}" name="" value="" disabled="disabled">
     {/section}
     {/let}
     </td>

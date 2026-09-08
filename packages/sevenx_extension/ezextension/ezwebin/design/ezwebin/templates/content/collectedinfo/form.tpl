@@ -27,7 +27,7 @@
 
 {/foreach}
 
-<p/>
+<p>
 
 <a href={$node.parent.url|ezurl}>{'Return to site'|i18n('design/ezwebin/collectedinfo/form')}</a>
 

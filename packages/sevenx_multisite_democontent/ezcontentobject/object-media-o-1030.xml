@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="119" name="15 Scrumptious Summer Tomato Recipes You Need to Try!" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Tue, 21 Aug 2018 15:30:57 GMT" ezremote:modified="Thu, 24 Sep 2020 08:41:50 GMT" remote_id="media-o-1030" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:41:38 GMT" ezremote:modified="Thu, 24 Sep 2020 08:41:50 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="15 Scrumptious Summer Tomato Recipes You Need to Try!">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="824" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>15 Scrumptious Summer Tomato Recipes You Need to Try!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="825" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text>15 Scrumptious Summer Tomato Recipes You Need to Try!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="826" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="827" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>15 Scrumptious Summer Tomato Recipes You Need to Try!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="828" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="65b44b6c68add2a3f78d14b9f4ac9d62" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="829" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="a59e7794358ef0ffecc1ce61a648a5a9" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="830" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Tue, 21 Aug 2018 15:14:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="831" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="832" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="833" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Tomatoes of all shapes, colors, sizes are ripe for the picking and I can't seem to get enough of them. I eat my little golden cherry tomatoes straight from the stem while they're still warm from the sun. If you love tomatoes as much as I do, you'll adore the following <strong>15 tomato recipes</strong>. One of my favorite pasta dishes, when the weather is hot, is an Italian dish called <link href="http://www.foodista.com/recipe/PTD4ZZQV/summer-pasta-pasta-l-estate"><strong>Pasta l'Estate</strong></link>, or aptly, Summer Pasta. The pasta is served hot then topped with a deliciously simple chilled tomato sauce. The temperature contrast between the two is both unexpected and refreshing! Give it a try.</paragraph>
+            <paragraph>I also love our <link href="http://www.foodista.com/recipe/NYVZW2MV/tomato-martini"><strong>Tomato Water Martini</strong></link>, a concoction we created ten summers ago where we strain the juice of tomatoes to extract the "water," the light and refreshing essence of the tomato to use in a gin or vodka martini. This is a far cry from a Bloody Mary, so don't expect a heavily seasoned beverage. You'll love it though on a hot evening! From some of our Foodista contributors, we have recipes ranging from a flavorful chilled <link href="http://www.foodista.com/recipe/XBY42KFB/classic-gazpacho-with-spicy-grilled-shrimp"><strong>gazpacho soup that's topped with spicy grilled shrimp</strong></link>, a hearty breakfast of <link href="http://www.foodista.com/recipe/X6DLW5R8/breakfast-boat-with-cheese-bacon-tomatoes"><strong>baguette filled and baked with tomatoes, cheese, and bacon</strong></link>, <strong><link href="http://www.foodista.com/recipe/4GW4G8BG/piedmontese-peppers">Piedmontese-style roasted sweet red peppers</link></strong> stuffed with tomatoes and anchovies, and more! If you're gluten-free, like me, any of these recipes can easily be adapted to suit.</paragraph>
+            <embed object_remote_id="media-o-1031" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/XBY42KFB/classic-gazpacho-with-spicy-grilled-shrimp">
+                <strong>Classic Gazpacho with Spicy Grilled Shrimp</strong>
+              </link>
+              <line/>
+              <line/>
+              <emphasize>Contributed to Foodista by <link href="http://tasteandsee.com/">Taste and See</link></emphasize>
+              <line/>
+            </paragraph>
+            <paragraph>This chilled gazpacho soup is loaded with jalapenos, cucumbers, red peppers, shallots, tomatoes, olive oil, and sherry vinegar, then topped with spicy grilled shrimp. It's a perfect meal on a hot summer day!</paragraph>
+            <embed object_remote_id="media-o-1032" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/X6DLW5R8/breakfast-boat-with-cheese-bacon-tomatoes">
+                <strong>Breakfast Boat with Cheese, Bacon &amp; Tomatoes</strong>
+              </link>
+              <line/>
+              <line/>
+              <emphasize>Contributed to Foodista by <link href="https://www.happyfoodstube.com/">Happy Foods Tube</link></emphasize>
+              <line/>
+            </paragraph>
+            <paragraph>Fill baguettes with cheese, bacon, tomatoes, onions, and eggs, and you have a deliciously hearty breakfast everyone will love!</paragraph>
+            <embed object_remote_id="media-o-1033" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <strong>
+                <link href="http://www.foodista.com/recipe/727C67X3/roasted-swordfish-with-manzanilla-olives-cherry-tomatoes-and-capers">Roasted Swordfish with Manzanilla Olives, Cherry Tomatoes, and Capers</link>
+              </strong>
+            </paragraph>
+            <paragraph>For an easy dinner, serve grilled swordfish steaks atop a simple sauce of simmered tomatoes, Spanish olives, garlic, and capers. Add fresh parsley and lemon juice and serve.</paragraph>
+            <embed object_remote_id="media-o-1034" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/blog/2018/07/24/kachumber-salad-indian-marinated-tomato-and-herb-salad-with-lamb-kebabs">
+                <strong>Kachumber Salad: Indian Marinated Tomato and Herb Salad with Lamb Kebabs</strong>
+              </link>
+            </paragraph>
+            <paragraph>This delicious lime marinated Indian tomato salad features summer's ripest tomatoes. Their sweetness, along with cooling cucumbers, pair beautifully with aromatic spices such as cumin, chile, and masala. Top it with grilled lamb kebabs and serve as a main dish.</paragraph>
+            <embed object_remote_id="media-o-1035" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/VLNYT4NN/tagliatelle-with-burrata-tomatoes-and-pine-nuts">
+                <strong>Tagliatelle with Burrata, Tomatoes, and Pine Nuts</strong>
+              </link>
+              <line/>
+              <line/>
+              <emphasize>Contributed to Foodista by <link href="http://tasteandsee.com/">Taste and See</link></emphasize>
+              <line/>
+            </paragraph>
+            <paragraph>This easy-to-make pasta dish features classic Italian ingredients like tomatoes, pine nuts, and creamy soft burrata cheese (think super soft mozzarella!). It's ready in minutes and oh so good!</paragraph>
+            <embed object_remote_id="media-o-1036" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/4GW4G8BG/piedmontese-peppers">
+                <strong>Piedmontese Stuffed Peppers</strong>
+              </link>
+              <line/>
+              <line/>
+              <emphasize>Contributed to Foodista by <link href="http://foodforaking.co.uk/">Food for a King</link></emphasize>
+              <line/>
+            </paragraph>
+            <paragraph>This Northern Italian dish is perfect as a side dish or entree. Sweet red peppers are stuffed with tomatoes and salty anchovies then roasted until tender. It's a beautiful roasted salad that's so easy to make and so delicious!</paragraph>
+            <embed object_remote_id="media-o-1037" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <strong>
+                <link href="http://www.foodista.com/recipe/8WD7K3MC/cilantro-lime-grilled-shrimp-with-pineapple-salsa">Cilantro Lime Grilled Shrimp with Pineapple Salsa</link>
+              </strong>
+            </paragraph>
+            <paragraph>
+              <emphasize>Contributed to Foodista by <link href="http://tasteandsee.com/">Taste and See</link></emphasize>
+            </paragraph>
+            <paragraph>Tasty shrimp are marinated in garlic, cilantro, and lime, then grilled and topped with a sweet and zesty salsa of pineapple, jalapeno, red onion, and tomatoes.</paragraph>
+            <embed object_remote_id="media-o-1038" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/LQ4MYLM5/panzanella-classic-italian-tomato-salad">
+                <strong>Panzanella - Classic Italian Tomato and Bread Salad</strong>
+              </link>
+              <line/>
+              <line/>
+              <emphasize>Contributed to Foodista by <link href="http://www.discoverdelicious.org/">Discover Delicious</link></emphasize>
+              <line/>
+            </paragraph>
+            <paragraph>Panzanella is a great way to use up stale bread. This classic Italian salad includes chunks of crusty bread, tomatoes, cucumbers, onion, basil, olives, and capers that are dressed in a simple vinaigrette.</paragraph>
+            <embed object_remote_id="media-o-1039" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/DMY8KBB4/creamy-cheesy-ham-tomato-sauce">
+                <strong>Creamy Cheesy Ham Tomato Sauce</strong>
+              </link>
+              <line/>
+              <line/>
+              <emphasize>Contributed to Foodista by <link href="http://www.loavesanddishes.net/">Loaves and Dishes</link></emphasize>
+              <line/>
+            </paragraph>
+            <paragraph>This may not be such a summery dish, but oh is it tasty! Think cheesy, tomatoey ham baked with herbs and wine. Divine!</paragraph>
+            <embed object_remote_id="media-o-1040" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/BZN5QVGY/tomato-corn-and-avocado-salad-with-cilantro-lime-vinaigrette">
+                <strong>Tomato, Corn and Avocado Salad with Cilantro Lime Vinaigrette</strong>
+              </link>
+              <line/>
+              <line/>
+              <emphasize>Contributed to Foodista by <link href="http://www.behindtheplates.com/">Behind the Plates</link></emphasize>
+              <line/>
+            </paragraph>
+            <paragraph>This simple salad packs in some of summer's most popular produce: tomatoes, fresh corn, and avocado. The salad is then tossed in a zesty vinaigrette of lime juice, red wine, olive oil, fresh cilantro, and salt and pepper. It's a great accompaniment to any barbecue menu!</paragraph>
+            <embed object_remote_id="media-o-1041" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/2Q6KDL4Q/fried-mozzarella-balls-with-homemade-tomato-sauce">
+                <strong>Fried Mozzarella Balls with Homemade Tomato Sauce</strong>
+              </link>
+              <line/>
+              <line/>
+              <emphasize>Contributed to Foodista by <link href="https://www.happyfoodstube.com/">Happy Foods Tube</link></emphasize>
+              <line/>
+            </paragraph>
+            <paragraph>These tasty mozzarella balls are the perfect snack for any occasion. Kids love them too! Get some of those little mozzarella balls (bocconcini), coat them in an eggwash and breadcrumbs, freeze, then fry. Serve them up with an easy to make tomato sauce for dipping.</paragraph>
+            <embed object_remote_id="media-o-1042" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <strong>Heirloom Tomato, Basil, and Olive Oil, Wine Sauce over Pasta</strong>
+            </paragraph>
+            <paragraph>
+              <emphasize>Contributed to Foodista by <link href="http://cali-zona.com/">CaliZona</link></emphasize>
+            </paragraph>
+            <paragraph>Some of the most delicious dishes are those consisting of just a few - but high-quality - ingredients. Heirloom tomatoes, fresh basil, garlic, a good olive oil, and a nice dry white wine make the perfect sauce for any pasta.</paragraph>
+            <embed object_remote_id="media-o-1043" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/NYVZW2MV/tomato-martini">
+                <strong>Fresh Tomato Water Martini</strong>
+              </link>
+            </paragraph>
+            <paragraph>We created this Tomato Water Martini recipe by using the strained juice - or what we call the "water" - of plump tomatoes, which gives you the wonderful essence of the fruit. The "water" is different than using the whole pureed tomato juice. The result is wonderfully light yet still packs a punch of tomato goodness! Use gin or vodka and garnish with a slice of tomato and some basil leaves.</paragraph>
+            <embed object_remote_id="media-o-1044" view="embed" align="center" size="medium"/>
+            <paragraph>
+              <link href="http://www.foodista.com/recipe/YKQ5H3TL/ratatouille-with-brie">
+                <strong>Ratatouille With Brie</strong>
+              </link>
+            </paragraph>
+            <paragraph>This easy twist on a classic French country dish combines creamy Brie with squash, zucchini, eggplant, and tomatoes</paragraph>
+            <paragraph>
+              <strong>
+                <link href="http://www.foodista.com/recipe/PTD4ZZQV/summer-pasta-pasta-l-estate">Summer Pasta (Pasta l'Estate)</link>
+              </strong>
+            </paragraph>
+            <paragraph>This Italian pasta recipe celebrates summer with the freshest and ripest tomatoes. It's easy to make and tastes like you've captured the freshness of the season! The uniqueness of this dish is that the pasta is served piping hot and the sauce chilly cold, creating a temperature contrast that is both refreshing and unexpected. Once introduced to the heat of the pasta, the flavors of the tomato and olive oil burst with flavor.</paragraph>
+            <paragraph>
+              <emphasize>
+                <emphasize>Article credit: <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+              </emphasize>
+              <line/>
+              <line/>
+              <emphasize>
+                <emphasize>
+                  <emphasize>
+                    <emphasize>Photo credits: <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link>, <link href="https://unsplash.com/photos/YEGxUZrg6FI?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Davide Ragusa</link></emphasize>
+                  </emphasize>
+                </emphasize>
+              </emphasize>
+              <line/>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="834" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="835" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>61</id-string>
+          <keyword-string>Tomato</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="836" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>38|#55</id-string>
+          <keyword-string>Health|#Vegetables</keyword-string>
+          <parent-string>36|#36</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="837" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="838" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="839" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="840" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="15 Scrumptious Summer Tomato Recipes You Need to Try!" node-id="121" remote-id="media-n-812" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

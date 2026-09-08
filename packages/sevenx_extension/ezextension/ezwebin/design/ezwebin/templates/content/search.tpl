@@ -27,8 +27,8 @@
 </div>
 
 <p>
-    <input class="halfbox" type="text" size="20" name="SearchText" id="Search" value="{$search_text|wash}" />
-    <input class="button" name="SearchButton" type="submit" value="{'Search'|i18n('design/ezwebin/content/search')}" />
+    <input class="halfbox" type="text" size="20" name="SearchText" id="Search" value="{$search_text|wash}">
+    <input class="button" name="SearchButton" type="submit" value="{'Search'|i18n('design/ezwebin/content/search')}">
 </p>
 
     {let adv_url=concat('/content/advancedsearch/',$search_text|count_chars()|gt(0)|choose('',concat('?SearchText=',$search_text|urlencode)))|ezurl}

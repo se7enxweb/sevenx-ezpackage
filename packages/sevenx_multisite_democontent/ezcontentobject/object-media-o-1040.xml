@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="227" name="Tomato, Corn and Avocado Salad with Cilantro Lime Vinaigrette" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 21 Aug 2018 15:28:08 GMT" ezremote:modified="Thu, 24 Sep 2020 09:09:35 GMT" remote_id="media-o-1040" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 09:08:29 GMT" ezremote:modified="Thu, 24 Sep 2020 09:09:35 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Tomato, Corn and Avocado Salad with Cilantro Lime Vinaigrette">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2280" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Tomato, Corn and Avocado Salad with Cilantro Lime Vinaigrette</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2281" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2282" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="052ca97fba5b669d140a3218e37987b0" alternative-text=""/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Tomato, Corn and Avocado Salad with Cilantro Lime Vinaigrette" node-id="229" remote-id="6ec9f412f3f2e45e63d3d50b10208f24" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

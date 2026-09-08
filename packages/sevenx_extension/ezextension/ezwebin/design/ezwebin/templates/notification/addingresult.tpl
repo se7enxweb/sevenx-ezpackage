@@ -25,7 +25,7 @@
 
 <div class="buttonblock">
 <form method="post" action={$redirect_url|ezurl}>
-    <input class="button" type="submit" name="OK" value="{'OK'|i18n('design/ezwebin/notification/addingresult')}" />
+    <input class="button" type="submit" name="OK" value="{'OK'|i18n('design/ezwebin/notification/addingresult')}">
 </form>
 </div>
 

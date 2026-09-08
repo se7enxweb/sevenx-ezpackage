@@ -92,7 +92,7 @@
     {if $daymode}
     <td  class="ezagenda_month_label"><h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")}</h2></td>
     {else}
-    <td class="ezagenda_month_label"><h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%M<br />%y")}</h2></td>
+    <td class="ezagenda_month_label"><h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%M<br>%y")}</h2></td>
     {/if}
     <td class="ezagenda_month_info">
     

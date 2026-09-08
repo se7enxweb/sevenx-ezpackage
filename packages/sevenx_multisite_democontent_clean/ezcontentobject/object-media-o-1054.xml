@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="1054" name="Beginner Running Tips: When Does Running Become Fun?" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="211" ezremote:published="Wed, 22 Aug 2018 08:36:12 GMT" ezremote:modified="Thu, 24 Sep 2020 08:25:14 GMT" remote_id="media-o-1054" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="8">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="8" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:25:06 GMT" ezremote:modified="Thu, 24 Sep 2020 08:25:14 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Beginner Running Tips: When Does Running Become Fun?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24830" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Beginner Running Tips: When Does Running Become Fun?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24831" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24832" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1056"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24833" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24834" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="489824afae66f301cb0e2bcdedf6b814" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24835" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="d171447a7a9d7ea13e65814da99ffa07" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24836" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Wed, 22 Aug 2018 08:32:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24837" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24838" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>For the past six weeks I’ve been co-coaching a beginner 5K group. </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="24839" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>The group has been improving steadily – bodies are getting stronger, lungs are not struggling as much, early aches and pains are slowly resolving. They’ve been doing great, and most are right where we want them to be at this point in the program.</default:para>
+            <default:para>Most of the runners in the group will acknowledge that their fitness has improved since that chilly first run in early April. Running is still not easy, but it’s easier than it was a month ago. However, one of the comments that we’ve heard a few times recently goes something along the lines of “<default:emphasis>I’m feeling fitter, but I still can’t say that I’m enjoying running</default:emphasis>.” Or more simply “<default:emphasis>When does running become fun?</default:emphasis>”</default:para>
+            <default:para>My first response is that running will become more fun as your fitness continues to improve and your body gets stronger. One of the biggest things that new runners have to deal with is the fact that running can hurt. It challenges the body in a lot of new ways, and until you adapt it may not be fun. Patience is critical, as is a gradual approach. A lot of people take up running but don’t stick with it – I suspect that in most cases this is because they try to do too much, too soon. They try to run too far or too fast, and their body simply isn’t ready for that. Running starts to hurt, it’s not fun, and they quit. So the first part of the answer is to give yourself time – running will become more fun when your runs are less of a struggle, and this comes with increased strength and fitness. It doesn’t happen overnight.</default:para>
+            <default:para>Let’s assume that you have taken a gradual approach, and you’re at a point where you feel like running has gotten easier. But you’re still not enjoying it. When does running become fun?</default:para>
+            <default:para>I’ve thought a lot about this question over the past few weeks. At lunch today my wife and I had a long conversation about it. Our answers were quite different. I thought I’d share my own story here.</default:para>
+            <default:title ezxhtml:level="2">What Makes Running Fun For Me</default:title>
+            <default:para>I’ve run off and on for most of my life. I actually vividly remember having to run the 1-mile test on a cinder track back in 7th grade. I was a bit overweight, and I was ashamed at how poorly I did relative to my classmates. That was my initial spur to run. I made it my goal to do better the following year. I honestly don’t remember if I ran a lot, but I know that I lost weight and improved my time in 8th grade.</default:para>
+            <default:para>I played soccer in high school and was quite fit, but I never really loved running. It was more often just a form of “conditioning,” or worse, a punishment served by our coaches. Running was not fun.</default:para>
+            <default:para>I continued to run off and on through college and graduate school, but it was always done in a effort to get my weight down. Whenever I needed to lose a few pounds, I’d start running. It was never really something I did for enjoyment. And it often hurt. Running was not fun.</default:para>
+            <default:para>Things changed in May of 2007. It was again a time when I had put on some extra weight – quite a lot of extra weight, actually, it was the most I’d weighed in my life (that’s me from May 2007 in the photo to the left). It was time to start running again.</default:para>
+            <default:para>The difference between 2007 and all previous running attempts was that I had a goal. My wife and I had signed up for a race that July – it was a four mile race, and I had never run more than three miles in a single run before. It seemed like a monumental challenge.</default:para>
+            <default:para>I’m a very competitive person, but moreso with myself than with other people. I’d never run in a race before, and the fact that I had to perform lit a fire in me. I started running with a purpose, and every run became a new challenge. As my runs started to exceed 3 miles I got a rush from each new single-run distance PR. I started timing myself on my training runs and looking for improvement on my regular routes (which I’d measure with my car odometer – no GPS watch back then for me). Running became a game – what can this fat, out of shape body accomplish? Each run may have been a struggle, but watching my fitness go up and my body weight go down was fun.</default:para>
+            <default:para>Running that first race was an even bigger turning point for me. I now had a formal time attached to a race distance. And I wanted to beat it the following year. I was hooked on races, and hooked on beating myself. I was hooked on leaving that fat, sedentary guy that I had been when I started running in the dust. I was running away from my old self. And it was fun.</default:para>
+            <default:para>It didn’t take long for my runs to get longer, and my racing goals progressed as well. First a half-marathon, then a full marathon, then a BQ, then Boston itself. I faced and met each of those challenges. It was exhilarating – running became fun for me when I realized what my body was capable of if I kept pushing it. And it’s still fun for that reason today. There’s always a new challenge to face, and old PR to beat. There’s always room to improve on what I have done before. This is what drives me – pushing myself and testing my limits are what make running fun.</default:para>
+            <default:para>Now, my competitive nature plays a big role in why running is fun for me. Not everyone shares that competitive fire – for example, my wife loves to run, but she hates to compete. And I’d be remiss if I were to say that competition is the only thing that makes running fun. So I thought I’d list a few more of the things that make running fun:</default:para>
+            <default:para><default:emphasis role="strong">1. The Community.</default:emphasis> The running community is incredibly supportive and full of great people. I’ve made great friends both locally and quite literally around the world as a result of becoming a runner. One of the things I love about coaching beginner 5K groups is that after a few weeks the group becomes a community. It’s a group of people who share similar reservations and are facing similar challenges. Pace groups develop organically and new friends are made. It’s incredibly fun.</default:para>
+            <default:para><default:emphasis role="strong">2. Exploration.</default:emphasis> Yesterday morning I ran 14 miles along a route that I had not done before. It was a beautiful day, and the time passed quickly. I love exploring new places on foot, and running is a great way to do that.</default:para>
+            <default:para><default:emphasis role="strong">3. The Reward.</default:emphasis> Running can be hard, especially for beginners. You may ache, your lungs may burn. But you will almost always feel better after a run. It’s hard to beat the sense of well-being and accomplishment gained from a tough workout. You’ll also feel less guilty about the occasional indulgence in a favorite food or drink if running is part of your regular routine. I tell my 5K group that I run so I can eat what I want, and that’s not far from the truth!</default:para>
+            <default:para><default:emphasis role="strong">4. The Release.</default:emphasis> My wife would tell you that this is what makes running fun for her – the release from the stresses of the daily grind. Fresh air, bright sun, and a bit of sweat can go a long way to reducing your stress-load. It can be hard for a new runner to recognize this since those early runs can each be a monumental struggle, but once your body is adapted, an easy run is one of the best ways to clear your head after a long day.</default:para>
+            <default:para>
+              <default:emphasis role="strong">I’m going to finish up here, but I’d love to hear your answers to this question – what makes running fun for you?</default:emphasis>
+            </default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Article credit: <default:link xlink:href="ezurl://118" xlink:show="none">Runblogger</default:link> / <default:link xlink:href="ezurl://117" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Cover photo: <default:link xlink:href="ezurl://323" xlink:show="none">Curtis MacNewton</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24840" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24841" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24842" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24843" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24845" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24846" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Beginner Running Tips: When Does Running Become Fun?" node-id="820" remote-id="media-n-820" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="321" name="The changes we make to your business" ezremote:section_id="0" ezremote:owner_id="14" ezremote:class_id="59" ezremote:published="Tue, 01 Sep 2026 05:40:44 GMT" ezremote:modified="Tue, 01 Sep 2026 13:33:58 GMT" remote_id="media-o-1215" class_remote_id="71f395a7bcfcef0db0777ee8acb0cc33" ezremote:class_identifier="ng_component_features" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="12">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="12" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 13:33:57 GMT" ezremote:modified="Tue, 01 Sep 2026 13:33:58 GMT" initial_language="ger-DE">
+      <ezobject:object-translation language="eng-US" object_name="The changes we make to your business">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3258" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>The changes we make to your business</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3259" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3260" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>The changes we make to your business</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3261" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>When it comes to health and wellness marketing, our goal is to inspire and come up with unique ideas that help people change their lifestyles. It's a bit tricky, but we know how to make it work.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3262" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3263" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3264" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3265" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3266" ezremote:identifier="item_1_position" name="Item 1 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3267" ezremote:identifier="item_1_highlight_title" name="Item 1 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3268" ezremote:identifier="item_1_title" name="Item 1 title" type="ezstring">
+          <text>Stay in the loop</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3269" ezremote:identifier="item_1_description" name="Item 1 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Health and wellness trends change every day, but we're on top of them, so we can make sure your campaign's messaging is on-trend with the latest research and innovations.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3270" ezremote:identifier="item_1_icon" name="Item 1 icon" type="ezbinaryfile">
+          <binary-file filesize="31306" filename="893cffd69498a5772308e6ae5c90176a.svg" original-filename="a86e41d0c861f3aa7b164740494456ad.svg" mime-type="image/svg+xml" filekey="a3cc0191a39a3b011696c92e1bfadeb5"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3271" ezremote:identifier="item_1_image" name="Item 1 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3272" ezremote:identifier="item_1_image_mobile" name="Item 1 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3273" ezremote:identifier="item_1_link" name="Item 1 Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3274" ezremote:identifier="item_2_position" name="Item 2 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3275" ezremote:identifier="item_2_highlight_title" name="Item 2 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3276" ezremote:identifier="item_2_title" name="Item 2 title" type="ezstring">
+          <text>Leave the heavy lifting to us</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3277" ezremote:identifier="item_2_description" name="Item 2 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Whether you're a small company or a large organization, we'll take care of all the strategy, creative, and production so you can focus on doing your best work with your clients.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3278" ezremote:identifier="item_2_icon" name="Item 2 icon" type="ezbinaryfile">
+          <binary-file filesize="20303" filename="32fd20621d92c5e674cdf9371539a126.svg" original-filename="a3dee8054476b711cb5ef23cf825adea.svg" mime-type="image/svg+xml" filekey="091f2c3f915effb7dfe8a8af161ef618"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3279" ezremote:identifier="item_2_image" name="Item 2 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3280" ezremote:identifier="item_2_image_mobile" name="Item 2 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3281" ezremote:identifier="item_2_link" name="Item 2 Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3282" ezremote:identifier="item_3_position" name="Item 3 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3283" ezremote:identifier="item_3_highlight_title" name="Item 3 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3284" ezremote:identifier="item_3_title" name="Item 3 title" type="ezstring">
+          <text>Score like a pro</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3285" ezremote:identifier="item_3_description" name="Item 3 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Get more leads and capture more customers with our expert team of designers, content creators, and developers who will work to boost and match your company's vision.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3286" ezremote:identifier="item_3_icon" name="Item 3 icon" type="ezbinaryfile">
+          <binary-file filesize="27079" filename="c9ef16612ab0906e122ef64e1b436ad6.svg" original-filename="8455f0323ed4250204035ff5e5079d8f.svg" mime-type="image/svg+xml" filekey="9a469dddfc2a6669591c767c16057390"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3287" ezremote:identifier="item_3_image" name="Item 3 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3288" ezremote:identifier="item_3_image_mobile" name="Item 3 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3289" ezremote:identifier="item_3_link" name="Item 3 Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3290" ezremote:identifier="item_4_position" name="Item 4 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3291" ezremote:identifier="item_4_highlight_title" name="Item 4 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3292" ezremote:identifier="item_4_title" name="Item 4 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3293" ezremote:identifier="item_4_description" name="Item 4 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3294" ezremote:identifier="item_4_icon" name="Item 4 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3295" ezremote:identifier="item_4_image" name="Item 4 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3296" ezremote:identifier="item_4_image_mobile" name="Item 4 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3297" ezremote:identifier="item_4_link" name="Item 4 Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3298" ezremote:identifier="item_5_position" name="Item 5 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3299" ezremote:identifier="item_5_highlight_title" name="Item 5 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3300" ezremote:identifier="item_5_title" name="Item 5 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3301" ezremote:identifier="item_5_description" name="Item 5 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3302" ezremote:identifier="item_5_icon" name="Item 5 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3303" ezremote:identifier="item_5_image" name="Item 5 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3304" ezremote:identifier="item_5_image_mobile" name="Item 5 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3305" ezremote:identifier="item_5_link" name="Item 5 Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3306" ezremote:identifier="item_6_position" name="Item 6 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3307" ezremote:identifier="item_6_highlight_title" name="Item 6 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3308" ezremote:identifier="item_6_title" name="Item 6 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3309" ezremote:identifier="item_6_description" name="Item 6 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3310" ezremote:identifier="item_6_icon" name="Item 6 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3311" ezremote:identifier="item_6_image" name="Item 6 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3312" ezremote:identifier="item_6_image_mobile" name="Item 6 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3313" ezremote:identifier="item_6_link" name="Item 6 Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3314" ezremote:identifier="item_7_position" name="Item 7 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3315" ezremote:identifier="item_7_highlight_title" name="Item 7 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3316" ezremote:identifier="item_7_title" name="Item 7 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3317" ezremote:identifier="item_7_description" name="Item 7 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3318" ezremote:identifier="item_7_icon" name="Item 7 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3319" ezremote:identifier="item_7_image" name="Item 7 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3320" ezremote:identifier="item_7_image_mobile" name="Item 7 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3321" ezremote:identifier="item_7_link" name="Item 7 Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3322" ezremote:identifier="item_8_position" name="Item 8 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3323" ezremote:identifier="item_8_highlight_title" name="Item 8 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3324" ezremote:identifier="item_8_title" name="Item 8 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3325" ezremote:identifier="item_8_description" name="Item 8 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3326" ezremote:identifier="item_8_icon" name="Item 8 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3327" ezremote:identifier="item_8_image" name="Item 8 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3328" ezremote:identifier="item_8_image_mobile" name="Item 8 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3329" ezremote:identifier="item_8_link" name="Item 8 Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3330" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="The changes we make to your business">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5246" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>The changes we make to your business</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5247" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5248" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Die Änderungen, die wir an Ihrem Unternehmen vornehmen</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5249" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Wenn es um Gesundheits- und Wellness-Marketing geht, ist es unser Ziel, zu inspirieren und einzigartige Ideen zu entwickeln, die den Menschen helfen, ihren Lebensstil zu ändern. Das ist ein bisschen knifflig, aber wir wissen, wie man es anstellt.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5250" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5251" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5252" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5253" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4227" ezremote:identifier="item_1_position" name="Item 1 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5254" ezremote:identifier="item_1_highlight_title" name="Item 1 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5255" ezremote:identifier="item_1_title" name="Item 1 title" type="ezstring">
+          <text>Auf dem Laufenden bleiben</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5256" ezremote:identifier="item_1_description" name="Item 1 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Gesundheits- und Wellnesstrends ändern sich täglich, aber wir sind immer auf dem Laufenden und können so sicherstellen, dass die Botschaften Ihrer Kampagne mit den neuesten Forschungen und Innovationen übereinstimmen.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4228" ezremote:identifier="item_1_icon" name="Item 1 icon" type="ezbinaryfile">
+          <binary-file filesize="31306" filename="43689efc6ca681e89d31a474d8dbbbf5.svg" original-filename="a86e41d0c861f3aa7b164740494456ad.svg" mime-type="image/svg+xml" filekey="83ef3b4ddf0c93a70693a9b752ffad19"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4229" ezremote:identifier="item_1_image" name="Item 1 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4230" ezremote:identifier="item_1_image_mobile" name="Item 1 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5257" ezremote:identifier="item_1_link" name="Item 1 Link" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4231" ezremote:identifier="item_2_position" name="Item 2 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5258" ezremote:identifier="item_2_highlight_title" name="Item 2 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5259" ezremote:identifier="item_2_title" name="Item 2 title" type="ezstring">
+          <text>Überlassen Sie uns die schwere Arbeit</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5260" ezremote:identifier="item_2_description" name="Item 2 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Ganz egal, ob Sie ein kleines Unternehmen oder eine große Organisation sind, wir kümmern uns um die Strategie, die Kreativität und die Produktion, damit Sie sich ganz auf die Arbeit mit Ihren Kunden konzentrieren können.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4232" ezremote:identifier="item_2_icon" name="Item 2 icon" type="ezbinaryfile">
+          <binary-file filesize="20303" filename="d2d821273f92edec249b23cbb4be0d68.svg" original-filename="a3dee8054476b711cb5ef23cf825adea.svg" mime-type="image/svg+xml" filekey="caaba027316ce2fc72fa3e033e962ed5"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4233" ezremote:identifier="item_2_image" name="Item 2 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4234" ezremote:identifier="item_2_image_mobile" name="Item 2 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5261" ezremote:identifier="item_2_link" name="Item 2 Link" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4235" ezremote:identifier="item_3_position" name="Item 3 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5262" ezremote:identifier="item_3_highlight_title" name="Item 3 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5263" ezremote:identifier="item_3_title" name="Item 3 title" type="ezstring">
+          <text>Punkten wie ein Profi</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5264" ezremote:identifier="item_3_description" name="Item 3 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Erhalten Sie mehr Leads und gewinnen Sie mehr Kunden mit unserem Expertenteam aus Designern, Content Creators und Entwicklern, die daran arbeiten, die Vision Ihres Unternehmens zu fördern und zu erfüllen.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4236" ezremote:identifier="item_3_icon" name="Item 3 icon" type="ezbinaryfile">
+          <binary-file filesize="27079" filename="3aa7495f3ad049030519c6a536ba194b.svg" original-filename="8455f0323ed4250204035ff5e5079d8f.svg" mime-type="image/svg+xml" filekey="66f9f33eba1afdbdf06f0bbfc6b1caa8"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4237" ezremote:identifier="item_3_image" name="Item 3 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4238" ezremote:identifier="item_3_image_mobile" name="Item 3 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5265" ezremote:identifier="item_3_link" name="Item 3 Link" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4239" ezremote:identifier="item_4_position" name="Item 4 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5266" ezremote:identifier="item_4_highlight_title" name="Item 4 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5267" ezremote:identifier="item_4_title" name="Item 4 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5268" ezremote:identifier="item_4_description" name="Item 4 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4240" ezremote:identifier="item_4_icon" name="Item 4 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4241" ezremote:identifier="item_4_image" name="Item 4 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4242" ezremote:identifier="item_4_image_mobile" name="Item 4 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5269" ezremote:identifier="item_4_link" name="Item 4 Link" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4243" ezremote:identifier="item_5_position" name="Item 5 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5270" ezremote:identifier="item_5_highlight_title" name="Item 5 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5271" ezremote:identifier="item_5_title" name="Item 5 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5272" ezremote:identifier="item_5_description" name="Item 5 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4244" ezremote:identifier="item_5_icon" name="Item 5 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4245" ezremote:identifier="item_5_image" name="Item 5 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4246" ezremote:identifier="item_5_image_mobile" name="Item 5 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5273" ezremote:identifier="item_5_link" name="Item 5 Link" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4247" ezremote:identifier="item_6_position" name="Item 6 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5274" ezremote:identifier="item_6_highlight_title" name="Item 6 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5275" ezremote:identifier="item_6_title" name="Item 6 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5276" ezremote:identifier="item_6_description" name="Item 6 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4248" ezremote:identifier="item_6_icon" name="Item 6 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4249" ezremote:identifier="item_6_image" name="Item 6 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4250" ezremote:identifier="item_6_image_mobile" name="Item 6 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5277" ezremote:identifier="item_6_link" name="Item 6 Link" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4251" ezremote:identifier="item_7_position" name="Item 7 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5278" ezremote:identifier="item_7_highlight_title" name="Item 7 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5279" ezremote:identifier="item_7_title" name="Item 7 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5280" ezremote:identifier="item_7_description" name="Item 7 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4252" ezremote:identifier="item_7_icon" name="Item 7 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4253" ezremote:identifier="item_7_image" name="Item 7 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4254" ezremote:identifier="item_7_image_mobile" name="Item 7 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5281" ezremote:identifier="item_7_link" name="Item 7 Link" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4255" ezremote:identifier="item_8_position" name="Item 8 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5282" ezremote:identifier="item_8_highlight_title" name="Item 8 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5283" ezremote:identifier="item_8_title" name="Item 8 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5284" ezremote:identifier="item_8_description" name="Item 8 description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4256" ezremote:identifier="item_8_icon" name="Item 8 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4257" ezremote:identifier="item_8_image" name="Item 8 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4258" ezremote:identifier="item_8_image_mobile" name="Item 8 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5285" ezremote:identifier="item_8_link" name="Item 8 Link" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5286" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list/>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

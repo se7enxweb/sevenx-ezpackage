@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Quote Component";}</serialized-name-list>
+  <identifier>ng_component_quote</identifier>
+  <serialized-description-list>a:1:{s:6:"eng-GB";s:15:"Quote component";}</serialized-description-list>
+  <remote-id>dad78d0b918c379388b14ed2f707b1c5</remote-id>
+  <object-name-pattern>&lt;name&gt;</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://localhost/</site-url>
+    <url>http://localhost/class/view/231</url>
+    <groups>
+      <group id="4" name="Setup"/>
+    </groups>
+    <id>231</id>
+    <created>1668194728</created>
+    <modified>1676029954</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2560</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:4:"Name";}</serialized-name-list>
+      <identifier>name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>0</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2562</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:5:"Title";}</serialized-name-list>
+      <identifier>title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="sckenhancedselection" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2571</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 1 position";}</serialized-name-list>
+      <identifier>item_1_position</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_1</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <delimiter><![CDATA[]]></delimiter>
+        <multiselect>0</multiselect>
+        <expanded>0</expanded>
+        <query><![CDATA[]]></query>
+        <options/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2573</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 1 title";}</serialized-name-list>
+      <identifier>item_1_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_1</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2574</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 1 description";}</serialized-name-list>
+      <identifier>item_1_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_1</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2576</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 1 Person image";}</serialized-name-list>
+      <identifier>item_1_person_image</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_1</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>5</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2667</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 1 Person name";}</serialized-name-list>
+      <identifier>item_1_person_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_1</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>6</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2668</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:25:"Item 1 Person description";}</serialized-name-list>
+      <identifier>item_1_person_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_1</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>7</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="sckenhancedselection" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2583</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 2 position";}</serialized-name-list>
+      <identifier>item_2_position</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_2</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>8</placement>
+      <datatype-parameters>
+        <delimiter><![CDATA[]]></delimiter>
+        <multiselect>0</multiselect>
+        <expanded>0</expanded>
+        <query><![CDATA[]]></query>
+        <options/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2585</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 2 title";}</serialized-name-list>
+      <identifier>item_2_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_2</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>9</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2586</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 2 description";}</serialized-name-list>
+      <identifier>item_2_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_2</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>10</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2588</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 2 Person image";}</serialized-name-list>
+      <identifier>item_2_person_image</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_2</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>11</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2669</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 2 Person name";}</serialized-name-list>
+      <identifier>item_2_person_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_2</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>12</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2670</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:25:"Item 2 Person description";}</serialized-name-list>
+      <identifier>item_2_person_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_2</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>13</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="sckenhancedselection" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2595</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 3 position";}</serialized-name-list>
+      <identifier>item_3_position</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_3</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>14</placement>
+      <datatype-parameters>
+        <delimiter><![CDATA[]]></delimiter>
+        <multiselect>0</multiselect>
+        <expanded>0</expanded>
+        <query><![CDATA[]]></query>
+        <options/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2597</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 3 title";}</serialized-name-list>
+      <identifier>item_3_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_3</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>15</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2598</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 3 description";}</serialized-name-list>
+      <identifier>item_3_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_3</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>16</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2600</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 3 Person image";}</serialized-name-list>
+      <identifier>item_3_person_image</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_3</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>17</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2671</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 3 Person name";}</serialized-name-list>
+      <identifier>item_3_person_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_3</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>18</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2672</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:25:"Item 3 Person description";}</serialized-name-list>
+      <identifier>item_3_person_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_3</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>19</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="sckenhancedselection" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2607</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 4 position";}</serialized-name-list>
+      <identifier>item_4_position</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_4</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>20</placement>
+      <datatype-parameters>
+        <delimiter><![CDATA[]]></delimiter>
+        <multiselect>0</multiselect>
+        <expanded>0</expanded>
+        <query><![CDATA[]]></query>
+        <options/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2609</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 4 title";}</serialized-name-list>
+      <identifier>item_4_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_4</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>21</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2610</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 4 description";}</serialized-name-list>
+      <identifier>item_4_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_4</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>22</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2612</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 4 Person image";}</serialized-name-list>
+      <identifier>item_4_person_image</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_4</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>23</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2673</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 4 Person name";}</serialized-name-list>
+      <identifier>item_4_person_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_4</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>24</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2674</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:25:"Item 4 Person description";}</serialized-name-list>
+      <identifier>item_4_person_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_4</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>25</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="sckenhancedselection" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2619</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 5 position";}</serialized-name-list>
+      <identifier>item_5_position</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_5</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>26</placement>
+      <datatype-parameters>
+        <delimiter><![CDATA[]]></delimiter>
+        <multiselect>0</multiselect>
+        <expanded>0</expanded>
+        <query><![CDATA[]]></query>
+        <options/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2621</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 5 title";}</serialized-name-list>
+      <identifier>item_5_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_5</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>27</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2622</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 5 description";}</serialized-name-list>
+      <identifier>item_5_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_5</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>28</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2624</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 5 Person image";}</serialized-name-list>
+      <identifier>item_5_person_image</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_5</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>29</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2675</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 5 Person name";}</serialized-name-list>
+      <identifier>item_5_person_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_5</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>30</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2676</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:25:"Item 5 Person description";}</serialized-name-list>
+      <identifier>item_5_person_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_5</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>31</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="sckenhancedselection" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2631</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 6 position";}</serialized-name-list>
+      <identifier>item_6_position</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_6</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>32</placement>
+      <datatype-parameters>
+        <delimiter><![CDATA[]]></delimiter>
+        <multiselect>0</multiselect>
+        <expanded>0</expanded>
+        <query><![CDATA[]]></query>
+        <options/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2633</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 6 title";}</serialized-name-list>
+      <identifier>item_6_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_6</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>33</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2634</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 6 description";}</serialized-name-list>
+      <identifier>item_6_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_6</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>34</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2636</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 6 Person image";}</serialized-name-list>
+      <identifier>item_6_person_image</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_6</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>35</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2677</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 6 Person name";}</serialized-name-list>
+      <identifier>item_6_person_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_6</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>36</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2678</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:25:"Item 6 Person description";}</serialized-name-list>
+      <identifier>item_6_person_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_6</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>37</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="sckenhancedselection" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2643</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 7 position";}</serialized-name-list>
+      <identifier>item_7_position</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_7</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>38</placement>
+      <datatype-parameters>
+        <delimiter><![CDATA[]]></delimiter>
+        <multiselect>0</multiselect>
+        <expanded>0</expanded>
+        <query><![CDATA[]]></query>
+        <options/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2645</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 7 title";}</serialized-name-list>
+      <identifier>item_7_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_7</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>39</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2646</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 7 description";}</serialized-name-list>
+      <identifier>item_7_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_7</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>40</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2648</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 7 Person image";}</serialized-name-list>
+      <identifier>item_7_person_image</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_7</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>41</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2679</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 7 Person name";}</serialized-name-list>
+      <identifier>item_7_person_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_7</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>42</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2680</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:25:"Item 7 Person description";}</serialized-name-list>
+      <identifier>item_7_person_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_7</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>43</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="sckenhancedselection" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2655</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 8 position";}</serialized-name-list>
+      <identifier>item_8_position</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_8</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>44</placement>
+      <datatype-parameters>
+        <delimiter><![CDATA[]]></delimiter>
+        <multiselect>0</multiselect>
+        <expanded>0</expanded>
+        <query><![CDATA[]]></query>
+        <options/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2657</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 8 title";}</serialized-name-list>
+      <identifier>item_8_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_8</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>45</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2658</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 8 description";}</serialized-name-list>
+      <identifier>item_8_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_8</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>46</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2660</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 8 Person image";}</serialized-name-list>
+      <identifier>item_8_person_image</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_8</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>47</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2681</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 8 Person name";}</serialized-name-list>
+      <identifier>item_8_person_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_8</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>48</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2682</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:25:"Item 8 Person description";}</serialized-name-list>
+      <identifier>item_8_person_description</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>item_8</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>49</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>729</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:9:"Meta Data";s:6:"eng-GB";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>50</placement>
+      <datatype-parameters/>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

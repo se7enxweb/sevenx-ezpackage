@@ -96,7 +96,7 @@
             {/if}
         {/foreach}
 
-        <br/>
+        <br>
 
         {'%count total votes'|i18n( 'design/ezwebin/collectedinfo/poll' ,,
                                      hash( '%count', fetch( content, collected_info_count, hash( object_id, $object.id ) ) ) )}

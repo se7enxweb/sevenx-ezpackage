@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="1514" name="Test Vimeo video" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="215" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Wed, 25 Jan 2023 18:30:01 GMT" remote_id="media-o-1514" class_remote_id="0febffcac56c7d0eee3368d8cf66aea5" ezremote:class_identifier="ng_video" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 25 Jan 2023 18:26:59 GMT" ezremote:modified="Wed, 25 Jan 2023 18:30:01 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" language="eng-US" object_name="Test Vimeo video">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40140" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Test Vimeo video</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40141" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40142" ezremote:identifier="video_type" name="Video type" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40143" ezremote:identifier="video_file" name="Video file" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40144" ezremote:identifier="video_identifier" name="Video identifier" type="ezstring">
+          <text>783454352</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40145" ezremote:identifier="poster" name="Poster" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40146" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40147" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40148" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40149" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40150" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40151" ezremote:identifier="autoplay" name="Autoplay" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40154" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40155" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-1088" name="Test Vimeo video" node-id="1065" remote-id="media-n-1065" sort-field="path" sort-order="1" priority="-20"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

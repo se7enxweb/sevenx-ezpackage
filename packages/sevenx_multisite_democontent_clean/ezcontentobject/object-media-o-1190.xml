@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="1190" name="Will I be allowed to work remotely from another city/country?" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="227" ezremote:published="Mon, 24 Oct 2022 18:46:23 GMT" ezremote:modified="Wed, 30 Nov 2022 07:58:16 GMT" remote_id="media-o-1190" class_remote_id="bdc2a54ae5074d9c18b8bc7349375d4e" ezremote:class_identifier="ng_accordion_item" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:version="2" ezremote:status="1" ezremote:created="Wed, 30 Nov 2022 07:56:16 GMT" ezremote:modified="Wed, 30 Nov 2022 07:58:16 GMT">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" language="eng-US" object_name="Will I be allowed to work remotely from another city/country?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26019" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Will I be allowed to work remotely from another city/country?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="26020" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Yes, you will be able to work remotely. We value the ability to be flexible and offer remote work as an option for our employees.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-948" name="Will I be allowed to work remotely from another city/country?" node-id="952" remote-id="media-n-952" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

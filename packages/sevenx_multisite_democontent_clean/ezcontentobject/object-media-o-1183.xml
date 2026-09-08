@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="1183" name="Digital marketing" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="160" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Mon, 07 Nov 2022 18:47:40 GMT" remote_id="media-o-1183" class_remote_id="a41332a768dc9d9dac2a06244f9fed78" ezremote:class_identifier="ng_banner" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:version="2" ezremote:status="1" ezremote:created="Mon, 07 Nov 2022 18:47:07 GMT" ezremote:modified="Mon, 07 Nov 2022 18:47:40 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" language="eng-US" object_name="Digital marketing">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25980" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25981" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Digital marketing</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25982" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="f7d72792174d04df3f01114d857697e3" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25983" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>We help you attract, convert and engage the customers at scale using strategically planned campaigns that can be adapted for various platforms.</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>PPC</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>SEO/SEM</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Email marketing</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Social media marketing</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25991" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-1071" name="Digital marketing" node-id="945" remote-id="media-n-945" sort-field="path" sort-order="1" priority="30"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

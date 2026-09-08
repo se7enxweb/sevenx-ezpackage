@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="1018" name="Vibrant Guacamole" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="219" ezremote:published="Mon, 13 Aug 2018 07:55:28 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:36 GMT" remote_id="media-o-1018" class_remote_id="67c57c234691153c902f0bb5be0e4eaa" ezremote:class_identifier="ng_recipe" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="4">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="4" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:50:03 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:36 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Vibrant Guacamole">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24421" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Vibrant Guacamole</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24422" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24423" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24424" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="042341bf54c886c17c805c75abd2922b" alternative-text="Vibrant Guacamole"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24425" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="3646de6be269856ee7886f1b8c157284" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24426" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>The key to making great guacamole is to use fresh, ripe avocados. When you cut the avocado open, it should be a vibrant green that yearns to listen to salsa music and dance with you.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24427" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="24428" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:title ezxhtml:level="3">INGREDIENTS</default:title>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>4 ripe avocados</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1 cup red onion, minced (about one medium onion)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>2 tablespoons fresh squeezed lime juice</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>2 teaspoons coarse sea salt</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1/8 teaspoon freshly ground black pepper, or to taste</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1 ripe tomato, seeds and pulp removed, chopped</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:title ezxhtml:level="3">PREPARATION</default:title>
+            <default:orderedlist>
+              <default:listitem>
+                <default:para>Using a knife, cut avocados in half and remove pits. Using spoon, scoop out green flesh into a medium sized non-reactive bowl.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Using a potato masher (or a fork), mash the avocados.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Add chopped onion, lime juice, salt, and pepper. Mix with a spatula until well combined.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Using a clean spoon, taste the guacamole and add more lime juice, salt, or pepper to your taste (¼ to ½ teaspoon at a time).</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Chop tomato. If serving immediately, mix in with guacamole. Otherwise, store tomatoes in an air tight container and mix into guacamole right before serving.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>If you are not serving immediately, tear off a small sheet of plastic wrap and place directly on top of guacamole. Push out any air pockets or bubbles so that the guacamole is directly in contact with the plastic wrap. Add the chopped tomatoes and mix with a spatula or spoon.</default:para>
+              </default:listitem>
+            </default:orderedlist>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis><default:emphasis>Recipe credit: <default:link xlink:href="ezurl://26" xlink:show="none">Make Better Food</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis></default:emphasis>
+<default:emphasis>Photo credit: <default:link xlink:href="ezurl://342" xlink:show="none">www.kjokkenutstyr.net</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24429" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">
+          <value>15</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24430" ezremote:identifier="serving_calories" name="Calories (per serving)" type="ezinteger">
+          <value>364</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24431" ezremote:identifier="serving_fat" name="Fat (per serving)" type="ezinteger">
+          <value>33</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24432" ezremote:identifier="serving_carbohydrates" name="Carbohydrates (per serving)" type="ezinteger">
+          <value>20</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24433" ezremote:identifier="serving_protein" name="Protein (per serving)" type="ezinteger">
+          <value>4</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24434" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24435" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24436" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24437" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24438" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24440" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24441" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-744" name="Vibrant Guacamole" node-id="785" remote-id="media-n-785" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="300" name="Bold Agency - [SITEINFO]" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="168" ezremote:published="Tue, 01 Sep 2026 05:07:46 GMT" ezremote:modified="Tue, 01 Sep 2026 05:07:46 GMT" remote_id="media-o-site-info-bold" class_remote_id="3b35160b31fcc2f9e1edb67d02ee4f08" ezremote:class_identifier="ng_site_info" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 05:07:45 GMT" ezremote:modified="Tue, 01 Sep 2026 05:07:45 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Bold Agency - [SITEINFO]">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2644" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Bold Agency</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2645" ezremote:identifier="metadata" name="Meta data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2646" ezremote:identifier="site_name" name="Site name" type="ezstring">
+          <text>Bold Agency</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2647" ezremote:identifier="site_logo" name="Site logo" type="ezbinaryfile">
+          <binary-file filesize="12110" filename="66c6536424ca51b7fd311d5c7016b60c.svg" original-filename="736216c6f4d7aaad32fa1ebafa280190.svg" mime-type="image/svg+xml" filekey="df7b6fe8eb877f62f3e15291c4656ff9"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2648" ezremote:identifier="site_opengraph_image" name="Site Open Graph image" type="ezimage" image-file-key="2bf6c43290d0e2ca70b43be4372b1890" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2649" ezremote:identifier="favicon_32x32" name="Favicon 32x32" type="ezimage" image-file-key="f61f66da04256426fa25f44a3f67153a" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2650" ezremote:identifier="favicon_128x128" name="Favicon 128x128" type="ezimage" image-file-key="2a828430685ad2b2f54cd82c433e15d3" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2651" ezremote:identifier="favicon_180x180" name="Favicon 180x180" type="ezimage" image-file-key="e0a4c9175add985d0d29869c933706e6" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2652" ezremote:identifier="favicon_192x192" name="Favicon 192x192" type="ezimage" image-file-key="99f806978c1509712eaa33f85501ed7f" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2653" ezremote:identifier="related_cookie_policy" name="Related cookie policy" type="ezobjectrelation">
+          <related-object-remote-id>media-o-1512</related-object-remote-id>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2654" ezremote:identifier="rss_feed" name="RSS feed" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2655" ezremote:identifier="main_menu" name="Main menu links" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1179"/>
+              <relation-item priority="2" contentobject-remote-id="media-o-1184"/>
+              <relation-item priority="3" contentobject-remote-id="media-o-1185"/>
+              <relation-item priority="4" contentobject-remote-id="media-o-1197"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2656" ezremote:identifier="additional_menu" name="Additional menu links" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1179"/>
+              <relation-item priority="2" contentobject-remote-id="media-o-1184"/>
+              <relation-item priority="3" contentobject-remote-id="media-o-1185"/>
+              <relation-item priority="4" contentobject-remote-id="media-o-1197"/>
+              <relation-item priority="5" contentobject-remote-id="media-o-1511"/>
+              <relation-item priority="6" contentobject-remote-id="media-o-1512"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2657" ezremote:identifier="footer_block" name="Footer block" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2658" ezremote:identifier="javascript_block_top" name="JavaScript on top" type="eztext">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2659" ezremote:identifier="javascript_block_bottom" name="JavaScript on bottom" type="eztext">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2660" ezremote:identifier="facebook" name="Facebook" type="ezurl">
+          <url original-url-md5="a24a5be7a6076556c8c2f16e5065bd40" is-valid="1" last-checked="0" created="1788229570" modified="1788229570">https%3A%2F%2Fwww.facebook.com</url>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2661" ezremote:identifier="twitter" name="Twitter" type="ezurl">
+          <url original-url-md5="196287304fd73ddd3ebae44cfad2d6fb" is-valid="1" last-checked="0" created="1788229570" modified="1788229570">https%3A%2F%2Fwww.twitter.com</url>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2662" ezremote:identifier="instagram" name="Instagram" type="ezurl">
+          <url original-url-md5="81baa2bda524b19dddf2507580b95e0b" is-valid="1" last-checked="0" created="1788229570" modified="1788229570">https%3A%2F%2Fwww.instagram.com</url>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2663" ezremote:identifier="linkedin" name="LinkedIn" type="ezurl">
+          <url original-url-md5="06cda0335c4acf2cd6035a1c46478678" is-valid="1" last-checked="0" created="1788229570" modified="1788229570">https%3A%2F%2Fwww.linkedin.com</url>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Bold Agency - [SITEINFO]" node-id="273" remote-id="a9f1a2799358e54d7838cb3c80fead59" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

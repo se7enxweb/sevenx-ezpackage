@@ -87,13 +87,13 @@
         {undef $product_category_attribute}
 
         <div class="content-action">
-            <input type="submit" class="defaultbutton" name="ActionAddToBasket" value="{"Add to basket"|i18n("design/ezwebin/full/product")}" />
+            <input type="submit" class="defaultbutton" name="ActionAddToBasket" value="{"Add to basket"|i18n("design/ezwebin/full/product")}">
 {*
-            <input class="button" type="submit" name="ActionAddToWishList" value="{"Add to wish list"|i18n("design/ezwebin/full/product")}" />
+            <input class="button" type="submit" name="ActionAddToWishList" value="{"Add to wish list"|i18n("design/ezwebin/full/product")}">
 *}
-            <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-            <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
-            <input type="hidden" name="ViewMode" value="full" />
+            <input type="hidden" name="ContentNodeID" value="{$node.node_id}">
+            <input type="hidden" name="ContentObjectID" value="{$node.object.id}">
+            <input type="hidden" name="ViewMode" value="full">
         </div>
 
        {* Related products. *}

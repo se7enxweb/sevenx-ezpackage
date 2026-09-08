@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="1028" name="Fat Loss: A Realistic Plan to Lose a Lot of Weight" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Tue, 21 Aug 2018 15:05:36 GMT" ezremote:modified="Thu, 24 Sep 2020 08:27:47 GMT" remote_id="media-o-1028" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" active_version="9">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:version="9" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:27:37 GMT" ezremote:modified="Thu, 24 Sep 2020 08:27:47 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" language="eng-US" object_name="Fat Loss: A Realistic Plan to Lose a Lot of Weight">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24623" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Fat Loss: A Realistic Plan to Lose a Lot of Weight</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24624" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24625" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24626" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24627" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="402d83a72b836324d5c2a03057a700b0" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24628" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24629" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="24630" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Current dogma suggests that all you need to do is eat less and exercise more, or reduce your calories in and increase your calories out.</default:para>
+            <default:para>
+              <default:emphasis>Or maybe just blame carbs, that’s trendy these days…</default:emphasis>
+            </default:para>
+            <default:para>Sadly the communication between scientists in a lab and the general population has been drastically simplified and overblown to mean something it doesn’t necessarily mean:</default:para>
+            <default:para>
+              <default:emphasis>Count calories and track energy expenditure to lose weight…</default:emphasis>
+            </default:para>
+            <default:para>
+              <default:emphasis role="strong">That Need Not Apply!</default:emphasis>
+            </default:para>
+            <default:para>In fact, that approach is probably holding you up.</default:para>
+            <default:para>At it’s core, the only way to lose weight <default:emphasis>(more specifically weight from fat mass or adipose tissue)</default:emphasis> is to create a net negative energy balance in some way shape or form.</default:para>
+            <default:para>
+              <default:emphasis>Which is what scientists really mean when they say this…</default:emphasis>
+            </default:para>
+            <default:para>Unfortunately this alone, isn’t particularly actionable advice for someone seeking to lose a good amount of fat or weight loss.</default:para>
+            <default:para>Why?</default:para>
+            <default:para>Because <default:link xlink:href="ezurl://45" xlink:show="none" xlink:title="Why Counting Calories Sucks!">counting calories sucks</default:link>…</default:para>
+            <default:para>They are often horribly inaccurate and the way we estimate metabolism and exercise output are sorely inaccurate as well.</default:para>
+            <default:para>There is a large difference between bioavailable energy or calorie uptake, and what you might read on paper <default:emphasis>(an estimate…)</default:emphasis> as a calorie count of the food you ingested.</default:para>
+            <default:para>There is an equally large difference between our true caloric expenditure and our caloric expenditure based on height, weight and form of exercise.</default:para>
+            <default:para>That’s not to say that calorie tracking can’t work, in a research setting it often does, provided a person creates an actual biological caloric deficit and not just one on paper.</default:para>
+            <default:para>I question how well it works in the real world, particularly it’s sustainability, when there are a lot of other methods you could use to create the necessary caloric deficit without all that math, that work just as well, if not better.</default:para>
+            <default:para>
+              <default:emphasis>*This is an article with some of those methods…</default:emphasis>
+            </default:para>
+            <default:para>Yes ‘energy in vs energy out’ matters, in the long run.</default:para>
+            <default:para>But notice I say <default:emphasis role="strong">energy in vs energy out</default:emphasis> and <default:emphasis role="strong">not</default:emphasis> calories in vs calories out.</default:para>
+            <default:para>This is because despite popular opinion not all ‘calories’ are made the same.</default:para>
+            <default:para>When you eat <default:link xlink:href="ezurl://41" xlink:show="none" xlink:title="Why Protein Is So Important">protein</default:link> for instance about 30% of that energy is used simply to digest the protein, when you look at <default:link xlink:href="ezurl://46" xlink:show="none" xlink:title="Why Carbs Matter…">carbohydrates </default:link>only 7% of that energy is needed to digest it and fat only about 3% of that energy is used.</default:para>
+            <default:para>
+              <default:emphasis><default:emphasis role="strong">Note:</default:emphasis> These are rough figures for the thermic effect of food, research has more of a range…</default:emphasis>
+            </default:para>
+            <default:para>It’s been my experience actually that this traditional method is dramatically flawed because it doesn’t focus on behavior change, nor does it give a person the necessary skills for long term weight loss on it’s own.</default:para>
+            <default:para>A great deal of education is required to learn how to track calories effectively, and then you’re stuck keeping a running tally of numbers for the rest of your life?</default:para>
+            <default:para>
+              <default:emphasis>Ouch…</default:emphasis>
+            </default:para>
+            <default:para>I’m speaking from experience, I used to coach people to track intake and output way back in the day, it’s what I was taught in school but since then I’ve determined that it’s only really useful for a handful of highly disciplined people in aesthetics oriented professions <default:emphasis>(like models or actors…).</default:emphasis></default:para>
+            <default:para>The better approach I’ve discovered is to focus on your mindset, skills, habits, behaviors, along with your environmental and social Influences.</default:para>
+            <default:para>What short-term diets like calorie tracking fail to address is lifestyle.</default:para>
+            <default:para>Losing 20% of your body weight and staying that way REQUIRES lifestyle changes.</default:para>
+            <default:para>Or as I’m fond of saying to clients…</default:para>
+            <default:para>
+              <default:emphasis role="strong">The easy part is losing the weight, the harder part is keeping it off once you get to where you want to be.        </default:emphasis>
+              <default:link xlink:href="ezurl://47" xlink:show="none">
+                <default:emphasis role="strong">Click to Tweet This</default:emphasis>
+              </default:link>
+            </default:para>
+            <default:title ezxhtml:level="2">1. Mindset</default:title>
+            <default:para>This one is the most <default:emphasis>encompassing</default:emphasis>.</default:para>
+            <default:para>I often feel unique in my approach because I start here, and don’t see this discussed much in the fitness community.</default:para>
+            <default:para>Psychology is really the root of all the fitness and nutrition changes you see.</default:para>
+            <default:para>And it starts with understanding the very basic notion of working on one thing at a time, rather than trying to overhaul your diet and exercise routine all at once.</default:para>
+            <default:para>You have to make small changes so they have an opportunity to stick before you move onto another small change.</default:para>
+            <default:para>
+              <default:emphasis>
+                <default:link xlink:href="ezurl://48" xlink:show="none" xlink:title="The Elephant &amp; Weight Loss">See more on that here…</default:link>
+              </default:emphasis>
+            </default:para>
+            <default:para>This is the basis of nearly every single significant weight loss story I’ve ever heard.</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>I just started walking a little bit more each day…</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I cut a lot of X out little by little…</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I started getting a little more sleep…</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Seemingly simple or easy to do baby steps…etc…etc…</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>From there, I utilize a basic framework from the work of <default:link xlink:href="ezurl://49" xlink:show="none" xlink:title="Mindset: Fixed vs Growth">Carol Dueck</default:link> and some other <default:link xlink:href="ezurl://50" xlink:show="none" xlink:title="Mindset – Training vs Trusting">noteworthy</default:link> <default:link xlink:href="ezurl://51" xlink:show="none" xlink:title="Mindset – High Vs Low">ideas</default:link> from various psychologists.</default:para>
+            <default:para>And if you read this blog regularly, then I expand a lot based on my own experiences, which basically means trying to put yourself in as much of a realistic growth mindset as possible.</default:para>
+            <default:para>
+              <default:emphasis role="strong">The basic growth mindset:</default:emphasis>
+            </default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Recognizes you have the power to change <default:emphasis>(everyone does). H</default:emphasis>owever, this will require steady <default:link xlink:href="ezurl://52" xlink:show="none" xlink:title="Deliberate Practice">deliberate practice</default:link> on your part. Your ability to lose weight is determined by the amount of growth you seek, not by your innate natural ability or talent of keeping weight off.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Seeks growth opportunities, particularly as they relate to your objectives. To grow you much take yourself just slightly outside of your comfort zone, but not too far outside of that comfort zone. You’re looking for an optimal growth state or what psychologist Mihaly Csikszentmihalyi calls ‘<default:link xlink:href="ezurl://53" xlink:show="none">Flow</default:link>.’ Gravitate towards something you’re not doing now, but seems so easy you could do it indefinitely and still lead an enjoyable life.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Try the ‘no excuse’ challenge. All you have to do is remind yourself that you won’t make excuses anytime things come up, make that an objective and you’ll find yourself leaning more positively.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Prepares for Adversity. Nobody is perfect, you will have ups and downs, try to prepare for worst case scenario but expect to succeed too. This is the contrast method and it helps keep people realistic in their objectives. You know those people that are always positive looking? Ya that doesn’t actually work, it turns out you’re looking for a positive thought to negative thought ratio of about 3:1, or you might be unrealistic.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>There is a lot that goes into this, but focus on personal development, small simple changes to your life and not just ‘diet and exercise’ is essentially what I’m getting at.</default:para>
+            <default:para>
+              <default:emphasis>Though those can be important factors…</default:emphasis>
+            </default:para>
+            <default:title ezxhtml:level="2">2. Skills</default:title>
+            <default:para>People who stay at a healthy weight have a different skill set from those who don’t.</default:para>
+            <default:para>That’s why I named this blog ‘Skill Based Fitness’…duh.!..</default:para>
+            <default:para>I don’t mean to say they are ‘better,’ just different.</default:para>
+            <default:para>Particularly more skilled at things like:</default:para>
+            <default:para>A) Exercise – They move well, they don’t get injured often, they build a <default:link xlink:href="ezurl://54" xlink:show="new">good foundation of the basic movements.</default:link></default:para>
+            <default:para>B) <default:link xlink:href="ezurl://55" xlink:show="new" xlink:title="Eating for Fat Loss">Nutrition</default:link> – They have learned what are better foods to eat in any given moment <default:emphasis>(notice I didn’t say good or bad foods, food consumption is more like a spectrum), </default:emphasis>they plan meals, they know what constitutes a good meal, they know when to eat, and how to eat (slowly).</default:para>
+            <default:para>C) Cooking – They cook most of their own food, learn how to cook quickly, learn how to make whole foods taste really good, learn how to cook things in bulk, and find ways to ultimately control energy intake.</default:para>
+            <default:para>D) Planning – They make better decisions in advance — <default:emphasis>For instance eat before going to a party with junkfood, alternate alcoholic beverages with tea/coffee/water, bring their own lunches to work rather than going out, are picky about what they do eat when they go out, skip dessert, start with a salad, add lean proteins to most meals, pack extra vegetables, plan meals in advance, etc…etc…</default:emphasis></default:para>
+            <default:para>E) Know more about exercise and nutrition than most — <default:emphasis>For instance, a deck of cards is roughly a serving of lean protein, or about the size of your palm, whereas a fist is a serving of vegetables, when you know this kind of stuff the need for calorie counting usually disappears, until you have a strong desire to be an elite bodybuilder or fitness model, then that kind of approach is more useful.</default:emphasis></default:para>
+            <default:para>Learning effective skills makes staying at your desired weight a lot easier, but they have to be skills that you can picture as a part of your lifestyle.</default:para>
+            <default:para>Often you improve upon one thing, and are then ready to take on something new. So if something above seems complicated, it might not 3 months from now once you’ve mastered something else you felt was easier to do.</default:para>
+            <default:para>Skills help you overcome social hangups, environmental setbacks and crush bad habits or behaviors.</default:para>
+            <default:para>Weight control/maintenance is a lot like talent, despite popular opinion, talent is grown through deliberate practice and skill development.</default:para>
+            <default:para>Anybody can learn the right skills to control their weight.</default:para>
+            <default:title ezxhtml:level="2">3. Habits</default:title>
+            <default:para>You are a creature of habit.</default:para>
+            <default:para>You need to break bad cycles by eliminating cues — <default:emphasis>environment is often the culprit, which I’ll get to in a moment</default:emphasis> — and replacing them with better habits.</default:para>
+            <default:para>A habit is an unconscious response to a cue of some kind, so they often require conscious disruption (<default:emphasis>which can be a challenge</default:emphasis>).</default:para>
+            <default:para>
+              <default:emphasis>i.e. it’s 3 pm, time for my donut or cookie break.</default:emphasis>
+            </default:para>
+            <default:para>Developing good skills can often counterbalance bad habits, but you will inevitably have to spend some time trying to identify the habits you have that are holding you back.</default:para>
+            <default:para>Do you come home every day and resort to an alcoholic beverage or sweet snack?</default:para>
+            <default:para>Do you consume a less than ideal snack at the same or roughly the same time every day?</default:para>
+            <default:para>Do you have sugary breakfast cereal every morning upon waking? Do you even eat breakfast?</default:para>
+            <default:para>Do you you come home, sit down and watch TV for hours?</default:para>
+            <default:para>Do you go out for lunch with co-workers often?</default:para>
+            <default:para>Do you see junk foods out at work (donuts, muffins, etc…) or at home (keep a candy jar out in the open?) and always take one or two?</default:para>
+            <default:para>Do you cook a lot of the same meals that you know are less than ideal for your waist line?</default:para>
+            <default:para>Do you eat out most nights?</default:para>
+            <default:para>Do you always add sugar to your coffee or tea?</default:para>
+            <default:para>etc…etc…</default:para>
+            <default:para>You may want to track how you spend a few days (<default:link xlink:href="ezurl://56" xlink:show="new"><default:emphasis>typically I’d say 3 – one weekend and 2 weekdays</default:emphasis></default:link>), set an alarm on your phone to go off every 15-30 minutes, to jar you back to reality and record what you’re doing at that moment.</default:para>
+            <default:para>More often than not, we find ourselves in some unconscious pattern, a response to something we’ve done thousands of times in most cases.</default:para>
+            <default:para>Is this unconscious pattern detrimental to your objectives or encouraging?</default:para>
+            <default:para>An equal amount of repetition on a good habit that breaks them, is required, just as skills are developed with a certain amount of repetition.</default:para>
+            <default:para>Rather than trying to break a bad habit I prefer something more akin to substitution or distraction.</default:para>
+            <default:para>Substitution of healthier habits is often an effective route to go in terms of displacement.<default:emphasis> i.e. if you’re trying to quit drinking alcoholic beverages (or lower consumption) replace it with tea.</default:emphasis></default:para>
+            <default:para>There are hundreds of bad habits that can add up for most people and result in weight gain.</default:para>
+            <default:para>The trick is to identify the most impactful bad habits you have and focus on replacing them with better ones, one at a time.</default:para>
+            <default:para>If the most impactful bad habit you have is too difficult, try something that seems too easy.</default:para>
+            <default:para>This will build your confidence and allow you to progress to changing harder and harder habits.</default:para>
+            <default:para>Start slow, but always focus on changing one thing at a time.</default:para>
+            <default:title ezxhtml:level="2">4. Behaviors</default:title>
+            <default:para>Unlike habits, don’t require a cue and are more macro level tendencies we possess.</default:para>
+            <default:para>The differentiation I make is that habits are responses to cues, behaviors are natural global tendencies without necessary cues.</default:para>
+            <default:para>For instance, a habit is waking up and drinking water first thing. It has a cue, a routine and reward.</default:para>
+            <default:para>A behavior on the other hand is a tendency to do something like typically not get enough sleep, or not enough throughout the day (or eat too much).</default:para>
+            <default:para>A behavior is cooking your own food because that’s just what you do, where as cooking dinner may be a habitual response to the time.</default:para>
+            <default:para>Behaviors tend to be an accumulation of several habits, but they can also feel a part of your <default:link xlink:href="ezurl://57" xlink:show="new" xlink:title="Identity: Critical For Weight Loss">identity</default:link>.</default:para>
+            <default:para>People who view themselves as thin and in shape, tend to stay that way because they view it as a part of their identity.</default:para>
+            <default:para>You want all of your habit formation to eventually stick as good overall patterns of behavior.</default:para>
+            <default:para>Behavior is the pie, and skills/habits are the pieces of that pie.</default:para>
+            <default:para>Staying up late, not getting enough sleep has long been known to contribute to weight gain, so it stands to gain that adopting a good sleep pattern of behavior is ideal for weight loss.</default:para>
+            <default:para>Some of the habits you could adopt to make that happen would be to avoid glowing screens before bed, create a bedtime routine, or habitually make your room as dark as possible.</default:para>
+            <default:para>Not cooking much of your own food is equally known to contribute to weight gain.</default:para>
+            <default:para>Integrating exercise with your lifestyle is a behavior <default:emphasis>(for instance riding your bike to work or walking to work)</default:emphasis>.</default:para>
+            <default:para>Watching TV erratically but in too much volume could also be a behavior, that distracts you from things like getting outside for a walk or jog, and often prevents you from going to the gym.</default:para>
+            <default:para>Instilling good overhaul behaviors is best done by building good skills and changing bad habits into better ones.</default:para>
+            <default:title ezxhtml:level="2">5. Environment</default:title>
+            <default:para>Nobody tends to think of this, but our environment heavily influences our ability to stick to a weight loss plan.</default:para>
+            <default:para>Yes, you can try to combat your environment by doing something more traditional for weight loss, like calorie counting.</default:para>
+            <default:para>However, when you just look at total calories, you can often forget that a calorie of sugar and a calorie of lean protein have different effects in your body long-term (particularly on your health in the long-term).</default:para>
+            <default:para>Sure you can lose some weight merely counting calories and eating nothing but sugar <default:emphasis>(provided your energy balance is still negative)</default:emphasis> but that wouldn’t be the ‘healthy’ way of doing it.</default:para>
+            <default:para>I know I can lose weight by starving myself too, but that’s not exactly a wise decision for my health right?</default:para>
+            <default:para>The answer here is to focus on your environment, as it’s the leading source of cues for bad habits.</default:para>
+            <default:para>
+              <default:link xlink:href="ezurl://58" xlink:show="new" xlink:title="Good Foods For Your Pantry">If you have junkfood in the house, you will eat it, throw it out, or give it away to charity.</default:link>
+            </default:para>
+            <default:para>If you have access to junkfood at work, you will eat it, talk to somebody at work about removing it from site or a plan of attack for replacing it with better stuff.</default:para>
+            <default:para>If you don’t have an appealing kitchen to cook in, with basic tools, you’re less likely to cook at home.</default:para>
+            <default:para>If you don’t have easy access to non-caloric beverages like water and plain tea/coffee, you will drink whatever else is available.</default:para>
+            <default:para>Do an environmental analysis of your home, office and third place — <default:emphasis>the third place is where you spend the third most amount of your time, like a club, cafe, or group.</default:emphasis></default:para>
+            <default:para>See if you can identify and easily remove any big cues that initiate bad habits.</default:para>
+            <default:para>If you don’t have much control over the environment, like at work, then talk to the people that do.</default:para>
+            <default:para>Then see what you can add to initiate good habits.</default:para>
+            <default:para><default:link xlink:href="ezurl://59" xlink:show="new" xlink:title="Weekly Food Ritual">Things like leaving cut veggies or fruit accessible in the fridge</default:link>, or cooking in bulk and freezing it for times when you don’t feel like cooking but know eating out or ordering in will often mean bad food choices.</default:para>
+            <default:title ezxhtml:level="2">6. Social Influence</default:title>
+            <default:para>The hardest thing to deal with by far, particularly if your spouse has a similar problem, and/or the rest of your family does.</default:para>
+            <default:para>We’re all creatures of habit, but it’s much worse when we have the unconscious permission to stay the same from the people we’re around the most.</default:para>
+            <default:para>You have to have a serious conversation with these people and it’s an uphill battle.</default:para>
+            <default:para>Who are the bad influencers in your life?</default:para>
+            <default:para>You know the people that want to go out and drink beer every Friday night, or order in pizza and wings every sunday for the game.</default:para>
+            <default:para>What about people who buy junk food for you and leave it in plain sight?</default:para>
+            <default:para>What can you give up a little on, or who can you give up a little on and still enjoy in life?</default:para>
+            <default:para>Sometimes you might need to spend less time with them initially, until you’ve learned some new skills to combat their influence.</default:para>
+            <default:para>Often as people see others changing around them one of two things happens:</default:para>
+            <default:orderedlist>
+              <default:listitem>
+                <default:para>They react poorly because they don’t want to change, and so they may try to sabotage you as a result</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>In more cases I see people observe how others change and consequently want to get in on the fun.</default:para>
+              </default:listitem>
+            </default:orderedlist>
+            <default:para>Who are the good influencers?</default:para>
+            <default:para>You probably have a few active friends, if you don’t, make some.</default:para>
+            <default:para>Ask them what they do, be around them more, go to the gym with them, go to cooking classes with them, do yoga, whatever the positive influence is, embellish in it.</default:para>
+            <default:para>Perhaps the top 3 environmental/social contributors to overeating…??…?</default:para>
+            <default:orderedlist>
+              <default:listitem>
+                <default:para>Sleep Deprivation (Lack of Sleep)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Excessive Alcohol Consumption</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>TV/Computer Use While Eating (and other distractions)</default:para>
+              </default:listitem>
+            </default:orderedlist>
+            <default:para>Find ways to work around them as best you can, one little thing at a time.</default:para>
+            <default:title ezxhtml:level="2">Now…</default:title>
+            <default:para>Most people reading a fitness or nutrition blog want to hear about some meal plan recommendations or an exercise routine.</default:para>
+            <default:para>They want to be told EXACTLY what to do.</default:para>
+            <default:para>With all the conflicting nutrition and exercise advice out there, I can hardly blame them.</default:para>
+            <default:para>Sure meal plans and exercise plans can work, at least for a short amount of time, and yes I give them to people on a regular basis, but I also teach people how to use them properly.</default:para>
+            <default:para>Doing a little figuring out on your own, rather than being spoon fed every last detail is exactly the finishing touch the process of losing weight needs.</default:para>
+            <default:para>What matters in the process is really finding out what intricate sets of habits, skills, behaviors and social or environmental settings work for you without drastically affecting your desired quality of life.</default:para>
+            <default:para><default:link xlink:href="ezurl://60" xlink:show="new" xlink:title="Why Do I Need a Coach?">A coach can really help</default:link>, or a mentor with positive social influence can help a ton too.</default:para>
+            <default:para>I have clients that I’ve worked with for more than eight years now and the most successful learn one simple thing:</default:para>
+            <default:para>You need to take some ownership over the experience and become autonomous over time.</default:para>
+            <default:para>Your coach or mentor can’t do it for you. A diet or exercise book can’t do it for you either.</default:para>
+            <default:para>Don’t take on the change process all by yourself if you can help it.</default:para>
+            <default:para>Self-directed fat loss programs are incredibly ineffective!</default:para>
+            <default:para>But if you do…</default:para>
+            <default:para>It’s important to identify that one thing above to work on, give it all of your attention.</default:para>
+            <default:para>I only touched on a handful of mindset skills that are potentially important, but the biggest one bears repeating.</default:para>
+            <default:para>The biggest mistake people make is trying to overhaul their diet all at once <default:emphasis>(often this is what calorie counting does, which is also why so few people stick with it in the long-run).</default:emphasis></default:para>
+            <default:para>Focus on changing one thing at a time, and build off of successes, and you will accumulate the desired result the same way people gain weight in the first place.</default:para>
+            <default:para>That is to say it probably took you a few years to gain 30 lbs, so it’s safe to assume it might take you one or two to lose it and maintain it.</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis><default:emphasis><default:emphasis>Article credit: <default:link xlink:href="ezurl://104" xlink:show="none">Skill Based Fitness</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis></default:emphasis></default:emphasis>
+<default:emphasis><default:emphasis>Cover photo: <default:link xlink:href="ezurl://103" xlink:show="none">Costculator</default:link> <default:emphasis><default:emphasis>/ <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis></default:emphasis></default:emphasis></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24632" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24633" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24634" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24635" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24636" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text>Produced by Fit&amp;Healthy with Acme</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24638" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24639" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Fat Loss: A Realistic Plan to Lose a Lot of Weight" node-id="795" remote-id="media-n-795" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -21,7 +21,7 @@
          symbol = $currency.symbol}
 {/if}
 
-<br />
+<br>
 
 <h3>{'Product items'|i18n( 'design/ezwebin/shop/orderview' )}</h3>
 <table class="list" width="100%" cellspacing="0" cellpadding="0" border="0">

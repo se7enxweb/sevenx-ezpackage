@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="1062" name="The Benefits of Stepping Away From Running For a Bit" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="211" ezremote:published="Wed, 22 Aug 2018 09:07:22 GMT" ezremote:modified="Thu, 24 Sep 2020 08:29:28 GMT" remote_id="media-o-1062" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" active_version="6">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:version="6" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:29:19 GMT" ezremote:modified="Thu, 24 Sep 2020 08:29:28 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" language="eng-US" object_name="The Benefits of Stepping Away From Running For a Bit">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24920" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>The Benefits of Stepping Away From Running For a Bit</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24921" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24922" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24923" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24924" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="726a5800e429cb2af00f496878d519ae" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24925" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="e90ae559841c58871bf012935a6906a5" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24926" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Wed, 22 Aug 2018 09:03:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24927" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24928" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="24929" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>This morning I ran five miles at a pace of just over 8:00 per mile, then finished with a mile or so of hill repeats. A few years ago this would have been a pretty standard type of workout for me, but on this day it was a big step forward to feeling like a runner again.</default:para>
+            <default:ezembed xlink:href="ezcontent://287" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="left">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>My life for the past 12 months or so has been almost completely consumed by my first year as a high school biology teacher (with the remainder of my time mostly allotted to being a soccer dad). Though I love my new job, I’ve never worked so hard in my life (thank a teacher, please, it’s an incredibly demanding, yet incredibly rewarding job!), and all secondary pursuits necessarily took a back seat. Among those activities that took a hit was my running.</default:para>
+            <default:para>Since last summer, there have been many weeks were my mileage total was a big, fat zero. At first it was hard to come to terms with the fact that I wasn’t running much, but eventually I realized that I just needed to let go. I’d been a first year teacher before (at the college level), and I knew that things would get easier in subsequent years. The hiatus from my hobbies would be temporary, but necessary.</default:para>
+            <default:para>My approach could be summarized by the following:</default:para>
+            <default:para>1. Stop stressing about not running.</default:para>
+            <default:para>2. Run when I had the time, but always prioritize family time, grading, and prepping for school. Keep work stress manageable (top priority!), and use running as a release when possible.</default:para>
+            <default:para>3. Ignore pace and mileage. The slow, 2 mile run became a staple. Walking was employed frequently  – Northwood, NH is crazy hilly!</default:para>
+            <default:para>4. Take advantage of vacations and snow days – I ran a lot over school vacations, and snowshoeing on snow days (we had 5 this year…) was an opportunistic alternative to running.</default:para>
+            <default:para>What I discovered was that the break was a net positive. Sure I gained some weight (there will be no sub-20 5k’s for me for awhile…), but my fitness took less of a hit than I expected. For example, I celebrated the end of the school year by running over 20 miles in 36 hours at the <default:link xlink:href="ezurl://126" xlink:show="none">Rock Lobster Relay in Maine</default:link> (great relay, and some beautiful scenery on Mt. Desert Island!). My training for this was minimal – I hadn’t run 20 miles in a week since the previous summer – but my residual fitness, maintained in some form by the smattering of runs completed during the school year, was enough to get me through without any trouble. In fact, I managed to keep my total average pace under 9:00/mile, which I did not expect. The human body is pretty amazing, and the benefits gained from running are long-lasting.</default:para>
+            <default:para>Now, half-way through the summer, I feel like I’m clawing my fitness back. I ran 25 miles last week, and hopefully will get in a 30 mile week before school starts back up. I plan to run a half marathon this Fall, and get back to reviewing some shoes (on a smaller scale than in the past). I’ve come to realize that the extended hiatus has reignited my passion, and allowed me to develop a new relationship with the sport that I love. I’m excited to get back at it!</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Article credit: <default:link xlink:href="ezurl://118" xlink:show="none">Runblogger</default:link> / <default:link xlink:href="ezurl://117" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Photo credit: <default:link xlink:href="ezurl://118" xlink:show="none">Runblogger</default:link> / <default:link xlink:href="ezurl://117" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Cover photo: <default:link xlink:href="ezurl://306" xlink:show="none">Kristian Egelund</default:link> on <default:link xlink:href="ezurl://307" xlink:show="none">Unsplash</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24930" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24931" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24932" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24933" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24935" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24936" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="The Benefits of Stepping Away From Running For a Bit" node-id="828" remote-id="media-n-828" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

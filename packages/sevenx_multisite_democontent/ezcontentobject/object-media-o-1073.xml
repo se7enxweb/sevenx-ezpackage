@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="106" name="Hip Foam Rolling" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Wed, 22 Aug 2018 09:39:13 GMT" ezremote:modified="Thu, 24 Sep 2020 09:02:20 GMT" remote_id="media-o-1073" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 09:00:18 GMT" ezremote:modified="Thu, 24 Sep 2020 09:02:20 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Hip Foam Rolling">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="711" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Hip Foam Rolling</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="712" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="713" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="ec29f75d3e56e58b603b1ebc6a9e269e" alternative-text=""/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Hip Foam Rolling" node-id="108" remote-id="media-n-838" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

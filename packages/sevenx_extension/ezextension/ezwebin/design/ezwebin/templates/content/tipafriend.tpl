@@ -37,17 +37,17 @@
 
 <div class="block">
 <label>{"Your name"|i18n("design/ezwebin/content/tipafriend")}</label><div class="labelbreak"></div>
-<input class="box" type="text" size="40" name="YourName" value="{$your_name|wash}" />
+<input class="box" type="text" size="40" name="YourName" value="{$your_name|wash}">
 </div>
 
 <div class="block">
 <label>{"Your email address"|i18n("design/ezwebin/content/tipafriend")}</label><div class="labelbreak"></div>
-<input class="box" type="text" size="40" name="YourEmail" value="{$your_email|wash}" />
+<input class="box" type="text" size="40" name="YourEmail" value="{$your_email|wash}">
 </div>
 
 <div class="block">
 <label>{"Recipient's email address"|i18n("design/ezwebin/content/tipafriend")}</label><div class="labelbreak"></div>
-<input class="box" type="text" size="40" name="ReceiversEmail" value="{$receivers_email|wash}" />
+<input class="box" type="text" size="40" name="ReceiversEmail" value="{$receivers_email|wash}">
 </div>
 
 <div class="block">
@@ -56,11 +56,11 @@
 </div>
 
 <div class="buttonblock">
-<input class="button" type="submit" name="SendButton" value="{'Send'|i18n('design/ezwebin/content/tipafriend')}" />
-<input class="button" type="submit" name="CancelButton" value="{'Cancel'|i18n('design/ezwebin/content/tipafriend')}" />
+<input class="button" type="submit" name="SendButton" value="{'Send'|i18n('design/ezwebin/content/tipafriend')}">
+<input class="button" type="submit" name="CancelButton" value="{'Cancel'|i18n('design/ezwebin/content/tipafriend')}">
 </div>
 
-<input type="hidden" name="NodeID" value="{$node_id}" />
+<input type="hidden" name="NodeID" value="{$node_id}">
 
 </form>
 

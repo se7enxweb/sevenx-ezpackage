@@ -85,12 +85,12 @@
                     {foreach $extension as $ext_key => $ext_info}
                         {$ext_key|wash}:
                         {if not( is_array( $ext_info ) )}
-                            {$ext_info}<br />
+                            {$ext_info}<br>
                         {else}
                             <ul>
                                 <li>
                                     {foreach $ext_info as $ext_info_key => $ext_info_value}
-                                        {$ext_info_key} : {$ext_info_value}<br />
+                                        {$ext_info_key} : {$ext_info_value}<br>
                                     {/foreach}
                                 </li>
                             </ul>

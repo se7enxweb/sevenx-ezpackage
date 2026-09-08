@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="true" sort-field="published" sort-order="0">
+  <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Topic";s:6:"eng-GB";s:5:"Topic";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>ng_topic</identifier>
+  <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+  <remote-id>6a5c82c52ab4e95a71ae64dc5bc12469</remote-id>
+  <object-name-pattern>&lt;title&gt;</object-name-pattern>
+  <url-alias-pattern>&lt;url_text|title&gt;</url-alias-pattern>
+  <remote>
+    <site-url>http://localhost/</site-url>
+    <url>http://localhost/class/view/220</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>53</id>
+    <created>1533129510</created>
+    <modified>1536674477</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>456</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Title";s:6:"eng-GB";s:5:"Title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>title</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category/>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>255</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztags" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>457</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Topic";s:6:"eng-GB";s:5:"Topic";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>topic</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category/>
+      <serialized-data-text>a:2:{s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-GB";}</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <subtree-limit>0</subtree-limit>
+        <max-tags>1</max-tags>
+        <hide-root-tag>true</hide-root-tag>
+        <edit-view>Default</edit-view>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>458</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:10:"Intro text";s:6:"eng-GB";s:10:"Intro text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>full_intro</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:39:"Full intro text, shown on category page";s:6:"eng-GB";s:39:"Full intro text, shown on category page";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category/>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>459</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:9:"Body text";s:6:"eng-GB";s:9:"Body text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>body</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:30:"Main category description text";s:6:"eng-GB";s:30:"Main category description text";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category/>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <text-column-count>20</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>460</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:9:"CSS class";s:6:"eng-GB";s:9:"CSS class";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>css_class</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:18:"Specific CSS class";s:6:"eng-GB";s:18:"Specific CSS class";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>6</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>461</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:8:"URL text";s:6:"eng-GB";s:8:"URL text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>url_text</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:42:"Text to be used when generating smart URLs";s:6:"eng-GB";s:42:"Text to be used when generating smart URLs";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>7</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>462</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:9:"Meta Data";s:6:"eng-GB";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>8</placement>
+      <datatype-parameters/>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="959" name="Bodyweight Circuit with Running Pyramid Workout" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Mon, 23 Jul 2018 11:29:22 GMT" ezremote:modified="Thu, 24 Sep 2020 08:25:29 GMT" remote_id="media-o-959" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="8">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="8" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:25:20 GMT" ezremote:modified="Thu, 24 Sep 2020 08:25:29 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Bodyweight Circuit with Running Pyramid Workout">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23512" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Bodyweight Circuit with Running Pyramid Workout</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23513" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24329" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23514" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="34462b22ac1e1db9b115bec7fc23c76d" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23515" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="a5fc06123d18ab9c36f86d1d212e5789" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23516" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>This is a great workout for both outdoors and the gym. No equipment is required for the strength-training circuits, so you can stop at given points in an outdoor running route to complete them in the grass/sand/etc. On the flipside, if you’re gym bound, just snag one of the treadmills and a small area of floor space.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23517" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="23518" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:title ezxhtml:level="2">Bodyweight Circuit with Running Pyramid Workout</default:title>
+            <default:ezembed xlink:href="ezcontent://319" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="center">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>You’ll alternate between running (the distance decreases each round in a pyramid fashion) and completing three rounds of the following bodyweight circuit. In total, you run 2.5 miles and complete 9 rounds of the strength circuit. Here’s the breakdown:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Run 1 mile</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>3 rounds of strength training circuit</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Run .75 miles</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>3 rounds of strength training circuit</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Run .5 miles</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>3 rounds of strength training circuit</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Run .25 miles</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:ezembed xlink:href="ezcontent://320" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="center">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>You should try to run each leg as fast as you can without stopping. And if you don’t have a treadmill or just hate running, feel free to replace it with another type of cardio (the elliptical, biking, etc.).</default:para>
+            <default:title ezxhtml:level="2">Strength Training Circuit Breakdown</default:title>
+            <default:para>Complete <default:emphasis role="strong">three rounds</default:emphasis> of the following in between each running leg:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para><default:emphasis role="strong">10 Reptile Push Ups: </default:emphasis>Start in push up position (a plank with hands aligned under shoulders). As you lower down, crunch your right knee forward, in towards the right shoulder, squeezing those obliques. Return the foot back to the ground as you press back up into high plank position. Repeat, this time on the left.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para><default:emphasis role="strong">20 Hindu Squats: </default:emphasis>A Hindu Squat can best be described as a fluid, deep squat in which you roll onto the balls of your feet as you come up. This is one squat variation where it’s okay for your knees to stick out farther than your toes—but only when you’re on the balls of your feet. Keep feet shoulder-width apart and start by squatting down, hands behind you, torso leaning forward. Move your arms in a circular motion so that your fingertips brush the ground when you’re at your lowest squat, shifting weight onto the balls of your feet and sweeping the arms forward as you come up.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para><default:emphasis role="strong">10 (each side) Side Plank Crossbody Crunches: </default:emphasis>Start in a side plank position, top arm bent, hand behind your head, and bottom leg hovering a couple inches off the ground. From there, tuck your bottom knee forward as you crunch the opposite elbow towards it, twisting your torso towards the ground.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para><default:emphasis role="strong">10 (each side) Forward/Backward Pivoting Lunges:</default:emphasis>This is essentially a front-to-back lunge with one foot planted on the ground. Start in a split-stance lunge, one foot forward, and on the ball of the back foot. Both knees should be bent to 90 degrees, back knee hovering a couple inches off the ground and front knee aligned over the ankle. Using the front foot as your anchor leg, step the back foot forward, landing back in the starting position only with the opposite leg forward, and then quickly pushing off that foot and returning it back behind the anchor foot to where it started.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:ezembed xlink:href="ezcontent://321" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="center">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>Yeah yeah, ok, workout shmorkout—these leggings! So. Stinking. Comfy. I had seen the <default:link xlink:href="ezurl://155" xlink:show="new">lucy</default:link>brand floating around the internet for a while, and then spotted one of their stores while in San Francisco a couple months ago. I remember thinking how cute everything in the window display looked, and then as if reading my mind, the awesome people over at lucy reached out to me about rocking some of their apparel on P&amp;I. Yes, please! I’m wearing the <default:link xlink:href="ezurl://156" xlink:show="new">I Run This Capri</default:link> (retail at $89), and <default:emphasis>love</default:emphasis> them. They’re soft and comfortable with a wide, flattering waistband, thick enough material to keep everything where it’s supposed to be, and cute color options.</default:para>
+            <default:para>Now per usual, I’ll leave you with a couple questions to get the ol’ comments section going…</default:para>
+            <default:para><default:emphasis role="strong">Outdoor running or the treadmill—who ya got? </default:emphasis>(I think treadmills are torture—I’m Team Outdoors all the way!)</default:para>
+            <default:para>
+              <default:emphasis role="strong">Have you tried out lucy workout apparel before? Thoughts?</default:emphasis>
+            </default:para>
+            <default:para>Happy Humpday, friends!</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Article credit: <default:link xlink:href="ezurl://157" xlink:show="none">pumpsandiron.com</default:link> / <default:link xlink:href="ezurl://117" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Photo credit: <default:link xlink:href="ezurl://157" xlink:show="none">pumpsandiron.com</default:link> / <default:link xlink:href="ezurl://117" xlink:show="none">CC BY</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23520" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23521" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23845" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23522" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23876" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23524" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23525" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Bodyweight Circuit with Running Pyramid Workout" node-id="730" remote-id="media-n-730" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

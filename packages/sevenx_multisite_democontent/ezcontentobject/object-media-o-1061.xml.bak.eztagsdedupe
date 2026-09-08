@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="91" name="Effects of Cadence Training on Running Biomechanics and Efficiency" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Wed, 22 Aug 2018 09:00:08 GMT" ezremote:modified="Thu, 24 Sep 2020 08:27:31 GMT" remote_id="media-o-1061" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:27:18 GMT" ezremote:modified="Thu, 24 Sep 2020 08:27:31 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Effects of Cadence Training on Running Biomechanics and Efficiency">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="605" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Effects of Cadence Training on Running Biomechanics and Efficiency</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="606" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text>Effects of Cadence Training on Running Biomechanics and Efficiency</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="607" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="608" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Effects of Cadence Training on Running Biomechanics and Efficiency</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="609" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="dd420882dd68f32c87a36a26702e9b9e" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="610" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="2edf0ecdb3968fd9d80e8a95cb7fb655" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="611" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Wed, 22 Aug 2018 08:58:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="612" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="613" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="614" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Research has suggested that increasing running cadence (steps/minute) by 5-10% can reduce loading at the knee and hip joints, and this has spurred interest in the use of cadence training in clinical settings. In particular, <link href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3022995/">Heiderscheit et al. (2011)</link> found that increasing cadence reduced peak vertical ground reaction force, peak hip adduction, peak hip flexion, and peak knee flexion (among other things). Excessive hip adduction, for one example, has been associated with injuries such as patellofemoral pain syndrome (Runner’s knee) and iliotibial band syndrome (ITBS).</paragraph>
+            <paragraph>One of the challenges with gait retraining methods employed in clinical settings is that the equipment required is not always accessible to runners outside of the clinic (e.g., accelerometers, force treadmills). This can require repeated, often costly appointments, especially if they are not covered by insurance. Cadence training has the advantage of being easy to do outside of the clinical setting using smartphone apps, metronomes, or fitness watches that can measure cadence in real time.</paragraph>
+            <paragraph>Questions that arise are whether runners can make lasting modifications to their running cadence on their own, whether those modifications might yield the same loading changes observed acutely in the lab, and whether there are any negative consequences to cadence change such as a loss of running efficiency. A <link href="http://www.tandfonline.com/doi/abs/10.1080/02640414.2014.962573#.VOTlZUfF98E">recent study led by Jocelyn Hafer of the University of Massachusetts</link> addressed each of these issues. Published in the Journal of Sports Sciences, the study looks at how a 6-week cadence training protocol effects running biomechanics and efficiency.</paragraph>
+            <paragraph>Here is the abstract of the study:</paragraph>
+            <paragraph>The effect of a cadence retraining protocol on running biomechanics and efficiency: a pilot studyJocelyn F. Hafer, Allison M. Brown, Polly deMille, Howard J. Hillstrom &amp; Carol Ewing GarberJournal of Sports Sciences, Volume 33, Issue 7, 2015AbstractMany studies have documented the association between mechanical deviations from normal and the presence or risk of injury. Some runners attempt to change mechanics by increasing running cadence. Previous work documented that increasing running cadence reduces deviations in mechanics tied to injury. The long-term effect of a cadence retraining intervention on running mechanics and energy expenditure is unknown. This study aimed to determine if increasing running cadence by 10% decreases running efficiency and changes kinematics and kinetics to make them less similar to those associated with injury. Additionally, this study aimed to determine if, after 6 weeks of cadence retraining, there would be carryover in kinematic and kinetic changes from an increased cadence state to a runner’s preferred running cadence without decreased running efficiency. We measured oxygen uptake, kinematic and kinetic data on six uninjured participants before and after a 6-week intervention. Increasing cadence did not result in decreased running efficiency but did result in decreases in stride length, hip adduction angle and hip abductor moment. Carryover was observed in runners’ post-intervention preferred running form as decreased hip adduction angle and vertical loading rate.</paragraph>
+            <section>
+              <header>Methods</header>
+              <paragraph>In this study, researchers screened for runners with a cadence between 150 and 170 steps per minute, which is on the low end of the range of cadences typically observed (six runners were included in the study, so a relatively small sample size). They then had these runners train for 6 weeks with a goal of running at least 50% of their miles at a cadence 10% higher than their baseline. To accomplish this they could use either a metronome app or songs with tempos corresponding to the target cadence. A variety of metabolic and biomechanical measurements were taken before and after the training period to assess the effects of the retraining protocol. They also looked at immediate effects of increasing cadence at the outset to see if changes would be similar to those previously reported in the literature (they were).</paragraph>
+              <header>Results</header>
+              <paragraph>After the six week training protocol, the runners preferred cadence had increased significantly from around 166 steps/min on average to around 170 steps/min. Thus, though they did not adopt a full 10% increase through the training, cadence did increase significantly. Along with the preferred cadence increase, the runners also exhibited reduced ankle dorsiflexion at contact (less pronounced heel strike), reduced peak hip adduction angle (the thigh did not angle medially/inward as much), and reduced vertical loading rate. Running efficiency was not significantly different.</paragraph>
+              <header>Comments</header>
+              <paragraph>Though the sample size was small (the authors admit this and refer to it as a pilot study in the title), it is encouraging to see that cadence training can lead runners to modify their form, and that changes can alter variables associated with injury (especially with the small cadence increase that they observed). Reduction in hip adduction angle could benefit those with patellofemoral pain or ITBS, and reduced vertical loading rate could benefit those with a history of tibial stress fracture. It’s also encouraging that these benefits are accrued without a hit to running efficiency.</paragraph>
+              <paragraph>I would like to see this study completed with a larger sample of runners, but it was encouraging the significant changes were found even with this small sample. I’d also like to see some analysis of which method of cadence training is most effective for a runner (music, metronome, real-time feedback via an app or watch).</paragraph>
+              <paragraph>All things considered, these results do suggest that increasing cadence is one option to consider for those experiencing ilitibial band syndrome, patellofemoral pain syndrome, or past tibial stress fracture. I also like that this is an intervention that runners can undertake on their own without the need to make repeated visits to a clinic. A useful next step would be an interventional study where runners experiencing one of these conditions undergo a cadence training program and symptoms are monitored before and after.</paragraph>
+              <paragraph>
+                <emphasize>Article credit: <link href="https://runblogger.com/">Runblogger</link> / <link href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY</link></emphasize>
+                <line/>
+                <line/>
+                <emphasize>Cover photo: <link href="https://unsplash.com/photos/mu_ury4cOnA?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Justyn Warner</link></emphasize>
+                <line/>
+              </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="615" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="616" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>68</id-string>
+          <keyword-string>Running</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="617" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>68|#65</id-string>
+          <keyword-string>Running|#Workout</keyword-string>
+          <parent-string>0|#0</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="618" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="619" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="620" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="621" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Effects of Cadence Training on Running Biomechanics and Efficiency" node-id="93" remote-id="media-n-826" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

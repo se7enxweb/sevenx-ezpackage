@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="102" name="Functional movement screen" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Wed, 22 Aug 2018 09:35:28 GMT" ezremote:modified="Thu, 24 Sep 2020 08:59:04 GMT" remote_id="media-o-1069" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:57:45 GMT" ezremote:modified="Thu, 24 Sep 2020 08:59:04 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Functional movement screen">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="699" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Functional movement screen</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="700" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="701" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="23ab5b17ff98acc50c780fbb1560d0d5" alternative-text=""/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Functional movement screen" node-id="104" remote-id="media-n-834" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

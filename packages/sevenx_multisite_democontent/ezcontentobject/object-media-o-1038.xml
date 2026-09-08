@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="225" name="Panzanella - Classic Italian Tomato and Bread Salad" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 21 Aug 2018 15:26:06 GMT" ezremote:modified="Thu, 24 Sep 2020 09:05:28 GMT" remote_id="media-o-1038" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 09:03:38 GMT" ezremote:modified="Thu, 24 Sep 2020 09:05:28 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Panzanella - Classic Italian Tomato and Bread Salad">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2274" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Panzanella - Classic Italian Tomato and Bread Salad</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2275" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2276" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="3857a32e18e69e6d5646ed9239a62a20" alternative-text=""/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Panzanella - Classic Italian Tomato and Bread Salad" node-id="227" remote-id="c16e1b236fd07458e8988aebdcd5e649" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

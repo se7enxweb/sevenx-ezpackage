@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" ezremote:id="1149" name="Article test" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Mon, 13 Feb 2023 23:15:24 GMT" remote_id="media-o-1149" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" active_version="15">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" ezremote:version="15" ezremote:status="1" ezremote:created="Mon, 13 Feb 2023 23:14:34 GMT" ezremote:modified="Mon, 13 Feb 2023 23:15:24 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" language="eng-US" object_name="Article test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25668" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Article test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25669" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25670" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25671" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25672" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="4114932b0c0f4c0af6e58936d4624b45" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25673" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>What kind of diet is best for maintaining the health of aging brains and bodies? A common answer these days is the “Mediterranean diet,” due to a combination of recently published research studies and frequent media coverage.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25674" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" ezremote:id="25675" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>In fact, a <default:link xlink:href="ezurl://189" xlink:show="none">study</default:link> published earlier this week found that older Spanish women who were randomly assigned to stick to a Mediterranean diet — supplemented by extra olive oil — developed fewer cases of invasive breast cancer, compared to women who were merely advised to reduce dietary fat.</default:para>
+            <default:ezembed xlink:href="ezcontent://325" view="embed"/>
+            <default:para>This study was published by the same research team that <default:link xlink:href="ezurl://190" xlink:show="none">reported earlier this year</default:link> that Spaniards assigned to a Mediterranean diet — supplemented with either olive oil or nuts — experienced less cognitive decline. And a 2013 report from the same group found that the <default:link xlink:href="ezurl://191" xlink:show="none">Mediterranean diet led to a 30% decrease in cardiovascular events</default:link> (strokes and heart attacks).</default:para>
+            <default:para>Does this mean you should hustle to make sure your older relatives are eating a Mediterranean diet? Well, maybe. I will go into the study details later in the post, but for now, let’s say that the diet used in the study seems very sensible, provided one doesn’t suffer unduly from limited access to pork and cookies.</default:para>
+            <default:para>As is the case for many lifestyle changes that might affect cancer and dementia, a healthy diet reduces risk but is just one factor among many. Still, if we’ve learned of a good way to eat, why not consider it?</default:para>
+            <default:title ezxhtml:level="1">Heading 1</default:title>
+            <default:para>So in this post, here’s what I’ll review:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Just what people were eating, as part of the Spanish Mediterranean diet study (known as the PREDIMED study)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>What kinds of older adults PREDIMED studied in Spain, and some of the major findings of interest</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Where to find a comprehensive review of the scientific evidence for diet and brain health</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:ezembed xlink:href="ezcontent://325" view="embed" ezxhtml:class="ibexa-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">large</default:ezvalue>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:title ezxhtml:level="2">Heading 2 How to follow the PREDIMED Mediterranean diet</default:title>
+            <default:ezembed xlink:href="ezcontent://325" view="embed" ezxhtml:class="ibexa-embed-type-image" ezxhtml:align="left">
+              <default:ezconfig>
+                <default:ezvalue key="size">large</default:ezvalue>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>PREDIMED (Prevención con Dieta Mediterránea) was a big randomized control trial conducted in Spain, from 2003 to 2009. It involved 7446 peopled aged 55-80. In the next section of the post I’ll describe the study in more detail, but let’s start with what you are probably most interested in:</default:para>
+            <default:para>
+              <default:emphasis>Just what was the PREDIMED Mediterranean diet??</default:emphasis>
+            </default:para>
+            <default:para>Fortunately, it is possible to find the research study’s materials online, and they describe the recommended diet in detail.</default:para>
+            <default:ezembed xlink:href="ezcontent://325" view="embed" ezxhtml:class="ibexa-embed-type-image" ezxhtml:align="center">
+              <default:ezconfig>
+                <default:ezvalue key="size">large</default:ezvalue>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>If you can read Spanish, you can view the patient education materials via this <default:link xlink:href="ezurl://192" xlink:show="none">PREDIMED website</default:link>. This site also has recipes and shopping lists.</default:para>
+            <default:ezembed xlink:href="ezcontent://325" view="embed" ezxhtml:class="ibexa-embed-type-image" ezxhtml:align="right">
+              <default:ezconfig>
+                <default:ezvalue key="size">large</default:ezvalue>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>For a description in English, visit <default:link xlink:href="ezurl://193" xlink:show="none">this PREDIMED site</default:link> and click “Supplemental Appendix (NEJM).” A technical description of the diet is on page 9. To summarize, here were the dietary do’s and don’ts for those assigned to a Mediterranean diet:</default:para>
+            <default:para>Mediterranean Diet Do’s:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Use olive oil abundantly for cooking, and for seasoning dishes</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Eat 2 or more servings of vegetables every day, with at least one serving fresh in a salad</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Eat at least 2-3 daily servings of fresh fruit (“including natural juices”)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Eat at least 3 servings per week of “legumes”</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Eat at least 3 servings of fish or seafood, including at least one serving of fatty fish</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Eat at least one weekly serving of nuts or seeds</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Eat white meat (chicken, rabbit) instead of red meat, burgers, sausages, or processed meat</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Cook at least twice weekly with a sauce of tomato, onion, and garlic, which should be made by simmering these ingredients in olive oil. Use this as dressing for vegetables, pasta, rice, and other dishes.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Eat two main meals of the day seated at the table; each should last at least 20 minutes</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Use wine as main alcohol, drink 1-3 glasses per day</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Consume the following foods as desired: nuts, eggs, fish, seafood, low-fat cheese, dark chocolate, and whole-grain cereals.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>Mediterranean Diet Don’ts: Limit or avoid</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>cream, butter, margarine</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>cold meats, pâté, duck</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>carbonated or sweet beverages</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>pastries, cakes, donuts, cookies, puddings, custards, especially if industrially produced</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>fries and potato chips</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Aim for less than one serving per week of cured ham, red meat, and fatty cheeses.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>In addition to the above recommendations, half of the people assigned to the Mediterranean diet also had to consume extra olive oil (one liter per week) or extra nuts (30g per day).</default:para>
+            <default:para>Wondering how your diet compares? You can see the dietary quiz investigators used (in English) on page 22 of the <default:link xlink:href="ezurl://193" xlink:show="none">Supplemental Appendix</default:link>.</default:para>
+            <default:para>You can also view the recommendations for the “low-fat” diet, which was used as a control group, on page 23 of the Appendix. Notably, the low-fat diet recommendations discouraged cooking with oil or eating nuts.</default:para>
+            <default:orderedlist>
+              <default:listitem>
+                <default:para>In reviewing the Mediterranean diet,</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I was struck by the lack of limits on carbohydrates.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>(Note that the study period pre-dates the current trend to consider less gluten and grains, but then again having diabetes was one way to be eligible for the study.)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Nor did I see anything about limiting salt, which is interesting given participants</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>were at high risk for things like stroke and heart attacks.</default:para>
+              </default:listitem>
+            </default:orderedlist>
+            <default:title ezxhtml:level="2">Heading 2</default:title>
+            <default:para>I also <default:superscript>wondered</default:superscript> to what <default:subscript>extent</default:subscript> Mediterranean <default:emphasis role="strikedthrough">diet participants were encouraged</default:emphasis> to eat beans and similar foods; these are called “frijoles” (beans) or “garbanzos” (chickpeas) or “lentejas” (lentils), and I didn’t see them on the Spanish diet description handout that was given to participants, although those ingredients do turn up in the recipes.</default:para>
+            <default:title ezxhtml:level="1">The Spanish Mediterranean Diet Study (PREDIMED)</default:title>
+            <default:para>Now let’s talk a little about the study itself, so that you can learn more about whether the results are likely to apply to your family.</default:para>
+            <default:blockquote>
+              <default:para>The best studies in clinical medicine, when it comes to assessing the effectiveness of a treatment or intervention, are “<default:link xlink:href="ezurl://194" xlink:show="none">randomized control trials</default:link>,” (RCTs). In these research trials, participants are carefully recruited, randomly assigned to receive some kind of treatment, and then are assessed for a health outcome of interest after some period of time.</default:para>
+            </default:blockquote>
+            <default:para>Doing an RCT properly takes a lot of time, effort, and organization for the researchers; it’s much harder than doing an observational study, which is what many diet studies are. In a RCT, researchers have to specify at the beginning what kind of people they want to recruit, they have to decide which aspects of participant health to assess at the beginning, they have to deliver the intervention — and any placebo, or “control” treatment — reliably to participants for as long as the study takes, and then they have to properly follow participants and assess health outcomes of interest.</default:para>
+            <default:informaltable>
+              <default:thead>
+                <default:tr>
+                  <default:th>
+                    <default:emphasis role="strong">Person</default:emphasis>
+                  </default:th>
+                  <default:th>
+                    <default:emphasis role="strong">Weight (kg)</default:emphasis>
+                  </default:th>
+                  <default:th>
+                    <default:emphasis role="strong">Height (cm)</default:emphasis>
+                  </default:th>
+                </default:tr>
+              </default:thead>
+              <default:tbody>
+                <default:tr>
+                  <default:td>John</default:td>
+                  <default:td>78</default:td>
+                  <default:td>175</default:td>
+                </default:tr>
+                <default:tr>
+                  <default:td>Steve</default:td>
+                  <default:td>82</default:td>
+                  <default:td>187</default:td>
+                </default:tr>
+              </default:tbody>
+            </default:informaltable>
+            <default:para ezxhtml:class="half-left">PREDIMED, as best I can tell, was a nice well-organized effort,  in which investigators recruited 7446 older adults in Spain. The research team maintains a website <default:link xlink:href="ezurl://195" xlink:show="none">here</default:link>, and the study protocol is described <default:link xlink:href="ezurl://196" xlink:show="none">here</default:link>. The overall goal, as stated at the outset, was to study the effect of dietary intervention in older adults at high cardiovascular risk.</default:para>
+            <default:eztemplate name="quote">
+              <default:ezcontent>
+                <default:para>They also had to be at high risk for cardiovascular disease, but not yet diagnosed with actual cardiovascular disease. In other words</default:para>
+              </default:ezcontent>
+              <default:ezconfig>
+                <default:ezvalue key="author">Some author</default:ezvalue>
+              </default:ezconfig>
+            </default:eztemplate>
+            <default:para ezxhtml:class="half-right">The main outcome of interest was having a major cardiovascular event, such as a heart attack or stroke. The investigators also studied extra issues in subsets of the participants, so the data for the breast cancer and cognitive decline reports mentioned above comes from those.</default:para>
+            <default:eztemplate name="factbox">
+              <default:ezcontent>
+                <default:para>The main outcome of interest was having a major cardiovascular event, such as a heart attack or stroke. The investigators also studied extra issues in subsets of the participants, so the data for the breast cancer and cognitive decline reports mentioned above comes from those.</default:para>
+              </default:ezcontent>
+              <default:ezconfig>
+                <default:ezvalue key="title">Some factbox title</default:ezvalue>
+              </default:ezconfig>
+            </default:eztemplate>
+            <default:para>Participants were recruited in Spain from 2003-2009. To enter the study, participants had to be men aged 55-80, or women aged 60-80.</default:para>
+            <default:para>They also had to be at high risk for cardiovascular disease, but not yet diagnosed with actual cardiovascular disease. In other words, the study excluded people with past coronary artery disease, heart attack, stroke, or peripheral artery disease. (They also excluded people with “any severe chronic illness,” substance abuse, or “low likelihood of changing dietary habits.”)</default:para>
+            <default:para>To define people at “high risk” for cardiovascular disease, participants had to have either type 2 diabetes, or at least 3 of the following risk factors: smoking, high blood pressure, high cholesterol, obesity, or family history of premature heart disease.</default:para>
+            <default:para>Once enrolled, participants were randomly assigned to one of three diet groups:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>Mediterranean diet plus supplemental extra-virgin olive oil (1 liter of olive oil per week given to participants)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Mediterranean diet plus supplemental nuts (30 grams of nuts per day given to participants)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Advice to follow a low-fat diet</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>Participants in each group met with dieticians every three months. To know whether participants were sticking to their assigned diets, the investigators asked people to complete diet questionnaires regularly, and they also checked bloodwork yearly.</default:para>
+            <default:para>The research regarding the primary outcome of the study was <default:link xlink:href="ezurl://197#t=abstract" xlink:show="none">published in 2013</default:link>. Out of 7446 people, most of whom were followed for 3-6 years, 288 (3.9%) had a major cardiovascular event: a heart attack, stroke, or death from cardiovascular causes.  People assigned to one of the Mediterranean diets had about a 30% lower risk of having an event.</default:para>
+            <default:para>An<default:link xlink:href="ezurl://198" xlink:show="none"> interesting editorial published in the New England Journal in 2013</default:link> noted that PREDIMED was ended early when the researchers noted such a big benefit (it’s considered unethical to continue a randomized trial if one group is clearly doing better), and that early termination of trials tends to “spuriously inflate estimated benefit.” A number of interesting points are made in the editorial, so I would recommend it for those who want to dig deeper into this topic.</default:para>
+            <default:para>To study the <default:link xlink:href="ezurl://190" xlink:show="none">effect of the Mediterranean diet on cognitive decline</default:link>, the researchers performed extra testing on a subset of 447 participants. These people had neuropsychological testing at the start of the study, and people with mild cognitive impairment or depression were excluded. Three-quarters of the initial participants had follow-up cognitive testing at the end of the study; average follow-up time was close to 4 years.</default:para>
+            <default:para>This cognitive sub-study found that participants assigned to either of the Mediterranean diets maintained stable levels of cognition, whereas the ones advised to follow a low-fat diet experienced a small amount of cognitive decline.</default:para>
+            <default:title ezxhtml:level="1">Where to learn more about diet and brain health</default:title>
+            <default:para>PREDIMED is a pretty good research study, as these things go. But the best scientific conclusions come from reviewing lots of studies.</default:para>
+            <default:para>When it comes to diet and brain health, we are in luck because the Institute of Medicine just published a <default:link xlink:href="ezurl://199" xlink:show="none">report on cognitive aging</default:link> earlier this year, and to prepare it, their experts did extensively review the scientific research on diet and cognitive health.</default:para>
+            <default:para>You can read the actual report online, in all its detailed glory, and the section on diet starts on page 124 <default:link xlink:href="ezurl://200" xlink:show="none">here</default:link>.</default:para>
+            <default:para>Their conclusion:</default:para>
+            <default:para>“Dietary interventions such as the DASH and Mediterranean diets appear to have promise but their efficacy and effectiveness need to be confirmed in additional clinical trials and community-based studies. While interesting and promising in some studies, the evidence regarding their effects on cognitive aging is too inconclusive to warrant recommendations for dietary change. Yet the evidence summarized here provides some justification for individual choices to eat less meat and more nuts and legumes, whole grains, and monosaturated fats, such as olive oil, to preserve cognitive health.” (pg 126)</default:para>
+            <default:para>DASH, by the way, stands for “<default:link xlink:href="ezurl://201" xlink:show="none">Dietary Approach to Stop Hypertension</default:link>,” and is another healthy eating approach seniors might want to consider.</default:para>
+            <default:title ezxhtml:level="1">What to consider before applying research findings to your life</default:title>
+            <default:para>There are two main things to consider, when you read about research on the Mediterranean diet (or any intervention, for that matter).</default:para>
+            <default:para>The first: how similar are you or your relative to the study participants?</default:para>
+            <default:para>The second: how much of a beneficial effect should you expect?</default:para>
+            <default:para>PREDIMED was notable for enrolling people at high cardiovascular risk but not with diagnosed disease. So we don’t know how much of an effect the diet would have on a senior who has already had a heart attack. Still, it doesn’t seem likely that the PREDIMED diet would really increase the risk of problems for an older adult, and it might help. So it’s a reasonable approach for those who are willing to follow the dietary parameters.</default:para>
+            <default:para>Now, how much benefit should one expect? This is very hard to answer exactly, both for statistical reasons and because it’s fairly rare that we are just like the people who were in the study we read about. (We’re not Spanish, for instance.)</default:para>
+            <default:para>Still, it’s often possible to get at least a ballpark estimate. For PREDIMED and the cardioprotective benefit (the 2013 study), they found a 30% relative risk reduction. They also had 3.9% of participants have an event.</default:para>
+            <default:para>So let’s say you’re a person whose risk of a cardiovascular event over the next 4 years is 5%. (You can find a <default:link xlink:href="ezurl://202" xlink:show="none">risk calculator online</default:link> to estimate the risk for yourself or your relative.) If you reduce that risk by 30%, your risk would go down to 3.5%. This means your absolute risk reduction is 1.5%, and so you would have a 1 in 67 chance of avoiding a cardiovascular event due to the Mediterranean diet. (We can also say that the “number needed to treat” (NNT) would be 67; there’s an excellent NYT article explaining this statistic and how to understand the magnitude of likely benefit <default:link xlink:href="ezurl://203" xlink:show="none">here</default:link>.)</default:para>
+            <default:para>Want to be optimistic and expect the diet to reduce your risk by 50%? Ok, your initial 5% event risk would go down to 2.5%, your absolute risk reduction would be 2.5%, and your NNT would be 40. So you’d have a 1 in 40 chance of benefit.</default:para>
+            <default:para>Of course, if you are really high risk for an event, e.g. 20% risk for cardiovascular emergency over the next five years, then you are much likelier to benefit from an relative risk reduction of 30%; your absolute risk reduction would be 6% and the NNT would be 17.</default:para>
+            <default:para>Note that a NNT of 67 is nothing to scoff at. Statins are generally estimated to reduce cardiovascular risk by 20-30% and correspond to a <default:link xlink:href="ezurl://204" xlink:show="none">NNT of 39-125</default:link>, depending on the type of event being prevented.</default:para>
+            <default:para>But the bottom line is: many interventions can reduce risk, but they often reduce it less than people might realize.</default:para>
+            <default:para>So, a Mediterranean diet shouldn’t be considered a magic shield against cardiovascular disease, dementia, or breast cancer.</default:para>
+            <default:para>But different aspects of a healthy lifestyle can certainly add up. So go ahead, consider the Mediterranean diet studied in PREDIMED. You might even be able to<default:link xlink:href="ezurl://205" xlink:show="none"> replace a statin with a Mediterranean diet</default:link>.</default:para>
+            <default:para>Just don’t forget to try to incorporate all the other things that are good for brain health, like avoiding <default:link xlink:href="ezurl://206" xlink:show="none" xlink:title="7 Common Brain-Toxic Drugs Seniors Should Use With Caution">risky medications</default:link> and getting enough exercise.</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Credits by: </default:emphasis><default:link xlink:href="ezurl://330" xlink:show="new"><default:emphasis>Leslie Kernisan, MD MPH</default:emphasis></default:link>
+<default:emphasis>Photo credits: </default:emphasis><default:link xlink:href="ezurl://337" xlink:show="none"><default:emphasis>Jessica Lewis</default:emphasis></default:link>
+<default:emphasis>Cover photo: </default:emphasis><default:link xlink:href="ezurl://336" xlink:show="none"><default:emphasis>Elle Hughes</default:emphasis></default:link></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25677" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25678" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25679" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25680" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25681" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25683" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25684" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="Article test" node-id="912" remote-id="media-n-912" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -53,7 +53,7 @@
 </div>
 
 <p>
-    Copyright &copy; 1999-2025 <a href="https://se7enx.com">7x</a>, with portions copyright by other parties.
+    Copyright &copy; 1998-2026 <a href="https://se7enx.com">7x</a>, with portions copyright by other parties.
 </p>
 <p>
     Copyright &copy; 1999-2014 <a href="http://ez.no/">eZ Systems AS</a>, with portions copyright by other parties. 

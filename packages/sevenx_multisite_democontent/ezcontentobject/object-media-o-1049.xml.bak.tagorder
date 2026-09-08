@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="122" name="You Should Eat More Vegetables" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Tue, 21 Aug 2018 16:13:24 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:50 GMT" remote_id="media-o-1049" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:51 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:50 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="You Should Eat More Vegetables">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="875" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>You Should Eat More Vegetables</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="876" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>You Should Eat More Vegetables</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="877" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="878" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="3f2b96c988e2b9467c133a7c4cdde3e3" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="879" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="131eb45b03d1e49a941a415357164ddc" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="880" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="881" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="882" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Eat Your Vegetables!~ Moms everywhere, since the dawn of time…</paragraph>
+            <paragraph>Mom, <emphasize>isn’t always right</emphasize>, but in this instance, she is.</paragraph>
+            <paragraph>I don’t know why it took me so long to finish an article on vegetables, as next to <link href="https://skillbasedfitness.com/why-protein-is-so-important/">protein intake</link>, I feel this is the one diet fix nearly everyone could and should make. </paragraph>
+            <paragraph>I realize that telling you to eat MORE of something, seems contradictory to some. If a negative energy balance is a requirement for weight loss — <emphasize>I don’t only work with people seeking that by the way ;</emphasize>-) — then eating more of something sounds like it would put you over your requirements.</paragraph>
+            <paragraph>However, like protein, vegetables do a lot of the same sorts of things, maybe even more, and far more people don’t get enough.</paragraph>
+            <paragraph>In the case of protein, there were a bunch of reasons to eat more. Namely that it prevents you from eating other lower spectrum foods via displacement, so it actually moderates your overall energy intake, even though you’re eating more of something.</paragraph>
+            <paragraph>Well to be honest, veggies are sort of the same, only different…</paragraph>
+            <paragraph>And yes I realize that is a picture of a tomato and that a tomato is technically a fruit, but it behaves like a vegetable in the diet (low sugar) and we made salsa once from a bunch of Roma tomatoes and this one was waving at me.</paragraph>
+            <paragraph>Let’s cut to the chase. Yes, I’m punny.</paragraph>
+            <section>
+              <section>
+                <header>
+                  <strong>You’re Probably Deficient</strong>
+                </header>
+                <paragraph><link href="http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6426a1.htm?s_cid=mm6426a1_e">According to the Center for Disease Control</link> and Prevention (CDC) less than 14% of the population meets the recommended amount of vegetable intake in the United States.</paragraph>
+                <paragraph>
+                  <strong>14%!!!!</strong>
+                </paragraph>
+                <paragraph>
+                  <emphasize>And the most consumed ‘vegetable’ appears to be potatoes by the way. Not that many of us would find that surprising, but it’s probably indicative of the number of french fries (or something similar) the majority of the population eats. Even if they are anywhere near the recommendations.</emphasize>
+                </paragraph>
+                <paragraph>This means that the overwhelming majority of people don’t get the recommended 5 servings a day. I’ll get to what constitutes a serving soon.</paragraph>
+                <paragraph>While it might not be as bad in other developed countries it’s still generally not that great (Australia does the best job…) because vegetables are rich in many of the vitamins and minerals that lots of people are also deficient in. </paragraph>
+                <paragraph>There is a very obvious relationship between the lack of vegetable consumption and a lack of people meeting the <link href="https://en.wikipedia.org/wiki/Reference_Daily_Intake">recommended daily intakes</link> (RDI) for a variety of vitamins and minerals.</paragraph>
+                <paragraph>According to the USDA, the U.S. population is likely not meeting the RDI for the following:</paragraph>
+                <ul>
+                  <li>
+                    <paragraph>Vitamin E – 86%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Folate (AKA Vitamin B9) – 75%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Calcium – 73%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Magnesium – 68%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Vitamin A – 55%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Vitamin C – 48%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Zinc – 42%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Vitamin B6 – 35%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Iron – 34% (Particularly Women)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Copper – 31%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Vitamin B12 – 30%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Thiamine (AKA Vitamin B1) – 28%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Niacin (AKA Vitamin B3) – 24%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Riboflavin (AKA Vitamin B2) – 22%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Phosphorus – 21%</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Selenium – 15% (Particularly Men)</paragraph>
+                  </li>
+                </ul>
+                <paragraph>
+                  <emphasize>(Source: United States Department of Agriculture: 2009)</emphasize>
+                </paragraph>
+                <paragraph>Note:Of course, that’s assuming that RDI’s are 100% correct (and they very well are not), but as minimums go they’re the best we’ve got at the moment. Note that RDI’s don’t necessarily mean that you have to be getting all of these things in that specific quantity each day as most vitamins/minerals are stored, so long as overall you hit roughly these numbers in the diet. Don’t get neurotic about them. Also note that ‘more is not necessarily better,’ as many vitamins and minerals have toxicity upper limits that can be problematic (though many are just excreted by the body when taken in excess too). RDI’s are not generally listed for the size of an individual but you may need more of things if you’re bigger and less of something if you’re smaller too. Just a few things to keep in mind…</paragraph>
+                <paragraph>Most of these nutrients save the B12 and Zinc, are found in relative abundance in the vegetable world:</paragraph>
+                <ul>
+                  <li>
+                    <paragraph>1 cup of Spinach 4-8 mg of Vitamin E (roughly 30% of RDI – 20.1 mg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>4 spears of Asparagus 128-141 mcg of Folate (roughly 34% of RDI – 400 mcg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of frozen Collard Greens 189 mg of Calcium (roughly 19% of RDI – 1000 mg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of Swiss Chard 80 mg of Magnesium (roughly 20% of RDI – 400 mg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 medium Carrot (<emphasize>60g</emphasize>) 509 mcg of Vitamin A (roughly 57% of RDI – 900 mcg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of Green Peppers 63 mg of Vitamin C (roughly 105% of RDI – 60 mg) — <emphasize>I’m shocked Vitamin C is on the above list as it seems very easy to get…</emphasize></paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 medium Potato (<emphasize>*with skin</emphasize>) 0.37-0.6 mg of B6 (roughly 25% of RDI – 2mg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of cooked Spinach 2-3.4 mg of Iron (roughly 15% of RDI – 18 mg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of Shitake Mushrooms (<emphasize>technically a fungi</emphasize>) 650 mcg of <link href="http://www.whfoods.com/genpage.php?tname=nutrient&amp;dbid=53">Copper</link> (roughly 33% of RDI – 2000 mcg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of Acorn Squash 180 mcg Vitamin B1 (roughly 12% of RDI – 1500 mg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of Portobello Mushrooms 6 mg Vitamin B3 (roughly 30% of RDI – 20 mg ) — <emphasize>Niacin is a tricky micronutrient because of the association with Tryptophan but that’s way more complicated than I want to get into…</emphasize></paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of Mushrooms 0.2-0.6 mg Vitamin B2 (roughly 24% of RDI – 1.7 mg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 medium Potato (<emphasize>*with skin</emphasize>) 130 mg of Phosphorus (roughly 13% of RDI – 1000 mg)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup of Mushrooms 10-21 mcg of Selenium (roughly 25% of RDI – 70 mcg)</paragraph>
+                  </li>
+                </ul>
+                <paragraph>
+                  <emphasize>(Source: Mostly the Registered Dieticians of Canada database on <link href="http://www.dietitians.ca/Your-Health/Nutrition-A-Z/Minerals.aspx">Minerals</link> and Vitamins)</emphasize>
+                </paragraph>
+                <paragraph>Sure there are better sources for some of these from legumes, grains, dairy and animal products, but the above is not bad for just vegetables. <emphasize>Note that mushrooms and leafy greens do particularly well…just saying…</emphasize></paragraph>
+                <paragraph>Truth be told, many of you just skimmed that and I’m generally not a fan of throwing numbers like this on micro-nutrition out at people, but I feel it illustrates another point:</paragraph>
+                <paragraph>
+                  <strong>Though eating 5 servings a day is an excellent starting point, making sure you get a variety of vegetables throughout the week is the next important step as that provides the best nutrient distribution in the diet.</strong>
+                </paragraph>
+                <paragraph>In other words, focus on the vegetables themselves, rather than all these vitamins and minerals and you’re likely to get a good result.</paragraph>
+                <header>
+                  <strong>Vegetable Fiber</strong>
+                </header>
+                <paragraph>Missing from the above is another nutrient that doesn’t fall into the Vitamin/Mineral category but nonetheless is worth mentioning because frankly most of you also don’t get enough either.</paragraph>
+                <paragraph>FIBER</paragraph>
+                <paragraph>I don’t want to make this article about fiber, hopefully I’ll get around to that article someday but <link href="https://www.cnpp.usda.gov/sites/default/files/nutrition_insights_uploads/Insight36.pdf">the DRI</link> of fiber is roughly 25 grams for women and 38 grams for young men.</paragraph>
+                <paragraph>Why the discrepancy?</paragraph>
+                <paragraph>Well fiber intake is probably best based on total calorie intake, and men typically need more food in general based on size.</paragraph>
+                <paragraph>A better way to look at fiber intake is roughly 11-13 grams per 1000 kcal in your diet. Meaning if you eat 2000 kcal, then 22-26 grams is about right. If you eat 3000 kcal, then 33-39 grams is about right. Make sense?</paragraph>
+                <paragraph>Note:Again you should consider the fact that while fiber is often touted as a miracle nutrient, like so many other things, more is not necessarily better. Too little definitely isn’t good, but loading up on psyllium fiber supplements every day to get absurd amounts in your diet probably isn’t desirable. You may find yourself in the middle of a crappy situation with too much in the diet. Still punny. Shooting for at least the numbers above are probably about right for most folks.</paragraph>
+                <paragraph>Again, according to the <link href="https://www.ars.usda.gov/ARSUserFiles/80400530/pdf/dbrief/12_fiber_intake_0910.pdf">USDA</link> most of us still don’t get enough. Women get about 7-10 grams per 1000 kcal, while men only manage 7-9 grams. This works out about about women getting only 13-16 grams a day and men only 16-20 grams a day. Dudes, seriously, it’s not feminine to eat foods that aren’t meat.</paragraph>
+                <paragraph>Yet again, we see that most people fail to meet minimums — <emphasize><link href="https://skillbasedfitness.com/why-carbs-matter/">another reason to consume your whole grain starchy carbohydrates too</link></emphasize> — and vegetables provide a good amount of it, especially relative to calorie intake:</paragraph>
+                <ul>
+                  <li>
+                    <paragraph>1/2 cup Artichokes = 7.2 grams of fiber</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup chopped Collard Greens = 3.8 grams</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup Parsnip = 2.8 grams</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup Sweet Potato = 3.3 grams</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup Broccoli = 2.6 grams</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup Squash = 3.3 grams</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup chopped Onion = 1.75 grams</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 cup Eggplant = 1.5 grams</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>
+                      <emphasize>And well you get the idea…</emphasize>
+                    </paragraph>
+                  </li>
+                </ul>
+                <paragraph>Keep in mind that 1/2 a cup isn’t necessarily a full ‘serving’ and you can quickly see how even five half servings of vegetables easily bulk up your fiber intake.</paragraph>
+                <header>
+                  <strong>Nature’s Medicine</strong>
+                </header>
+                <paragraph>By now, you can see that veggies are nutritional powerhouses, they contain vital minerals and vitamins.</paragraph>
+                <paragraph>They also contain many antioxidants and phytochemicals (like lycopene in tomatoes or lutein in spinach) that can subdue carcinogenic effects of other foods. No doubt you heard about the hoopla surrounding the <link href="http://www.iarc.fr/en/media-centre/pr/2015/pdfs/pr240_E.pdf">World Health Organization</link> and red meat consumption a few years back. </paragraph>
+                <paragraph>Well at least <link href="https://www.ncbi.nlm.nih.gov/pubmed/15073045">one study</link> showed that 250 grams of brussel sprouts and broccoli lead to the increased excretion of carcinogenic compounds associated with red meat. Maybe the WHO ignored this? <emphasize>I dunno…</emphasize></paragraph>
+                <paragraph>Proving once again that epidemiological (<emphasize>the study of disease</emphasize>) studies are incredibly difficult to rely on and account for multiple variables.</paragraph>
+                <paragraph>Is the WHO’s recommendation really about red meat consumption being bad, or the lack of vegetable consumption to go with the red meat consumption being the real issue? Who eats red meat every day anyway?</paragraph>
+                <paragraph>I don’t want to get into that much here but, it seems likely it’s multi-factoral and that increased vegetable consumption should accompany increased red meat consumption for optimum well-being.</paragraph>
+                <paragraph>We could go out on a limb and say that vegetable consumption has the potential to reduce risk from less optimal foods like those of the processed red meat or deep fried variety.</paragraph>
+                <paragraph>While we’re on the subject, really you should probably avoid crap like hot dogs and other overly processed red meat in particular. Those seem to be the worst offenders anyway.</paragraph>
+                <paragraph>Vegetables counteract these risks from a health perspective by reducing (<emphasize>often substantially</emphasize>) the risk of:</paragraph>
+                <ul>
+                  <li>
+                    <paragraph>Cancers (Prostate, breast, colon, ovarian, pancreatic, lung, you name it…)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Obesity</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Osteoporosis (increased frailty of your bones…)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Cardiovascular Heart Disease</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>High blood cholesterol (especially high LDL)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>High blood pressure</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Age-related cognitive declines</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Strokes</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Type 2 diabetes</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Neurodegenerative disease</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>
+                      <emphasize>If we kept going, we’d run out of room on this page…</emphasize>
+                    </paragraph>
+                  </li>
+                </ul>
+                <paragraph>Some experts predict that simply increasing vegetable intake, could prevent 20% or more of all cancer cases and avoid approximately 200,000 cancer-related deaths annually.</paragraph>
+                <paragraph>Nothing probably earth shatteringly new to you, right? <emphasize>But not too shabby either…</emphasize></paragraph>
+                <paragraph>Vegetables are also alkaline producing — <emphasize>meaning they help preserve muscle and bone mass by offsetting the acidic effects of other foods like animal proteins and grains.</emphasize></paragraph>
+                <paragraph>They can thus help you recover from strenuous exercise and help moderate stress responses (inflammation) in the body, especially chronic stress.</paragraph>
+                <paragraph>As a bonus, they contain a lot of water, contributing to hydration (<emphasize>believe it or not!</emphasize>)</paragraph>
+                <paragraph>Aside from the very positive benefits, eating veggies and fruits also help us lose fat and keep us lean, all thanks to something called “dietary displacement.” I discussed that in my <link href="https://skillbasedfitness.com/why-protein-is-so-important/">protein article</link> way back when already, so I won’t repeat myself.</paragraph>
+                <paragraph>In a nutshell, by eating more veggies, you displace other higher caloric foods from your diet. As a result you have to eat larger quantities of vegetables to get as many calories into your diet; This is simply just too difficult to do.</paragraph>
+                <paragraph>The by-product being less calories in, even though you’ll feel like you’re eating more by volume/weight.</paragraph>
+                <paragraph>Low calorie, high nutrient foods like vegetables fill your stomach to a greater extent, which is a trigger for satiation. This makes you feel fuller than easy to eat but high caloric, low nutrient density foods — <emphasize>think</emphasize> <emphasize>cakes/muffins/cookies/etc…</emphasize></paragraph>
+                <paragraph>All-in-all, turns out your mother may have been right.</paragraph>
+                <header>What to Do Now</header>
+                <paragraph>First figure out roughly how many servings of vegetables in a day you actually eat. I recommend doing this via a food journal, food log or even an app like MyFitnessPal — <emphasize>though they don’t tell you how many actual servings of vegetables you eat in a day.</emphasize></paragraph>
+                <paragraph>Simply record what you eat for 3 non-consecutive days. Make sure you get a weekend day in there because most of use change our eating habits from weekend to weekday.</paragraph>
+                <paragraph>Then look at how many vegetables you’ve eaten. To give you an idea of what constitutes a serving:</paragraph>
+                <ul>
+                  <li>
+                    <paragraph>1 Cup of Broccoli, Carrots, Celery, Cabbage, Mushrooms, etc…</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 Cup of packed leafy greens (Kale, Spinach, Collards, etc…)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/2 a large pepper, onion, potato, beet, tomato, etc… (1 medium sized or so)</paragraph>
+                  </li>
+                </ul>
+                <paragraph>A better way we like to track things is just with your fist like this:</paragraph>
+                <embed object_remote_id="media-o-1050" view="embed" size="medium"/>
+                <paragraph>That’s roughly a cup for most people. It will make your serving sizes a little more unique to you, and easier to track.</paragraph>
+                <paragraph>Just aim for a fistful as the equivalent of a serving of raw or cooked vegetables. Avoid deep fried vegetables, and don’t count things like french fries or chips — <emphasize>yes technically a serving of vegetables but the saturation of fat almost cancels out the benefit.</emphasize></paragraph>
+                <paragraph>The photo above is a mix bag of roasted beets, onions, carrots, parsnips, mushrooms and herbs.</paragraph>
+                <paragraph>If in your self discovery you find that you eat 3 servings a day, you don’t have to jump to 5. Remember small wins. A small increase to 4, is still an improvement.</paragraph>
+                <paragraph>Meet yourself where you’re at. Just challenge yourself to do a bit better until you’ve set a new norm. Then challenge yourself again.</paragraph>
+                <paragraph>Keep working up until 5 fist sized servings of veggies is the new norm. Then let me know how it went in the comments.</paragraph>
+                <paragraph>
+                  <emphasize>
+                    <emphasize>Article credit: <link href="https://www.skillbasedfitness.com/">Skill Based Fitness</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                  </emphasize>
+                  <line/>
+                  <line/>
+                  <emphasize>
+                    <emphasize>Photo credit: <link href="https://www.skillbasedfitness.com/">Skill Based Fitness</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                  </emphasize>
+                  <line/>
+                  <line/>
+                  <emphasize>Cover photo: <link href="https://unsplash.com/photos/Gwak7T9evEk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">FOODISM360</link></emphasize>
+                  <line/>
+                </paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="883" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="884" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="885" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="886" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>38|#43|#55</id-string>
+          <keyword-string>Health|#Vegan|#Vegetables</keyword-string>
+          <parent-string>36|#36|#36</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="887" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="888" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="889" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="890" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="You Should Eat More Vegetables" node-id="124" remote-id="media-n-817" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="69" name="Job Positions" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="45" ezremote:published="Mon, 24 Oct 2022 19:50:03 GMT" ezremote:modified="Tue, 01 Sep 2026 06:57:19 GMT" remote_id="media-o-1191" class_remote_id="d16e2ce1aa04a16963b9594c634711ad" ezremote:class_identifier="ng_container" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 06:57:19 GMT" ezremote:modified="Tue, 01 Sep 2026 06:57:19 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Job Positions">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="299" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Job Positions</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="300" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="Offene Stellen">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4119" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Offene Stellen</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-947" name="Job Positions" node-id="71" remote-id="media-n-953" sort-field="published" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="217" name="File test" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="12" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Thu, 24 Sep 2020 07:39:32 GMT" remote_id="media-o-1170" class_remote_id="637d58bfddf164627bdfd265733280a0" ezremote:class_identifier="file" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 09:05:59 GMT" ezremote:modified="Tue, 01 Sep 2026 09:05:59 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="File test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2250" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>File test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2251" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Description for file test item</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2252" ezremote:identifier="file" name="File" type="ezbinaryfile">
+          <binary-file filesize="9" filename="71bd9452.txt" original-filename="test.txt" mime-type="text/plain" filekey="9fee104ccd0829f83b03ba60a2075d49"/>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="File test" node-id="219" remote-id="media-n-932" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

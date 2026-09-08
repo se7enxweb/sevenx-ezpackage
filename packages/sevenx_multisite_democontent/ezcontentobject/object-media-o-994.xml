@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="57" name="Ad 300x250 for Runners" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="65" ezremote:published="Sun, 09 Aug 2026 00:20:31 GMT" ezremote:modified="Sun, 09 Aug 2026 00:20:31 GMT" remote_id="ad-300x250-for-runners" class_remote_id="32d6c8d399ca9776f3147ef4db2bf6da" ezremote:class_identifier="ng_htmlbox" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Sun, 09 Aug 2026 00:20:31 GMT" ezremote:modified="Sun, 09 Aug 2026 00:20:31 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Ad 300x250 for Runners">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="221" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Ad 300x250 for Runners</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="222" ezremote:identifier="html_code" name="HTML code" type="eztext">
+          <text>&lt;div class="ad-container" style="
+    background-color: #f8f9fc;
+    width: 100%;
+    max-width: 340px;"&gt;
+    &lt;div class="outer" style="
+        width: 100%;
+        height: 0;
+        position: relative;
+        padding-bottom: 83.3%;
+        background-color: #f8f9fc;"&gt;
+        &lt;div class="inner" style="
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 24px;
+            background-color: #7BD7C0;"&gt;
+            Special Ad For Runners.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="223" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>0</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Ad 300x250 for Runners" node-id="59" remote-id="bcbf39ad7a7193c87a7e33f5066bd763" sort-field="published" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

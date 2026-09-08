@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="164" name="Pyramid HIIT Workout - Intense Interval Cardio Challenge" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="54" ezremote:published="Wed, 22 Aug 2018 10:49:40 GMT" ezremote:modified="Wed, 22 Aug 2018 12:12:03 GMT" remote_id="media-o-1090" class_remote_id="0febffcac56c7d0eee3368d8cf66aea5" ezremote:class_identifier="ng_video" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 22 Aug 2018 12:11:53 GMT" ezremote:modified="Wed, 22 Aug 2018 12:12:03 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Pyramid HIIT Workout - Intense Interval Cardio Challenge">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1611" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Pyramid HIIT Workout - Intense Interval Cardio Challenge</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1612" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1613" ezremote:identifier="video_type" name="Video type" type="sckenhancedselection">
+          <data-int>0</data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1614" ezremote:identifier="video_file" name="Video file" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1615" ezremote:identifier="video_identifier" name="Video identifier" type="ezstring">
+          <text>OBN2yydGR1U</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1616" ezremote:identifier="poster" name="Poster" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1617" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1618" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>With this High Intensity Interval Training (HIIT) routine we broke away from our usual interval style of using one specific interval time for all exercises in the routine and swapped it out for a pyramid structure where the intervals get longer each set then work their way back down by the end of the round. The idea is exactly the same as with weight lifting only we use time rather than weight or reps to determine a set.</paragraph>
+            <paragraph>In this pyramid workout we have put two exercises back to back (using the same interval time) followed by a ten second rest period before moving to the next set. We are only doing a short pyramid group increasing by ten seconds each set, starting a 10 seconds working up to 30 seconds then back down to 10 seconds (the exact progression with the exercises used for each set is written out below).</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1619" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1620" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>48</id-string>
+          <keyword-string>HIIT</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1621" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1622" ezremote:identifier="autoplay" name="Autoplay" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1623" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1624" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1625" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-752" name="Pyramid HIIT Workout - Intense Interval Cardio Challenge" node-id="166" remote-id="media-n-855" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

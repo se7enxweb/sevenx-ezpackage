@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Contact form";}</serialized-name-list>
+  <identifier>ng_contact_form</identifier>
+  <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+  <remote-id>207f30fcd4eed334eb703c19cac72046</remote-id>
+  <object-name-pattern>&lt;title&gt;</object-name-pattern>
+  <url-alias-pattern>&lt;title&gt;</url-alias-pattern>
+  <remote>
+    <site-url>http://localhost/</site-url>
+    <url>http://localhost/class/view/212</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>212</id>
+    <created>1363879602</created>
+    <modified>1674595308</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2027</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:5:"Title";}</serialized-name-list>
+      <identifier>title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:10:"Form title";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>0</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2045</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Teaser title";}</serialized-name-list>
+      <identifier>teaser_title</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:39:"Short version of a title, used in menus";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>60</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2046</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:5:"Intro";}</serialized-name-list>
+      <identifier>full_intro</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:40:"Full intro text, shown on full form page";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2047</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Teaser intro";}</serialized-name-list>
+      <identifier>teaser_intro</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:61:"Teaser intro text, shown on category page or in search result";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2028</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:4:"Body";}</serialized-name-list>
+      <identifier>body</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="true" translatable="false">
+      <remote>
+        <id>2029</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:10:"First name";}</serialized-name-list>
+      <identifier>sender_first_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>5</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="true" translatable="false">
+      <remote>
+        <id>2777</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:9:"Last name";}</serialized-name-list>
+      <identifier>sender_last_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>6</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezemail" required="true" searchable="false" information-collector="true" translatable="false">
+      <remote>
+        <id>2030</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:6:"E-mail";}</serialized-name-list>
+      <identifier>sender_email</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>7</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="false" information-collector="true" translatable="false">
+      <remote>
+        <id>2032</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:7:"Message";}</serialized-name-list>
+      <identifier>sender_message</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>8</placement>
+      <datatype-parameters>
+        <text-column-count>5</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="true" searchable="false" information-collector="true" translatable="false">
+      <remote>
+        <id>2774</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"GDPR Consent";}</serialized-name-list>
+      <identifier>gdpr_consent</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>9</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2775</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"GDPR Consent label";}</serialized-name-list>
+      <identifier>gdpr_consent_label</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>10</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="true" translatable="false">
+      <remote>
+        <id>2748</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:20:"Newsletter 1 Consent";}</serialized-name-list>
+      <identifier>newsletter_1_consent</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>11</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2776</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Newsletter 1 Label";}</serialized-name-list>
+      <identifier>newsletter_1_label</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>12</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2747</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:22:"Newsletter 1 Group IDs";}</serialized-name-list>
+      <identifier>newsletter_1_group_ids</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>13</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezemail" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2034</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:9:"Recipient";}</serialized-name-list>
+      <identifier>recipient</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>14</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2084</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Success text";}</serialized-name-list>
+      <identifier>success_text</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";s:42:"Text shown to user after a successful post";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>15</placement>
+      <datatype-parameters>
+        <text-column-count></text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="true" translatable="false">
+      <remote>
+        <id>2705</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:7:"Referer";}</serialized-name-list>
+      <identifier>referer</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>16</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2706</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:16:"GTM event prefix";}</serialized-name-list>
+      <identifier>gtm_event_prefix</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>17</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2763</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Honeypot field name";}</serialized-name-list>
+      <identifier>honeypot_field_name</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>18</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string>sender_middle_name</default-string>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2764</id>
+      </remote>
+      <serialized-name-list>a:1:{s:6:"eng-GB";s:20:"Honeypot field label";}</serialized-name-list>
+      <identifier>honeypot_field_label</identifier>
+      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>19</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string>Middle name</default-string>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>714</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:9:"Meta Data";s:6:"eng-GB";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>20</placement>
+      <datatype-parameters/>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

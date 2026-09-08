@@ -17,7 +17,7 @@
                                                  'contentobject', $object,
                                                  'language', $language.locale ) )}
                 <label>
-                    <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
+                    <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once}> {$language.name|wash}
                 </label>
                 <div class="labelbreak"></div>
             {/if}
@@ -43,7 +43,7 @@
                                              'contentobject', $object,
                                              'language', $language.locale ) )}
             <label>
-               <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
+               <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once}> {$language.name|wash}
             </label>
             <div class="labelbreak"></div>
         {/if}
@@ -61,13 +61,13 @@
     <p>{'Select the language the new translation will be based on.'|i18n('design/ezwebin/content/edit_languages')}:</p>
 
     <label>
-        <input name="FromLanguage" type="radio" checked="checked" value="" /> {'Use an empty, untranslated draft'|i18n('design/ezwebin/content/edit_languages')}
+        <input name="FromLanguage" type="radio" checked="checked" value=""> {'Use an empty, untranslated draft'|i18n('design/ezwebin/content/edit_languages')}
     </label>
     <div class="labelbreak"></div>
 
     {foreach $object.languages as $language}
         <label>
-            <input name="FromLanguage" type="radio" value="{$language.locale|wash}" /> {$language.name|wash}
+            <input name="FromLanguage" type="radio" value="{$language.locale|wash}"> {$language.name|wash}
         </label>
         <div class="labelbreak"></div>
     {/foreach}
@@ -85,7 +85,7 @@
                                                      'contentobject', $object,
                                                      'language', $language.locale ) )}
                     <label>
-                        <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once} /> {$language.name|wash}
+                        <input name="EditLanguage" type="radio" value="{$language.locale|wash}"{run-once} checked="checked"{/run-once}> {$language.name|wash}
                     </label>
                     <div class="labelbreak"></div>
                 {/if}
@@ -110,9 +110,9 @@
 
 <div class="block">
     {if $can_edit}
-        <input class="button" type="submit" name="LanguageSelection" value="{'Edit'|i18n('design/ezwebin/content/edit_languages')}" />
+        <input class="button" type="submit" name="LanguageSelection" value="{'Edit'|i18n('design/ezwebin/content/edit_languages')}">
     {/if}
-    <input class="button" type="submit" name="CancelDraftButton" value="{'Cancel'|i18n('design/ezwebin/content/edit_languages')}" />
+    <input class="button" type="submit" name="CancelDraftButton" value="{'Cancel'|i18n('design/ezwebin/content/edit_languages')}">
 </div>
 
 </form>

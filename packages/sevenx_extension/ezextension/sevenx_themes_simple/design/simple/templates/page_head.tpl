@@ -25,61 +25,65 @@
 
     <title>{$meta.title|wash}</title>
 
-    <meta property="og:title" content="{$meta.title|wash}"/>
-    <meta name="twitter:title" content="{$meta.title|wash}"/>{else}
+    <meta property="og:title" content="{$meta.title|wash}">
+    <meta name="twitter:title" content="{$meta.title|wash}">{else}
     <title>{$site_title}</title>
 
-    <meta property="og:title" content="{$site_title}"/>
-    <meta name="twitter:title" content="{$site_title}"/>
+    <meta property="og:title" content="{$site_title}">
+    <meta name="twitter:title" content="{$site_title}">
     {/if}
     {if $meta.keywords}
 
-    <meta name="keywords" content="{$meta.keywords|implode(',')|wash}" />{/if}
+    <meta name="keywords" content="{$meta.keywords|implode(',')|wash}" >{/if}
     {if $meta.description}
 
-    <meta name="description" content="{$meta.description|wash}" />
-    <meta property="og:description" content="{$meta.description|wash}"/>
-    <meta name="twitter:description" content="{$meta.description|wash}"/>{else}
-    <meta name="description" content="{$desc|wash}" />
-    <meta property="og:description" content="{$desc|wash}"/>
-    <meta name="twitter:description" content="{$desc|wash}"/>
+    <meta name="description" content="{$meta.description|wash}" >
+    <meta property="og:description" content="{$meta.description|wash}">
+    <meta name="twitter:description" content="{$meta.description|wash}">{else}
+    <meta name="description" content="{$desc|wash}" >
+    <meta property="og:description" content="{$desc|wash}">
+    <meta name="twitter:description" content="{$desc|wash}">
     {/if}
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="website" >
 
-    <meta property="og:url" content="https://{ezsys('hostname')}/{$site.uri.original_uri}" />
-    <meta property="og:image" content="https://{ezsys('hostname')}{"images/favicon/favicon-banner.png"|ezdesign(no)}" />
-    <meta property="og:site_name" content="{ezini( 'SiteSettings', 'SiteName', 'site.ini')}" />
-    <meta property="twitter:image" content="https://{ezsys('hostname')}{"images/favicon/favicon-banner.png"|ezdesign(no)}" />
+    <meta property="og:url" content="https://{ezsys('hostname')}/{$site.uri.original_uri}" >
+    <meta property="og:image" content="https://{ezsys('hostname')}{"images/favicon/favicon-banner.png"|ezdesign(no)}" >
+    <meta property="og:site_name" content="{ezini( 'SiteSettings', 'SiteName', 'site.ini')}" >
+    <meta property="twitter:image" content="https://{ezsys('hostname')}{"images/favicon/favicon-banner.png"|ezdesign(no)}" >
     {else}
 
     <title>{$site_title}</title>
 
-    <meta property="og:title" content="{$site_title}"/>
-    <meta name="twitter:title" content="{$site_title}"/>
-    <meta name="description" content="{$desc|wash}" />
-    <meta property="og:description" content="{$desc|wash}"/>
-    <meta name="twitter:description" content="{$desc|wash}"/>
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://{ezsys('hostname')}/{$site.uri.original_uri}" />
-    <meta property="og:image" content="https://{ezsys('hostname')}{"images/favicon/favicon-banner.png"|ezdesign(no)}" />
-    <meta property="og:site_name" content="{ezini( 'SiteSettings', 'SiteName', 'site.ini')}" />
-    <meta property="twitter:image" content="https://{ezsys('hostname')}{"images/favicon/favicon-banner.png"|ezdesign(no)}" />{* foreach $site.meta as $key => $item }<meta name="{$key|wash}" content="{$item|wash}" />{/foreach *}{/if}
+    <meta property="og:title" content="{$site_title}">
+    <meta name="twitter:title" content="{$site_title}">
+    <meta name="description" content="{$desc|wash}" >
+    <meta property="og:description" content="{$desc|wash}">
+    <meta name="twitter:description" content="{$desc|wash}">
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="https://{ezsys('hostname')}/{$site.uri.original_uri}" >
+    <meta property="og:image" content="https://{ezsys('hostname')}{"images/favicon/favicon-banner.png"|ezdesign(no)}" >
+    <meta property="og:site_name" content="{ezini( 'SiteSettings', 'SiteName', 'site.ini')}" >
+    <meta property="twitter:image" content="https://{ezsys('hostname')}{"images/favicon/favicon-banner.png"|ezdesign(no)}" >{* foreach $site.meta as $key => $item }<meta name="{$key|wash}" content="{$item|wash}" >{/foreach *}{/if}
     {section show=and(is_set($#Header:extra_data),is_array($#Header:extra_data))}
       {section name=ExtraData loop=$#Header:extra_data}
 
       {$:item}{/section}{/section}{* check if we need a http-equiv refresh *}
     {section show=$site.redirect}
 
-    <meta http-equiv="Refresh" content="{$site.redirect.timer}; URL={$site.redirect.location}" />{/section}
+    <meta http-equiv="Refresh" content="{$site.redirect.timer}; URL={$site.redirect.location}" >{/section}
 {section name=HTTP loop=$site.http_equiv}
-<meta http-equiv="{$HTTP:key|wash}" content="{$HTTP:item|wash}" />
+    {if and( ne( $HTTP:key, 'Content-Type' ), ne( $HTTP:key, 'Content-language' ) )}
+<meta http-equiv="{$HTTP:key|wash}" content="{$HTTP:item|wash}">
+    {/if}
     {/section}
 
     {section name=meta loop=$site.meta}
-<meta name="{$meta:key|wash}" content="{$meta:item|wash}" />
+    {if ne( $meta:key, 'description' )}
+<meta name="{$meta:key|wash}" content="{$meta:item|wash}">
+    {/if}
     {/section}
-<meta name="MSSmartTagsPreventParsing" content="TRUE" />
-    <meta name="generator" content="Exponential" />
+<meta name="MSSmartTagsPreventParsing" content="TRUE" >
+    <meta name="generator" content="Exponential" >
 
 {section show=$enable_link}{include uri="design:link.tpl" enable_help=$enable_help enable_link=$enable_link}{/section}
 {/default}

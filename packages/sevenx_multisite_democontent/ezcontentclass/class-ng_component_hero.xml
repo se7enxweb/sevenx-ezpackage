@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:3:{s:6:"eng-US";s:14:"Hero Component";s:6:"eng-GB";s:14:"Hero Component";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>ng_component_hero</identifier>
+  <serialized-description-list>a:3:{s:6:"eng-US";s:14:"Hero component";s:6:"eng-GB";s:14:"Hero component";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+  <remote-id>b86c970a6ad8e3d268581ec10991a958</remote-id>
+  <object-name-pattern>&lt;name&gt;</object-name-pattern>
+  <url-alias-pattern>&lt;name&gt;</url-alias-pattern>
+  <remote>
+    <site-url>http://alpha.se7enx.com/</site-url>
+    <url>http://alpha.se7enx.com/class/view/58</url>
+    <groups>
+      <group id="4" name="Setup"/>
+    </groups>
+    <id>58</id>
+    <created>1786806784</created>
+    <modified>1786806784</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>514</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:4:"Name";s:6:"eng-GB";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>name</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:13:"Internal name";s:6:"eng-GB";s:13:"Internal name";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>0</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>515</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:13:"Eyebrow title";s:6:"eng-GB";s:13:"Eyebrow title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>eyebrow_title</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>516</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Title";s:6:"eng-GB";s:5:"Title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>title</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>517</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:11:"Description";s:6:"eng-GB";s:11:"Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>description</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <text-column-count>0</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezbinaryfile" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>518</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Video";s:6:"eng-GB";s:5:"Video";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>video</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezbinaryfile" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>519</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:12:"Video mobile";s:6:"eng-GB";s:12:"Video mobile";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>video_mobile</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>5</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>520</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Image";s:6:"eng-GB";s:5:"Image";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>image</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>6</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>521</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:12:"Image mobile";s:6:"eng-GB";s:12:"Image mobile";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>image_mobile</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>7</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ngenhancedlink" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>522</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:6:"Link 1";s:6:"eng-GB";s:6:"Link 1";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>link_1</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>link1</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>8</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ngenhancedlink" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>523</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:6:"Link 2";s:6:"eng-GB";s:6:"Link 2";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>link_2</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>link2</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>9</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>524</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:9:"Meta Data";s:6:"eng-GB";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>10</placement>
+      <datatype-parameters/>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

@@ -9,7 +9,7 @@
 </div>
 
 <div class="object-right">
-<img src={"ooo_logo.gif"|ezimage} alt="OpenOffice.org" />
+<img src={"ooo_logo.gif"|ezimage} alt="OpenOffice.org">
 </div>
 
 <h2>{"Export eZ publish content to OpenOffice.org"|i18n("design/ezwebin/ezodf/export")}</h2>
@@ -23,7 +23,7 @@
 </p>
 
 <div class="block">
-    <input class="button" type="submit" name="ExportButton" value="{'Export Object'|i18n('design/ezwebin/ezodf/export')}" />
+    <input class="button" type="submit" name="ExportButton" value="{'Export Object'|i18n('design/ezwebin/ezodf/export')}">
 </div>
 
 </form>

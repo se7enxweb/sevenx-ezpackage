@@ -111,15 +111,15 @@
 </table>
 
 {section show=and($has_own_drafts,$has_other_drafts)}
-    <input class="defaultbutton" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/content/edit_draft')}" />
-    <input class="button" type="submit" name="NewDraftButton" value="{'New draft'|i18n('design/ezwebin/content/edit_draft')}" />
+    <input class="defaultbutton" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/content/edit_draft')}">
+    <input class="button" type="submit" name="NewDraftButton" value="{'New draft'|i18n('design/ezwebin/content/edit_draft')}">
 {section-else}
     {section show=$has_own_drafts}
-        <input class="defaultbutton" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/content/edit_draft')}" />
-        <input class="button" type="submit" name="NewDraftButton" value="{'New draft'|i18n('design/ezwebin/content/edit_draft')}" />
+        <input class="defaultbutton" type="submit" name="EditButton" value="{'Edit'|i18n('design/ezwebin/content/edit_draft')}">
+        <input class="button" type="submit" name="NewDraftButton" value="{'New draft'|i18n('design/ezwebin/content/edit_draft')}">
     {/section}
     {section show=$has_other_drafts}
-        <input class="defaultbutton" type="submit" name="NewDraftButton" value="{'New draft'|i18n('design/ezwebin/content/edit_draft')}" />
+        <input class="defaultbutton" type="submit" name="NewDraftButton" value="{'New draft'|i18n('design/ezwebin/content/edit_draft')}">
     {/section}
 {/section}
 

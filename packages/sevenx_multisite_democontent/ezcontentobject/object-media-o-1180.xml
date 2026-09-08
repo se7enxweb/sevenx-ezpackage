@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="180" name="Brand strategy" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="57" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Mon, 07 Nov 2022 18:45:48 GMT" remote_id="media-o-1180" class_remote_id="a41332a768dc9d9dac2a06244f9fed78" ezremote:class_identifier="ng_banner" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Mon, 07 Nov 2022 18:45:16 GMT" ezremote:modified="Mon, 07 Nov 2022 18:45:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Brand strategy">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1794" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1795" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Brand strategy</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1796" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="e80864173dfd809b5492d590e9dad4db" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1797" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Today, when brands struggle to figure out the difference between hype and meaningful results, we work hard on creating a successful brand strategies, tailored specifically to our clients’ needs and budget. We bring fresh ideas and thoughtful analysis together so that you can stay ahead of your competition!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1798" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1799" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1800" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-1071" name="Brand strategy" node-id="182" remote-id="media-n-942" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

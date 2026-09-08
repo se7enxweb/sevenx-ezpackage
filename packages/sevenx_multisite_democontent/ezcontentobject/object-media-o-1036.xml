@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="223" name="Piedmontese Stuffed Peppers" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 21 Aug 2018 15:24:51 GMT" ezremote:modified="Thu, 24 Sep 2020 09:07:51 GMT" remote_id="media-o-1036" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 09:06:44 GMT" ezremote:modified="Thu, 24 Sep 2020 09:07:51 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Piedmontese Stuffed Peppers">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2268" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Piedmontese Stuffed Peppers</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2269" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2270" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5fba0a6602d20bac2d6b82f8282eb725" alternative-text=""/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Piedmontese Stuffed Peppers" node-id="225" remote-id="92b0ae4be346c3aa5833f5851e3c8140" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" ezremote:id="1535" name="Features Component Test" ezremote:section_id="9" ezremote:owner_id="14" ezremote:class_id="224" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Wed, 15 Feb 2023 11:10:34 GMT" remote_id="media-o-1535" class_remote_id="71f395a7bcfcef0db0777ee8acb0cc33" ezremote:class_identifier="ng_component_features" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" active_version="18">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" ezremote:version="18" ezremote:status="1" ezremote:created="Wed, 15 Feb 2023 11:09:43 GMT" ezremote:modified="Wed, 15 Feb 2023 11:10:34 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" language="eng-US" object_name="Features Component Test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40633" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Features Component Test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40635" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40637" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Custom-built marketing solutions for fitness and sporting industry</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40639" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>We bring bold ideas to life by merging digital and physical media and also help attract, convert, and engage customers at scale through strategically planned digital marketing campaigns.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40641" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40643" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40649" ezremote:identifier="item_1_position" name="Item 1 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40651" ezremote:identifier="item_1_highlight_title" name="Item 1 hightlight title" type="ezstring">
+          <text>01</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40653" ezremote:identifier="item_1_title" name="Item 1 title" type="ezstring">
+          <text>Brand strategy</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40655" ezremote:identifier="item_1_description" name="Item 1 description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Today, when brands struggle to figure out the difference between hype and meaningful results, we work hard on creating a successful brand strategies.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40657" ezremote:identifier="item_1_icon" name="Item 1 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40659" ezremote:identifier="item_1_image" name="Item 1 image" type="ezimage" image-file-key="7af20e6f7cabcf752b64ae2db6813712" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40661" ezremote:identifier="item_1_image_mobile" name="Item 1 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40665" ezremote:identifier="item_2_position" name="Item 2 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40667" ezremote:identifier="item_2_highlight_title" name="Item 2 hightlight title" type="ezstring">
+          <text>02</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40669" ezremote:identifier="item_2_title" name="Item 2 title" type="ezstring">
+          <text>Events</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" ezremote:id="40671" ezremote:identifier="item_2_description" name="Item 2 description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para ezxhtml:class="p1">We provide custom-built marketing solutions for fitness and sporting events like trade shows, fashion shows, expos and sports training.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40673" ezremote:identifier="item_2_icon" name="Item 2 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40675" ezremote:identifier="item_2_image" name="Item 2 image" type="ezimage" image-file-key="1edd1b23a04ad64a5687244b8246d140" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40677" ezremote:identifier="item_2_image_mobile" name="Item 2 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40681" ezremote:identifier="item_3_position" name="Item 3 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40683" ezremote:identifier="item_3_highlight_title" name="Item 3 hightlight title" type="ezstring">
+          <text>03</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40685" ezremote:identifier="item_3_title" name="Item 3 title" type="ezstring">
+          <text>Creative</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40687" ezremote:identifier="item_3_description" name="Item 3 description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Merging digital and physical media is just the beginning. We bring bold ideas to life through powerful tactics.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40689" ezremote:identifier="item_3_icon" name="Item 3 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40691" ezremote:identifier="item_3_image" name="Item 3 image" type="ezimage" image-file-key="80bbd36b3bb351b840735b2f39f45eba" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40693" ezremote:identifier="item_3_image_mobile" name="Item 3 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40697" ezremote:identifier="item_4_position" name="Item 4 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40699" ezremote:identifier="item_4_highlight_title" name="Item 4 hightlight title" type="ezstring">
+          <text>04</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40701" ezremote:identifier="item_4_title" name="Item 4 title" type="ezstring">
+          <text>Digital marketing</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40703" ezremote:identifier="item_4_description" name="Item 4 description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>We help you attract, convert and engage the customers at scale using strategically planned campaigns that can be adapted for various platforms.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40705" ezremote:identifier="item_4_icon" name="Item 4 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40707" ezremote:identifier="item_4_image" name="Item 4 image" type="ezimage" image-file-key="e3ab54925c0a7165b1745e4e52653707" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40709" ezremote:identifier="item_4_image_mobile" name="Item 4 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40713" ezremote:identifier="item_5_position" name="Item 5 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40715" ezremote:identifier="item_5_highlight_title" name="Item 5 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40717" ezremote:identifier="item_5_title" name="Item 5 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40719" ezremote:identifier="item_5_description" name="Item 5 description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40721" ezremote:identifier="item_5_icon" name="Item 5 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40723" ezremote:identifier="item_5_image" name="Item 5 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40725" ezremote:identifier="item_5_image_mobile" name="Item 5 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40729" ezremote:identifier="item_6_position" name="Item 6 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40731" ezremote:identifier="item_6_highlight_title" name="Item 6 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40733" ezremote:identifier="item_6_title" name="Item 6 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40735" ezremote:identifier="item_6_description" name="Item 6 description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40737" ezremote:identifier="item_6_icon" name="Item 6 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40739" ezremote:identifier="item_6_image" name="Item 6 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40741" ezremote:identifier="item_6_image_mobile" name="Item 6 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40745" ezremote:identifier="item_7_position" name="Item 7 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40747" ezremote:identifier="item_7_highlight_title" name="Item 7 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40749" ezremote:identifier="item_7_title" name="Item 7 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40751" ezremote:identifier="item_7_description" name="Item 7 description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40753" ezremote:identifier="item_7_icon" name="Item 7 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40755" ezremote:identifier="item_7_image" name="Item 7 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40757" ezremote:identifier="item_7_image_mobile" name="Item 7 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40761" ezremote:identifier="item_8_position" name="Item 8 position" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float></data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40763" ezremote:identifier="item_8_highlight_title" name="Item 8 hightlight title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40765" ezremote:identifier="item_8_title" name="Item 8 title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="40767" ezremote:identifier="item_8_description" name="Item 8 description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40769" ezremote:identifier="item_8_icon" name="Item 8 icon" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40771" ezremote:identifier="item_8_image" name="Item 8 image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="40773" ezremote:identifier="item_8_image_mobile" name="Item 8 image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="Features Component Test" node-id="1089" remote-id="media-n-1089" sort-field="path" sort-order="1" priority="-75"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -37,26 +37,26 @@
 <div class="block">
 {if $oldPasswordNotValid}*{/if}
 <label>{"Old password"|i18n("design/ezwebin/user/password")}</label><div class="labelbreak"></div>
-<input class="halfbox" type="password" name="oldPassword" size="11" value="{$oldPassword|wash}" />
+<input class="halfbox" type="password" name="oldPassword" size="11" value="{$oldPassword|wash}">
 </div>
 
 <div class="block">
 <div class="element">
 {if $newPasswordNotMatch}*{/if}
 <label>{"New password"|i18n("design/ezwebin/user/password")}</label><div class="labelbreak"></div>
-<input class="halfbox" type="password" name="newPassword" size="11" value="{$newPassword|wash}" />
+<input class="halfbox" type="password" name="newPassword" size="11" value="{$newPassword|wash}">
 </div>
 <div class="element">
 {if $newPasswordNotMatch}*{/if}
 <label>{"Retype password"|i18n("design/ezwebin/user/password")}</label><div class="labelbreak"></div>
-<input class="halfbox" type="password" name="confirmPassword" size="11" value="{$confirmPassword|wash}" />
+<input class="halfbox" type="password" name="confirmPassword" size="11" value="{$confirmPassword|wash}">
 </div>
 <div class="break"></div>
 </div>
 
 <div class="buttonblock">
-<input class="defaultbutton" type="submit" name="OKButton" value="{'OK'|i18n('design/ezwebin/user/password')}" />
-<input class="button" type="submit" name="CancelButton" value="{'Cancel'|i18n('design/ezwebin/user/password')}" />
+<input class="defaultbutton" type="submit" name="OKButton" value="{'OK'|i18n('design/ezwebin/user/password')}">
+<input class="button" type="submit" name="CancelButton" value="{'Cancel'|i18n('design/ezwebin/user/password')}">
 </div>
 
 </form>

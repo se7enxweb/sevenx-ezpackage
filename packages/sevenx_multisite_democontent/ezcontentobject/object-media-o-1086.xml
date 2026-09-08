@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="160" name="8 Healthy Avocado Recipes That Can Be Made In Just 10 Minutes" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="54" ezremote:published="Wed, 22 Aug 2018 10:42:41 GMT" ezremote:modified="Thu, 23 Aug 2018 21:05:09 GMT" remote_id="media-o-1086" class_remote_id="0febffcac56c7d0eee3368d8cf66aea5" ezremote:class_identifier="ng_video" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 23 Aug 2018 21:04:56 GMT" ezremote:modified="Thu, 23 Aug 2018 21:05:09 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="8 Healthy Avocado Recipes That Can Be Made In Just 10 Minutes">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1551" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>8 Healthy Avocado Recipes That Can Be Made In Just 10 Minutes</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1552" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1553" ezremote:identifier="video_type" name="Video type" type="sckenhancedselection">
+          <data-int>0</data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1554" ezremote:identifier="video_file" name="Video file" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1555" ezremote:identifier="video_identifier" name="Video identifier" type="ezstring">
+          <text>TgSz_2eHxA4</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1556" ezremote:identifier="poster" name="Poster" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1557" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1558" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Avocados are both creamy and buttery but minus the cholesterol and toxicity of dairy. Avocados are probably one of the only fruit that combine the protein of meat, fat of butter, vitamins and minerals of green vegetables and a nutty flavor. </paragraph>
+            <paragraph>From balancing blood sugar to improving digestion, there’s no denying that avocado boasts a myriad of health benefits. If you need more avocado in your life, then check out these 8 versatile ways to use this fat-filled fruit for greater health and wellbeing.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1559" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>38</id-string>
+          <keyword-string>Health</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1560" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1561" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1562" ezremote:identifier="autoplay" name="Autoplay" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1563" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1564" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1565" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-752" name="8 Healthy Avocado Recipes That Can Be Made In Just 10 Minutes" node-id="162" remote-id="media-n-851" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

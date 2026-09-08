@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="1051" name="How You Do Things Matters" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Tue, 21 Aug 2018 17:00:46 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:03 GMT" remote_id="media-o-1051" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" active_version="6">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:version="6" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:46 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:03 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" language="eng-US" object_name="How You Do Things Matters">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24779" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>How You Do Things Matters</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24780" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24781" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24782" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24783" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="fe84972808387eb160ecbb853a841eb1" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24784" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>If you’re currently doing nothing then moving in general, even if it’s five minutes a day is significantly better.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24785" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="24786" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>I’m an effectiveness whore, but sometimes trying to optimize your time prevents you from taking action. I know it often slows me down, so it’s a raging battle between my built in need to do things really well and the fact that just doing them yields a lot of positive benefits. It’s too easy to assume that not doing something right is better than doing anything at all.</default:para>
+            <default:para>That’s why today’s post comes with a little bit of reinforcement:</default:para>
+            <default:para>
+              <default:emphasis role="strong">Something is always better than nothing.</default:emphasis>
+            </default:para>
+            <default:para>However, assuming you’ve got your ducks in a row, you should still emphasize HOW you do things. Everything from how you eat (and not just WHAT you eat), to how you sleep, and how you train. Mostly this means neutral spine, tracking knees and grooving good technique. Don’t let yourself get away with lazy technique at the excuse of more load.</default:para>
+            <default:para>I answer a lot of questions each day that start with ‘What…’ Things like:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>What exercise routine should I do to accomplish ‘X’?</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>What should I eat to lose weight, or gain muscle?</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>In my experience, you need to have a firm understanding of <default:link xlink:href="ezurl://105" xlink:show="none">why</default:link> you want to accomplish something before you even talk about what to do.</default:para>
+            <default:para>In fact, I’d say a big reason people fail with goals, is too much focus on ‘what’ and not enough understanding of why.</default:para>
+            <default:para>Assuming you understand why, have found something you can stick with, then how is still a much more important consideration than what too.</default:para>
+            <default:para>How you eat is a very important consideration that very few people consider. For instance little things like <default:link xlink:href="ezurl://55" xlink:show="none">Hara Hachi Bu</default:link>, or ‘Eating Until 80% Full,’ can help you go a long way in a fat loss pursuit. Other things that slow you down like having a sip of water between each bite, eating with chopsticks, counting 20-30 chews for each bite, eating off smaller plates/bowls, have been shown to have profound effects on fat loss.</default:para>
+            <default:para>
+              <default:emphasis>Few people ask me questions about how to eat though…</default:emphasis>
+            </default:para>
+            <default:para>
+              <default:emphasis role="strong">I think you should!</default:emphasis>
+            </default:para>
+            <default:para>Quality is an important consideration, so long as it doesn’t completely distract you from taking action. In the case of exercise performance, take a look at today’s research review.</default:para>
+            <default:para>
+              <default:link xlink:href="ezurl://106" xlink:show="none" xml:id="qlink_c2jaokutdg">Exercise-based performance enhancement and injury prevention for firefighters: Contrasting the fitness- and movement-related adaptations to two training methodologies…</default:link>
+            </default:para>
+            <default:para>This study compared 3 groups of firefighters, over 12 weeks and many factors related to their performance.</default:para>
+            <default:para>Group One – Movement Guided Fitness (MOV)</default:para>
+            <default:para>Group Two – Conventional Fitness (FIT)</default:para>
+            <default:para>Group Three – Control Group <default:emphasis>(to discourage false positives…)</default:emphasis></default:para>
+            <default:para>The MOV group was coached on movement, while the FIT group was given a conventional fitness program to do on their own.</default:para>
+            <default:para>The results?</default:para>
+            <default:para>While obviously both MOV and FIT groups improved baselines markers of fitness, only the MOV group had significant improvements, particularly as it related to bodily control of the spine and knee (two commonly injured areas). We call this improved kinematics, but you can think of it as improved body awareness and control. The MOV group also experienced far fewer negative post-training problems <default:emphasis>(think: Injury)</default:emphasis>. Although more research is needed, it suggests that receiving coaching and placing an emphasis on how people move during training might be a more effective training strategy than just training on it’s own. It also suggests that fitness is better than doing nothing, even if you don’t have a coach or can’t mentored. At least for performance oriented professions like firefighters, police officers, paramedics, soldiers, etc…</default:para>
+            <default:para>
+              <default:emphasis role="strong">According to the researchers:</default:emphasis>
+            </default:para>
+            <default:eztemplate name="quote" ezxhtml:align="center">
+              <default:ezcontent>
+                <default:para>…this implies that exercise programs designed with a movement-oriented approach to periodization could have a direct impact on their safety and effectiveness by engraining desirable movement patterns that transfer to occupational tasks.</default:para>
+              </default:ezcontent>
+              <default:ezconfig>
+                <default:ezvalue key="author"/>
+              </default:ezconfig>
+            </default:eztemplate>
+            <default:para>Yes I know that’s related to performance for those occupations and that might not be you, but consider that there is a growing body of research on the effectiveness of coaching and the execution of movement.If coaching and focusing on how you do something is effective for this, it’s probably effective for your objectives too.We know we’re biased but we also want to provide high quality coaching services to people at an affordable price. $300+ a month for a personal trainer or a nutritionist/dietician isn’t all that feasible, we know, that’s why we created <default:link xlink:href="ezurl://107" xlink:show="none">Fitnack.com</default:link> for a very inexpensive way to get high quality coaching from the comforts of home. <default:emphasis>Starting at $69 a month…</default:emphasis></default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis><default:emphasis><default:emphasis>Article credit: <default:link xlink:href="ezurl://104" xlink:show="none">Skill Based Fitness</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis></default:emphasis></default:emphasis>
+<default:emphasis><default:emphasis><default:emphasis>Cover photo: <default:link xlink:href="ezurl://333" xlink:show="none">morgan sarkissian</default:link></default:emphasis></default:emphasis></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24788" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24789" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24790" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24791" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24792" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24794" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24795" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="How You Do Things Matters" node-id="818" remote-id="media-n-818" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

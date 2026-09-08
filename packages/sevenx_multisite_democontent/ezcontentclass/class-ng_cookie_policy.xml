@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="true" sort-field="path" sort-order="1">
+  <serialized-name-list>a:3:{s:6:"eng-US";s:13:"Cookie policy";s:6:"eng-GB";s:13:"Cookie policy";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>ng_cookie_policy</identifier>
+  <serialized-description-list>a:3:{s:6:"eng-US";s:27:"Cookie popup policy content";s:6:"eng-GB";s:27:"Cookie popup policy content";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+  <remote-id>32d1ded9703a2611fd3f1ef7681bd3f6</remote-id>
+  <object-name-pattern>&lt;title&gt; - [COOKIE POLICY]</object-name-pattern>
+  <url-alias-pattern>&lt;title&gt;</url-alias-pattern>
+  <remote>
+    <site-url>http://alpha.se7enx.com/</site-url>
+    <url>http://alpha.se7enx.com/class/view/222</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>222</id>
+    <created>1570438635</created>
+    <modified>1676291620</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2230</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Title";s:6:"eng-GB";s:5:"Title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>title</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>0</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2231</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:16:"[Ribbon] heading";s:6:"eng-GB";s:16:"[Ribbon] heading";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>ribbon_heading</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:20:"Main title in ribbon";s:6:"eng-GB";s:20:"Main title in ribbon";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2232</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:20:"[Ribbon] Description";s:6:"eng-GB";s:20:"[Ribbon] Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>ribbon_description</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:32:"Description that shows in ribbon";s:6:"eng-GB";s:32:"Description that shows in ribbon";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <text-column-count/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2233</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:23:"[Ribbon] Settings label";s:6:"eng-GB";s:23:"[Ribbon] Settings label";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>ribbon_settings_label</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:37:"Label for settings customization link";s:6:"eng-GB";s:37:"Label for settings customization link";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2234</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:34:"[Ribbon] Button "Accept All" label";s:6:"eng-GB";s:34:"[Ribbon] Button "Accept All" label";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>ribbon_button_accept_all_label</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:27:"Label for Accept All button";s:6:"eng-GB";s:27:"Label for Accept All button";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2781</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:28:"[Ribbon] Button "Save" label";s:6:"eng-GB";s:28:"[Ribbon] Button "Save" label";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>ribbon_button_save_label</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:24:"ribbon_button_save_label";s:6:"eng-GB";s:24:"ribbon_button_save_label";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>5</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2235</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:17:"[Necessary] Label";s:6:"eng-GB";s:17:"[Necessary] Label";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>necessary_label</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>6</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2236</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:23:"[Necessary] Description";s:6:"eng-GB";s:23:"[Necessary] Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>necessary_description</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>7</placement>
+      <datatype-parameters>
+        <text-column-count/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2237</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:21:"[Analytics] Is active";s:6:"eng-GB";s:21:"[Analytics] Is active";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>analytics_is_active</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>8</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2238</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:25:"[Analytics] Default state";s:6:"eng-GB";s:25:"[Analytics] Default state";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>analytics_default_state</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>9</placement>
+      <datatype-parameters>
+        <default-value is-set="true"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2239</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:17:"[Analytics] Label";s:6:"eng-GB";s:17:"[Analytics] Label";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>analytics_label</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>10</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2240</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:23:"[Analytics] Description";s:6:"eng-GB";s:23:"[Analytics] Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>analytics_description</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>11</placement>
+      <datatype-parameters>
+        <text-column-count/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2241</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:21:"[Analytics] On accept";s:6:"eng-GB";s:21:"[Analytics] On accept";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>analytics_on_accept</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>12</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2242</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:21:"[Analytics] On revoke";s:6:"eng-GB";s:21:"[Analytics] On revoke";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>analytics_on_revoke</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>13</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2243</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:21:"[Marketing] Is active";s:6:"eng-GB";s:21:"[Marketing] Is active";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>marketing_is_active</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>14</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2244</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:25:"[Marketing] Default state";s:6:"eng-GB";s:25:"[Marketing] Default state";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>marketing_default_state</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>15</placement>
+      <datatype-parameters>
+        <default-value is-set="true"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2245</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:17:"[Marketing] Label";s:6:"eng-GB";s:17:"[Marketing] Label";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>marketing_label</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>16</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2246</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:23:"[Marketing] Description";s:6:"eng-GB";s:23:"[Marketing] Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>marketing_description</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>17</placement>
+      <datatype-parameters>
+        <text-column-count/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2247</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:21:"[Marketing] On accept";s:6:"eng-GB";s:21:"[Marketing] On accept";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>marketing_on_accept</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>18</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2248</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:21:"[Marketing] On revoke";s:6:"eng-GB";s:21:"[Marketing] On revoke";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>marketing_on_revoke</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>19</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2249</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:26:"[Social sharing] Is active";s:6:"eng-GB";s:26:"[Social sharing] Is active";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>social_sharing_is_active</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>20</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2250</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:30:"[Social sharing] Default state";s:6:"eng-GB";s:30:"[Social sharing] Default state";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>social_sharing_default_state</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>21</placement>
+      <datatype-parameters>
+        <default-value is-set="true"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2251</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:22:"[Social sharing] Label";s:6:"eng-GB";s:22:"[Social sharing] Label";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>social_sharing_label</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>22</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2252</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:28:"[Social sharing] Description";s:6:"eng-GB";s:28:"[Social sharing] Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>social_sharing_description</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>23</placement>
+      <datatype-parameters>
+        <text-column-count/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2253</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:26:"[Social sharing] On accept";s:6:"eng-GB";s:26:"[Social sharing] On accept";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>social_sharing_on_accept</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>24</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="false" information-collector="false" translatable="false">
+      <remote>
+        <id>2254</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:26:"[Social sharing] On revoke";s:6:"eng-GB";s:26:"[Social sharing] On revoke";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>social_sharing_on_revoke</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>25</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

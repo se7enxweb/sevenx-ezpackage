@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="207" name="Gallery test" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="49" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Wed, 06 Mar 2019 12:37:44 GMT" remote_id="media-o-1157" class_remote_id="defcb74b7281b78bd135aaef42a50d47" ezremote:class_identifier="ng_gallery" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 09:04:01 GMT" ezremote:modified="Tue, 01 Sep 2026 09:04:01 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Gallery test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2207" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Gallery test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2208" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Gallery test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2209" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>We’ve put together this handy list of words and phrases you’re most likely to come across. This is by no means a comprehensive list of everything you need to know but it will help you to fully engage in your workouts and make progress.</paragraph>
+            <section>
+              <header>1. Rep</header>
+              <paragraph>Short for repetition. A <emphasize>rep</emphasize> is a single complete movement of an exercise. For example, getting out of bed, changing your mind and then going back in, would be considered one rep.</paragraph>
+              <header>2. Set</header>
+              <paragraph>A <emphasize>set</emphasize> refers to a series of reps of an exercise done one after another. For instance, if you do 12 pull-ups and rest, and then repeat that 2 more times, you will have completed three sets of 12 reps. Yeah right!</paragraph>
+              <header>3. Warm up</header>
+              <paragraph>To <emphasize>warm up</emphasize> is to prepare your body (and mind, if we’re honest) for exercise by performing a low intensity workout beforehand. A warm up helps you to <emphasize>gradually</emphasize> increase your heart rate, breathing, and body temperature.</paragraph>
+              <header>4. Cool down</header>
+              <paragraph>This refers to a period of stretching and milder exercise following an intense workout session. The purpose of a <emphasize>cool down</emphasize> is to allow your body to slowly return to it’s pre-exercise state. It is very important if you want to prevent dizziness.</paragraph>
+              <header>5. Rest Day</header>
+              <paragraph>A <emphasize>rest day</emphasize> is any day you’re not actively training, where you remove the challenge of intense exercise. It can either be “active resting” where you Netflix &amp; Chill or “proper resting” where you spend your whole day doing absolutely nothing. It gives the body time to recuperate, and limits the risk of excess soreness and injury.</paragraph>
+              <header>6. Plateau</header>
+              <paragraph>A body <emphasize>plateau</emphasize> refers to a period of time in which your body suddenly develops an attitude and decides to no longer respond to a fitness or diet routine that has proven effective in the past. Just like in relationships, it usually means that it’s time for you to step it up by switching up your routine.</paragraph>
+              <header>7. HIIT (High Intensity Interval Training)</header>
+              <paragraph><emphasize>HIIT</emphasize> is a form of exercise in which you alternate between fast-paced, intense bursts of exercise and fixed periods of low to moderate intensity activity. For example, running as if Ryan Gosling is waiting for you at the finish line for 30 seconds, then walking for 60 seconds is high intensity interval training. This type of training gets and keeps your heart rate up and burns more fat in less time.</paragraph>
+              <header>8. Circuit training</header>
+              <paragraph>AKA “musical chairs” of the exercise world, <emphasize>circuit training </emphasize>is a fast-paced workout technique in which you do one exercise for 30 seconds to 5 minutes and then move on to another exercise. The main goals of circuit training are to increase muscle strength, endurance, flexibility and coordination.</paragraph>
+              <header>9. Resistance Training</header>
+              <paragraph>This is any type of exercise that causes your muscles to contract in order to build strength, endurance and size of your skeletal muscles. Body weight training (e.g push-ups, pull-ups, squatting down to look in the fridge) is a form of <emphasize>resistance</emphasize> and so is weight training.</paragraph>
+              <header>10. CrossFit</header>
+              <paragraph><emphasize>CrossFit</emphasize> is a mix of cardio, strength training and constantly talking about CrossFit.</paragraph>
+              <paragraph>
+                <emphasize>Are there other terms you’ve heard that you’d like us to explain? Please let us know below!</emphasize>
+              </paragraph>
+              <paragraph>
+                <emphasize>Article credit: <link href="http://www.hoolio.com/">Hoolio</link> / <link href="https://creativecommons.org/licenses/by/4.0/">CC BY</link></emphasize>
+              </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2210" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>As if the workouts themselves weren’t scary enough, you now have to learn what sometimes feels like a different language. We hear you!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2211" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>32</id-string>
+          <keyword-string>Workout</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2212" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>32|#49|#48</id-string>
+          <keyword-string>Workout|#Strength training|#HIIT</keyword-string>
+          <parent-string>36|#36|#36</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2213" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2214" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2215" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2216" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="Gallery test" node-id="209" remote-id="media-n-919" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

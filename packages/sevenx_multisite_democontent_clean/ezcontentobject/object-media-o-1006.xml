@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="1006" name="Quiche Cups with Tomato and Prosciutto" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="219" ezremote:published="Wed, 08 Aug 2018 12:35:16 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:30 GMT" remote_id="media-o-1006" class_remote_id="67c57c234691153c902f0bb5be0e4eaa" ezremote:class_identifier="ng_recipe" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="5" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:50:00 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:30 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Quiche Cups with Tomato and Prosciutto">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24152" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Quiche Cups with Tomato and Prosciutto</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24153" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24269" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24154" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24155" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="f45f9ede2309289885b6e661c329ba5e" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24156" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>This protein-packed dish will become your favourite take-along breakfast. </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24157" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="24158" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:title ezxhtml:level="3">INGREDIENTS</default:title>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>10 eggs</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1/2 cup almond milk (or regular)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1/2 cup diced prosciutto (I bought mine precut)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1 pint Divine Flavor fresh grape tomatoes</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1 cup tightly packed chopped kale</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>salt and pepper to taste</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:title ezxhtml:level="3">PREPARATION</default:title>
+            <default:orderedlist>
+              <default:listitem>
+                <default:para>Preheat oven to 325º.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Heat a skillet over medium-high heat and add prosciutto. Saute for a few minutes stirring often.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Add the kale and tomatoes and cook for another 3-4 minutes or until kale starts to wilt. Remove from heat.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Spray the bottom of one muffin tin with cooking spray.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Add 2 tbsp or so of the filling into each muffin well.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>In a medium bowl add 10 eggs and 1/2 cup milk. Add salt and pepper and whisk really well until all eggs are mixed.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Carefully pour into each muffin well. Fill about 3/4 full.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Bake for 25 minutes or until quiche cups are set. Remove from oven and serve immediately. If using for meal prep, let cool and store in plastic container in fridge for up to three days.</default:para>
+              </default:listitem>
+            </default:orderedlist>
+            <default:para>
+              <default:emphasis>Recipe credit: <default:link xlink:href="ezurl://25" xlink:show="none">Karen Kelly</default:link> via <default:link xlink:href="ezurl://18" xlink:show="none">Foodista</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis>
+            </default:para>
+            <default:para>
+              <default:emphasis>
+                <default:emphasis>Photo credit: <default:emphasis><default:link xlink:href="ezurl://18" xlink:show="none">Foodista</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis></default:emphasis>
+              </default:emphasis>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24159" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">
+          <value>40</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24160" ezremote:identifier="serving_calories" name="Calories (per serving)" type="ezinteger">
+          <value>260</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24161" ezremote:identifier="serving_fat" name="Fat (per serving)" type="ezinteger">
+          <value>6</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24162" ezremote:identifier="serving_carbohydrates" name="Carbohydrates (per serving)" type="ezinteger">
+          <value>15</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24163" ezremote:identifier="serving_protein" name="Protein (per serving)" type="ezinteger">
+          <value>20</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24164" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24165" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24166" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24167" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24168" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24170" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24171" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-744" name="Quiche Cups with Tomato and Prosciutto" node-id="773" remote-id="media-n-773" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

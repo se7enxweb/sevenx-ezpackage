@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="93" name="Effective Training Techniques: High Intensity Interval Training (HIIT)" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Wed, 22 Aug 2018 09:12:47 GMT" ezremote:modified="Thu, 24 Sep 2020 08:26:04 GMT" remote_id="media-o-1064" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:25:52 GMT" ezremote:modified="Thu, 24 Sep 2020 08:26:04 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Effective Training Techniques: High Intensity Interval Training (HIIT)">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="639" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Effective Training Techniques: High Intensity Interval Training (HIIT)</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="640" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Effective Training Techniques: High Intensity Interval Training (HIIT)</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="641" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="642" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="6a85768dd32f56b3e74392b9ad76c33d" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="643" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="513e394313fc15b37e4bc76d5a8bb973" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="644" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>This is part 3 of a 3 part series on effective training techniques.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="645" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="646" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Cardiovascular Training</paragraph>
+            <paragraph>Cardiovascular (cardio) training targets a very important muscle in the body:the heart. Like all muscles, specific training is needed to keep your heart healthy and functioning properly. Cardio training is exercising so that your heart rate stays above 50% of your maximum heart rate.</paragraph>
+            <section>
+              <header>Types of Cardio</header>
+              <paragraph>There are two main types of cardio practiced at the gym:</paragraph>
+              <paragraph>Steady State Cardio</paragraph>
+              <paragraph>Steady state cardio is a cardiovascular exercise that maintains a continuous, steady effort and is performed for at least 10 minutes. It is done at a light to moderate intensity (50–70% of maximum heart rate). Common examples include jogging, cycling, swimming, etc.</paragraph>
+              <paragraph>High Intensity Interval Training Cardio</paragraph>
+              <paragraph>HIIT cardio is performed in interval segments where at least one segment is done at a high intensity (75–99% of maximum heart rate) and another is done at a low intensity. For example, rowing as fast as possible for 20 seconds followed by 40 seconds of casually paced rowing is one repetition of HIIT. Performing this for multiple reps is the foundation of a HIIT exercise.</paragraph>
+              <paragraph>Most HIIT exercises last between 4 to 15 minutes. Your body will not be able to handle more if you are truly pushing your hardest during the high intensity segments.</paragraph>
+              <header>Which Type of Cardio is Best?</header>
+              <paragraph>This depends on your goals and usually the answer is some of both. If your goal is to burn fat, you should focus on HIIT. If you have time and want to improve your endurance and stamina, you should incorporate steady state cardio into your training. This article highlights the benefits of HIIT since burning fat and leaning out is a goal for almost every gym goer.</paragraph>
+              <header>Benefits of HIIT</header>
+              <paragraph>HIIT has become popular because of the short time it takes to get an effective workout. However, there are many other benefits that come with exercising at a high intensity.</paragraph>
+              <paragraph>The Afterburn</paragraph>
+              <paragraph>HIIT triggers an afterburn. The afterburn is scientifically known as Excess Post-exercise Oxygen Consumption (EPOC), which is the amount of oxygen your body needs to restore itself to a pre-exercise state. Your metabolism stays boosted (burning extra calories) while your body restores its oxygen levels. The length of the afterburn is related to the intensity of a workout. The higher intensity, the longer the afterburn and the more calories spent restoring your body.</paragraph>
+              <paragraph>Fat Burning Endorphins</paragraph>
+              <paragraph>A high intensity workout triggers your body to release more adrenaline and human growth hormone than a steady paced workout. These endorphins are well known for their fat burning capabilities and help promote a lean body.</paragraph>
+              <paragraph>Less Impact on Joints</paragraph>
+              <paragraph>Steady state cardio applies a repetitive force on your joints over a long period of time, which can cause inflamed and damaged joints. HIIT avoids this by reducing the total time spent on cardio and alternating in low intensity intervals, giving your joints time to recover mid exercise and overall less impact.</paragraph>
+              <paragraph>These benefits make HIIT the preferred form of cardio for most gym goers as it is both time efficient and ideal for burning fat.</paragraph>
+              <header>Examples of HIIT</header>
+              <paragraph>Pace Focused Machines</paragraph>
+              <paragraph>Machines such as the rower, airdyne, and treadmill are all pace focused machines, meaning the intensity increases the faster you go. The goal with these machines is to find a pace that pushes you to your limit during the high intensity segment and then slow down considerably (even to a slow walk) for the low intensity segment.</paragraph>
+              <paragraph>Resistance Focus Machines</paragraph>
+              <paragraph>Machines such as the spin bike, elliptical, and stairmaster all have resistance tuning built in (often referred to as “levels”). These levels are great for HIIT exercises. You want to set two resistances, a difficult resistance for the high intensity interval and an easy resistance for the low intensity interval.</paragraph>
+              <paragraph>Strength Training</paragraph>
+              <paragraph>A strength training circuit can be a HIIT exercise if performed correctly. It’s also a great way to combine cardio and strength training at the same time. An example strength training circuit is:</paragraph>
+              <paragraph>Do this circuit 3 times:</paragraph>
+              <paragraph>Burpees: 20 seconds (as many as possible)Ice Skaters: 20 seconds (as many as possible)Bench Jump Overs: 20 seconds (as many as possible)Rest: 90 seconds</paragraph>
+              <paragraph>There are many fun ways to incorporate HIIT into your workout. It’s important to remember to use the low intensity segment to recover for the next high intensity segment. You may even need to come to a stop during the low intensity segment for the last few reps of your HIIT exercise.</paragraph>
+              <header>HIT vs. HIIT</header>
+              <paragraph>High Intensity Training (HIT) is different than HIIT as it does not follow set intervals. Compare a game of competitive hockey (HIT) to interval training. A player in a hockey game plays as hard as possible for a shift (20 seconds — 1.5 mins) and then rests on the bench for an unspecified amount of time. One shift may be 28 seconds followed by 4 minutes of rest but the next shift is 55 seconds followed by 1 minute of rest. The lack of well defined intervals makes hockey HIT instead of HIIT.</paragraph>
+              <paragraph>Both HIT and HIIT are great forms of cardio exercise but with HIIT, you can manipulate the interval times based on your fitness goals.</paragraph>
+              <paragraph>The next time you head to the gym, think twice before running on the treadmill for 45 minutes. There are other ways of improving your cardiovascular health that take less time. Try doing a machine based HIIT or even a strength training circuit!</paragraph>
+              <paragraph>
+                <emphasize>Article credit: <link href="https://coachbotapp.com/">Coachbot</link>  / <link href="https://creativecommons.org/licenses/by/4.0/">CC BY</link></emphasize>
+                <line/>
+                <line/>
+                <emphasize>Cover photo: <link href="https://unsplash.com/photos/gJtDg6WfMlQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">bruce mars</link></emphasize>
+                <line/>
+              </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="647" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="648" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="649" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>63</id-string>
+          <keyword-string>HIIT</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="650" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>63|#65</id-string>
+          <keyword-string>HIIT|#Workout</keyword-string>
+          <parent-string>0|#0</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="651" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="652" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="653" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="654" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Effective Training Techniques: High Intensity Interval Training (HIIT)" node-id="95" remote-id="media-n-829" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

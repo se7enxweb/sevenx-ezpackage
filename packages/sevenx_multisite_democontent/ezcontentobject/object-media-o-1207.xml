@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="324" name="We promote healthy lifestyle daily" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="60" ezremote:published="Tue, 01 Sep 2026 05:39:42 GMT" ezremote:modified="Tue, 01 Sep 2026 13:34:01 GMT" remote_id="media-o-1207" class_remote_id="16dcbe0a8000da0a5b89b91086a86ab8" ezremote:class_identifier="ng_component_about" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="13">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="13" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 13:34:01 GMT" ezremote:modified="Tue, 01 Sep 2026 13:34:01 GMT" initial_language="ger-DE">
+      <ezobject:object-translation language="eng-US" object_name="We promote healthy lifestyle daily">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3477" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>We promote healthy lifestyle daily</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3478" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3479" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>We promote healthy lifestyle daily</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3480" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>We published a fitness-dedicated portal with healthy recipes, workout options and well-being articles. With 1000 readers daily, Fit&amp;Healthy portal is a place where you can promote your business and reach target audience.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3481" ezremote:identifier="description_2" name="Description 2" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3482" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5d87c967f5bfc6bb2e4560af990e105b" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3483" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3484" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{"id":401,"label":"Go to Fit&amp;Healthy","type":"internal","target":"link_new_tab","suffix":null}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3485" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3486" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="We promote healthy lifestyle daily">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5369" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>We promote healthy lifestyle daily</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5370" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5371" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Wir fördern täglich einen gesunden Lebensstil</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5372" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Wir haben ein auf Fitness spezialisiertes Portal mit gesunden Rezepten, Trainingsmöglichkeiten und Artikeln zum Wohlbefinden veröffentlicht. Mit täglich 1000 Lesern ist das Fit&amp;Healthy-Portal ein Ort, an dem Sie für Ihr Unternehmen werben und Ihr Zielpublikum erreichen können.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5373" ezremote:identifier="description_2" name="Description 2" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5374" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="d08c9642d236d7b7e37166137a87aace" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5375" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5376" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{
+    "id": 401,
+    "label": "Weiter zu Fit&amp;Healthy",
+    "type": "internal",
+    "target": "link_new_tab",
+    "suffix": null
+}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5377" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text>a:0:{}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5378" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="We promote healthy lifestyle daily" node-id="289" remote-id="9f61901bf510703296c3ca87433584d2" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

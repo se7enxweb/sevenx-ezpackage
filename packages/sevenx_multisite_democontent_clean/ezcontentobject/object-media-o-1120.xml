@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="1120" name="We Neglect this Factor when Choosing Healthy Food" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="163" ezremote:published="Wed, 22 Aug 2018 15:42:47 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:33 GMT" remote_id="media-o-1120" class_remote_id="5af75d89cc442b764b791d18caba56f8" ezremote:class_identifier="ng_news" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="6">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="6" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:49 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:34 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="We Neglect this Factor when Choosing Healthy Food">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25430" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>We Neglect this Factor when Choosing Healthy Food</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25431" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25432" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25433" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25434" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="d33c975e5af20fc17a4ab79577dca14b" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25435" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="c9fc78b1c068e2bdc10827f98c640678" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25436" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Wed, 22 Aug 2018 15:33:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25438" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>The perceived healthiness of a food tends to influence people more than a food’s portion size, research finds.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25439" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="25440" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Encouraging people to compare different portion sizes side-by-side can partly mitigate the tendency, according to the study, which will appear in the journal <default:emphasis>Management Science</default:emphasis>.</default:para>
+            <default:para>Consumers believe the type of food they are eating has a much greater impact on their ability to achieve health goals than the amount of food they consume. As a result, even consumers who are trying to lose or maintain their current weight choose “healthy” items in larger amounts than the food’s calories justify.</default:para>
+            <default:para>“Consumers view a change in food type as having a much greater impact on perceived healthiness or progress towards health goals than a change in food quantity, even when holding objective impact constant in terms of calories,” write Kelly Haws, professor of marketing at Vanderbilt University’s Owen Graduate School of Management, and coauthors.</default:para>
+            <default:para>Through a series of lab and online studies, Haws and coauthors investigated the effects of varying food types (such as chocolates vs. almonds vs. crackers) and varying food quantities (such as 1⁄2 serving vs. 1 serving vs. 2 servings) on participants’ healthiness perceptions.</default:para>
+            <default:para>In the studies, food type emerged as a “primary dimension,” or a factor that was highly relevant and influential to participants’ judgments of the food’s healthiness. Meanwhile, food quantity acted as a “secondary dimension,” holding much less sway over participants’ healthiness evaluations unless portion size was explicitly brought to their attention. And even then, food quantity affected judgments less than the primary dimension of food type.</default:para>
+            <default:para>Past research has generally examined food type and quantity separately or treated them as interchangeable routes to healthier consumption. “These findings are innovative because they distinguish between and explicitly compare two common routes to healthier consumption that are perceived to be very different,” the authors write.</default:para>
+            <default:para>Related: <default:link xlink:href="ezurl://279" xlink:show="new">Sugary soda is extra bad for you</default:link></default:para>
+            <default:para>Haws’ findings have implications not just for researchers, but also for people looking to make healthier food choices or to manage their weight. Eating a smaller number of calories is key to losing weight, but if individuals consume large quantities of foods that are high in calories but perceived to be healthy (such as nuts), they may actually consume more calories than they would by eating a smaller portion of junk food.</default:para>
+            <default:para>“The tendency to be largely insensitive to food quantities may be problematic if consumers believe that consuming large portions of calorically-dense ‘healthy’ foods (e.g., granola, nuts) will have a similar impact on health as consuming smaller portions of such foods,” the authors note.</default:para>
+            <default:para>Related: <default:link xlink:href="ezurl://280" xlink:show="new">2 things in food mess up fat cells in just 24 hours</default:link></default:para>
+            <default:para>“These findings suggest that the primacy of type over quantity could potentially have a negative impact on efforts to lose or maintain weight through reduced caloric consumption.”</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Source: </default:emphasis><default:emphasis><default:link xlink:href="ezurl://281" xlink:show="new">Vanderbilt University</default:link></default:emphasis>
+<default:emphasis>Cover photo: <default:link xlink:href="ezurl://309" xlink:show="new">Push Doctor/Flickr</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25441" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25442" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25443" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25444" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25445" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25447" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25448" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="We Neglect this Factor when Choosing Healthy Food" node-id="885" remote-id="media-n-885" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

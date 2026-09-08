@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="87" name="What’s Better: A Split Routine or Total Body Routine?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Tue, 21 Aug 2018 15:12:17 GMT" ezremote:modified="Thu, 24 Sep 2020 08:30:17 GMT" remote_id="media-o-1029" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:30:05 GMT" ezremote:modified="Thu, 24 Sep 2020 08:30:17 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="What’s Better: A Split Routine or Total Body Routine?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="539" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>What’s Better: A Split Routine or Total Body Routine?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="540" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>What’s Better: A Split Routine or Total Body Routine?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="541" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="542" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="d73b5dcea909662ac96a49e2e0645cb9" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="543" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="ebd5acbdef80b0e3fbdf4bbff52374a0" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="544" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Split routines, or as I like to call them Frankenstein routines (hat-tip to Dan John…) are synonymous with bodybuilding circles.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="545" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="546" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Few days escape me when I’m not asked a question about a split routine, or to critique a program.</paragraph>
+            <paragraph>Almost all young men new to the gym (and not in an athletic training environment) will experiment with a split routine at first.</paragraph>
+            <paragraph>It’s easy to see why young men in particular gravitate towards split routines.</paragraph>
+            <paragraph>They are the subject of nearly every bodybuilding magazine and even if you don’t want to look like a competitive bodybuilder, there must be something to the madness right?</paragraph>
+            <paragraph>In fact, <link target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/22990567">this survey</link> of competitive bodybuilders indicated the following:</paragraph>
+            <ul>
+              <li>
+                <paragraph>100% are using a split routine</paragraph>
+              </li>
+              <li>
+                <paragraph>95% use 3-6 sets per exercise</paragraph>
+              </li>
+              <li>
+                <paragraph>77% favour a 7-12 repetition range for training</paragraph>
+              </li>
+              <li>
+                <paragraph>67% use 61-120 seconds of recovery time between sets</paragraph>
+              </li>
+              <li>
+                <paragraph>77% of those who answered the question, admitted to steroid use</paragraph>
+              </li>
+              <li>
+                <paragraph>100% used dietary supplementation</paragraph>
+              </li>
+              <li>
+                <paragraph>Most seem to change their training just before competition in a dramatic way (less volume, less rest, higher rep range, etc…)</paragraph>
+              </li>
+            </ul>
+            <paragraph>It’s easy to see why many young men might follow in their footsteps, if they are the epitome of muscle building, then obviously we should mimic their approach right?</paragraph>
+            <paragraph>Its hard for me to dispute that how bodybuilders train is probably effective for bodybuilding, and so if you’re a high level competitive bodybuilder, then a split is probably useful to some degree. Not the least of which are:</paragraph>
+            <ul>
+              <li>
+                <paragraph>Allows you to more specifically and methodically ‘form’ how a muscle might look on stage</paragraph>
+              </li>
+              <li>
+                <paragraph>Allows you to increase training volume in a week and train to complete failure more often <emphasize>(taxing on the body for full body training)</emphasize></paragraph>
+              </li>
+              <li>
+                <paragraph>Allows you to recover better from highly fatiguing, to failure workouts (though steroid use also certainly helps…)</paragraph>
+              </li>
+              <li>
+                <paragraph>Allows you to train six days a week rather than 3-4 with total body or upper/lower splits</paragraph>
+              </li>
+            </ul>
+            <paragraph>Yet, many old school bodybuilders like Mike Menzter, or Reg Park, achieved wonderful physiques using total body training, or upper/lower splits long before it became the norm.</paragraph>
+            <paragraph>There is also an indication that <link target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/25932981">cycling training frequency</link> might be an excellent way to induce new gains and that in trained subjects, total body training has the slight edge for hypertrophy objectives (<emphasize>it’s a short study though…</emphasize>).</paragraph>
+            <paragraph>There might be a benefit to using a split routine for a phase, then a total body routine for a phase.</paragraph>
+            <paragraph>Frequency of training is after all, like sets or reps or rest, just another variable we can manipulate to challenge the body in new ways.</paragraph>
+            <paragraph>As I’ve said before, it is often<link target="_blank" href="https://skillbasedfitness.com/change-matters-most/"> just the change itself</link> — <emphasize>and not necessarily the specifics of what you change</emphasize> — from what you’ve always done that leads to the greatest benefit.</paragraph>
+            <paragraph>Training needs to cycle, so as to prevent plateaus and maximize stimulation. The body needs unique stimulation to create adaptation, once a point of diminishing returns is reached.</paragraph>
+            <paragraph>
+              <emphasize>2-6 weeks for most intermediate trainees, often sooner for advanced trainees, probably up to 12 weeks for beginners…</emphasize>
+            </paragraph>
+            <paragraph>That’s why there is also a benefit to using high loads and low reps sometimes, or low loads and high reps sometimes.</paragraph>
+            <section>
+              <header>Why Wouldn’t You Want to Copy?</header>
+              <paragraph>What remains to be seen if whether or not the common training modalities of elite bodybuilders is ever particularly useful for beginners and intermediate trainees.</paragraph>
+              <paragraph><link target="_blank" href="http://journals.lww.com/nsca-jscr/Abstract/2000/08000/Comparison_of_1_Day_and_3_Days_Per_Week_of.6.aspx">Research suggests</link> that taking the same volume of exercise — <emphasize>as opposed the common bodybuilding approach of hammering a muscle group 1 day a week and then giving it a week off</emphasize> — and spreading it out over 3 days instead of one is almost twice as effective for gains.</paragraph>
+              <paragraph>
+                <emphasize>*1 day a week is 62% as effective as 3-days a week, with the same total work each week…</emphasize>
+              </paragraph>
+              <paragraph>More advanced training programs are certain to cause a higher frequency of program dropout, excessive muscle soreness, greater complication to lifestyle and in some cases obviously injury.</paragraph>
+              <paragraph>Not in my mind, ideal for most people who just want to look a bit better naked or drop a few pounds (<emphasize>most of us right?</emphasize>).</paragraph>
+              <paragraph>It’s questionable that these commonly used bodybuilding methods are the most ideal methods for most people getting started, or even many intermediate lifters for many reasons:</paragraph>
+              <ul>
+                <li>
+                  <paragraph>Higher volume training is often not tolerated well by beginners (more muscle soreness/fatigue…)</paragraph>
+                </li>
+                <li>
+                  <paragraph>Training to failure often is typically not tolerated well by novices (more muscle soreness/fatigue…)</paragraph>
+                </li>
+                <li>
+                  <paragraph>Beginners need a strength base prior to significant hypertrophy gains</paragraph>
+                </li>
+                <li>
+                  <paragraph>Beginners will often slack on training intensity because they simply don’t have experience to understand it yet</paragraph>
+                </li>
+                <li>
+                  <paragraph>Beginners often have a lower perceived tolerance of exertion (<emphasize>things seem harder when they are new, than they do to the experienced</emphasize>), so they often won’t train as hard as they need to on a split routine.</paragraph>
+                </li>
+                <li>
+                  <paragraph>Beginners need to establish a routine of training, and more days create more lifestyle restrictions (<emphasize>3 hours of training is a lot easier to get in, than 6 hours</emphasize>) that lead to more missed training days</paragraph>
+                </li>
+                <li>
+                  <paragraph>Beginners will often set their split routines up to ignore training days they dislike (<emphasize>like skipping leg day!</emphasize>), or do more training for days they do like (<emphasize>like chest day!</emphasize>) — <emphasize>which obviously hurts long term results…</emphasize></paragraph>
+                </li>
+                <li>
+                  <paragraph>The body adapts with neurological gains prior to muscle building gains, when you first start training (<emphasize>discouraging many, but you slow the process down with split routines for beginners</emphasize>)</paragraph>
+                </li>
+                <li>
+                  <paragraph>Research indicates that yes moderate load training may be <link target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/25530577">slightly more ideal</link> in untrained subjects; low load training and high load training can also contribute and cycling a program is important.</paragraph>
+                </li>
+                <li>
+                  <paragraph>
+                    <emphasize>The decision to avoid steroids is also most likely a big reason why splits aren’t seemingly tolerated well by beginners/intermediates…</emphasize>
+                  </paragraph>
+                </li>
+              </ul>
+              <paragraph>Needless to say I come across increasingly frustrated young male trainees on a very regular basis…</paragraph>
+              <paragraph><link target="_blank" href="https://www.quora.com/I-am-unable-to-gain-muscle-mass-in-my-arms-biceps-triceps-forearms-despite-years-of-regular-weight-training-and-a-good-diet-How-can-I-gain-muscle-mass/answer/Darren-Beattie">For instance this young man</link>, or <link target="_blank" href="https://www.quora.com/Is-it-ok-to-workout-as-a-beginner-like-this-Monday-Thursday-chest-and-triceps-Tuesday-Friday-back-and-biceps-Wednesday-Saturday-shoulder-and-abs-and-Sunday-off/answer/Darren-Beattie">this one</link>.</paragraph>
+              <paragraph>If you have little experience or strength these methods just don’t seem to work that well.</paragraph>
+              <paragraph>A lot of the above applies to intermediate trainees too. People who have some training experience, but are often still facing some significant improvements.</paragraph>
+              <header>So What’s Better?</header>
+              <paragraph>I’m inclined to say no to split routines for beginners about 99% of the time.</paragraph>
+              <paragraph>If you’re new to training, or been using a split for years and feel like you’re not getting anywhere: <strong>LOSE THE SPLIT ROUTINE!</strong></paragraph>
+              <paragraph>If your main objective is muscle hypertrophy for intermediates, or you’ve had a little success with a split routine, I suggest cycling in split routines periodically if you’d like, with total body and upper/lower splits.</paragraph>
+              <paragraph>It’s good to mix things up and while bro-routines certainly don’t make it into my repertoire very often, they do have their place <emphasize>(mostly for semi-serious or competitive bodybuilders)</emphasize>.</paragraph>
+              <paragraph>Maybe 1-3 phases per year of splits, until you want to compete in bodybuilding, in which case, up the amount to 3-9 phases a year.</paragraph>
+              <paragraph>For athletes, the focus should always be on performance and even with very advanced athletes I find total body or upper/lower splits to be favourable (and quite frankly the norm anyway…).</paragraph>
+              <paragraph>It’s hard to do olympic lifting and compound complicated movement training with anything less than an upper/lower 2-day split.</paragraph>
+              <paragraph>The latter of which can be nice for keeping resistance training around 4x a week.</paragraph>
+              <paragraph>
+                <emphasize>Though introducing a split if an athlete needs to gain some muscle isn’t necessarily a bad idea from time to time…</emphasize>
+              </paragraph>
+              <paragraph>For the majority of people full body or upper/lower 2-day splits allow for:</paragraph>
+              <ul>
+                <li>
+                  <paragraph>Optimal frequency of training (every 48-72 hours)</paragraph>
+                </li>
+                <li>
+                  <paragraph>Greater recovery (get more days off)</paragraph>
+                </li>
+                <li>
+                  <paragraph>Easier integration into life (less time in the gym)</paragraph>
+                </li>
+                <li>
+                  <paragraph>In my experience, better fat loss (<emphasize>which is arguably most important for more people…</emphasize>) for multiple potential reasons</paragraph>
+                </li>
+                <li>
+                  <paragraph>Better integration of <link target="_blank" href="https://skillbasedfitness.com/energy-system-development/">energy system training</link> <emphasize>(and obviously some aerobic training, also these contribute to the fat loss factors mentioned above…)</emphasize></paragraph>
+                </li>
+                <li>
+                  <paragraph>Are better for a more general or a more complete approach to training as a result (health for instance…)</paragraph>
+                </li>
+                <li>
+                  <paragraph>For flexibility. They are easier to manipulate to fit into lifestyle if you miss a day <emphasize>(you’re not skipping training anything really ever)</emphasize></paragraph>
+                </li>
+                <li>
+                  <paragraph>Typically better for strength or athletic objectives because they train complete movements rather than muscles…</paragraph>
+                </li>
+                <li>
+                  <paragraph>You can get more done in less time (more effective dose)</paragraph>
+                </li>
+              </ul>
+              <paragraph>Again when you look at the <link target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/25932981">volume adjusted comparison of total body training</link> to split training in trained subjects you still see a slight edge to total body training, but at the end of the day it’s really about exploring your options and figuring out what works for you.</paragraph>
+              <paragraph>There might be some advantages to a split for you, like more volume (if you need it), a change of pace/routine, or maybe it fits better into your lifestyle.</paragraph>
+              <paragraph>If that’s five times a week of lifting weight, then you can only accomplish that with a split.</paragraph>
+              <paragraph>If you can only do resistance training on back to back days, then obviously you need to use a split too.</paragraph>
+              <paragraph>Ultimately it comes down to you and how you can plan your routine, I have to use splits with people sometimes, and you might have to as well.</paragraph>
+              <paragraph>I just rarely come across a person where that 4-6 day a week body split approach fits ideally into their lifestyle.</paragraph>
+              <paragraph>Few people want to spend six hours a week lifting in my experience.</paragraph>
+              <header>What About Women?</header>
+              <paragraph>I know a lot of this was directed at young men, not a typical demographic of this blog, but I do occasionally work with them <emphasize>(they also tend to be more active on the interwebz to ask me questions…).</emphasize></paragraph>
+              <paragraph>As a final note, I think it goes without saying that I favour full body resistance training for most women.</paragraph>
+              <paragraph>It just generally appeals to the look and approach that most women desire. <emphasize>That’s my experience…</emphasize></paragraph>
+              <paragraph>As a side note, most of the women I work with avoid split routines like the plague anyway, because most don’t like the bodybuilder aesthetic.</paragraph>
+              <paragraph>They tend to be more guilty of using next to no resistance training, and just energy system training, or far too much aerobic training.</paragraph>
+              <paragraph>Not that great for aesthetics on it’s own (<emphasize>though wonderful when combined with resistance training at least 2 days a week</emphasize>).</paragraph>
+              <paragraph>However, in my experience full body training works wonders for the female form, particularly undulating patterns whereby you cycle between higher reps and lower reps weekly or daily at different intensities.</paragraph>
+              <header>When to Use Them…</header>
+              <paragraph>All that being said, I’m always for finding a new stimulus if warranted.</paragraph>
+              <paragraph>My argument is mostly that they shouldn’t be the bulk of anyone’s training approach within the year until they have A) high level aesthetics objectives similar to that of bodybuilders or B) have a certain baseline of training skill and experience under their belt.</paragraph>
+              <paragraph>I have periodically introduced more isolated training methods and split routines into my own training and in my training of others for some of the following reasons:</paragraph>
+              <ul>
+                <li>
+                  <paragraph>You want to make a specific body part look a certain way</paragraph>
+                </li>
+              </ul>
+              <paragraph>
+                <emphasize>*Arguably, I’ve found better success by using an upper/lower split and then adding isolation exercises at the end of each training session, but if a person can’t tolerate that, then a split can be a way to go.</emphasize>
+              </paragraph>
+              <ul>
+                <li>
+                  <paragraph>You need to get more volume of training, particularly more training volume in to fatigue</paragraph>
+                </li>
+                <li>
+                  <paragraph>You have hypertrophy objectives and are doing most of your training in a 6-12 rep range anyway</paragraph>
+                </li>
+                <li>
+                  <paragraph>You have aesthetics objectives similar to that of bodybuilders <emphasize>(look good on stage)</emphasize>, actors <emphasize>(look good on stage or in video…)</emphasize>, or models <emphasize>(look good in print or otherwise…)</emphasize></paragraph>
+                </li>
+                <li>
+                  <paragraph>You start to find that total body training, or 2-day splits are too exhausting for your objectives <emphasize>(rare but might happen, can usually be controlled by monitoring intensity…)</emphasize></paragraph>
+                </li>
+              </ul>
+              <paragraph>Now you know, and knowing is half the battle.</paragraph>
+              <paragraph>
+                <emphasize>
+                  <emphasize>Article credit: <link href="https://www.skillbasedfitness.com/">Skill Based Fitness</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                </emphasize>
+                <line/>
+                <line/>
+                <emphasize>Cover photo: <link href="https://unsplash.com/photos/Vn39uEkX00s?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Webb</link></emphasize>
+                <line/>
+              </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="547" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="548" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="549" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>32</id-string>
+          <keyword-string>Workout</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="550" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>32</id-string>
+          <keyword-string>Workout</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="551" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="552" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="553" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="554" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="What’s Better: A Split Routine or Total Body Routine?" node-id="89" remote-id="media-n-796" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

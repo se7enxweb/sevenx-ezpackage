@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="964" name="The Food Delivery Industry Is Changing the Way We Think About Food" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="163" ezremote:published="Mon, 23 Jul 2018 11:54:28 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:27 GMT" remote_id="media-o-964" class_remote_id="5af75d89cc442b764b791d18caba56f8" ezremote:class_identifier="ng_news" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="11">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="11" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:49 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:27 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="The Food Delivery Industry Is Changing the Way We Think About Food">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23582" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>News test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23583" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24313" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24300" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23584" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="178278e86f383ba23b04f54ac647a437" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23585" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="b1c877bc7ec1938b15945faa9047b510" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24301" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Wed, 22 Aug 2018 10:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23586" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>The food industry is being transformed into a delivery business due to greater emphasis on convenience and quality of life above other concerns. However, it will need to shift to accommodate more eaters with less money over time.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23587" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="23588" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:title ezxhtml:level="1">FRESH AND FAST, ABOVE ALL</default:title>
+            <default:para>With more families supported by working parents and younger, single people <default:link xlink:href="ezurl://178" xlink:show="new">favoring convenience above all else</default:link>, eating efficiently is becoming the ultimate goal during the dinner hour — and beyond. But this doesn’t mean that consumers aren’t concerned about healthful foods; in fact, modern convenience food buyers are looking for more quality and convenience, and are <default:link xlink:href="ezurl://179#51af6db875c5" xlink:show="new">paying more to get them</default:link>.</default:para>
+            <default:para>Scott Mushkin, lead food trends researcher at Wolfe Research, <default:link xlink:href="ezurl://180" xlink:show="new">told <default:emphasis>Successful Farming</default:emphasis> in 2016</default:link>, “Local and fresh is in; processed is out. That trend has spread throughout every age and income bracket in just the last two years.”</default:para>
+            <default:para>This has led to the rise of various <default:link xlink:href="ezurl://181#.tnw_FMcsr5JL" xlink:show="new">food delivery entrepreneurs and startups</default:link>. These companies are working to offer consumers meals in a context that provides more choice, improved quality, a high level of transparency, and, above all else, convenience. Startups like Blue Apron, Plated, Hello Fresh, and Green Chef deliver everything you need to make complete, healthy meals in a box. Other services that vary from city to city provide actual freshly prepared meals ready to eat—up to five times a day, if you want them.</default:para>
+            <default:para>None of these options are cheap, but that’s not their selling point. All Blue Apron or Hello Fresh, for example, must convince you of is that you do not need to shop, spend money on groceries, or spend time prepping to cook. If the price they charge is worth your time spent on those activities, plus the cost of the food, they’ve got you.</default:para>
+            <default:para>Companies like London’s Everdine cook fresh meals and flash freeze them, giving you the best of both worlds, in a sense: food that tastes freshly prepared, but only when you want it.</default:para>
+            <default:ezembed xlink:href="ezcontent://324" view="embed"/>
+            <default:para>It’s no coincidence that this trend is being driven by millennials, a group that <default:link xlink:href="ezurl://182" xlink:show="new">values quality of life</default:link> more highly than any modern generation before it. Mushkin commented to Agriculture.com: “Millennials have come of age. Their changing food preferences are being heard.”</default:para>
+            <default:para>Mushkin commented that for these new consumers, transparency is paramount. “It’s a hot-button issue. In our focus groups with young women, they want to know where their food comes from. The actual source. The family farm still has great appeal with them. Now they want to know the story behind the food. If it’s a family farm story, that’s a very good thing.”</default:para>
+            <default:title ezxhtml:level="1">FOOD ACCESSIBILITY AND HEALTH</default:title>
+            <default:para>According to Mushkin’s research, the overarching market trend toward healthy, fresh, local food is seen in every bracket—except the extreme lowest income, less than $25,000 a year. This is probably not based on lack of interest or concern, but lack of buying power and access. In fact, the current need for accessible, wholesome foods remains high, and this need will only grow as the population increases.</default:para>
+            <default:para>Although the percentage of the world living with undernourishment has dropped over time, there are still about <default:link xlink:href="ezurl://183" xlink:show="new">795 million people</default:link> in the world – around one in nine people — who don’t get enough to eat. Sixty percent of them are female, and children by far are affected most by hunger. The problem is most acute in the developing world, and <default:link xlink:href="ezurl://184" xlink:show="none">this will be exacerbated</default:link> as the global population continues to grow.</default:para>
+            <default:para>Food startups like Everdine and Memphis Meats, a lab-grown meat startup that recently attracted the financial <default:link xlink:href="ezurl://185" xlink:show="none">backing of Bill Gates and Richard Branson</default:link>, have the opportunity to lead consumers toward more sustainable and nutritious eating patterns. These startups also have the potential to reach everybody – not just those who can afford to the time and money it takes to acquire the highest quality ingredients in the existing market. As everyday people become more concerned about health, the impact food has on health and longevity, and sustainability, they will have more demands for food startups. These companies will need to meet these demands to stay competitive.</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Source: </default:emphasis><default:link xlink:href="ezurl://329" xlink:show="none"><default:emphasis>Karla Lant</default:emphasis></default:link>
+<default:emphasis>Image Credit: Jill 1 1 1/Pixabay</default:emphasis>
+<default:emphasis>Cover photo: </default:emphasis><default:link xlink:href="ezurl://335" xlink:show="none"><default:emphasis>Kai Pilger</default:emphasis></default:link></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23590" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23591" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23852" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23592" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23883" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text>Produced by Fit&amp;Healthy with Acme</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23594" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23595" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="The Food Delivery Industry Is Changing the Way We Think About Food" node-id="735" remote-id="media-n-735" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

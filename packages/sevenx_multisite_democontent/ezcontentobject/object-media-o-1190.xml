@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="68" name="Will I be allowed to work remotely from another city/country?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="46" ezremote:published="Mon, 24 Oct 2022 18:46:23 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:22 GMT" remote_id="media-o-1190" class_remote_id="bdc2a54ae5074d9c18b8bc7349375d4e" ezremote:class_identifier="ng_accordion_item" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 07:02:22 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:22 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Will I be allowed to work remotely from another city/country?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="296" ezremote:identifier="title" name="Meta Data" type="ezstring">
+          <text>Will I be allowed to work remotely from another city/country?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="297" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <paragraph>Yes, you will be able to work remotely. We value the ability to be flexible and offer remote work as an option for our employees.</paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="298" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="Darf ich Remote von einer anderen Stadt/einem anderen Land aus arbeiten?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4117" ezremote:identifier="title" name="Meta Data" type="ezstring">
+          <text>Darf ich Remote von einer anderen Stadt/einem anderen Land aus arbeiten?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4118" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Ja, Sie werden Remote arbeiten können. Wir legen Wert auf Flexibilität und bieten unseren Mitarbeitern die Möglichkeit der Remote-Arbeit.</paragraph>
+          </section>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-948" name="Will I be allowed to work remotely from another city/country?" node-id="70" remote-id="media-n-952" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

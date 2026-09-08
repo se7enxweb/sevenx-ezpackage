@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="137" name="Home-made Hummus" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="52" ezremote:published="Wed, 08 Aug 2018 13:26:37 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:23 GMT" remote_id="media-o-1009" class_remote_id="67c57c234691153c902f0bb5be0e4eaa" ezremote:class_identifier="ng_recipe" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:49:55 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:23 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Home-made Hummus">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1154" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Home-made Hummus</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1155" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Home-made Hummus</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1156" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1157" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5fb8e05393439f54045b002a1060b68f" alternative-text="Home-made Hummus"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1158" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="edb62a3d02b780a71659b5775f33d8ed" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1159" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Store bought hummus is bland and expensive. This simple, no-fuss, and much healthier recipe makes a delicious hummus for a fraction of the price.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1160" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Store bought hummus is bland and expensive. This simple, no-fuss, and much healthier recipe makes a delicious hummus for a fraction of the price.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1161" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <section>
+                <header>INGREDIENTS</header>
+                <ul>
+                  <li>
+                    <paragraph>15oz / 15 ounces organic garbanzo beans (chickpeas), drained</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>2 tablespoons water or liquid from canned garbanzo beans</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>40g / 2 tablespoons tahini (sesame paste)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>2 tablespoons lemon juice</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>2 tablespoons canola oil</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 tablespoon olive oil</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 large clove garlic, minced</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>2 teaspoons coarse sea salt, or to taste</paragraph>
+                  </li>
+                </ul>
+                <header>PREPARATION</header>
+                <ol>
+                  <li>
+                    <paragraph>Place all ingredients in a food processor fitted with a steel blade. Cover and process until pureed.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Serve with pita chips, warm pitas, or veggies. Store remaining hummus in an airtight container in the fridge for up to 10 days.</paragraph>
+                  </li>
+                </ol>
+                <paragraph>
+                  <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                  <line/>
+                  <line/>
+                  <emphasize>Photo credit: <link href="https://www.flickr.com/photos/30478819@N08/">Marco Verch</link> / <link href="https://creativecommons.org/licenses/by/2.0/">CC BY</link></emphasize>
+                  <line/>
+                </paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1162" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">
+          <value>10</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1163" ezremote:identifier="serving_calories" name="Calories (per serving)" type="ezinteger">
+          <value>700</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1164" ezremote:identifier="serving_fat" name="Fat (per serving)" type="ezinteger">
+          <value>50</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1165" ezremote:identifier="serving_carbohydrates" name="Carbohydrates (per serving)" type="ezinteger">
+          <value>40</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1166" ezremote:identifier="serving_protein" name="Protein (per serving)" type="ezinteger">
+          <value>20</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1167" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1168" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1169" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1170" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>74|#66|#89</id-string>
+          <keyword-string>Eating|#Health|#Homemade</keyword-string>
+          <parent-string>0|#0|#0</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1171" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1172" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1173" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1174" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-744" name="Home-made Hummus" node-id="139" remote-id="media-n-776" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

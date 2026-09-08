@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="121" name="The Dirty Dozen: Know Which Produce You Should Always Buy Organic" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Tue, 21 Aug 2018 16:05:56 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:19 GMT" remote_id="media-o-1048" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:48 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:19 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="The Dirty Dozen: Know Which Produce You Should Always Buy Organic">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="858" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>The Dirty Dozen: Know Which Produce You Should Always Buy Organic</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="859" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text>The Dirty Dozen: Know Which Produce You Should Always Buy Organic</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="860" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="861" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>The Dirty Dozen: Know Which Produce You Should Always Buy Organic</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="862" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="de711c059e1b2c83b6f7444948a22ede" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="863" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="0f7e341a90bdfde9dee4ed05072b1f43" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="864" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Tue, 21 Aug 2018 16:03:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="865" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>An organic apple a day will keep the doctor away! But a non-organic one could be harmful.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="866" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="867" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Knowing which varieties of produce contain the most pesticides will help keep you and your family healthy. The Environmental Working Group (EWG) analyzes pesticide residue data from the USDA and ranks 48 popular produce from worst to best. It may cost a bit more to buy that organic apple, but isn’t a few cents worth it to your health?</paragraph>
+            <paragraph>
+              <strong>The Dirty Dozen</strong>
+            </paragraph>
+            <paragraph>This list now includes 14 foods you should always buy organic, what we call the Filthy Fourteen.<strong> Always</strong> buy these fruits and vegetables organic:</paragraph>
+            <paragraph>Apples<line/>Peaches<line/>Nectarines<line/>Strawberries<line/>Grapes<line/>Celery<line/>Spinach<line/>Sweet Bell Peppers<line/>Cucumbers<line/>Cherry Tomatoes<line/>Snap Peas - Imported<line/>Potatoes<line/>Hot Peppers<line/>Kale / Collard Greens<line/></paragraph>
+            <paragraph>
+              <strong>The Clean Fifteen</strong>
+            </paragraph>
+            <paragraph>If you can’t find organic, it’s okay to eat the following fruits and vegetables non-organic. According to the <link href="http://www.ewg.org/">Environmental Working Group</link>, a small amount of sweet corn, papaya, and summer squash sold in the U.S. is produced from genetically engineered  (GE) seedstock, so if you want to avoid GE produce, buy these organic</paragraph>
+            <paragraph>Avocados<line/>Sweet Corn<line/>Pineapples<line/>Cabbage<line/>Sweet peas frozen<line/>Onions<line/>Asparagus<line/>Mangos<line/>Papayas<line/>Kiwi<line/>Eggplant<line/>Grapefruit<line/>Cantaloupe<line/>Cauliflower<line/>Sweet potatoes<line/> <line/><line/>Check the <link href="http://www.ewg.org/foodnews/">Environmental Working Group</link> for a complete list of the dirtiest and cleanest varieties of conventional produce.<line/></paragraph>
+            <paragraph>
+              <emphasize><emphasize>Article credit: </emphasize><link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+              <line/>
+              <line/>
+              <emphasize><emphasize>Photo credit: </emphasize><link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+              <line/>
+              <line/>
+              <emphasize>Cover photo: <link href="https://unsplash.com/photos/kvexIt7Xys0?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Diego Duarte Cereceda</link></emphasize>
+              <line/>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="868" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="869" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>56</id-string>
+          <keyword-string>Organic food</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="870" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>56|#55|#57</id-string>
+          <keyword-string>Organic food|#Vegetables|#Fruits</keyword-string>
+          <parent-string>36|#36|#36</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="871" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="872" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="873" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="874" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="The Dirty Dozen: Know Which Produce You Should Always Buy Organic" node-id="123" remote-id="media-n-815" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

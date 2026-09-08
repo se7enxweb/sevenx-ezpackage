@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="311" name="lattice" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="229" ezremote:published="Tue, 01 Sep 2026 05:07:48 GMT" ezremote:modified="Tue, 01 Sep 2026 05:07:48 GMT" remote_id="media-o-1229" class_remote_id="fa08252f370ea1392653d1d2a42c94a5" ezremote:class_identifier="ng_logo" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 05:07:48 GMT" ezremote:modified="Tue, 01 Sep 2026 05:07:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="lattice">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2724" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>lattice</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2725" ezremote:identifier="title" name="Title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2726" ezremote:identifier="logo" name="Logo" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2727" ezremote:identifier="logo_svg" name="Logo (SVG)" type="ezbinaryfile">
+          <binary-file filesize="3770" filename="4095011983668a551e4839cbe1e84069.svg" original-filename="5c0ba25c91a8218fff313c6df656a75c.svg" mime-type="image/svg+xml" filekey="e1462d8bde2af8b860f8b8261f5b6f64"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2728" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2729" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="lattice" node-id="284" remote-id="419f66665d335dac37229325eccf7849" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

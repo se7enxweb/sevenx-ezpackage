@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="84" name="What HIIT is and What HIIT Isn’t" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Tue, 21 Aug 2018 14:49:43 GMT" ezremote:modified="Thu, 24 Sep 2020 08:30:00 GMT" remote_id="media-o-1026" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:29:50 GMT" ezremote:modified="Thu, 24 Sep 2020 08:30:00 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="What HIIT is and What HIIT Isn’t">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="491" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>What HIIT is and What HIIT Isn’t</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="492" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>What HIIT is and What HIIT Isn’t</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="493" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="494" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="381e6b2fe57ebe91d0c5caf368cc22c7" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="495" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="736f77913e0dfc5eec95b1413e29b7e1" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="496" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="497" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="498" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>I’ve been writing/talking about HIIT (<emphasize>High Intensity Intermittent Training</emphasize>) online for a long time now, since 2009 or so. The first <link href="https://www.ncbi.nlm.nih.gov/pubmed/8897392">Tabata paper</link> came out in 1996, but it didn’t become popular until at least 10-12 years later as Crossfit pushed it hard. The first noteworthy study on HITT was probably done by <link href="https://www.ncbi.nlm.nih.gov/pubmed/8028502">Trembley at Laval University</link> in 1994 and thus started the whole HIIT research domino effect, leading to where we find ourselves now.</paragraph>
+            <paragraph>Namely that HIIT as a method of fitness training is everywhere you turn, especially online. There are thousands of trainers with HIIT training workout routines on YouTube. There are thousands of fitness products all touting the benefits of their HIIT methods. There are thousands of articles all touting the benefits of HIIT — <emphasize>and then usually why steady state training sucks….</emphasize></paragraph>
+            <paragraph>Here’s the thing though, a lot of it is smoke and mirrors. Marketing jargon to capitalize on a trend. You can’t and probably shouldn’t be doing so much HIIT training actually.</paragraph>
+            <paragraph>That isn’t to say high intensity exercise doesn’t have it’s benefits, it does. I’ll discuss some below. Rather, there are a lot of misconceptions surrounding HIIT that I hope to clear up today.</paragraph>
+            <paragraph>Once upon a time, I was that naive new trainer who hated doing steady state training work and so interval training seemed like the way to go. Obviously I became a big advocate for a little while. I’m allowed to change my mind, and so are you.</paragraph>
+            <section>
+              <header>Intervals vs HIIT</header>
+              <paragraph>To be clear it was intervals I was pushing more than anything else, because they broke up the monotony of steady training. There is a reason I played power sports my whole life; I like higher intensity but more importantly I like rest breaks. :-)</paragraph>
+              <paragraph>However, intervals and HIIT are not the same thing.</paragraph>
+              <paragraph><link href="https://www.skillbasedfitness.com/interval-training-part-i/">Interval Training</link> simply implies there is a period of work and a period of rest that is repeated for the duration of training. You can do aerobic interval training, not something everyone knows or is aware of.</paragraph>
+              <paragraph>HIIT as the name implies is<emphasize> high intensity</emphasize> interval training. That means you need to push your heart rate up to maximum levels of tolerance to get the effects we see in research settings. You’re going all out during your work intervals.</paragraph>
+              <paragraph>It also means you have to push your VO2max levels up to intolerable levels of fatigue. If your maximum effort is 100%, we’re talking 170%. Seriously. Literally the research Tabata did, had people going to 170% of their VO2max.</paragraph>
+              <paragraph>
+                <emphasize>V02max for those that don’t know, is basically your maximum level of oxygen exchange. So 100% is the level at which you can still utilize all the oxygen you’re taking in, 170% is well beyond that. That’s why HIIT literally burns.</emphasize>
+              </paragraph>
+              <paragraph>Do you have any idea how intense that actually is? It’s puke level intensity research done on<emphasize> trained</emphasize> athletes. Key word there is <emphasize>trained</emphasize>.</paragraph>
+              <paragraph>The Tabata research protocol also included about 70 minutes of steady state aerobic work, but we can continue to conveniently ignore that, <emphasize>right?</emphasize></paragraph>
+              <paragraph>90% effort is close but isn’t quite HIIT we need maximum warp speed. This is HIIT:</paragraph>
+              <paragraph>youtubee-uaKhOAn_Afit</paragraph>
+              <paragraph>Looks fun right?</paragraph>
+              <paragraph>
+                <emphasize>It isn’t…</emphasize>
+              </paragraph>
+              <paragraph>As anyone who’s done it can tell you, it’s really really hard.</paragraph>
+              <paragraph>These aren’t for the faint of heart and they certainly aren’t for the beginner if done properly. They are for intermediate and advanced level trainees with a good training base at a minimum generally.</paragraph>
+              <header>HIIT vs <link href="https://www.skillbasedfitness.com/my-beef-with-circuit-training/">Circuit Training</link></header>
+              <paragraph>I’m dumbfounded by the sheer volume of people online trying to extrapolate research almost completely done on Erg Bikes (AKA Stationary Bikes) like you saw above, to bodyweight squats, burpees, push ups, planks, etc…etc…</paragraph>
+              <paragraph>
+                <emphasize>*Sometimes complexes; Which are light resistance training circuits where you usually do a small series of exercises without putting the light weight down. For example, a clean and push press, followed immediately by front squats, followed by bent-over rows, followed romanian deadlifts. Rest and repeat. Totally different.</emphasize>
+              </paragraph>
+              <paragraph>Basically they use research done on Erg Bikes and support all sorts of other training methods<emphasize> that aren’t actually HIIT by definition</emphasize>.</paragraph>
+              <paragraph>Let’s be clear, most of the research is on stationary bikes, but even by extension of practicality, HIIT needs to be done using a cardiovascular training modality. For instance biking, rowing, running, swimming, etc…<emphasize> jump rope maybe…</emphasize></paragraph>
+              <paragraph>You just can’t hit that level of cardiovascular intensity with bodyweight squats, burpees or tucks jumps.<emphasize> Sorry…</emphasize></paragraph>
+              <paragraph>That doesn’t mean that bodyweight circuit training isn’t tough or reasonably effective, it just isn’t HIIT. Too many people confuse these things greatly.</paragraph>
+              <paragraph>I’d venture to guess that more than 90% of the HIIT videos you see on YouTube aren’t actually HIIT.</paragraph>
+              <paragraph>They are usually circuit training — <emphasize>just repackaged as HIIT workouts, because that’s trendy —</emphasize> and while certainly better than nothing, there is no research that implies that the benefits are the same or even similar to HIIT. You can’t pull the swath of research done on bikes and try to apply it to those modalities.</paragraph>
+              <paragraph>
+                <link href="https://www.ncbi.nlm.nih.gov/pubmed/28658082">
+                  <strong>Actually research suggests bodyweight circuit or interval training is more like aerobic training than HIIT.</strong>
+                </link>
+              </paragraph>
+              <paragraph>A recent paper compared the popular bodyweight circuit training program —<emphasize> the 7-Minute Workout, which is often claimed to be HIIT, it isn’t either</emphasize> — to an equivalent amount of actual HIIT (<emphasize>or HIIE = High Intensity Intermittent Exercise, which is the same thing</emphasize>) and measured the training outcomes of both.</paragraph>
+              <paragraph>The HIIT protocol matched the bodyweight circuit training protocol of 30 seconds on, 10 seconds off, for 12 intervals at a fairly high power output and heart rate zone.<emphasize> I’d say it’s not as high as Tabata or other protocols either but similar enough to give us a good indication of the differences between circuit training and HIIT</emphasize>.</paragraph>
+              <paragraph>They compared oxygen uptake (V02), heart rate (HR), blood lactate concentration (BLa), and rating of perceived exertion (RPE). All good indications of how long term training would end up. What they found doesn’t surprise me, but it might surprise you.</paragraph>
+              <paragraph>Peak VO2 was 21% higher in HIIT group compared to the bodyweight circuit training (7Min Workout) group. HR was 12% or 19 BPM higher in the HIIT group than the bodyweight group. Blood lactate concentration was similar (<emphasize>not really indicative of anything anyway</emphasize>) but RPE was also higher for the HIIT group versus the bodyweight group.</paragraph>
+              <paragraph>That’s a pretty substantial difference, implying a much higher intensity overall. The HIIT group actually got out of the aerobic training zone with a 159 BPM HR on average, compared to only 140 BPM average for the bodyweight training group. <emphasize>Note: 130–150 BPM is typically the ‘aerobic training zone.’</emphasize></paragraph>
+              <paragraph>The researchers concluded:</paragraph>
+              <paragraph>“Although 7Min yields lower peak VO2 and HR than HIIE, it is characterized by bursts approaching 90 % HRmax and causes significant BLa accumulation, representing vigorous exercise.Nevertheless, 7Min (bodyweight circuit training) is on the low end of the intensity spectrum, which questions whether it represents true HIIE and will confer similar benefits if performed long-term.”</paragraph>
+              <paragraph>In brackets, emphasis is mine.</paragraph>
+              <paragraph>
+                <strong>All of this implies that bodyweight circuit training is actually a lot more like steady state aerobic training than it is like true HIIT in effect. </strong>
+              </paragraph>
+              <paragraph>OR at least it’s somewhere in the middle.<strong> </strong>People touting them as HIIT on the interwebz don’t actually realize this<strong>. </strong></paragraph>
+              <header>The Benefits of HIIT</header>
+              <paragraph>OK so it will sound up until this point that I’m just hating on HIIT. <strong>To be clear</strong><emphasize><strong>…I’m not hating on HIIT…</strong></emphasize></paragraph>
+              <paragraph>Almost all of my clients have done some form of HIIT at some point in their work with me, I just use it properly and I’d like for you to learn how to use it properly too. This is not HIIT no matter how ripped the dude is:</paragraph>
+              <paragraph>youtubePSXosiHezPEfit</paragraph>
+              <paragraph>It’s bodyweight circuit training.</paragraph>
+              <paragraph>This is what most people on the interwebz try to pawn off as HIIT training because it’s a buzzword there and you’ll get hits on your YouTube Channel or website.</paragraph>
+              <paragraph>IT IS NOT HIIT.</paragraph>
+              <paragraph>It’s a marketing ploy and yes I am also a little bit bothered by the spread of misinformation and profiteering at your expense.</paragraph>
+              <paragraph>There are still plenty of benefits of HIIT when you’re actually doing HIIT. For that matter, there are still plenty of benefits to bodyweight circuit training too but they aren’t the same. Here are some of the main benefits:</paragraph>
+              <ul>
+                <li>
+                  <paragraph>They are time efficient. Compared to the same duration of long slow or steady state work, you get more out of them.</paragraph>
+                </li>
+                <li>
+                  <paragraph>The lead to capillarisation within muscle similar to aerobic conditioning (<emphasize>there is a waterfall effect of higher intensity work</emphasize>)</paragraph>
+                </li>
+                <li>
+                  <paragraph>They increase V02 max still</paragraph>
+                </li>
+                <li>
+                  <paragraph>They increase training tolerance, particularly to high intensity levels (increased myoglobin, oxygen uptake, lactate fuel usage, etc…)</paragraph>
+                </li>
+                <li>
+                  <paragraph>They improve anaerobic and to a degree aerobic power (<emphasize>aerobic power intervals are better though…</emphasize>)</paragraph>
+                </li>
+                <li>
+                  <paragraph>You do burn more fat/energy for the same duration of exercise as resistance training or steady state work</paragraph>
+                </li>
+                <li>
+                  <paragraph>Preserves lean mass compared to aerobic work (<emphasize>but not nearly as well as resistance training</emphasize>)</paragraph>
+                </li>
+                <li>
+                  <paragraph>
+                    <emphasize>A bunch of other more complicated physiology things I don’t want to bother explaining because you don’t really care…</emphasize>
+                  </paragraph>
+                </li>
+              </ul>
+              <paragraph>There are benefits and I will often do true HIIT with clients that are ready for it, but they can come with a cost. There is always a cost of doing business.</paragraph>
+              <paragraph>Really this is an article about using them appropriately so you don’t burn yourself out.</paragraph>
+              <header>The Pitfalls of HIIT</header>
+              <paragraph>To be sure, there are benefits but you also have to consider the cons of HIIT too, particularly the first and last bullet points:</paragraph>
+              <ul>
+                <li>
+                  <paragraph>It can’t be done as frequently in a weekly cycle of training. Steady state or ‘aerobic’ work can be done pretty much daily without recovery repercussions.</paragraph>
+                </li>
+                <li>
+                  <paragraph>HIIT thickens the ventricular walls of the heart, whereas aerobic training increases ventricular elasticity (<emphasize>better overall for pumping blood and probably long-term durability of the heart specifically</emphasize>)</paragraph>
+                </li>
+                <li>
+                  <paragraph>They don’t lead to the same elasticity improvements of blood vessels as steady state aerobic work, particularly arteries close to the heart like the aorta.</paragraph>
+                </li>
+                <li>
+                  <paragraph>They compete with resistance training for recovery resources</paragraph>
+                </li>
+                <li>
+                  <paragraph>Fat burn per time invested is higher but because you can’t do as much, it’s actually potentially lower throughout the week or cycle of training</paragraph>
+                </li>
+              </ul>
+              <paragraph>The fat-burning benefits of HIIT are only relative to the same time investment. If you have more time, then you’ll get more out of steady state work in this department. You can do steady state more frequently, so they have the potential to actually lead to more fat-burning in the long-term.</paragraph>
+              <paragraph>The benefits of HIIT over steady state on fat burning <link href="https://www.bodyrecomposition.com/fat-loss/steady-state-versus-intervals-and-epoc-practical-application.html/"><emphasize>aren’t even that big</emphasize></link> even when time investment is the same. 30 minutes of HIIT compared to 30 minutes of steady state, sure the HIIT will win by maybe 6-7%; An extra 20-25 kcal maybe. The intensity is higher, so naturally the benefits go up, but those benefits aren’t exactly earth-shattering.</paragraph>
+              <paragraph>Keep in mind that you probably can’t and shouldn’t do HIIT for more than 30 minutes. Most recommendations are to work up to 20-30 minutes max. I’ve never prescribed high intensity interval protocols for longer than that. 30 minutes of HIIT won’t burn anywhere near the same amount of fat as 60 minutes of steady state work. In fact 60 minutes of steady state work, will burn about 45% more total calories and you’ll actually be able to do that much of it, if you like.</paragraph>
+              <paragraph>Meaning if you have the time, steady state is usually a better option for fat burning. That and it can be done more frequently. As little as an extra 5 minutes of steady state work (35 minutes) will probably have roughly the same effect as 30 minutes of HIIT and you can do it every day if you want and still recover.</paragraph>
+              <paragraph>There is no denying that for many of us, we just want the health benefits without the time investment. Which makes certain protocols a little more ideal, like bodyweight circuit training (<emphasize>which can be done more frequently than HIIT as I already indicated</emphasize>) but also the Boutcher Protocol and a new McMaster protocol that is very low volume (10 minutes only 60 seconds of which are intense) and more moderately high intensity.</paragraph>
+              <paragraph>If you have a time constraint, they are still a great option, you just don’t want to do them more frequently than 2x a week if you resistance train or 3x a week if you’re not. I wouldn’t recommend anyone completely skip doing some form of aerobic work, even if it isn’t steady state. Aerobic work has other benefits, the biggest one is the frequency in which it can be done.</paragraph>
+              <header>My Recommendations</header>
+              <paragraph>I want it to be obvious that this doesn’t mean bodyweight circuit training is bad or that other forms of interval training aren’t useful. They are certainly better than nothing and they can be useful for other reasons.</paragraph>
+              <paragraph>This article is really just about clarifying what HIIT is, what it isn’t and where it can practically fit in your routine.</paragraph>
+              <paragraph>Moving and exercise of any kind is awesome and you should do it. If circuit training is more approachable for you, then do that. If some other form of interval training is more manageable then do them.</paragraph>
+              <paragraph>You just <emphasize>can’t expect</emphasize> the same results from this that you’d get from true HIIT.</paragraph>
+              <paragraph>That’s why you often have to do circuit training or other forms of interval training more frequently (3–6x a week by comparison) because it’s basically just slightly harder aerobic exercise with a reduced boredom factor of variety. This can actually be a big plus of doing circuit training over HIIT. Though I’m still not a big fan of doing circuit training over other methods or with such frequency, that doesn’t mean you can’t.</paragraph>
+              <paragraph>Find what works for you.</paragraph>
+              <paragraph>True HIIT shouldn’t be done more than 2-3 times a week. A HIIT session shouldn’t last any longer than about 20-30 minutes.</paragraph>
+              <paragraph>If you’re resistance training more than 2x a week of true HIIT will destroy most people, even trained athletes.</paragraph>
+              <paragraph>That last point bears repeating. If you’re not doing any resistance training (<link href="https://www.skillbasedfitness.com/why-is-strength-training-important/"><emphasize>and if you aren’t you probably should be…</emphasize></link>) the most HIIT even the best physical specimens in the world can only get away with about two sessions of HIIT in a week.</paragraph>
+              <paragraph>If you’re not doing much of anything else (<emphasize>only aerobic work</emphasize>), or have outstanding genetics, you might be able to get away with 3 times a week of HIIT (<emphasize>every other day kind of thing</emphasize>) but probably not for long — <emphasize>a few weeks maybe</emphasize>.</paragraph>
+              <paragraph>If you’re a beginner avoid real HIIT for now. Work up to some HIIT over time and once you do, cycle on and off it. Research suggests that most of the benefits of HIIT are in the short-term anyway, and those benefits to the glycolytic system last much longer than aerobic or resistance training benefits.</paragraph>
+              <paragraph>You could do 1-2 weeks of 3x a week HIIT in place of or during an off-cycle of resistance training and reap the benefits for the next 2-3 months before you do another cycle of them. Then keep some resistance training mixed with more aerobic oriented training or even more intense sprint interval training (SIT).</paragraph>
+              <paragraph>The latter of which is a whole other can of worms that I’m not going to open right now, but SIT is shorter work intervals and longer rest intervals. It more closely resembles what you might see actual sprinters doing and would train more <link href="https://www.skillbasedfitness.com/energy-system-development/">short-energy system</link> elements.</paragraph>
+              <paragraph>I’d also like you to keep in mind that steady state aerobic work has it’s place and has a very different long term effect on the heart and vascular system (it makes them more elastic). Aerobic training doesn’t have to be as boring as you think, you can still use intervals to do it. As you can see bodyweight circuit training is closer to aerobic training anyway.</paragraph>
+              <header>Closing Thoughts</header>
+              <paragraph>You can do HIIT protocols like Tabata intervals in an aerobic zone simply by adjusting your intensity of your effort and keeping yourself in that aerobic zone of 130-150. If you don’t have a heart rate monitor, you can manage an aerobic zone by breathing only through your nose (mouth breathing is usually a sign of excessive fatigue). You can also manage carrying on a conversation in full sentences if you’re in the aerobic training zone.</paragraph>
+              <paragraph>This might actually be a prudent strategy more often than not. Unless you have a high level of training you probably won’t hit 170% anyway, but even 4-20 minutes of doing Tabata’s in a low threshold zone is going to have some pretty good benefits. You can say the same about any protocol for HIIT really, one simple adjustment makes them aerobic and no longer HIIT but training is still training and it’s still good for you.</paragraph>
+              <paragraph>You’re just adjusting effort levels that’s all. True HIIT is maximum effort. However, if you stick to an aerobic zone, you get aerobic training benefits, even if you’re not doing steady state work. Aerobic work doesn’t have to be steady and boring. Aerobic work will help you recover from any true HIIT that you do actually do.</paragraph>
+              <paragraph>You can also do aerobic interval training (<emphasize>which isn’t HIIT either</emphasize>) like 2 minutes on, 1 minute off of something. Again you want to stay in that 130–150 zone for the most part (<emphasize>you don’t have to be perfect, just average it out in there</emphasize>).</paragraph>
+              <paragraph><link href="https://www.quora.com/What-is-your-opinion-and-experience-with-HIIT/answer/Darren-Beattie?srid=D90">If you want to read more of my writing on this topic, check these out</link>.</paragraph>
+              <paragraph>
+                <emphasize>
+                  <emphasize>Article credit: <link href="https://www.skillbasedfitness.com/">Skill Based Fitness</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                </emphasize>
+                <line/>
+                <line/>
+                <emphasize>Cover photo: <link href="http://costculator.com/concept-2-model-d-review/">Costculator</link> <emphasize><emphasize>/ <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize></emphasize></emphasize>
+                <line/>
+              </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="499" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="500" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="501" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>65</id-string>
+          <keyword-string>Workout</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="502" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>63|#65</id-string>
+          <keyword-string>HIIT|#Workout</keyword-string>
+          <parent-string>0|#0</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="503" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="504" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="505" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="506" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="What HIIT is and What HIIT Isn’t" node-id="86" remote-id="media-n-793" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

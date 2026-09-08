@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="1188" name="What does the selection process look like?" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="227" ezremote:published="Mon, 24 Oct 2022 18:43:53 GMT" ezremote:modified="Wed, 30 Nov 2022 07:54:28 GMT" remote_id="media-o-1188" class_remote_id="bdc2a54ae5074d9c18b8bc7349375d4e" ezremote:class_identifier="ng_accordion_item" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:version="2" ezremote:status="1" ezremote:created="Wed, 30 Nov 2022 07:53:00 GMT" ezremote:modified="Wed, 30 Nov 2022 07:54:28 GMT">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" language="eng-US" object_name="What does the selection process look like?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="26015" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>What does the selection process look like?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="26016" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>We have a multi-step selection process that is designed to identify the best candidates for our open positions. First, we accept applications and resumes online or via email. We also encourage potential candidates to include a cover letter and contact information so that we can follow up with them. Next, our team of recruiters reviews all of the applications and identifies the most qualified candidates. These candidates are then invited to participate in a phone screen, which is an opportunity for us to learn more about their skills and experience. Finally, the top candidates are invited to come in for an interview with Bold Agency's hiring manager. This is usually the last step in the process, and it's an opportunity for us to get to know the candidate better and ask any remaining questions we may have.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-948" name="What does the selection process look like?" node-id="950" remote-id="media-n-950" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

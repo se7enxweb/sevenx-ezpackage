@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="1158" name="HTML box test" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="155" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Wed, 06 Mar 2019 12:40:20 GMT" remote_id="media-o-1158" class_remote_id="32d6c8d399ca9776f3147ef4db2bf6da" ezremote:class_identifier="ng_htmlbox" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="14">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="14" ezremote:status="1" ezremote:created="Wed, 06 Mar 2019 12:40:12 GMT" ezremote:modified="Wed, 06 Mar 2019 12:40:20 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="HTML box test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25777" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>HTML box test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25778" ezremote:identifier="html_code" name="HTML code" type="eztext">
+          <text>&lt;div class="ad-container" style="    background-color: #f8f9fc;    width: 100%;    max-width: 340px;"&gt;    &lt;div class="outer" style="        width: 100%;        height: 0;        position: relative;        padding-bottom: 83.3%;        background-color: #f8f9fc;"&gt;        &lt;div class="inner" style="            position: absolute;            top: 20px;            left: 20px;            right: 20px;            bottom: 20px;            display: flex;            justify-content: center;            text-align: center;            align-items: center;            font-weight: bold;            font-size: 24px;            background-color: #7BD7C0;"&gt;            Rectangle Ad.        &lt;/div&gt;    &lt;/div&gt;&lt;/div&gt;</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="HTML box test" node-id="920" remote-id="media-n-920" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

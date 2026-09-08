@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="340" name="See Our Open Positions" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="60" ezremote:published="Tue, 01 Sep 2026 06:38:52 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:21 GMT" remote_id="media-o-1209" class_remote_id="16dcbe0a8000da0a5b89b91086a86ab8" ezremote:class_identifier="ng_component_about" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" active_version="11">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:version="11" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 07:02:21 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:21 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" language="eng-US" object_name="See Our Open Positions">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4000" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>See Our Open Positions</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4001" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4002" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>See Our Open Positions</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="4003" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="4004" ezremote:identifier="description_2" name="Description 2" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4005" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4006" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4007" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{"id":421,"label":"Netgen.io","type":"internal","target":"link","suffix":"Contact Us test"}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4008" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text>{"id":355,"label":"Netgen.io","type":"external","target":"link","suffix":null,"url":"https:\/\/netgen.io"}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4009" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="See Our Open Positions">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4911" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>See Our Open Positions</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4912" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4913" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Unsere offene Stellen ansehen</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4914" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4915" ezremote:identifier="description_2" name="Description 2" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4916" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4917" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4918" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{
+    "id": 421,
+    "label": "Netgen.io",
+    "type": "internal",
+    "target": "link",
+    "suffix": "Contact Us test"
+}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4919" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text>{
+    "id": 355,
+    "label": "Netgen.io",
+    "type": "external",
+    "target": "link",
+    "suffix": null
+}</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="See Our Open Positions" node-id="305" remote-id="508d4bd03701791c5131f0b2415eb1a0" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package version="6.0.15-0" development="false" install_type="install">
+  <name>sevenx_multisite_democontent</name>
+  <summary />
+  <description />
+  <vendor>7x</vendor>
+  <type value="contentobject" />
+  <ezpublish>
+    <version>6.0.15-stable</version>
+    <named-version>6.0</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@se7enx.com</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1705211779</timestamp>
+    <host>packages.se7enx.com</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain" name="LICENCE" />
+  </documents>
+  <changelog>
+    <entry timestamp="1705211779" person="Administrator User" email="nospam@se7enx.com" release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+
+  <version>
+    <number>6.0</number>
+    <release>15-stable</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <simple-files>
+    <simple-file key="69d2af285a3771acd13f8c5bdb1814ca" original-path="var/site/storage/images/0/4/7/4/4740-1-eng-GB/brand-strategist.jpg" package-path="simplefiles/024da521.jpg" />
+    <simple-file key="26bb0432bc2f80b708fba7383928193d" original-path="var/site/storage/images/4/5/7/4/4754-1-eng-GB/product-manager.jpg" package-path="simplefiles/f9d78baa.jpg" />
+    <simple-file key="2d7e131ed85243fb63cc48f47a22b7f1" original-path="var/site/storage/images/8/6/7/4/4768-1-eng-GB/art-director.jpg" package-path="simplefiles/a5bf6d22.jpg" />
+    <simple-file key="9f27766fc3712313f60361ceac9a4b5c" original-path="var/site/storage/images/1/6/1/2/2161-11-eng-GB/7-keystone-habits-to-maximize-your-mornings.jpg" package-path="simplefiles/ee4c528a.jpg" />
+    <simple-file key="98f787e953f2c54e2fb1887c4a703726" original-path="var/site/storage/images/5/8/1/2/2185-9-eng-GB/the-bipolar-learning-curve.jpg" package-path="simplefiles/9496b19c.jpg" />
+    <simple-file key="e83ceb7937dfa9de22f66b48d2485645" original-path="var/site/storage/images/9/9/1/2/2199-8-eng-GB/split-options-weight-training-program.jpg" package-path="simplefiles/b40112bd.jpg" />
+    <simple-file key="daa1c931e4161477bc7dbfede18ac69b" original-path="var/site/storage/images/6/1/2/2/2216-8-eng-GB/why-should-you-choose-strength-training.jpg" package-path="simplefiles/935d2994.jpg" />
+    <simple-file key="34462b22ac1e1db9b115bec7fc23c76d" original-path="var/site/storage/images/0/3/2/2/2230-8-eng-GB/bodyweight-circuit-with-running-pyramid-workout.jpg" package-path="simplefiles/a3ff8f7a.jpg" />
+    <simple-file key="a5fc06123d18ab9c36f86d1d212e5789" original-path="var/site/storage/images/0/3/2/2/2230-8-eng-GB/bodyweight-circuit-with-running-pyramid-workout.jpg" package-path="simplefiles/69c0c2b2.jpg" />
+    <simple-file key="2ca451cb62f0c5a96a3792d688ffe8a0" original-path="var/site/storage/images/4/4/2/2/2244-8-eng-GB/why-track-your-workouts.jpg" package-path="simplefiles/90212358.jpg" />
+    <simple-file key="402d83a72b836324d5c2a03057a700b0" original-path="var/site/storage/images/2/4/3/3/3342-9-eng-GB/fat-loss-a-realistic-plan-to-lose-a-lot-of-weight.jpg" package-path="simplefiles/c8319c52.jpg" />
+    <simple-file key="69f206379b874caee59d7f0c02bdf819" original-path="var/site/storage/images/5/1/5/3/3515-7-eng-GB/running-workout-types-knowing-and-manipulating-these-runs-to-optimize-your-training.jpg" package-path="simplefiles/db747f5b.jpg" />
+    <simple-file key="9679d16b6d98566bdb46a896c935f026" original-path="var/site/storage/images/5/1/5/3/3515-7-eng-GB/running-workout-types-knowing-and-manipulating-these-runs-to-optimize-your-training.jpg" package-path="simplefiles/d4f5e9fe.jpg" />
+    <simple-file key="489824afae66f301cb0e2bcdedf6b814" original-path="var/site/storage/images/0/5/5/3/3550-8-eng-GB/beginner-running-tips-when-does-running-become-fun.jpg" package-path="simplefiles/f8c4bd05.jpg" />
+    <simple-file key="d171447a7a9d7ea13e65814da99ffa07" original-path="var/site/storage/images/0/5/5/3/3550-8-eng-GB/beginner-running-tips-when-does-running-become-fun.jpg" package-path="simplefiles/87eaf781.jpg" />
+    <simple-file key="7eac81abd9ba1af757363252caa18664" original-path="var/site/storage/images/1/0/6/3/3601-8-eng-GB/do-maximalist-running-shoes-reduce-impact-forces.jpg" package-path="simplefiles/bec46ce0.jpg" />
+    <simple-file key="d2cd8b2143468bc60937aae798937019" original-path="var/site/storage/images/8/1/0/4/4018-2-eng-GB/running.jpg" package-path="simplefiles/60a4fe82.jpg" />
+    <simple-file key="3271fd44984d8cd0a1d7e9dcd56bb4d6" original-path="var/site/storage/images/2/2/6/3/3622-8-eng-GB/effects-of-cadence-training-on-running-biomechanics-and-efficiency.jpg" package-path="simplefiles/b770206a.jpg" />
+    <simple-file key="e0604e5b6cff626b7e39132dfb9a5407" original-path="var/site/storage/images/2/2/6/3/3622-8-eng-GB/effects-of-cadence-training-on-running-biomechanics-and-efficiency.jpg" package-path="simplefiles/7a724eab.jpg" />
+    <simple-file key="726a5800e429cb2af00f496878d519ae" original-path="var/site/storage/images/0/4/6/3/3640-6-eng-GB/the-benefits-of-stepping-away-from-running-for-a-bit.jpg" package-path="simplefiles/4861f356.jpg" />
+    <simple-file key="e90ae559841c58871bf012935a6906a5" original-path="var/site/storage/images/0/4/6/3/3640-6-eng-GB/the-benefits-of-stepping-away-from-running-for-a-bit.jpg" package-path="simplefiles/2ed8dacd.jpg" />
+    <simple-file key="729bc38939f234f6b3c156bc6cec26a2" original-path="var/site/storage/images/1/6/6/3/3661-6-eng-GB/effective-training-techniques-high-intensity-interval-training-hiit.jpg" package-path="simplefiles/ed816b2d.jpg" />
+    <simple-file key="2042ef0756567ac0d654446fb8d7ecec" original-path="var/site/storage/images/4/4/2/4/4244-2-eng-GB/form-426165-unsplash.jpg" package-path="simplefiles/988512f5.jpg" />
+    <simple-file key="b6fe8c94693060f772fe3efd43900182" original-path="var/site/storage/images/7/4/2/4/4247-2-eng-GB/form-679347-unsplash.jpg" package-path="simplefiles/fd641251.jpg" />
+    <simple-file key="58c991344570f9e582383c62521bf913" original-path="var/site/storage/images/0/5/2/4/4250-2-eng-GB/matthew-kane-94147-unsplash.jpg" package-path="simplefiles/cf85d2f1.jpg" />
+    <simple-file key="0751d6ecd4b3b888030469e3acb9f895" original-path="var/site/storage/images/3/5/2/4/4253-2-eng-GB/alora-griffiths-750409-unsplash.jpg" package-path="simplefiles/8e82037f.jpg" />
+    <simple-file key="2d62bbc2c8d5cd049a05ce38e9b01c6b" original-path="var/site/storage/images/6/5/2/4/4256-2-eng-GB/mr-lee-618503-unsplash.jpg" package-path="simplefiles/1119b06a.jpg" />
+    <simple-file key="76263956f57d7069fd6a45ebcbeb99ab" original-path="var/site/storage/images/9/5/2/4/4259-2-eng-GB/justyn-warner-541680-unsplash-1.jpg" package-path="simplefiles/7f70ed1d.jpg" />
+    <simple-file key="ba3e0a0967a5233421312879101ae906" original-path="var/site/storage/images/9/2/7/3/3729-14-eng-GB/how-to-track-your-mobility-training-for-performance-and-injury-prevention.jpg" package-path="simplefiles/a725ef66.jpg" />
+    <simple-file key="708e4bb6793641a4eacd696282f43627" original-path="var/site/storage/images/fit-healthy/fitness/how-to-track-your-mobility-training-for-performance-and-injury-prevention/25014-14-eng-US/How-to-Track-Your-Mobility-Training-for-Performance-and-Injury-Prevention.jpg" package-path="simplefiles/f47d612e.jpg" />
+    <simple-file key="c56f05f0d90114416e7a97604839e97c" original-path="var/site/storage/images/5/0/3/4/4305-10-eng-GB/running-free-ditching-the-gps-and-learning-to-obsess-less.jpg" package-path="simplefiles/52a2d5b4.jpg" />
+    <simple-file key="573ac95b2b90e981114772c00b66052d" original-path="var/site/storage/images/5/0/3/4/4305-10-eng-GB/running-free-ditching-the-gps-and-learning-to-obsess-less.jpg" package-path="simplefiles/c05f2750.jpg" />
+    <simple-file key="56372b058195d6bad09895a846f61fcd" original-path="var/site/storage/images/2/2/3/4/4322-13-eng-GB/effective-training-techniques-isolation-vs-compound-movements.jpg" package-path="simplefiles/b22713fc.jpg" />
+    <simple-file key="88c0c5d736eee6cc68a578cb2bd8db74" original-path="var/site/storage/images/6/8/2/2/2286-12-eng-GB/how-to-follow-the-mediterranean-diet-for-senior-health.jpg" package-path="simplefiles/965b4a9d.jpg" />
+    <simple-file key="178278e86f383ba23b04f54ac647a437" original-path="var/site/storage/images/0/0/3/2/2300-11-eng-GB/the-food-delivery-industry-is-changing-the-way-we-think-about-food.jpg" package-path="simplefiles/b3ce273e.jpg" />
+    <simple-file key="b1c877bc7ec1938b15945faa9047b510" original-path="var/site/storage/images/0/0/3/2/2300-11-eng-GB/the-food-delivery-industry-is-changing-the-way-we-think-about-food.jpg" package-path="simplefiles/5f251b39.jpg" />
+    <simple-file key="6036acfc6528ea5058259acea1bcd180" original-path="var/site/storage/images/8/2/3/2/2328-11-eng-GB/healthy-vs-unhealthy-food-the-challenges-of-understanding-food-choices.jpg" package-path="simplefiles/451799e0.jpg" />
+    <simple-file key="e4c9c282aa8778a0eee6a72ff47ddb30" original-path="var/site/storage/images/8/7/3/3/3378-9-eng-GB/15-scrumptious-summer-tomato-recipes-you-need-to-try.jpg" package-path="simplefiles/48add85e.jpg" />
+    <simple-file key="23328d806777dbadd41cfab1171b93f4" original-path="var/site/storage/images/8/7/3/3/3378-9-eng-GB/15-scrumptious-summer-tomato-recipes-you-need-to-try.jpg" package-path="simplefiles/ebef1285.jpg" />
+    <simple-file key="99f46b6fd09139a5b424803b8eb1e486" original-path="var/site/storage/images/1/4/4/3/3441-9-eng-GB/how-to-grow-herbs-indoors.jpg" package-path="simplefiles/51c3744e.jpg" />
+    <simple-file key="bab1f7da0f1082517f83c948b5a2fabf" original-path="var/site/storage/images/1/4/4/3/3441-9-eng-GB/how-to-grow-herbs-indoors.jpg" package-path="simplefiles/738d72dd.jpg" />
+    <simple-file key="2e13e9d5b434080232748799da7e18f6" original-path="var/site/storage/images/1/6/4/3/3461-6-eng-GB/the-dirty-dozen-know-which-produce-you-should-always-buy-organic.jpg" package-path="simplefiles/0f09c3c0.jpg" />
+    <simple-file key="ad79516720d8399080301a78df90fbfa" original-path="var/site/storage/images/1/6/4/3/3461-6-eng-GB/the-dirty-dozen-know-which-produce-you-should-always-buy-organic.jpg" package-path="simplefiles/d88e7c5a.jpg" />
+    <simple-file key="2ee4814b71275cdad7ca2b701176cb5b" original-path="var/site/storage/images/8/7/4/3/3478-11-eng-GB/you-should-eat-more-vegetables.jpg" package-path="simplefiles/4466ebdb.jpg" />
+    <simple-file key="fe84972808387eb160ecbb853a841eb1" original-path="var/site/storage/images/8/9/4/3/3498-6-eng-GB/how-you-do-things-matters.jpg" package-path="simplefiles/d008129e.jpg" />
+    <simple-file key="9c75e4fe025d042acdc8875b06a1b98a" original-path="var/site/storage/images/3/5/0/4/4053-5-eng-GB/eat-fast-and-refeed-mindfully-mindful-eating-may-boost-metabolic-health.jpg" package-path="simplefiles/e7ffafad.jpg" />
+    <simple-file key="b1a7ef1f3c547f744a15eaf9c28a555b" original-path="var/site/storage/images/5/8/0/4/4085-6-eng-GB/why-your-gut-microbes-love-intermittent-fasting.jpg" package-path="simplefiles/38455b20.jpg" />
+    <simple-file key="d33c975e5af20fc17a4ab79577dca14b" original-path="var/site/storage/images/0/5/1/4/4150-6-eng-GB/we-neglect-this-factor-when-choosing-healthy-food.jpg" package-path="simplefiles/b025a519.jpg" />
+    <simple-file key="c9fc78b1c068e2bdc10827f98c640678" original-path="var/site/storage/images/0/5/1/4/4150-6-eng-GB/we-neglect-this-factor-when-choosing-healthy-food.jpg" package-path="simplefiles/b11d2c8c.jpg" />
+    <simple-file key="6618d3c6f42c3c3ac7806feebcb93984" original-path="var/site/storage/images/1/9/1/4/4191-8-eng-GB/does-intermittent-fasting-promote-longevity-your-questions-about-if-answered.jpg" package-path="simplefiles/6cdf52e1.jpg" />
+    <simple-file key="824e2efdbeb524e91996b864b429e400" original-path="var/site/storage/images/3/6/2/4/4263-6-eng-GB/not-ready-for-keto-try-no-carbs-before-dinner.jpg" package-path="simplefiles/d385492c.jpg" />
+    <simple-file key="233ac7e0995c1c6f2373385d9708d918" original-path="var/site/storage/images/0/7/7/2/2770-13-eng-GB/gluten-free-shrimp-pad-thai-with-tofu.jpg" package-path="simplefiles/9a6a4145.jpg" />
+    <simple-file key="92a76b5fa8c5972a6790dc07c74717d4" original-path="var/site/storage/images/0/1/8/2/2810-5-eng-GB/vegan-granola-with-almonds-walnuts-cranberries-and-goji-berries.jpg" package-path="simplefiles/106d8a9d.jpg" />
+    <simple-file key="a5f0184c0a2d28fbc69340c8ee5d5661" original-path="var/site/storage/images/0/3/8/2/2830-5-eng-GB/zucchini-zoodles-with-ground-turkey-tomato-sauce.jpg" package-path="simplefiles/cb036bed.jpg" />
+    <simple-file key="7917ae072e48095c430a0f473d23745a" original-path="var/site/storage/images/0/5/8/2/2850-4-eng-GB/kale-salad.jpg" package-path="simplefiles/14103cc1.jpg" />
+    <simple-file key="f45f9ede2309289885b6e661c329ba5e" original-path="var/site/storage/images/0/7/8/2/2870-5-eng-GB/quiche-cups-with-tomato-and-prosciutto.jpg" package-path="simplefiles/8954caa3.jpg" />
+    <simple-file key="b16aea1e9649c1f3186a3b1e4d4d94f8" original-path="var/site/storage/images/0/9/8/2/2890-3-eng-GB/low-carb-oatmeal-pancakes.jpg" package-path="simplefiles/f5abf010.jpg" />
+    <simple-file key="1df54b91b3563ac5d8c1960346528512" original-path="var/site/storage/images/0/1/9/2/2910-6-eng-GB/avocado-kale-pesto-grilled-cheese.jpg" package-path="simplefiles/c2ae267a.jpg" />
+    <simple-file key="35f696c76890b00479ade6bb2839d05c" original-path="var/site/storage/images/0/1/9/2/2910-6-eng-GB/avocado-kale-pesto-grilled-cheese.jpg" package-path="simplefiles/7e5ea024.jpg" />
+    <simple-file key="206e3400d3ce8f9c1aa56590eeac1580" original-path="var/site/storage/images/0/3/9/2/2930-5-eng-GB/home-made-hummus.jpg" package-path="simplefiles/af730a82.jpg" />
+    <simple-file key="857847458a09208cafea8dc1892ee1e2" original-path="var/site/storage/images/0/3/9/2/2930-5-eng-GB/home-made-hummus.jpg" package-path="simplefiles/b21eca0a.jpg" />
+    <simple-file key="8b4ac2d0c73c816fdd869fc963bacca2" original-path="var/site/storage/images/8/9/0/3/3098-5-eng-GB/almond-french-toast.jpg" package-path="simplefiles/119d94c6.jpg" />
+    <simple-file key="ffd799ae6dad6ca7f9902a832b3ceab9" original-path="var/site/storage/images/9/1/1/3/3119-3-eng-GB/sweet-potatoes-with-cranberries-and-pineapple.jpg" package-path="simplefiles/4b578564.jpg" />
+    <simple-file key="042341bf54c886c17c805c75abd2922b" original-path="var/site/storage/images/0/4/1/3/3140-4-eng-GB/vibrant-guacamole.jpg" package-path="simplefiles/2747437e.jpg" />
+    <simple-file key="3646de6be269856ee7886f1b8c157284" original-path="var/site/storage/images/0/4/1/3/3140-4-eng-GB/vibrant-guacamole.jpg" package-path="simplefiles/83935d5c.jpg" />
+    <simple-file key="29cce9e612ed9299be2c7437fa2c06e6" original-path="var/site/storage/images/1/6/1/3/3161-3-eng-GB/greek-quinoa-salad.jpg" package-path="simplefiles/ef58448b.jpg" />
+    <simple-file key="2d75ef024537863b1474643c0fe40573" original-path="var/site/storage/images/2/8/1/3/3182-5-eng-GB/hearty-vegetable-soup.jpg" package-path="simplefiles/f1fcdbc3.jpg" />
+    <simple-file key="2860cda853df0b4ade8f46661a18f868" original-path="var/site/storage/images/3/0/2/3/3203-3-eng-GB/overnight-oatmeal.jpg" package-path="simplefiles/33a9246d.jpg" />
+    <simple-file key="5373ca548e534a854ae8fdd423d34098" original-path="var/site/storage/images/4/2/2/3/3224-4-eng-GB/low-carb-almond-breakfast-muffins.jpg" package-path="simplefiles/fabc33ad.jpg" />
+    <simple-file key="a94d6a716103794a09e8692a2473f690" original-path="var/site/storage/images/4/2/2/3/3224-4-eng-GB/low-carb-almond-breakfast-muffins.jpg" package-path="simplefiles/2ca3174e.jpg" />
+    <simple-file key="4b6a48e799d7bfc1dd21489cc58bb4b6" original-path="var/site/storage/images/5/4/2/3/3245-3-eng-GB/soft-whole-wheat-dinner-rolls.jpg" package-path="simplefiles/ae5db408.jpg" />
+    <simple-file key="de5da1d19cd65c3811801c6c43912532" original-path="var/site/storage/images/6/6/2/3/3266-3-eng-GB/sweet-potato-and-black-bean-veggie-burgers.jpg" package-path="simplefiles/7d965fc8.jpg" />
+    <simple-file key="e3c06600bbe1d06213000c2196b5a5f8" original-path="var/site/storage/images/7/8/2/3/3287-3-eng-GB/power-up-smoothie.jpg" package-path="simplefiles/4b30d9b1.jpg" />
+    <simple-file key="c860a8aacb1eaa0986675802e29f334d" original-path="var/site/storage/images/0/8/6/3/3680-4-eng-GB/great-running-and-workout-music-to-make-every-workout-better.jpg" package-path="simplefiles/6b962970.jpg" />
+    <simple-file key="90c8eef8aee682bd7972255ee0e4bd5b" original-path="var/site/storage/images/2/6/6/4/4662-1-eng-GB/brand-strategy.jpg" package-path="simplefiles/9044bbb3.jpg" />
+    <simple-file key="483ae3098943799e301d13803ae9a6d6" original-path="var/site/storage/images/4/7/6/4/4674-6-eng-GB/cb8478350854-Services_Events.jpg" package-path="simplefiles/707eade0.jpg" />
+    <simple-file key="016a9e271fac0f00b807eb4508134a87" original-path="var/site/storage/images/6/8/6/4/4686-1-eng-GB/creative.jpg" package-path="simplefiles/b6026911.jpg" />
+    <simple-file key="f7d72792174d04df3f01114d857697e3" original-path="var/site/storage/images/8/9/6/4/4698-1-eng-GB/digital-marketing.jpg" package-path="simplefiles/d8678186.jpg" />
+    <simple-file key="44bd4d965b8f23f6923321cde2254978" original-path="var/site/storage/images/7/4/8/4/4847-6-eng-GB/dc798c75b81e-Services-Hero.jpg" package-path="simplefiles/f35185d3.jpg" />
+    <simple-file key="8cd1284ee5c3c1cd071aa6848fa092b0" original-path="var/site/storage/original/video/5b503a0825d0781b098a41c78cbfae44.mp4" package-path="simplefiles/d0ffd30e.mp4" />
+    <simple-file key="7af20e6f7cabcf752b64ae2db6813712" original-path="var/site/storage/images/7/0/8/7/7807-2-eng-GB/2cd46cd1387a-brand-strategy.jpeg" package-path="simplefiles/1e7241f5.jpeg" />
+    <simple-file key="1edd1b23a04ad64a5687244b8246d140" original-path="var/site/storage/images/5/1/8/7/7815-2-eng-GB/6961fff74325-events.jpeg" package-path="simplefiles/e2598220.jpeg" />
+    <simple-file key="80bbd36b3bb351b840735b2f39f45eba" original-path="var/site/storage/images/3/2/8/7/7823-2-eng-GB/1ca76c031f74-creative.jpeg" package-path="simplefiles/db4e9ae2.jpeg" />
+    <simple-file key="e3ab54925c0a7165b1745e4e52653707" original-path="var/site/storage/images/1/3/8/7/7831-2-eng-GB/3ec5087e5217-digital-marketing.jpeg" package-path="simplefiles/d50e2d37.jpeg" />
+    <simple-file key="9582118114ef8a3f2a837f81325e8b7e" original-path="var/site/storage/original/image/a86e41d0c861f3aa7b164740494456ad.svg" package-path="simplefiles/5859b8dc.svg" />
+    <simple-file key="fcfd46a51d21a50a5a8c8aaee68d46a3" original-path="var/site/storage/original/image/a3dee8054476b711cb5ef23cf825adea.svg" package-path="simplefiles/148f8bfb.svg" />
+    <simple-file key="14a547f577f55835b6ca41aa6cdfb006" original-path="var/site/storage/original/image/8455f0323ed4250204035ff5e5079d8f.svg" package-path="simplefiles/f27eac1b.svg" />
+    <simple-file key="33d41e0ff22e27759c8bd3b2d18070bb" original-path="var/site/storage/images/9/1/9/4/4919-8-eng-GB/b3504af209b9-12k-tik-tok-followers-in-12-days-c.jpg" package-path="simplefiles/b101209e.jpg" />
+    <simple-file key="a824b2e23d15b8904fffab35b12e83c8" original-path="var/site/storage/images/7/7/9/5/5977-6-eng-GB/3f8671ac500a-jeffery-erhunse-9t691X-ZcA0-unsplash-1-.jpg" package-path="simplefiles/789d4d0d.jpg" />
+    <simple-file key="5e4876d85e5ed3833d862c14460fae5c" original-path="var/site/storage/images/9/8/9/5/5989-2-eng-GB/dd4ef6e18adb-ben-den-engelsen-YUu9UAcOKZ4-unsplash-1-1-.jpeg" package-path="simplefiles/b9b593a1.jpeg" />
+    <simple-file key="399bf61260eeb035de2e5822c999b102" original-path="var/site/storage/images/1/0/0/6/6001-7-eng-GB/871376a016b7-jake-nackos-IF9TK5Uy-KI-unsplash-1-.jpg" package-path="simplefiles/b9c7316b.jpg" />
+    <simple-file key="4114932b0c0f4c0af6e58936d4624b45" original-path="var/site/storage/images/7/8/3/4/4387-3-eng-GB/article-test.jpg" package-path="simplefiles/f0661d85.jpg" />
+    <simple-file key="c6b024bc64e539d713b2429cc3ce5b70" original-path="var/site/storage/original/audio/240fb2102186c53dc253d992e7073f8d.wav" package-path="simplefiles/8f7e371b.wav" />
+    <simple-file key="ec156aa7a92644fab7789ebd652f9967" original-path="var/site/storage/images/6/0/4/4/4406-4-eng-GB/audio-test.jpg" package-path="simplefiles/6b5f698b.jpg" />
+    <simple-file key="b2c9ed547f0fa6afaf3456220c98e085" original-path="var/site/storage/images/8/0/4/4/4408-11-eng-GB/banner-test.jpg" package-path="simplefiles/5fd0be7f.jpg" />
+    <simple-file key="61a4e907954c80bc27893f5c9fbdb07c" original-path="var/site/storage/images/0/2/4/4/4420-11-eng-GB/blog-post-test.jpg" package-path="simplefiles/c65c632f.jpg" />
+    <simple-file key="063f3c7a9f5320fffd5205ee4f863554" original-path="var/site/storage/images/0/2/4/4/4420-11-eng-GB/blog-post-test.jpg" package-path="simplefiles/ef2b3bab.jpg" />
+    <simple-file key="248591c782111c797a8b5441548133b5" original-path="var/site/storage/images/4/6/5/4/4564-2-eng-GB/justyn-warner-541680-unsplash-1.jpg" package-path="simplefiles/c1b628b3.jpg" />
+    <simple-file key="de5f83148e46bce394fb2862d016ef47" original-path="var/site/storage/images/7/6/5/4/4567-2-eng-GB/mr-lee-618503-unsplash.jpg" package-path="simplefiles/b27c0f48.jpg" />
+    <simple-file key="11c2803e0e66b181831723355964eea4" original-path="var/site/storage/images/0/7/5/4/4570-2-eng-GB/alora-griffiths-750409-unsplash.jpg" package-path="simplefiles/744551f5.jpg" />
+    <simple-file key="06f247b0f863abeb8ec18200a153b721" original-path="var/site/storage/images/3/7/5/4/4573-2-eng-GB/form-679347-unsplash.jpg" package-path="simplefiles/3c249e3d.jpg" />
+    <simple-file key="a3c7f274eb6c094aa20e733b5b47d315" original-path="var/site/storage/images/6/7/5/4/4576-2-eng-GB/matthew-kane-94147-unsplash.jpg" package-path="simplefiles/017d4dc3.jpg" />
+    <simple-file key="9e04343607f145f3ada6e19fe63a9cec" original-path="var/site/storage/images/9/7/5/4/4579-2-eng-GB/form-426165-unsplash.jpg" package-path="simplefiles/a284747d.jpg" />
+    <simple-file key="4505df4a24b56c154efbeee73f10cb36" original-path="var/site/storage/images/9/0/5/4/4509-12-eng-GB/news-test.jpg" package-path="simplefiles/e1dedc9f.jpg" />
+    <simple-file key="66b8b90082f8441de49567ea031859aa" original-path="var/site/storage/images/9/0/5/4/4509-12-eng-GB/news-test.jpg" package-path="simplefiles/322a3d49.jpg" />
+    <simple-file key="455c954dbac75487b31a947abb97c6eb" original-path="var/site/storage/images/7/2/5/4/4527-6-eng-GB/recipe-test.jpg" package-path="simplefiles/4ed0ba98.jpg" />
+    <simple-file key="35fd44536dad3ff2d562dc467dd5d6d4" original-path="var/site/storage/images/7/2/5/4/4527-6-eng-GB/recipe-test.jpg" package-path="simplefiles/dbe1d744.jpg" />
+    <simple-file key="9c02a8bd5e55cf67012290b5f4c1d1e0" original-path="var/site/storage/images/2/8/5/4/4582-4-eng-GB/image-test.jpg" package-path="simplefiles/1e026c8a.jpg" />
+    <simple-file key="1250454fb754e33be3321c9d640fa590" original-path="var/site/storage/original/text/5b037aaea6f055a8d909fda2853ba9b1.txt" package-path="simplefiles/f8517e6b.txt" />
+  </simple-files>
+  <dependencies>
+    <provides>
+      <provide type="ezcontentclass" name="contentclass" value="ng_frontpage" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_article" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_landing_page" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_container" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_accordion_item" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_job_position" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_blog_post" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_gallery" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_news" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_category" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_recipe" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_topic" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_video" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_contact_form" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_person" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_banner" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_component_hero" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_component_features" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_component_about" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_component_logos" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_component_quote" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_component_lead" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_audio" />
+      <provide type="ezcontentclass" name="contentclass" value="ng_htmlbox" />
+      </provides>
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezcontentclass" filename="class-ng_frontpage" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_article" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_landing_page" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_container" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_accordion_item" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_job_position" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_blog_post" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_gallery" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_news" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_category" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_recipe" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_topic" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_video" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_contact_form" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_person" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_banner" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_hero" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_features" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_about" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_logos" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_quote" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_lead" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_audio" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_htmlbox" sub-directory="ezcontentclass" />
+    <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject" />
+  </install>
+  <uninstall>
+    <item type="ezcontentclass" filename="class-ng_frontpage" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_article" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_landing_page" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_container" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_accordion_item" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_job_position" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_blog_post" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_gallery" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_news" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_category" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_recipe" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_topic" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_video" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_contact_form" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_person" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_banner" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_hero" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_features" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_about" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_logos" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_quote" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_component_lead" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_audio" sub-directory="ezcontentclass" />
+    <item type="ezcontentclass" filename="class-ng_htmlbox" sub-directory="ezcontentclass" />
+    <item type="ezcontentobject" filename="contentobjects" sub-directory="ezcontentobject" />
+  </uninstall>
+</package>

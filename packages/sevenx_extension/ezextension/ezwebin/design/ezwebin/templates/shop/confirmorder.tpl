@@ -65,7 +65,7 @@
 </tr>
 {section name=ProductItem loop=$order.product_items show=$order.product_items sequence=array(bglight,bgdark)}
 <tr class="bglight">
-    <td colspan="6">    <input type="hidden" name="ProductItemIDList[]" value="{$ProductItem:item.id}" />
+    <td colspan="6">    <input type="hidden" name="ProductItemIDList[]" value="{$ProductItem:item.id}">
     <a href={concat("/content/view/full/",$ProductItem:item.node_id,"/")|ezurl}>{$ProductItem:item.object_name}</a></td>
 </tr>
 <tr class="bgdark">
@@ -160,8 +160,8 @@
 </table>
 
 <div class="buttonblock">
-<input class="button" type="submit" name="CancelButton" value="{'Cancel'|i18n('design/ezwebin/shop/confirmorder')}" /> &nbsp;
-<input class="button" type="submit" name="ConfirmOrderButton" value="{'Confirm'|i18n('design/ezwebin/shop/confirmorder')}" /> &nbsp;
+<input class="button" type="submit" name="CancelButton" value="{'Cancel'|i18n('design/ezwebin/shop/confirmorder')}"> &nbsp;
+<input class="button" type="submit" name="ConfirmOrderButton" value="{'Confirm'|i18n('design/ezwebin/shop/confirmorder')}"> &nbsp;
 </div>
 
 </form>

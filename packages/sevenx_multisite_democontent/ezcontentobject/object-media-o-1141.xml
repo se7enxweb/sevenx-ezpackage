@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="100" name="justyn-warner-541680-unsplash (1)" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Thu, 23 Aug 2018 12:07:12 GMT" ezremote:modified="Thu, 24 Sep 2020 08:31:10 GMT" remote_id="media-o-1141" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:30:55 GMT" ezremote:modified="Thu, 24 Sep 2020 08:31:10 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="justyn-warner-541680-unsplash (1)">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="680" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>justyn-warner-541680-unsplash (1)</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="681" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="682" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="12c180275826f2adc1a6b322c47482d8" alternative-text=""/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-831" name="justyn-warner-541680-unsplash (1)" node-id="102" remote-id="media-n-905" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="120" name="How to Grow Herbs Indoors" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Tue, 21 Aug 2018 16:02:21 GMT" ezremote:modified="Thu, 24 Sep 2020 08:43:38 GMT" remote_id="media-o-1046" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:17 GMT" ezremote:modified="Thu, 24 Sep 2020 08:43:38 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="How to Grow Herbs Indoors">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="841" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>How to Grow Herbs Indoors</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="842" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text>How to Grow Herbs Indoors</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="843" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1056"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="844" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>How to Grow Herbs Indoors</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="845" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="aa60dc8de98bc7294ddc87003bed3985" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="846" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="83ec486d9b15273964389e0537715e7f" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="847" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Tue, 21 Aug 2018 15:59:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="848" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="849" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="850" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>When it comes to the kitchen, I can never have enough fresh herbs. But with the rising cost of organic produce at grocery stores, the wasteful packaging of herbs, and my rapid use of them in the kitchen, it’s a bit pricy to keep the kitchen stocked!</paragraph>
+            <paragraph>Growing herbs outdoors is a simple enough task — put them in a pot, water them every so often, and clip some off when needed. But what if you’re living in an urban environment and don’t have much outdoor space? Is it still possible to grow herbs indoors?</paragraph>
+            <paragraph>The answer is a resounding yes. Not only is it possible, it’s easy! In this article, I’ll walk you through the basics of setting up your own indoor herb garden.</paragraph>
+            <paragraph>
+              <strong>Location, Location, Location</strong>
+            </paragraph>
+            <paragraph>Unless you decide to grow with <link href="https://www.epicgardening.com/indoor-grow-lights/">indoor grow lights</link>, you’ll need to place your herb garden in a spot in your home that gets a decent amount of sunlight. For most people, this is a kitchen windowsill. Using a long-box style planter that’s about 6” deep works well for windowsills, as they line up nicely.</paragraph>
+            <paragraph>Choose a south-facing window to ensure your plants get as much sun as possible. Remember, the sun rises in the east and sets in the west, so locating your garden on a south-facing window exposes it to the sun most of the day.</paragraph>
+            <paragraph>
+              <strong>4 Fantastic Herbs to Grow</strong>
+            </paragraph>
+            <paragraph>The way I think about growing herbs indoors is simple:</paragraph>
+            <paragraph>    •    What do you use the most of in your cooking? <line/>    •    What are the most expensive herbs to buy at the grocery store? <line/></paragraph>
+            <embed object_remote_id="media-o-1047" view="embed" size="medium"/>
+            <paragraph>If you answer these two questions, you’ll know exactly what herbs you should grow indoors. That being said, there are some herbs that are much easier to grow indoors than others. Here are the top four herbs that I’m currently growing:</paragraph>
+            <paragraph>    1.    <strong>Basil</strong> - A tried and true favorite, basil will thrive indoors and most of us use it abundantly in our cooking. Go with genovese basil for a classic basil flavor. </paragraph>
+            <paragraph>    2.    <strong>Mint</strong> - Mint is a wonderful addition when baking goodies, but can get a bit out of hand if grown with other herbs. If you decide to grow mint, make sure to put it in its own pot. </paragraph>
+            <paragraph>    3.    <strong>Sage</strong> - A wonderful cooking herb, sage grows easily indoors. </paragraph>
+            <paragraph>    4.    <strong>Thyme</strong> - A slower grower, thyme will do well indoors provided you give it more time to establish itself. </paragraph>
+            <paragraph>
+              <strong>Caring For Your Herbs</strong>
+            </paragraph>
+            <paragraph>Care for an indoor herb garden is pretty simple:</paragraph>
+            <paragraph>    1.    Use a high-quality, well-draining <link href="https://www.epicgardening.com/potting-soil/">potting soil </link><line/>    2.    Water when soil is dry to 1” deep (use a finger to test) <line/></paragraph>
+            <paragraph>    3.    Scan your herb garden for any pest or disease issues on a weekly basis </paragraph>
+            <paragraph>That’s really all there is to it! So long as you located your garden in an area that gets a lot of light and follow steps 1-3 above, you should have a continual harvest of kitchen herbs!</paragraph>
+            <paragraph>
+              <strong>Growing with Supplemental Lighting</strong>
+            </paragraph>
+            <paragraph>If you want to supercharge your indoor kitchen herb garden, you might want to consider growing under artificial lighting. For the most bang for the buck, go with a mid-tier <link href="https://www.epicgardening.com/best-full-spectrum-led-grow-lights/">LED grow light</link>. LEDs are cost-effective, and put out more than enough light for your plants to thrive.</paragraph>
+            <paragraph>As far as your lighting schedule, get an outlet timer and mimic the sunlight, running your lights for 16 hours a day and having them off the other 8 hours. This schedule enables your herbs to grow well, but still take care of all of the vital growth processes that require darkness.</paragraph>
+            <paragraph>
+              <strong>Go Forth and Grow Your Indoor Herb Garden!</strong>
+            </paragraph>
+            <paragraph>There we have it — a simple guide to grow herbs indoors for your cooking. You can take this starter guide and expand it to have a huge herb garden overflowing with aromas and spices, but start small and build from there!</paragraph>
+            <paragraph>
+              <emphasize><emphasize>Article credit: </emphasize><link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+              <line/>
+              <line/>
+              <emphasize>
+                <emphasize>Photo credit: <link href="https://unsplash.com/photos/WGZv8R05LSo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">pintando la luz</link> , <link href="https://unsplash.com/photos/7LsyosoO0GQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</link></emphasize>
+              </emphasize>
+              <line/>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="851" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="852" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>77</id-string>
+          <keyword-string>Fresh herbs</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="853" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>78|#76</id-string>
+          <keyword-string>Fruits|#Vegetables</keyword-string>
+          <parent-string>0|#0</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="854" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text>Produced by Fit&amp;Healthy with Acme</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="855" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="856" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="857" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="How to Grow Herbs Indoors" node-id="122" remote-id="media-n-814" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

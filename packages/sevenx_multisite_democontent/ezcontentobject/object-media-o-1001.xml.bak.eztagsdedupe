@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="130" name="Gluten-Free Shrimp Pad Thai with Tofu" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="52" ezremote:published="Wed, 08 Aug 2018 10:46:48 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:18 GMT" remote_id="media-o-1001" class_remote_id="67c57c234691153c902f0bb5be0e4eaa" ezremote:class_identifier="ng_recipe" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:49:54 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:19 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Gluten-Free Shrimp Pad Thai with Tofu">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1007" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Gluten-Free Shrimp Pad Thai with Tofu</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1008" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Gluten-Free Shrimp Pad Thai with Tofu</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1009" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1010" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="295580ec64f59cbd0fd41ddb7ccb3290" alternative-text="Gluten-Free Shrimp Pad Thai with Tofu"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1011" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="f778183523bd8ee6adb6f67011b3874b" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1012" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>This authentic pad thai recipe (made gluten-free) comes from the Chiang Mai Cookery School located in the Northern mountainous part of Thailand.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1013" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>This authentic pad thai recipe (made gluten-free) comes from the Chiang Mai Cookery School located in the Northern mountainous part of Thailand.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1014" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Serves 4-6<line/><line/><emphasize>Adapted from the Chiang Mai Cookery School in Thailand</emphasize><line/></paragraph>
+            <section>
+              <section>
+                <header>INGREDIENTS</header>
+                <paragraph>For the sauce:</paragraph>
+                <ul>
+                  <li>
+                    <paragraph>4 tablespoons sugar</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>6 tablespoons fish sauce (make sure it's gluten-free)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>2 tablespoons tamari</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>4 tablespoons tamarind juice (or 2 tablespoons lime juice and 2 tablespoons light brown sugar)</paragraph>
+                  </li>
+                </ul>
+                <paragraph>For the pad thai:</paragraph>
+                <ul>
+                  <li>
+                    <paragraph>3 tablespoons vegetable oil</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 tablespoon garlic, minced</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1-2 carrots, julienned</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Thai chile peppers, such as Bird's eye, thinly sliced</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 cup tofu, cut into cubes (I like to use fried or baked tofu, but regular firm tofu is also good)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 to 1.5 pounds shrimp</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>14 ounces dried rice noodles, soaked in water for 10-15 minutes</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>6 tablespoons chicken stock or water</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>2 eggs, beaten</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>5 tablespoons roasted peanuts, chopped and divided</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/4 cup green onions, cut into 1-inch pieces</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1-2 cups bean sprouts</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Optional, fresh spinach</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Fresh cilantro, chopped, for garnish</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Lime wedges, for garnish</paragraph>
+                  </li>
+                </ul>
+                <header>PREPARATION</header>
+                <ol>
+                  <li>
+                    <paragraph>Mix sauce ingredients in a small bowl and set aside. (Note: you may have extra sauce left over depending on how "saucy" you like your noodles.)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Heat oil in a wok over medium-high heat and fry the garlic, carrots, chili peppers, and tofu until the garlic turns golden brown. Add the shrimp and continue to stir-fry until the shrimp begin to turn pink (take care to not overcook the shrimp). Transfer to a plate and set aside.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Add the softened rice noodles and chicken stock and stir-fry over high heat. Continue stirring until the noodles are softened.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Reduce heat to medium and add half of the sauce; stir until well combined.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Move noodles to one side of the wok and add the beaten eggs; scramble until thoroughly cooked then stir into the noodles. Add more sauce to adjust taste if necessary.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Add 3 tablespoons of the peanuts, the green onions, and bean sprouts; stir-fry until combined.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Transfer to a serving dish and garnish with the remaining chopped peanuts, fresh cilantro, and lime wedges.</paragraph>
+                  </li>
+                </ol>
+                <paragraph>
+                  <emphasize>Recipe credit: <link href="http://www.foodista.com/user/44">Sheri Wetherell</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                  <line/>
+                  <line/>
+                  <emphasize>Photo credit: <link href="https://pixabay.com/en/users/sharonang-99559/">sharonang</link> via <link href="https://pixabay.com/">Pixabay</link> / <link href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC BY</link></emphasize>
+                  <line/>
+                </paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1015" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">
+          <value>20</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1016" ezremote:identifier="serving_calories" name="Calories (per serving)" type="ezinteger">
+          <value>430</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1017" ezremote:identifier="serving_fat" name="Fat (per serving)" type="ezinteger">
+          <value>22</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1018" ezremote:identifier="serving_carbohydrates" name="Carbohydrates (per serving)" type="ezinteger">
+          <value>57</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1019" ezremote:identifier="serving_protein" name="Protein (per serving)" type="ezinteger">
+          <value>20</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1020" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1021" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1022" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>66</id-string>
+          <keyword-string>Health</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1023" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>85|#86|#74|#87</id-string>
+          <keyword-string>Asian|#Cooking|#Eating|#Gluten-free</keyword-string>
+          <parent-string>0|#0|#0|#0</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1024" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1025" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1026" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1027" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-744" name="Gluten-Free Shrimp Pad Thai with Tofu" node-id="132" remote-id="media-n-769" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

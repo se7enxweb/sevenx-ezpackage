@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="118" name="Healthy vs Unhealthy Food: the Challenges of Understanding Food Choices" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Mon, 23 Jul 2018 12:08:11 GMT" ezremote:modified="Thu, 24 Sep 2020 08:43:03 GMT" remote_id="media-o-966" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:42:52 GMT" ezremote:modified="Thu, 24 Sep 2020 08:43:03 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Healthy vs Unhealthy Food: the Challenges of Understanding Food Choices">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="808" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Healthy vs Unhealthy Food: the Challenges of Understanding Food Choices</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="809" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Healthy vs Unhealthy Food: the Challenges of Understanding Food Choices</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="810" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="811" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="2934409cbcb157986c4f8b671ae50e29" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="812" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="9051d4316a134a40f19806a8829a97d5" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="813" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>We know a lot about food but little about the food choices that affect the nation’s health. Researchers have begun to devise experiments to find out why we choose a chocolate bar over an apple – and whether ‘swaps’ and ‘nudges’ are effective.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="814" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="815" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>The solution to the obesity epidemic is simple: eat less, move more. But take a deep breath before you type these four words into a search engine. The results exceed 9 million. Of the top four results, two websites argue against the statement and two for it. Below, arguments about eating and exercise rage fast and furious with dozens of assertions backed by equations, flowcharts, promises of slimming success, and lists of the latest superfoods.</paragraph>
+            <paragraph>“Despite all we know about food, we know remarkably little about the process of food choice,” says Dr Suzanna Forwood, until recently Research Associate at the Behaviour and Health Research Unit (Cambridge University) and now Lecturer in Psychology at Anglia Ruskin University. “In a supermarket we’re bombarded with the thousands of products on the shelves and but most of the time we happily make relatively quick decisions about what to buy. So what’s going on in our minds when we reach out for our favourite breakfast cereal?”</paragraph>
+            <paragraph>When it comes to eating, we’re all experts. We’re secure in our own opinions (and prejudices) and have no shortage of advice for everyone else. The truth is that, in common with many human activities, our relationship with food is complex and deeply embedded in culture. Forwood says: “Whenever I give a talk, even to an academic audience, people will listen to me talk about the big picture and then come up to me afterwards to tell me about their personal experiences – typically what they spotted in other people’s trolleys the day before.”</paragraph>
+            <paragraph>We might broadly agree that eating less (and better) and moving more, a message endorsed by the NHS, makes sense – but do we act accordingly?  We don’t. Finding out exactly what people eat is hard, finding out why they make those choices is harder – and changing those eating patterns is harder still. “Most of the data we have – and we have lots of it – is observational rather than experimental,” says Forwood. “There have been relatively few experiments looking at food choice – and those that have been carried out tend to have a low number of participants.”</paragraph>
+            <paragraph>In the late 1980s government began to realise that it was facing an obesity epidemic on a scale that demanded intervention. Levels of obesity in the UK have tripled since 1980: almost 25% of the adult population is now obese with the UK topping the tables for Western Europe. These worrying figures led to nationwide initiatives to promote healthy living – and increased efforts to understand food choice behaviour.</paragraph>
+            <paragraph>Research has shown that obesity is linked to deprivation and low levels of education – as well as to a whole range of life-threatening conditions. Top of the list of ‘avoidable diseases’ associated with obesity is type 2 diabetes (treatment of type 2 diabetes costs the NHS an estimated £8.8 bn each year), followed by cancer, high blood pressure and heart disease. “In the past, weight status has long been regarded as a matter of personal choice,” says Forwood. “And this is reflected by the government’s desire for non-regulatory interventions.” The preference for a light touch approach is exemplified by the establishment of the so-called Nudge Unit (Behavioural Insight Team).</paragraph>
+            <paragraph>In 2009 the government launched its Change4Life campaign as a ‘movement’ to improve the nation’s health. Change4Life’s online advice for adults makes a series of suggestions for ‘swaps’ and ‘nudges’. Swap a large plate for a smaller one, swap fast eating for slow eating, and swap food high in fat or sugar for healthy fruit and vegetables. Look closely at labelling and make healthy choices based on a comparison of calories and nutritional information.</paragraph>
+            <paragraph>The current focus is on reducing intake of sugar – not the sugar that occurs naturally in fruit, or even the sugar we sprinkle on our cereal, but the hidden sugar that sweetens so many processed foods and flavours so many popular drinks. In the case of sugar, what is proposed is a financial nudge in the form of a ‘sugar tax’. “Taxes have been shown to be effective but they have to be carefully designed,” says Forwood. “Sugar taxes, for example, need to avoid raising the price of fruit juices which are high in sugar.”</paragraph>
+            <paragraph>Do other strands of swaps and nudges work? Research suggests that people are remarkably resilient in their food choices. Taste emerges as the most important factor. Forwood’s <link target="_blank" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0077500">work</link> shows that healthy foods (such as fruit and vegetables) are not perceived as tasty, particularly by groups who are reluctant to choose healthy foods. She says: “That might seem tautological but there is strong observational data to suggest that perceiving food as tasty is important. It’s not good enough simply to tell people what is healthy if they don’t think those foods are also tasty.”</paragraph>
+            <paragraph>The perception of healthy foods as less tasty than unhealthy foods prompts the question: could product labelling, promoting the tastiness of healthy foods, nudge consumers into making ‘better’ choices when they’re shopping. In research published last year, Forwood and colleagues looked at the ‘nudging power’ of labelling to increase the percentage of people who might say ‘no’ to a chocolate bar and ‘yes’ to an apple as part of a notional meal deal.</paragraph>
+            <paragraph>In the online study, around half of a representative sample of people expressed a preference for an apple when given the choice of apple or chocolate bar. Participants were divided into five groups and given the same choice (apple or chocolate bar) with the apple labelled in five different ways: ‘apple’, ‘healthy apple’, ‘succulent apple’, ‘healthy and succulent apple’, ‘succulent and healthy apple’. Labels combining both health and taste descriptors significantly increased the rate of apple selection – to 65.9% in the case of ‘healthy and succulent’ and 62.4% for ‘succulent and healthy’.</paragraph>
+            <paragraph>Another <link target="_blank" href="http://ijbnpa.biomedcentral.com/articles/10.1186/s12966-015-0241-1">study</link>, also published last year, looked at the potential for food swaps – often used as part of social media campaigns – as a means for reducing dietary levels of energy, fat, sugar or salt. Using the model of an online supermarket, built as a testing platform, participants were asked to complete a 12-item shopping task. In the course of the purchasing process, they were offered alternatives with lower energy densities (ED). For each item, lower ED alternatives were offered or imposed, either at the point of selection or at the checkout.</paragraph>
+            <paragraph>“Our study showed that within-category swaps did not reduce the ED of food purchases. Only a minority of swaps were accepted by the consumer and the notional benefits to swaps were slight. It was striking that more than 47% of the participants offered alternatives did not accept any of the swaps they were offered,” says Forwood. “Female participants and better-off participants were more likely to accept swaps. This was predictable in that these are the people who we know from other research typically make healthier choices anyway.”</paragraph>
+            <paragraph>It has been argued that omnipresence of food imagery in the modern built environment, and via all kinds of media, contributes to rising rates of obesity with adverts for less healthier foods identified as a driver for consumption of such foods. A study in Australia showed that people who watched commercial television channels (which carry advertising for fast foods) were, perhaps not surprisingly, more likely to purchase TV dinners<emphasize>.</emphasize></paragraph>
+            <paragraph>“What we’re talking about here is, of course, observational data,” says Forwood, “It may, for example, be that people who consume TV dinners are more attracted to certain television programmes that are on commercial channels. Remember that huge sums of money are spent targeting TV adverts in order to make sure that the right population sees them. But this raises the question: could advertising represent an opportunity for policy makers looking to promote consumption of healthier choices?” </paragraph>
+            <paragraph>‘Priming’ is described as a psychological effect in which exposure to a stimulus – such as advertising – modifies behaviour. When Forwood and colleagues <link target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0195666315000276">tested</link> the effectiveness of priming by asking volunteers to look at an advertisement for healthy food (such as fruit) and then choose between healthy and unhealthy, they found that the priming had little difference. The observations were different, however, when the participants were hungry, in which case the preference for the energy dense foods rose. However, when the hungry volunteers were shown an advertisement for fruit in advance of their choice, the ‘hungry factor’ was offset by the priming.</paragraph>
+            <paragraph>The initial experiment was carried out in Cambridge where the participants were predominantly female, well-educated and older – and likely to be in favour of healthy eating.  When the experiment was carried out with a more nationally representative sample, the results showed that priming was ineffective in socially disadvantaged groups. “These people are hard to reach and represent a real challenge to policy-makers,” says Forwood. “Research tells us that 89% of people want to make dietary changes to improve their health. We need to identify the levers that can support them.”</paragraph>
+            <paragraph>
+              <emphasize>Cover photo: <link href="https://unsplash.com/photos/4-vigZnpeCc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">rawpixel</link></emphasize>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="816" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="817" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="818" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>66</id-string>
+          <keyword-string>Health</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="819" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>74|#66|#70</id-string>
+          <keyword-string>Eating|#Health|#Weight loss</keyword-string>
+          <parent-string>0|#0|#0</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="820" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="821" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="822" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="823" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="Healthy vs Unhealthy Food: the Challenges of Understanding Food Choices" node-id="120" remote-id="media-n-743" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

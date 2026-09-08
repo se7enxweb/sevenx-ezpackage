@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="128" name="Not Ready for Keto? Try No Carbs Before Dinner" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Thu, 23 Aug 2018 12:58:37 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:10 GMT" remote_id="media-o-1142" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:47 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:11 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Not Ready for Keto? Try No Carbs Before Dinner">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="973" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Not Ready for Keto? Try No Carbs Before Dinner</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="974" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Not Ready for Keto? Try No Carbs Before Dinner</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="975" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="976" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="2011fe867931990fff3c6d8ee0c8a82b" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="977" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="8c342b8277221e63c69417887fc6b82d" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="978" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>I’ve been restricting carbohydrates to dinner-only (and usually a small dinner), and doing so has worked well for me.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="979" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="980" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Eating carbs for breakfast and lunch gives me more cravings the rest of the day: especially for more carbs. Dinnertime carbs don’t matter much, because I’m winding down at that point of the day, and cravings will soon be precluded by sleep. Eliminating mid-day cravings has made it easier to eat in greater moderation. As a result, I’ve slowly but steadily lost weight since starting to do this. And since I’m not cutting out carbs totally, I’m avoiding the “no-carb flu” symptoms (massive fatigue, brain fog, and headaches) that hit me like a ton of bricks when I first adopted the ketogenic diet for a short time (and lost a lot of weight as a result) back in January.</paragraph>
+            <embed object_remote_id="media-o-1123" view="embed" size="medium"/>
+            <paragraph>I’m also avoiding the fatigue, mood, and brain fog crashes that generally hit me an hour or two after eating a carb-rich breakfast or lunch, giving me a steadier energy, mood, and smartness level throughout the day. It has also made me less dependent on caffeine.</paragraph>
+            <paragraph>My standard meals have been 4 eggs (or 3 eggs and bacon) for breakfast, either a meat dish from home or a Chipotle bowl with no rice or beans (and sometimes double-meat) for lunch, and then a bowl of cereal for dinner. I really enjoy cereal, so it serves as an end-of-the day treat and motivating reward for accomplishing my diet goals that day (although the milk isn’t great for my stomach).</paragraph>
+            <paragraph>It isn’t perfect, but it’s working. Maybe in the future, when my work schedule permits a period of debilitating no-carb flu, I’ll kick carbs altogether and go full-keto again. But restricting carbs to dinner has been an effective approach for losing weight, limiting carbs, and optimizing my energy and mood levels. If you’d like to accomplish those goals but aren’t willing to go keto yet, a carbs-for-dinner-only approach might work for you, too.</paragraph>
+            <paragraph>
+              <emphasize>Cover photo: <link href="https://unsplash.com/photos/jUPOXXRNdcA?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brooke Lark</link></emphasize>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="981" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="982" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="983" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>84</id-string>
+          <keyword-string>Keto diet</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="984" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>84|#83</id-string>
+          <keyword-string>Keto diet|#Lowcarb</keyword-string>
+          <parent-string>0|#0</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="985" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="986" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="987" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="988" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="Not Ready for Keto? Try No Carbs Before Dinner" node-id="130" remote-id="media-n-906" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -34,13 +34,13 @@
 </div>
 
 {if and( $move_to_trash_allowed, eq( $exceeded_limit, false() ) )}
-  <input type="hidden" name="SupportsMoveToTrash" value="1" />
-  <p><input type="checkbox" name="MoveToTrash" value="1" checked="checked" />{'Move to trash'|i18n('design/ezwebin/node/removeobject')}</p>
+  <input type="hidden" name="SupportsMoveToTrash" value="1">
+  <p><input type="checkbox" name="MoveToTrash" value="1" checked="checked">{'Move to trash'|i18n('design/ezwebin/node/removeobject')}</p>
 
   <p><strong>{"Note"|i18n("design/ezwebin/node/removeobject")}:</strong> {"If %trashname is checked, removed items can be found in the trash."
                                                     |i18n( 'design/ezwebin/node/removeobject',,
                                                            hash( '%trashname', concat( '<i>', 'Move to trash' | i18n( 'design/ezwebin/node/removeobject' ), '</i>' ) ) )}</p>
-  <br />
+  <br>
 {/if}
 
 

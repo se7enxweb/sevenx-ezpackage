@@ -46,11 +46,11 @@
 
 <div class="block">
 <label>{'Search all the words'|i18n( 'design/ezwebin/content/advancedsearch' )}</label><div class="labelbreak"></div>
-<input class="box" type="text" size="40" name="SearchText" value="{$full_search_text|wash}" />
+<input class="box" type="text" size="40" name="SearchText" value="{$full_search_text|wash}">
 </div>
 <div class="block">
 <label>{'Search the exact phrase'|i18n( 'design/ezwebin/content/advancedsearch' )}</label><div class="labelbreak"></div>
-<input class="box" type="text" size="40" name="PhraseSearchText" value="{$phrase_search_text|wash}" />
+<input class="box" type="text" size="40" name="PhraseSearchText" value="{$phrase_search_text|wash}">
 </div>
 
 <div class="block">
@@ -82,7 +82,7 @@
 {/if}
 
 {foreach $search_sub_tree as $sub_tree}
-<input type="hidden" name="SubTreeArray[]" value="{$sub_tree}" />
+<input type="hidden" name="SubTreeArray[]" value="{$sub_tree}">
 {/foreach}
 
 
@@ -90,11 +90,11 @@
 </div>
 
 <div class="buttonblock">
-<input class="button" type="submit" name="SearchButton" value="{'Search'|i18n('design/ezwebin/content/advancedsearch')}" />
+<input class="button" type="submit" name="SearchButton" value="{'Search'|i18n('design/ezwebin/content/advancedsearch')}">
 </div>
 
 {if or( $search_text, eq( ezini( 'SearchSettings', 'AllowEmptySearch', 'site.ini'), 'enabled' ) )}
-<br/>
+<br>
 {switch name=Sw match=$search_count}
   {case match=0}
 <div class="warning">

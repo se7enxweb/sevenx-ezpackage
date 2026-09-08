@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="192" name="About Component Test" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="60" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Tue, 01 Sep 2026 05:55:16 GMT" remote_id="media-o-1538" class_remote_id="16dcbe0a8000da0a5b89b91086a86ab8" ezremote:class_identifier="ng_component_about" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="12">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="12" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 05:55:16 GMT" ezremote:modified="Tue, 01 Sep 2026 05:55:16 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="About Component Test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2041" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>About Component Test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2042" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text>Success stories</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2043" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>12K Tik Tok followers in 12 days</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2044" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Discover how StayFit used our expertise to build its social media presence, acquire and engage customers, and expand its reach outside the gym. </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2045" ezremote:identifier="description_2" name="Description 2" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>We start by creating high-quality, visually appealing content that showcases their expertise and connects with viewers on an emotional level.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2046" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="3f702bc7ebd14e0af7f447348ae0483a" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2047" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2048" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{"id":403,"label":"Find out more","type":"internal","target":"link","suffix":null}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2049" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2050" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="12K Tik Tok followers in 12 days">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4957" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>12K Tik Tok followers in 12 days</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4958" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text>Success stories</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4959" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>12K Tik Tok-Follower in 12 Tagen</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4960" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Erfahren Sie, wie StayFit unser Know-how genutzt hat, um seine Präsenz in den sozialen Medien aufzubauen, Kunden zu gewinnen und zu binden und seine Reichweite außerhalb des Fitnessstudios zu vergrößern.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4961" ezremote:identifier="description_2" name="Description 2" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4962" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="90b66aa779cafad7b765fbc4274cce11" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4963" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4964" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{
+    "id": 403,
+    "label": "Mehr erfahren",
+    "type": "internal",
+    "target": "link",
+    "suffix": null
+}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4965" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="About Component Test" node-id="194" remote-id="media-n-1092" sort-field="path" sort-order="1" priority="-60"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

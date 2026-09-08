@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="111" name="Workflow app iOS" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Wed, 22 Aug 2018 09:43:11 GMT" ezremote:modified="Thu, 24 Sep 2020 09:10:27 GMT" remote_id="media-o-1078" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 09:09:55 GMT" ezremote:modified="Thu, 24 Sep 2020 09:10:27 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Workflow app iOS">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="726" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Workflow app iOS</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="727" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="728" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="bb5c0ce1cde4ff3e72a1e7dc059e7897" alternative-text=""/>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Workflow app iOS" node-id="113" remote-id="media-n-843" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

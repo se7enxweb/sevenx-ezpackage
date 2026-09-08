@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="1544" name="Logos Component Test" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="226" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Tue, 14 Feb 2023 17:30:53 GMT" remote_id="media-o-1544" class_remote_id="ada87f9df3c29116d0a5d59c7c06739c" ezremote:class_identifier="ng_component_logos" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" active_version="7">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:version="7" ezremote:status="1" ezremote:created="Tue, 14 Feb 2023 17:29:24 GMT" ezremote:modified="Tue, 14 Feb 2023 17:30:53 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" language="eng-US" object_name="Logos Component Test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="42326" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Logos Component Test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="42328" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="42330" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Trusted by the leaders in the fitness industry</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="42332" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ibexa.co/xmlns/dxp/docbook/xhtml" xmlns:ezcustom="http://ibexa.co/xmlns/dxp/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>We've helped some of the biggest names in the fitness industry achieve their goals, and we can do the same for you. </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="42334" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="42336" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="42338" ezremote:identifier="logos" name="Logos" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1222"/>
+              <relation-item priority="2" contentobject-remote-id="media-o-1223"/>
+              <relation-item priority="3" contentobject-remote-id="media-o-1224"/>
+              <relation-item priority="4" contentobject-remote-id="media-o-1225"/>
+              <relation-item priority="5" contentobject-remote-id="media-o-1226"/>
+              <relation-item priority="6" contentobject-remote-id="media-o-1227"/>
+              <relation-item priority="7" contentobject-remote-id="media-o-1228"/>
+              <relation-item priority="8" contentobject-remote-id="media-o-1230"/>
+              <relation-item priority="9" contentobject-remote-id="media-o-1232"/>
+              <relation-item priority="10" contentobject-remote-id="media-o-1233"/>
+              <relation-item priority="11" contentobject-remote-id="media-o-1229"/>
+              <relation-item priority="12" contentobject-remote-id="media-o-1231"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="Logos Component Test" node-id="1098" remote-id="media-n-1098" sort-field="path" sort-order="1" priority="-50"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

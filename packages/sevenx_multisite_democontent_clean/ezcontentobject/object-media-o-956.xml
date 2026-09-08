@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="956" name="Split Options Weight Training Program" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Mon, 23 Jul 2018 11:10:02 GMT" ezremote:modified="Thu, 24 Sep 2020 08:29:10 GMT" remote_id="media-o-956" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="8">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="8" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:28:58 GMT" ezremote:modified="Thu, 24 Sep 2020 08:29:10 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Split Options Weight Training Program">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23481" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Split Options Weight Training Program</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23482" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24326" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23483" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23484" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="e83ceb7937dfa9de22f66b48d2485645" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23485" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>This is not a workout for beginners. If you are just starting out with weight training, I recommend doing a full-body workout 3 days per week.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23486" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="23487" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>This is a great workout for a Soldier or a person with a solid muscle base and training experience. Don’t get me wrong, you don’t have to be all ripped up, but you do need to have some knowledge and good form to avoid injury and over-training.</default:para>
+            <default:para>Morning Army PT is only intended to maintain the strength and stamina you developed in basic training. To improve, you need to PT on your own. The Split Options program provides a three-day split that works the entire body in a short amount of time and with limited equipment if you do not want to make the trip to the gym. Abs are hit not just once, but… Every. Single. Day.</default:para>
+            <default:para>What I love about this program is that is allows for so much variety. I designed this workout to complement my morning calisthenic or cardio PT session with evening weight training, but I have also used this program to train six days a week, doing weight training on three mornings and cardio on the other three. More recently, I’ve used this very same program to work each major muscle group twice per week on a six day schedule, varying between training for hypertrophy gains and raw strength/power.</default:para>
+            <default:title ezxhtml:level="2">Routine A</default:title>
+            <default:para>The first routine emphasizes the chest, traps, triceps, and abs.</default:para>
+            <default:para>Starting with a standard bench press, you can choose whether to use a barbell or a pair of dumbbells. Same for the incline bench press. If you have access to a gym you may want to use a bench press machine to isolate and target the muscle from time to time, but not too often. Each of these exercises could be straight sets, drop sets, pyramids, etc. depending on what you want to work on.</default:para>
+            <default:para>Boom. Next we are going to punish the traps with a super-set. Go heavy on the shrug and relatively light on the Y-Raise, and move straight through the super-set as quickly as you can with good form.</default:para>
+            <default:para>Moving to triceps we first re-emphasize the work we did earlier on our chest, but this time with a reverse-grip bench press that emphasizes using the chest a triceps, rather than chest and biceps, to complete the lift. I recommend varying the weight on the triceps extension, starting with low weight and 15 reps and finishing with two sets of 8 to 10 reps with a heavy weight. If you cannot complete 8 to 10 reps, you are lifting too heavy and you might injure yourself. Burn up those triceps with a few sets of dips in the end.</default:para>
+            <default:para>The push-ups are really a bonus move. As a tri-set we will do one set of each and repeat that three times, doing 15 reps on the first set, 10 on the next, and finishing with just 5. But when you think about it, that means you will do 45 push-ups, take a short break, perform 40 more, take another short break, and then blast out the final 15. Try to do a plyometric transition between exercises.</default:para>
+            <default:para>Finally, we choose five different ab exercises and get after it by doing 25 reps of each. Go with something like leg lifts, V-ups, etc.</default:para>
+            <default:programlisting><![CDATA[
+Routine A
+---------               Sets  Reps
+Chest    Bench press     4    8-15
+         Incline
+           bench press   4    8-15
+         Leaning one-
+           arm dumbbell
+           fly           4    8-15
+   SUPERSET
+Traps    Dumbbell shrug  3    8-15
+         Y-Raise         3    8-15
+Triceps  Reverse-grip
+           bench press   4    8-15
+         Seated triceps
+           extension     3    8-15
+         Dips            4    10-15
+   TRI-SET
+Combo    Push-up         3    15,10,5
+         Wide arm
+           push-up       3    15,10,5
+         Close hand
+           push-up       3    15,10,5
+Abs      Variable        5    25]]></default:programlisting>
+            <default:title ezxhtml:level="2">Routine B</default:title>
+            <default:para>The second routine covers the back, biceps, and shoulders, and then hits the abs again.</default:para>
+            <default:para>Right out of the gate we’ll work the back with three exercises arranged into a tri-set. Do one set of each for a total of four circuits. If you can do more than 10 pull-ups then go to failure. If you cannot get to 10 in one bound, no worries, just take a quick breather and jump back on the bar until you hit 10.</default:para>
+            <default:para>Moving on to biceps we us the super-set training method. Complete one set of each exercises with little to no break between them. Repeat four times for a total of four sets. You may also choose to pyramid the weight of your lift.</default:para>
+            <default:para>We are not quite done with biceps when we move on to shoulders. The first exercise is a combo of Hammer Curls and the Military Press. This is followed by the Upright Row and Shoulder Raises, which can optionally be combined into a super-set.</default:para>
+            <default:para>We again finish with five different abdominal exercises completed over five sets of 25.</default:para>
+            <default:programlisting><![CDATA[
+Routine B
+---------                Sets  Reps
+    TRI-SET
+Back      Pull-up         4    10
+          Bentover row    4    8-15
+          Power row       4    8-15
+    SUPERSET
+Biceps    Barbell curl    4    8-15
+          Preacher curl   4    8-15
+Shoulders Hammer curl
+            up military
+            press         3    8-15
+          Upright row     4    8-15
+          Raises          4    8-15
+Abs       Variable        5    25]]></default:programlisting>
+            <default:title ezxhtml:level="2">Routine C</default:title>
+            <default:para>The last routine focuses on the legs by emphasizing the quads, hams, and calves, and then hits the abs yet-again.</default:para>
+            <default:para>Squats are a great way to get the quads started. I’ll use the first set as a high rep warm-up and the final three going for pure strength with heavy weight. Following squats with a step-up and rear-lunge combo is very challenging, so I recommend starting with a relatively light weight that increases with each set. Same for the Bulgarian Squat, but you may prefer straight-sets with those.</default:para>
+            <default:para>Deadlifts work most of the muscles in the lower back and legs. A good warm-up is particularly important since we trained our back during the last workout. I’m a fan of the Bend &amp; Reach as a warm-up.</default:para>
+            <default:para>Our only super-set during this routine is for our calves. One set of Calf Raises for each leg followed by one set of Calf Jumps, repeated twice.</default:para>
+            <default:para>And of course, we never end a workout without some abdominal training. Again, pick five moves and complete 25 repetitions each.</default:para>
+            <default:programlisting><![CDATA[
+Routine C
+---------               Sets  Reps
+Quads    Squat           4    8-15
+         Step-up and
+           rear-lunge    4    8-15
+         Bulgarian squat 4    8-15
+Hams     Deadlift        4    8-15
+    SUPERSET
+Calves   Calf-raise      2    50
+         Calf-jump       2  25
+Abs      Variable        5    25]]></default:programlisting>
+            <default:para>One idea that I have considered but have not tried is combing this Split Options program with another program and then alternating days. It’ll take significant experience to do this so you don’t overtrain or cause an injury, but it would be a great way to shock and confuse the muscle.</default:para>
+            <default:para>Just remember that variety is key when it comes to progression. Don’t be afraid to change things up every once in a while. Try periodizing by completing a standard six week program of Split Options followed by three weeks of strength-focused sets using the same schedule.</default:para>
+            <default:para>But whatever you do don’t stop when you get bored. Just try something new.</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Article credit: <default:link xlink:href="ezurl://161" xlink:show="none">Justin Sloan</default:link>  / <default:link xlink:href="ezurl://162" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Cover photo: <default:link xlink:href="ezurl://317" xlink:show="none">Victor Freitas</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23489" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23490" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23843" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23491" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23874" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23493" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23494" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Split Options Weight Training Program" node-id="728" remote-id="media-n-728" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

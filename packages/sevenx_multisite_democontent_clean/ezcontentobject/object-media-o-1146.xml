@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="1146" name="Effective Training Techniques: Isolation vs Compound Movements" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Thu, 23 Aug 2018 22:44:50 GMT" ezremote:modified="Thu, 24 Sep 2020 08:26:17 GMT" remote_id="media-o-1146" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="13">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="13" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:26:09 GMT" ezremote:modified="Thu, 24 Sep 2020 08:26:17 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Effective Training Techniques: Isolation vs Compound Movements">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25603" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Effective Training Techniques: Isolation vs Compound Movements</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25604" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25605" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25606" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25607" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="56372b058195d6bad09895a846f61fcd" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25608" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Choosing the wrong combination of exercises can significantly hinder your progress and even prevent you from hitting your goals entirely.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25609" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="25610" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Not every exercise is created equally. Some exercises engage only a small group of muscles while others require full body coordination. <default:emphasis role="strong">Isolated Movements</default:emphasis> are movements involving only 1 joint. E.g. Bicep Curl involves movement around only the elbow joint. <default:emphasis role="strong">Compound Movements</default:emphasis> are movements involving more than 1 joint. E.g. Barbell Squat involves movement around the hip, knee, and ankle joints.</default:para>
+            <default:title ezxhtml:level="2">Benefits of Compound Movements</default:title>
+            <default:para>Compound movements give you the biggest return for your effort because they target many muscles at once. For example, each rep of Barbell Back Squat requires muscles in your quadriceps, glutes, hamstrings, lower back, calves, and abdominals to contract, stabilize and work together.</default:para>
+            <default:para>To achieve similar muscle activation with isolated movements, you’d have to perform five separate exercises that target each muscle group independently. One combination to achieve this is by doing Leg Extensions, Rope Pull Throughs, Hamstring Curls, Calf Raises, and Abdominal Crunches. However, you end up spending significantly more time doing all of these exercises and you still miss out on some benefits of the compound equivalent movement.</default:para>
+            <default:para>Since compound movements require multiple muscle groups working together to complete the movement, you improve your gross motor coordination. This translates to better body mechanics in your daily life. With so many supporting muscle groups, you’re also able to lift more weight, allowing you to become stronger and more forceful than with isolation movements alone.</default:para>
+            <default:para>Every active muscle in an exercise requires energy and additional blood for renourishment. When you perform compound movements, your body works overtime to simultaneously pump more blood to all of the active muscle groups, combining cardiovascular work into strength training. With compound movements you expend much more energy (calories) and stimulate many more muscles. Compare how much you sweat during a challenging set of Barbell Back Squats versus a challenging set of Bicep Curl.</default:para>
+            <default:title ezxhtml:level="2">When to do Isolation Movements</default:title>
+            <default:para>Isolated movements are useful to supplement compound movements and target specific, small grouped muscles. For example, building well balanced shoulders requires isolation work for both the side and rear portions of your shoulder. Isolated movements can also be used to prevent overtraining of specific muscles. For example, switching to isolated chest movements might be necessary to prevent your shoulders and triceps from being involved in too many exercises. The amount of isolated work you should do per workout depends on both your fitness goals and the compound movements you are doing.</default:para>
+            <default:para>Effective programs are designed around compound movements then supplemented with isolation movements. Depending on your goals, compound movements should make up 60–90% of each workout. Recognizing your program is designed around compound movements is important to ensure you are following an effective plan. Many <default:link xlink:href="ezurl://130" xlink:show="new">benefits of strength training</default:link> directly relate to the amount of muscles you effectively train, making compound movements the most important part of a strength training program.</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Article credit: <default:link xlink:href="ezurl://127" xlink:show="none">Coachbot</default:link>  / <default:link xlink:href="ezurl://116" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Cover photo: </default:emphasis><default:emphasis><default:link xlink:href="ezurl://346" xlink:show="none">Sam Sabourin</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25612" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25613" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25614" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25615" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25616" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25618" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25619" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Effective Training Techniques: Isolation vs Compound Movements" node-id="910" remote-id="media-n-910" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

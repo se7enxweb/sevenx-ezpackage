@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="341" name="Contact Us Hero" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="58" ezremote:published="Tue, 01 Sep 2026 06:38:52 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:21 GMT" remote_id="media-o-1204" class_remote_id="b86c970a6ad8e3d268581ec10991a958" ezremote:class_identifier="ng_component_hero" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="11">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="11" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 07:02:21 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:21 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Contact Us Hero">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4010" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Contact Us Hero</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4011" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4012" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Get in Touch Today</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4013" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <paragraph>Looking for a creative agency that can help you take your health&amp;fitness business to the next level? Contact us today to learn more about how we can help. </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4014" ezremote:identifier="video" name="Video" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4015" ezremote:identifier="video_mobile" name="Video mobile" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4016" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4017" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4018" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{"id":672,"label":"Send a message","type":"internal","target":"modal","suffix":null}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4019" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text>{"id":362,"label":"Send an email","type":"external","target":"link","suffix":null,"url":"mailto:contact@netgen.io"}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4020" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="Contact Us Hero">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4920" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Contact Us Hero</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4921" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4922" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Kontaktieren Sie uns noch heute</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4923" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Sind Sie auf der Suche nach einer Kreativagentur, die Ihnen dabei helfen kann, Ihr Gesundheits- und Fitnessgeschäft auf die nächste Stufe zu heben? Nehmen Sie noch heute Kontakt mit uns auf und erfahren Sie mehr darüber, wie wir Ihnen helfen können.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4928" ezremote:identifier="video" name="Video" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4929" ezremote:identifier="video_mobile" name="Video mobile" type="ezbinaryfile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4924" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4925" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4926" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{
+    "id": 672,
+    "label": "Senden Sie eine Nachricht",
+    "type": "internal",
+    "target": "modal",
+    "suffix": null
+}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4927" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text>{
+    "id": 362,
+    "label": "Senden Sie eine E-Mail",
+    "type": "external",
+    "target": "link",
+    "suffix": null
+}</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Contact Us Hero" node-id="306" remote-id="71920a7628f0ed95efbbac2a15991eb5" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

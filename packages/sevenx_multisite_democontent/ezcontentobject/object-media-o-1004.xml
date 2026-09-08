@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="132" name="Zucchini Zoodles with Ground Turkey Tomato Sauce" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="52" ezremote:published="Wed, 08 Aug 2018 11:57:06 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:37 GMT" remote_id="media-o-1004" class_remote_id="67c57c234691153c902f0bb5be0e4eaa" ezremote:class_identifier="ng_recipe" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:50:03 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:37 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Zucchini Zoodles with Ground Turkey Tomato Sauce">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1049" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Zucchini Zoodles with Ground Turkey Tomato Sauce</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1050" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Zucchini Zoodles with Ground Turkey Tomato Sauce</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1051" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1052" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="aec03ff84ff7d323f8a845fcabef64d1" alternative-text="Zucchini Zoodles with Ground Turkey Tomato Sauce"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1053" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="176a52afbbff9613ea1a02bcc5f3b25e" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1054" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>This easy recipe only takes about 10 minutes to make – start to finish – and it's both delicious and nutritious.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1055" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>This easy recipe only takes about 10 minutes to make – start to finish – and it's both delicious and nutritious.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1056" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>
+              <emphasize>Serves 4</emphasize>
+            </paragraph>
+            <paragraph>Note: if you are not following a low FODMAP diet, feel free to add onions and garlic to this recipe for added flavor.</paragraph>
+            <section>
+              <section>
+                <header>INGREDIENTS</header>
+                <ul>
+                  <li>
+                    <paragraph>1 package ground turkey (about 1+ lb)</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Olive oil</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 14-ounce can organic fire roasted tomatoes</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Salt and pepper, to taste</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Seasoning of your choice, such as a dried Italian herb mix, to taste</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>4 medium zucchini, spiralized</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>For garnish, freshly grated Parmesan cheese and a drizzle of *basil olive oil (*see note below)</paragraph>
+                  </li>
+                </ul>
+                <header>PREPARATION</header>
+                <ol>
+                  <li>
+                    <paragraph>Add a drizzle or two of olive oil to a large and heat on medium-high (other oils that are wonderful drizzled over to finish this dish are truffle oil, lemon oil, or any non-flavored high-quality olive oil). Add ground turkey and cook, breaking up the meat with a spatula, until browned, about 3 to 4 minutes. Season to taste with salt, pepper, and Italian herbs. Transfer to a serving bowl and set aside.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Add a bit more olive oil to the skillet (if necessary) and toss in the zucchini zoodles. Cook, tossing frequently, until softened, about 3-5 minutes depending on how cooked you'd like them (I like them still a bit tender, which is a cook time of about 3 minutes).  Transfer to the serving bowl and gently toss with the tomato meat sauce.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Plate and top each serving with freshly grated Parmesan cheese and a drizzle of oil.</paragraph>
+                  </li>
+                </ol>
+                <paragraph>
+                  <emphasize>Recipe credit: <link href="http://www.foodista.com/user/44">Sheri Wetherell</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                  <line/>
+                  <line/>
+                  <emphasize>
+                    <emphasize>Photo credit: <emphasize><link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize></emphasize>
+                  </emphasize>
+                  <line/>
+                </paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1057" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">
+          <value>10</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1058" ezremote:identifier="serving_calories" name="Calories (per serving)" type="ezinteger">
+          <value>280</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1059" ezremote:identifier="serving_fat" name="Fat (per serving)" type="ezinteger">
+          <value>15</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1060" ezremote:identifier="serving_carbohydrates" name="Carbohydrates (per serving)" type="ezinteger">
+          <value>18</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1061" ezremote:identifier="serving_protein" name="Protein (per serving)" type="ezinteger">
+          <value>19</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1062" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1063" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1064" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>38</id-string>
+          <keyword-string>Health</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1065" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>39|#41|#44</id-string>
+          <keyword-string>Eating|#Cooking|#Lowcarb</keyword-string>
+          <parent-string>36|#36|#36</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1066" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1067" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1068" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1069" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-744" name="Zucchini Zoodles with Ground Turkey Tomato Sauce" node-id="134" remote-id="media-n-771" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

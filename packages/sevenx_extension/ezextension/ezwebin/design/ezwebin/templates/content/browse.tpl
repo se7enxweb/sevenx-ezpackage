@@ -34,10 +34,10 @@
 {def $current_node=fetch( content, node, hash( node_id, $browse.start_node ) )}
 {if $browse.start_node|gt( 1 )}
     <h2 class="context-title">
-    <a href={concat( '/content/browse/', $main_node.parent_node_id, '/' )|ezurl}><img src={'back-button-16x16.gif'|ezimage} alt="{'Back'|i18n( 'design/ezwebin/content/browse' )}" /></a>
+    <a href={concat( '/content/browse/', $main_node.parent_node_id, '/' )|ezurl}><img src={'back-button-16x16.gif'|ezimage} alt="{'Back'|i18n( 'design/ezwebin/content/browse' )}"></a>
     {$current_node.name|wash}&nbsp;[{$current_node.children_count}]</h2>
 {else}
-    <h2 class="context-title"><img src={'back-button-16x16.gif'|ezimage} alt="Back" />&nbsp;{'Top level'|i18n( 'design/ezwebin/content/browse' )}&nbsp;[{$current_node.children_count}]</h2>
+    <h2 class="context-title"><img src={'back-button-16x16.gif'|ezimage} alt="Back">&nbsp;{'Top level'|i18n( 'design/ezwebin/content/browse' )}&nbsp;[{$current_node.children_count}]</h2>
 {/if}
 
 {include uri='design:content/browse_mode_list.tpl'}
@@ -52,22 +52,22 @@
 
 {if $browse.persistent_data|count()}
 {foreach $browse.persistent_data as $key => $data_item}
-    <input type="hidden" name="{$key|wash}" value="{$data_item|wash}" />
+    <input type="hidden" name="{$key|wash}" value="{$data_item|wash}">
 {/foreach}
 {/if}
 
-<input type="hidden" name="BrowseActionName" value="{$browse.action_name}" />
+<input type="hidden" name="BrowseActionName" value="{$browse.action_name}">
 {if $browse.browse_custom_action}
-<input type="hidden" name="{$browse.browse_custom_action.name}" value="{$browse.browse_custom_action.value}" />
+<input type="hidden" name="{$browse.browse_custom_action.name}" value="{$browse.browse_custom_action.value}">
 {/if}
 
-        <input class="button" type="submit" name="SelectButton" value="{'Select'|i18n('design/ezwebin/content/browse')}" />
+        <input class="button" type="submit" name="SelectButton" value="{'Select'|i18n('design/ezwebin/content/browse')}">
 
 
 {if $cancel_action}
-<input type="hidden" name="BrowseCancelURI" value="{$cancel_action|wash}" />
+<input type="hidden" name="BrowseCancelURI" value="{$cancel_action|wash}">
 {/if}
- <input class="button" type="submit" name="BrowseCancelButton" value="{'Cancel'|i18n( 'design/ezwebin/content/browse' )}" />
+ <input class="button" type="submit" name="BrowseCancelButton" value="{'Cancel'|i18n( 'design/ezwebin/content/browse' )}">
 </form>
 
 </div>

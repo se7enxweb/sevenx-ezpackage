@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="955" name="The BiPolar Learning Curve" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Mon, 23 Jul 2018 11:02:45 GMT" ezremote:modified="Thu, 24 Sep 2020 08:29:45 GMT" remote_id="media-o-955" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="9">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="9" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:29:35 GMT" ezremote:modified="Thu, 24 Sep 2020 08:29:45 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="The BiPolar Learning Curve">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23467" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>The BiPolar Learning Curve</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23468" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24324" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23469" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23470" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="98f787e953f2c54e2fb1887c4a703726" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23471" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>People always forget about the nature of a learning curve.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23472" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="23473" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>If you’re relatively new to training or trying out something new, you’ve no doubt felt really excited to get started. Everything is new and wonderful, you’re motivated, you want to get to work quickly and reach your goals…like…yesterday… <default:emphasis>This time things are going to be different!</default:emphasis></default:para>
+            <default:para>You may or may not have felt this wave of excitement multiple times. I have.</default:para>
+            <default:para>Maybe you’ve yet to truly establish a good routine, or maybe you’ve fallen off the horse so many times you’re really demotivated, you’re just in need of some inspiration. Something new, a little self-pep talk, always leads to a little bit of renewed focus.</default:para>
+            <default:para>
+              <default:emphasis>Yet, what continually happens when that initial enthusiasm wanes?</default:emphasis>
+            </default:para>
+            <default:para>After the first few weeks of building some momentum it’s not uncommon to feel stuck, stagnant or otherwise unsure of where you’re going and what you’re doing. If you’re like a lot of people, enthusiasm wanes and you fall off the wagon. Maybe for a long period of time, maybe only for a week or two, until you can build up a little more inspiration.</default:para>
+            <default:para>
+              <default:emphasis>Tell me if this sounds familiar…</default:emphasis>
+            </default:para>
+            <default:para>This is a cyclical hump that everyone will come to at some point in their training experience. I’ve hit it many times. Here’s how you can break the cycle.</default:para>
+            <default:title ezxhtml:level="2">The BiPolar Learning Curve</default:title>
+            <default:ezembed xlink:href="ezcontent://323" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="left">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>I see it regularly in my work because it happens to pretty much everyone, so much so, they have a name for it: The BiPolar Learning Curve.</default:para>
+            <default:para>See when you take on something new, there is often an initial interest; You grasp some basic concepts; Feel good about the process and then you hit a point in time when results slow, learning slows, maybe you’re not getting to where you want to be fast enough and interest is lost.</default:para>
+            <default:para>Previously you’ve probably had a few weeks of crushing it, things were going awesome.</default:para>
+            <default:para>Human psychology can tolerate just about anything for 2-3 weeks, and your physiology isn’t far behind outside of complete starvation or masochistic exercise routines.</default:para>
+            <default:para>Up until this point, your physiology hasn’t made any traumatic shifts, so you don’t yet feel starved by your diet or completely worn out by your exercise schedule either, but you’re probably starting to.</default:para>
+            <default:para>You may have noticed some quick improvements with load or reps on the exercises you’re doing. Maybe your scale weight dropped a bit the first week but has made it’s way up slowly over the past couple — <default:emphasis>the opposite of what you wanted!</default:emphasis> — so the water retention most beginners tend to experience in the first month is now demotivating you.</default:para>
+            <default:para>Or maybe you’re chasing some muscle mass gains and that water retention seemed awesome the first three or four weeks but now your scale weight is starting to drop again. Oh my!</default:para>
+            <default:para>You may even be feeling flat out bored with the routine, maybe you need something new, maybe you don’t. Shiny and new is always better to the human psyche and people are just as guilty of jumping ship too early on an exercise routine as they are of not switching things up at all.</default:para>
+            <default:para>Typically about 2-6 weeks in (depending on the person) we tend to reach what I like to call the <default:emphasis>“I Give Up”</default:emphasis>point. It really just represents the downward trend you’re about to experience.</default:para>
+            <default:para>In the last few days, maybe a week, you start to notice the downward cycle, a physical change in the opposite direction you want to go, a loss of motivation, a loss of confidence, maybe even a loss in ability (<default:emphasis>more on that later</default:emphasis>). Things were going so well!</default:para>
+            <default:para>Doubt sets in. Imposter syndrome sets in. You start telling yourself that there are other things you’d rather be doing with your time. Maybe the scale didn’t move as much as you’d have hoped, you’re not seeing a ton of muscle on your frame or the girth measurements don’t seem to have changed much.</default:para>
+            <default:para>Physiology works slowly, so slowly if you don’t know what to expect it’s no wonder you’re demotivated, but getting over that first hump is a key element to success.</default:para>
+            <default:para>Typically to get to a level of proficiency you have to push through <default:link xlink:href="ezurl://163" xlink:show="none">a period of discomfort</default:link> with a little more effort than usual. Most of us don’t even have to try that hard at first because the room for improvement is so great.</default:para>
+            <default:para>When you hit your hump, you actually have to double down for at least a few more days, maybe a few weeks before you can reach your inflection point and get back on your path to proficiency. This happens cyclically most of the time. You’ll see a period of tremendous growth, things level off and you’re stuck scratching your head.</default:para>
+            <default:para>The sad reality is that the better you get at exercise (or eating) the harder and harder results are to come by. We all arrive at maintenance periods eventually.</default:para>
+            <default:para>That inflection point is really the point in training that I’m striving to hit with all of my clients. Sometimes they get it in the first few months, sometimes I’ll admit it’s taken years. It’s something you have to experience and it plays out how it plays out. The grind can be longer for some than others as well.</default:para>
+            <default:para>
+              <default:emphasis>Why am I telling you all this?</default:emphasis>
+            </default:para>
+            <default:title ezxhtml:level="2">Hope</default:title>
+            <default:para>One of the principle reasons for this downward cycle is a lack of hope. We lose motivation when we feel we have no hope in achieving something we want to achieve. Without hope, motivation cannot exist. Without motivation we see effort as futile.</default:para>
+            <default:para>There are other physiological reasons as well but a great deal of this process is the psychological element. This learning curve applies to nearly everything and anything you want to learn and get good at but it especially applies to fitness and nutrition objectives.</default:para>
+            <default:para>The changes we create to our bodies actually happen fairly slowly. We lose weight at maybe 1-2 lbs a week and we gain the good muscle mass at maybe half that. Who wants to punish themselves for three months just to lose a measly 10 lbs? Well the answer to that of course, is no one. That’s why you have to make the process less punitive and more self discovery.</default:para>
+            <default:eztemplate name="quote" ezxhtml:align="center">
+              <default:ezcontent>
+                <default:para>You don’t have to punish yourself with diet and exercise to see a good result, you just have to be smart about your approach.</default:para>
+              </default:ezcontent>
+              <default:ezconfig>
+                <default:ezvalue key="author"/>
+              </default:ezconfig>
+            </default:eztemplate>
+            <default:para>Yes, accumulated fatigue from your workouts has probably started to set in, depending on how extreme you’ve gone. Hunger and other sensations that fight to keep your weight/fat/lean mass consistent have also kicked in by now, depending on how intense the energy or macronutrient deficit you’ve created. These physiological symptoms, can make the psychological element seem even worse but maintaining a <default:link xlink:href="ezurl://164" xlink:show="none">growth mindset</default:link> is key long term.</default:para>
+            <default:para>There are no life hacks that are going to fully prepare you for this or help you avoid it entirely. You must experience it and discover what works for you. You don’t have to give up everything you love but there may be some trade offs in the short and long term. You may even find yourself not particularly interested in things you used be obsessed about (chocolate for me…).</default:para>
+            <default:para>Everyone has their own unique journey to experience. You have to keep a positive outlook, prepare for adversity, push through the rough times and ride the waves of success when you’re experiencing it, you will look back and feel really good about the experience. As my father once said, “there is no satisfaction in easy.”</default:para>
+            <default:para>However, one thing research does tell us is that is that creating realistic expectations in advance of a pursuit can temper our expectations. We all have different hurdles to jump over but the one thing that connects us all is the fact that we will all experience set backs.</default:para>
+            <default:para>People who expect hurdles embrace the struggle and clear them. People who go into the process expecting it to be easy as pie never clear the hurdles because they are not prepared to put in the effort.</default:para>
+            <default:para>Overconfidence is human nature. We often expect the process to be smooth and painless. I’m telling you this to prepare you for the fact that it won’t be. I can’t prepare you for the grind itself, that’s something you have to experience but without doubt you will face a roadblock at some point.</default:para>
+            <default:para>We all do.</default:para>
+            <default:para>Now what are you going to do about it?</default:para>
+            <default:title ezxhtml:level="2">Pro-Tip:</default:title>
+            <default:para>Always start — <default:emphasis>and do your best to plan around</default:emphasis> — with the expectation that you will run into trouble at some point. If you can, try to anticipate problems before they occur — <default:emphasis>rely on previous hiccups you’ve experienced</default:emphasis> — and try to come up with solutions <default:emphasis>before</default:emphasis> you experiences those set backs. Being prepared with a few viable solutions before you find yourself in hot water, will smooth out the journey.</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis><default:emphasis>Article credit: <default:link xlink:href="ezurl://104" xlink:show="none">Skill Based Fitness</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis></default:emphasis>
+<default:emphasis><default:emphasis>Cover photo: <default:link xlink:href="ezurl://316" xlink:show="none">Victor Freitas</default:link></default:emphasis></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23475" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23476" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23841" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23477" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23872" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23479" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23480" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="The BiPolar Learning Curve" node-id="726" remote-id="media-n-726" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="139" name="Sweet Potatoes with Cranberries and Pineapple" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="52" ezremote:published="Mon, 13 Aug 2018 07:45:47 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:33 GMT" remote_id="media-o-1017" class_remote_id="67c57c234691153c902f0bb5be0e4eaa" ezremote:class_identifier="ng_recipe" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:50:02 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:33 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Sweet Potatoes with Cranberries and Pineapple">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1196" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Sweet Potatoes with Cranberries and Pineapple</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1197" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Sweet Potatoes with Cranberries and Pineapple</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1198" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1199" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="729e7769bfcc597098e19a30e066e61c" alternative-text="Sweet Potatoes with Cranberries and Pineapple"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1200" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="5a6bb7d68cdce4167673e4e470f997bb" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1201" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Add a colorful and tasty zing to your sweet potatoes by adding cranberries and pineapple. They compliment and accent the natural sweetness while also adding a tangy dimension.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1202" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Add a colorful and tasty zing to your sweet potatoes by adding cranberries and pineapple. They compliment and accent the natural sweetness while also adding a tangy dimension.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1203" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <section>
+                <header>INGREDIENTS</header>
+                <ul>
+                  <li>
+                    <paragraph>4 to 5 large sweet potatoes or yams</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>4 tablespoons butter</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>¼ cup milk</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>¼ teaspoon salt, or to taste</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1/8 teaspoon pepper, or to taste</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 teaspoon nutmeg, or to taste</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>½ teaspoon cinnamon, or to taste</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>15 ounces whole berry cranberry sauce</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>1 small can of crushed pineapples, undrained</paragraph>
+                  </li>
+                </ul>
+                <header>PREPARATION</header>
+                <ol>
+                  <li>
+                    <paragraph>Peel the sweet potatoes and chop into 1 to 2 inch thick slices. Place in a large stock pot and fill with water until potatoes are completely submerged and are able to float with about ½ inch of room.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Boil over high heat until potatoes are tender, approximately 30 minutes.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Once tender, drain potatoes and place in a large mixing bowl. Add butter or margarine, milk, and season with salt and pepper. Whip the potatoes for one to two minutes until butter is well mixed.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Add nutmeg and cinnamon and whip potatoes until smooth and creamy.</paragraph>
+                  </li>
+                  <li>
+                    <paragraph>Stir in cranberries and crushed pineapple.</paragraph>
+                  </li>
+                </ol>
+                <paragraph>
+                  <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                  <line/>
+                  <line/>
+                  <emphasize>Photo credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                  <line/>
+                </paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1204" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">
+          <value>45</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1205" ezremote:identifier="serving_calories" name="Calories (per serving)" type="ezinteger">
+          <value>537</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1206" ezremote:identifier="serving_fat" name="Fat (per serving)" type="ezinteger">
+          <value>21</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1207" ezremote:identifier="serving_carbohydrates" name="Carbohydrates (per serving)" type="ezinteger">
+          <value>84</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1208" ezremote:identifier="serving_protein" name="Protein (per serving)" type="ezinteger">
+          <value>3</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1209" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1210" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1211" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1212" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>86|#74|#66|#89</id-string>
+          <keyword-string>Cooking|#Eating|#Health|#Homemade</keyword-string>
+          <parent-string>0|#0|#0|#0</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1213" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1214" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1215" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1216" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-744" name="Sweet Potatoes with Cranberries and Pineapple" node-id="141" remote-id="media-n-784" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

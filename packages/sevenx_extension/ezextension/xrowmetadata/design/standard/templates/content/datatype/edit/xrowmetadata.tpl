@@ -96,6 +96,84 @@
             <label>{'Canonical Link (starts with protocol https)'|i18n( 'design/standard/class/datatype' )}:</label>
             <input id="ezcoa-{if ne( $attribute_base, 'ContentObjectAttribute' )}{$attribute_base}-{/if}{$attribute.contentclassattribute_id}_{$attribute.contentclass_attribute_identifier}_keywords" class="box ezcc-{$attribute.object.content_class.identifier} ezcca-{$attribute.object.content_class.identifier}_{$attribute.contentclass_attribute_identifier}" type="url" name="{$attribute_base}_xrowmetadata_data_array_{$attribute.id}[canonical_url]" size="100" maxsize="1055" value="{$attribute.content.canonical_url|wash()}" />
         </div>
+
+        {def $mt_og_object = false()}
+        {if and($attribute.data_int, $attribute.data_int|gt(0))}
+            {set $mt_og_object = fetch('content','object',hash('id',$attribute.data_int))}
+        {/if}
+        {def $mt_image_attr = false()}
+        {def $mt_image_path = ''}
+        {if $mt_og_object}
+            {if $mt_og_object.data_map.site_opengraph_image}{set $mt_image_attr = $mt_og_object.data_map.site_opengraph_image}{/if}
+            {if and(not($mt_image_attr), $mt_og_object.data_map.image)}{set $mt_image_attr = $mt_og_object.data_map.image}{/if}
+            {if and(not($mt_image_attr), $mt_og_object.data_map.site_logo)}{set $mt_image_attr = $mt_og_object.data_map.site_logo}{/if}
+            {if and(not($mt_image_attr), $mt_og_object.data_map.file)}{set $mt_image_attr = $mt_og_object.data_map.file}{/if}
+            {if $mt_image_attr}
+                {if eq($mt_image_attr.data_type_string, 'ezimage')}
+                    {set $mt_image_path = $mt_image_attr.content.original.full_path}
+                {elseif eq($mt_image_attr.data_type_string, 'ezbinaryfile')}
+                    {set $mt_image_path = $mt_image_attr.content.filepath}
+                {/if}
+            {/if}
+        {/if}
+        <div class="element" id="ezobjectrelation_browse_{$attribute.id}">
+            <label>{'Open Graph image'|i18n( 'design/standard/class/datatype' )}:</label>
+            <table class="list" cellspacing="0">
+            <thead>
+            <tr>
+                <th>{'Name'|i18n( 'design/standard/content/datatype' )}</th>
+                <th>{'Type'|i18n( 'design/standard/content/datatype' )}</th>
+                <th>{'Section'|i18n( 'design/standard/content/datatype' )}</th>
+                <th>{'Published'|i18n( 'design/standard/content/datatype' )}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="bglight">
+            {if $mt_og_object}
+                <td>
+                    {$mt_og_object.name|wash()}
+                    {if $mt_image_path|ne('')}
+                        <br /><img src="{concat('/', $mt_image_path)}" alt="{$mt_og_object.name|wash()}" style="max-width:200px; max-height:100px;" />
+                    {/if}
+                </td>
+                <td>{if $mt_image_attr}{$mt_image_attr.data_type_string|wash()}{else}{$mt_og_object.class_name|wash()}{/if}</td>
+                <td>{fetch(section, object, hash(section_id, $mt_og_object.section_id)).name|wash}</td>
+                <td>{if $mt_og_object.status|ne(1)}{'No'|i18n( 'design/standard/content/datatype' )}{else}{'Yes'|i18n( 'design/standard/content/datatype' )}{/if}</td>
+            {else}
+                <td>--name--</td>
+                <td>--class-name--</td>
+                <td>--section-name--</td>
+                <td>--published--</td>
+            {/if}
+            </tr>
+            </tbody>
+            </table>
+            {if not($mt_og_object)}
+                <p class="ezobject-relation-no-relation">{'There are no related object.'|i18n( 'design/standard/content/datatype' )}</p>
+            {/if}
+            <input type="hidden" name="{$attribute_base}_data_object_relation_id_{$attribute.id}" value="{$attribute.data_int|wash()}" />
+            {if $mt_og_object}
+                <input class="button ezobject-relation-remove-button" type="submit" name="CustomActionButton[{$attribute.id}_remove_object]" value="{'Remove object'|i18n( 'design/standard/content/datatype' )}" />
+            {else}
+                <input class="button ezobject-relation-add-button" type="submit" name="CustomActionButton[{$attribute.id}_browse_object]" value="{'Add an existing object'|i18n( 'design/standard/content/datatype' )}" title="{'Browse to add an existing object in this relation'|i18n( 'design/standard/content/datatype' )}" />
+            {/if}
+        </div>
+        <div class="element">
+            <label>{'Open Graph image width'|i18n( 'design/standard/class/datatype' )}:</label>
+            <input class="box" type="number" min="0" name="{$attribute_base}_xrowmetadata_data_array_{$attribute.id}[og_image_width]" size="10" value="{$attribute.content.og_image_width|wash()}" />
+        </div>
+        <div class="element">
+            <label>{'Open Graph image height'|i18n( 'design/standard/class/datatype' )}:</label>
+            <input class="box" type="number" min="0" name="{$attribute_base}_xrowmetadata_data_array_{$attribute.id}[og_image_height]" size="10" value="{$attribute.content.og_image_height|wash()}" />
+        </div>
+        <div class="element">
+            <label>{'Open Graph image alt'|i18n( 'design/standard/class/datatype' )}:</label>
+            <input class="box" type="text" name="{$attribute_base}_xrowmetadata_data_array_{$attribute.id}[og_image_alt]" size="100" value="{$attribute.content.og_image_alt|wash()}" />
+        </div>
+        <div class="element">
+            <label>{'Open Graph image type'|i18n( 'design/standard/class/datatype' )}:</label>
+            <input class="box" type="text" name="{$attribute_base}_xrowmetadata_data_array_{$attribute.id}[og_image_type]" size="100" value="{$attribute.content.og_image_type|wash()}" />
+        </div>
     </div>
 
 </div>

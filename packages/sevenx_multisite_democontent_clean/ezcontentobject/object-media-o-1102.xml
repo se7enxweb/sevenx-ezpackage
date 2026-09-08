@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="1102" name="Eat, Fast and Refeed Mindfully: Mindful Eating May Boost Metabolic Health" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Wed, 22 Aug 2018 15:12:57 GMT" ezremote:modified="Thu, 24 Sep 2020 08:42:47 GMT" remote_id="media-o-1102" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:version="5" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:42:38 GMT" ezremote:modified="Thu, 24 Sep 2020 08:42:47 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" language="eng-US" object_name="Eat, Fast and Refeed Mindfully: Mindful Eating May Boost Metabolic Health">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25334" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Eat, Fast and Refeed Mindfully: Mindful Eating May Boost Metabolic Health</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25335" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25336" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25337" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25338" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="9c75e4fe025d042acdc8875b06a1b98a" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25339" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Have you ever waited for a child to finish a meal and found yourself wishing they would eat just a bit quicker? Watching children eat can sometimes feel like watching molasses flow from a jar into your plate of biscuits. But there is one lesson we can take from how children eat that could help many of us better manage our weight, metabolic health and relationship with food: Eat more slowly.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25340" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="25341" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Mindful and intuitive eating are trends in the nutrition and wellness space that take this lesson to heart. You might have heard of mindfulness if you’ve ever downloaded a meditation app or practiced yoga. Mindfulness is the practice of being present, in the moment. Practicing mindfulness involves focusing all of your thoughts and mental energy on your immediate experience, letting your feelings and experiences wash over you without judging yourself for wandering thoughts. Researchers today are exploring various types of mindfulness practice to help manage pain, stress, depression, and yes, even negative relationships to food. Our poor relationships to food manifest themselves in binge eating, emotional eating and other disordered eating patterns.</default:para>
+            <default:para>Excessive body weight has become one of the most pressing public health issues of our time. Being overweight <default:link xlink:href="ezurl://207" xlink:show="new">increases your risk of developing many metabolic diseases and diseases associated with aging</default:link>, including diabetes, hypertension, high cholesterol, cardiovascular disease, stroke, arthritis and certain cancers. According to the 2015–2016 National Health and Nutrition Examination Study (NHANES), nearly 40% of U.S. adults are obese. This percentage has also increased over time.</default:para>
+            <default:para>Maintaining a healthy weight is hard work for many of us. A healthy weight is more accessible to those who can and do <default:link xlink:href="ezurl://208" xlink:show="new">eat balanced meals with plenty of fruits and vegetables</default:link>, <default:link xlink:href="ezurl://209" xlink:show="new">move or exercise daily</default:link> and sleep the recommended <default:link xlink:href="ezurl://210" xlink:show="new">7 to 9 hours per night</default:link>. But some of us deal with <default:link xlink:href="ezurl://211" xlink:show="new">chronic stress</default:link>, <default:link xlink:href="ezurl://212" xlink:show="new">poor eating habits</default:link>and <default:link xlink:href="ezurl://213" xlink:show="new">eating disorders</default:link> that can make it very difficult to maintain a healthy weight and a healthy relationship with food.</default:para>
+            <default:para>
+              <default:emphasis>“Problematic food and eating behaviors, for example binge and emotional eating, have been characterized in obesity. In mindfulness, an individual observes their immediate experience using an open and non-judgmental stance.” — <default:link xlink:href="ezurl://214" xlink:show="new">Warren, Smith &amp; Ashwell, 2018</default:link></default:emphasis>
+            </default:para>
+            <default:ezembed xlink:href="ezcontent://327" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>Eating disorders can often require seeking treatment from a specialist, as some disordered eating patterns can have serious health implications. However, many individuals who don’t have diagnosed eating disorders still have poor relationships with food that can ultimately impact their health. For example, <default:link xlink:href="ezurl://213" xlink:show="new">binge eating</default:link>, <default:link xlink:href="ezurl://215" xlink:show="new">emotional eating</default:link> and eating in response to non-physical cues or <default:link xlink:href="ezurl://216" xlink:show="new">food cravings</default:link> (you know what this feels like if you’ve ever craved sweets or wanted to eat just because something looked or smelled good, even if you weren’t hungry) have been linked to weight gain.</default:para>
+            <default:para>
+              <default:emphasis>“Findings suggest that in the management of binge eating, the ability to eat mindfully is a key technique.” — <default:link xlink:href="ezurl://214" xlink:show="new">Warren, Smith &amp; Ashwell, 2018</default:link></default:emphasis>
+            </default:para>
+            <default:para>Binge eating is the consumption of large amounts of food and loss of control over eating. It is <default:link xlink:href="ezurl://217" xlink:show="new">closely linked with obesity and obesity behaviors</default:link>. Emotional eating is the consumption of food in response to emotional arousal. If you’ve ever eaten to suppress negative feelings (the classic crying in front of the TV with a bowl of ice cream), you know what emotional eating feels like. <default:link xlink:href="ezurl://218" xlink:show="new">Emotional eating is linked with poor diet, greater intake of energy-dense, sweet and high-fat snacks and lower intake of fruits and vegetables</default:link>.</default:para>
+            <default:para>
+              <default:emphasis>“Food cravings have been shown to lead to obsessive thoughts about food and impulsive consumption of craved foods in some individuals, which increases the risk for weight gain.” — <default:link xlink:href="ezurl://218#R18" xlink:show="new">O’Reilly et al., 2015</default:link>.</default:emphasis>
+            </default:para>
+            <default:para>Physicians have traditionally been poorly equipped to help their patients with unhealthy or disordered eating patterns. Binge eating, emotional eating and food cravings are not commonly addressed in weight loss programs and interventions. Physicians rarely offer specific nutritional advice or healthy eating plans, and unfortunately relatively few people actively seek out the help of nutritionists and <default:link xlink:href="ezurl://219" xlink:show="new">registered dietitians</default:link>.</default:para>
+            <default:para>But in reaction to modern cultural trends toward sedentary lifestyles, processed foods and eating-on-the-go, researchers and health-conscious individuals alike have turned to relatively simple interventions that can foster better relationships with food, including intermittent fasting and mindful eating. These interventions can be practiced by almost anyone, promote a more intuitive approach to feeding our bodies, and may naturally restrict incoming calories.</default:para>
+            <default:para>
+              <default:emphasis>“Mindful eating consists of making conscious food choices, developing an awareness of physical versus psychological hunger and satiety cues, and eating healthfully in response to those cues. It is conceptualized as being aware of the present moment when one is eating, paying close attention to the effect of the food on the senses, and noting the physical and emotional sensations in response to eating.” — <default:link xlink:href="ezurl://214" xlink:show="new">Warren, Smith &amp; Ashwell, 2018</default:link></default:emphasis>
+            </default:para>
+            <default:ezembed xlink:href="ezcontent://328" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:title ezxhtml:level="2">Eating Intuitively and Mindfully, for Metabolic &amp; Psychological Health</default:title>
+            <default:para>Intuitive eating, coined in 1995, encourages a heightened awareness of physical hunger and a simple, consistent approach to healthy eating. Eating intuitively means staying away from “diets” and so-called yo-yo dieting patterns. Intuitive eating embraces the idea that no foods are “bad” but rather should be approached with moderation. Intuitive eating has been associated with <default:link xlink:href="ezurl://220" xlink:show="new">decreased BMI</default:link>, <default:link xlink:href="ezurl://220" xlink:show="new">decreased risk of cardiovascular disease</default:link>, <default:link xlink:href="ezurl://221" xlink:show="new">greater awareness of physical hunger cues</default:link> and <default:link xlink:href="ezurl://222" xlink:show="new">increased sense of pleasure associated with food</default:link>.</default:para>
+            <default:para>The addition of meditation to intuitive eating strategies has recently exploded, resulting in a range of <default:emphasis>mindful eating </default:emphasis>training programs, therapies and research studies. Mindful eating interventions have been shown to have positive effects on binge eating, emotional eating and other eating disorders. It has also been shown to have some positive if small effects on obesity and obesity-related behaviors. In a structured review of 68 peer-reviewed scientific papers, including both observational and interventional studies, Janet Warren and colleagues in the UK found that mindful eating is generally positively associated with <default:link xlink:href="ezurl://223" xlink:show="new">decreased emotional eating</default:link>, <default:link xlink:href="ezurl://224" xlink:show="new">decreased BMI</default:link>, <default:link xlink:href="ezurl://225" xlink:show="new">selecting smaller portions of energy-dense food</default:link>, <default:link xlink:href="ezurl://226" xlink:show="new">decreased binge eating</default:link>, <default:link xlink:href="ezurl://227" xlink:show="new">reduced cravings</default:link> and <default:link xlink:href="ezurl://228" xlink:show="new">mental well-being</default:link>.</default:para>
+            <default:para>In one study consisting of a self-reported survey of 171 South Australian adults, <default:link xlink:href="ezurl://225" xlink:show="new">participants who reported higher levels of everyday mindfulness were more mindful eaters and reported smaller serving sizes of energy dense foods</default:link>(r = −.25, p &lt; 0.05). In another observational study, researchers found that <default:link xlink:href="ezurl://229" xlink:show="new">while psychological distress is positively associated with emotional eating, mindfulness is negatively associated with emotional eating</default:link>. While many of us misperceive our emotions as hunger, <default:link xlink:href="ezurl://230" xlink:show="new">practicing mindfulness can help us be more aware of the of the source of our hunger cues</default:link>.</default:para>
+            <default:para>In a <default:link xlink:href="ezurl://231" xlink:show="new">2011 clinical study of stress eating</default:link>, improvements in mindfulness, chronic stress and cortisol responses resulting from a 4-month mindfulness training program were associated with reductions in abdominal fat. In that study, participants went through guided meditations to practice paying attention to their physical sensations of hunger, stomach fullness, taste satisfaction and food cravings, to practice identifying their emotional eating triggers, and to practice self-acceptance and inner wisdom.</default:para>
+            <default:para><default:link xlink:href="ezurl://232" xlink:show="new">Brain imaging studies</default:link> have even revealed that individuals practicing mindfulness have reduced activity in the <default:link xlink:href="ezurl://233" xlink:show="new">anterior cingulated cortex</default:link>, a brain region that helps us process emotion and control impulses. Mindful eating interventions have been found especially effective in terms of <default:link xlink:href="ezurl://234" xlink:show="new">reducing binge eating</default:link> and emotional eating symptoms.</default:para>
+            <default:para>
+              <default:emphasis>“Mindful eating has been shown to slow down consumption of a meal and allows both registration of feelings of fullness and greater control over eating. Additionally, a slower pace of eating reduces overall energy consumption as individuals feel full on a smaller quantity of food.” — <default:link xlink:href="ezurl://214" xlink:show="new">Warren, Smith &amp; Ashwell, 2018</default:link></default:emphasis>
+            </default:para>
+            <default:ezembed xlink:href="ezcontent://329" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>It’s unclear if mindfulness training can actually change dietary intake and promote more healthy food choices (although at least <default:link xlink:href="ezurl://235" xlink:show="new">one study found that a mindful eating intervention resulted in overweight participants pre-ordering healthier meals online for lunch</default:link>). But there is mounting evidence that mindful eating helps people develop more positive relationships with food and avoid non-physical hunger cues.</default:para>
+            <default:para>Most of the research studies around mindful eating impacts have been observational. However, several intervention-based studies using mindfulness training (such as the “body scan” commonly practiced during the “corpse” pose at the end of a yoga session) and mindful eating training have revealed <default:link xlink:href="ezurl://218" xlink:show="new">positive impacts on emotional eating, binge eating, eating restraint and weight loss</default:link>. We need more clinical trials involving mindful eating to flesh out whether and how mindful eating causally influences metabolic health.</default:para>
+            <default:para>
+              <default:emphasis>“Mindfulness interventions can create changes in physiological markers, most likely because of mindfulness-induced changes to eating habits rather than mindfulness per se having a direct effect on the physiological marker. This is an area of limited research.” — <default:link xlink:href="ezurl://214" xlink:show="new">Warren, Smith &amp; Ashwell, 2018</default:link></default:emphasis>
+            </default:para>
+            <default:ezembed xlink:href="ezcontent://330" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:title ezxhtml:level="2">What is Mindful Eating, and How Do I Practice It?</default:title>
+            <default:para>“Mindful eating is the process of reconnecting to the present moment through the process of eating,” says Neelam Harjani, a private yoga trainer and founder of <default:link xlink:href="ezurl://236" xlink:show="new">Inspire Yoga</default:link> operating in in Hong Kong. Neelam helps her clients link breathing and mindfulness techniques to their yoga practice and has also helped train people in mindful eating.</default:para>
+            <default:para>Mindful eating combines intuitive approaches to responding to hunger and eating cues with meditation or mindfulness-based stress reduction strategies. It involves mindfully attending to your eating experience — notice every detail of the smell, texture and taste of the food you are eating. Mindful eating is also <default:emphasis>slow </default:emphasis>and can include either guided or self-meditation focused on identifying the source or trigger of food cravings, managing food cravings, and focusing on feelings of hunger and satiety as they come.</default:para>
+            <default:para>
+              <default:emphasis>“Practicing mindful eating is basically slowing down to notice the sensory experience of the process — the aroma of the dish, the taste and how the texture changes as we chew, rather than racing to get through the meal. It’s reprogramming us to slow down and focus,” Neelam said. “The benefits range from stress management to portion control.”</default:emphasis>
+            </default:para>
+            <default:para>One idea behind mindful eating is that when we eat quickly and while distracted by other things, such as a TV program, a commute to work or a phone call, we often overeat. We can literally miss our body’s signals that we are satiated or full. If you’ve ever eaten so much that you are uncomfortable, you know this feeling. Think back to times that you stuffed yourself. Were you eating too quickly? Were you distracted? Were you emotional?</default:para>
+            <default:para>
+              <default:emphasis>“Mindful eating is conceptualized as being aware in the present moment when one is eating, paying close attention to the senses, including physical and emotional sensations.” — <default:link xlink:href="ezurl://224" xlink:show="new">Moor, Scott &amp; McIntosh, 2013</default:link></default:emphasis>
+            </default:para>
+            <default:title ezxhtml:level="2">The Mindful Raisin</default:title>
+            <default:para>Aclassic mindful eating training exercise is the “mindful raisin” exercise.</default:para>
+            <default:para>“If you happen to have a raisin or some dried fruit, you can try this at home,” says <default:link xlink:href="ezurl://237" xlink:show="new">JulieAnn Villa</default:link>, an MIT alum, science educator, health communicator and young cancer survivor. JulieAnn discovered mindfulness as part of a young cancer survivors program and mindfulness intervention study conducted by <default:link xlink:href="ezurl://238" xlink:show="new">Dr. David Victorson</default:link>, a clinical psychologist and mindfulness researcher at Northwestern.</default:para>
+            <default:para>“Pick up the raisin, close your eyes, and try to notice as a many thing about it as you can,” JulieAnn said. “Think about how many times you’ve eaten a raisin. You know what a raisin is. But if you close your eyes, you can taste the raisin, you can feel the raisin, and you can even <default:emphasis>hear</default:emphasis> the raisin in ways you probably haven’t before. Roll the raisin around between your fingers, and then taste it — try to notice everything about the taste, smell, texture and sensation of eating the raisin. That is mindfulness. It’s the idea that you are present with what is actually in front of you, in a non-judgmental, observational way.”</default:para>
+            <default:para>JulieAnn says that when she was going through her first cancer treatment, she tended to focus on the factual experience of it. But when she discovered mindfulness, she found herself better able to deal with but not be overcome with her emotions.</default:para>
+            <default:para>
+              <default:emphasis>“It turns out that if you don’t feel your emotions in the present, they just come back up later,” JulieAnn said. Whether it’s the stress and fear of managing a disease, or the impossible process of trying to ignore food cravings during weight loss, suppressing your emotions is usually counterproductive. Thoughts, emotions and cravings have a way of becoming stronger over time if you try to suppress them, rather than acknowledging them and then moving on.</default:emphasis>
+            </default:para>
+            <default:para>Mindful eating interventions often involve becoming more aware of your physical sensations, thoughts and feelings related to eating, accepting and not judging your body and your sensations, thoughts and feelings associated with food, and paying attention to your own eating habits and daily patterns in order to slowly change them.</default:para>
+            <default:ezembed xlink:href="ezcontent://331" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:title ezxhtml:level="2">Are you Eating Mindfully?</default:title>
+            <default:para>You can assess your own mindful eating skills by scoring yourself in a range of different mindful eating categories. These include awareness (Are you actively aware of how your food looks, tastes and smells?), distraction (Are you focusing on other things while eating?), disinhibition (Are you eating even though you aren’t hungry?), emotional response (Are you eating because you are stressed or sad?) and external cues (Why are you eating? Is it in response to an external cue such as an advertisement?).</default:para>
+            <default:para>“Mindfulness-Based Eating Awareness Training (MB-EAT), incorporates sitting and guided mindfulness practices to cultivate greater awareness of hunger and fullness cues, sensory-specific satiety, and emotional and other triggers for eating.” — <default:link xlink:href="ezurl://239" xlink:show="new">Jean Kristeller et al. 2014</default:link></default:para>
+            <default:para>The following is an example of a <default:link xlink:href="ezurl://240" xlink:show="new">mindful eating questionnaire</default:link>. If you answer yes to the following questions, you may want to look into mindful eating training — check out mindfulness trainings and yoga retreats near you.</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>I eat so quickly that I don’t taste what I’m eating.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>When I eat at “all you can eat” buffets, I tend to overeat.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>My thoughts tend to wander while I am eating.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>When I’m eating one of my favorite foods, I don’t recognize when I’ve had enough.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>If it doesn’t cost much more, I get the larger size food or drink regardless of how hungry I feel.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>If there are leftovers that I like, I take a second helping even though I’m full.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I snack without noticing that I am eating.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>When I’m feeling stressed, I’ll go find something to eat.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>When I’m sad, I eat to feel better.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I have trouble not eating ice cream, cookies, or chips if they’re around the house.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I think about things I need to do while I am eating.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I multi-task while I am eating.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>If you answer yes to the following questions, you are a more intuitive and mindful eater!</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>I trust my body to tell me when, what and how much to eat.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I recognize when food advertisements make me want to eat.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>When a restaurant portion is too large, I stop eating when I’m full.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I notice when there are subtle flavors in the foods I eat.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>When eating a pleasant meal, I notice if it makes me feel relaxed.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I stop eating when I’m full…even when eating something I love.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I appreciate the way my food looks on my plate.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I notice when foods and drinks are too sweet.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Before I eat I take a moment to appreciate the colors and smells of my food.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I taste every bite of food that I eat.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I notice when I’m eating from a dish of candy just because it’s there.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>When I’m at a restaurant, I can tell when the portion I’ve been served is too large for me.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>I notice when the food I eat affects my emotional state.</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:title ezxhtml:level="2">Tips to Eating Mindfully</default:title>
+            <default:para>Doyou want to <default:link xlink:href="ezurl://241" xlink:show="new">eat more mindfully</default:link>? Try eating in a setting where you feel relaxed, not distracted. Put down your smartphone while you eat, don’t eat with the TV on, but <default:emphasis>do</default:emphasis> eat with others. Try to eat a variety of colors — purple kale, green onions, orange squash, red peppers, blueberries — and pause to appreciate the colors on your plate before your start eating. Chew slowly and notice the flavors in your food — is the food salty? Savory? Sweet? Bitter? Spicy?</default:para>
+            <default:para>The more you practice mindfulness while you eat, the more likely you will be to eat only what you are hungry for, to pick healthier foods, to moderate when eating high-sugar or high-fat snacks and to feel good about the amount and quality of food you are eating. If you practice <default:link xlink:href="ezurl://242" xlink:show="new">intermittent fasting,</default:link> you might also try meditating through your initial hunger pains. Close your eyes, focus on your breathing, and observe your feelings of hunger in a non-judgmental way. Are you actually hungry, or is your mind just telling you that you are hungry because it’s “breakfast time”? Sometimes if you observe your hunger pains for just a few minutes past when you would normally grab something to eat, they will wash away as quickly as they came on.</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Article credit: <default:link xlink:href="ezurl://327" xlink:show="new">Paige Brown Jarreau</default:link> / <default:link xlink:href="ezurl://328" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Cover photo: <default:link xlink:href="ezurl://332" xlink:show="none">Ali Inay</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25343" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25344" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25345" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25346" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25347" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25349" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25350" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="Eat, Fast and Refeed Mindfully: Mindful Eating May Boost Metabolic Health" node-id="872" remote-id="media-n-872" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

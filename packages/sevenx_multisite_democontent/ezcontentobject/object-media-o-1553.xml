@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="199" name="What is different about Bold Agency?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="46" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Tue, 14 Feb 2023 19:43:37 GMT" remote_id="media-o-1553" class_remote_id="bdc2a54ae5074d9c18b8bc7349375d4e" ezremote:class_identifier="ng_accordion_item" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 14 Feb 2023 19:42:18 GMT" ezremote:modified="Tue, 14 Feb 2023 19:43:37 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="What is different about Bold Agency?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2128" ezremote:identifier="title" name="Meta Data" type="ezstring">
+          <text>What is different about Bold Agency?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2129" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>At Bold Agency, we pride ourselves on being different. We don't believe in the traditional agency model. We're a team of creative thinkers, doers, and problem-solvers who are passionate about promoting healthy life and helping our clients succeed. We're nimble, adaptable, and always looking for new and better ways to do things. We're also a lot of fun to work with!</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2130" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-1103" name="What is different about Bold Agency?" node-id="201" remote-id="media-n-1106" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

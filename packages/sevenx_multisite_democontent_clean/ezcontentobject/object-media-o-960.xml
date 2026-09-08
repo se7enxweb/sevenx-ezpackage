@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="960" name="Why Track Your Workouts?" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Mon, 23 Jul 2018 11:33:49 GMT" ezremote:modified="Thu, 24 Sep 2020 08:30:47 GMT" remote_id="media-o-960" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" active_version="8">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:version="8" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:30:38 GMT" ezremote:modified="Thu, 24 Sep 2020 08:30:47 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" language="eng-US" object_name="Why Track Your Workouts?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23526" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Why Track Your Workouts?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23527" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24333" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23528" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23529" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="2ca451cb62f0c5a96a3792d688ffe8a0" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="23530" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Of all the things I track, one of the most valuable are my workouts. Along with tracking your heart and your <default:link xlink:href="ezurl://151" xlink:show="none">sleep</default:link>, I believe tracking your workouts provides a lot of benefits.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="23531" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="23532" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Obviously getting to the gym or just doing your runs is better than sitting on the couch. Getting moving is the most important step, but if you want to be more efficient (or even data-driven), tracking your workouts is critical.</default:para>
+            <default:para>Personally, tracking was a big part of my journey from barely managing a 5k run to completing my first marathon. I found tracking my workouts to be helpful part of staying on the program and seeing my progress. From a data perspective I could look to my logs to see how much faster I got and how much more capable I was on longer runs.</default:para>
+            <default:para>But also in my workout log, I was keeping a journal. I recorded the high’s and low’s, the challenges and the achievements. My workout log also helped me realize my weakness and adjustment my plans accordingly. Mentally my workout journal was a way to think through the process. Overall, tracking my workouts has provided a multiplier to my fitness growth.</default:para>
+            <default:para>Before we dig into the how of workout tracking and some of the data you might use to understand your health and fitness in a later post, it’s important to first ask: Why? Why track your workouts?</default:para>
+            <default:title ezxhtml:level="2">Why You Should Track Your Workouts</default:title>
+            <default:para>Firstly, logging your workouts holds you <default:emphasis role="strong">accountable and honest</default:emphasis>. Your workout logs reveal either a positive pattern or a negative avoidance. You are doing the workouts and showing commitment or you are not.</default:para>
+            <default:para>Second, tracking your workouts make your <default:emphasis role="strong">purpose-driven and more efficient</default:emphasis>. Workouts need to have a goal or purpose. Whether it’s about getting strong or improving your endurance, a workout log is an important component to the planning, organizing, actualizing and understanding of your fitness and life goals. When you have a purpose and goal, your workouts become more efficient too. Each workout should be about improving something.</default:para>
+            <default:para>Third, tracking your workouts provides <default:emphasis role="strong">a clear measurement towards completing your goals</default:emphasis>. As the classic quote goes, if you don’t measure it, you can’t improvement. Whether it’s an endurance sport like cycling or running, weight lifting or just getting moving, tracking your workouts provides a portrait into the progress you are making towards running faster, cycling longer, lifting more or whatever.</default:para>
+            <default:para>Fourth, tracking your workouts <default:emphasis role="strong">summarizes your progress</default:emphasis> and lets your know exactly what you’ve done. Your logs tell your how long you ran and how fast. It tells your how much you lift and which exercises you did. It only counts if you show up. Your workout logs don’t lie.</default:para>
+            <default:para>Fifth, tracking your workouts isn’t just about the workout; it’s also about <default:emphasis role="strong">your story</default:emphasis>. You can track more than just the workout info. You can record how you felt, both positive and negative. It can be your fitness- or health-focus story and provide a form of self-talk too. I often log my workouts along with a short journal entry.</default:para>
+            <default:para>Sixth, tracking your workouts provides you with <default:emphasis role="strong">health data</default:emphasis>. The data you collect helps you check on your progress and understand how you are performing and improving. Whether it’s your active heart rate, intensity or weight lifting, your workout data provides a way to accelerate. your health and fitness improvements</default:para>
+            <default:title ezxhtml:level="2">Conclusion: Habits and Tracking</default:title>
+            <default:para>There are a lot of benefits to tracking your workouts. To summarize: you get accountability, honesty, purpose, measurements, a summary of progress and health data.</default:para>
+            <default:para>Whatever activity you do to stay active, you can track it to stay committed and leverage your tracked data to learn and optimize your fitness. Your workout log makes it black and white if you are staying healthy or not.</default:para>
+            <default:para>Personally I’m extremely dedicated to <default:link xlink:href="ezurl://152" xlink:show="none">tracking my life</default:link> and tracking my workouts is one of the key areas I continue to track. Workout tracking first started with <default:link xlink:href="ezurl://153" xlink:show="none">tracking my running sessions with RunKeeper</default:link>, but, as I got more into Marathon Training, Heart Rate Zones and <default:link xlink:href="ezurl://154" xlink:show="none">Heart Rate Variability</default:link>, my workout tracking expanded to cover tracking everything related to my training, including my running, cycling, strength training, swimming and even my mobility and stretching sessions.</default:para>
+            <default:para>The first aspect to improving your health and fitness is building a good habit. Doing the workouts matter more than tracking them.</default:para>
+            <default:para>As a rather obsessive self-tracker, tracking my workouts helps me reinforce a good habit and is part of the pre- and post-game to my fitness routine. Tracking my workouts also gives me a wealth of data for understanding where I am improving and where I have room for improvement.</default:para>
+            <default:para>Ultimately, the basic value of tracking your workouts is to know your health and improving your performance. As a data geek, I love obsessing about the data. Beyond the benefits of tracking, workout logs can bring numerous comparative data points, like how fast you can run at a certain heart rate or your max for weight lifting. Combining the data with research-validating training routines can help you make bigger and faster gains!</default:para>
+            <default:para>Good luck and happy tracking!</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis>Article credit: <default:link xlink:href="ezurl://115" xlink:show="none">Mark Koester</default:link> / <default:link xlink:href="ezurl://117" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis>Cover photo: <default:link xlink:href="ezurl://311" xlink:show="none">Andres Urena</default:link></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23534" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23535" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23846" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23536" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23877" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23538" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="23539" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Why Track Your Workouts?" node-id="731" remote-id="media-n-731" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

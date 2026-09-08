@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="90" name="Do Maximalist Running Shoes Reduce Impact Forces?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Wed, 22 Aug 2018 08:52:57 GMT" ezremote:modified="Thu, 24 Sep 2020 08:25:47 GMT" remote_id="media-o-1059" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:25:39 GMT" ezremote:modified="Thu, 24 Sep 2020 08:25:47 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Do Maximalist Running Shoes Reduce Impact Forces?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="588" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Do Maximalist Running Shoes Reduce Impact Forces?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="589" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text>Do Maximalist Running Shoes Reduce Impact Forces?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="590" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1056"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="591" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Do Maximalist Running Shoes Reduce Impact Forces?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="592" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="cc5f7173f29d3ac242b29ed981db55af" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="593" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="2aca55b647d066af9f8755c17d894a32" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="594" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Wed, 22 Aug 2018 08:49:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="595" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>One of the drawbacks of the scientific research process is that it is slow. It takes time to run experiments, write up results, and get those results published in a peer-reviewed journal. As a result, popular trends tend to take off before science has a chance to validate the beliefs that sparked those trends.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="596" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="597" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>We saw this process play out with the minimalist running trend – it took off like a rocket, but the reality is that though science has shown that people do typically run differently in minimal shoes, they are <link target="_blank" href="https://runblogger.com/2015/06/form-differences-among-barefoot-running-minimalist-shoe-running-and-standard-shoe-running.html">not the same as running barefoot</link>, and injury rates among those transitioning into minimal shoes <link target="_blank" href="https://runblogger.com/2013/12/do-minimalist-shoes-increase-injury-risk-merry-christmas-vibram.html">aren’t any different</link>than those who continue to use a traditionally cushioned running shoe (though the types/location of injuries likely differ).</paragraph>
+            <paragraph>Over the past few years the hot trend in running has been maximal cushioning. Shoes like those made by the brand Hoka One One have been very popular, and sales are booming. However, to date there has been very little scrutiny of these shoes by the scientific community. That doesn’t mean that scientists are ignoring them, it just means that any data that has been collected has yet to be published (again, science is slower than trends).</paragraph>
+            <paragraph>Yesterday a friend (thanks Marc!) sent me the abstract of one of the first studies I have seen to look at how maximalist shoes affect running form. The abstract is of a presentation from the annual meeting of the American College of Sports Medicine. The lead author is Matthew Ruder from the Spaulding National Running Center at Harvard Medical School, and the title of the study is “<link target="_blank" href="http://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=72d1e156-0cfb-4165-89aa-c4c7f9ef5760&amp;cKey=8e7a0703-1768-41ae-9691-df41b7cbe0da&amp;mKey=%7b8BA47590-F6FA-424E-A609-471A2E1DE3BC%7d">Effect of Highly Cushioned Shoes on Ground Reaction Forces during Running</link>.”</paragraph>
+            <paragraph>The study included five runners who ran in both highly cushioned and traditional running shoes. The abstract does not report what the highly cushioned shoe was, but Craig Payne indicates that it was the Hoka Stinson (see image below) in <link target="_blank" href="http://www.podiatry-arena.com/podiatry-forum/showthread.php?t=102762">a thread on Podiatry Arena</link>. They found that vertical impact peak, instantaneous vertical impact loading rate, peak medial force, and peak vertical force did not differ between the two shoes. Average vertical loading rate (VALR) was greater in the highly cushioned shoes, and peak lateral force was lower in the highly cushioned shoes. Regarding the latter, the authors suggest it could reduce the pronatory moment on the foot (i.e., less force forcing the foot into pronation, maybe due to the soft cushioning). They also note that higher VALR has been linked to injury (e.g., tibial stress fracture).</paragraph>
+            <embed object_remote_id="media-o-1060" view="embed" size="medium"/>
+            <paragraph>Now, these results need to be interpreted with caution – this was a conference presentation and not a published paper, and the sample size of five runners is tiny (they indicate that they plan to increase the sample). The results are also highly dependent on which shoes were chosen for the experiment – I don’t know what the traditional shoe was, and some of them have quite a bit of soft cushion under the heel. However, it is interesting, and somewhat surprising, to find that a big, cushy shoe like the Hoka Stinson (assuming that it is correct that the Stinson was the shoe they used) yielded a higher impact loading rate than a traditional running shoe, and that most other variables did not differ.</paragraph>
+            <paragraph>One thing I disagree strongly with is the opening sentence of <link target="_blank" href="http://www.medscape.com/viewarticle/845934">an article on Medscape</link> that discusses the study (you need to create a free membership to read it). It reads: “<emphasize>Highly padded maximalist shoes could increase the risk of running injury, researchers say</emphasize>.” This is a great example of bad journalism – the study did not look at injuries at all, it looked at forces. Furthermore, there remains considerable debate about whether impact forces are a major factor in causing running injuries. For example, running with a forefoot strike in minimal shoe can reduce vertical impact loading rates, but research <link target="_blank" href="https://runblogger.com/2013/12/do-minimalist-shoes-increase-injury-risk-merry-christmas-vibram.html">has not found</link> that running in minimal shoes reduces injury rates relative to traditional shoes. And peak vertical force, which I presume is the force at roughly midstance (the active peak), did not differ between the shoes. Some would say that the latter is far more likely to contribute to injury risk since forces are typically much higher during the active peak.</paragraph>
+            <paragraph>So does this mean it’s time to ditch your maximalist shoes? No, just as there is as yet no compelling data that running in minimal shoes is more dangerous than running in a traditional shoe, we don’t yet have any evidence that maximal shoes actually increase your risk of injury. And my guess is that there may be things going on above the foot in maximal shoes – for example, I suspect less knee flexion in a shoe like a Hoka due to the soft, thick, cushy sole. This could have benefits for the knee. So for now, I continue to say that different shoes will alter how forces are applied to the body, and it remains a matter of finding the best match for you as an individual.</paragraph>
+            <paragraph>
+              <emphasize>Article credit: <link href="https://runblogger.com/">Runblogger</link> / <link href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY</link></emphasize>
+              <line/>
+              <line/>
+              <emphasize>Photo credit: <link href="https://runblogger.com/">Runblogger</link> / <link href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY</link></emphasize>
+              <line/>
+              <line/>
+              <emphasize>Cover photo: <link href="https://unsplash.com/photos/l8p1aWZqHvE?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexander Rotker</link></emphasize>
+              <line/>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="598" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="599" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>37</id-string>
+          <keyword-string>Running</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="600" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>37|#32</id-string>
+          <keyword-string>Running|#Workout</keyword-string>
+          <parent-string>36|#36</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="601" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="602" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="603" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="604" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="Do Maximalist Running Shoes Reduce Impact Forces?" node-id="92" remote-id="media-n-825" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

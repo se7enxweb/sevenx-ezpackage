@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="332" name="Home Clients" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="61" ezremote:published="Tue, 01 Sep 2026 06:23:02 GMT" ezremote:modified="Tue, 01 Sep 2026 06:23:02 GMT" remote_id="media-o-1213" class_remote_id="ada87f9df3c29116d0a5d59c7c06739c" ezremote:class_identifier="ng_component_logos" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 06:23:01 GMT" ezremote:modified="Tue, 01 Sep 2026 06:23:01 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Home Clients">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3733" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Home Clients</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3734" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3735" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Trusted by the leaders in the fitness industry</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3736" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>We've helped some of the biggest names in the fitness industry achieve their goals, and we can do the same for you. </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3737" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3738" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3739" ezremote:identifier="logos" name="Logos" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1222"/>
+              <relation-item priority="2" contentobject-remote-id="media-o-1223"/>
+              <relation-item priority="3" contentobject-remote-id="media-o-1224"/>
+              <relation-item priority="4" contentobject-remote-id="media-o-1225"/>
+              <relation-item priority="5" contentobject-remote-id="media-o-1226"/>
+              <relation-item priority="6" contentobject-remote-id="media-o-1227"/>
+              <relation-item priority="7" contentobject-remote-id="media-o-1228"/>
+              <relation-item priority="8" contentobject-remote-id="media-o-1230"/>
+              <relation-item priority="9" contentobject-remote-id="media-o-1232"/>
+              <relation-item priority="10" contentobject-remote-id="media-o-1233"/>
+              <relation-item priority="11" contentobject-remote-id="media-o-1229"/>
+              <relation-item priority="12" contentobject-remote-id="media-o-1231"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3740" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3741" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3742" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="Home Clients">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4652" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Home Clients</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4653" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4654" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Das Vertrauen der führenden Unternehmen der Fitnessbranche</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4655" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Wir haben einigen der größten Namen in der Fitnessbranche geholfen, ihre Ziele zu erreichen, und wir können das Gleiche für Sie tun.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4656" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4657" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4658" ezremote:identifier="logos" name="Logos" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-id="446"/>
+              <relation-item priority="2" contentobject-id="447"/>
+              <relation-item priority="3" contentobject-id="448"/>
+              <relation-item priority="4" contentobject-id="449"/>
+              <relation-item priority="5" contentobject-id="450"/>
+              <relation-item priority="6" contentobject-id="451"/>
+              <relation-item priority="7" contentobject-id="452"/>
+              <relation-item priority="8" contentobject-id="454"/>
+              <relation-item priority="9" contentobject-id="456"/>
+              <relation-item priority="10" contentobject-id="457"/>
+              <relation-item priority="11" contentobject-id="453"/>
+              <relation-item priority="12" contentobject-id="455"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4659" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4660" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Home Clients" node-id="297" remote-id="2f43e73acb50bac8ba216cec1619b077" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

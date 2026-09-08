@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="325" name="Are you fit for Bold?" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="60" ezremote:published="Tue, 01 Sep 2026 05:39:42 GMT" ezremote:modified="Tue, 01 Sep 2026 13:34:01 GMT" remote_id="media-o-1208" class_remote_id="16dcbe0a8000da0a5b89b91086a86ab8" ezremote:class_identifier="ng_component_about" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="13">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="13" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 13:34:01 GMT" ezremote:modified="Tue, 01 Sep 2026 13:34:01 GMT" initial_language="ger-DE">
+      <ezobject:object-translation language="eng-US" object_name="Are you fit for Bold?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3487" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Are you fit for Bold?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3488" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3489" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Are you fit for Bold?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3490" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Do you practice an active and healthy lifestyle and have a passion for helping businesses grow? You are a great fit for us! Let’s grab a smoothie! :)</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3491" ezremote:identifier="description_2" name="Description 2" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3492" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="9f654795a01792819ec7dca3ec903611" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3493" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3494" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{"id":409,"label":"View open positions","type":"internal","target":"link","suffix":"#openpositions"}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3495" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text>{"id":363,"label":"Find us on Glassdoor","type":"external","target":"link_new_tab","suffix":null,"url":"https:\/\/www.glassdoor.com"}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3496" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="Sind Sie fit für Bold?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5379" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Sind Sie fit für Bold?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5380" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5381" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Sind Sie fit für Bold?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5382" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Sie pflegen einen aktiven und gesunden Lebensstil und haben eine Leidenschaft dafür, Unternehmen beim Wachstum zu helfen? Dann passen Sie hervorragend zu uns! Lass uns einen Smoothie trinken! :)</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5383" ezremote:identifier="description_2" name="Description 2" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5384" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="3eec0f6f1e471bb28f85fed18a9a322d" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5385" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5386" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
+          <text>{
+    "id": 409,
+    "label": "Offene Stellen anzeigen",
+    "type": "internal",
+    "target": "link",
+    "suffix": "#openpositions"
+}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5387" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
+          <text>{
+    "id": 367,
+    "label": "Finden Sie uns auf Glassador",
+    "type": "external",
+    "target": "link_new_tab",
+    "suffix": null
+}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5388" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Are you fit for Bold?" node-id="290" remote-id="f01a8ae1647ac2478cc72cf225169c8f" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

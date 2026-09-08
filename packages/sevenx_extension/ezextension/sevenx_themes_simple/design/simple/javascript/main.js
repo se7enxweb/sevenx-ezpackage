@@ -59,29 +59,38 @@
       const dropdowns = Array.from(document.getElementsByClassName("dropdown"));
 
       dropdowns.forEach((dropdown) => {
-        dropdown.classList.remove("active");
+        dropdown.classList.remove("open");
       });
     };
 
     // toggler callback
     const toggler = function (event) {
       const toggleBtn = event.target.closest(".dropdown-toggle");
-      const dropdownMenu = event.target.closest(".dropdown-menu");
 
-      if (!toggleBtn || dropdownMenu) {
+      if (!toggleBtn) {
         // reset all dropdown menu
         return resetDropdwon();
       }
 
       const dropdown = toggleBtn.closest(".dropdown");
 
-      if (dropdown.classList.contains("active")) {
-        return dropdown.classList.remove("active");
+      if (dropdown.classList.contains("open")) {
+        return dropdown.classList.remove("open");
       }
 
-      // reset all dropdown menu
-      resetDropdwon();
-      dropdown.classList.add("active");
+      const parentMenu = dropdown.closest(".dropdown-menu");
+
+      if (parentMenu) {
+        // nested toggle: close siblings inside the same parent menu, keep parent open
+        parentMenu.querySelectorAll(".dropdown.open").forEach((sibling) => {
+          sibling.classList.remove("open");
+        });
+      } else {
+        // reset all dropdown menu
+        resetDropdwon();
+      }
+
+      dropdown.classList.add("open");
     };
 
     window.addEventListener("click", toggler);

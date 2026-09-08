@@ -42,36 +42,36 @@
     <label>
     {"First name"|i18n("design/ezwebin/shop/userregister")}:*
     </label><div class="labelbreak"></div>
-    <input class="halfbox" type="text" name="FirstName" size="20" value="{$first_name|wash}" />
+    <input class="halfbox" type="text" name="FirstName" size="20" value="{$first_name|wash}">
     </div>
     <div class="element">
     <label>
     {"Last name"|i18n("design/ezwebin/shop/userregister")}:*
     </label><div class="labelbreak"></div>
-    <input class="halfbox" type="text" name="LastName" size="20" value="{$last_name|wash}" />
+    <input class="halfbox" type="text" name="LastName" size="20" value="{$last_name|wash}">
     </div>
     <div class="break"></div>
 </div>
-<br />
+<br>
 <div class="block">
 <label>
 {"Email"|i18n("design/ezwebin/shop/userregister")}:*
 </label><div class="labelbreak"></div>
-<input class="box" type="text" name="EMail" size="20" value="{$email|wash}" />
+<input class="box" type="text" name="EMail" size="20" value="{$email|wash}">
 </div>
 
 <div class="block">
 <label>
 {"Company"|i18n("design/ezwebin/shop/userregister")}:
 </label><div class="labelbreak"></div>
-<input class="box" type="text" name="Street1" size="20" value="{$street1|wash}" />
+<input class="box" type="text" name="Street1" size="20" value="{$street1|wash}">
 </div>
 
 <div class="block">
 <label>
 {"Street"|i18n("design/ezwebin/shop/userregister")}:*
 </label><div class="labelbreak"></div>
-<input class="box" type="text" name="Street2" size="20" value="{$street2|wash}" />
+<input class="box" type="text" name="Street2" size="20" value="{$street2|wash}">
 </div>
 
 <div class="block">
@@ -79,22 +79,22 @@
     <label>
     {"Zip"|i18n("design/ezwebin/shop/userregister")}:*
     </label><div class="labelbreak"></div>
-    <input class="halfbox" type="text" name="Zip" size="20" value="{$zip|wash}" />
+    <input class="halfbox" type="text" name="Zip" size="20" value="{$zip|wash}">
     </div>
     <div class="element">
     <label>
     {"Place"|i18n("design/ezwebin/shop/userregister")}:*
     </label><div class="labelbreak"></div>
-    <input class="halfbox" type="text" name="Place" size="20" value="{$place|wash}" />
+    <input class="halfbox" type="text" name="Place" size="20" value="{$place|wash}">
     </div>
     <div class="break"></div>
 </div>
-<br/>
+<br>
 <div class="block">
 <label>
 {"State"|i18n("design/ezwebin/shop/userregister")}:
 </label><div class="labelbreak"></div>
-<input class="box" type="text" name="State" size="20" value="{$state|wash}" />
+<input class="box" type="text" name="State" size="20" value="{$state|wash}">
 </div>
 
 <div class="block">
@@ -114,7 +114,7 @@
 
 
 <div class="buttonblock">
-    <input class="button" type="submit" name="CancelButton" value="{"Cancel"|i18n('design/ezwebin/shop/userregister')}" />
+    <input class="button" type="submit" name="CancelButton" value="{"Cancel"|i18n('design/ezwebin/shop/userregister')}">
     <input class="defaultbutton" type="submit" name="StoreButton" value="{"Continue"|i18n( 'design/ezwebin/shop/userregister')}" />
 </div>
 

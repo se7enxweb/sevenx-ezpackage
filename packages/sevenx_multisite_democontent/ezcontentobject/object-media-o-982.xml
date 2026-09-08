@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="149" name="Video" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="44" ezremote:published="Wed, 01 Aug 2018 14:06:46 GMT" ezremote:modified="Wed, 01 Aug 2018 14:06:46 GMT" remote_id="media-o-982" class_remote_id="035570b01e5fb0f99de7be24b3cc8336" ezremote:class_identifier="ng_landing_page" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 01 Aug 2018 14:06:39 GMT" ezremote:modified="Wed, 01 Aug 2018 14:06:46 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Video">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1392" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Video</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1393" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1394" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1395" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>32|#37|#38|#41|#42|#48</id-string>
+          <keyword-string>Workout|#Running|#Health|#Cooking|#Asian|#HIIT</keyword-string>
+          <parent-string>36|#36|#36|#36|#36|#36</parent-string>
+          <locale-string>eng-US|#eng-US|#eng-US|#eng-US|#eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1396" ezremote:identifier="internal_redirect" name="Internal redirect" type="ezobjectrelation"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1397" ezremote:identifier="external_redirect" name="External redirect" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1398" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1399" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1400" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-939" name="Video" node-id="151" remote-id="media-n-752" sort-field="published" sort-order="0" priority="70"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

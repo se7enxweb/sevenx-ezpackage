@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="78" name="7 Keystone Habits to Maximize Your Mornings" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Mon, 23 Jul 2018 10:34:45 GMT" ezremote:modified="Thu, 24 Sep 2020 08:25:01 GMT" remote_id="media-o-953" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:24:51 GMT" ezremote:modified="Thu, 24 Sep 2020 08:25:01 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="7 Keystone Habits to Maximize Your Mornings">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="395" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>7 Keystone Habits to Maximize Your Mornings</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="396" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>7 Keystone Habits to Maximize Your Mornings</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="397" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="398" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="956a6db4575b5c402635db3d4e2e0f23" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="399" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="5e10237297deacbba1e8e3b5d1a6936f" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="400" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Would you like to adopt better habits? The most efficient way of doing so is to first focus on what author Charles Duhigg calls “keystone habits,” which set off “chain reactions that help other good habits take hold.” Here are some morning keystone habits that have worked wonders for me.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="401" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="402" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <header>1. Get Going Early</header>
+              <paragraph>Waking up several hours before work has given me time to adopt a morning regimen full of yet more keystone habits. Morning is the best time for such routines, because it sets the tone for the rest of your day.</paragraph>
+              <paragraph>Waking up early will do little good if you then linger in bed scrolling through Facebook for 40 minutes or spend a desultory two hours gradually and groggily getting ready. I’ve found it speeds things up to write out the most efficient sequence of steps for getting ready in the morning, and to follow that sequence every day.</paragraph>
+              <header>2. Cold Shower</header>
+              <paragraph>The first item in my morning sequence is a cold shower, or at least finishing my shower with a few minutes of cold water. Nothing flushes the drowsiness out of my head faster. Even when I wake up feeling in a funk, after a bracing cold shower, I’m invigorated and ready to tackle the day. Of course it was unpleasantly shocking when I first started doing it, but I acclimated to it after less than a week. This keystone habit kickstarts my day every morning, and makes it more likely that I’ll follow the rest of my morning routine.</paragraph>
+              <header>3. HIIT</header>
+              <paragraph>Another way to invigorate yourself in the morning is high-intensity interval training, or “HIIT.” It’s not only energizing, but a lot healthier than longer bouts of moderate exercise. As Adam Arbour <link target="_blank" href="https://medium.com/the-mission/8-high-energy-habits-to-power-up-your-slacking-summer-days-2430bf6dd58">write</link>s:</paragraph>
+              <paragraph>“The next time you go for your morning jog, imagine a cheetah is chasing you for 20 seconds and then walk for 10 seconds. Repeat this for 5 minutes and your “jog” is over. HIIT is the most bang for your buck workout method, because of the energy systems it recruits, it’s ability to kick fat in the face, you don’t need any equipment and a relatively small space. “HIIT will not only improve body composition, it may extend your life. The Harvard Alumni Health Study, a 4-year study of more than 17,000 men, found that only vigorous — not moderate — exercise reduced risk of death.” -<link target="_blank" href="http://www.precisionnutrition.com/all-about-hiit">Precision Nutrition</link>”</paragraph>
+              <paragraph>HIIT is also less tedious and time-consuming than long slogs, and therefore more likely to actually be done daily.</paragraph>
+              <header>4. Meditation</header>
+              <paragraph>Morning is also a great time to meditate. I used to be skeptical about the usefulness of meditation. But I’ve found that it helps me be more present throughout the day and more calm and deliberate with my thoughts. This in turn helps me to focus on my true priorities, including the other good habits I want to cultivate. The <link target="_blank" href="https://medium.com/@DanSanchezV/why-knowledge-workers-should-meditate-53e56c535b4">Headspace</link> guided meditation app is an easy and wonderful way to begin. For more on the benefits of meditation, see my post “<link target="_blank" href="https://medium.com/@DanSanchezV/why-knowledge-workers-should-meditate-53e56c535b4">Why Knowledge Workers Should Meditate</link>.”</paragraph>
+              <header>5. Reading</header>
+              <paragraph>Every morning I read from an inspiring book that is applicable to my life. This engages my intellect and gets ideas and aspirations flowing through my mind. Here are the last five books I’ve read, each one of which has been mind-blowing and life-changing for me.</paragraph>
+              <ul>
+                <li>
+                  <paragraph><link target="_blank" href="https://www.amazon.com/gp/product/B007JK9BAY/ref=oh_aui_d_detailpage_o03_?ie=UTF8&amp;psc=1">The Six Pillars of Self-Esteem</link> by Nathaniel Branden.</paragraph>
+                </li>
+                <li>
+                  <paragraph><link target="_blank" href="https://www.amazon.com/gp/product/B01NAS5M2L/ref=oh_aui_d_detailpage_o06_?ie=UTF8&amp;psc=1">How to Win Friends and Influence People</link> by Dale Carnegie.</paragraph>
+                </li>
+                <li>
+                  <paragraph><link target="_blank" href="https://www.amazon.com/gp/product/B00B3M3KZG/ref=oh_aui_d_detailpage_o05_?ie=UTF8&amp;psc=1">Free to Learn: Why Unleashing the Instinct to Play Will Make Our Children Happier, More Self-Reliant, and Better Students for Life</link> by Peter Gray.</paragraph>
+                </li>
+                <li>
+                  <paragraph><link target="_blank" href="https://www.amazon.com/gp/product/B00DMCV49Y/ref=oh_aui_d_detailpage_o03_?ie=UTF8&amp;psc=1">The Last Safe Investment: Spending Now to Increase Your True Wealth Forever</link> by Bryan Franklin and Michael Ellsberg.</paragraph>
+                </li>
+                <li>
+                  <paragraph><link target="_blank" href="https://www.amazon.com/gp/product/B003QP4BJM/ref=oh_aui_d_detailpage_o01_?ie=UTF8&amp;psc=1">The Rational Optimist: How Prosperity Evolves</link> by Matt Ridley.</paragraph>
+                </li>
+              </ul>
+              <paragraph>For more reading recommendations, see my post <link target="_blank" href="https://medium.com/@DanSanchezV/24-books-ive-read-in-the-past-12-months-6a4414d6a44c">24 Books I’ve Read in the Past 12 Months</link>.</paragraph>
+              <header>6. Journaling</header>
+              <paragraph>After reading long enough, I’m primed to start writing. First I journal. To ease into writing, I don’t even write complete sentences at first. I just make short little bullet-point lists, using the same reflection prompts every morning. Putting my otherwise inchoate hopes, fears, feelings of gratitude, etc, into words has helped me live more consciously each day.</paragraph>
+              <paragraph>Even if I don’t spell out any “solutions” to the problems I list in my journal, the mere exercise of explicitly naming those problems often gets the ball rolling toward their resolution. It’s sort of like the intellectual part of my brain painting a target on a problem, to help the intuitive part of my brain blast it away with on-the-spot actions throughout the day. Many times, the solution involves establishing a new good habit, or breaking an old bad one. For more on the benefits of journaling, see my post <link target="_blank" href="https://medium.com/@DanSanchezV/list-journaling-may-be-the-ultimate-keystone-habit-96a2d15c1340">List-Journaling May Be the Ultimate Keystone Habit</link>.</paragraph>
+              <header>7. Blogging</header>
+              <paragraph>The first version of this post was itself my first step toward establishing my latest keystone habit: blogging every morning. The other day, I completed a 30-day daily blogging challenge for the month of July 2017.</paragraph>
+              <paragraph>Previously, my inclination was to avoid blogging and stick to writing ambitious essays, about one every week. But I had heard amazing things about the experience and consequences of pushing yourself to ship a blog post every single day, and I wanted in on some of that action.</paragraph>
+              <paragraph>As hoped, the practice induced a life-enhancing flood of new ideas and inspiration that, among other things, helped me refine my habits still further. And putting my thoughts into publishable form every morning gave me yet another mentally invigorating boost to kick-start my day. For more on the benefits of daily blogging, see my post <link target="_blank" href="https://medium.com/@DanSanchezV/30-blog-posts-in-30-days-14866b4bf489">30 Blog Posts in 30 Days</link>.</paragraph>
+              <header>Good Luck!</header>
+              <paragraph>Instead of staggering out of bed only to go straight into the reaction mode amid the fray of the work day, start your day deliberately and on your own terms. Every morning, give yourself the time and mental space to fully awaken to the abundant possibilities of your life. You will then be self-possessed and self-empowered enough to make the most of your days.</paragraph>
+              <paragraph>
+                <emphasize>Also published at </emphasize>
+                <link target="_blank" href="https://fee.org/articles/7-keystone-habits-to-maximize-your-mornings/">
+                  <emphasize>FEE.org</emphasize>
+                </link>
+                <emphasize>.</emphasize>
+              </paragraph>
+              <paragraph>
+                <emphasize>
+                  <emphasize>Article credit: <link href="https://medium.com/@DanSanchezV">Dan Sanchez</link>  / <link href="https://creativecommons.org/licenses/by/4.0/">CC BY</link></emphasize>
+                </emphasize>
+                <line/>
+                <line/>
+                <emphasize>
+                  <emphasize>Cover photo: <link href="https://unsplash.com/photos/2rMOrpr3GUk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charlotte Karlsen</link></emphasize>
+                </emphasize>
+                <line/>
+              </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="403" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="404" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="405" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>48</id-string>
+          <keyword-string>HIIT</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="406" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>48|#51</id-string>
+          <keyword-string>HIIT|#Lifestyle</keyword-string>
+          <parent-string>36|#36</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="407" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text>Produced by Fit&amp;Healthy with Acme</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="408" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="409" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="410" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="7 Keystone Habits to Maximize Your Mornings" node-id="80" remote-id="media-n-725" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

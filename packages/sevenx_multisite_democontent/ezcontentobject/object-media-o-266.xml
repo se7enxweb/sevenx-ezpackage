@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="264" name="Ad 728x90" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="65" ezremote:published="Tue, 11 Aug 2026 02:05:48 GMT" ezremote:modified="Tue, 11 Aug 2026 02:05:48 GMT" remote_id="ad-728x90-home" class_remote_id="32d6c8d399ca9776f3147ef4db2bf6da" ezremote:class_identifier="ng_htmlbox" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Tue, 11 Aug 2026 02:05:48 GMT" ezremote:modified="Tue, 11 Aug 2026 02:05:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Ad 728x90">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2399" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Ad 728x90</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2400" ezremote:identifier="html_code" name="HTML code" type="eztext">
+          <text>&lt;div class="text-center"&gt;
+    &lt;div style="background-color:#7BD7C0; width:728px; height:90px; max-width: 100%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 24px; margin: 0 auto"&gt;Leaderboard Ad.&lt;/div&gt;
+&lt;/div&gt;</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2401" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>0</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Ad 728x90" node-id="266" remote-id="a386ceeea3da41afccc7d6b2b07eb1b6" sort-field="published" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

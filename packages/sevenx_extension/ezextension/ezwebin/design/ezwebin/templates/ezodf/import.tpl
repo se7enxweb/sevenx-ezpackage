@@ -18,7 +18,7 @@
 </div>
 
 <div class="object-right">
- <img src={"ooo_logo.gif"|ezimage} alt="OpenOffice.org" />
+ <img src={"ooo_logo.gif"|ezimage} alt="OpenOffice.org">
 </div>
 
 {section show=eq($oo_mode,'imported')}
@@ -56,8 +56,8 @@ Images are placed in the media library so you can re-use them in other articles.
 
 <p>
     <label for="oo_file">{'File:'|i18n( 'design/ezwebin/ezodf/import' )}</label>
-    <input type="hidden" name="MAX_FILE_SIZE" value="40000000"/>
-    <input class="box" name="oo_file" type="file" />
+    <input type="hidden" name="MAX_FILE_SIZE" value="40000000">
+    <input class="box" name="oo_file" type="file">
 </p>
 {def $locale_list = ezini( 'RegionalSettings', 'SiteLanguageList' )}
 {if $locale_list|count|gt( 1 )}
@@ -101,13 +101,13 @@ Images are placed in the media library so you can re-use them in other articles.
     {/if}
 </p>
 {else}
-    <input type="hidden" name="Locale" value="{$locale_list.0}" />
+    <input type="hidden" name="Locale" value="{$locale_list.0}">
 {/if}
 {undef $locale_list}
 
 
 <div class="block">
-    <input class="button" type="submit" name="StoreButton" value="{'Upload file'|i18n('design/ezwebin/ezodf/import')}" />
+    <input class="button" type="submit" name="StoreButton" value="{'Upload file'|i18n('design/ezwebin/ezodf/import')}">
 </div>
 
 {/section}

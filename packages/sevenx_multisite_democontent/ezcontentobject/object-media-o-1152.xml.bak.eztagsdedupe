@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="205" name="Blog post test" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="48" ezremote:published="Sun, 22 Jul 2018 23:17:21 GMT" ezremote:modified="Thu, 24 Sep 2020 08:12:04 GMT" remote_id="media-o-1152" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 09:04:00 GMT" ezremote:modified="Tue, 01 Sep 2026 09:04:00 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Blog post test">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2172" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Blog post test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2173" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text>Blog post test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2174" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1015"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2175" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Blog post test</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2176" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="96641b36ee8d9fdd1f80b4aa3d471d26" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2177" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="cab656285e5fa30a8eee931e38009be9" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2178" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Wed, 22 Aug 2018 08:41:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2179" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>My relationship with running has changed a lot this year. In many ways I feel like I’ve come full circle back to where I started – running simply for enjoyment, the release, and the health benefits that it provides.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2180" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2181" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>I ran only a single race this past Spring, a ten mile trail race that kicked my butt, and I have nothing planned for this Fall. I’ve not obsessed about my weekly mileage – some weeks I approach 30 miles, others I may only do 10-15. This past week has been a big fat zero.</paragraph>
+            <paragraph>The reason for the change in approach is that I knew this year was going to be one of transition. As I’ve shared in a few recent posts, I’m heading back into the classroom, and have started a teacher certification program for high school biology. I spent last week at the high school where I am interning, and I taught my first lesson on Friday (nothing like jumping right in!). I decided to push running to the side for the week so that I could focus on the new experience. In years past, six straight days without a run would have driven me crazy, but I’m in a place now where I’m OK with it. No need to stress out about a few missed runs.</paragraph>
+            <embed view="embed" align="left" size="medium" object_remote_id="media-o-1058"/>
+            <paragraph>For much of this summer I’ve been trying to wrestle myself into a healthier relationship with my running since I knew things would be challenging come Fall. One of the first steps I took back in July was to start running more frequently without my GPS watch. Like many runners, my GPS had become an extension of my running identity, and a permanent fixture on my wrist. I obsessed about pace, and would feel guilty if I didn’t live up to what I felt I was capable of – can’t have a Strava report with a 10:00+ mile pace for a run! I obsessed about mileage – always need to add a bit to get to the nearest whole number, that 4.97 mile run just won’t do! I felt the need to reach weekly mileage goals, and heat and hills were no excuse for a slow-paced run.</paragraph>
+            <paragraph>Since I don’t have a Fall race planned this year, I thought it might be a good time to try ditching the GPS for a bit. I’m not gonna lie, those first few runs without the watch were tough. I seem to think that if a run isn’t recorded, it never really happened. Silly, I know.</paragraph>
+            <paragraph>To ease the transition away from the GPS, I decided to allow myself to use a heart rate monitor to gauge effort (displayed on a Garmin Vivofit – no GPS recording). The purpose was more to hold me back than to push me harder. I quickly came to realize that in the heat of summer (I tend to run in late afternoon), what I felt was my easy pace would have my heart rate way above the aerobic zone. So I started to allow myself to walk a bit if my HR went above 150 or 160 bpm (depending on how hot it was outside). Coming to terms with walking frequently during hot runs was also a challenge, but it has made for a much more enjoyable summer of running. And on cooler days I’ve found that it really hasn’t hurt my fitness very much.</paragraph>
+            <paragraph>As the runs without a GPS started to accumulate, I found that I was really liking the fact that I had cut the cord. I no longer felt the need to add on a bit at the end of the run to reach a whole number – though I generally had an idea of how far I’d run, the tenths and hundredths of a mile were impossible to estimate. It simply didn’t matter. And pacing was a total mystery – I just ran by how I felt on a given day. I have no idea what my pace was for most of my runs since mid-July. This bothered me a bit (a lot, really) at first, but after a tough, hilly 4-mile run in Maine in mid-August where I brought the GPS back I was comforted that my fitness hadn’t been destroyed by a lack of GPS recordings.</paragraph>
+            <paragraph>Running without a GPS has been an incredibly freeing experience. I feel like I am now enjoying my runs a lot more. I don’t feel guilty if I stop to take a photo or enjoy a view – that short break won’t mess up my pace report or GPS track, and no need to fiddle with stopping or starting a watch (heaven forbid I forget to restart the GPS!). There are times when I still find the watch to be helpful – for example, measuring out a route in a new place, after which it is no longer needed. And if I were training for a race there are times when I think knowing pace is important. But without any major race goals in the foreseeable future, I think I’ll continue to run mostly without the watch.</paragraph>
+            <paragraph>How about you, have you tried cutting the cord and running without a GPS?</paragraph>
+            <paragraph>
+              <emphasize>Article credit: <link href="https://runblogger.com/">Runblogger</link> / <link href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY</link></emphasize>
+            </paragraph>
+            <paragraph>
+              <emphasize>Photo credit: <link href="https://runblogger.com/">Runblogger</link> / <link href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY</link></emphasize>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2182" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2183" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>68</id-string>
+          <keyword-string>Running</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2184" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>68|#69</id-string>
+          <keyword-string>Running|#Wearables</keyword-string>
+          <parent-string>0|#0</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2185" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2186" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2187" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2188" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="Blog post test" node-id="207" remote-id="media-n-915" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

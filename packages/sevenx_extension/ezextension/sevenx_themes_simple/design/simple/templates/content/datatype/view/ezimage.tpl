@@ -10,7 +10,7 @@ Input:
                  around the image with href as the link.
  border_size   - Size of border around image, default is 0
 *}
-{default image_class=large
+{default image_class=original
          css_class=false()
          alignment=false()
          link_to_image=false()
@@ -49,7 +49,7 @@ Input:
 
     {section show=$href}<a href={$href}{section show=and( is_set( $link_class ), $link_class )} class="{$link_class}"{/section}{section show=and( is_set( $link_id ), $link_id )} id="{$link_id}"{/section}{section show=$target} target="{$target}"{/section}{section show=$lightbox_class} rel="lightbox"{/section}>{/section}
     {section show=and( is_set( $image ), $image )}
-        <img src={$image.url|ezroot} width="{$image.width}" height="{$image.height}" {section show=$hspace}hspace="{$hspace}"{/section} style="border: {$border_size}px;" alt="{$image.text|wash(xhtml)}" title="{$image.text|wash(xhtml)}" />{section show=$href}</a>{/section}
+        <img src={$image.url|ezroot} width="{$image.width}" height="{$image.height}" {section show=$hspace}hspace="{$hspace}"{/section} style="border: {$border_size}px;" alt="{$image.text|wash(xhtml)}" title="{$image.text|wash(xhtml)}">{section show=$href}</a>{/section}
     {/section}
 
     {section show=$css_class}

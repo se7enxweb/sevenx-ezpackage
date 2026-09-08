@@ -26,17 +26,17 @@
 {section name=ProductItem loop=$wish_list.items sequence=array(bglight,bgdark)}
 <tr class="{$ProductItem:sequence}">
     <td>
-    <input type="hidden" name="ProductItemIDList[]" value="{$ProductItem:item.id}" />
+    <input type="hidden" name="ProductItemIDList[]" value="{$ProductItem:item.id}">
     {$ProductItem:item.id} - 
     <a href={concat("/content/view/full/",$ProductItem:item.node_id,"/")|ezurl}>{$ProductItem:item.object_name}</a>
     </td>
     <td>
 
-    <input type="text" name="ProductItemCountList[]" value="{$ProductItem:item.item_count}" size="5" />
+    <input type="text" name="ProductItemCountList[]" value="{$ProductItem:item.item_count}" size="5">
 
     </td>
     <td>
-    <input type="checkbox" name="RemoveProductItemDeleteList[]" value="{$ProductItem:item.id}" />
+    <input type="checkbox" name="RemoveProductItemDeleteList[]" value="{$ProductItem:item.id}">
     </td>
 </tr>
 
@@ -65,8 +65,8 @@
 </table>
 
 <div class="buttonblock">
-<input class="button" type="submit" name="StoreChangesButton" value="{'Store'|i18n('design/ezwebin/shop/wishlist')}" />
-<input class="button" type="submit" name="RemoveProductItemButton" value="{'Remove items'|i18n('design/ezwebin/shop/wishlist')}" />
+<input class="button" type="submit" name="StoreChangesButton" value="{'Store'|i18n('design/ezwebin/shop/wishlist')}">
+<input class="button" type="submit" name="RemoveProductItemButton" value="{'Remove items'|i18n('design/ezwebin/shop/wishlist')}">
 </div>
 
 {else}

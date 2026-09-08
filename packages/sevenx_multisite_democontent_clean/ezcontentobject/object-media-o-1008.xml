@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="1008" name="Avocado Kale Pesto Grilled Cheese" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="219" ezremote:published="Wed, 08 Aug 2018 13:09:31 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:17 GMT" remote_id="media-o-1008" class_remote_id="67c57c234691153c902f0bb5be0e4eaa" ezremote:class_identifier="ng_recipe" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="6">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="6" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:49:53 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:17 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Avocado Kale Pesto Grilled Cheese">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24192" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Avocado Kale Pesto Grilled Cheese</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24193" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24274" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24194" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="1df54b91b3563ac5d8c1960346528512" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24195" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="35f696c76890b00479ade6bb2839d05c" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24196" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>This recipe, for which we highly recommend using homemade bread, combines kale, spinach, avocado, and goat cheese together in a delicious grilled cheese.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24197" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="24198" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:title ezxhtml:level="3">INGREDIENTS</default:title>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>2 slices <default:link xlink:href="ezurl://27" xlink:show="none">bread</default:link></default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>2 tablespoons <default:link xlink:href="ezurl://28" xlink:show="none">kale pesto</default:link></default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>2 slices mozzarella cheese</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>¼ cup baby spinach</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>⅓ avocado, sliced</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>3 tablespoons crumbled goat cheese</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:title ezxhtml:level="3">PREPARATION</default:title>
+            <default:orderedlist>
+              <default:listitem>
+                <default:para>Preheat a cast iron skillet over medium heat.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Spread kale pesto on each slice of bread.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Place a slice of mozzarella (or your other favourite cheese) on each slice of bread.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Place baby spinach on top of one slice of bread.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Slice avocado and place on other piece of bread. Top with several clumps of crumbled goat cheese.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Quickly and carefully put the sandwich together and grill on a cast iron skillet over medium heat until bread is toasted and cheese has melted, about 3 minutes per side. It may be helpful to cover the skillet with the lid of a large pot to help the cheese melt.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Serve immediately.</default:para>
+              </default:listitem>
+            </default:orderedlist>
+            <default:para>
+              <default:emphasis>Recipe credit: <default:link xlink:href="ezurl://26" xlink:show="none">Make Better Food</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis>
+            </default:para>
+            <default:para>
+              <default:emphasis>
+                <default:emphasis>Photo credit: <default:link xlink:href="ezurl://26" xlink:show="none">Make Better Food</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis>
+              </default:emphasis>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24199" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">
+          <value>15</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24200" ezremote:identifier="serving_calories" name="Calories (per serving)" type="ezinteger">
+          <value>390</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24201" ezremote:identifier="serving_fat" name="Fat (per serving)" type="ezinteger">
+          <value>18</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24202" ezremote:identifier="serving_carbohydrates" name="Carbohydrates (per serving)" type="ezinteger">
+          <value>38</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24203" ezremote:identifier="serving_protein" name="Protein (per serving)" type="ezinteger">
+          <value>17</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24204" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24205" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24206" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24207" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24208" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24210" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24211" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-744" name="Avocado Kale Pesto Grilled Cheese" node-id="775" remote-id="media-n-775" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

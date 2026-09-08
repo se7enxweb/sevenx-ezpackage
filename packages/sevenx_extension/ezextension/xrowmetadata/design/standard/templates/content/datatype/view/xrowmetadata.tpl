@@ -9,6 +9,7 @@
 <tr><th class="table_no_border">{'Use in sitemap'|i18n( 'design/standard/content/datatype' )}:</th><td class="table_no_border">{if eq($attribute.content.sitemap_use,'1')}{'yes'|i18n( 'design/standard/class/datatype' )}{else}{'no'|i18n( 'design/standard/class/datatype' )}{/if}</td></tr>
 <tr><th class="table_no_border">{'Change frequence'|i18n( 'design/standard/content/datatype' )}:</th><td class="table_no_border">{$attribute.content.change|wash()|i18n( 'design/standard/class/datatype' )}</td></tr>
 <tr><th class="table_no_border">{'Priority'|i18n( 'design/standard/content/datatype' )}:</th><td class="table_no_border">{$attribute.content.priority|wash()}</td></tr>
+<tr><th class="table_no_border">{'Open Graph image'|i18n( 'design/standard/content/datatype' )}:</th><td class="table_no_border">{$attribute.content.og_image|wash()}</td></tr>
 
 </table>
 {/if}

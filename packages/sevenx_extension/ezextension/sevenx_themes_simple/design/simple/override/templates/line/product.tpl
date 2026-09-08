@@ -70,11 +70,11 @@
         <form method="post" action={"content/action"|ezurl}>
         <div class="content-action">
 	{if and( is_set( $node.data_map.product_inventory_count ), $node.data_map.product_inventory_count.content|le(0) )}<div class="warning-out-of-stock">Out of stock!</div>{/if}
-            <input {if and( is_set( $node.data_map.product_inventory_count ), $node.data_map.product_inventory_count.content|le(0) )}disabled{/if} type="submit" class="defaultbutton" name="ActionAddToBasket" value="{"Add to basket"|i18n("design/ezwebin/full/product")}" />
-{*            <input class="button" type="submit" name="ActionAddToWishList" value="{"Add to wish list"|i18n("design/ezwebin/full/product")}" />*}
-            <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-            <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
-            <input type="hidden" name="ViewMode" value="full" />
+            <input {if and( is_set( $node.data_map.product_inventory_count ), $node.data_map.product_inventory_count.content|le(0) )}disabled{/if} type="submit" class="defaultbutton" name="ActionAddToBasket" value="{"Add to basket"|i18n("design/ezwebin/full/product")}">
+{*            <input class="button" type="submit" name="ActionAddToWishList" value="{"Add to wish list"|i18n("design/ezwebin/full/product")}">*}
+            <input type="hidden" name="ContentNodeID" value="{$node.node_id}">
+            <input type="hidden" name="ContentObjectID" value="{$node.object.id}">
+            <input type="hidden" name="ViewMode" value="full">
         </div>
         </form>
 

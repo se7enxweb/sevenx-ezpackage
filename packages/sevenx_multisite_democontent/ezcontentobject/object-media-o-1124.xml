@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="127" name="Does Intermittent Fasting promote longevity? Your Questions about IF, Answered" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Wed, 22 Aug 2018 16:08:07 GMT" ezremote:modified="Thu, 24 Sep 2020 08:42:32 GMT" remote_id="media-o-1124" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:42:23 GMT" ezremote:modified="Thu, 24 Sep 2020 08:42:32 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Does Intermittent Fasting promote longevity? Your Questions about IF, Answered">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="957" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Does Intermittent Fasting promote longevity? Your Questions about IF, Answered</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="958" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Does Intermittent Fasting promote longevity? Your Questions about IF, Answered</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="959" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="960" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="a6689b197389f2b2cbd795cef51e7fa5" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="961" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="bfab5148c9487e7845c98c8a313bc821" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="962" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>What effect does IF have on my lipid levels? Will I have to count calories to lose weight? Can I have a cheat day? LifeOmic has answered some of your most pressing questions on intermittent fasting in time for our LIFE Fasting Tracker app release.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="963" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="964" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>To guide you in your LIFE intermittent fasting journey, we’ve created an FAQ on intermittent fasting. Explore the questions and answers below to learn how to safely practice fasting for metabolic health.The following FAQ responses are based primarily upon human research studies conducted by intermittent fasting expert <link target="_blank" href="https://ahs.uic.edu/kinesiology-nutrition/directory/varady-krista/">Dr. Krista Varady</link>, an associate professor of nutrition at the University of Illinois, in Chicago. Varady’s primary research interest is the metabolic health impacts of alternate day fasting and time-restricted feeding. She has published results from over 10 clinical trials of intermittent fasting interventions.</paragraph>
+            <embed object_remote_id="media-o-1125" view="embed" size="medium"/>
+            <section>
+              <header>Does intermittent fasting promote longevity?</header>
+              <paragraph>There are promising animal studies showing that dietary restriction, including caloric restriction and intermittent fasting, may at least in some cases extend healthy lifespan and delay diseases aging for various species from yeast to mice to <link target="_blank" href="http://science.sciencemag.org/content/325/5937/201.full">monkeys</link>. The molecular mechanisms of these impacts involve the elimination or improved function of senescent cells, or damaged cells that have been marked by the body and prevented from dividing. Intermittent fasting may prime senescent cells for cellular recycling, which in the end can improve the function of aging tissues.</paragraph>
+              <paragraph>However, it is very difficult to study aging and senescence cell biomarkers in humans, especially because most people can’t or won’t participate in long-term intervention studies. Data from such studies in humans are rare, and the fields of caloric restriction and IF are no exception.</paragraph>
+              <paragraph>While IF can theoretically improve tissue function, particularly as it relates to metabolic function and <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/28017879">circadian rhythms</link>, more research is needed on the <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/28106818">impacts of long-term fasting</link> on healthspan and lifespan.</paragraph>
+              <embed object_remote_id="media-o-1126" view="embed" size="medium"/>
+              <header>Who can most benefit from intermittent fasting?</header>
+              <paragraph>Research on intermittent fasting for people with type 2 diabetes or at risk for type 2 diabetes is still preliminary, with much of the research in this area still being conducted in animal models. However, there are promising pilot study findings coming out of Dr. Krista Varady’s lab related to improved glucose regulation over time. Recent studies have found that IF may have a greater positive impact on insulin resistance than traditional calorie restriction diets. While more research is needed, diabetics and pre-diabetics may stand to benefit the most from IF.</paragraph>
+              <paragraph>All diabetic and pre-diabetic individuals should work with their primary care physician before and while practicing fasting in any form, as this intervention may alter their medication needs and other symptoms.</paragraph>
+              <header>What effect does intermittent fasting have on lipid levels?</header>
+              <paragraph><link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/28715993">Time-restricted feeding (12+ hours per day)</link> and <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/25251676">alternate-day (500 calories every other day) fasting</link> interventions lasting six to eight weeks in human trials have been associated with lowered cholesterol and triglyceride levels in adults. In intermittent fasting trials incorporating several hundred subjects, Dr. Krista Varady has consistently observed 20–30% decreases in triglyceride levels over the course of three months of regular fasting. She has also observed modest declines in LDL cholesterol levels, primarily among people with elevated levels starting out, increases in total LDL particle size, and modest increases in HDL or “good” cholesterol levels. HDL levels can also increase with exercise and niacin supplementation.</paragraph>
+              <header>Are there any other health benefits of intermittent fasting?</header>
+              <paragraph>Research on the benefits of intermittent fasting in humans, in the form of clinical intervention studies, is still early in development. Animal studies have demonstrated various fasting health benefits, from enhanced collagen production and <link target="_blank" href="https://www.ncbi.nlm.nih.gov/m/pubmed/25881054/">wound healing</link> to <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/29321682">neuroplasticity</link>, improved <link target="_blank" href="https://medium.com/lifeomic/this-is-your-brain-on-fasting-a77d9d264de7">brain function and alleviation of neurodegenerative disease symptoms</link>. Most studies of IF in humans so far have focused on weight loss and <link target="_blank" href="https://medium.com/lifeomic/quality-over-quantity-in-life-and-fat-d75bd6aa0331">metabolic health benefits</link>.</paragraph>
+              <header>How long can I expect to wait before I experience benefits from intermittent fasting?</header>
+              <paragraph><link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/28715993">Intermittent fasting can promote weight loss and may improve metabolic health over time</link>, via effects on nutrient signaling, <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/26411343https:/www.ncbi.nlm.nih.gov/pubmed/26411343">circadian biology</link> and the gut microbiome. These effects can take time. Weight loss studies of IF typically involve interventions that last three to six months. For most people in these studies, it takes two to three months to lose 10 pounds, Dr. Krista Varady says. For diabetic or pre-diabetic individuals seeking to change their <link target="_blank" href="https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis/a1c-test">A1C or blood glucose levels</link>, it usually takes at least three months to see these levels meaningfully change.</paragraph>
+              <paragraph>In a <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/27737674">2016 study of time-restricted feeding</link> (all calories consumed in an 8-hour window each day) in conjunction with resistance training in healthy males, research participants who followed the fasting program for eight weeks experienced a decrease in fat mass with no significant change in muscle mass. Fasting individuals also experienced a decrease in IGF-1 and an increase in adiponectin, <link target="_blank" href="https://medium.com/lifeomic/quality-over-quantity-in-life-and-fat-d75bd6aa0331">a hormone that can be an insulin sensitizer in the liver and muscle and help improve glucose and fat metabolism</link>.</paragraph>
+              <paragraph>It’s important to find a diet or metabolic lifestyle intervention that you can <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/27569118">incorporate into your lifestyle long term</link>, given the negative impacts of “yo-yo dieting” for most people. Many people would benefit from continuing intermittent fasting long term if possible, Varady says.</paragraph>
+              <embed object_remote_id="media-o-1127" view="embed" size="medium"/>
+              <header>Will I still have to count calories to lose weight?</header>
+              <paragraph>One of the benefits of time restricted feeding (based on a 16:8 fasting schedule, for example) is that many people experience natural caloric restriction and weight loss without counting calories. In a study of time-restricted feeding (fasting for 16 hours per day), Dr. Krista Varady found that most research participants naturally reduced their daily caloric intake by 300 calories on average and lost 3% of their body weight after a three-month period, even while being instructed to eat normally.</paragraph>
+              <header>Can I have a cheat day?</header>
+              <paragraph>It’s important to be flexible. Intermittent fasting is ideally a lifestyle, not a fad diet. In Dr. Krista Varady’s studies of alternate day fasting, she tells people not to worry if they miss two or three fast days in a month. Sometimes your fast days might land on a holiday or during another family event, and it may be more stressful to stringently stick to your fast than to enjoy a piece of cake.</paragraph>
+              <paragraph>However, some people find that “cheating” derails their whole fasting schedule. If you are the type of person who needs a lot of structure to succeed at a healthy behavior, Varady suggests not skipping your fast days for family events or other occasions. However, for most people the occasional cheat day won’t significantly impede weight loss progress or metabolic health.</paragraph>
+              <header>Should I be worried about potential negative impacts of meal skipping on my blood sugar levels?</header>
+              <paragraph>A small-scale study published in 2017 raised concerns about <link target="_blank" href="https://academic.oup.com/ajcn/article-abstract/105/6/1351/4668664?redirectedFrom=fulltext">breakfast skipping (front-end fasting) creating an acute state of muscle glucose intolerance upon refeeding</link>. There is some evidence, based on natural daily cycles of insulin sensitivity, that it is better to <link target="_blank" href="https://medium.com/lifeomic/time-restricted-feeding-how-and-when-you-break-your-fast-matters-f241d40950f3">skip dinner or start a prolonged overnight fast early in the evening</link> as opposed to skipping breakfast or fasting until late afternoon. However, acute fasting studies that look at the impacts of 24 to 48-hour fasts on individuals who may not be accustomed to fasting periods of this duration are not necessarily indicative of what would happen for individuals who practice fasting on a regular basis, Dr. Krista Varady says. After a month of alternate day fasting, research participants in intermittent fasting studies overwhelmingly experience reductions in glucose levels and insulin resistance, based on cellular adaptations to the stress of fasting.</paragraph>
+              <header>Are there any supplements I can take to improve the efficacy of my fasts?</header>
+              <paragraph>There are ketone ester supplements available for mass consumption today that can <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/29163194">raise your blood ketone levels and help you achieve ketosis</link>. For athletes, these supplements may help the body produce ketones that can be advantageous as an energy source during strenuous workouts. However, unless you are already on a ketogenic diet these supplements give your body mixed signals in terms of whether it should be burning primarily fats or sugars for fuel. These supplements may not be effective or necessarily safe for metabolic health long term, says Dr. Krista Varady.</paragraph>
+              <header>How long is it safe to fast for?</header>
+              <paragraph>Water fasts up to 24 to 36 hours in duration are generally safe and well tolerated based on clinical studies, Dr. Krista Varady says. However, from a weight loss and maintenance perspective, 24-hour water fasting on a regular basis can be difficult to stick to and adopt as a long-term health practice. People with eating disorders should not to practice IF without oversight from a physician. However, alternate day fasting has been found to <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/25943396">decrease feelings of depression and binge eating behavior in obese subjects, while improving body image perceptions</link>.</paragraph>
+              <paragraph>It’s best for your metabolic health to stick to a fasting regimen you can easily maintain over time, with the caveat that you should stop fasting and see a physician if you experience light-headedness or significant discomfort, or if you are at risk of becoming underweight. Intermittent fasting is not the only way to improve your metabolic health; it’s important to find the meal composition and timing plan that works best for you long term.</paragraph>
+              <paragraph>There is limited research on the impacts or safety of long term periodic fasting for 3–5 days at a time.</paragraph>
+              <header>Is intermittent fasting safe for me if I am undergoing cancer treatment?</header>
+              <paragraph>You should consult with your physician or oncologist before practicing intermittent fasting during any type of cancer treatment. Intermittent fasting can be problematic during treatment especially if you are experiencing muscle wasting, poor nutrition or other side effects from treatment. However, there is evidence from in vitro studies, <link target="_blank" href="https://news.usc.edu/118758/fasting-during-chemotherapy-may-offset-spikes-in-blood-sugar-caused-by-cancer-fighting-drugs/">animal studies</link> and <link target="_blank" href="http://www.tandfonline.com/doi/abs/10.4161/cc.9.22.13954">early clinical studies in humans</link> conducted by <link target="_blank" href="http://gero.usc.edu/faculty/longo/">Dr. Valter Longo of the USC Longevity Institute</link> and colleagues that periodic fasting or low-protein fasting-mimicking diets may <link target="_blank" href="https://www.tandfonline.com/doi/abs/10.1080/23723556.2015.1117701">sensitize cancer cells to the impacts of chemotherapy</link> while protecting healthy immune cells and other cells against side effects. The IGF-1R (Insulin-like growth factor 1 receptor) pathway appears to play a key role in the impact of <link target="_blank" href="https://www.tandfonline.com/doi/abs/10.4161/cc.25016">dietary restriction on tumor progression and treatment sensitivity</link>.</paragraph>
+              <embed object_remote_id="media-o-1128" view="embed" size="medium"/>
+              <paragraph>Research findings on the benefits of IF for cancer patients undergoing chemotherapy, based on the <link target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4289501/">differential stress resistance</link> of cancerous versus non-cancerous cells, are promising but preliminary. Long-term fasting on the order of several days may have other side effects and should never be undertaken without consultation with a physician, oncologist or other healthcare expert.</paragraph>
+              <header>Can fasting negatively impact bone density?</header>
+              <paragraph>There is no indication that intermittent fasting compromises bone health. In a study of post-menopausal women conducted in Dr. Krista Varady’s lab, six months of alternate day fasting had no impact on bone density according to DEXA scans.</paragraph>
+              <paragraph>
+                <emphasize>Cover photo: <link href="https://unsplash.com/photos/fH55IFx6kXE?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Laura Margarita Peralta</link></emphasize>
+              </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="965" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="966" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="967" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>44</id-string>
+          <keyword-string>Lowcarb</keyword-string>
+          <parent-string>36</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="968" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>53|#44</id-string>
+          <keyword-string>Keto diet|#Lowcarb</keyword-string>
+          <parent-string>36|#36</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="969" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="970" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="971" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="972" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="Does Intermittent Fasting promote longevity? Your Questions about IF, Answered" node-id="129" remote-id="media-n-892" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

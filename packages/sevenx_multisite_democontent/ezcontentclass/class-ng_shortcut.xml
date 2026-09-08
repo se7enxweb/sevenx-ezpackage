@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="true" sort-field="path" sort-order="1">
+  <serialized-name-list>a:3:{s:6:"eng-US";s:8:"Shortcut";s:6:"eng-GB";s:8:"Shortcut";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>ng_shortcut</identifier>
+  <serialized-description-list>a:3:{s:6:"eng-US";s:53:"Object for linking to external and internal resources";s:6:"eng-GB";s:53:"Object for linking to external and internal resources";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+  <remote-id>71f8cc283a01e33187637fc0740cbeaa</remote-id>
+  <object-name-pattern>&lt;teaser_title|title&gt;</object-name-pattern>
+  <url-alias-pattern>&lt;teaser_title|title&gt;</url-alias-pattern>
+  <remote>
+    <site-url>http://alpha.se7enx.com/</site-url>
+    <url>http://alpha.se7enx.com/class/view/169</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>169</id>
+    <created>1360856949</created>
+    <modified>1669679598</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>1802</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Title";s:6:"eng-GB";s:5:"Title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>title</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>0</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2227</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:12:"Teaser title";s:6:"eng-GB";s:12:"Teaser title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>teaser_title</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:19:"Short title version";s:6:"eng-GB";s:19:"Short title version";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>60</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>1807</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Image";s:6:"eng-GB";s:5:"Image";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>image</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>1806</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:12:"Teaser intro";s:6:"eng-GB";s:12:"Teaser intro";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>teaser_intro</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:18:"Used on line items";s:6:"eng-GB";s:18:"Used on line items";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <text-column-count/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>2127</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:17:"Use shortcut name";s:6:"eng-GB";s:17:"Use shortcut name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>use_shortcut_name</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:60:"If checked, uses shortcut name for generating label in menus";s:6:"eng-GB";s:60:"If checked, uses shortcut name for generating label in menus";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ngenhancedlink" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>2704</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:4:"Link";s:6:"eng-GB";s:4:"Link";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>link</identifier>
+      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>content</category>
+      <serialized-data-text>N;</serialized-data-text>
+      <placement>5</placement>
+      <datatype-parameters>
+        <settings>{\n    "selectionMethod": 0,\n    "selectionRoot": "",\n    "rootDefaultLocation": false,\n    "selectionContentTypes": [],\n    "allowedTargetsInternal": [\n        "link",\n        "link_new_tab"\n    ],\n    "allowedTargetsExternal": [\n        "link",\n        "link_new_tab"\n    ],\n    "allowedLinkType": "all",\n    "enableSuffix": true\n}</settings>
+      </datatype-parameters>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

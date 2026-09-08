@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="70" name="Brand Strategist" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="47" ezremote:published="Mon, 24 Oct 2022 20:08:38 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:23 GMT" remote_id="media-o-1192" class_remote_id="47a8aec1ed59550174e050f714c95011" ezremote:class_identifier="ng_job_position" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:version="5" ezremote:status="1" ezremote:created="Tue, 01 Sep 2026 07:02:22 GMT" ezremote:modified="Tue, 01 Sep 2026 07:02:23 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" language="eng-US" object_name="Brand Strategist">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="301" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Brand Strategist</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="302" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Brand Strategist</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="303" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="a0d2425f8f7336a92389b0c26755a902" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="304" ezremote:identifier="teaser_image" name="Meta Data" type="ezimage" image-file-key="7596d4772c9591be77c933fa59e47e6c" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="305" ezremote:identifier="job_location" name="Location" type="ezstring">
+          <text>New York</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="306" ezremote:identifier="engagement_type" name="Engagement type" type="ezstring">
+          <text>Full time</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="307" ezremote:identifier="application_deadline" name="Application deadline" type="ezdatetime">
+          <date_time>Wed, 31 Dec 2025 11:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="308" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <paragraph>We are looking for a Brand Strategist to help us grow our clients' reputation in the fitness market and appeal to a larger audience.</paragraph>
+              <paragraph>Brand Strategist responsibilities include analyzing consumer insights, crafting plans for our creative team and developing guidelines to promote our clients across various channels. To be successful in this role, you should have extensive experience with brand management and a good understanding of fitness industry.</paragraph>
+              <paragraph>Ultimately, you will ensure brand message and tone are consistent across all online and offline channels.</paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="309" ezremote:identifier="teaser_intro" name="Meta Data" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="310" ezremote:identifier="job_overview" name="Job overview" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <ul>
+                <li>
+                  <paragraph>Design &amp; Create highly engaging fitness-related content in both photo, gif &amp; video format</paragraph>
+                </li>
+                <li>
+                  <paragraph>Publish Posts on various social media channels</paragraph>
+                </li>
+                <li>
+                  <paragraph>Promote content on social networks and monitor engagement (e.g. comments and shares)</paragraph>
+                </li>
+                <li>
+                  <paragraph>Research fitness-related topics</paragraph>
+                </li>
+                <li>
+                  <paragraph>Editing audio and sound design on projects</paragraph>
+                </li>
+                <li>
+                  <paragraph>Engage in opportunities to develop original content and concepts for web and mobile</paragraph>
+                </li>
+                <li>
+                  <paragraph>Create motion graphics and animations using 2D and 3D applications for marketing and promotional usage.</paragraph>
+                </li>
+                <li>
+                  <paragraph>Manage the day-to-day handling of all social media channels such as LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok and YouTube, adapting content to suit different channels</paragraph>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="311" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <ul>
+                <li>
+                  <paragraph>Work experience as a Brand Strategist or similar role in Marketing</paragraph>
+                </li>
+                <li>
+                  <paragraph>Portfolio of brand-building projects is a plus</paragraph>
+                </li>
+                <li>
+                  <paragraph>Excellent understanding of the full marketing mix</paragraph>
+                </li>
+                <li>
+                  <paragraph>Experience developing marketing strategies in the fitness industry</paragraph>
+                </li>
+                <li>
+                  <paragraph>Data-driven thinking</paragraph>
+                </li>
+                <li>
+                  <paragraph>Creativity</paragraph>
+                </li>
+                <li>
+                  <paragraph>Communication and writing skills</paragraph>
+                </li>
+                <li>
+                  <paragraph>BSc/MSc in Marketing or relevant field</paragraph>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="312" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <section>
+              <ul>
+                <li>
+                  <paragraph>Gather feedback from sales and analyze consumer behavior to define our company’s positioning</paragraph>
+                </li>
+                <li>
+                  <paragraph>Craft our differentiation strategy</paragraph>
+                </li>
+                <li>
+                  <paragraph>Create guidelines that define company’s voice both online and offline (including terminology and slogans)</paragraph>
+                </li>
+                <li>
+                  <paragraph>Brief our creative team about marketing projects they’ll be working on (for example ebooks, email campaigns and advertising banners)</paragraph>
+                </li>
+                <li>
+                  <paragraph>Conduct competitive research to identify client's strengths and weaknesses</paragraph>
+                </li>
+                <li>
+                  <paragraph>Design promotional campaigns for new products and markets</paragraph>
+                </li>
+                <li>
+                  <paragraph>Assess the performance of our advertising campaigns and events</paragraph>
+                </li>
+                <li>
+                  <paragraph>Analyze market trends and identify new opportunities and challenges</paragraph>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="313" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="314" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="Brand Strategist">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4120" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Brand Strategist</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4121" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Brand Strategist</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4122" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="f8693b251729041805dd7291cff58745" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4123" ezremote:identifier="teaser_image" name="Meta Data" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4124" ezremote:identifier="job_location" name="Location" type="ezstring">
+          <text>New York</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4125" ezremote:identifier="engagement_type" name="Engagement type" type="ezstring">
+          <text>Vollzeit</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4126" ezremote:identifier="application_deadline" name="Application deadline" type="ezdatetime">
+          <date_time>Thu, 01 Jan 1970 00:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4127" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Wir suchen einen Brand-Strategen, der uns dabei hilft, den Ruf unserer Kunden auf dem Fitnessmarkt zu verbessern und ein größeres Publikum anzusprechen.</paragraph>
+            <paragraph>Zu den Aufgaben eines Brand-Strategen gehören die Analyse von Verbraucherdaten, die Ausarbeitung von Plänen für unser Kreativteam und die Entwicklung von Richtlinien zur Förderung unserer Kunden über verschiedene Kanäle. Um in dieser Position erfolgreich zu sein, sollten Sie über umfangreiche Erfahrungen im Markenmanagement und ein gutes Verständnis der Fitnessbranche verfügen.</paragraph>
+            <paragraph>Letztendlich werden Sie sicherstellen, dass die Markenbotschaft und der Tonfall über alle Online- und Offline-Kanäle hinweg konsistent sind.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4128" ezremote:identifier="teaser_intro" name="Meta Data" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4129" ezremote:identifier="job_overview" name="Job overview" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <ul>
+              <li>
+                <paragraph>Entwerfen und Erstellen von sehr ansprechenden fitnessbezogenen Inhalten im Foto-, Gif- und Videoformat</paragraph>
+              </li>
+              <li>
+                <paragraph>Veröffentlichen von Beiträgen auf verschiedenen Social-Media-Kanälen</paragraph>
+              </li>
+              <li>
+                <paragraph>Förderung von Inhalten in sozialen Netzwerken und Überwachung des Engagements (z.B. Kommentare und Freigaben)</paragraph>
+              </li>
+              <li>
+                <paragraph>Recherchieren fitnessbezogener Themen</paragraph>
+              </li>
+              <li>
+                <paragraph>Bearbeitung von Audio- und Sounddesign für Projekte</paragraph>
+              </li>
+              <li>
+                <paragraph>Möglichkeiten zur Entwicklung origineller Inhalte und Konzepte für Web und Mobile nutzen</paragraph>
+              </li>
+              <li>
+                <paragraph>Erstellung von bewegten Grafiken und Animationen mit 2D- und 3D-Anwendungen für Marketing- und Werbezwecke</paragraph>
+              </li>
+              <li>
+                <paragraph>Verwaltung des täglichen Umgangs mit allen Social-Media-Kanälen wie LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok und YouTube und Anpassung der Inhalte</paragraph>
+              </li>
+            </ul>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4130" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <ul>
+              <li>
+                <paragraph>Berufserfahrung als Brand-Stratege oder in einer ähnlichen Funktion im Marketing</paragraph>
+              </li>
+              <li>
+                <paragraph>Ein Portfolio von Projekten zur Markenbildung ist von Vorteil</paragraph>
+              </li>
+              <li>
+                <paragraph>Ausgezeichnetes Verständnis des gesamten Marketing-Mix</paragraph>
+              </li>
+              <li>
+                <paragraph>Erfahrung in der Entwicklung von Marketingstrategien in der Fitnessbranche</paragraph>
+              </li>
+              <li>
+                <paragraph>Datengetriebenes Denken</paragraph>
+              </li>
+              <li>
+                <paragraph>Kreativität</paragraph>
+              </li>
+              <li>
+                <paragraph>Kommunikations- und Schreibfähigkeiten</paragraph>
+              </li>
+              <li>
+                <paragraph>BSc/MSc in Marketing oder einem relevanten Bereich</paragraph>
+              </li>
+            </ul>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4131" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <ul>
+              <li>
+                <paragraph>Einholen von Feedback aus dem Vertrieb und Analysieren des Verbraucherverhaltens, um die Positionierung unseres Unternehmens zu definieren</paragraph>
+              </li>
+              <li>
+                <paragraph>Ausarbeitung unserer Differenzierungsstrategie</paragraph>
+              </li>
+              <li>
+                <paragraph>Erstellung von Richtlinien, die die Stimme des Unternehmens sowohl online als auch offline definieren (einschließlich Terminologie und Slogans)</paragraph>
+              </li>
+              <li>
+                <paragraph>Einweisung unseres Kreativteams in die Marketingprojekte, an denen es arbeiten wird (z.B. Ebooks, E-Mail-Kampagnen und Werbebanner)</paragraph>
+              </li>
+              <li>
+                <paragraph>Durchführung von Wettbewerbsanalysen, um die Stärken und Schwächen des Kunden zu ermitteln</paragraph>
+              </li>
+              <li>
+                <paragraph>Entwerfen von Werbekampagnen für neue Produkte und Märkte</paragraph>
+              </li>
+              <li>
+                <paragraph>Bewertung der Leistung unserer Werbekampagnen und Veranstaltungen</paragraph>
+              </li>
+              <li>
+                <paragraph>Analysieren von Markttrends und Erkennen neuer Chancen und Herausforderungen</paragraph>
+              </li>
+            </ul>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4133" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4132" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-953" name="Brand Strategist" node-id="72" remote-id="media-n-954" sort-field="published" sort-order="0" priority="10"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="174" name="Tom Horvat" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="56" ezremote:published="Wed, 22 Aug 2018 08:39:16 GMT" ezremote:modified="Thu, 23 Aug 2018 11:35:31 GMT" remote_id="media-o-1056" class_remote_id="cc27b8efea6cd2dd82aca487cc14ebfb" ezremote:class_identifier="ng_person" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 23 Aug 2018 11:35:17 GMT" ezremote:modified="Thu, 23 Aug 2018 11:35:31 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Tom Horvat">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1740" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Tom Horvat</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1741" ezremote:identifier="cv" name="CV" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1742" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1743" ezremote:identifier="copyright" name="Copyright" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1744" ezremote:identifier="url_facebook" name="Facebook URL" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1745" ezremote:identifier="url_twitter" name="Twitter URL" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1746" ezremote:identifier="url_instagram" name="Instagram URL" type="ezurl"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1747" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-779" name="Tom Horvat" node-id="176" remote-id="media-n-821" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

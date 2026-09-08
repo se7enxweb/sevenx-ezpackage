@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="1046" name="How to Grow Herbs Indoors" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="211" ezremote:published="Tue, 21 Aug 2018 16:02:21 GMT" ezremote:modified="Thu, 24 Sep 2020 08:43:38 GMT" remote_id="media-o-1046" class_remote_id="b4b7a0239ac823ba93745eeaa9461b25" ezremote:class_identifier="ng_blog_post" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" active_version="9">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:version="9" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:17 GMT" ezremote:modified="Thu, 24 Sep 2020 08:43:38 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" language="eng-US" object_name="How to Grow Herbs Indoors">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24720" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>How to Grow Herbs Indoors</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24721" ezremote:identifier="headline" name="Headline" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24722" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1056"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24723" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24724" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="99f46b6fd09139a5b424803b8eb1e486" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24725" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="bab1f7da0f1082517f83c948b5a2fabf" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24726" ezremote:identifier="publish_date" name="Publish date" type="ezdatetime">
+          <date_time>Tue, 21 Aug 2018 15:59:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24727" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24728" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="24729" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>When it comes to the kitchen, I can never have enough fresh herbs. But with the rising cost of organic produce at grocery stores, the wasteful packaging of herbs, and my rapid use of them in the kitchen, it’s a bit pricy to keep the kitchen stocked!</default:para>
+            <default:para>Growing herbs outdoors is a simple enough task — put them in a pot, water them every so often, and clip some off when needed. But what if you’re living in an urban environment and don’t have much outdoor space? Is it still possible to grow herbs indoors?</default:para>
+            <default:para>The answer is a resounding yes. Not only is it possible, it’s easy! In this article, I’ll walk you through the basics of setting up your own indoor herb garden.</default:para>
+            <default:para>
+              <default:emphasis role="strong">Location, Location, Location</default:emphasis>
+            </default:para>
+            <default:para>Unless you decide to grow with <default:link xlink:href="ezurl://90" xlink:show="none">indoor grow lights</default:link>, you’ll need to place your herb garden in a spot in your home that gets a decent amount of sunlight. For most people, this is a kitchen windowsill. Using a long-box style planter that’s about 6” deep works well for windowsills, as they line up nicely.</default:para>
+            <default:para>Choose a south-facing window to ensure your plants get as much sun as possible. Remember, the sun rises in the east and sets in the west, so locating your garden on a south-facing window exposes it to the sun most of the day.</default:para>
+            <default:para>
+              <default:emphasis role="strong">4 Fantastic Herbs to Grow</default:emphasis>
+            </default:para>
+            <default:para>The way I think about growing herbs indoors is simple:</default:para>
+            <default:para>
+              <default:literallayout class="normal">    •    What do you use the most of in your cooking? 
+    •    What are the most expensive herbs to buy at the grocery store? </default:literallayout>
+            </default:para>
+            <default:ezembed xlink:href="ezcontent://271" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>If you answer these two questions, you’ll know exactly what herbs you should grow indoors. That being said, there are some herbs that are much easier to grow indoors than others. Here are the top four herbs that I’m currently growing:</default:para>
+            <default:para>
+              <default:literallayout class="normal">    1.    <default:emphasis role="strong">Basil</default:emphasis> - A tried and true favorite, basil will thrive indoors and most of us use it abundantly in our cooking. Go with genovese basil for a classic basil flavor. 
+    2.    <default:emphasis role="strong">Mint</default:emphasis> - Mint is a wonderful addition when baking goodies, but can get a bit out of hand if grown with other herbs. If you decide to grow mint, make sure to put it in its own pot. 
+    3.    <default:emphasis role="strong">Sage</default:emphasis> - A wonderful cooking herb, sage grows easily indoors. 
+    4.    <default:emphasis role="strong">Thyme</default:emphasis> - A slower grower, thyme will do well indoors provided you give it more time to establish itself. </default:literallayout>
+            </default:para>
+            <default:para>
+              <default:emphasis role="strong">Caring For Your Herbs</default:emphasis>
+            </default:para>
+            <default:para>Care for an indoor herb garden is pretty simple:</default:para>
+            <default:para>
+              <default:literallayout class="normal">    1.    Use a high-quality, well-draining <default:link xlink:href="ezurl://91" xlink:show="none">potting soil </default:link>
+    2.    Water when soil is dry to 1” deep (use a finger to test) 
+    3.    Scan your herb garden for any pest or disease issues on a weekly basis </default:literallayout>
+            </default:para>
+            <default:para>That’s really all there is to it! So long as you located your garden in an area that gets a lot of light and follow steps 1-3 above, you should have a continual harvest of kitchen herbs!</default:para>
+            <default:para>
+              <default:emphasis role="strong">Growing with Supplemental Lighting</default:emphasis>
+            </default:para>
+            <default:para>If you want to supercharge your indoor kitchen herb garden, you might want to consider growing under artificial lighting. For the most bang for the buck, go with a mid-tier <default:link xlink:href="ezurl://92" xlink:show="none">LED grow light</default:link>. LEDs are cost-effective, and put out more than enough light for your plants to thrive.</default:para>
+            <default:para>As far as your lighting schedule, get an outlet timer and mimic the sunlight, running your lights for 16 hours a day and having them off the other 8 hours. This schedule enables your herbs to grow well, but still take care of all of the vital growth processes that require darkness.</default:para>
+            <default:para>
+              <default:emphasis role="strong">Go Forth and Grow Your Indoor Herb Garden!</default:emphasis>
+            </default:para>
+            <default:para>There we have it — a simple guide to grow herbs indoors for your cooking. You can take this starter guide and expand it to have a huge herb garden overflowing with aromas and spices, but start small and build from there!</default:para>
+            <default:para>
+              <default:literallayout class="normal"><default:emphasis><default:emphasis>Article credit: </default:emphasis><default:link xlink:href="ezurl://18" xlink:show="none">Foodista</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis>
+<default:emphasis><default:emphasis>Photo credit: <default:link xlink:href="ezurl://338" xlink:show="none">pintando la luz</default:link> , <default:link xlink:href="ezurl://339" xlink:show="none">Markus Spiske</default:link></default:emphasis></default:emphasis></default:literallayout>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24730" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24731" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24732" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24733" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text>Produced by Fit&amp;Healthy with Acme</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24735" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24736" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="How to Grow Herbs Indoors" node-id="814" remote-id="media-n-814" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

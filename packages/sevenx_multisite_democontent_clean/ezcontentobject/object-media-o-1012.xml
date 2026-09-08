@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="1012" name="Authors" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="167" ezremote:published="Wed, 08 Aug 2018 21:10:51 GMT" ezremote:modified="Wed, 08 Aug 2018 21:10:51 GMT" remote_id="media-o-1012" class_remote_id="d16e2ce1aa04a16963b9594c634711ad" ezremote:class_identifier="ng_container" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 08 Aug 2018 21:10:36 GMT" ezremote:modified="Wed, 08 Aug 2018 21:10:51 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Authors">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24246" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Authors</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-939" name="Authors" node-id="779" remote-id="media-n-779" sort-field="name" sort-order="1" priority="200"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

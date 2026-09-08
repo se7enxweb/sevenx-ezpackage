@@ -37,11 +37,11 @@
       <div class="block">
       <label for="email">{"Email"|i18n('design/ezwebin/user/forgotpassword')}:</label>
       <div class="labelbreak"></div>
-      <input class="halfbox" type="text" name="UserEmail" size="40" value="{$wrong_email|wash}" />
+      <input class="halfbox" type="text" name="UserEmail" size="40" value="{$wrong_email|wash}">
       </div>
 
       <div class="buttonblock">
-      <input class="button" type="submit" name="GenerateButton" value="{'Generate new password'|i18n('design/ezwebin/user/forgotpassword')}" />
+      <input class="button" type="submit" name="GenerateButton" value="{'Generate new password'|i18n('design/ezwebin/user/forgotpassword')}">
       </div>
       </form>
       {/if}

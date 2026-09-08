@@ -121,7 +121,7 @@
         {set total_inc_vat_text = concat($total_inc_vat_text, $br_tag, $info.sum_inc_vat|l10n( 'currency', $locale, $symbol )) }
 
         {if $br_tag|not()}
-            {set br_tag = '<br />'}
+            {set br_tag = '<br>'}
         {/if}
     {/foreach}
 

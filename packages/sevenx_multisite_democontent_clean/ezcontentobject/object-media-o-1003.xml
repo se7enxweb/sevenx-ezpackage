@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="1003" name="Vegan Granola with Almonds, Walnuts, Cranberries, and Goji Berries" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="219" ezremote:published="Wed, 08 Aug 2018 11:32:52 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:35 GMT" remote_id="media-o-1003" class_remote_id="67c57c234691153c902f0bb5be0e4eaa" ezremote:class_identifier="ng_recipe" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:version="5" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:50:03 GMT" ezremote:modified="Thu, 24 Sep 2020 08:52:35 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" language="eng-US" object_name="Vegan Granola with Almonds, Walnuts, Cranberries, and Goji Berries">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24092" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Vegan Granola with Almonds, Walnuts, Cranberries, and Goji Berries</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24093" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24265" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24094" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24095" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="92a76b5fa8c5972a6790dc07c74717d4" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24096" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Vegan, gluten-free, and healthy protein-rich breakfast or snack.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="24097" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="24098" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:title ezxhtml:level="3">INGREDIENTS</default:title>
+            <default:para>For the granola:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>1 cup almonds (crushed)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>2 cups jumbo rolled oats</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1 dash sea salt</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1 cup walnut (crushed)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>For the almond milk</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>5 cups almond milk</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>For the liquids:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>2 tablespoons extra virgin olive oil</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>2 tbsps maple syrup</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>1⁄2 tsp vanilla powder</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:para>For the berries:</default:para>
+            <default:itemizedlist>
+              <default:listitem>
+                <default:para>1⁄2 cup dried cranberries (dried and cut in half)</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>2 tbsps dried goji berries</default:para>
+              </default:listitem>
+            </default:itemizedlist>
+            <default:title ezxhtml:level="3">PREPARATION</default:title>
+            <default:orderedlist>
+              <default:listitem>
+                <default:para>Preheat the oven to 300 °F (150 degrees).</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Mix the oats with the nuts in a big bowl.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Mix the oil with the vanilla, salt and maple syrup in a small separate cup.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Add the liquid oil mixture to the oats and mix it with your hands until it's evenly spread.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Put baking paper on the baking sheet before you scatter the granola on it.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Toast the granola for about 10 minutes in the oven and add the berries after that.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>It needs to completely cool down before you can fill it into a storage container.</default:para>
+              </default:listitem>
+              <default:listitem>
+                <default:para>Serve with fortified almond milk.</default:para>
+              </default:listitem>
+            </default:orderedlist>
+            <default:para>
+              <default:emphasis>Recipe credit: <default:link xlink:href="ezurl://23" xlink:show="none">Matt</default:link> via <default:link xlink:href="ezurl://18" xlink:show="none">Foodista</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis>
+            </default:para>
+            <default:para>
+              <default:emphasis>
+                <default:emphasis>Photo credit: <default:emphasis><default:link xlink:href="ezurl://18" xlink:show="none">Foodista</default:link> / <default:link xlink:href="ezurl://19" xlink:show="none">CC BY</default:link></default:emphasis></default:emphasis>
+              </default:emphasis>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24099" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">
+          <value>30</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24100" ezremote:identifier="serving_calories" name="Calories (per serving)" type="ezinteger">
+          <value>300</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24101" ezremote:identifier="serving_fat" name="Fat (per serving)" type="ezinteger">
+          <value>22</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24102" ezremote:identifier="serving_carbohydrates" name="Carbohydrates (per serving)" type="ezinteger">
+          <value>13</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24103" ezremote:identifier="serving_protein" name="Protein (per serving)" type="ezinteger">
+          <value>6</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24104" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24105" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24106" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24107" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24108" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24110" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="24111" ezremote:identifier="url_text" name="URL text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-744" name="Vegan Granola with Almonds, Walnuts, Cranberries, and Goji Berries" node-id="770" remote-id="media-n-770" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

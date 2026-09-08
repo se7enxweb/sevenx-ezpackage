@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="344" name="Components" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="45" ezremote:published="Thu, 03 Sep 2026 08:39:31 GMT" ezremote:modified="Thu, 03 Sep 2026 08:39:31 GMT" remote_id="media-o-components" class_remote_id="d16e2ce1aa04a16963b9594c634711ad" ezremote:class_identifier="ng_container" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 03 Sep 2026 08:39:31 GMT" ezremote:modified="Thu, 03 Sep 2026 08:39:31 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Components">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5390" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Components</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5391" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Components" node-id="309" remote-id="media-n-components" sort-field="name" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

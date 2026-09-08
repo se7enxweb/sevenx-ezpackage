@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="85" name="I Can’t Build Muscle. What am I doing Wrong?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Tue, 21 Aug 2018 15:01:29 GMT" ezremote:modified="Thu, 24 Sep 2020 08:28:22 GMT" remote_id="media-o-1027" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:28:12 GMT" ezremote:modified="Thu, 24 Sep 2020 08:28:22 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="I Can’t Build Muscle. What am I doing Wrong?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="507" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>I Can’t Build Muscle. What am I doing Wrong?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="508" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>I Can’t Build Muscle. What am I doing Wrong?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="509" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="510" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="0673b40e2cc3c2d388a0f393ecf478fc" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="511" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="99353d993c78890f2095d9835fc4dc5e" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="512" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="513" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="514" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>Reaching into the old ‘mail bag’ today for some muscle insight. I need to get back on a regular schedule of writing and then publishing stuff here for all of you.</paragraph>
+            <paragraph>“I have been doing gym the last three years. The majority of the time I try to eat clean during the day and I make sure that I’m getting double the amount of protein in grams as my body weight (I include oats, 10-12 egg whites, lean meats, protein shakes, peanut butter). My real concern is I still don’t see any muscle growth. I want to see it in my body, but I still have a good amount of fat in my body. I easily gain fat in my body it seems. I can’t figure out where am I making the mistake. I’m good at lifting weights, doing drop sets and super sets and following multi joint exercises. I hit each body part with my exercise selection. Please help me through this situation.”</paragraph>
+            <paragraph>Realistically speaking, you’re all over the place and you need to reel yourself in, but five things immediately jump out at me.</paragraph>
+            <paragraph>I doubt you know if you gained muscle or lost fat because you’re probably not tracking it and you’re just going off your ‘gut’ or ‘feeling’What does ‘eating clean’ mean? And why is it only during the day?You’ll all over the place in your questioning/reasoning, so you probably have a difficult time focusing on doing one thing well and seeing how it goes.You’re drawing a correlation between protein intake and total intake. Not the same thing.Since when does using a particular strategy like drop sets, super sets or multi-joint exercises mean that you’re good at lifting weights?</paragraph>
+            <section>
+              <header>Muscle Tracking</header>
+              <paragraph>I won’t talk about this ad nauseam because I already have. <link href="https://skillbasedfitness.com/measuring-whats-important/">Read this</link>. How do you know if you gained muscle or fat?</paragraph>
+              <paragraph>The gist is, <strong>if you’re not tracking you’re just guessing</strong>, so you probably have no real idea if you’ve gained muscle mass or lost fat if you don’t have a way of tracking those things — <emphasize>at a minimum this should be girth and weight, not just weight like everyone relies too heavily on.</emphasize></paragraph>
+              <paragraph>Then you have to use that actual real hard data that can’t lie to you, and base future changes to your diet/exercise plan based on that.</paragraph>
+              <paragraph>So start actually tracking with numbers already and stop relying on how you look or feel or what the scale says, because your probably lying to yourself anyway.</paragraph>
+              <paragraph>We all do it. Like every other human being, you’re biased. Whether your realize that or not, so if you have body image issues like many of us do, you’re probably always going to ‘feel skinny’ or ‘look skinny.’</paragraph>
+              <paragraph>And the flip side could be said about someone who wants to lose fat and isn’t managing their psychology. If you feel or look fat in your mind, you could lose 10 or 20 or 30 pounds and still look or feel ‘fat’ in your own mind, even if everyone else around you has noticed you’re looking great!</paragraph>
+              <paragraph>You have to not only track, but manage your psychology.</paragraph>
+              <header>Clean Eating</header>
+              <paragraph>Is such a garbage term. I’m sorry, but it is. Every time a person tells me ‘they eat clean’ I have to ask them what that means because it means different things to different people.</paragraph>
+              <paragraph>A garbage term is something that holds no real meaning, or at least has no consistent meaning from person to person.</paragraph>
+              <paragraph>All the foods you list are on the better side of the spectrum but that’s only a fraction of your diet and you mention that you only do this during the day. What does ‘clean eating’ have to do with muscle?</paragraph>
+              <paragraph>You could eat a ton of low spectrum foods at night for all I know and completely revert the effects of any high spectrum foods you might eat during the day.</paragraph>
+              <paragraph>People tend to exclude all the things they know they shouldn’t be eating when they casually or mentally review what they eat.</paragraph>
+              <paragraph>That’s why you do a food log and log everything that you eat over a period of time. So you have a real sense of what you actually eat and not just a perception.</paragraph>
+              <paragraph>It’s really hard to be honest with yourself, but you have to be.</paragraph>
+              <header>Lack of Focus</header>
+              <paragraph>If you’re protein is dialled in as you claim, then obviously that’s not the issue, so it doesn’t really bear mentioning. You mentioned several times all the things you’re more or less ‘doing right.’</paragraph>
+              <paragraph>Rather than anything you could possibly be doing wrong. That’s the wrong place to solve a problem from.</paragraph>
+              <paragraph>The number of inquires I get like this in a month, I’ll believe it when I see it. That someone is actually doing ‘everything right’ as they often claim. I know more about what I’m doing in this regard than most and I often make mistakes.</paragraph>
+              <paragraph>Assume you’re not doing things right and try to fix them.</paragraph>
+              <paragraph>If you were doing everything right, you wouldn’t be asking me for advice, and I can without hesitation list a dozen things here you might be doing wrong. You should do the same kind of brainstorming if you don’t have a coach in your corner.</paragraph>
+              <paragraph>In my assessments (movement assessments, nutrition logs, training logs, questionnaires, etc…) we diligently look for holes. Mind you I’ve been trained to look for these holes. Finding them on your own is tougher and you’ll have to resort to learning how to use google really effectively.</paragraph>
+              <paragraph>If you don’t have a coach you have to make those assessments yourself, and it’s not like you do it once and forget it, you have to revisit it periodically. I take clients through assessments every 3-6 months typically, but a minimum you should revisit things once a year.</paragraph>
+              <paragraph>The idea of ‘doing everything right’ is usually based on a false premise. Right is not a static situation, you’re a biological organism, and as such your strategy for muscle mass gain or fat loss pursuit has to reflect your dynamic environment.</paragraph>
+              <paragraph>Meaning things are always changing and you have to be constantly adapting. Right is an ideal you’re always chasing.</paragraph>
+              <paragraph>It’s an uphill battle, but it still means you have to pick something else that is worth focusing on and change it.</paragraph>
+              <paragraph>That means don’t focus on the stuff you already think you’re doing well because you’re already doing it well, focus on improving some other thing.</paragraph>
+              <paragraph>One other thing only.</paragraph>
+              <paragraph>In this case, it could be carb intake, it could be fat intake, maybe it’s post-workout nutrition, I’ll get to the workout bit in a sec, but more than likely you’re just not getting enough calories in because that’s what 90% of the people I see in this situation fail to do.</paragraph>
+              <paragraph>That or you are gaining weight, you’re just not happy that it comes with some fat. Lean gains are tough. See my point about managing your psychology above.</paragraph>
+              <header>Goal Dilution</header>
+              <paragraph>The other component of that lack of focus comes down to something called goal dilution, which <link href="https://skillbasedfitness.com/why-goals-suck-part-i/">I discussed here</link>.</paragraph>
+              <paragraph>Whenever you have more than one goal, you dilute your chances of succeeding at either of them. You’re too concerned about gaining some fat along with muscle. You can’t serve two masters.</paragraph>
+              <paragraph>It’s hard to lose fat and gain muscle at the same time and if you’re been training for 3 years, you’re shouldn’t be a beginner anymore, so those days of gaining some muscle and losing fat at the same time just by chance are probably over assuming your training is up to snuff as you indicate.</paragraph>
+              <paragraph>Unfortunately for you, if you want to gain muscle, some fat is usually going to come along for the ride. You don’t really get to selectively choose what tissue your body creates when in energy excess.</paragraph>
+              <paragraph>You can favour it by lifting weights and keeping protein intake high, but you’ll either gain weight painfully slow by minimizing fat gain (small calorie surplus) or some fat gain is going to come along for the right (big calorie surplus).</paragraph>
+              <paragraph>
+                <emphasize>Note: Fat loss readers, the same can be said for fat loss. Often people lose some muscle mass when they lose weight, which isn’t desirable but it happens. Something to keep in mind, it’s also one reason it’s important to track more than just weight.</emphasize>
+              </paragraph>
+              <paragraph>You probably need to focus on just one goal. And if you’re tracking progress or lack-there-of well (see above) then you’ll see when it may be time to switch to a fat loss goal, and vice versa.</paragraph>
+              <header>Protein</header>
+              <paragraph>Not much more to be said here, your protein intake according to you is either 2 grams per kilogram (<emphasize>probably about right</emphasize>) or 2 grams per pound (<emphasize>probably overkill but certainly not doing any harm</emphasize>). Both should be fine.</paragraph>
+              <paragraph>However, high protein intakes largely maintain muscle mass and prevent muscle loss, they don’t help you gain muscle mass unless you lift (more on that below) and ALSO eat an excess of energy from carbs and/or fat.</paragraph>
+              <paragraph>Without an excess there isn’t any energy leftover to build muscle.</paragraph>
+              <paragraph>It’s doubtful that you’re getting enough excess energy intake, just from protein.</paragraph>
+              <paragraph>Honestly, it’s hard for people to reach high protein intakes and still reach excess energy intakes because most protein sources are so satiating. What I often see is people ramp up protein intake, only for their total intake to drop dramatically. It’s kind of a catch 22.</paragraph>
+              <paragraph>Which is another reason increasing protein intake is so effective for fat loss (<emphasize>among other reasons</emphasize>).</paragraph>
+              <paragraph>Ultimately most people even if they hit high protein intakes often recommended by <link href="https://skillbasedfitness.com/why-protein-is-so-important/">people like me</link> still might end up eating enough total calories to gain weight.</paragraph>
+              <paragraph>Protein intakes should still be reasonably high — <emphasize>assuming anything above the recommended daily intake of 0.8 grams per kg means ‘high’ and realistically speaking I think the RDI is low but that’s a different topic of debate</emphasize> — but you also have to be very careful that your total intake doesn’t drop either.</paragraph>
+              <paragraph>Depending on who you talk to it will still require a few hundred extra calories above your needs per day or up to 2600 or so. Larger excessive intakes, lead to faster results generally, but come with more fat gains and smaller excessive intakes lead to slower results generally, but tend to minimize fat gains.</paragraph>
+              <paragraph>It’s really up to you what path you want to take, but you might want to consider at least looking at your real intake by tracking your food for a few days. Then also using a formula to get you’re estimated real needs too.</paragraph>
+              <paragraph>As a starting point 16 kcal x your bodyweight in pounds (x2.2 if you’re starting with kilograms) but it could be up to 18, or more in some cases (highly active individual for instance).</paragraph>
+              <paragraph>I’m a fan of the <link href="http://users.telenet.be/WBtE/cunning.html">Cunningham equation</link> for more accuracy but it’s still only an estimate.</paragraph>
+              <paragraph>You still have to track to make sure you gain girth/weight and I find that’s the better thing to focus on. It tells you what the real world results are, because your numbers are probably wrong anyway.</paragraph>
+              <paragraph>That’s not to say they aren’t worth figuring out sometimes, but rather most people do a calculation and assume it’s right, when 99% of the time it isn’t. Plus it changes as you lose and/or gain muscle mass or other weight.</paragraph>
+              <paragraph>If your protein intake remains high and you’re lifting, then that’s about the best you can do for encouraging as much of it to be muscle mass as most people can.</paragraph>
+              <paragraph>The easiest things to do for most skinny people trying to gain muscle mass is ramp up how quickly they eat (<emphasize>most eat way too slowly so they don’t get enough food in at each sitting</emphasize>). Then also consider bumping up liquid calorie intake (milk/dairy and/or protein shakes) to fight feeling too full all the time from all the other food you have to eat to maintain a reasonably balanced diet.</paragraph>
+              <header>Weight Training for Muscle</header>
+              <paragraph>Since when does doing drop sets or supersets mean you’re good at weight lifting? These are warm and fuzzy training methodologies that people use to mask what really matters.</paragraph>
+              <paragraph>
+                <strong>Load on the Bar.<emphasize> </emphasize></strong>
+                <emphasize>O</emphasize>
+                <emphasize>r in your hand, or on the weight stack…etc…</emphasize>
+              </paragraph>
+              <paragraph>Realistically speaking, drop sets and supersets aren’t necessarily that great. Drop sets only work according to research if they increase volume of training.</paragraph>
+              <paragraph>
+                <strong>FYI: Volume of Training = Reps x Sets x Weight Lifted</strong>
+              </paragraph>
+              <paragraph>They are fun to mix in from time to time, but they don’t tell me anything about how good a lifter you are.</paragraph>
+              <paragraph>Supersets, same thing.</paragraph>
+              <paragraph>If you’re doing them the way <link href="https://skillbasedfitness.com/skill-based-2x2-training/">I recommend</link> (as in paired sets) whereby you use them to save time, then fine. That still doesn’t tell me if you’re a good lifter or not.</paragraph>
+              <paragraph>I get the suspicion that you use them in a far more common bodybuilding manner —<emphasize> also called pre-exhaustion sets.</emphasize></paragraph>
+              <paragraph>In the latter case, you’d do bench press, then chest flies, then tricep push down for example. Effectively training all the same muscle groups back to back working from big to small in this case — <emphasize>though you could do them the other direction too.</emphasize></paragraph>
+              <paragraph>Again research suggests this is only a good way to increase volume, but tells me nothing about how good a lifter you actually are. If you match supersets by volume to more conventional training, more conventional training tends to win.</paragraph>
+              <paragraph>
+                <strong>Bottomline: You don’t need a fancy or cool-sounding training protocol to gain muscle mass 9 times out of 10.</strong>
+              </paragraph>
+              <paragraph>You sound like a beginner that thinks they are much more advanced than they are. I’m almost positive you’re doing some crazy 4-6 day split too that hits muscles once a week, ignoring the fact you’re a natural lifter.</paragraph>
+              <paragraph>Keep it simple and add load.</paragraph>
+              <paragraph>Though I recommend focusing on multi-joint compound exercises, that doesn’t mean you have to use them exclusively and I’m not afraid to add in a little extra work for areas you want to improve.</paragraph>
+              <paragraph>If you’ve been lifting weight for 3 years you should be an intermediate level relative to your bodyweight <link href="http://lonkilgore.com/freebies/freebies.html">on these charts</link>.</paragraph>
+              <paragraph>If you’re not, you can probably forget everything else I said above.</paragraph>
+              <paragraph>
+                <emphasize>OK maybe not everything…</emphasize>
+              </paragraph>
+              <header>In Closing</header>
+              <paragraph>Long story short, most of us lie to ourselves about how well we’re doing (<emphasize>or even how poorly we’re doing</emphasize>) and that’s the most important pattern you have to remove yourself from.</paragraph>
+              <paragraph>I can easily see a few places you probably need improvement. You need to start being honest with yourself. Particularly how well you’ve progressed with your nutrition and how good a lifter you actually are.</paragraph>
+              <paragraph>Once you accept that you’re not doing everything right (few are) you’ll make your life easier. Then you’ll start working to improve things.</paragraph>
+              <paragraph>Go back to the drawing board and attack things one at a time.</paragraph>
+              <paragraph>
+                <emphasize>
+                  <emphasize>
+                    <emphasize>Article credit: <link href="https://www.skillbasedfitness.com/">Skill Based Fitness</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
+                  </emphasize>
+                </emphasize>
+                <line/>
+                <line/>
+                <emphasize>
+                  <emphasize>Cover photo: <link href="http://costculator.com/concept-2-model-d-review/">Costculator</link> <emphasize><emphasize>/ <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize></emphasize></emphasize>
+                </emphasize>
+                <line/>
+              </paragraph>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="515" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="516" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="517" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string>65</id-string>
+          <keyword-string>Workout</keyword-string>
+          <parent-string>0</parent-string>
+          <locale-string>eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="518" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string>67|#65</id-string>
+          <keyword-string>Strength training|#Workout</keyword-string>
+          <parent-string>0|#0</parent-string>
+          <locale-string>eng-US|#eng-US</locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="519" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="520" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="521" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="522" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-721" name="I Can’t Build Muscle. What am I doing Wrong?" node-id="87" remote-id="media-n-794" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="263" name="Workouts" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="57" ezremote:published="Thu, 13 Aug 2026 09:29:15 GMT" ezremote:modified="Thu, 27 Aug 2026 13:51:17 GMT" remote_id="media-o-9506" class_remote_id="a41332a768dc9d9dac2a06244f9fed78" ezremote:class_identifier="ng_banner" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Thu, 27 Aug 2026 13:51:17 GMT" ezremote:modified="Thu, 27 Aug 2026 13:51:17 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Workouts">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2392" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2393" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Workouts</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2394" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="32c2650fa425173a4f4d89b5e32f7648" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2395" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2396" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text>{"type":"external","url":"/bold_eng/careers?nekisufiks","target":"_blank","rel_attribute":"nofollow noopener noreferrer"}</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2397" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2398" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Workouts" node-id="265" remote-id="media-n-9506" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

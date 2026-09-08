@@ -24,7 +24,7 @@
 
 <div class="buttonblock">
 <form action={"/user/login"|ezurl} method="post">
-    <input class="button" type="submit" value="{'OK'|i18n( 'design/ezwebin/user/activate' )}" />
+    <input class="button" type="submit" value="{'OK'|i18n( 'design/ezwebin/user/activate' )}">
 </form>
 </div>
 

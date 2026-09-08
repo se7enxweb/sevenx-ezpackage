@@ -42,7 +42,7 @@
 {if not( $vat_is_known )}
 <div class="message-warning">
 <h2>{'VAT is unknown'|i18n( 'design/ezwebin/shop/basket' )}</h2>
-{'VAT percentage is not yet known for some of the items being purchased.'|i18n( 'design/ezwebin/shop/basket' )}<br/>
+{'VAT percentage is not yet known for some of the items being purchased.'|i18n( 'design/ezwebin/shop/basket' )}<br>
 {'This probably means that some information about you is not yet available and will be obtained during checkout.'|i18n( 'design/ezwebin/shop/basket' )}
 </div>
 {/if}
@@ -100,13 +100,13 @@
 </tr>
 {section name=ProductItem loop=$basket.items sequence=array(bgdark, bglight)}
 <tr class="bglight">
-    <td colspan="7"><input type="hidden" name="ProductItemIDList[]" value="{$Basket:ProductItem:item.id}" />
+    <td colspan="7"><input type="hidden" name="ProductItemIDList[]" value="{$Basket:ProductItem:item.id}">
     {*{$Basket:ProductItem:item.id}-*}
     <a href={concat("/content/view/full/",$Basket:ProductItem:item.node_id,"/")|ezurl}>{$Basket:ProductItem:item.object_name}</a></td>
 </tr>
 <tr class="bgdark">
     <td>
-    <input type="text" name="ProductItemCountList[]" value="{$Basket:ProductItem:item.item_count}" size="5" />
+    <input type="text" name="ProductItemCountList[]" value="{$Basket:ProductItem:item.item_count}" size="5">
     </td>
     <td>
     {if ne( $Basket:ProductItem:item.vat_value, -1 )}
@@ -128,12 +128,12 @@
     {$Basket:ProductItem:item.total_price_inc_vat|l10n( 'currency', $locale, $symbol )}
     </td>
     <td>
-    <input type="checkbox" name="RemoveProductItemDeleteList[]" value="{$Basket:ProductItem:item.id}" />
+    <input type="checkbox" name="RemoveProductItemDeleteList[]" value="{$Basket:ProductItem:item.id}">
     </td>
 </tr>
 <tr class="bglight">
-    <td colspan="6"><input class="button" type="submit" name="StoreChangesButton" value="{'Update'|i18n('design/ezwebin/shop/basket')}" /></td>
-    <td colspan="1"><input class="button" type="submit" name="RemoveProductItemButton" value="{'Remove'|i18n('design/ezwebin/shop/basket')}" /> </td>
+    <td colspan="6"><input class="button" type="submit" name="StoreChangesButton" value="{'Update'|i18n('design/ezwebin/shop/basket')}"></td>
+    <td colspan="1"><input class="button" type="submit" name="RemoveProductItemButton" value="{'Remove'|i18n('design/ezwebin/shop/basket')}"> </td>
 </tr>
 {section show=$Basket:ProductItem:item.item_object.option_list}
 <tr>
@@ -158,7 +158,7 @@
 {/section}
 <tr>
      <td colspan="7">
-     <hr size='2' />
+     <hr size='2'>
      </td>
 </tr>
 <tr>
@@ -211,8 +211,8 @@
 </table>
 
 <div class="buttonblock">
-<input class="button" type="submit" name="ContinueShoppingButton" value="{'Continue shopping'|i18n('design/ezwebin/shop/basket')}" />
-<input class="button" type="submit" name="CheckoutButton" value="{'Checkout'|i18n('design/ezwebin/shop/basket')}" /> &nbsp;
+<input class="button" type="submit" name="ContinueShoppingButton" value="{'Continue shopping'|i18n('design/ezwebin/shop/basket')}">
+<input class="button" type="submit" name="CheckoutButton" value="{'Checkout'|i18n('design/ezwebin/shop/basket')}"> &nbsp;
 </div>
 
 {undef $currency $locale $symbol}

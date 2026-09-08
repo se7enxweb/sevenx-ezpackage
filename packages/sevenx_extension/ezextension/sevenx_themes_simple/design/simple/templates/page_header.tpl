@@ -5,7 +5,7 @@
     <nav class="navbar-main">
         <div class="container">
             <a href={"/"|ezurl} title="{ezini('SiteSettings','SiteName')}" class="navbar-brand">
-                <img src={'logo.png'|ezimage()} alt="{$pagedesign.data_map.image.content[logo].text}" width="{$pagedesign.data_map.image.content[original].width}" height="{$pagedesign.data_map.image.content[original].height}" />
+                <img src={'logo.png'|ezimage()} alt="{$pagedesign.data_map.image.content[logo].text}" {if $pagedesign.data_map.image.content[original].width}width="{$pagedesign.data_map.image.content[original].width}" {/if}{if $pagedesign.data_map.image.content[original].height}height="{$pagedesign.data_map.image.content[original].height}" {/if}>
                 {*
                 {if $pagedesign.data_map.image.content.is_valid|not()}
                     {ezini('SiteSettings','SiteName')}

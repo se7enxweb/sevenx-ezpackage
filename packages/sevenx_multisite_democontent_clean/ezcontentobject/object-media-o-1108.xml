@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="1108" name="Why Your Gut Microbes Love Intermittent Fasting" ezremote:section_id="7" ezremote:owner_id="14" ezremote:class_id="162" ezremote:published="Wed, 22 Aug 2018 15:30:50 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:43 GMT" remote_id="media-o-1108" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" active_version="6">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:version="6" ezremote:status="1" ezremote:created="Thu, 24 Sep 2020 08:43:50 GMT" ezremote:modified="Thu, 24 Sep 2020 08:44:43 GMT" initial_language="eng-US">
+      <ezobject:object-translation xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" language="eng-US" object_name="Why Your Gut Microbes Love Intermittent Fasting">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25366" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Why Your Gut Microbes Love Intermittent Fasting</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25367" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25368" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25369" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25370" ezremote:identifier="teaser_image" name="Teaser image" type="ezimage" image-file-key="b1a7ef1f3c547f744a15eaf9c28a555b" alternative-text=""/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" ezremote:id="25371" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Did you know that most of the cells that make up your body aren’t human at all? Some of them are microbial… and when you fast with the <default:link xlink:href="ezurl://242" xlink:show="new">LIFE Fasting Tracker app</default:link>, they fast too.</default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25372" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" ezremote:id="25373" ezremote:identifier="body" name="Body text" type="ezxmltext">
+          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ezxhtml="http://ez.no/xmlns/ezpublish/docbook/xhtml" xmlns:ezcustom="http://ez.no/xmlns/ezpublish/docbook/custom" version="5.0-variant ezpublish-1.0">
+            <default:para>Microbes inside the human body come in all shapes and sizes and include bacteria, viruses, fungi, amoebae, and in some parts of the world, worms known as helminths. Over a thousand species may live inside our gut and in turn impact our health. They can change how we metabolize food and can even help <default:link xlink:href="ezurl://243" xlink:show="new">tell our brains whether we are hungry or satiated</default:link>. Bacterial microbiome analysis and molecular technologies have led to a greater understanding of our gut microbial communities, their complexity, and how they change over time and may contribute to health and disease.</default:para>
+            <default:para>
+              <default:emphasis>There is growing recognition of the role of diet and other environmental factors in modulating the composition and metabolic activity of the human gut microbiota.” — <default:link xlink:href="ezurl://244" xlink:show="new">Conlon &amp; Bird, 2015</default:link></default:emphasis>
+            </default:para>
+            <default:ezembed xlink:href="ezcontent://334" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="center">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>Our diets can substantially change our gut microbe communities, although the science of how this contributes to human health and disease is still early in its development. We know from a variety of animal and human studies that what we eat, such as the relative amounts of fats, carbohydrates and proteins that we consume, can remodel the microbial communities living in our guts. But <default:emphasis>when</default:emphasis> we eat can also impact our gut microbiomes, and thus our metabolic health. Enter time-restricted feeding.</default:para>
+            <default:para>
+              <default:emphasis>“Only recently have humans and domesticated animals had constant access to food. During their evolution, many animals and humans ate only intermittently. In rodents, both fasting for 24 hours every other day or twice weekly <default:link xlink:href="ezurl://245" xlink:show="new">extends lifespan up to 30%</default:link>, independent of both total food intake and weight loss. [Intermittent fasting] can also protect against obesity, cardiovascular disease, hypertension, diabetes, neurodegeneration, and the clinical progression of several neurodegenerative diseases.” — <default:link xlink:href="ezurl://246" xlink:show="new">Fontana &amp; Partridge, 2015</default:link>, edited.</default:emphasis>
+            </default:para>
+            <default:ezembed xlink:href="ezcontent://335" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:title ezxhtml:level="2">A Circadian Rhythm of Metabolism</default:title>
+            <default:para>Tobe healthy, we need to be flexible at the right times. In other words, the cells and tissues in our body need to know when to transition from burning primarily sugars to burning fats. This is known as metabolic flexibility.</default:para>
+            <default:para>Each of our human cells can change their metabolic states cyclically throughout the day, based on a variety of internal and external cues. This happens because of what is known as the circadian rhythm. Our brain, organs, and tissues such as fat and muscles undergo cyclical changes in gene expression and other cellular and metabolic pathway activities. These changes can be driven by a variety of stimuli such as light fluctuations and nutrient availability. For example, the circadian clock dictates when our mitochondria, the energy producers in our cells, <default:link xlink:href="ezurl://247" xlink:show="new">are most active and efficient</default:link>. The levels of energy molecules including ATP present in various parts of our body, including in regions of our brain, normally <default:link xlink:href="ezurl://247" xlink:show="new">cycle every 24 hours</default:link>, based on daylight and feeding cues.</default:para>
+            <default:para>“<default:emphasis>The circadian clock controls protein phosphorylation to regulate the timing of metabolic pathways. The activity of kinases downstream of the insulin/insulin-like growth factor 1 (IGF1) receptor, measured as the phosphorylation of their substrates, is high during the active phase.” — <default:link xlink:href="ezurl://247" xlink:show="new">Paschos &amp; FitzGerald, 2017</default:link></default:emphasis></default:para>
+            <default:para>The circadian clock helps our bodies know when to enter the most efficient metabolic state based on nutrient availability, such as moving from burning sugars to burning fats overnight. But if we eat in discordance with our biological clock, such as when we are more insulin resistant in the evenings, we can force our bodies into a less efficient metabolic state, or even prompt metabolic dysfunction such as seen in people with type 2 diabetes.</default:para>
+            <default:para>This imbalance happens as a result of a battle between the body and the brain. We all have a master clock contained within a small region of the brain known as the superchiasmatic nucleus. It tells us when we should be awake and when we should be at rest. However, it is not perfect and can be influenced by outside stimuli such as food, temperature and social cues, collectively known as <default:link xlink:href="ezurl://248" xlink:show="new">zeitbergers</default:link>. If our liver, muscles and adipose tissue are being told to be active (think late night snacking or the graveyard shift) while the brain is saying the opposite, we become biologically confused about which metabolic state we <default:emphasis>should</default:emphasis> be in, according to the time of day, sunlight and our sleep pattern.</default:para>
+            <default:ezembed xlink:href="ezcontent://336" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>Desynchronization of the suprachiasmatic nucleus master clock in the brain and peripheral circadian clocks in liver, fat, and skeletal muscle cells may <default:link xlink:href="ezurl://249" xlink:show="new">increase the risk of chronic diseases</default:link>. Feeding signals appear to be the dominant timing cue for the rhythms of peripheral clocks, including those that control metabolic pathways.” — <default:link xlink:href="ezurl://250" xlink:show="new">Patterson &amp; Sears, 2017</default:link></default:para>
+            <default:para>The interplay between circadian clocks and metabolic health is often visible in people with insomnia, <default:link xlink:href="ezurl://251" xlink:show="new">jetlag</default:link>, or who work night shifts. Shift work and jetlag can “throw circadian clocks out of synchrony to accelerate metabolic dysfunction and move towards the <default:link xlink:href="ezurl://252" xlink:show="new">development of the metabolic syndrome</default:link>,” (<default:link xlink:href="ezurl://247" xlink:show="new">Paschos &amp; FitzGerald, 2017</default:link>).</default:para>
+            <default:para>Circadian rhythm disruption is associated with metabolic issues including insulin resistance, elevated blood glucose levels and prediabetes. <default:emphasis>When</default:emphasis> we eat can impact our health both directly and through setting of our circadian clocks. When we eat at night, our blood glucose, HbA1c and insulin levels increase more and say elevated longer than when we eat earlier in the day, which can result in an <default:link xlink:href="ezurl://253" xlink:show="new">elevated risk of type 2 diabetes over time</default:link>. People who eat and sleep a full 12 hours out of phase from their habitual patterns can experience <default:link xlink:href="ezurl://254" xlink:show="new">raised blood pressure, glucose intolerance, hunger due to lowered activity of the satiety hormone leptin, and cortisol level changes</default:link>.</default:para>
+            <default:ezembed xlink:href="ezcontent://337" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="left">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>One way to avoid this circadian clock confusion is through the use of time-restricted feeding regimens that limit our hours of eating to 9–12 hours earlier in the day. Research has revealed this practice can help us better regulate our body weight and energy metabolism. In fact, time-restricted eating or eliminating night eating altogether may help establish better circadian rhythms in people who travel through different time zones or who experience insomnia, with associated improvements in melatonin levels, sleep patterns and metabolic health.</default:para>
+            <default:para>Time-restricted feeding can be <default:link xlink:href="ezurl://255" xlink:show="new">protective against diet-induced obesity and diabetes</default:link>. In a <default:link xlink:href="ezurl://256" xlink:show="new">2012<default:emphasis>Cell Metabolism</default:emphasis> study in mice</default:link>, animals provided a high-fat diet chow throughout the night and day wound up obese and metabolically dysfunctional, with a high risk of developing type 2 diabetes. But mice on the same diet albeit where the availability of the chow was restricted to 8 hours during their active phase <default:link xlink:href="ezurl://256" xlink:show="new">were protected from obesity, metabolic dysfunction and inflammation</default:link>.</default:para>
+            <default:para>In human observational studies, prolonged overnight fasting (at least 13 hours per night) has been associated with reduced risk of breast cancer recurrence in women, reduced risk of elevated HbA1c (HbA1c or glycated haemoglobin is associated with glucose in the blood, high levels of which are associated with diabetes), and reduced inflammation.</default:para>
+            <default:para>
+              <default:emphasis>“Using data from the National Health and Nutrition Examination Surveys […], we have shown that each 3-hour increase in nighttime fasting duration was associated with significantly reduced odds of elevated HbA1c and significantly lower CRP [C-reactive protein] concentrations in women who ate less than 30% of their daily calories after 5:00 p.m.” — <default:link xlink:href="ezurl://250" xlink:show="new">Patterson &amp; Sears, 2017</default:link></default:emphasis>
+            </default:para>
+            <default:para>Disrupted metabolism, which circadian misalignment (those late night snacks again!) and disruption (graveyard shifts) can trigger, is also known to accelerate aging and diseases of aging. Researchers today are investigating whether we may be able to <default:link xlink:href="ezurl://257" xlink:show="new">delay aging by improving the amplitude of our circadian rhythms, for example through time-restricted feeding</default:link>. This is still an outstanding question in human aging science, but it is the subject of concentrated research efforts.</default:para>
+            <default:ezembed xlink:href="ezcontent://338" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>What do gut microbes have to do with all this? Believe it or not, our gut microbes also have a circadian rhythm. Many types of gut microbes oscillate in activity and abundance throughout the day and night. For example, the gut microbe <default:emphasis>Enterobacter aerogenes</default:emphasis> is <default:link xlink:href="ezurl://258" xlink:show="new">sensitive to melatonin</default:link> (the “sleep” hormone). It is generally found in our guts and plays a role in fermenting sugars and producing gas. It can also cause opportunistic infections when spread to other tissues or when its relative abundance increases due to antibiotic treatment.</default:para>
+            <default:para>More reading: <default:link xlink:href="ezurl://259" xlink:show="new">A day in the life of the meta-organism: diurnal rhythms of the intestinal microbiome and its host</default:link>, Thaiss et al. 2015</default:para>
+            <default:para>Disruption of the human circadian clock, for example through mutations in circadian clock genes or by jetlag, can cause disruption in the microbial equivalent and can potentially negatively impact our metabolic health. Luckily, research suggests that following a normal feeding rhythm, even if you are jetlagged, stay up late or are deprived of natural sunlight, can help restore healthy rhythms in gut microbe abundance and activity. These microbial activity rhythms in turn help reset and maintain the circadian clock of cells in our intestinal wall and our liver.</default:para>
+            <default:para>Are you a frequent flyer? Eating and timing your meals for gut health may be key to maintaining your circadian rhythm.</default:para>
+            <default:para>
+              <default:emphasis>“Disruption of the microbiome circadian rhythm is associated with metabolic disease in mice, [and] host immune cells have been shown to respond to the resident microbiota in a circadian-fashion.” — <default:link xlink:href="ezurl://260" xlink:show="new">Bacteria Need “Sleep” Too? Microbiome Circadian Rhythmicity, Metabolic Disease, and Beyond</default:link>, Trinder et al. 2015</default:emphasis>
+            </default:para>
+            <default:para>In a <default:link xlink:href="ezurl://261" xlink:show="new">2014 <default:emphasis>Cell Metabolism </default:emphasis>study in mice</default:link>, time-restricted feeding prevented weight gain and improved the diversity and circadian cycling of gut microbiomes in mice fed an obesity-inducing diet. Mice fed this diet but allowed to eat at any time (<default:emphasis>ad libitum</default:emphasis>) ended up with an obesity-associated gut microbiome that stayed uniform, day and night. While time-restricted feeding didn’t restore the healthy, circadian cycling gut microbiome seen in mice fed a healthy diet, cycling and levels of obesity-protective bacteria were still improved as compared to mice who ate an unhealthy diet <default:emphasis>ad libitum</default:emphasis>.</default:para>
+            <default:para>
+              <default:emphasis>“Cyclical changes in the gut microbiome from feeding/fasting rhythms contribute to the diversity of gut microflora and likely represent a mechanism by which the gut microbiome affects host metabolism.” — <default:link xlink:href="ezurl://261" xlink:show="new">Zarrinpar et al. 2014</default:link></default:emphasis>
+            </default:para>
+            <default:para>Role of Fasting on Metabolic Health… and Microbes?</default:para>
+            <default:para>“The influence of intermittent fasting on overall metabolic parameters is where we are at the moment,” says “Germ Guy” Jason Anthony Tetro, a Visiting Scientist at the University of Guelph. “We are just now starting to determine whether there is any impact on the human microbiome during fasting.”</default:para>
+            <default:ezembed xlink:href="ezcontent://339" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="left">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>A long list of animal studies and a short list of human intervention trials have demonstrated the metabolic health benefits intermittent fasting, including regimens such as alternate day fasting (fasting or eating under 500 calories per day every other day) and time-restricted feeding. In a 2017 <default:link xlink:href="ezurl://250" xlink:show="new"><default:emphasis>Annual Review of Nutrition</default:emphasis>article on intermittent fasting</default:link>, Ruth Patterson and Dorothy Sears from the University of California write that reduced nighttime eating and prolonged overnight fasting may result in sustained improvements in human health, and that such intermittent fasting may exert its health benefits through circadian biology, the gut microbiome and improved sleep patterns.</default:para>
+            <default:para>We are just starting to understand how intermittent fasting may impact gut health and microbiomes, and how this may in turn explain some of the health benefits of going without calories for extended periods of time (12+ hours) on a regular basis. Scientific research, mostly in animal models, is revealing that intermittent fasting may restore microbe diversity in the gut, increase tolerance against “bad” gut microbes, and restore the integrity of the intestinal epithelium. Extended fasts on the order of days to weeks, however, may have unforeseen impacts on gut microbe diversity.</default:para>
+            <default:para>One 2014 study found that <default:link xlink:href="ezurl://262" xlink:show="new">intermittent fasting (alternate day fasting for 12 weeks) helped Salmonella-infected mice clear the pathogenic bacteria more quickly</default:link> through a heightened immune response, prevented the bacteria from crossing out of the gut and resulted in elevated levels of IgA, an antibody or protein that boosts the integrity and immune function of mucous membranes like those lining the intestines. Other mouse-model studies have found that <default:link xlink:href="ezurl://263" xlink:show="new">intermittent fasting protects the gut against the negative impacts of stress</default:link>, which include inflammation.</default:para>
+            <default:para>A particularly intriguing <default:link xlink:href="ezurl://264" xlink:show="new">2017 study in <default:emphasis>Cell Metabolism</default:emphasis></default:link> found that alternate day fasting in mice lead to elevated gut microbe fermentation products <default:link xlink:href="ezurl://265" xlink:show="new">acetate</default:link> and lactate that in turn promoted white adipose tissue browning. Brown or “beiged” fat cells contain higher numbers of mitochondria and are associated with greater insulin sensitivity and metabolic health in animals and humans. Studies in humans have in fact <default:link xlink:href="ezurl://266" xlink:show="new">linked gut microbiota composition to adipose tissue browning and insulin action</default:link>. But how could gut microbes possibly change the health of our fat tissue? Their fermentation products, including lactate and acetate, could be the key.</default:para>
+            <default:para>Lactate and acetate, which has <default:link xlink:href="ezurl://267" xlink:show="new">anti-obesity</default:link> and anti-diabetic activities and can <default:link xlink:href="ezurl://268" xlink:show="new">activate AMPK</default:link> and reduce glucose intolerance in the liver, are short-chain fatty acids produced by microbiome fermentation of complex carbohydrates and starches. At least theoretically, intermittent fasting could further promote the health impacts of a diet high in fiber and complex starches by priming our gut microbes to ferment these products into <default:link xlink:href="ezurl://269" xlink:show="new">fat browning signals</default:link>!</default:para>
+            <default:para> </default:para>
+            <default:title ezxhtml:level="2">Re-Building Your Gut Microbial Communities</default:title>
+            <default:para>Unfortunately, we still understand little about how longer fasting periods impact gut microbes and health in humans. Theoretically, fasting can remodel our gut microbiome toward a healthier community profile.</default:para>
+            <default:para>“Our gut microbes tend to send out recognizable signals when they are getting, well, hungry,” Tetro said. “This is getting into theoretical territory, but we know many species of ‘bad bacteria’ have a relatively short doubling time. So, if you fast, they will tend to starve more quickly than the healthy bacteria in your gut. Many of these ‘good bacteria’ have longer doubling times, and won’t be as greatly affected by your fasting, theoretically. The key now is to find out exactly how the circadian rhythms, nutrient deprivation, and microbe doubling times affect metabolic in humans. We’re not quite there yet. What we can say now is that intermittent fasting may, emphasis on ‘may,’ have an impact on overall microbial composition over the short term. But as we have found with probiotics and interventions other than antibiotics, the gut microbiome is resilient and may return to a previously held state following any short-term intervention.”</default:para>
+            <default:ezembed xlink:href="ezcontent://341" view="embed" ezxhtml:class="ez-embed-type-image" ezxhtml:align="left">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:para>Some early research studies indicate that an extended fasting period can let our guts rest and restore the integrity of our intestinal walls, or epithelium. This may be especially important to protect us against the “leaky gut” or <default:link xlink:href="ezurl://270" xlink:show="new">gut permeability</default:link> processes prompted by <default:link xlink:href="ezurl://271" xlink:show="new">high fat diets</default:link> that let bacteria and other toxins enter surrounding tissues, where they produce <default:link xlink:href="ezurl://272" xlink:show="new">inflammation</default:link>. The impact of energy-rich meals on the movement of bacterial toxins across the gut wall is referred to as <default:link xlink:href="ezurl://273" xlink:show="new">dietary endotoxemia</default:link>, and is typically elevated during <default:link xlink:href="ezurl://274" xlink:show="new">overfeeding and weight gain</default:link>.</default:para>
+            <default:para>But while intermittent fasting can give your gut healthy breaks, it doesn’t turn hamburgers into a health food. If you are concerned about the health of your gut microbes, Tetro recommends sticking to a <default:link xlink:href="ezurl://275" xlink:show="new">balanced</default:link> or <default:link xlink:href="ezurl://276" xlink:show="new">Mediterranean diet</default:link>when you aren’t fasting.</default:para>
+            <default:para>
+              <default:emphasis>“[E]ating habits are the main significant determinants of the microbial multiplicity of the gut, and dietary components influence both microbial populations and their metabolic activities from the early stages of life.” — <default:link xlink:href="ezurl://277" xlink:show="new">Mediterranean Diet and Health: Food Effects on Gut Microbiota and Disease Control</default:link>, Chierico et al. 2014</default:emphasis>
+            </default:para>
+            <default:para>In conjunction with fasting, <default:link xlink:href="ezurl://271" xlink:show="new">prebiotics and dietary fiber can improve epithelial integrity in our gut and reduce inflammation</default:link>. Given the health benefits of dietary fiber, it can’t hurt to start and end your longer fasts with foods high in prebiotics and fiber, such as asparagus, root vegetables, flax and chia seeds, almonds, bran, garlic, bananas and other fruits and vegetables.</default:para>
+            <default:ezembed xlink:href="ezcontent://342" view="embed" ezxhtml:class="ez-embed-type-image">
+              <default:ezconfig>
+                <default:ezvalue key="size">medium</default:ezvalue>
+                <default:ezvalue key="href"/>
+                <default:ezvalue key="link_class"/>
+                <default:ezvalue key="link_id"/>
+                <default:ezvalue key="link_title"/>
+                <default:ezvalue key="link_target"/>
+              </default:ezconfig>
+            </default:ezembed>
+            <default:title ezxhtml:level="2">To Live Longer, Give Your Gut Microbes a Break?</default:title>
+            <default:para>From recent scientific work, we’ve learned that not only what we eat, but <default:emphasis>when</default:emphasis> we eat, can impact our health, potentially by changing the microbial communities in our guts. Intermittent fasting and other forms of dietary restriction, together with intake of fiber and other gut microbe enhancing foods, can theoretically <default:link xlink:href="ezurl://246#fig1" xlink:show="new">increase insulin sensitivity, reduce inflammation, enhance immune tolerance and tissue repair, boost mitochondrial function, rid the body of damaged senescence cells and ultimately increase health and longevity</default:link>.</default:para>
+            <default:para>“Intermittent fasting can improve our gut health by altering our metabolism and immunity functions,” Tetro said. What’s more, metabolism and immunity function famously deteriorate as a we age, potentially linking intermittent fasting, <default:link xlink:href="ezurl://278" xlink:show="new">gut health and aging</default:link> more closely than we’ve realized.</default:para>
+            <default:para>We need more research on the interplay of calorie intake, meal frequency and timing, nutrient modifications and the microbiome on human biomarkers of health and aging. But so far, there’s reason to believe that meal timing, diet and the microbes in our guts will play an important role in how well we age.</default:para>
+            <default:para>
+              <default:emphasis>Cover photo: US Department of Agriculture</default:emphasis>
+            </default:para>
+          </default:section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25375" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25376" ezremote:identifier="related_multimedia" name="Related multimedia items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25377" ezremote:identifier="main_topic" name="Main topic" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25378" ezremote:identifier="tags" name="Tags" type="eztags">
+          <id-string></id-string>
+          <keyword-string></keyword-string>
+          <parent-string></parent-string>
+          <locale-string></locale-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25379" ezremote:identifier="sponsored_content_disclosure" name="Sponsored content disclosure" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25381" ezremote:identifier="css_class" name="CSS class" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25382" ezremote:identifier="url_text" name="URL  text" type="ezstring">
+          <text></text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image>839</og_image>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-722" name="Why Your Gut Microbes Love Intermittent Fasting" node-id="883" remote-id="media-n-883" sort-field="published" sort-order="0" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>
