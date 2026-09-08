@@ -75,13 +75,7 @@
 }</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4927" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
-          <text>{
-    "id": 362,
-    "label": "Senden Sie eine E-Mail",
-    "type": "external",
-    "target": "link",
-    "suffix": null
-}</text>
+          <text>{"id":362,"label":"Senden Sie eine E-Mail","type":"external","target":"link","suffix":null,"url":"mailto:contact@netgen.io"}</text>
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>

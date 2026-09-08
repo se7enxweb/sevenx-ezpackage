@@ -241,13 +241,7 @@
 }</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4537" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
-          <text>{
-    "id": 368,
-    "label": "Finden Sie uns auf Linkedin",
-    "type": "external",
-    "target": "link_new_tab",
-    "suffix": null
-}</text>
+          <text>{"id":368,"label":"Finden Sie uns auf Linkedin","type":"external","target":"link_new_tab","suffix":null,"url":"https:\/\/linkedin.com"}</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4570" ezremote:identifier="item_1_position" name="Item 1 position" type="sckenhancedselection">
           <data-int>0</data-int>
