@@ -2507,6 +2507,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         );
         include_once ('lib/ezutils/classes/ezsys.php');
         // Make sure anonymous can only login to user side
+        // Anonymous may log in on every siteaccess a visitor can reach, not just
+        // the main one. Without bold and bold_ger here the Bold site refuses
+        // anonymous access even once the siteaccesses are registered.
+        $loginSiteAccessCRCs = array();
+        foreach ( $this->servedSiteaccessList() as $servedSiteaccess )
+        {
+            if ( $servedSiteaccess === $this->setting( 'admin_siteaccess' ) )
+                continue;
+            $loginSiteAccessCRCs[] = eZSys::ezcrc32( $servedSiteaccess );
+        }
         $roles[] = array( 
             'name' => 'Anonymous', 
             'policies' => array( 
@@ -2514,9 +2524,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                     'module' => 'user', 
                     'function' => 'login', 
                     'limitation' => array( 
-                        'SiteAccess' => array( 
-                            eZSys::ezcrc32( $this->setting( 'user_siteaccess' ) ) 
-                        ) 
+                        'SiteAccess' => $loginSiteAccessCRCs
                     ) 
                 ) 
             ) 
@@ -3171,16 +3179,60 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         return $settings;
     }
 
+    /**
+     * Siteaccesses this solution serves besides the main one and its language
+     * variants.
+     *
+     * Bold Agency is a second site inside the same installation. The installer
+     * already tunes settings/siteaccess/bold and bold_ger (IndexPage,
+     * DefaultPage, PathPrefix) but never registered them, so
+     * AvailableSiteAccessList omitted both and /bold_ger/ answered 404 from the
+     * main siteaccess. Only names whose siteaccess directory is actually present
+     * are returned, so an install without them is unaffected.
+     */
+    function secondarySiteaccessList()
+    {
+        $list = array();
+        foreach ( array( 'bold', 'bold_ger' ) as $siteaccess )
+        {
+            if ( $siteaccess === $this->setting( 'user_siteaccess' ) )
+                continue;
+            if ( in_array( $siteaccess, (array)$this->setting( 'all_siteaccess_list' ), true ) )
+                continue;
+            if ( file_exists( 'settings/siteaccess/' . $siteaccess . '/site.ini.append.php' ) )
+                $list[] = $siteaccess;
+        }
+        return $list;
+    }
+
+    /**
+     * Every siteaccess a visitor may reach, main plus language plus secondary.
+     */
+    function servedSiteaccessList()
+    {
+        return array_values( array_unique( array_merge(
+            (array)$this->setting( 'all_siteaccess_list' ),
+            $this->secondarySiteaccessList()
+        ) ) );
+    }
+
     function commonSiteINISettings()
     {
         $settings = array();
+        // MatchOrder must include uri: the secondary siteaccesses are reached by
+        // path (/bold_ger/), and with the eZ default of host-only the path is
+        // never consulted - the request matches the main host and the path is
+        // then treated as content, giving a 404 rendered in the main site's
+        // design. uri is tried first and falls through to host, which is what
+        // the main site relies on.
         $settings['SiteAccessSettings'] = array( 
-            'AvailableSiteAccessList' => $this->setting( 'all_siteaccess_list' ),
-            'RelatedSiteAccessList' => $this->setting( 'all_siteaccess_list' ),
+            'AvailableSiteAccessList' => $this->servedSiteaccessList(),
+            'RelatedSiteAccessList' => $this->servedSiteaccessList(),
+            'MatchOrder' => 'uri;host',
             'PathPrefixExclude' => array( 'Media', 'Users' )
         );
         $settings['SiteSettings'] = array( 
-            'SiteList' => $this->setting( 'all_siteaccess_list' ), 
+            'SiteList' => $this->servedSiteaccessList(), 
             // 'DefaultAccess' => $this->languageNameFromLocale( $this->setting( 'primary_language' ) ),
             'DefaultAccess' => $this->setting( 'user_siteaccess' ), 
             'RootNodeDepth' => 1 
