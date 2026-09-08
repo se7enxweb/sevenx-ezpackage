@@ -1368,7 +1368,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_params' => array()
             ),
             array(
-                '_function' => 'postInstallCreateBoldAgencyAlias',
+                '_function' => 'postInstallCreateSitePrefixAliases',
                 '_params' => array()
             )
         );
@@ -1595,31 +1595,151 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         return sevenxRegenerateURLAliases();
     }
 
-    function postInstallCreateBoldAgencyAlias( $params = false )
+    /**
+     * Create the URL aliases the siteaccess PathPrefix settings depend on.
+     *
+     * Each site is served from a home node below the content root, and its
+     * siteaccess hides that node with PathPrefix - so /bold/services is looked
+     * up as bold-agency/services, from the alias root. eZ generates aliases
+     * with the prefix left out, which is the point of the setting, so nothing
+     * in a normal alias regeneration ever creates the prefixed path: the home
+     * node's children end up either at the alias root or under a system
+     * node_2 element, and every prefixed request answers 404. The layout
+     * resolver is hit too, because it keys on the resolved path - the Bold home
+     * page falls through to the catch-all rule and renders without its layout.
+     *
+     * storePath() creates any missing parents and re-parents an existing
+     * entry, so storing each node's prefixed path builds the tree the settings
+     * expect without removing anything the regeneration produced.
+     *
+     * Runs after postInstallRegenerateURLAliases, which has to have populated
+     * the per-language texts first.
+     */
+    function postInstallCreateSitePrefixAliases( $params = false )
     {
-        $object = eZContentObject::fetchByRemoteID( 'media-o-1178' );
-        if ( !$object )
+        // home nodes of the sites this installation serves, by remote id
+        $homeRemoteIDs = array( 'media-n-939', 'media-n-940' );
+
+        $stored = 0;
+        foreach ( $homeRemoteIDs as $remoteID )
         {
-            eZDebug::writeError( 'Bold Agency object not found, cannot create alias', __FUNCTION__ );
-            return false;
+            $homeNode = eZContentObjectTreeNode::fetchByRemoteID( $remoteID );
+            if ( !$homeNode )
+            {
+                eZDebug::writeWarning( "Could not resolve home node $remoteID, no prefixed aliases created for it", __FUNCTION__ );
+                continue;
+            }
+
+            $stored += $this->storeSitePrefixAliases( $homeNode );
         }
 
-        $node = $object->mainNode();
-        if ( !$node )
-        {
-            eZDebug::writeError( 'Bold Agency main node not found, cannot create alias', __FUNCTION__ );
-            return false;
-        }
-
-        $result = eZURLAliasML::storePath( 'node_2/bold-agency', 'eznode:' . $node->attribute( 'node_id' ) );
-        if ( !$result['status'] )
-        {
-            eZDebug::writeError( 'Could not store node_2/bold-agency alias', __FUNCTION__ );
-            return false;
-        }
-
-        eZDebug::writeNotice( 'Created node_2/bold-agency URL alias for Bold Agency', __FUNCTION__ );
+        eZDebug::writeNotice( "Stored $stored prefixed URL alias path(s)", __FUNCTION__ );
         return true;
+    }
+
+    /**
+     * Store the prefixed alias path of every node in a site's subtree, for each
+     * language that site's home node is translated into.
+     */
+    function storeSitePrefixAliases( eZContentObjectTreeNode $homeNode )
+    {
+        $db = eZDB::instance();
+        $homeNodeID = (int)$homeNode->attribute( 'node_id' );
+        $homeObject = $homeNode->object();
+        $locales = $homeObject ? (array)$homeObject->availableLanguages() : array();
+        if ( !$locales )
+            $locales = array( eZContentLanguage::topPriorityLanguage()->attribute( 'locale' ) );
+
+        $subtree = $db->arrayQuery( "
+            SELECT node_id FROM ezcontentobject_tree
+            WHERE path_string LIKE '" . $db->escapeString( $homeNode->attribute( 'path_string' ) ) . "%'
+            ORDER BY depth ASC, node_id ASC" );
+
+        $stored = 0;
+        foreach ( $locales as $locale )
+        {
+            $prefix = $this->nodeAliasText( $homeNodeID, $locale );
+            if ( $prefix === '' )
+                continue;
+
+            foreach ( $subtree as $row )
+            {
+                $nodeID = (int)$row['node_id'];
+                if ( $nodeID === $homeNodeID )
+                {
+                    // the prefix element itself
+                    $path = $prefix;
+                }
+                else
+                {
+                    $segments = array();
+                    $walk = eZContentObjectTreeNode::fetch( $nodeID );
+                    $incomplete = false;
+                    while ( $walk )
+                    {
+                        $walkID = (int)$walk->attribute( 'node_id' );
+                        if ( $walkID === $homeNodeID )
+                            break;
+                        $text = $this->nodeAliasText( $walkID, $locale );
+                        if ( $text === '' )
+                        {
+                            $incomplete = true;
+                            break;
+                        }
+                        array_unshift( $segments, $text );
+                        $walk = $walk->attribute( 'parent' );
+                    }
+                    if ( $incomplete )
+                        continue;
+                    array_unshift( $segments, $prefix );
+                    $path = implode( '/', $segments );
+                }
+
+                $result = eZURLAliasML::storePath( $path, 'eznode:' . $nodeID, $locale, false, false, false );
+                if ( isset( $result['status'] ) && $result['status'] )
+                    $stored++;
+            }
+        }
+
+        return $stored;
+    }
+
+    /**
+     * The alias text a node already carries in the given language, falling back
+     * to its name converted to an alias.
+     *
+     * Reusing the generated row keeps the per-language wording the content
+     * defines - services against leistungen - instead of deriving both from one
+     * translation.
+     */
+    function nodeAliasText( $nodeID, $locale )
+    {
+        $db = eZDB::instance();
+        $language = eZContentLanguage::fetchByLocale( $locale );
+        if ( $language )
+        {
+            $rows = $db->arrayQuery( "
+                SELECT text FROM ezurlalias_ml
+                WHERE action = 'eznode:" . (int)$nodeID . "'
+                  AND text != ''
+                  AND ( lang_mask & " . (int)$language->attribute( 'id' ) . " ) > 0
+                ORDER BY id LIMIT 1" );
+            if ( $rows )
+                return $rows[0]['text'];
+        }
+
+        $node = eZContentObjectTreeNode::fetch( (int)$nodeID );
+        if ( !$node )
+            return '';
+
+        $object = $node->object();
+        $name = $object ? $object->name( false, $locale ) : false;
+        if ( $name === false || $name === null || $name === '' )
+            $name = $node->attribute( 'name' );
+        if ( $name === null || $name === '' )
+            return '';
+
+        return eZURLAliasML::convertToAlias( $name, 'node_' . (int)$nodeID );
     }
 
     private function fixPackageNodesAndExplayouts()
