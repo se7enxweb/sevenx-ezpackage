@@ -1665,12 +1665,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             foreach ( $subtree as $row )
             {
                 $nodeID = (int)$row['node_id'];
+
+                // Never touch the home node's own element. It is the parent the
+                // whole subtree hangs from, and storePath treats a changed path
+                // for an existing action as a move: moving it orphans every
+                // child, and the cleanup pass then removes them. The prefix
+                // element is created implicitly as the parent of the first child
+                // path stored below, which is all the PathPrefix lookup needs.
                 if ( $nodeID === $homeNodeID )
-                {
-                    // the prefix element itself
-                    $path = $prefix;
-                }
-                else
+                    continue;
+
                 {
                     $segments = array();
                     $walk = eZContentObjectTreeNode::fetch( $nodeID );
@@ -1695,7 +1699,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                     $path = implode( '/', $segments );
                 }
 
-                $result = eZURLAliasML::storePath( $path, 'eznode:' . $nodeID, $locale, false, false, false );
+                // cleanupElements is off: it removes elements it considers
+                // unreferenced, and with a whole subtree being restored in one
+                // pass it discarded aliases that were about to be re-parented.
+                $result = eZURLAliasML::storePath( $path, 'eznode:' . $nodeID, $locale, false, false, false, false );
                 if ( isset( $result['status'] ) && $result['status'] )
                     $stored++;
             }
