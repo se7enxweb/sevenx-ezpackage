@@ -2597,6 +2597,24 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'policies' => array( $tagsViewPolicy )
         );
 
+        // The lead form is opened from a button that fetches
+        // info-collection/view-modal and posts back to info-collection/submit
+        // (see the js-form-modal-trigger data-url in the Bold templates). Both
+        // views declare the module's single 'read' function, so without this
+        // policy the button answers 401 and no form ever appears.
+        $infoCollectionPolicy = array(
+            'module' => 'info-collection',
+            'function' => 'read'
+        );
+        $roles[] = array(
+            'name' => 'Anonymous',
+            'policies' => array( $infoCollectionPolicy )
+        );
+        $roles[] = array(
+            'name' => 'Member',
+            'policies' => array( $infoCollectionPolicy )
+        );
+
         return $roles;
     }
 
