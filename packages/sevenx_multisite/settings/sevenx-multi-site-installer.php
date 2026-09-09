@@ -2211,7 +2211,13 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'postgresql' => array( 'postgresql.sql', 'schema.sql' ),
             'pgsql'      => array( 'postgresql.sql', 'schema.sql' ),
             'oracle'     => array( 'schema.sql' ),
+            'mongo'      => array( 'schema.json' ),
         );
+
+        // The directory an engine keeps its files in is not always the name the
+        // driver reports. expMongoDB reports 'mongo' while extensions ship
+        // sql/mongodb.
+        $sqlDirMap = array( 'mongo' => 'mongodb' );
 
         if ( !isset( $sqlMap[$engine] ) )
         {
@@ -2219,7 +2225,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             return;
         }
 
-        $sqlPath = $basePath . '/sql/' . $engine;
+        $sqlDir = isset( $sqlDirMap[$engine] ) ? $sqlDirMap[$engine] : $engine;
+        $sqlPath = $basePath . '/sql/' . $sqlDir;
         $res = false;
         foreach ( $sqlMap[$engine] as $sqlFile )
         {
@@ -2242,7 +2249,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             $res = false;
             foreach ( $dataFiles as $dataFile )
             {
-                $dataPath = $basePath . '/sql/' . $engine;
+                $dataPath = $basePath . '/sql/' . $sqlDir;
                 $res = $db->insertFile( $dataPath, $dataFile, false );
                 if ( $res )
                 {
