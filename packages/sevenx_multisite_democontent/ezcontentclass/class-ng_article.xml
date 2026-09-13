@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="published" sort-order="0">
-  <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Article";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <serialized-name-list>a:2:{s:6:"eng-US";s:10:"NG Article";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>ng_article</identifier>
   <serialized-description-list>a:2:{s:6:"eng-US";s:23:"Standard article object";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
   <remote-id>e6e3ca754beb50d1268c2d27588926cb</remote-id>

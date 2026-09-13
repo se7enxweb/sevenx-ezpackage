@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="path" sort-order="1">
-  <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Frontpage";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <serialized-name-list>a:2:{s:6:"eng-US";s:12:"NG Frontpage";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>ng_frontpage</identifier>
   <serialized-description-list>a:2:{s:6:"eng-US";s:9:"Frontpage";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
   <remote-id>aff5987579ece42eae5a5ed13092a917</remote-id>

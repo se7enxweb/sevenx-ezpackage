@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="path" sort-order="1">
-  <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Gallery";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <serialized-name-list>a:2:{s:6:"eng-US";s:10:"NG Gallery";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>ng_gallery</identifier>
   <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
   <remote-id>defcb74b7281b78bd135aaef42a50d47</remote-id>

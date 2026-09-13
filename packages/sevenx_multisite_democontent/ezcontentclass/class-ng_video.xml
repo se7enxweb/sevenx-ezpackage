@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="true" sort-field="path" sort-order="1">
-  <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Video";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <serialized-name-list>a:2:{s:6:"eng-US";s:8:"NG Video";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>ng_video</identifier>
   <serialized-description-list>a:2:{s:6:"eng-US";s:43:"HTML5, YouTube, Vimeo and Dailymotion video";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
   <remote-id>0febffcac56c7d0eee3368d8cf66aea5</remote-id>
