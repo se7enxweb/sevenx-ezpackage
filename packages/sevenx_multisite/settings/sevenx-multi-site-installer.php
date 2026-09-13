@@ -1885,6 +1885,14 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             // disk. Every other INI writer in this installer uses direct access.
             $ini = eZINI::instance( 'site.ini.append.php', $dir, null, false, null, true );
             $ini->setReadOnlySettingsCheck( false );
+            // The sites are served from a virtual host with clean urls, so eZ must
+            // generate them without index.php. Left at its default of false it
+            // emits /index.php/... and the treemenu entry point then misreads
+            // its own parameters: index_treemenu.php skips exactly two url
+            // elements to reach the view arguments, so the extra index.php
+            // shifts them by one and NodeID arrives as the string 'treemenu',
+            // which casts to 0. The content tree answered 404 for every node.
+            $ini->setVariable( 'SiteAccessSettings', 'ForceVirtualHost', 'true' );
             $ini->setVariable( 'SiteAccessSettings', 'PathPrefix', $alias );
 
             // IndexPage needs a node id, so it is only set when the node is
@@ -3491,11 +3499,24 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     {
         $adminSiteaccess = $this->setting( 'admin_siteaccess' );
         $siteINI = eZINI::instance( 'site.ini.append.php', 'settings/siteaccess/' . $adminSiteaccess, null, false, null, true );
-        $siteINI->setVariable( 'DesignSettings', 'SiteDesign', $adminSiteaccess );
-        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array(
-            'admin3', 'admin2', 'admin'
-        ) );
+        // admin3 is the skin: its own pagelayout and eighteen overrides. admin is
+        // the complete interface underneath it, all three hundred odd templates
+        // including the contentstructuremenu ones the content tree is built from.
+        // So admin3 has to be the site design and admin the fallback.
+        //
+        // This used to set SiteDesign to the siteaccess NAME, which is 'admin',
+        // and push admin3 into the fallback list. A design named after the
+        // siteaccess only resolves by coincidence, and with admin first the
+        // admin3 pagelayout never won - the interface rendered against the old
+        // base design instead. admin2 is empty here and only exists inside
+        // cjw_newsletter, so it is not listed.
+        $siteINI->setVariable( 'DesignSettings', 'SiteDesign', 'admin3' );
+        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 'admin' ) );
         $siteINI->setVariable( 'SiteAccessSettings', 'RelatedSiteAccessList', $this->servedSiteaccessList() );
+        // Clean urls here too: the administration interface is where the
+        // treemenu is used, and it is the entry point that misreads its
+        // parameters when index.php is left in the generated url.
+        $siteINI->setVariable( 'SiteAccessSettings', 'ForceVirtualHost', 'true' );
         $siteINI->setVariable( 'FileSettings', 'VarDir', 'var/site' );
         $siteINI->setVariable( 'SiteSettings', 'SiteName', 'Admin' );
         $siteINI->save();
