@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
-  <serialized-name-list>a:3:{s:6:"eng-US";s:5:"Video";s:6:"eng-GB";s:5:"Video";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Video";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>video</identifier>
-  <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+  <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
   <remote-id>b38417e8194fb8f893ca918d297b4fa8</remote-id>
   <object-name-pattern>&lt;name&gt;</object-name-pattern>
   <url-alias-pattern/>
@@ -29,9 +29,9 @@
       <remote>
         <id>320</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:4:"Name";s:6:"eng-GB";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>name</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>1</placement>
@@ -44,9 +44,9 @@
       <remote>
         <id>321</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:4:"File";s:6:"eng-GB";s:4:"File";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"File";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>file</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>2</placement>
@@ -59,9 +59,9 @@
       <remote>
         <id>322</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:7:"Caption";s:6:"eng-GB";s:7:"Caption";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Caption";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>caption</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>3</placement>
@@ -73,9 +73,9 @@
       <remote>
         <id>323</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:4:"Tags";s:6:"eng-GB";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>tags</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>4</placement>
@@ -85,9 +85,9 @@
       <remote>
         <id>324</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:11:"Star Rating";s:6:"eng-GB";s:11:"Star Rating";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Star Rating";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>star_rating</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>5</placement>
@@ -97,9 +97,9 @@
       <remote>
         <id>325</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:9:"Meta Data";s:6:"eng-GB";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>metadata</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
       <placement>6</placement>

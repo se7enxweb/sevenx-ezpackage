@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
-  <serialized-name-list>a:3:{s:6:"eng-US";s:7:"Comment";s:6:"eng-GB";s:7:"Comment";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Comment";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>comment</identifier>
-  <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+  <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
   <remote-id>000c14f4f475e9f2955dedab72799941</remote-id>
   <object-name-pattern>&lt;subject&gt;</object-name-pattern>
   <url-alias-pattern/>
@@ -29,9 +29,9 @@
       <remote>
         <id>149</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:7:"Subject";s:6:"eng-GB";s:7:"Subject";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Subject";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>subject</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>1</placement>
@@ -44,9 +44,9 @@
       <remote>
         <id>150</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:6:"Author";s:6:"eng-GB";s:6:"Author";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Author";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>author</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>2</placement>
@@ -59,9 +59,9 @@
       <remote>
         <id>151</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:7:"Message";s:6:"eng-GB";s:7:"Message";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Message";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>message</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category/>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>3</placement>

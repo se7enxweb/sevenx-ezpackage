@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
-  <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Features Component";}</serialized-name-list>
+  <serialized-name-list>a:0:{}</serialized-name-list>
   <identifier>ng_component_features</identifier>
-  <serialized-description-list>a:1:{s:6:"eng-GB";s:18:"Features component";}</serialized-description-list>
+  <serialized-description-list>a:0:{}</serialized-description-list>
   <remote-id>71f395a7bcfcef0db0777ee8acb0cc33</remote-id>
   <object-name-pattern>&lt;name&gt;</object-name-pattern>
   <url-alias-pattern></url-alias-pattern>
@@ -29,9 +29,9 @@
       <remote>
         <id>2274</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:4:"Name";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>name</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";s:13:"Internal name";}</serialized-description-list>
+      <serialized-description-list>a:0:{}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>0</placement>
@@ -44,9 +44,9 @@
       <remote>
         <id>2275</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:13:"Eyebrow title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>eyebrow_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>1</placement>
@@ -59,9 +59,9 @@
       <remote>
         <id>2276</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:5:"Title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>2</placement>
@@ -74,9 +74,9 @@
       <remote>
         <id>2277</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>3</placement>
@@ -88,9 +88,9 @@
       <remote>
         <id>2278</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:5:"Image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>4</placement>
@@ -102,9 +102,9 @@
       <remote>
         <id>2279</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>5</placement>
@@ -116,9 +116,9 @@
       <remote>
         <id>2691</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:6:"Link 1";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>link_1</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>6</placement>
@@ -128,9 +128,9 @@
       <remote>
         <id>2701</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:6:"Link 2";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>link_2</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>7</placement>
@@ -140,9 +140,9 @@
       <remote>
         <id>2285</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 1 position";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_1_position</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_1</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>8</placement>
@@ -158,9 +158,9 @@
       <remote>
         <id>2286</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:23:"Item 1 hightlight title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_1_highlight_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_1</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>9</placement>
@@ -173,9 +173,9 @@
       <remote>
         <id>2287</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 1 title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_1_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_1</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>10</placement>
@@ -188,9 +188,9 @@
       <remote>
         <id>2288</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 1 description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_1_description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_1</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>11</placement>
@@ -202,9 +202,9 @@
       <remote>
         <id>2289</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 1 icon";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_1_icon</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_1</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>12</placement>
@@ -216,9 +216,9 @@
       <remote>
         <id>2290</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 1 image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_1_image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_1</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>13</placement>
@@ -230,9 +230,9 @@
       <remote>
         <id>2291</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 1 image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_1_image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_1</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>14</placement>
@@ -244,9 +244,9 @@
       <remote>
         <id>2692</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 1 Link";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_1_link</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_1</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>15</placement>
@@ -256,9 +256,9 @@
       <remote>
         <id>2297</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 2 position";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_2_position</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_2</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>16</placement>
@@ -274,9 +274,9 @@
       <remote>
         <id>2298</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:23:"Item 2 hightlight title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_2_highlight_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_2</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>17</placement>
@@ -289,9 +289,9 @@
       <remote>
         <id>2299</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 2 title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_2_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_2</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>18</placement>
@@ -304,9 +304,9 @@
       <remote>
         <id>2300</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 2 description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_2_description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_2</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>19</placement>
@@ -318,9 +318,9 @@
       <remote>
         <id>2301</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 2 icon";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_2_icon</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_2</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>20</placement>
@@ -332,9 +332,9 @@
       <remote>
         <id>2302</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 2 image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_2_image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_2</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>21</placement>
@@ -346,9 +346,9 @@
       <remote>
         <id>2303</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 2 image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_2_image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_2</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>22</placement>
@@ -360,9 +360,9 @@
       <remote>
         <id>2693</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 2 Link";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_2_link</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_2</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>23</placement>
@@ -372,9 +372,9 @@
       <remote>
         <id>2309</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 3 position";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_3_position</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_3</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>24</placement>
@@ -390,9 +390,9 @@
       <remote>
         <id>2310</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:23:"Item 3 hightlight title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_3_highlight_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_3</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>25</placement>
@@ -405,9 +405,9 @@
       <remote>
         <id>2311</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 3 title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_3_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_3</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>26</placement>
@@ -420,9 +420,9 @@
       <remote>
         <id>2312</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 3 description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_3_description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_3</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>27</placement>
@@ -434,9 +434,9 @@
       <remote>
         <id>2313</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 3 icon";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_3_icon</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_3</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>28</placement>
@@ -448,9 +448,9 @@
       <remote>
         <id>2314</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 3 image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_3_image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_3</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>29</placement>
@@ -462,9 +462,9 @@
       <remote>
         <id>2315</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 3 image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_3_image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_3</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>30</placement>
@@ -476,9 +476,9 @@
       <remote>
         <id>2694</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 3 Link";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_3_link</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_3</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>31</placement>
@@ -488,9 +488,9 @@
       <remote>
         <id>2321</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 4 position";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_4_position</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_4</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>32</placement>
@@ -506,9 +506,9 @@
       <remote>
         <id>2322</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:23:"Item 4 hightlight title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_4_highlight_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_4</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>33</placement>
@@ -521,9 +521,9 @@
       <remote>
         <id>2323</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 4 title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_4_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_4</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>34</placement>
@@ -536,9 +536,9 @@
       <remote>
         <id>2324</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 4 description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_4_description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_4</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>35</placement>
@@ -550,9 +550,9 @@
       <remote>
         <id>2325</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 4 icon";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_4_icon</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_4</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>36</placement>
@@ -564,9 +564,9 @@
       <remote>
         <id>2326</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 4 image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_4_image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_4</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>37</placement>
@@ -578,9 +578,9 @@
       <remote>
         <id>2327</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 4 image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_4_image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_4</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>38</placement>
@@ -592,9 +592,9 @@
       <remote>
         <id>2695</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 4 Link";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_4_link</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_4</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>39</placement>
@@ -604,9 +604,9 @@
       <remote>
         <id>2333</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 5 position";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_5_position</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_5</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>40</placement>
@@ -622,9 +622,9 @@
       <remote>
         <id>2334</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:23:"Item 5 hightlight title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_5_highlight_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_5</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>41</placement>
@@ -637,9 +637,9 @@
       <remote>
         <id>2335</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 5 title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_5_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_5</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>42</placement>
@@ -652,9 +652,9 @@
       <remote>
         <id>2336</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 5 description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_5_description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_5</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>43</placement>
@@ -666,9 +666,9 @@
       <remote>
         <id>2337</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 5 icon";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_5_icon</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_5</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>44</placement>
@@ -680,9 +680,9 @@
       <remote>
         <id>2338</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 5 image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_5_image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_5</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>45</placement>
@@ -694,9 +694,9 @@
       <remote>
         <id>2339</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 5 image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_5_image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_5</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>46</placement>
@@ -708,9 +708,9 @@
       <remote>
         <id>2696</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 5 Link";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_5_link</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_5</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>47</placement>
@@ -720,9 +720,9 @@
       <remote>
         <id>2345</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 6 position";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_6_position</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_6</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>48</placement>
@@ -738,9 +738,9 @@
       <remote>
         <id>2346</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:23:"Item 6 hightlight title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_6_highlight_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_6</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>49</placement>
@@ -753,9 +753,9 @@
       <remote>
         <id>2347</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 6 title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_6_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_6</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>50</placement>
@@ -768,9 +768,9 @@
       <remote>
         <id>2348</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 6 description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_6_description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_6</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>51</placement>
@@ -782,9 +782,9 @@
       <remote>
         <id>2349</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 6 icon";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_6_icon</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_6</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>52</placement>
@@ -796,9 +796,9 @@
       <remote>
         <id>2350</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 6 image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_6_image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_6</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>53</placement>
@@ -810,9 +810,9 @@
       <remote>
         <id>2351</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 6 image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_6_image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_6</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>54</placement>
@@ -824,9 +824,9 @@
       <remote>
         <id>2697</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 6 Link";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_6_link</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_6</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>55</placement>
@@ -836,9 +836,9 @@
       <remote>
         <id>2357</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 7 position";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_7_position</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_7</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>56</placement>
@@ -854,9 +854,9 @@
       <remote>
         <id>2358</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:23:"Item 7 hightlight title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_7_highlight_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_7</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>57</placement>
@@ -869,9 +869,9 @@
       <remote>
         <id>2359</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 7 title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_7_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_7</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>58</placement>
@@ -884,9 +884,9 @@
       <remote>
         <id>2360</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 7 description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_7_description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_7</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>59</placement>
@@ -898,9 +898,9 @@
       <remote>
         <id>2361</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 7 icon";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_7_icon</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_7</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>60</placement>
@@ -912,9 +912,9 @@
       <remote>
         <id>2362</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 7 image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_7_image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_7</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>61</placement>
@@ -926,9 +926,9 @@
       <remote>
         <id>2363</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 7 image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_7_image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_7</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>62</placement>
@@ -940,9 +940,9 @@
       <remote>
         <id>2699</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 7 Link";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_7_link</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_7</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>63</placement>
@@ -952,9 +952,9 @@
       <remote>
         <id>2369</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:15:"Item 8 position";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_8_position</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_8</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>64</placement>
@@ -970,9 +970,9 @@
       <remote>
         <id>2370</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:23:"Item 8 hightlight title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_8_highlight_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_8</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>65</placement>
@@ -985,9 +985,9 @@
       <remote>
         <id>2371</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 8 title";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_8_title</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_8</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>66</placement>
@@ -1000,9 +1000,9 @@
       <remote>
         <id>2372</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:18:"Item 8 description";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_8_description</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_8</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>67</placement>
@@ -1014,9 +1014,9 @@
       <remote>
         <id>2373</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 8 icon";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_8_icon</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_8</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>68</placement>
@@ -1028,9 +1028,9 @@
       <remote>
         <id>2374</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:12:"Item 8 image";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_8_image</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_8</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>69</placement>
@@ -1042,9 +1042,9 @@
       <remote>
         <id>2375</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:19:"Item 8 image mobile";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_8_image_mobile</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_8</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>70</placement>
@@ -1056,9 +1056,9 @@
       <remote>
         <id>2700</id>
       </remote>
-      <serialized-name-list>a:1:{s:6:"eng-GB";s:11:"Item 8 Link";}</serialized-name-list>
+      <serialized-name-list>a:0:{}</serialized-name-list>
       <identifier>item_8_link</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-GB";N;}</serialized-description-list>
+      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
       <category>item_8</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>71</placement>
@@ -1068,9 +1068,9 @@
       <remote>
         <id>723</id>
       </remote>
-      <serialized-name-list>a:3:{s:6:"eng-US";s:9:"Meta Data";s:6:"eng-GB";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>metadata</identifier>
-      <serialized-description-list>a:3:{s:6:"eng-US";s:0:"";s:6:"eng-GB";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>meta</category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>72</placement>

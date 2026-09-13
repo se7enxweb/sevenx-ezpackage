@@ -349,7 +349,13 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
             'bold' => 'bold',
             'bold_ger' => 'bold',
         );
-        $baseDir = eZSys::rootDir() . '/extension/sevenx_themes_media/settings/siteaccess/';
+        // Install-local menu ids belong in the project's own siteaccess settings,
+        // which override an extension's. Writing them into
+        // extension/sevenx_themes_media meant every install rewrote a composer
+        // managed, git tracked file with node ids valid only for that database -
+        // and eZINI drops the comments in it on the way through. The theme keeps
+        // shipping its defaults; this just layers the current install's ids on top.
+        $baseDir = eZSys::rootDir() . '/settings/siteaccess/';
 
         foreach ( $siteaccesses as $sa => $siteType )
         {
@@ -399,12 +405,22 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
                 '[SiteInfo]',
                 'RemoteID=' . $siteInfoRemoteID,
             );
+            // Each list is reset before its values. eZ merges INI arrays across
+            // settings layers, so without the bare Key[] line these ids are
+            // appended to the ones sevenx_themes_media ships rather than
+            // replacing them - the menus then render both sets at once, the
+            // theme's correct entries mixed in with whatever content happens to
+            // hold this install's node ids.
+            $lines[] = 'MainMenuID[]';
             foreach ( $mainMenuIds as $id )
                 $lines[] = "MainMenuID[]=$id";
+            $lines[] = 'NexusMainMenuID[]';
             foreach ( $mainMenuNexusIds as $id )
                 $lines[] = "NexusMainMenuID[]=$id";
+            $lines[] = 'FooterMenuID[]';
             foreach ( $footerMenuIds as $id )
                 $lines[] = "FooterMenuID[]=$id";
+            $lines[] = 'NexusFooterMenuID[]';
             foreach ( $footerMenuNexusIds as $id )
                 $lines[] = "NexusFooterMenuID[]=$id";
             $lines[] = '*/ ?>';
@@ -473,14 +489,28 @@ if ( !function_exists( 'sevenxRegenerateURLAliases' ) )
         // 85 rows to 282 and covers 98/98 media, 138/139 main site and 16/16
         // Bold. bin/php/updateniceurls.php --update-nodes, which does not empty
         // the tables either, produces the same result.
-        $rows = $db->arrayQuery( 'SELECT node_id FROM ezcontentobject_tree ORDER BY depth ASC, node_id ASC' );
+        // Select whole rows, not just ids: eZContentObjectTreeNode::fetch runs the
+        // node through the prioritised-language filter, and by this point in an
+        // install that filter is stale in-process - fetch returns null for nodes
+        // that are plainly there, and the walk skipped them. On a single language
+        // install that was 177 of 267 nodes, including the two site home nodes,
+        // so their whole subtrees ended up with no alias at all and every page
+        // below them answered 404.
+        //
+        // A node built straight from its row does the same job here:
+        // updateSubTreePath only needs the row's own columns.
+        $rows = $db->arrayQuery( 'SELECT * FROM ezcontentobject_tree ORDER BY depth ASC, node_id ASC' );
         $count = 0;
         $changed = 0;
+        $rebuilt = 0;
         foreach ( $rows as $row )
         {
             $node = eZContentObjectTreeNode::fetch( (int)$row['node_id'] );
             if ( !$node )
-                continue;
+            {
+                $node = new eZContentObjectTreeNode( $row );
+                ++$rebuilt;
+            }
             if ( $node->updateSubTreePath() )
                 $changed++;
             $count++;
