@@ -21,10 +21,10 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4005" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4006" ezremote:identifier="image_mobile" name="Image mobile" type="ezimage" alternative-text=""/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4007" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
-          <text>{"id":421,"label":"Netgen.io","type":"internal","target":"link","suffix":"Contact Us test"}</text>
+          <text>{"id":421,"label":"se7enx.com","type":"internal","target":"link","suffix":"Contact Us test"}</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4008" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
-          <text>{"id":355,"label":"Netgen.io","type":"external","target":"link","suffix":null,"url":"https:\/\/netgen.io"}</text>
+          <text>{"id":355,"label":"se7enx.com","type":"external","target":"link","suffix":null,"url":"https:\/\/se7enx.com"}</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4009" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
@@ -64,7 +64,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4918" ezremote:identifier="link_1" name="Link 1" type="ngenhancedlink">
           <text>{
     "id": 421,
-    "label": "Netgen.io",
+    "label": "se7enx.com",
     "type": "internal",
     "target": "link",
     "suffix": "Contact Us test"
@@ -73,7 +73,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4919" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
           <text>{
     "id": 355,
-    "label": "Netgen.io",
+    "label": "se7enx.com",
     "type": "external",
     "target": "link",
     "suffix": null

@@ -71,7 +71,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1989" ezremote:identifier="item_2_image" name="Item 2 image" type="ezimage" image-file-key="c57f7bbfd625e76dc1d1dd350147bd10" alternative-text=""/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1990" ezremote:identifier="item_2_image_mobile" name="Item 2 image mobile" type="ezimage" alternative-text=""/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1991" ezremote:identifier="item_2_link" name="Item 2 Link" type="ngenhancedlink">
-          <text>{"type":"external","url":"https:\/\/netgen.io\/","target":"_blank"}</text>
+          <text>{"type":"external","url":"https:\/\/se7enx.com\/","target":"_blank"}</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1992" ezremote:identifier="item_3_position" name="Item 3 position" type="sckenhancedselection">
           <data-int>0</data-int>
