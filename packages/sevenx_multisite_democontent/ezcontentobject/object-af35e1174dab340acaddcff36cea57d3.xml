@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezobject="http://ez.no/object/" xmlns:ezremote="http://ez.no/ezobject" ezremote:id="319" name="Test Product" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="20" ezremote:published="Fri, 11 Sep 2026 08:02:45 GMT" ezremote:modified="Sun, 13 Sep 2026 02:33:56 GMT" remote_id="af35e1174dab340acaddcff36cea57d3" class_remote_id="77f3ede996a3a39c7159cc69189c5307" ezremote:class_identifier="product" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list active_version="3">
+    <ezobject:version ezremote:version="3" ezremote:status="1" ezremote:created="Sun, 13 Sep 2026 02:33:56 GMT" ezremote:modified="Sun, 13 Sep 2026 02:33:56 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Test Product">
+        <ezobject:attribute ezremote:id="4470" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Test Product</text>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4471" ezremote:identifier="product_number" name="Product number" type="ezstring">
+          <text>TEST-001</text>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4472" ezremote:identifier="short_description" name="Short description" type="ezxmltext">
+          <section>
+            <paragraph>A fixture product used to exercise the shop templates end to end: gallery, options, basket, checkout and order view.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4473" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section>
+            <paragraph>This copy exists so the extended description region of the product page renders with real content rather than collapsing to nothing.</paragraph>
+            <paragraph>The product full view reads short_description into the intro block and description into the body block, both as rich text, so anything the editor can author here appears on the page.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4474" ezremote:identifier="price" name="Price" type="ezprice">
+          <price>19.99</price>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4475" ezremote:identifier="image" name="Image" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list>
+              <relation-item priority="1" contentobject-remote-id="media-o-1136"/>
+              <relation-item priority="2" contentobject-remote-id="media-o-1137"/>
+              <relation-item priority="3" contentobject-remote-id="media-o-1138"/>
+            </relation-list>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4476" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+          <section/>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4477" ezremote:identifier="additional_options" name="Additional options" type="ezmultioption">
+          <ezmultioption option_counter="0">
+            <name/>
+            <multioptions/>
+          </ezmultioption>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4478" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string/>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4479" ezremote:identifier="rating" name="Star Rating" type="ezsrrating">
+          <data-int/>
+          <data-float>0</data-float>
+          <data-text/>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4480" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title/>
+            <keywords/>
+            <description/>
+            <canonical_url/>
+            <priority/>
+            <change>daily</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+          </MetaData>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4497" ezremote:identifier="specifications" name="Specifications" type="ezmatrix">
+          <ezmatrix>
+            <name/>
+            <columns number="2">
+              <column num="0" id="specification">Specification</column>
+              <column num="1" id="value">Value</column>
+            </columns>
+            <rows number="7"/>
+            <c>Material</c>
+            <c>Recycled polyester</c>
+            <c>Weight</c>
+            <c>480 g</c>
+            <c>Dimensions</c>
+            <c>61 x 173 x 0.6 cm</c>
+            <c>Colour</c>
+            <c>Slate</c>
+            <c>Care</c>
+            <c>Wipe clean, do not machine wash</c>
+            <c>Warranty</c>
+            <c>2 years</c>
+          </ezmatrix>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-911" name="Test Product" node-id="309" remote-id="c72e0b458b0a2a46253267fff9520e2f" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

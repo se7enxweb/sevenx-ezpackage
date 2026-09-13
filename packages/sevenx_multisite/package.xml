@@ -59,21 +59,6 @@
     <provides />
     <requires>
       <require type="ezpackage"
-               name="ezwt_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
-               name="ezstarrating_extension"
-               min-version="1.0" />
-      <require type="ezpackage"
-               name="ezgmaplocation_extension"
-               min-version="1.0" />
-      <require type="ezpackage"
-               name="ezpaypal_extension"
-               min-version="1.0" />
-      <require type="ezpackage"
-               name="sevenx_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
                name="sevenx_classes"
                min-version="5.1" />
       <require type="ezpackage"

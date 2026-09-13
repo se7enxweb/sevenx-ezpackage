@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Review";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>review</identifier>
+  <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+  <remote-id>7dee6190deba5e12eb113a7251088866</remote-id>
+  <object-name-pattern>&lt;title&gt;</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://alpha.se7enx.com/</site-url>
+    <url>http://alpha.se7enx.com/class/view/73</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>73</id>
+    <created>1789266595</created>
+    <modified>1789266595</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>10</user-id>
+      <user-login>anonymous</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>807</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>title</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezinteger" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>808</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Rating (1-5)";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>rating</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>2</placement>
+      <datatype-parameters>
+        <default-value>0</default-value>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>809</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Your name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>author</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>3</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>810</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Review";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>body</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>811</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:17:"Verified purchase";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>verified_purchase</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category></category>
+      <serialized-data-text>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-data-text>
+      <placement>5</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

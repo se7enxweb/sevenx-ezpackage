@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezobject="http://ez.no/object/" xmlns:ezremote="http://ez.no/ezobject" ezremote:id="323" name="Works as described" ezremote:section_id="1" ezremote:owner_id="10" ezremote:class_id="13" ezremote:published="Sun, 13 Sep 2026 02:23:19 GMT" ezremote:modified="Sun, 13 Sep 2026 02:23:19 GMT" remote_id="ecf26523d0f44cefc2921dc6edcacb4a" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list active_version="1">
+    <ezobject:version ezremote:version="1" ezremote:status="1" ezremote:created="Sun, 13 Sep 2026 02:23:18 GMT" ezremote:modified="Sun, 13 Sep 2026 02:23:19 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Works as described">
+        <ezobject:attribute ezremote:id="4490" ezremote:identifier="subject" name="" type="ezstring">
+          <text>Works as described</text>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4491" ezremote:identifier="author" name="" type="ezstring">
+          <text>Test Visitor</text>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4492" ezremote:identifier="message" name="" type="eztext">
+          <text>Posted through the styled comment form to verify the field names survive.</text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="c72e0b458b0a2a46253267fff9520e2f" name="Works as described" node-id="310" remote-id="db49881da761f25b9c703fb90ea3a635" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -331,6 +331,12 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                                         '_params' => array( 
                                             'identifier' => 'comment' 
                                         )
+                                    ),
+                                    array(
+                                        '_function' => 'classIDbyIdentifier',
+                                        '_params' => array(
+                                            'identifier' => 'review'
+                                        )
                                     )
                                 ), 
                                'Section' => array( 
@@ -1370,6 +1376,14 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             array(
                 '_function' => 'postInstallCreateSitePrefixAliases',
                 '_params' => array()
+            ),
+            array(
+                '_function' => 'postInstallResolveRelationListIds',
+                '_params' => array()
+            ),
+            array(
+                '_function' => 'postInstallRekeyStarRatings',
+                '_params' => array()
             )
         );
         $this->Steps['post_install'] = $postInstallSteps;
@@ -1553,6 +1567,9 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         }
 
         $this->insertDBFile( 'sevenx_themes_media', 'sevenx_themes_media', true );
+        // Schema only: ezstarrating ships DDL and no default rows, and the demo
+        // rating data lives in sevenx_themes_media's db_data.dba alongside the
+        // content it belongs to.
         $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
         $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
         $this->insertDBFile( 'eztags', 'eztags' );
@@ -1575,6 +1592,168 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             $db->query( "UPDATE eztags_keyword SET language_id = $engGBId WHERE locale = 'eng-GB' AND language_id != $engGBId" );
             $db->query( "UPDATE eztags t INNER JOIN eztags_keyword k ON t.id = k.keyword_id SET t.main_language_id = $engGBId, t.language_mask = $engGBId WHERE k.locale = 'eng-GB' AND k.status = $publishedStatus" );
         }
+    }
+
+    /*!
+     Resolve object relation list references left unresolved by the package install.
+
+     eZContentObjectPackageHandler stores an ezobjectrelationlist attribute as
+     the package serialises it:
+
+       <relation-item priority="1" contentobject-remote-id="media-o-1013"/>
+
+     and does not convert that into the runtime form, which also carries
+     contentobject-id, contentobject-version, contentclass-id and the rest. The
+     remote id is the durable reference - object ids change on every rebuild -
+     but nothing reads it at runtime, so every such relation comes out of an
+     install pointing at nothing. On this site that is 81 relation items across
+     36 objects, the product gallery among them.
+
+     Each affected attribute is rebuilt through the datatype's own fromString(),
+     which takes object ids and fills in every runtime field. Relations whose
+     target is not installed are dropped rather than left dangling.
+    */
+    function postInstallResolveRelationListIds( $params = false )
+    {
+        $db = eZDB::instance();
+        $rows = $db->arrayQuery(
+            "SELECT id, version, data_text FROM ezcontentobject_attribute" .
+            " WHERE data_type_string = 'ezobjectrelationlist'" .
+            "   AND data_text LIKE '%contentobject-remote-id%'" );
+        if ( !$rows )
+            return true;
+
+        $datatype = eZDataType::create( 'ezobjectrelationlist' );
+        if ( !$datatype )
+            return true;
+
+        $repaired = 0;
+        $dropped = 0;
+        foreach ( $rows as $row )
+        {
+            $dom = new DOMDocument( '1.0', 'utf-8' );
+            if ( !@$dom->loadXML( $row['data_text'] ) )
+                continue;
+
+            $objectIDs = array();
+            foreach ( $dom->getElementsByTagName( 'relation-item' ) as $item )
+            {
+                // Already resolved: leave the whole attribute alone.
+                if ( $item->getAttribute( 'contentobject-id' ) !== '' )
+                {
+                    $objectIDs = array();
+                    break;
+                }
+                $remoteID = $item->getAttribute( 'contentobject-remote-id' );
+                if ( $remoteID === '' )
+                    continue;
+                $target = eZContentObject::fetchByRemoteID( $remoteID );
+                if ( $target )
+                    $objectIDs[] = (int) $target->attribute( 'id' );
+                else
+                    ++$dropped;
+            }
+            if ( !$objectIDs )
+                continue;
+
+            $attribute = eZContentObjectAttribute::fetch( $row['id'], $row['version'] );
+            if ( !$attribute )
+                continue;
+
+            $datatype->fromString( $attribute, implode( '-', $objectIDs ) );
+            $attribute->store();
+            ++$repaired;
+        }
+
+        eZDebug::writeNotice( "Resolved relation lists on $repaired attributes"
+                            . ( $dropped ? ", dropped $dropped unresolvable relations" : '' ),
+                              __METHOD__ );
+        return true;
+    }
+
+    /*!
+     Re-key the seeded star ratings onto the objects they belong to.
+
+     ezstarrating stores a rating outside the content object, in its own table,
+     keyed on contentobject_id + contentobject_attribute_id. The object's own
+     rating attribute serialises empty, so a rating cannot travel in the
+     content package; sevenx_themes_media's db_data.dba seeds the row instead.
+
+     Both key columns are ids eZ assigns while installing, so the seeded values
+     are whatever they were on the machine the data was exported from. This
+     walks each seeded row, finds the object that the row was exported for by
+     remote id, and rewrites the row against that object's real ids - so the
+     rating follows the product rather than whichever object happens to land on
+     the exported id.
+
+     Rows whose object is not installed are dropped: a rating pointing at an
+     unrelated object is worse than no rating.
+    */
+    function postInstallRekeyStarRatings( $params = false )
+    {
+        $db = eZDB::instance();
+        $tables = $db->eZTableList();
+        if ( !isset( $tables['ezstarrating'] ) )
+            return true;
+
+        // Seeded rating rows, and the remote id of the object each belongs to.
+        $seeded = array(
+            // Test Product, shipped by sevenx_multisite_democontent.
+            'af35e1174dab340acaddcff36cea57d3' => array( 'attribute' => 'rating',
+                                                         'exported_object_id' => 319,
+                                                         'rating_average' => 4.3 ),
+        );
+
+        foreach ( $seeded as $remoteID => $info )
+        {
+            $exportedID = (int) $info['exported_object_id'];
+            $rows = $db->arrayQuery( "SELECT * FROM ezstarrating WHERE contentobject_id = $exportedID" );
+            if ( !$rows )
+                continue;
+
+            $object = eZContentObject::fetchByRemoteID( $remoteID );
+            if ( !$object )
+                continue;
+
+            $objectID = (int) $object->attribute( 'id' );
+
+            // Resolve the attribute id straight from the tables rather than
+            // through data_map: at post-install time the object's data map
+            // comes back empty, and an empty map must never be read as "this
+            // object has no rating attribute" - acting on that once deleted
+            // the row this step exists to preserve.
+            $identifier = $db->escapeString( $info['attribute'] );
+            $attrRows = $db->arrayQuery(
+                "SELECT a.id FROM ezcontentobject_attribute a" .
+                " INNER JOIN ezcontentclass_attribute ca ON ca.id = a.contentclassattribute_id" .
+                " INNER JOIN ezcontentobject o ON o.id = a.contentobject_id" .
+                " WHERE a.contentobject_id = $objectID" .
+                "   AND a.version = o.current_version" .
+                "   AND ca.identifier = '$identifier'" .
+                " LIMIT 1" );
+            if ( !$attrRows )
+                continue;
+
+            $attributeID = (int) $attrRows[0]['id'];
+            if ( $objectID === $exportedID
+                 && (int) $rows[0]['contentobject_attribute_id'] === $attributeID )
+                continue; // already correct
+
+            // The average is restored here as well as re-keyed. A .dba cannot
+            // carry a fractional one: eZDBSchemaInterface::generateDataValueTextSQL
+            // casts every float field with (int), so 4.3 is seeded as 4.
+            $average = isset( $info['rating_average'] )
+                     ? (float) $info['rating_average']
+                     : (float) $rows[0]['rating_average'];
+
+            $db->query( "DELETE FROM ezstarrating WHERE contentobject_id = $objectID" );
+            $db->query( "UPDATE ezstarrating SET contentobject_id = $objectID," .
+                        " contentobject_attribute_id = $attributeID," .
+                        " rating_average = $average" .
+                        " WHERE contentobject_id = $exportedID" );
+        }
+
+        return true;
     }
 
     function postInstallFixPackageNodesAndExplayouts( $params = false )

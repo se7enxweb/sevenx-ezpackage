@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezobject="http://ez.no/object/" xmlns:ezremote="http://ez.no/ezobject" ezremote:id="325" name="Holds up to daily use" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="73" ezremote:published="Sun, 13 Sep 2026 02:33:56 GMT" ezremote:modified="Sun, 13 Sep 2026 02:33:56 GMT" remote_id="6924452d1601f11d1432d976b2c8fafd" class_remote_id="7dee6190deba5e12eb113a7251088866" ezremote:class_identifier="review" ezremote:always_available="0" initial_language="eng-US">
+  <ezobject:version-list active_version="1">
+    <ezobject:version ezremote:version="1" ezremote:status="1" ezremote:created="Sun, 13 Sep 2026 02:33:56 GMT" ezremote:modified="Sun, 13 Sep 2026 02:33:56 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Holds up to daily use">
+        <ezobject:attribute ezremote:id="4499" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Holds up to daily use</text>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4500" ezremote:identifier="rating" name="Rating (1-5)" type="ezinteger">
+          <value>4</value>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4501" ezremote:identifier="author" name="Your name" type="ezstring">
+          <text>A. Reviewer</text>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4502" ezremote:identifier="body" name="Review" type="eztext">
+          <text>Six weeks in and it still looks new. The grip is the best part - it does not slide on a wooden floor even when damp.
+Docking a star because the carry strap is an afterthought.</text>
+        </ezobject:attribute>
+        <ezobject:attribute ezremote:id="4503" ezremote:identifier="verified_purchase" name="Verified purchase" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="c72e0b458b0a2a46253267fff9520e2f" name="Holds up to daily use" node-id="311" remote-id="0b669d3378dd44e80575aec6aa4927cb" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>
