@@ -48,7 +48,7 @@
           <text></text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4043" ezremote:identifier="recipient" name="Recipient" type="ezemail">
-          <email>test@netgen.io</email>
+          <email>info@se7enx.com</email>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4044" ezremote:identifier="success_text" name="Success text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
@@ -114,7 +114,7 @@
           <text></text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4945" ezremote:identifier="recipient" name="Recipient" type="ezemail">
-          <email>test@netgen.io</email>
+          <email>info@se7enx.com</email>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4946" ezremote:identifier="success_text" name="Success text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">

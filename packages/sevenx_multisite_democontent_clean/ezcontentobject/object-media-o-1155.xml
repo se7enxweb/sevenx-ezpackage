@@ -48,7 +48,7 @@
           <text></text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="25763" ezremote:identifier="recipient" name="Recipient" type="ezemail">
-          <email>test@netgen.io</email>
+          <email>info@se7enx.com</email>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="25764" ezremote:identifier="success_text" name="Success text" type="ezxmltext">
           <default:section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0-variant ezpublish-1.0"/>

@@ -27,7 +27,7 @@
           <text>{"id":672,"label":"Send a message","type":"internal","target":"modal","suffix":null}</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4019" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
-          <text>{"id":362,"label":"Send an email","type":"external","target":"link","suffix":null,"url":"mailto:contact@netgen.io"}</text>
+          <text>{"id":362,"label":"Send an email","type":"external","target":"link","suffix":null,"url":"mailto:info@se7enx.com"}</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4020" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
@@ -75,7 +75,7 @@
 }</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4927" ezremote:identifier="link_2" name="Link 2" type="ngenhancedlink">
-          <text>{"id":362,"label":"Senden Sie eine E-Mail","type":"external","target":"link","suffix":null,"url":"mailto:contact@netgen.io"}</text>
+          <text>{"id":362,"label":"Senden Sie eine E-Mail","type":"external","target":"link","suffix":null,"url":"mailto:info@se7enx.com"}</text>
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
