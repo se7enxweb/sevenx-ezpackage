@@ -1878,27 +1878,40 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             if ( $alias === '' )
                 continue;
 
-            $settings = array( 'SiteAccessSettings' => array( 'PathPrefix' => $alias ) );
+            // Written through a direct-access eZINI rather than updateINIFiles():
+            // that helper takes a shared cached eZINI::instance() for the file,
+            // and earlier steps in this install have already taken their own
+            // instance of the same path, so the two disagree about what is on
+            // disk. Every other INI writer in this installer uses direct access.
+            $ini = eZINI::instance( 'site.ini.append.php', $dir, null, false, null, true );
+            $ini->setReadOnlySettingsCheck( false );
+            $ini->setVariable( 'SiteAccessSettings', 'PathPrefix', $alias );
 
             // IndexPage needs a node id, so it is only set when the node is
             // actually resolvable - it is not required for urls to work.
             $escaped = $db->escapeString( isset( $homes[$siteaccess] ) ? $homes[$siteaccess] : '' );
             if ( $escaped !== '' )
             {
-                $rows = $db->arrayQuery( "SELECT node_id FROM ezcontentobject_tree" .
+                $rows = $db->arrayQuery( "SELECT node_id, depth FROM ezcontentobject_tree" .
                                          " WHERE remote_id = '$escaped' ORDER BY node_id ASC LIMIT 1" );
                 if ( $rows )
                 {
-                    $homeURL = 'content/view/full/' . (int) $rows[0]['node_id'];
-                    $settings['SiteSettings'] = array( 'IndexPage' => $homeURL,
-                                                       'DefaultPage' => $homeURL );
+                    // The leading slash matters: eZ routes IndexPage as a full
+                    // module path, and 'content/view/full/133' does not resolve.
+                    $homeURL = '/content/view/full/' . (int) $rows[0]['node_id'];
+                    $ini->setVariable( 'SiteSettings', 'IndexPage', $homeURL );
+                    $ini->setVariable( 'SiteSettings', 'DefaultPage', $homeURL );
+                    $ini->setVariable( 'SiteSettings', 'RootNodeDepth', (int) $rows[0]['depth'] );
+                }
+                else
+                {
+                    eZDebug::writeWarning( "Home node $escaped for siteaccess $siteaccess does not resolve;" .
+                                           " IndexPage left as it stands and / will answer the content root",
+                                           __METHOD__ );
                 }
             }
 
-            $this->updateINIFiles( array(
-                'settings_dir' => $dir,
-                'groups' => array( array( 'name' => 'site', 'settings' => $settings ) ),
-            ) );
+            $ini->save( false, false, false, false, true, true );
 
             eZDebug::writeNotice( "$siteaccess PathPrefix set to $alias", __METHOD__ );
         }
@@ -3038,11 +3051,41 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         return $version;
     }
 
+    /**
+     * The remote id of the main site's home node, as shipped by the demo
+     * content package. Fixed, the same way secondarySiteaccessHomeRemoteID()
+     * hardcodes the remote ids of the other siteaccess homes.
+     */
+    function mainSiteaccessHomeRemoteID()
+    {
+        return 'media-n-939';   // Fit & Healthy
+    }
+
     function homeNodeID()
     {
         $homeNodeID = $this->setting( 'home_node_id' );
         if ( $homeNodeID )
             return $homeNodeID;
+
+        // Resolve by remote id with plain SQL before anything else. The class
+        // scan below reads $object->attribute( 'name' ) and 'main_node', and
+        // both go through the prioritised-language filter: ezcontentobject_name
+        // rows carry language ids that are still stale while the install is
+        // running, and eZContentObjectTreeNode::fetch() returns null for the
+        // same reason. Every one of those lookups failed, homeNodeID() fell
+        // through to 2, and postInstallUserSiteaccessINIUpdate() wrote
+        // IndexPage=/content/view/full/2 - so the site answered its own content
+        // root ("Websites") at / instead of the home page. Remote ids are not
+        // language-scoped, so this path cannot fail that way.
+        $db = eZDB::instance();
+        if ( $db )
+        {
+            $escaped = $db->escapeString( $this->mainSiteaccessHomeRemoteID() );
+            $rows = $db->arrayQuery( "SELECT node_id FROM ezcontentobject_tree" .
+                                     " WHERE remote_id = '$escaped' ORDER BY node_id ASC LIMIT 1" );
+            if ( $rows )
+                return (int) $rows[0]['node_id'];
+        }
 
         $homeNodeID = 2; // default content root
         $classIdentifiers = array( 'frontpage', 'ng_frontpage' );
