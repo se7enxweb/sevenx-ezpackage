@@ -1383,6 +1383,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_function' => 'postInstallSetSiteHomeAndPrefix',
                 '_params' => array()
             ),
+            array(
+                '_function' => 'postInstallResyncContentClassNames',
+                '_params' => array()
+            ),
 
             // Cosmetic, and deliberately last. executeSteps aborts the whole
             // chain on the first step that reports an error, and the template
@@ -1933,6 +1937,94 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             $id = (int) $userHome->attribute( 'node_id' );
             $db->query( "UPDATE ezurlalias_ml SET action = 'eznode:$id' WHERE text = '' AND parent = 0" );
         }
+
+        return true;
+    }
+
+    /**
+     * Rebuild ezcontentclass.serialized_name_list from ezcontentclass_name.
+     *
+     * eZContentClass builds the name it shows from the denormalised
+     * serialized_name_list column, not from the ezcontentclass_name rows. A
+     * fresh install ends up with the two disagreeing for the classes the base
+     * data file seeds - folder, article, user, image, link, file, comment,
+     * user_group, common_ini_settings, template_look - where the column holds
+     * an empty eng-US value while the name rows hold the real name. Every
+     * interface that prints a class name then shows a blank: the class list,
+     * the create-here menus, the changeclass destination list.
+     *
+     * The name rows are the surviving copy, so the column is rebuilt from them.
+     * A class with no name in either place is reported and left alone rather
+     * than guessed at.
+     */
+    function postInstallResyncContentClassNames( $params = false )
+    {
+        $db = eZDB::instance();
+        $defined = eZContentClass::VERSION_STATUS_DEFINED;
+
+        $rows = $db->arrayQuery(
+            'SELECT id, identifier, serialized_name_list FROM ezcontentclass' .
+            ' WHERE version = ' . $defined . ' ORDER BY id' );
+
+        $rebuilt = 0;
+        foreach ( $rows as $row )
+        {
+            $classID = (int) $row['id'];
+            $list = @unserialize( $row['serialized_name_list'] );
+            if ( !is_array( $list ) )
+                $list = array();
+
+            $hasName = false;
+            foreach ( $list as $key => $value )
+            {
+                if ( $key === 'always-available' )
+                    continue;
+                if ( trim( (string) $value ) !== '' )
+                    $hasName = true;
+            }
+
+            if ( $hasName )
+                continue;
+
+            $nameRows = $db->arrayQuery(
+                "SELECT language_locale, name FROM ezcontentclass_name" .
+                " WHERE contentclass_id = $classID AND contentclass_version = $defined" );
+
+            $names = array();
+            foreach ( $nameRows as $nameRow )
+            {
+                $locale = trim( (string) $nameRow['language_locale'] );
+                $name = trim( (string) $nameRow['name'] );
+                if ( $locale !== '' && $name !== '' )
+                    $names[$locale] = $name;
+            }
+
+            if ( !$names )
+            {
+                eZDebug::writeWarning( "Content class '{$row['identifier']}' has no name in" .
+                                       " ezcontentclass_name either, leaving it alone",
+                                       __METHOD__ );
+                continue;
+            }
+
+            // Keep the existing always-available pointer when it still names a
+            // language that has a value; otherwise point it at one that does.
+            $alwaysAvailable = isset( $list['always-available'] ) ? $list['always-available'] : false;
+            if ( !$alwaysAvailable || !isset( $names[$alwaysAvailable] ) )
+            {
+                $locales = array_keys( $names );
+                $alwaysAvailable = $locales[0];
+            }
+            $names['always-available'] = $alwaysAvailable;
+
+            $db->query( 'UPDATE ezcontentclass SET serialized_name_list = "' .
+                        $db->escapeString( serialize( $names ) ) . '"' .
+                        " WHERE id = $classID AND version = $defined" );
+            ++$rebuilt;
+        }
+
+        if ( $rebuilt > 0 )
+            eZDebug::writeNotice( "Rebuilt the name list of $rebuilt content class(es)", __METHOD__ );
 
         return true;
     }
