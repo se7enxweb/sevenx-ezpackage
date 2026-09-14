@@ -3591,19 +3591,28 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     {
         $adminSiteaccess = $this->setting( 'admin_siteaccess' );
         $siteINI = eZINI::instance( 'site.ini.append.php', 'settings/siteaccess/' . $adminSiteaccess, null, false, null, true );
-        // admin3 is the skin: its own pagelayout and eighteen overrides. admin is
-        // the complete interface underneath it, all three hundred odd templates
-        // including the contentstructuremenu ones the content tree is built from.
-        // So admin3 has to be the site design and admin the fallback.
+        // Three designs, in this order, and all three are needed.
+        //
+        // admin3 is the skin: its own pagelayout and eighteen overrides. admin2
+        // is where extensions put their administration interfaces. admin is the
+        // complete base interface, all three hundred odd templates including the
+        // contentstructuremenu ones the content tree is built from.
         //
         // This used to set SiteDesign to the siteaccess NAME, which is 'admin',
         // and push admin3 into the fallback list. A design named after the
         // siteaccess only resolves by coincidence, and with admin first the
         // admin3 pagelayout never won - the interface rendered against the old
-        // base design instead. admin2 is empty here and only exists inside
-        // cjw_newsletter, so it is not listed.
+        // base design instead.
+        //
+        // admin2 must stay in the list. A design name is a namespace across
+        // every design root, not one directory: the project's own design/admin2
+        // is empty, but eztags ships 36 templates there, cjw_newsletter 15 and
+        // enhancedezbinaryfile 1. Dropping the name orphaned all 52, and since
+        // eZ renders an unresolvable template as an empty string rather than an
+        // error, the affected pages - /tags/dashboard among them - returned a
+        // bare shell with no indication of what was wrong.
         $siteINI->setVariable( 'DesignSettings', 'SiteDesign', 'admin3' );
-        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 'admin' ) );
+        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 'admin2', 'admin' ) );
         $siteINI->setVariable( 'SiteAccessSettings', 'RelatedSiteAccessList', $this->servedSiteaccessList() );
         // Clean urls here too: the administration interface is where the
         // treemenu is used, and it is the entry point that misreads its
