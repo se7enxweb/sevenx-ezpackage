@@ -2544,6 +2544,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings[] = $this->commonContentINISettings();
         $settings[] = $this->commonMenuINISettings();
         $settings[] = $this->commonViewCacheINISettings();
+        $settings[] = $this->commonStaticCacheINISettings();
         $settings[] = $this->commonForumINISettings();
         $settings[] = $this->commonOEAttributesINISettings();
         $settings[] = $this->commonXMLINISettings();
@@ -2569,6 +2570,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         );
         $settings['UserSettings'] = array( 
             'LogoutRedirect' => '/' 
+        );
+        // The static cache is generated from Setup > Cache > Static content
+        // cache and served by the web server from var/<var dir>/static, ahead
+        // of the front controller. Enabling it here is what makes a generated
+        // page be refreshed when an editor publishes; without it the site
+        // would keep serving whatever was true when the cache was built, which
+        // is worse than having no static cache at all.
+        $settings['ContentSettings'] = array(
+            'StaticCache' => 'enabled',
+            'StaticCacheHandler' => 'eZStaticCache'
         );
         $settings['EmbedViewModeSettings'] = array( 
             'AvailableViewModes' => array( 
@@ -2634,6 +2645,71 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'name' => 'site.ini', 
             'settings' => $settings 
         );
+    }
+
+    /**
+     * settings/override/staticcache.ini.append.php for a new installation.
+     *
+     * The shipped defaults could not generate anything: CachedSiteAccesses was
+     * empty, which made the generator iterate nothing and report success, and
+     * HostName was "localhost", which sent every fetch to a host that is not
+     * this site. Both are written here explicitly so an installation does not
+     * depend on the kernel's fallbacks, and so an administrator opening the
+     * file can see what the site is actually doing.
+     *
+     * Only the public siteaccesses are listed. An administration siteaccess
+     * requires a login and its pages are per user, so a shared static copy of
+     * them would be both useless and a disclosure.
+     */
+    function commonStaticCacheINISettings()
+    {
+        $settings = array();
+        $settings['CacheSettings'] = array(
+            // Empty: each siteaccess is fetched from its own
+            // site.ini [SiteSettings] SiteURL. The setting is deprecated and
+            // anything non empty overrides every site's own host.
+            'HostName' => '',
+            'SourceProtocol' => 'http',
+            // Relative to the var directory, so this resolves to
+            // var/<var dir>/static.
+            'StaticStorageDir' => 'static',
+            // Deep enough for a real content tree. The eZ default of 3 allowed
+            // two path segments and silently dropped everything below.
+            'MaxCacheDepth' => '12',
+            'CachedURLArray' => array( '/', '/*' ),
+            'AlwaysUpdateArray' => array( '/' ),
+            'CachedSiteAccesses' => $this->publicSiteaccessList(),
+            'CronjobCacheClear' => 'disabled',
+            'AppendGeneratedTime' => 'true'
+        );
+
+        return array(
+            'name' => 'staticcache.ini',
+            'reset_arrays' => true,
+            'settings' => $settings
+        );
+    }
+
+    /**
+     * The siteaccesses a visitor is served, which is every one this
+     * installation provides except the administration interface.
+     *
+     * This installer serves only the siteaccesses the wizard created, so
+     * all_siteaccess_list is the whole set; the multi site variant has to add
+     * its secondary sites to that.
+     */
+    function publicSiteaccessList()
+    {
+        $admin = $this->setting( 'admin_siteaccess' );
+        $public = array();
+        foreach ( (array)$this->setting( 'all_siteaccess_list' ) as $siteaccess )
+        {
+            if ( $siteaccess === $admin || $siteaccess === '' )
+                continue;
+            $public[] = $siteaccess;
+        }
+
+        return $public;
     }
 
     function commonMenuINISettings()
