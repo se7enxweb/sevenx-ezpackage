@@ -2545,6 +2545,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings[] = $this->commonMenuINISettings();
         $settings[] = $this->commonViewCacheINISettings();
         $settings[] = $this->commonStaticCacheINISettings();
+        $settings[] = $this->commonOverrideINISettings();
         $settings[] = $this->commonForumINISettings();
         $settings[] = $this->commonOEAttributesINISettings();
         $settings[] = $this->commonXMLINISettings();
@@ -2645,6 +2646,65 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'name' => 'site.ini', 
             'settings' => $settings 
         );
+    }
+
+    /**
+     * settings/override/override.ini.append.php for a new installation.
+     *
+     * How each content class is printed by the pdf export. The kernel template
+     * the export renders a node with, node/view/pdf.tpl, prints every attribute
+     * of a class in storage order and labels none of them, so a class carrying
+     * teaser copies of its fields comes out with its headline, its photograph
+     * and its introduction twice over, and any numeric field appears as a bare
+     * number with nothing to say what it is.
+     *
+     * The templates themselves live in the explayouts extension, under
+     * design/standard/override/templates, and that extension ships these same
+     * rules. They are written here as well so they are visible to an
+     * administrator reading settings/override, and so the printed output does
+     * not quietly change if the extension's design registration is ever turned
+     * off.
+     */
+    function commonOverrideINISettings()
+    {
+        $settings = array();
+
+        foreach ( $this->pdfViewOverrides() as $name => $classIdentifier )
+        {
+            $settings[$name] = array(
+                'Source'    => 'node/view/pdf.tpl',
+                'MatchFile' => $name . '.tpl',
+                'Subdir'    => 'templates',
+                'Match'     => array( 'class_identifier' => $classIdentifier ) );
+        }
+
+        return array(
+            'name' => 'override.ini',
+            'settings' => $settings
+        );
+    }
+
+    /**
+     * The pdf view overrides this solution provides, as override block name to
+     * the class the block matches.
+     *
+     * Only classes this installation actually has are listed: an override
+     * naming a class that was never created is harmless, but it is also noise
+     * in a settings file somebody has to read.
+     */
+    function pdfViewOverrides()
+    {
+        $candidates = array( 'pdf_category' => 'ng_category',
+                             'pdf_recipe'   => 'ng_recipe' );
+
+        $overrides = array();
+        foreach ( $candidates as $name => $classIdentifier )
+        {
+            if ( eZContentClass::fetchByIdentifier( $classIdentifier, false ) )
+                $overrides[$name] = $classIdentifier;
+        }
+
+        return $overrides;
     }
 
     /**
