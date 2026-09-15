@@ -342,6 +342,17 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
             61 => 508,
         );
 
+        // The legal pages each site links from its cookie banner and its lead
+        // form. They are per site, not per installation: Fit & Healthy has its
+        // own pair and Bold has its own, and the templates used to write out
+        // the path of the German Bold pages for every site - which answered 404
+        // from both Bold siteaccesses, because the prefix those remove was in
+        // the path already. Package node ids, mapped below like the menus.
+        $fitPrivacyPolicyPackageId  = 77;
+        $fitCookiePolicyPackageId   = 78;
+        $boldPrivacyPolicyPackageId = 61;
+        $boldCookiePolicyPackageId  = 62;
+
         $siteaccesses = array(
             'site' => 'fit',
             'eng' => 'fit',
@@ -365,6 +376,8 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
                 $footerMenuPackageIds = $boldFooterMenuPackageIds;
                 $mainMenuNexusMap = $boldMainMenuNexusMap;
                 $footerMenuNexusMap = $boldFooterMenuNexusMap;
+                $privacyPolicyPackageId = $boldPrivacyPolicyPackageId;
+                $cookiePolicyPackageId = $boldCookiePolicyPackageId;
             }
             else
             {
@@ -372,7 +385,14 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
                 $footerMenuPackageIds = $fitFooterMenuPackageIds;
                 $mainMenuNexusMap = $fitMainMenuNexusMap;
                 $footerMenuNexusMap = $fitFooterMenuNexusMap;
+                $privacyPolicyPackageId = $fitPrivacyPolicyPackageId;
+                $cookiePolicyPackageId = $fitCookiePolicyPackageId;
             }
+
+            $privacyPolicyId = isset( $packageNodeMap[$privacyPolicyPackageId] )
+                             ? (int)$packageNodeMap[$privacyPolicyPackageId] : 0;
+            $cookiePolicyId = isset( $packageNodeMap[$cookiePolicyPackageId] )
+                            ? (int)$packageNodeMap[$cookiePolicyPackageId] : 0;
 
             $mainMenuIds = array();
             $mainMenuNexusIds = array();
@@ -423,6 +443,14 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
             $lines[] = 'NexusFooterMenuID[]';
             foreach ( $footerMenuNexusIds as $id )
                 $lines[] = "NexusFooterMenuID[]=$id";
+
+            // Left out when the package did not install the page, so that the
+            // templates fall back to plain text rather than linking node 0.
+            if ( $privacyPolicyId > 0 )
+                $lines[] = "PrivacyPolicyID=$privacyPolicyId";
+            if ( $cookiePolicyId > 0 )
+                $lines[] = "CookiePolicyID=$cookiePolicyId";
+
             $lines[] = '*/ ?>';
 
             $content = implode( "\n", $lines ) . "\n";
