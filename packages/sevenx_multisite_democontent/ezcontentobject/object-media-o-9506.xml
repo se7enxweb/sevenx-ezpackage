@@ -14,7 +14,7 @@
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2396" ezremote:identifier="link" name="Link" type="ngenhancedlink">
-          <text>{"type":"external","url":"/bold_eng/careers?nekisufiks","target":"_blank","rel_attribute":"nofollow noopener noreferrer"}</text>
+          <text>{"type":"external","url":"/bold/careers","target":"_blank","rel_attribute":"nofollow noopener noreferrer"}</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2397" ezremote:identifier="css_class" name="CSS class" type="ezstring">
           <text></text>
