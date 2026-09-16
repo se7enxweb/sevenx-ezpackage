@@ -4389,7 +4389,23 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'AvailableSiteAccessList' => $this->servedSiteaccessList(),
             'RelatedSiteAccessList' => $this->servedSiteaccessList(),
             'MatchOrder' => 'uri;host',
-            'PathPrefixExclude' => array( 'Media', 'Users' )
+            'PathPrefixExclude' => array( 'Media', 'Users' ),
+            // This belongs here and not only in the siteaccess files, which is
+            // where the rest of this installer sets it. eZSys::init() decides
+            // whether generated urls carry index.php, and it runs from
+            // ezpKernelWeb and ezpKernelTreeMenu before any siteaccess has been
+            // matched, so it reads settings/site.ini and settings/override and
+            // nothing else. Set only per siteaccess it is read too late: eZSys
+            // has already decided, and every url built by the ezurl operator
+            // comes out as /index.php/... - forty one of the two hundred and
+            // eleven links on an ordinary administration page.
+            //
+            // The treemenu is where that stops being cosmetic.
+            // index_treemenu.php skips exactly two url elements to reach the
+            // view arguments, so the extra index.php shifts them by one and
+            // NodeID arrives as the string 'treemenu', which casts to 0 - the
+            // content tree then answers 404 for every node.
+            'ForceVirtualHost' => 'true'
         );
         $settings['SiteSettings'] = array( 
             'SiteList' => $this->servedSiteaccessList(), 
