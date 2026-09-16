@@ -93,6 +93,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'xrowmetadata',
             'ezjscore',
             'ezoe',
+            // Cross site request forgery protection for every posted form. It
+            // has been active on the installation all along and was never in
+            // this list, so a reinstall switched it off.
+            'ezformtoken',
             'ezwt',
             'ezstarrating',
             'ezgmaplocation',
@@ -132,6 +136,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'expsite_api',
             'expsite_app',
             'exp_enhanced_link',
+            'expchangeclass',
             'cjw_newsletter',
             'recaptcha',
             'powercontent',
