@@ -46,9 +46,9 @@
           </MetaData>
         </ezobject:attribute>
       </ezobject:object-translation>
-      <ezobject:object-translation language="ger-DE">
+      <ezobject:object-translation language="ger-DE" object_name="Services Hero">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5015" ezremote:identifier="name" name="Name" type="ezstring">
-          <text></text>
+          <text>Services Hero</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5016" ezremote:identifier="eyebrow_title" name="Eyebrow title" type="ezstring">
           <text></text>
