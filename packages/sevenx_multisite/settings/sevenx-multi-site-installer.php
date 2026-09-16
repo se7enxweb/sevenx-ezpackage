@@ -4400,11 +4400,13 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             // comes out as /index.php/... - forty one of the two hundred and
             // eleven links on an ordinary administration page.
             //
-            // The treemenu is where that stops being cosmetic.
-            // index_treemenu.php skips exactly two url elements to reach the
-            // view arguments, so the extra index.php shifts them by one and
-            // NodeID arrives as the string 'treemenu', which casts to 0 - the
-            // content tree then answers 404 for every node.
+            // Those addresses still answer - eZSys::init() strips the index
+            // directory back off an incoming request when the setting is off,
+            // so nothing breaks. What they are is wrong: every address the
+            // installation hands out disagrees with the one the editor sees in
+            // the bar, the rewrite rules exist precisely so that they need not,
+            // and two spellings of one address is two of everything downstream
+            // that keys on an address.
             'ForceVirtualHost' => 'true'
         );
         $settings['SiteSettings'] = array( 
