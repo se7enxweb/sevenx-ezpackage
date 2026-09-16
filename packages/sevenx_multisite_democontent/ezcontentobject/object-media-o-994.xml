@@ -53,7 +53,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Ad 300x250 for Runners" node-id="59" remote-id="bcbf39ad7a7193c87a7e33f5066bd763" sort-field="published" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-banners" name="Ad 300x250 for Runners" node-id="59" remote-id="bcbf39ad7a7193c87a7e33f5066bd763" sort-field="published" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

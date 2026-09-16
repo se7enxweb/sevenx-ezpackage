@@ -21,7 +21,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="customerio" node-id="278" remote-id="1b9aa23062c14c1fc83cb00a6421a7d0" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-clients-partners" name="customerio" node-id="278" remote-id="1b9aa23062c14c1fc83cb00a6421a7d0" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

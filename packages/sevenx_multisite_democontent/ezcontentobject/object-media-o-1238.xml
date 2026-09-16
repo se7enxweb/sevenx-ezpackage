@@ -335,7 +335,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="About quotes" node-id="296" remote-id="2ab689fff746d8534c47976622565647" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-quote" name="About quotes" node-id="296" remote-id="2ab689fff746d8534c47976622565647" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

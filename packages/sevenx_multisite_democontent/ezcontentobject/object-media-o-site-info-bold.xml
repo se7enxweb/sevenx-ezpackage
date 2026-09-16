@@ -84,7 +84,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Bold Agency - [SITEINFO]" node-id="273" remote-id="a9f1a2799358e54d7838cb3c80fead59" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-configuration" name="Bold Agency - [SITEINFO]" node-id="273" remote-id="a9f1a2799358e54d7838cb3c80fead59" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

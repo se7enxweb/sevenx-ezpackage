@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2270" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5fba0a6602d20bac2d6b82f8282eb725" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Piedmontese Stuffed Peppers" node-id="225" remote-id="92b0ae4be346c3aa5833f5851e3c8140" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Piedmontese Stuffed Peppers" node-id="225" remote-id="92b0ae4be346c3aa5833f5851e3c8140" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

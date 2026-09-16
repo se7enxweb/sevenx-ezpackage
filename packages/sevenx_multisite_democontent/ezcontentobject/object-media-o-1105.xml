@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2333" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="b0501a06436d8c13b3f163bac27ab001" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Brain" node-id="246" remote-id="a259ab19b8651382d347f8f2783a7f45" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Brain" node-id="246" remote-id="a259ab19b8651382d347f8f2783a7f45" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

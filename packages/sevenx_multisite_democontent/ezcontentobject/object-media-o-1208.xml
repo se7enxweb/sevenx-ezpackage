@@ -95,7 +95,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Are you fit for Bold?" node-id="290" remote-id="f01a8ae1647ac2478cc72cf225169c8f" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-about" name="Are you fit for Bold?" node-id="290" remote-id="f01a8ae1647ac2478cc72cf225169c8f" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2273" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="d975967fe0e8cf7bebe06723caf3c22f" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Cilantro Lime Grilled Shrimp with Pineapple Salsa" node-id="226" remote-id="f1f722e6069de798dba11aa280fb2ef9" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Cilantro Lime Grilled Shrimp with Pineapple Salsa" node-id="226" remote-id="f1f722e6069de798dba11aa280fb2ef9" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

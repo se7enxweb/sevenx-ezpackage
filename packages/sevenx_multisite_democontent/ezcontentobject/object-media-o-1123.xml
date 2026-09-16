@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2366" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="d32d74139c4c3c5e3d462b786c56abc1" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Avocado, egg, bacon" node-id="257" remote-id="7596ff6f4fb955ff4afbdc783da1723d" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Avocado, egg, bacon" node-id="257" remote-id="7596ff6f4fb955ff4afbdc783da1723d" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

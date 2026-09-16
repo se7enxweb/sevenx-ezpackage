@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2309" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="a4686e42ec436808aa9c3728d9124357" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Rock Lober Relay" node-id="238" remote-id="3d29f8a9ca79f4d3b6a762bbc65dc231" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Rock Lober Relay" node-id="238" remote-id="3d29f8a9ca79f4d3b6a762bbc65dc231" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

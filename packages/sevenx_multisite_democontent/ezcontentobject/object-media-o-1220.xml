@@ -423,7 +423,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Our Team" node-id="295" remote-id="87836410a2bea39d29efe3f17472cf10" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-features" name="Our Team" node-id="295" remote-id="87836410a2bea39d29efe3f17472cf10" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

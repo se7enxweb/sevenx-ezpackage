@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2348" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="85ec896fd3a75ecd3e71086a26002eb1" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="The Master Clock" node-id="251" remote-id="aa43efc1d1ff0521961316567a48bed0" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="The Master Clock" node-id="251" remote-id="aa43efc1d1ff0521961316567a48bed0" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

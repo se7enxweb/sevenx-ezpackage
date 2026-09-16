@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2357" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="0bccab5f010e90372d4348211c0f931f" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Colony of Enterobacter cloacae bacteria" node-id="254" remote-id="2cc717e43055c986641d1cab9c24e9f0" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Colony of Enterobacter cloacae bacteria" node-id="254" remote-id="2cc717e43055c986641d1cab9c24e9f0" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

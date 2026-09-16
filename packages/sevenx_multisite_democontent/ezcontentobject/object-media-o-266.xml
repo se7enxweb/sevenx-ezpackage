@@ -29,7 +29,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Ad 728x90" node-id="266" remote-id="a386ceeea3da41afccc7d6b2b07eb1b6" sort-field="published" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-banners" name="Ad 728x90" node-id="266" remote-id="a386ceeea3da41afccc7d6b2b07eb1b6" sort-field="published" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

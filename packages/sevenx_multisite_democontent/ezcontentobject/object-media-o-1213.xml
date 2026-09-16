@@ -103,7 +103,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Home Clients" node-id="297" remote-id="2f43e73acb50bac8ba216cec1619b077" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-logos" name="Home Clients" node-id="297" remote-id="2f43e73acb50bac8ba216cec1619b077" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

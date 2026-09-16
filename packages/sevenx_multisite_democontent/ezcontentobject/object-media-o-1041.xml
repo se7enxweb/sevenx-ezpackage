@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2285" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="bac04c5cdcaf8df6f81ab650062aedb2" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Fried Mozzarella Balls with Homemade Tomato Sauce" node-id="230" remote-id="b67e521d91ce135868083c0985fdec43" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Fried Mozzarella Balls with Homemade Tomato Sauce" node-id="230" remote-id="b67e521d91ce135868083c0985fdec43" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

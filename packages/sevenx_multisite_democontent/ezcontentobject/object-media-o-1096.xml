@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2315" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="4a30259ecddf0d22e79ed59b690cf691" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Bodyweight Circuit with Running Pyramid Workout" node-id="240" remote-id="6085bd1cbbdc6be9ee324acf39786a51" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Bodyweight Circuit with Running Pyramid Workout" node-id="240" remote-id="6085bd1cbbdc6be9ee324acf39786a51" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

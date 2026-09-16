@@ -457,7 +457,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Services zig-zag" node-id="300" remote-id="ac10937ac456205640c15efa3498ee3e" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-features" name="Services zig-zag" node-id="300" remote-id="ac10937ac456205640c15efa3498ee3e" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

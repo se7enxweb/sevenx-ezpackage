@@ -449,7 +449,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Why You Should Consider Working at Bold Agency" node-id="303" remote-id="a752b7f3b4ff866cacceb1df320cb17a" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-features" name="Why You Should Consider Working at Bold Agency" node-id="303" remote-id="a752b7f3b4ff866cacceb1df320cb17a" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

@@ -399,7 +399,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components" name="Bold Agency facts" node-id="294" remote-id="65fa64c7ea8e1ad8d5fce0c6b9220a6f" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-features" name="Bold Agency facts" node-id="294" remote-id="65fa64c7ea8e1ad8d5fce0c6b9220a6f" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

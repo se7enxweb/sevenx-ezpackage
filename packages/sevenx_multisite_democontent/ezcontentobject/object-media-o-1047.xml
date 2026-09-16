@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2297" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="49e41c8262ebeb2a297dbf0ff88c5a4a" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Indoor herbs" node-id="234" remote-id="51a6b364360aa66ecb34fe875cd46cf6" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Indoor herbs" node-id="234" remote-id="51a6b364360aa66ecb34fe875cd46cf6" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2288" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="bd4f4c24db7b91cabc5168d064cb17f2" alternative-text=""/>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="75c715a51699d2d309a924eca6a95145" name="Heirloom Tomato, Basil, and Olive Oil, Wine Sauce over Pasta" node-id="231" remote-id="a8d5ea334e6273da0dbb88cdd6b12e6d" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="1b26c0454b09bb49dfb1b9190ffd67cb" name="Heirloom Tomato, Basil, and Olive Oil, Wine Sauce over Pasta" node-id="231" remote-id="a8d5ea334e6273da0dbb88cdd6b12e6d" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>
