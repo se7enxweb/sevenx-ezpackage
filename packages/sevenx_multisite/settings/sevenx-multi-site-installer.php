@@ -1810,6 +1810,63 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // object actually has, so the masks are rebuilt from them. Their
         // language_id already carries the always-available bit, so OR-ing them
         // reproduces it.
+        if ( $db->databaseName() === 'mongo' )
+        {
+            // The same rebuild, expressed as one aggregation over the
+            // attributes. MongoDB has no BIT_OR accumulator, so the ids are
+            // collected per group and folded with $bitOr; $convert keeps a
+            // mask that was stored as a string or left null from breaking it.
+            $masks = $db->aggregate( 'ezcontentobject_attribute', array(
+                array( '$group' => array(
+                    '_id' => array( 'contentobject_id' => '$contentobject_id', 'version' => '$version' ),
+                    'ids' => array( '$push' => array( '$convert' => array(
+                        'input' => '$language_id', 'to' => 'long', 'onError' => 0, 'onNull' => 0 ) ) ),
+                ) ),
+                array( '$project' => array(
+                    '_id' => 0,
+                    'contentobject_id' => '$_id.contentobject_id',
+                    'version' => '$_id.version',
+                    'm' => array( '$reduce' => array(
+                        'input' => '$ids',
+                        'initialValue' => 0,
+                        'in' => array( '$bitOr' => array( '$$value', '$$this' ) ),
+                    ) ),
+                ) ),
+            ) );
+
+            $byObjectVersion = array();
+            foreach ( $masks as $mask )
+            {
+                $objectID = (int) $mask['contentobject_id'];
+                $version  = (int) $mask['version'];
+                $value    = (int) $mask['m'];
+                if ( !$value )
+                    continue;
+
+                $byObjectVersion[$objectID][$version] = $value;
+
+                $db->mongoUpdateMany( 'ezcontentobject_version',
+                    array( 'contentobject_id' => $objectID, 'version' => $version ),
+                    array( '$set' => array( 'language_mask' => $value ) ) );
+            }
+
+            // The object's own mask follows its current version, which is the
+            // join on o2.current_version in the SQL above.
+            $objects = $db->arrayQuery( 'SELECT id, current_version FROM ezcontentobject' );
+            foreach ( $objects as $object )
+            {
+                $objectID = (int) $object['id'];
+                $current  = (int) $object['current_version'];
+                if ( !isset( $byObjectVersion[$objectID][$current] ) )
+                    continue;
+
+                $db->mongoUpdateMany( 'ezcontentobject',
+                    array( 'id' => $objectID ),
+                    array( '$set' => array( 'language_mask' => $byObjectVersion[$objectID][$current] ) ) );
+            }
+        }
+        else
+        {
         $db->query(
             'UPDATE ezcontentobject_version v' .
             ' INNER JOIN ( SELECT contentobject_id, version, BIT_OR( language_id ) AS m' .
@@ -1829,6 +1886,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             '   ON x.contentobject_id = o.id' .
             ' SET o.language_mask = x.m' .
             ' WHERE o.language_mask <> x.m' );
+        }
 
         eZContentObject::clearCache();
 
@@ -2387,7 +2445,59 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $homeObject = $homeNode->object();
         $locales = $homeObject ? (array)$homeObject->availableLanguages() : array();
         if ( !$locales )
-            $locales = array( eZContentLanguage::topPriorityLanguage()->attribute( 'locale' ) );
+        {
+            // Both of these come back empty when the language context is not
+            // established yet, which is what happens during a kickstart of a
+            // MongoDB installation. Calling attribute() on the false that
+            // topPriorityLanguage() then returns killed the whole install at
+            // the last step, after all the content was already in.
+            $topLanguage = eZContentLanguage::topPriorityLanguage();
+            if ( $topLanguage )
+            {
+                $locales = array( $topLanguage->attribute( 'locale' ) );
+            }
+            else
+            {
+                // Whatever is chosen has to be a language this database
+                // actually has: an alias is stored against its id, and a
+                // locale that does not resolve fails later inside
+                // eZURLAliasML with the same unguarded attribute() call.
+                $candidates = array();
+                $ini = eZINI::instance();
+                if ( $ini->hasVariable( 'RegionalSettings', 'ContentObjectLocale' ) )
+                    $candidates[] = (string)$ini->variable( 'RegionalSettings', 'ContentObjectLocale' );
+                if ( $ini->hasVariable( 'RegionalSettings', 'SiteLanguageList' ) )
+                    $candidates = array_merge( $candidates, (array)$ini->variable( 'RegionalSettings', 'SiteLanguageList' ) );
+
+                foreach ( $candidates as $candidate )
+                {
+                    if ( $candidate !== '' && eZContentLanguage::fetchByLocale( $candidate ) )
+                    {
+                        $locales = array( $candidate );
+                        break;
+                    }
+                }
+
+                if ( !$locales )
+                {
+                    // Last resort: the first language the database holds.
+                    $installed = eZContentLanguage::fetchList();
+                    if ( is_array( $installed ) && $installed )
+                    {
+                        $first = reset( $installed );
+                        $locales = array( $first->attribute( 'locale' ) );
+                    }
+                }
+
+                if ( !$locales )
+                {
+                    eZDebug::writeWarning(
+                        'No language could be resolved for node ' . $homeNode->attribute( 'node_id' )
+                        . '; no prefixed aliases stored for its subtree', __METHOD__ );
+                    return 0;
+                }
+            }
+        }
 
         $subtree = $db->arrayQuery( "
             SELECT node_id FROM ezcontentobject_tree
@@ -4419,8 +4529,18 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'ActiveExtensions' => $this->setting( 'extension_list' ) 
         );
         $db = eZDB::instance();
+
+        // Every other field here comes from the driver the site is actually
+        // running on; the implementation was hardcoded, so a MongoDB install
+        // finished by writing ezmysqli next to MongoDB's credentials and port
+        // 27017. The site then hung trying to speak MySQL to mongod.
+        $siteINI = eZINI::instance( 'site.ini' );
+        $implementation = $siteINI->hasVariable( 'DatabaseSettings', 'DatabaseImplementation' )
+            ? $siteINI->variable( 'DatabaseSettings', 'DatabaseImplementation' )
+            : 'ezmysqli';
+
         $settings['DatabaseSettings'] = array(
-            'DatabaseImplementation' => 'ezmysqli',
+            'DatabaseImplementation' => $implementation,
             'Server' => $db ? $db->Server : 'localhost',
             'Port' => $db ? $db->Port : '',
             'User' => $db ? $db->User : '',
