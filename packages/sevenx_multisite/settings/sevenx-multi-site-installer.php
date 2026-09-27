@@ -3062,8 +3062,9 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                     $res = $dbSchema->insertSchema( array( 'schema' => true, 'data' => $loadContent ) );
                     if ( !$res )
                     {
-                        eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database from db_schema.dba.', __METHOD__ );
+                        eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' database from db_schema.dba: ' . $db->errorMessage(), __METHOD__ );
                     }
+                    $this->createMissingSchemaTables( $db, $dbSchema, $schemaArray['schema'], $extensionName );
                     return;
                 }
 
@@ -3137,6 +3138,44 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 eZDebug::writeError( 'Can\'t initialize ' . $extensionName . ' demo data.', __METHOD__ );
             }
         }
+    }
+
+    /**
+     * Every table an extension's schema declares, checked after insertSchema().
+     * insertSchema() stops at the first statement that fails, so one bad index
+     * left every later table of the file uncreated while the install carried
+     * on. A missing table is created on its own from the same definition, and
+     * whatever still fails is reported with the database's message.
+     */
+    function createMissingSchemaTables( $db, $dbSchema, $schema, $extensionName )
+    {
+        // eZTableList() lists only tables named ez*; the schema reader lists all
+        $reader = eZDbSchema::instance( $db );
+        $live = $reader ? $reader->schema( array( 'format' => 'local' ) ) : array();
+        unset( $live['_info'] );
+        $existing = array_flip( array_map( 'strtolower', array_keys( is_array( $live ) ? $live : array() ) ) );
+        $failed = array();
+        foreach ( $schema as $table => $tableDef )
+        {
+            if ( $table === '_info' || !is_array( $tableDef ) || isset( $existing[strtolower( $table )] ) )
+                continue;
+            $ok = true;
+            foreach ( $dbSchema->generateTableSQLList( $table, $tableDef, array(), false ) as $sql )
+            {
+                if ( !$db->query( $sql ) )
+                {
+                    $ok = false;
+                    break;
+                }
+            }
+            if ( $ok )
+                eZDebug::writeWarning( "Created table $table of $extensionName, which the schema insert had left out", __METHOD__ );
+            else
+                $failed[] = $table . ' (' . $db->errorMessage() . ')';
+        }
+        if ( $failed )
+            eZDebug::writeError( "Tables of $extensionName that could not be created: " . implode( ', ', $failed ), __METHOD__ );
+        return !$failed;
     }
 
     function updateTemplateLookClassAttributes( $params = false )
