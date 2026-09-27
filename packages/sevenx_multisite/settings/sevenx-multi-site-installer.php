@@ -1392,6 +1392,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_function' => 'postInstallResyncContentClassNames',
                 '_params' => array()
             ),
+            array(
+                '_function' => 'postInstallRepairClassNameLists',
+                '_params' => array()
+            ),
 
             // Cosmetic, and deliberately last. executeSteps aborts the whole
             // chain on the first step that reports an error, and the template
@@ -1535,6 +1539,35 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $this->postInstall();
     }
 
+    /**
+     * The locale class and attribute names are created in: the install's
+     * primary language, else the configured content locale.
+     */
+    function primaryLanguageLocale()
+    {
+        $locale = $this->setting( 'primary_language' );
+        if ( !$locale )
+        {
+            $ini = eZINI::instance();
+            $locale = $ini->hasVariable( 'RegionalSettings', 'ContentObjectLocale' )
+                ? $ini->variable( 'RegionalSettings', 'ContentObjectLocale' ) : 'eng-GB';
+        }
+        return $locale;
+    }
+
+    /**
+     * Class and attribute names and descriptions keyed by a number instead of
+     * a language code (see sevenxRepairClassNameLists()) are re-keyed, so the
+     * admin shows them. Runs after the class names are resynced.
+     */
+    function postInstallRepairClassNameLists( $params = false )
+    {
+        $result = sevenxRepairClassNameLists( $this->primaryLanguageLocale() );
+        if ( $result['left'] )
+            eZDebug::writeError( 'Class/attribute name lists still without a language: ' . implode( ', ', $result['left'] ), __METHOD__ );
+        return true;
+    }
+
     /*!
       pre-install stuff.
     */
@@ -1551,13 +1584,18 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 array( 
                     'identifier' => 'tags', 
                     'name' => 'Tags', 
-                    'data_type_string' => 'ezkeyword' 
+                    'data_type_string' => 'ezkeyword',
+                    // Named in the site's language: this runs before any
+                    // content language exists, and without one the name was
+                    // stored under key 0 and shown blank in the admin.
+                    'language' => $this->primaryLanguageLocale()
                 ), 
                 array( 
                     'identifier' => 'publish_date', 
                     'name' => 'Publish date', 
                     'data_type_string' => 'ezdatetime', 
-                    'default_value' => 0 
+                    'default_value' => 0,
+                    'language' => $this->primaryLanguageLocale()
                 ) 
             ) 
         ) );
