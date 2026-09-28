@@ -4732,6 +4732,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings[] = $this->commonMenuINISettings();
         $settings[] = $this->commonViewCacheINISettings();
         $settings[] = $this->commonStaticCacheINISettings();
+        $settings[] = $this->commonHttpCacheINISettings();
         $settings[] = $this->commonOverrideINISettings();
         $settings[] = $this->commonForumINISettings();
         $settings[] = $this->commonOEAttributesINISettings();
@@ -5245,6 +5246,33 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'name' => 'staticcache.ini',
             'reset_arrays' => true,
             'settings' => $settings
+        );
+    }
+
+    /**
+     * settings/override/httpcache.ini.append.php for a new installation.
+     *
+     * The kernel's default caches the siteaccess called site only. The HTTP
+     * cache serves siteaccesses matched by host, by URI and by host and URI,
+     * so every public siteaccess of this installation is listed: the main
+     * site, its translation siteaccesses and the secondary sites reached by
+     * path (/bold/, /bold_ger/). The administration siteaccess is never
+     * listed: its pages are per user and need a login.
+     *
+     * Only which siteaccesses are cached is set here. Whether the cache is on
+     * stays the kernel's default (httpcache.ini [HttpCacheSettings] Enabled),
+     * to be switched on per installation.
+     */
+    function commonHttpCacheINISettings()
+    {
+        return array(
+            'name' => 'httpcache.ini',
+            'reset_arrays' => true,
+            'settings' => array(
+                'HttpCacheSettings' => array(
+                    'CachedSiteAccesses' => $this->publicSiteaccessList(),
+                ),
+            ),
         );
     }
 
