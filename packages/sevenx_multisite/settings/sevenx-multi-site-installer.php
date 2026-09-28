@@ -1442,6 +1442,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_params' => array()
             ),
             array(
+                '_function' => 'postInstallCloseInformationPagesOnPublicSiteaccesses',
+                '_params' => array()
+            ),
+            array(
                 '_function' => 'postInstallResyncContentClassNames',
                 '_params' => array()
             ),
@@ -2069,6 +2073,42 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
      not. Each siteaccess INI is loaded explicitly and saved, because
      eZINI::instance() would only change the running instance.
     */
+    /**
+     * The Exponential information pages (ezinfo: versions, extensions, license)
+     * belong to the administration. Every siteaccess of the installation that
+     * is not an administration siteaccess (the admin siteaccess, or one with
+     * an admin design) gets [SiteAccessRules] that switch the ezinfo module
+     * off, so a public site answers 404 there: the user site, Bold Agency and
+     * every translation siteaccess.
+     */
+    function postInstallCloseInformationPagesOnPublicSiteaccesses( $params = false )
+    {
+        // The siteaccesses as they are on disk at this point: the override's
+        // RelatedSiteAccessList is only written after the post-install.
+        $siteaccesses = array();
+        foreach ( glob( 'settings/siteaccess/*/site.ini.append.php' ) ?: array() as $file )
+            $siteaccesses[] = basename( dirname( $file ) );
+        $adminSiteaccess = $this->setting( 'admin_siteaccess' );
+        $closed = array();
+        foreach ( $siteaccesses as $siteaccess )
+        {
+            $path = 'settings/siteaccess/' . $siteaccess;
+            if ( $siteaccess === '' || $siteaccess === $adminSiteaccess || !file_exists( $path . '/site.ini.append.php' ) )
+                continue;
+
+            $ini = eZINI::instance( 'site.ini.append.php', $path, null, false, null, true );
+            $design = $ini->hasVariable( 'DesignSettings', 'SiteDesign' ) ? (string)$ini->variable( 'DesignSettings', 'SiteDesign' ) : '';
+            if ( in_array( $design, array( 'admin', 'admin2', 'admin3' ), true ) )
+                continue;
+
+            $ini->setVariable( 'SiteAccessRules', 'Rules', array( 'access;enable', 'moduleall', 'access;disable', 'module;ezinfo' ) );
+            $ini->save( false, false, false, false, true, true );
+            $closed[] = $siteaccess;
+        }
+        eZDebug::writeNotice( 'The ezinfo module is switched off on: ' . ( $closed ? implode( ', ', $closed ) : 'no siteaccess' ), __FUNCTION__ );
+        return true;
+    }
+
     function postInstallSetSiteHomeAndPrefix( $params = false )
     {
         $homes = array(
