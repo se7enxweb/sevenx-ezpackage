@@ -3,9 +3,9 @@
          development="false"
          is_active="true"
          install_type="import">
-  <name>sevenx_multisite</name>
-  <summary>MultiSite Default Installation</summary>
-  <description>The 7x MultiSite Default Installation Package provides for the files required by the CMS solution with Exponential. It contains templates and settings that meets the most common requirements for content management systems.</description>
+  <name>sevenx_multisite_clean</name>
+  <summary>MultiSite Default Installation (without demo content)</summary>
+  <description>The 7x MultiSite Default Installation Package provides for the files required by the CMS solution with Exponential. It contains templates and settings that meets the most common requirements for content management systems. This variant installs the two sites with their structure, configuration, forms and legal pages, and no demo content.</description>
   <vendor>7x</vendor>
   <type value="site" />
   <ezpublish>
@@ -62,7 +62,7 @@
                name="sevenx_classes"
                min-version="5.1" />
       <require type="ezpackage"
-               name="sevenx_multisite_democontent"
+               name="sevenx_multisite_democontent_clean"
                min-version="5.1" />
     </requires>
     <obsoletes />

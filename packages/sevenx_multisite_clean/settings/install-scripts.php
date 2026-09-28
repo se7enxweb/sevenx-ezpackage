@@ -54,4 +54,6 @@ function eZSitePostInstall( &$parameters )
     $installer->postInstall();
 }
 
+
+
 ?>
