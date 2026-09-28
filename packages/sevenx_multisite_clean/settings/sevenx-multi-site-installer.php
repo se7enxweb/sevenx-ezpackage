@@ -222,7 +222,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $this->addSetting( 'access_type', eZSiteInstaller::getParam( $parameters, 'site_type/access_type', '' ) );
         $this->addSetting( 'access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/access_type_value', '' ) );
         $this->addSetting( 'admin_access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/admin_access_type_value', '' ) );
-        $this->addSetting( 'host', eZSiteInstaller::getParam( $parameters, 'host', '' ) );
+        // The host the site's addresses are built on. Nothing passes 'host',
+        // and without it they were built on the host of the request running
+        // the installation: "localhost" for the kickstarter, which runs on the
+        // command line, so every SiteURL came out as localhost/<siteaccess>.
+        // The wizard's own site URL (site_details URL in kickstart.ini, the
+        // browser's address in the web wizard) says where the site is.
+        $installHost = (string)eZSiteInstaller::getParam( $parameters, 'host', '' );
+        if ( $installHost === '' )
+            $installHost = (string)eZSiteInstaller::getParam( $parameters, 'site_type/url', '' );
+        $this->addSetting( 'host', $installHost );
         $siteaccessUrls = array( 
             'admin' => $this->createSiteaccessUrls( array( 
                 'siteaccess_list' => array( 
@@ -4639,6 +4648,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings['SiteSettings'] = array( 
             'LoginPage' => 'custom' 
         );
+        // The admin's own address. The setup wizard writes every siteaccess's
+        // SiteURL from the host of the request it runs in, and the kickstarter
+        // runs on the command line, with no host: the admin was left with
+        // SiteURL=localhost, which Setup > System information then showed as
+        // the site. The public siteaccess is given its address in
+        // siteINISettings(); this is the same for the admin.
+        $siteaccessUrl = $this->setting( 'siteaccess_urls' );
+        $adminSiteaccess = $this->setting( 'admin_siteaccess' );
+        if ( isset( $siteaccessUrl['admin'][$adminSiteaccess]['url'] ) && $siteaccessUrl['admin'][$adminSiteaccess]['url'] !== '' )
+            $settings['SiteSettings']['SiteURL'] = $siteaccessUrl['admin'][$adminSiteaccess]['url'];
         // Make sure viewcaching works in admin with the new admin interface
         $settings['ContentSettings'] = array( 
             'CachedViewPreferences' => array( 
