@@ -717,12 +717,12 @@ if ( !function_exists( 'sevenxCleanStaleUrlTextAttributes' ) )
     {
         $db = eZDB::instance();
 
-        $rows = $db->arrayQuery( '
+        $rows = $db->arrayQuery( "
             SELECT o.id, o.name, a.id AS attr_id, a.version, a.data_text AS url_text
             FROM ezcontentobject o
             JOIN ezcontentobject_attribute a ON a.contentobject_id = o.id
-            JOIN ezcontentclass_attribute ca ON a.contentclassattribute_id = ca.id AND ca.identifier = "url_text"
-            WHERE a.version = o.current_version AND a.data_text IS NOT NULL AND a.data_text != ""'
+            JOIN ezcontentclass_attribute ca ON a.contentclassattribute_id = ca.id AND ca.identifier = 'url_text'
+            WHERE a.version = o.current_version AND a.data_text IS NOT NULL AND a.data_text <> ''"
         );
 
         $cleaned = 0;
@@ -734,7 +734,7 @@ if ( !function_exists( 'sevenxCleanStaleUrlTextAttributes' ) )
 
             if ( $url !== $nameLower && strpos( $nameLower, $url ) === false && strpos( $url, $nameLower ) === false )
             {
-                $db->query( 'UPDATE ezcontentobject_attribute SET data_text = "" WHERE id = ' . (int)$row['attr_id'] . ' AND version = ' . (int)$row['version'] );
+                $db->query( "UPDATE ezcontentobject_attribute SET data_text = '' WHERE id = " . (int)$row['attr_id'] . ' AND version = ' . (int)$row['version'] );
                 $cleaned++;
             }
         }
@@ -804,12 +804,12 @@ if ( !function_exists( 'sevenxFixEmbeddedObjectIDs' ) )
     {
         $db = eZDB::instance();
 
-        $rows = $db->arrayQuery( '
+        $rows = $db->arrayQuery( "
             SELECT a.id, a.version, a.data_text
             FROM ezcontentobject_attribute a
             JOIN ezcontentclass_attribute ca ON a.contentclassattribute_id = ca.id
-            WHERE ca.data_type_string = "ezxmltext"
-              AND a.data_text LIKE "%<embed%"' );
+            WHERE ca.data_type_string = 'ezxmltext'
+              AND a.data_text LIKE '%<embed%'" );
 
         $fixed = 0;
         foreach ( $rows as $row )

@@ -2003,6 +2003,28 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                     array( '$set' => array( 'language_mask' => $byObjectVersion[$objectID][$current] ) ) );
             }
         }
+        elseif ( $db->databaseName() === 'postgresql' )
+        {
+            // PostgreSQL has BIT_OR too, but updates from a derived table with
+            // UPDATE ... FROM, not with MySQL's UPDATE ... JOIN.
+            $db->query(
+                'UPDATE ezcontentobject_version v SET language_mask = x.m' .
+                ' FROM ( SELECT contentobject_id, version, BIT_OR( language_id ) AS m' .
+                '        FROM ezcontentobject_attribute' .
+                '        GROUP BY contentobject_id, version ) x' .
+                ' WHERE x.contentobject_id = v.contentobject_id AND x.version = v.version' .
+                '   AND v.language_mask <> x.m' );
+
+            $db->query(
+                'UPDATE ezcontentobject o SET language_mask = x.m' .
+                ' FROM ( SELECT a.contentobject_id, BIT_OR( a.language_id ) AS m' .
+                '        FROM ezcontentobject_attribute a' .
+                '        INNER JOIN ezcontentobject o2' .
+                '          ON o2.id = a.contentobject_id AND a.version = o2.current_version' .
+                '        GROUP BY a.contentobject_id ) x' .
+                ' WHERE x.contentobject_id = o.id' .
+                '   AND o.language_mask <> x.m' );
+        }
         else
         {
         $db->query(
