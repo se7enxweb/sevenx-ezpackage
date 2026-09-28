@@ -2,6 +2,66 @@
 // Post-install helpers for the sevenx_multisite kickstart installer.
 // Keep all non-interactive DB normalization here so the installer and build_reference
 // can share the same logic.
+//
+// The same two files ship in sevenx_multisite and sevenx_multisite_clean. The
+// only difference between the two installations is the content package the
+// site package requires (sevenx_multisite_democontent or
+// sevenx_multisite_democontent_clean), and sevenxDemocontentPackageName() is
+// the one place that tells them apart. Everything else reads the content that
+// package actually installs, so an installation without demo content gets the
+// same settings, siteaccesses, layouts and fixes, minus the references to
+// content it does not have.
+
+if ( !function_exists( 'sevenxSitePackageName' ) )
+{
+    /** The site package these settings files belong to: the directory above settings/. */
+    function sevenxSitePackageName()
+    {
+        return basename( dirname( __DIR__ ) );
+    }
+}
+
+if ( !function_exists( 'sevenxDemocontentPackageName' ) )
+{
+    /**
+     * The content package the site package installs: the package it requires
+     * whose name starts with sevenx_multisite_democontent. Read from the site
+     * package's own package.xml, so a renamed or repointed package needs no
+     * change here; the name convention is only the fallback for a caller that
+     * includes this file from somewhere else.
+     */
+    function sevenxDemocontentPackageName()
+    {
+        $sitePackageName = sevenxSitePackageName();
+        $sitePackage = eZPackage::fetch( $sitePackageName, false, false, false );
+        if ( $sitePackage instanceof eZPackage )
+        {
+            $dependencies = $sitePackage->attribute( 'dependencies' );
+            $requires = isset( $dependencies['requires'] ) ? (array)$dependencies['requires'] : array();
+            foreach ( $requires as $require )
+            {
+                if ( isset( $require['name'] ) && strpos( $require['name'], 'sevenx_multisite_democontent' ) === 0 )
+                    return $require['name'];
+            }
+        }
+        return substr( $sitePackageName, -6 ) === '_clean'
+             ? 'sevenx_multisite_democontent_clean'
+             : 'sevenx_multisite_democontent';
+    }
+}
+
+if ( !function_exists( 'sevenxDemocontentObjectDir' ) )
+{
+    /** The ezcontentobject directory of the content package, wherever its repository is. */
+    function sevenxDemocontentObjectDir()
+    {
+        $name = sevenxDemocontentPackageName();
+        $package = eZPackage::fetch( $name, false, false, false );
+        if ( $package instanceof eZPackage )
+            return $package->path() . '/ezcontentobject';
+        return eZSys::rootDir() . '/var/storage/packages/7x/' . $name . '/ezcontentobject';
+    }
+}
 
 if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
 {
@@ -9,7 +69,7 @@ if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
     {
         $db = eZDB::instance();
 
-        $packageDir = eZSys::rootDir() . '/var/storage/packages/7x/sevenx_multisite_democontent/ezcontentobject';
+        $packageDir = sevenxDemocontentObjectDir();
         $files = glob( $packageDir . '/object-media-o-*.xml' );
 
         if ( !is_array( $files ) )
@@ -160,7 +220,26 @@ if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
         eZDebug::writeNotice( "Created $createdCount missing tree nodes in $pass pass(es)", __FUNCTION__ );
 
         // Remap explayouts references.
-        $remapValue = function( $value, $map )
+        //
+        // The seed (sevenx_themes_media's share/db_data.dba) is written against
+        // the package node and object ids of the full demo content. Each value
+        // is one of three things:
+        //   mapped  - a package id the content package installed: rewritten to
+        //             this installation's id, as before;
+        //   base    - a node or object that existed before the content package
+        //             was installed (node 1, the content root): kept;
+        //   missing - a package id of content this package does not ship. The
+        //             clean package leaves the demo content out, so its layouts
+        //             still name it. Kept as it was, such a value points at
+        //             whatever this installation happened to give that id -
+        //             rule targets matched the wrong pages, collections listed
+        //             unrelated objects - so the reference is removed instead:
+        //             rule target and collection item rows are deleted, a
+        //             query's parent/topic is set to 0 (the query answers
+        //             nothing), and a rule left without targets is disabled.
+        // With the full demo content nothing is missing, so this changes nothing
+        // there; the counts are logged either way.
+        $remapValue = function( $value, $map ) use ( &$remapValue )
         {
             if ( is_array( $value ) )
             {
@@ -179,17 +258,66 @@ if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
             return $value;
         };
 
+        // Highest node / object id before the content package was installed,
+        // recorded by the installer's preInstall(). Without it (this file used
+        // on its own) only values that name nothing at all count as missing.
+        $baseMaxNodeID = isset( $GLOBALS['sevenxBaseMaxNodeID'] ) ? (int)$GLOBALS['sevenxBaseMaxNodeID'] : PHP_INT_MAX;
+        $baseMaxObjectID = isset( $GLOBALS['sevenxBaseMaxObjectID'] ) ? (int)$GLOBALS['sevenxBaseMaxObjectID'] : PHP_INT_MAX;
+        $isBase = function( $value, $kind ) use ( $db, $baseMaxNodeID, $baseMaxObjectID )
+        {
+            $id = (int)$value;
+            if ( $id <= 0 )
+                return false;
+            if ( $kind === 'node' )
+                return $id <= $baseMaxNodeID
+                    && (bool)$db->arrayQuery( "SELECT node_id FROM ezcontentobject_tree WHERE node_id = $id" );
+            return $id <= $baseMaxObjectID
+                && (bool)$db->arrayQuery( "SELECT id FROM ezcontentobject WHERE id = $id" );
+        };
+        // 'mapped' / 'base' / 'missing', or 'none' for an empty or non-numeric value
+        $classify = function( $value, $map, $kind ) use ( $isBase )
+        {
+            if ( !( is_int( $value ) || ( is_string( $value ) && ctype_digit( $value ) ) ) || (int)$value <= 0 )
+                return 'none';
+            if ( isset( $map[(int)$value] ) )
+                return 'mapped';
+            return $isBase( $value, $kind ) ? 'base' : 'missing';
+        };
+        $removed = array( 'rule targets' => 0, 'rules disabled' => 0, 'collection items' => 0,
+                          'query parents' => 0, 'query topics' => 0, 'component contents' => 0,
+                          'tag links' => 0 );
+
         $targetTypes = array( 'content_node', 'ibexa_subtree', 'subtree', 'node' );
-        $rows = $db->arrayQuery( 'SELECT id, target_type, target_value FROM explayouts_rule_target' );
+        $rulesLosingTargets = array();
+        $rows = $db->arrayQuery( 'SELECT id, rule_id, target_type, target_value FROM explayouts_rule_target' );
         foreach ( $rows as $row )
         {
             if ( !in_array( $row['target_type'], $targetTypes ) )
                 continue;
 
+            if ( $classify( $row['target_value'], $packageNodeMap, 'node' ) === 'missing' )
+            {
+                $db->query( 'DELETE FROM explayouts_rule_target WHERE id = ' . (int)$row['id'] );
+                $rulesLosingTargets[(int)$row['rule_id']] = true;
+                $removed['rule targets']++;
+                continue;
+            }
+
             $newValue = $remapValue( $row['target_value'], $packageNodeMap );
             if ( (string)$newValue !== (string)$row['target_value'] )
             {
                 $db->query( 'UPDATE explayouts_rule_target SET target_value = \'' . $db->escapeString( (string)$newValue ) . '\' WHERE id = ' . (int)$row['id'] );
+            }
+        }
+        // A rule whose every target named missing content matches nothing it
+        // was written for; left enabled with no target it would match anything.
+        foreach ( array_keys( $rulesLosingTargets ) as $ruleID )
+        {
+            $left = $db->arrayQuery( 'SELECT COUNT(*) AS c FROM explayouts_rule_target WHERE rule_id = ' . (int)$ruleID );
+            if ( $left && (int)$left[0]['c'] === 0 )
+            {
+                $db->query( 'UPDATE explayouts_rule SET enabled = 0 WHERE id = ' . (int)$ruleID );
+                $removed['rules disabled']++;
             }
         }
 
@@ -204,6 +332,13 @@ if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
 
             if ( $map === false )
                 continue;
+
+            if ( $classify( $row['value_id'], $map, $row['value_type'] === 'ez_location' ? 'node' : 'object' ) === 'missing' )
+            {
+                $db->query( 'DELETE FROM explayouts_collection_item WHERE id = ' . (int)$row['id'] );
+                $removed['collection items']++;
+                continue;
+            }
 
             $newValue = $remapValue( $row['value_id'], $map );
             if ( (int)$newValue !== (int)$row['value_id'] )
@@ -220,10 +355,26 @@ if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
                 continue;
 
             if ( isset( $parameters['parent_location_id'] ) && $parameters['parent_location_id'] !== null )
-                $parameters['parent_location_id'] = $remapValue( $parameters['parent_location_id'], $packageNodeMap );
+            {
+                if ( $classify( $parameters['parent_location_id'], $packageNodeMap, 'node' ) === 'missing' )
+                {
+                    $parameters['parent_location_id'] = 0;
+                    $removed['query parents']++;
+                }
+                else
+                    $parameters['parent_location_id'] = $remapValue( $parameters['parent_location_id'], $packageNodeMap );
+            }
 
             if ( isset( $parameters['topic_content_id'] ) && $parameters['topic_content_id'] !== null )
-                $parameters['topic_content_id'] = $remapValue( $parameters['topic_content_id'], $packageObjectMap );
+            {
+                if ( $classify( $parameters['topic_content_id'], $packageObjectMap, 'object' ) === 'missing' )
+                {
+                    $parameters['topic_content_id'] = 0;
+                    $removed['query topics']++;
+                }
+                else
+                    $parameters['topic_content_id'] = $remapValue( $parameters['topic_content_id'], $packageObjectMap );
+            }
 
             $newParameters = json_encode( $parameters );
             if ( $newParameters !== $row['parameters'] )
@@ -237,6 +388,24 @@ if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
         {
             if ( $row['name'] === 'content' && is_numeric( $row['value'] ) )
             {
+                // A component's content is a reference-site content id, which
+                // the theme's component_content() resolves by the remote id the
+                // package gives that object (media-o-<id + 776>, media-o-<id>).
+                // When the package ships no such object that lookup falls back
+                // to fetching the bare number - which logs "Object not found"
+                // on every page view, or finds an unrelated object - so the
+                // parameter is emptied and the component renders nothing.
+                $id = (int)$row['value'];
+                if ( !isset( $packageObjectMap[$id] ) && $id > 0
+                     && !eZContentObject::fetchByRemoteID( 'media-o-' . ( $id + 776 ), false )
+                     && !eZContentObject::fetchByRemoteID( 'media-o-' . $id, false )
+                     && !$isBase( $id, 'object' ) )
+                {
+                    $db->query( 'UPDATE explayouts_block_parameter SET value = \'\' WHERE id = ' . (int)$row['id'] );
+                    $removed['component contents']++;
+                    continue;
+                }
+
                 $newValue = $remapValue( $row['value'], $packageObjectMap );
                 if ( (string)$newValue !== (string)$row['value'] )
                 {
@@ -251,12 +420,25 @@ if ( !function_exists( 'sevenxFixPackageNodesAndExplayouts' ) )
         $rows = $db->arrayQuery( 'SELECT id, object_id FROM eztags_attribute_link' );
         foreach ( $rows as $row )
         {
+            if ( $classify( $row['object_id'], $packageObjectMap, 'object' ) === 'missing' )
+            {
+                $db->query( 'DELETE FROM eztags_attribute_link WHERE id = ' . (int)$row['id'] );
+                $removed['tag links']++;
+                continue;
+            }
+
             $newValue = $remapValue( $row['object_id'], $packageObjectMap );
             if ( (int)$newValue !== (int)$row['object_id'] )
             {
                 $db->query( 'UPDATE eztags_attribute_link SET object_id = ' . (int)$newValue . ' WHERE id = ' . (int)$row['id'] );
             }
         }
+
+        $summary = array();
+        foreach ( $removed as $what => $n )
+            $summary[] = "$n $what";
+        eZDebug::writeNotice( 'References to content ' . sevenxDemocontentPackageName() .
+                              ' does not ship, removed: ' . implode( ', ', $summary ), __FUNCTION__ );
 
         sevenxFixMenuINIFiles( $packageNodeMap );
 
@@ -394,11 +576,19 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
             $cookiePolicyId = isset( $packageNodeMap[$cookiePolicyPackageId] )
                             ? (int)$packageNodeMap[$cookiePolicyPackageId] : 0;
 
+            // A menu entry whose page the content package did not install is
+            // left out. It used to be written as the bare package node id,
+            // which names whatever this installation gave that id - on an
+            // installation without the demo content, pages that do not exist
+            // or unrelated objects. The two lists stay in step: the templates
+            // pair them by position.
             $mainMenuIds = array();
             $mainMenuNexusIds = array();
             foreach ( $mainMenuPackageIds as $packageNodeId )
             {
-                $actualId = isset( $packageNodeMap[$packageNodeId] ) ? (int)$packageNodeMap[$packageNodeId] : $packageNodeId;
+                if ( !isset( $packageNodeMap[$packageNodeId] ) )
+                    continue;
+                $actualId = (int)$packageNodeMap[$packageNodeId];
                 $mainMenuIds[] = $actualId;
                 $mainMenuNexusIds[] = isset( $mainMenuNexusMap[$packageNodeId] ) ? (int)$mainMenuNexusMap[$packageNodeId] : $actualId;
             }
@@ -407,7 +597,9 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
             $footerMenuNexusIds = array();
             foreach ( $footerMenuPackageIds as $packageNodeId )
             {
-                $actualId = isset( $packageNodeMap[$packageNodeId] ) ? (int)$packageNodeMap[$packageNodeId] : $packageNodeId;
+                if ( !isset( $packageNodeMap[$packageNodeId] ) )
+                    continue;
+                $actualId = (int)$packageNodeMap[$packageNodeId];
                 $footerMenuIds[] = $actualId;
                 $footerMenuNexusIds[] = isset( $footerMenuNexusMap[$packageNodeId] ) ? (int)$footerMenuNexusMap[$packageNodeId] : $actualId;
             }
@@ -459,6 +651,62 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
         }
 
         eZDebug::writeNotice( 'Updated menu.ini files for siteaccesses: ' . implode( ', ', $siteaccesses ), __FUNCTION__ );
+        return true;
+    }
+}
+
+if ( !function_exists( 'sevenxClearLinksToContentNotInstalled' ) )
+{
+    /**
+     * Switch off block links whose page the content package did not install.
+     *
+     * Title blocks in the seeded layouts link their heading to a section by
+     * path - /fitness, /recipes - relative to the site's PathPrefix. On an
+     * installation without the demo content those sections do not exist and
+     * every such heading linked to a 404. A path is kept when it resolves as it
+     * is or below one of the site prefixes given; otherwise the link is emptied
+     * and the block's use_link switched off, so the heading renders as text.
+     * JSON-shaped and node links need nothing here: expLayoutsLinkParameter
+     * already renders an unresolvable one as text.
+     *
+     * Runs after the prefixed URL aliases exist. With the full demo content
+     * every path resolves and nothing changes.
+     *
+     * @param array $prefixes url alias paths of the site home nodes (fit-healthy, bold-agency)
+     */
+    function sevenxClearLinksToContentNotInstalled( array $prefixes )
+    {
+        $db = eZDB::instance();
+        $rows = $db->arrayQuery( "SELECT id, block_id, value FROM explayouts_block_parameter WHERE name = 'link'" );
+        $cleared = 0;
+        foreach ( $rows as $row )
+        {
+            $value = trim( (string)$row['value'] );
+            if ( $value === '' || $value[0] !== '/' )
+                continue;
+            $path = trim( $value, '/' );
+            if ( $path === '' )
+                continue;
+
+            $found = false;
+            foreach ( array_merge( array( '' ), $prefixes ) as $prefix )
+            {
+                $prefix = trim( (string)$prefix, '/' );
+                if ( eZURLAliasML::fetchNodeIDByPath( ( $prefix !== '' ? $prefix . '/' : '' ) . $path ) )
+                {
+                    $found = true;
+                    break;
+                }
+            }
+            if ( $found )
+                continue;
+
+            $db->query( "UPDATE explayouts_block_parameter SET value = '' WHERE id = " . (int)$row['id'] );
+            $db->query( "UPDATE explayouts_block_parameter SET value = '0' WHERE name = 'use_link' AND block_id = " . (int)$row['block_id'] );
+            $cleared++;
+        }
+
+        eZDebug::writeNotice( "Switched off $cleared block link(s) to pages this installation does not have", __FUNCTION__ );
         return true;
     }
 }
@@ -527,7 +775,8 @@ if ( !function_exists( 'sevenxRegenerateURLAliases' ) )
         //
         // A node built straight from its row does the same job here:
         // updateSubTreePath only needs the row's own columns.
-        $rows = $db->arrayQuery( 'SELECT * FROM ezcontentobject_tree ORDER BY depth ASC, node_id ASC' );
+        // Node 1, the root, is its own parent and has no alias
+        $rows = $db->arrayQuery( 'SELECT * FROM ezcontentobject_tree WHERE node_id <> 1 ORDER BY depth ASC, node_id ASC' );
         $count = 0;
         $changed = 0;
         $rebuilt = 0;

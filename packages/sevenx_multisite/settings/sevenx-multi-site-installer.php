@@ -84,6 +84,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $this->addSetting( 'anonymous_accounts_id', eZSiteInstaller::getParam( $parameters, 'object_remote_map/15b256dbea2ae72418ff5facc999e8f9', '' ) );
         $this->addSetting( 'package_object', eZSiteInstaller::getParam( $parameters, 'package_object', false ) );
         $this->addSetting( 'design_list', eZSiteInstaller::getParam( $parameters, 'design_list', array() ) );
+        $this->addSetting( 'database_settings', eZSiteInstaller::getParam( $parameters, 'database_settings', array() ) );
         $this->addSetting( 'main_site_design', 'media' );
         // Order matters: later extensions win design and template overrides, so
         // the two themes stay at the end. Within the explayouts family the
@@ -147,6 +148,14 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
         $this->addSetting( 'primary_language', eZSiteInstaller::getParam( $parameters, 'all_language_codes/0', '' ) );
+        // The bundled content is in eng-US and stays in it whatever language
+        // is chosen: a site in another language falls back to it. The setup
+        // passes it as fallback_language_codes; a setup that does not is
+        // answered the same way here.
+        $fallbackLocales = eZSiteInstaller::getParam( $parameters, 'fallback_language_codes', null );
+        if ( !is_array( $fallbackLocales ) )
+            $fallbackLocales = in_array( 'eng-US', (array)$this->setting( 'locales' ) ) ? array() : array( 'eng-US' );
+        $this->addSetting( 'fallback_locales', array_values( array_diff( $fallbackLocales, (array)$this->setting( 'locales' ) ) ) );
         // usual user siteaccess like 'site'
         $userSiteaccess = eZSiteInstaller::getParam( $parameters, 'user_siteaccess', 'site' );
         if ( $userSiteaccess == 'sevenx_site_user' || $userSiteaccess == '' )
@@ -157,28 +166,53 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         if ( $adminSiteaccess == 'sevenx_site_admin' || $adminSiteaccess == '' )
             $adminSiteaccess = 'admin';
         $this->addSetting( 'admin_siteaccess', $adminSiteaccess );
-        // site title from kickstart, falling back to the old generic default
-        $siteTitle = eZSiteInstaller::getParam( $parameters, 'site_type/title', '' );
-        if ( $siteTitle === '' )
-            $siteTitle = ucfirst( $userSiteaccess ) . ' site';
+        // Site title from the setup. When nobody typed one, the web wizard
+        // offers the site package's summary ("MultiSite Default Installation")
+        // and the kickstarter falls back to it, and that became the SiteName
+        // of every Fit & Healthy siteaccess - the browser title of each page
+        // and the logo's alt text. It describes the package, not the site, so
+        // the site's own name is used instead.
+        $siteTitle = trim( (string)eZSiteInstaller::getParam( $parameters, 'site_type/title', '' ) );
+        $packageSummary = trim( (string)eZSiteInstaller::getParam( $parameters, 'site_type/name', '' ) );
+        if ( $siteTitle === '' || $siteTitle === $packageSummary || $siteTitle === 'MultiSite Default Installation' )
+            $siteTitle = $userSiteaccess === 'bold' ? 'Bold Agency' : 'Fit & Healthy';
         $this->addSetting( 'site_title', $siteTitle );
         // extra siteaccess based on languages info, like 'eng', 'rus', ...
         $primaryLanguage = $this->setting( 'primary_language' );
         $userSiteaccess = $this->setting( 'user_siteaccess' );
         $languageBasedList = array();
+        $languageSiteaccessMap = array();
+        // Names a translation siteaccess must not take: the siteaccesses the
+        // installation has anyway.
+        $taken = array( $userSiteaccess, $this->setting( 'admin_siteaccess' ), 'site', 'admin', 'bold', 'bold_ger' );
+        $translationLocales = array_values( array_diff( (array)$this->setting( 'locales' ), array( $primaryLanguage ) ) );
         foreach ( $this->setting( 'locales' ) as $locale )
         {
             if ( $locale != $primaryLanguage )
             {
-                $languageName = $this->languageNameFromLocale( $locale );
+                // Unique among the translations: eng-US and eng-GB were both
+                // 'eng', and the second siteaccess overwrote the first. The
+                // first keeps the short name, later ones add their country
+                // (eng_gb).
+                $languageName = $this->languageNameFromLocale( $locale, $translationLocales );
                 // Bold Agency translations are prefixed to avoid colliding
                 // with the Fit & Healthy language siteaccesses.
                 if ( $userSiteaccess === 'bold' )
                     $languageName = 'bold_' . $languageName;
+                // ... and not one of the siteaccesses the installation has anyway
+                if ( in_array( $languageName, $taken, true ) )
+                    $languageName .= '_' . strtolower( substr( $locale, strpos( $locale, '-' ) + 1 ) );
+                $suffix = 2;
+                $base = $languageName;
+                while ( in_array( $languageName, $taken, true ) )
+                    $languageName = $base . $suffix++;
+                $taken[] = $languageName;
                 $languageBasedList[] = $languageName;
+                $languageSiteaccessMap[$locale] = $languageName;
             }
         }
         $this->addSetting( 'language_based_siteaccess_list', $languageBasedList );
+        $this->addSetting( 'language_siteaccess_map', $languageSiteaccessMap );
         $this->addSetting( 'user_siteaccess_list', array_merge( array( 
             $this->setting( 'user_siteaccess' ) 
         ), $languageBasedList ) );
@@ -196,28 +230,41 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 ), 
                 'access_type' => $this->setting( 'access_type' ), 
                 'access_type_value' => $this->setting( 'admin_access_type_value' ), 
-                'host' => $this->setting( 'host' ), 
-                'host_prepend_siteaccess' => false 
-            ) ), 
+                'host' => $this->setting( 'host' ),
+                'host_prepend_siteaccess' => false,
+                // The site runs with ForceVirtualHost=true (commonSiteINISettings):
+                // no index.php, which the web wizard's requests all carried
+                'index_file' => ''
+            ) ),
             'user' => $this->createSiteaccessUrls( array( 
                 'siteaccess_list' => array( 
                     $this->setting( 'user_siteaccess' ) 
                 ), 
                 'access_type' => $this->setting( 'access_type' ), 
                 'access_type_value' => $this->setting( 'access_type_value' ), 
-                'host' => $this->setting( 'host' ), 
-                'host_prepend_siteaccess' => false 
-            ) ), 
+                'host' => $this->setting( 'host' ),
+                'host_prepend_siteaccess' => false,
+                // The site runs with ForceVirtualHost=true (commonSiteINISettings):
+                // no index.php, which the web wizard's requests all carried
+                'index_file' => ''
+            ) ),
             'translation' => $this->createSiteaccessUrls( array( 
                 'siteaccess_list' => $this->setting( 'language_based_siteaccess_list' ), 
-                'access_type' => $this->setting( 'access_type' ), 
-                'access_type_value' => (int)$this->setting( 'access_type_value' ) + 1,
-                'host' => $this->setting( 'host' ), 
+                'access_type' => $this->setting( 'access_type' ),
+                // Only a port counts up. For host access the value is the
+                // site's host name, which the translations are put in front
+                // of (ger.example.com); adding one to it made SiteURL "ger.128"
+                // out of 127.0.0.1 and "ger.1" out of any name.
+                'access_type_value' => $this->setting( 'access_type' ) === 'port'
+                                       ? (int)$this->setting( 'access_type_value' ) + 1
+                                       : $this->setting( 'access_type_value' ),
+                'host' => $this->setting( 'host' ),
                 'exclude_port_list' => array( 
                     $this->setting( 'admin_access_type_value' ), 
-                    $this->setting( 'access_type_value' ) 
-                ) 
-            ) ) 
+                    $this->setting( 'access_type_value' )
+                ),
+                'index_file' => ''
+            ) )
         );
         $this->addSetting( 'siteaccess_urls', $siteaccessUrls );
         // $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/' . $this->setting( 'user_siteaccess' ) ) );
@@ -991,7 +1038,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             array( 
                 '_function' => 'setSection', 
                 '_params' => array( 
-                    'location' => 'company/partners', 
+                    // created above under Users
+                    'location' => 'users/partners', 
                     'section_name' => 'Restricted' 
                 ) 
             ), 
@@ -1380,6 +1428,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_function' => 'postInstallCreateSitePrefixAliases',
                 '_params' => array()
             ),
+            // Needs the prefixed aliases the step above stores.
+            array(
+                '_function' => 'postInstallClearLinksToContentNotInstalled',
+                '_params' => array()
+            ),
             array(
                 '_function' => 'postInstallPlaceOrphanedPackageObjects',
                 '_params' => array()
@@ -1540,6 +1593,28 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     }
 
     /**
+     * SiteLanguageList for a siteaccess: $first (default: the primary
+     * language), the other chosen languages, then the fallback languages the
+     * bundled content is in when they were not chosen.
+     */
+    function siteLanguageList( $first = false )
+    {
+        $primaryLanguage = $this->setting( 'primary_language' );
+        $locales = (array)$this->setting( 'locales' );
+        if ( !$locales )
+            $locales = array( $primaryLanguage ? $primaryLanguage : 'eng-US' );
+        if ( !$first )
+            $first = $locales[0];
+        $list = array( $first );
+        foreach ( array_merge( $locales, (array)$this->setting( 'fallback_locales' ) ) as $locale )
+        {
+            if ( !in_array( $locale, $list ) )
+                $list[] = $locale;
+        }
+        return $list;
+    }
+
+    /**
      * The locale class and attribute names are created in: the install's
      * primary language, else the configured content locale.
      */
@@ -1571,9 +1646,58 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     /*!
       pre-install stuff.
     */
+    /**
+     * Make the settings of every extension the site will run with part of
+     * this run, before the packages are installed.
+     *
+     * The site's ActiveExtensions are only written to settings/override at the
+     * end of the install. On a new installation there is no earlier override,
+     * so the classes and objects were imported with only the kernel's
+     * extensions active: the datatypes of enhancedselection2 and ngclasslist
+     * were "not found" and every eztags attribute read an eztags.ini without
+     * its SearchSettings. A reinstall over an existing site hid this, because
+     * the previous site's settings were still in place.
+     *
+     * Only the override directories are added: site.ini itself is not
+     * reloaded, since the setup keeps its database settings in memory. The
+     * INI files already read are read again on their next use.
+     */
+    function activateSiteExtensionSettings( $siteINI )
+    {
+        // In the order the site will load them: the first match wins when a
+        // datatype is looked up, and sevenx_themes_media carries a stand-in
+        // eztags datatype that must not shadow the real one.
+        $extensions = array_values( array_unique( (array)$this->setting( 'extension_list' ) ) );
+        if ( $siteINI->variable( 'ExtensionSettings', 'ExtensionOrdering' ) === 'enabled' )
+            $extensions = eZExtension::extensionOrdering( $extensions );
+        $added = false;
+        foreach ( $extensions as $extension )
+        {
+            $dir = eZExtension::baseDirectory() . '/' . $extension . '/settings';
+            if ( is_dir( $dir ) && $siteINI->prependOverrideDir( $dir, true, 'extension:' . $extension, 'extension' ) )
+                $added = true;
+        }
+        if ( !$added )
+            return;
+        foreach ( array( 'content.ini', 'eztags.ini', 'template.ini', 'image.ini', 'ezoe.ini', 'ezxml.ini' ) as $file )
+            eZINI::resetInstance( $file );
+    }
+
     function preInstall()
     {
         $db = eZDB::instance();
+        // What the database holds before the content package is installed: the
+        // base data. The post-install fix (post-install-fix.php) tells a
+        // reference to base data (node 1, the content root) from a package id
+        // of content the package does not ship by it.
+        // ORDER BY ... LIMIT rather than MAX(): the form every driver here translates
+        $maxNode = $db->arrayQuery( 'SELECT node_id FROM ezcontentobject_tree ORDER BY node_id DESC LIMIT 1' );
+        $maxObject = $db->arrayQuery( 'SELECT id FROM ezcontentobject ORDER BY id DESC LIMIT 1' );
+        $GLOBALS['sevenxBaseMaxNodeID'] = $maxNode ? (int)$maxNode[0]['node_id'] : 0;
+        $GLOBALS['sevenxBaseMaxObjectID'] = $maxObject ? (int)$maxObject[0]['id'] : 0;
+        eZDebug::writeNotice( 'Base data before the content package: nodes up to ' . $GLOBALS['sevenxBaseMaxNodeID'] .
+                              ', objects up to ' . $GLOBALS['sevenxBaseMaxObjectID'] .
+                              '; content package ' . sevenxDemocontentPackageName(), __METHOD__ );
         $db->begin();
         // extend 'folder' class
         $this->addClassAttributes( array( 
@@ -1605,6 +1729,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $ini = eZINI::instance();
         // $this->setting( 'var_dir' ) );
         $ini->setVariable( 'FileSettings', 'VarDir', 'var/site' );
+        $this->activateSiteExtensionSettings( $ini );
         $contentINI = eZINI::instance( 'content.ini' );
         $datatypeRepositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
         $datatypeRepositories[] = 'ezstarrating';
@@ -1626,38 +1751,12 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 'AvailableDataTypes' => $availableDatatype 
             ) 
         ) );
-        // Reset the package-owned tables so the sevenx_themes_media seed data
-        // is actually inserted (eZDbSchema::insertSchema skips data for tables
-        // that already exist from dependency package installs).
-        $db = eZDB::instance();
-        $schemaArray = eZDbSchema::read( eZSys::rootDir() . '/' . eZExtension::baseDirectory() . '/sevenx_themes_media/share/db_schema.dba', true );
-        if ( is_array( $schemaArray ) && isset( $schemaArray['schema'] ) )
-        {
-            $db->query( 'SET FOREIGN_KEY_CHECKS=0' );
-            foreach ( array_keys( $schemaArray['schema'] ) as $tableName )
-            {
-                if ( $tableName === '_info' )
-                    continue;
-                $db->query( 'DROP TABLE IF EXISTS ' . $tableName );
-            }
-            $db->query( 'SET FOREIGN_KEY_CHECKS=1' );
-        }
-
-        $this->insertDBFile( 'sevenx_themes_media', 'sevenx_themes_media', true );
-        // Schema only: ezstarrating ships DDL and no default rows, and the demo
-        // rating data lives in sevenx_themes_media's db_data.dba alongside the
-        // content it belongs to.
-        $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
-        $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
-        $this->insertDBFile( 'eztags', 'eztags' );
-        $this->insertDBFile( 'explayouts', 'explayouts', true );
-        // enhancedselection2 owns sckenhancedselection, which twenty class
-        // attributes across ng_category, ng_video, ng_component_features,
-        // ng_component_quote and ng_menu_item depend on. Without this the table
-        // is never created and the datatype errors the first time it is read.
-        $this->insertDBFile( 'enhancedselection2', 'enhancedselection2' );
-        // cjw_newsletter is in extension_list and owns eleven cjwnl_* tables.
-        $this->insertDBFile( 'cjw_newsletter', 'cjw_newsletter' );
+        // Every table the extension schemas declare starts empty: a reinstall's
+        // "remove" drops only the tables named ez*, so the others kept the
+        // previous site's rows and each schema insert failed "already exists".
+        $this->dropExtensionTables();
+        foreach ( $this->extensionSchemas() as $e )
+            $this->insertDBFile( $e[0], $e[1], $e[2] );
 
         // Fix eztags language metadata from the legacy DBA export, which has
         // mismatched language_id / main_language_id / language_mask values.
@@ -1667,7 +1766,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         {
             $publishedStatus = 1;
             $db->query( "UPDATE eztags_keyword SET language_id = $engGBId WHERE locale = 'eng-GB' AND language_id != $engGBId" );
-            $db->query( "UPDATE eztags t INNER JOIN eztags_keyword k ON t.id = k.keyword_id SET t.main_language_id = $engGBId, t.language_mask = $engGBId WHERE k.locale = 'eng-GB' AND k.status = $publishedStatus" );
+            // A subquery, not UPDATE ... INNER JOIN, which only MySQL accepts
+            $db->query( "UPDATE eztags SET main_language_id = $engGBId, language_mask = $engGBId WHERE id IN ( SELECT keyword_id FROM eztags_keyword WHERE locale = 'eng-GB' AND status = $publishedStatus )" );
         }
     }
 
@@ -1970,6 +2070,18 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'bold_ger'                          => 'Bold Agency',
         );
 
+        // The translation siteaccesses serve the user siteaccess's site in
+        // another language: same home node, same prefix, same menus.
+        $userSiteaccess = $this->setting( 'user_siteaccess' );
+        foreach ( (array)$this->setting( 'language_based_siteaccess_list' ) as $languageSiteaccess )
+        {
+            if ( isset( $homeNames[$languageSiteaccess] ) || !isset( $homeNames[$userSiteaccess] ) )
+                continue;
+            $homes[$languageSiteaccess] = isset( $homes[$userSiteaccess] ) ? $homes[$userSiteaccess] : '';
+            $homeNames[$languageSiteaccess] = $homeNames[$userSiteaccess];
+            $this->copySiteaccessMenus( $userSiteaccess, $languageSiteaccess );
+        }
+
         foreach ( $homeNames as $siteaccess => $homeName )
         {
             if ( !$siteaccess )
@@ -2039,6 +2151,31 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             $db->query( "UPDATE ezurlalias_ml SET action = 'eznode:$id' WHERE text = '' AND parent = 0" );
         }
 
+        return true;
+    }
+
+    /**
+     * Give a translation siteaccess the menus of the siteaccess it translates.
+     *
+     * The header and footer menus ([SiteInfo] in menu.ini) are written for the
+     * user siteaccess from this installation's node ids by the package node
+     * fix, after the translation siteaccesses were copied from it - so they had
+     * none, and the menu templates read settings that did not exist.
+     */
+    function copySiteaccessMenus( $srcSiteaccess, $dstSiteaccess )
+    {
+        $src = 'settings/siteaccess/' . $srcSiteaccess . '/menu.ini.append.php';
+        $dstDir = 'settings/siteaccess/' . $dstSiteaccess;
+        if ( !file_exists( $src ) || !is_dir( $dstDir ) )
+        {
+            eZDebug::writeNotice( "No menu settings copied from $srcSiteaccess to $dstSiteaccess", __METHOD__ );
+            return false;
+        }
+        if ( !copy( $src, $dstDir . '/menu.ini.append.php' ) )
+        {
+            eZDebug::writeWarning( "Could not copy $src to $dstDir", __METHOD__ );
+            return false;
+        }
         return true;
     }
 
@@ -2150,8 +2287,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     */
     function postInstallPlaceOrphanedPackageObjects( $params = false )
     {
-        $dir = eZSys::rootDir()
-             . '/var/storage/packages/7x/sevenx_multisite_democontent/ezcontentobject';
+        // the content package this site package requires (post-install-fix.php)
+        $dir = sevenxDemocontentObjectDir();
         if ( !is_dir( $dir ) )
             return true;
 
@@ -2473,6 +2610,29 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     }
 
     /**
+     * Switch off the block links that name a page the content package did not
+     * install (see sevenxClearLinksToContentNotInstalled() in
+     * post-install-fix.php). Relative paths are tried below each site's home.
+     */
+    function postInstallClearLinksToContentNotInstalled( $params = false )
+    {
+        $prefixes = array();
+        foreach ( array( 'media-n-939', 'media-n-940' ) as $remoteID )
+        {
+            $homeNode = eZContentObjectTreeNode::fetchByRemoteID( $remoteID );
+            if ( !$homeNode )
+                continue;
+            $alias = $this->nodeAliasText( (int)$homeNode->attribute( 'node_id' ), $this->primaryLanguageLocale() );
+            if ( $alias !== '' )
+                $prefixes[] = $alias;
+            $pathAlias = (string)$homeNode->attribute( 'url_alias' );
+            if ( $pathAlias !== '' && !in_array( $pathAlias, $prefixes ) )
+                $prefixes[] = $pathAlias;
+        }
+        return sevenxClearLinksToContentNotInstalled( $prefixes );
+    }
+
+    /**
      * Store the prefixed alias path of every node in a site's subtree, for each
      * language that site's home node is translated into.
      */
@@ -2642,11 +2802,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         if ( $adminUser )
         {
             eZUser::setCurrentlyLoggedInUser( $adminUser, 14 );
-            error_log( __FUNCTION__ . ': set admin user 14' );
         }
         else
         {
-            error_log( __FUNCTION__ . ': could not fetch admin user 14' );
+            eZDebug::writeWarning( 'The administrator (user 14) was not found: the nodes below are published without a logged-in user', __METHOD__ );
         }
 
         // eng-US is the only content language this site supports. eng-GB was
@@ -2657,7 +2816,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
 
         $db = eZDB::instance();
 
-        $packageDir = eZSys::rootDir() . '/var/storage/packages/7x/sevenx_multisite_democontent/ezcontentobject';
+        $packageDir = sevenxDemocontentObjectDir();
         $files = glob( $packageDir . '/object-media-o-*.xml' );
 
         if ( !is_array( $files ) )
@@ -2796,26 +2955,6 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 eZContentClass::expireCache();
                 unset( $GLOBALS['eZContentObjectContentObjectCache'] );
 
-                $db = eZDB::instance();
-                $raw = $db->arrayQuery( "SELECT * FROM ezcontentobject_tree WHERE node_id = $parentNodeID" );
-                error_log( __FUNCTION__ . ": DB " . $db->DB . " raw parent $parentNodeID rows=" . count( $raw ) );
-
-                $langs = eZContentLanguage::prioritizedLanguages();
-                $langIds = array();
-                foreach ( $langs as $l )
-                    $langIds[] = $l->attribute( 'id' );
-                error_log( __FUNCTION__ . ": prioritized language ids " . implode( ',', $langIds ) );
-                error_log( __FUNCTION__ . ": sqlFilter " . eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' ) );
-
-                $arr = eZContentObjectTreeNode::fetch( $parentNodeID, false, false );
-                error_log( __FUNCTION__ . ": fetch array parent $parentNodeID " . ( is_array( $arr ) ? 'yes' : 'no' ) );
-
-                $parentNodeObj = eZContentObjectTreeNode::fetch( $parentNodeID );
-                $objectObj = eZContentObject::fetch( $a['object_id'] );
-                if ( !$parentNodeObj instanceof eZContentObjectTreeNode )
-                    error_log( __FUNCTION__ . ": parent $parentNodeID not found for object {$a['object_id']}" );
-                if ( !is_object( $objectObj ) )
-                    error_log( __FUNCTION__ . ": object {$a['object_id']} not found" );
 
                 $actualNodeId = eZContentOperationCollection::publishNode( $parentNodeID, $a['object_id'], $a['version'], false );
                 if ( $actualNodeId )
@@ -2829,16 +2968,15 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 else
                 {
                     eZDebug::writeError( "publishNode failed for object {$a['object_id']} under parent $parentNodeID", __FUNCTION__ );
-                    error_log( __FUNCTION__ . ": publishNode failed for object {$a['object_id']} under parent $parentNodeID" );
                 }
             }
         } while ( $progress && $pass < $maxPasses );
 
         eZDebug::writeNotice( "Created $createdCount missing tree nodes in $pass pass(es)", __FUNCTION__ );
-        error_log( __FUNCTION__ . ": created $createdCount missing tree nodes in $pass pass(es)" );
 
         // Remap explayouts references.
-        $remapValue = function( $value, $map )
+        // Bound to itself: it calls itself for the elements of an array
+        $remapValue = function( $value, $map ) use ( &$remapValue )
         {
             if ( is_array( $value ) )
             {
@@ -2978,8 +3116,93 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             }
         }
 
+        $this->installMenuNodeIDs();
+
         return true;
     
+    }
+
+    /**
+     * Writes the header and footer menus (menu.ini [SiteInfo] MainMenuID[],
+     * FooterMenuID[], PrivacyPolicyID, CookiePolicyID) into each siteaccess's
+     * own menu.ini.append.php, resolved from the nodes' remote ids.
+     *
+     * Node ids depend on the order the package creates nodes in, so a list of
+     * ids written into the theme's settings points at whatever node happens to
+     * get that id (images and partner logos in a clean install). Remote ids
+     * come from the package and are the same in every installation.
+     */
+    private function installMenuNodeIDs()
+    {
+        $fitHealthy = array(
+            'MainMenuID' => array( 'media-n-721', 'media-n-722', 'media-n-744', 'media-n-749', 'media-n-752' ),
+            'FooterMenuID' => array( 'media-n-749', 'media-n-9501', 'media-n-778', 'media-n-911', 'media-n-1060' ),
+            'PrivacyPolicyID' => 'media-n-1060',
+            'CookiePolicyID' => 'media-n-1061',
+        );
+        $boldAgency = array(
+            'MainMenuID' => array( 'media-n-941', 'media-n-946', 'media-n-947', 'media-n-959' ),
+            'FooterMenuID' => array( 'media-n-941', 'media-n-946', 'media-n-947', 'media-n-959', 'media-n-911', 'media-n-1062' ),
+            'PrivacyPolicyID' => 'media-n-1062',
+            'CookiePolicyID' => 'media-n-1063',
+        );
+        $menus = array(
+            $this->setting( 'user_siteaccess' ) => $fitHealthy,
+            'bold' => $boldAgency,
+            'bold_ger' => $boldAgency,
+        );
+        // Language siteaccesses (eng, ...) translate the user siteaccess;
+        // bold_* ones translate Bold Agency.
+        foreach ( (array)$this->setting( 'language_based_siteaccess_list' ) as $languageSiteaccess )
+        {
+            if ( !isset( $menus[$languageSiteaccess] ) )
+                $menus[$languageSiteaccess] = strpos( $languageSiteaccess, 'bold_' ) === 0 ? $boldAgency : $fitHealthy;
+        }
+
+        $nodeID = function( $remoteID )
+        {
+            $node = eZContentObjectTreeNode::fetchByRemoteID( $remoteID );
+            return $node ? (int)$node->attribute( 'node_id' ) : false;
+        };
+
+        foreach ( $menus as $siteaccess => $menu )
+        {
+            $settingsDir = 'settings/siteaccess/' . $siteaccess;
+            if ( !$siteaccess || !is_dir( $settingsDir ) )
+                continue;
+
+            $ini = eZINI::instance( 'menu.ini.append.php', $settingsDir, null, false, null, true );
+            $missing = array();
+            foreach ( $menu as $name => $remoteIDs )
+            {
+                if ( is_array( $remoteIDs ) )
+                {
+                    $ids = array();
+                    foreach ( $remoteIDs as $remoteID )
+                    {
+                        $id = $nodeID( $remoteID );
+                        if ( $id )
+                            $ids[] = $id;
+                        else
+                            $missing[] = $remoteID;
+                    }
+                    $ini->setVariable( 'SiteInfo', $name, $ids );
+                }
+                else
+                {
+                    $id = $nodeID( $remoteIDs );
+                    if ( $id )
+                        $ini->setVariable( 'SiteInfo', $name, $id );
+                    else
+                        $missing[] = $remoteIDs;
+                }
+            }
+            $ini->save( false, false, false, false, true, true );
+
+            if ( $missing )
+                eZDebug::writeWarning( "Menu nodes not found for $siteaccess: " . implode( ', ', array_unique( $missing ) ), __FUNCTION__ );
+            eZDebug::writeNotice( "Set $siteaccess header and footer menus from remote ids", __FUNCTION__ );
+        }
     }
 
     private function cleanStaleUrlTextAttributes()
@@ -3021,7 +3244,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $db->query( 'TRUNCATE TABLE ezurlalias' );
         $db->query( 'TRUNCATE TABLE ezurlalias_ml_incr' );
 
-        $rows = $db->arrayQuery( 'SELECT node_id FROM ezcontentobject_tree ORDER BY depth ASC, node_id ASC' );
+        // Node 1, the root, is its own parent and has no alias
+        $rows = $db->arrayQuery( 'SELECT node_id FROM ezcontentobject_tree WHERE node_id <> 1 ORDER BY depth ASC, node_id ASC' );
         $count = 0;
         foreach ( $rows as $row )
         {
@@ -3050,21 +3274,71 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     
     }
 
+    /**
+     * The extension schemas this installer inserts, in order: package, extension,
+     * whether its db_data.dba is loaded too.
+     *
+     * sevenx_themes_media comes first: its schema and data carry the layouts,
+     * tags and ratings of the demo content, so the tables explayouts, eztags and
+     * ezstarrating also declare exist by the time those are inserted and are
+     * left as sevenx_themes_media seeded them.
+     */
+    function extensionSchemas()
+    {
+        return array(
+            array( 'sevenx_themes_media', 'sevenx_themes_media', true ),
+            // Schema only: ezstarrating ships DDL and no default rows; the demo
+            // rating data lives in sevenx_themes_media's db_data.dba.
+            array( 'ezstarrating_extension', 'ezstarrating', false ),
+            array( 'ezgmaplocation_extension', 'ezgmaplocation', false ),
+            array( 'eztags', 'eztags', false ),
+            array( 'explayouts', 'explayouts', true ),
+            // enhancedselection2 owns sckenhancedselection, which twenty class
+            // attributes across ng_category, ng_video, ng_component_features,
+            // ng_component_quote and ng_menu_item depend on.
+            array( 'enhancedselection2', 'enhancedselection2', false ),
+            // cjw_newsletter is in extension_list and owns eleven cjwnl_* tables.
+            array( 'cjw_newsletter', 'cjw_newsletter', false ),
+        );
+    }
+
+    /** Where an extension's files are: <package>/ezextension/<name>, else extension/<name>. */
+    function extensionBasePath( $packageName, $extensionName )
+    {
+        $extensionPackage = eZPackage::fetch( $packageName, false, false, false );
+        if ( $extensionPackage instanceof eZPackage )
+            return $extensionPackage->path() . '/ezextension/' . $extensionName;
+        return eZSys::rootDir() . '/' . eZExtension::baseDirectory() . '/' . $extensionName;
+    }
+
+    /** Drop every table any extension schema of extensionSchemas() declares. */
+    function dropExtensionTables()
+    {
+        $db = eZDB::instance();
+        $tables = array();
+        foreach ( $this->extensionSchemas() as $e )
+        {
+            $file = $this->extensionBasePath( $e[0], $e[1] ) . '/share/db_schema.dba';
+            $schema = file_exists( $file ) ? eZDbSchema::read( $file, true ) : false;
+            if ( is_array( $schema ) && isset( $schema['schema'] ) )
+                foreach ( array_keys( $schema['schema'] ) as $t )
+                    if ( $t !== '_info' )
+                        $tables[$t] = true;
+        }
+        $mysql = in_array( strtolower( $db->databaseName() ), array( 'mysql', 'mysqli' ) );
+        if ( $mysql )
+            $db->query( 'SET FOREIGN_KEY_CHECKS=0' );
+        foreach ( array_keys( $tables ) as $t )
+            $db->query( 'DROP TABLE IF EXISTS ' . $t );
+        if ( $mysql )
+            $db->query( 'SET FOREIGN_KEY_CHECKS=1' );
+        eZDebug::writeNotice( count( $tables ) . ' extension tables reset before the extension schemas are inserted', __METHOD__ );
+    }
+
     function insertDBFile( $packageName, $extensionName, $loadContent = false )
     {
         $db = eZDB::instance();
-
-        // Resolve the extension base path. Packaged extensions live under
-        // <package>/ezextension/<name>, bare extensions live under <root>/extension/<name>.
-        $extensionPackage = eZPackage::fetch( $packageName, false, false, false );
-        if ( $extensionPackage instanceof eZPackage )
-        {
-            $basePath = $extensionPackage->path() . '/ezextension/' . $extensionName;
-        }
-        else
-        {
-            $basePath = eZSys::rootDir() . '/' . eZExtension::baseDirectory() . '/' . $extensionName;
-        }
+        $basePath = $this->extensionBasePath( $packageName, $extensionName );
 
         if ( !file_exists( $basePath ) )
         {
@@ -3090,6 +3364,21 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                         }
                     }
                 }
+
+                // Tables that exist now were created by an earlier schema of this
+                // run (dropExtensionTables() emptied the rest): left as they are,
+                // with their data, instead of failing "already exists".
+                $existing = array();
+                $reader = eZDbSchema::instance( $db );
+                $live = $reader ? $reader->schema( array( 'format' => 'local' ) ) : array();
+                foreach ( array_keys( $schemaArray['schema'] ) as $t )
+                    if ( $t !== '_info' && isset( $live[$t] ) )
+                    {
+                        $existing[] = $t;
+                        unset( $schemaArray['schema'][$t], $schemaArray['data'][$t] );
+                    }
+                if ( $existing )
+                    eZDebug::writeNotice( "$extensionName: " . count( $existing ) . ' tables already created by an earlier schema, left as they are: ' . implode( ', ', $existing ), __METHOD__ );
 
                 $schemaArray['type']     = strtolower( $db->databaseName() );
                 $schemaArray['instance'] = $db;
@@ -3520,6 +3809,25 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         if ( isset( $boldLabelMap[$siteaccess] ) )
             return $boldLabelMap[$siteaccess];
 
+        // The user siteaccess and each translation siteaccess are labelled with
+        // the name of the language they serve, in that language (share/locale
+        // LanguageName: "Deutsch (Deutschland)", "English (United Kingdom)").
+        // The fixed map said English for a German site, and names it did not
+        // know came out as "Fre" or "Pol".
+        if ( !$locale )
+        {
+            $mapLocale = array_search( $siteaccess, (array)$this->setting( 'language_siteaccess_map' ), true );
+            if ( $mapLocale !== false )
+                $locale = $mapLocale;
+        }
+        if ( $locale )
+        {
+            $localeObject = eZLocale::instance( $locale );
+            $label = $localeObject ? trim( (string)$localeObject->attribute( 'language_name' ) ) : '';
+            if ( $label !== '' )
+                return $label;
+        }
+
         if ( strpos( $siteaccess, 'bold_' ) === 0 )
         {
             $suffix = substr( $siteaccess, 5 );
@@ -3567,26 +3875,28 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
 
             // Prepare 'SiteLanguageList' with the current locale first, then all
             // other available locales as fallbacks.
-            $languageList = array( $locale );
-            foreach ( $this->setting( 'locales' ) as $l )
-            {
-                if ( $l != $locale )
-                    $languageList[] = $l;
-            }
+            $languageList = $this->siteLanguageList( $locale );
 
-            $languageName = $this->languageNameFromLocale( $locale );
-            if ( $userSiteaccess === 'bold' )
-                $languageName = 'bold_' . $languageName;
+            // The unique name initSettings() gave this locale
+            $languageSiteaccessMap = (array)$this->setting( 'language_siteaccess_map' );
+            $languageName = isset( $languageSiteaccessMap[$locale] ) ? $languageSiteaccessMap[$locale] : $this->languageNameFromLocale( $locale );
 
             $siteaccessTypes = $this->setting( 'siteaccess_urls' );
 
-            // Use the home node path as the URL path prefix for subsites such as
-            // Bold Agency (home node path is 'bold-agency'). Fit & Healthy uses an
-            // empty prefix for its language siteaccesses.
+            // A translation serves the same pages as the user siteaccess, so it
+            // takes the same extension siteaccess settings - the theme's
+            // template overrides, menus and PathPrefix for 'site' - below its
+            // own. Without them the German one had no menu settings and died
+            // on its front page.
+            $siteAccessSettings = array( 'ExtensionSettingsSiteAccess' => $userSiteaccess );
+
+            // PathPrefix: Bold Agency's is its home node path. The Fit & Healthy
+            // one is written by postInstallSetSiteHomeAndPrefix(), as for the
+            // user siteaccess; the empty prefix written here masked it, and
+            // every page below the site root answered 404.
             $homeNodePath = $this->homeNodePath();
-            $pathPrefix = '';
             if ( $userSiteaccess === 'bold' && $homeNodePath !== '' )
-                $pathPrefix = $homeNodePath;
+                $siteAccessSettings['PathPrefix'] = $homeNodePath;
 
             // Create siteaccess
             $this->createSiteAccess( array(
@@ -3616,9 +3926,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                                     'keywords' => 'exponential, multisite, siteaccess'
                                 )
                             ),
-                            'SiteAccessSettings' => array(
-                                'PathPrefix' => $pathPrefix
-                            )
+                            'SiteAccessSettings' => $siteAccessSettings
                         )
                     )
                 )
@@ -4282,7 +4590,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings['RegionalSettings'] = array( 
             'Locale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
             'ContentObjectLocale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
-            'SiteLanguageList' => $this->setting( 'locales' ) ? $this->setting( 'locales' ) : array( $primaryLanguage ? $primaryLanguage : 'eng-US' ), 
+            'SiteLanguageList' => $this->siteLanguageList(), 
             'TranslationSA' => $this->mainTranslationSAMap() 
         );
         return array( 
@@ -4575,7 +4883,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings['SiteAccessSettings'] = array( 
             'AvailableSiteAccessList' => $this->servedSiteaccessList(),
             'RelatedSiteAccessList' => $this->servedSiteaccessList(),
-            'MatchOrder' => 'uri;host',
+            // With port access the siteaccesses are told apart by port
+            // ([PortAccessSettings]): without port here every port served the
+            // main siteaccess.
+            'MatchOrder' => $this->setting( 'access_type' ) === 'port' ? 'uri;port' : 'uri;host',
             'PathPrefixExclude' => array( 'Media', 'Users' ),
             // This belongs here and not only in the siteaccess files, which is
             // where the rest of this installer sets it. eZSys::init() decides
@@ -4611,10 +4922,20 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // running on; the implementation was hardcoded, so a MongoDB install
         // finished by writing ezmysqli next to MongoDB's credentials and port
         // 27017. The site then hung trying to speak MySQL to mongod.
+        // The global site.ini says what the stock settings say (ezmysqli), not
+        // what was chosen: an SQLite install wrote ezmysqli here, and every
+        // siteaccess that inherits the database from settings/override (bold,
+        // the translations) failed with "Access denied for user ''@'localhost'".
+        // The setup passes the driver it wrote into the siteaccesses
+        // (database_settings), so that comes first.
+        $chosen = $this->setting( 'database_settings' );
+        $implementation = is_array( $chosen ) && !empty( $chosen['DatabaseImplementation'] )
+            ? trim( (string)$chosen['DatabaseImplementation'] ) : '';
         $siteINI = eZINI::instance( 'site.ini' );
-        $implementation = $siteINI->hasVariable( 'DatabaseSettings', 'DatabaseImplementation' )
-            ? $siteINI->variable( 'DatabaseSettings', 'DatabaseImplementation' )
-            : 'ezmysqli';
+        if ( $implementation === '' )
+            $implementation = $siteINI->hasVariable( 'DatabaseSettings', 'DatabaseImplementation' )
+                ? $siteINI->variable( 'DatabaseSettings', 'DatabaseImplementation' )
+                : 'ezmysqli';
 
         $settings['DatabaseSettings'] = array(
             'DatabaseImplementation' => $implementation,
@@ -4623,8 +4944,53 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'User' => $db ? $db->User : '',
             'Password' => $db ? $db->Password : '',
             'Database' => $db ? $db->DB : '',
-            'Charset' => $db ? $db->Charset : '',
-            'Socket' => ( $db && $db->SocketPath ) ? $db->SocketPath : 'disabled'
+            // Empty meant the database server's default: latin1 on a stock MySQL,
+            // which transliterates what it cannot store, silently
+            'Charset' => ( $db && $db->Charset ) ? $db->Charset : 'utf-8',
+            'Socket' => ( $db && $db->SocketPath ) ? $db->SocketPath : 'disabled',
+            'SQLOutput' => 'disabled'
+        );
+        // This file is written with discard_old_values: what is not set here is
+        // gone after every installation. So the site's working settings are
+        // written here, not added by hand afterwards.
+        $settings['SearchSettings'] = array(
+            'DelayedIndexing' => 'disabled'
+        );
+        $settings['DebugSettings'] = array(
+            'DebugOutput' => 'disabled',
+            'DebugRedirection' => 'disabled'
+        );
+        $settings['TemplateSettings'] = array(
+            'Debug' => 'disabled',
+            'ShowXHTMLCode' => 'enabled',
+            'ShowUsedTemplates' => 'disabled'
+        );
+        // Let an anonymous visitor's browser (and a proxy) keep a page for five
+        // minutes. The kernel sent "no-cache" and an Expires date in 1997 with
+        // every page, so every navigation paid the full render - about 800 ms
+        // against 77 ms from a stored copy on the demo front page. Only for
+        // anonymous visitors (OnlyForAnonymous): a signed-in editor always gets
+        // the no-cache headers, so a personalised page never reaches a cache.
+        // The cost: a visitor may see a page up to five minutes old after an
+        // edit. Lower max-age for a site that publishes constantly;
+        // CustomHeader=disabled goes back to the kernel's headers.
+        $settings['HTTPHeaderSettings'] = array(
+            'CustomHeader' => 'enabled',
+            'OnlyForAnonymous' => 'enabled',
+            'OnlyForContent' => 'enabled',
+            'HeaderList' => array( 'Cache-Control', 'Expires' ),
+            'Cache-Control' => array( '/' => 'public, max-age=300' ),
+            'Expires' => array( '/' => '300' )
+        );
+        // A session of its own for the admin siteaccess. With PHP's default
+        // PHPSESSID every siteaccess shares one session, so signing in to the
+        // administration signs you in on the public site too - and a signed-in
+        // page is uncacheable and several times slower. "custom" names the
+        // session from SessionNamePrefix plus the siteaccess wherever
+        // SessionNamePerSiteAccess is enabled: the public siteaccesses disable
+        // it (one session across languages), the admin siteaccess keeps it.
+        $settings['Session'] = array(
+            'SessionNameHandler' => 'custom'
         );
         $settings['UserSettings'] = array( 
             'LogoutRedirect' => '/' 
@@ -5260,7 +5626,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings['RegionalSettings'] = array( 
             'Locale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
             'ContentObjectLocale' => $primaryLanguage ? $primaryLanguage : 'eng-US',
-            'SiteLanguageList' => $this->setting( 'locales' ) ? $this->setting( 'locales' ) : array( $primaryLanguage ? $primaryLanguage : 'eng-US' ),
+            'SiteLanguageList' => $this->siteLanguageList(),
             'ShowUntranslatedObjects' => 'disabled' 
         );
         $settings['SiteAccessSettings'] = array( 
@@ -6271,6 +6637,13 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         return $toolbar;
     }
 
+    // Only the image aliases belong here. [ImageConverterSettings] and the
+    // [GD] / [ImageMagick] sections are deliberately left out: the converter
+    // order (GD first, ImageMagick as the fallback) comes from the kernel's
+    // settings/image.ini, and the setup wizard enables ImageMagick in
+    // settings/override when it finds the convert program. Writing either
+    // into the siteaccess would pin this site to today's order: with
+    // reset_arrays an ImageConverters list here replaces the kernel list.
     function siteImageINISettings()
     {
         $settings = array( 
