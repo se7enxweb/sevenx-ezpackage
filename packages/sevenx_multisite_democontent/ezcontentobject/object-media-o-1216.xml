@@ -414,7 +414,9 @@
           </MetaData>
         </ezobject:attribute>
       </ezobject:object-translation>
-      <ezobject:node-assignment-list/>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-features" name="In short numbers" remote-id="873c87ec8984bda2eb48ff205ff2126c" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>
 </ezremote:object>

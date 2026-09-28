@@ -80,18 +80,18 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4658" ezremote:identifier="logos" name="Logos" type="ezobjectrelationlist">
           <related-objects>
             <relation-list>
-              <relation-item priority="1" contentobject-id="446"/>
-              <relation-item priority="2" contentobject-id="447"/>
-              <relation-item priority="3" contentobject-id="448"/>
-              <relation-item priority="4" contentobject-id="449"/>
-              <relation-item priority="5" contentobject-id="450"/>
-              <relation-item priority="6" contentobject-id="451"/>
-              <relation-item priority="7" contentobject-id="452"/>
-              <relation-item priority="8" contentobject-id="454"/>
-              <relation-item priority="9" contentobject-id="456"/>
-              <relation-item priority="10" contentobject-id="457"/>
-              <relation-item priority="11" contentobject-id="453"/>
-              <relation-item priority="12" contentobject-id="455"/>
+              <relation-item priority="1" contentobject-remote-id="media-o-1222"/>
+              <relation-item priority="2" contentobject-remote-id="media-o-1223"/>
+              <relation-item priority="3" contentobject-remote-id="media-o-1224"/>
+              <relation-item priority="4" contentobject-remote-id="media-o-1225"/>
+              <relation-item priority="5" contentobject-remote-id="media-o-1226"/>
+              <relation-item priority="6" contentobject-remote-id="media-o-1227"/>
+              <relation-item priority="7" contentobject-remote-id="media-o-1228"/>
+              <relation-item priority="8" contentobject-remote-id="media-o-1230"/>
+              <relation-item priority="9" contentobject-remote-id="media-o-1232"/>
+              <relation-item priority="10" contentobject-remote-id="media-o-1233"/>
+              <relation-item priority="11" contentobject-remote-id="media-o-1229"/>
+              <relation-item priority="12" contentobject-remote-id="media-o-1231"/>
             </relation-list>
           </related-objects>
         </ezobject:attribute>

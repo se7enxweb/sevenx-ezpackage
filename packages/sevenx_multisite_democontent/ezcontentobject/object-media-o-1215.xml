@@ -426,7 +426,9 @@
           </MetaData>
         </ezobject:attribute>
       </ezobject:object-translation>
-      <ezobject:node-assignment-list/>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-components-features" name="The changes we make to your business" remote-id="95235a430de80e0dd541c9c5a5598c8b" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>
 </ezremote:object>

@@ -1,5 +1,6 @@
 <?xml version="1.0" ?><package version="3.5.2" development="false" install_type="install">
   <name>sevenx_multisite_democontent</name>
+  <summary>MultiSite demo content</summary>
   <vendor>7x</vendor>
   <type value="contentobject"/>
   <ezpublish>
