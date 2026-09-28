@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="published" sort-order="0">
-  <serialized-name-list>a:0:{}</serialized-name-list>
+  <serialized-name-list>a:2:{s:6:"eng-US";s:12:"NG Blog post";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
   <identifier>ng_blog_post</identifier>
-  <serialized-description-list>a:0:{}</serialized-description-list>
+  <serialized-description-list>a:2:{s:6:"eng-US";s:23:"Standard blog post item";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
   <remote-id>b4b7a0239ac823ba93745eeaa9461b25</remote-id>
   <object-name-pattern>&lt;teaser_title|title&gt;</object-name-pattern>
   <url-alias-pattern>&lt;url_text|teaser_title|title&gt;</url-alias-pattern>
@@ -12,7 +12,7 @@
     <groups>
       <group id="1" name="Content"/>
     </groups>
-    <id>211</id>
+    <id>48</id>
     <created>1363879507</created>
     <modified>1674846770</modified>
     <creator>
@@ -27,11 +27,11 @@
   <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
     <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2012</id>
+        <id>372</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>title</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:10:"News title";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>0</placement>
@@ -42,11 +42,11 @@
     </attribute>
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2013</id>
+        <id>373</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:8:"Headline";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>headline</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:13:"News headline";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>1</placement>
@@ -57,11 +57,11 @@
     </attribute>
     <attribute datatype="ezobjectrelationlist" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2222</id>
+        <id>374</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Author";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>authors</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>2</placement>
@@ -73,11 +73,11 @@
     </attribute>
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2014</id>
+        <id>375</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Teaser title";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>teaser_title</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:19:"Short title version";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>3</placement>
@@ -88,11 +88,11 @@
     </attribute>
     <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>2015</id>
+        <id>376</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:5:"Image";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>image</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:28:"Image used on blog post page";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>4</placement>
@@ -102,11 +102,11 @@
     </attribute>
     <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>2016</id>
+        <id>377</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Teaser image";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>teaser_image</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:38:"Image used on listing and search pages";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>5</placement>
@@ -116,11 +116,11 @@
     </attribute>
     <attribute datatype="ezdatetime" required="true" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2010</id>
+        <id>378</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Publish date";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>publish_date</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>6</placement>
@@ -131,53 +131,53 @@
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2017</id>
+        <id>379</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:10:"Intro text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>full_intro</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:35:"Full intro text, shown on news page";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>7</placement>
       <datatype-parameters>
-        <text-column-count></text-column-count>
+        <text-column-count/>
       </datatype-parameters>
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2018</id>
+        <id>380</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:17:"Teaser intro text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>teaser_intro</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:61:"Teaser intro text, shown on category page or in search result";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>8</placement>
       <datatype-parameters>
-        <text-column-count></text-column-count>
+        <text-column-count/>
       </datatype-parameters>
     </attribute>
     <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2019</id>
+        <id>381</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Body text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>body</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:14:"Main news text";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>9</placement>
       <datatype-parameters>
-        <text-column-count></text-column-count>
+        <text-column-count/>
       </datatype-parameters>
     </attribute>
     <attribute datatype="ezobjectrelationlist" required="false" searchable="false" information-collector="false" translatable="true">
       <remote>
-        <id>2020</id>
+        <id>382</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:15:"Related content";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>related_content</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:24:"Links to related content";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>10</placement>
@@ -189,11 +189,11 @@
     </attribute>
     <attribute datatype="eztags" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2195</id>
+        <id>383</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:10:"Main topic";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>main_topic</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>11</placement>
@@ -206,11 +206,11 @@
     </attribute>
     <attribute datatype="eztags" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2021</id>
+        <id>384</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>tags</identifier>
-      <serialized-description-list>a:0:{}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:4:"Tags";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>12</placement>
@@ -223,11 +223,11 @@
     </attribute>
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2196</id>
+        <id>385</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:28:"Sponsored content disclosure";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>sponsored_content_disclosure</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>content</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>13</placement>
@@ -238,11 +238,11 @@
     </attribute>
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2024</id>
+        <id>386</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"CSS class";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>css_class</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>meta</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>15</placement>
@@ -253,11 +253,11 @@
     </attribute>
     <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>2025</id>
+        <id>387</id>
       </remote>
-      <serialized-name-list>a:0:{}</serialized-name-list>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:8:"URL text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>url_text</identifier>
-      <serialized-description-list>a:1:{s:6:"eng-US";N;}</serialized-description-list>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
       <category>meta</category>
       <serialized-data-text>N;</serialized-data-text>
       <placement>16</placement>
@@ -268,7 +268,7 @@
     </attribute>
     <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
       <remote>
-        <id>713</id>
+        <id>388</id>
       </remote>
       <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
       <identifier>metadata</identifier>
