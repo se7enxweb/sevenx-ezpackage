@@ -1048,10 +1048,19 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_function' => 'setSection', 
                 '_params' => array( 
                     // created above under Users
-                    'location' => 'users/partners', 
-                    'section_name' => 'Restricted' 
-                ) 
-            ), 
+                    'location' => 'users/partners',
+                    'section_name' => 'Restricted'
+                )
+            ),
+            array(
+                '_function' => 'setSection',
+                '_params' => array(
+                    // the top-level Archives folder of the base data: its content is not available by default,
+                    // only through roles that allow the Restricted section
+                    'location' => 'x_archives',
+                    'section_name' => 'Restricted'
+                )
+            ),
             array( 
                 '_function' => 'addPoliciesForRole', 
                 '_params' => array( 
@@ -1703,9 +1712,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // base data. The post-install fix (post-install-fix.php) tells a
         // reference to base data (node 1, the content root) from a package id
         // of content the package does not ship by it.
-        // ORDER BY ... LIMIT rather than MAX(): the form every driver here translates
-        $maxNode = $db->arrayQuery( 'SELECT node_id FROM ezcontentobject_tree ORDER BY node_id DESC LIMIT 1' );
-        $maxObject = $db->arrayQuery( 'SELECT id FROM ezcontentobject ORDER BY id DESC LIMIT 1' );
+        // ORDER BY with arrayQuery()'s limit rather than MAX(): every driver
+        // applies the limit in its own dialect (LIMIT, FETCH NEXT, a cursor limit)
+        $maxNode = $db->arrayQuery( 'SELECT node_id FROM ezcontentobject_tree ORDER BY node_id DESC', array( 'limit' => 1 ) );
+        $maxObject = $db->arrayQuery( 'SELECT id FROM ezcontentobject ORDER BY id DESC', array( 'limit' => 1 ) );
         $GLOBALS['sevenxBaseMaxNodeID'] = $maxNode ? (int)$maxNode[0]['node_id'] : 0;
         $GLOBALS['sevenxBaseMaxObjectID'] = $maxObject ? (int)$maxObject[0]['id'] : 0;
         eZDebug::writeNotice( 'Base data before the content package: nodes up to ' . $GLOBALS['sevenxBaseMaxNodeID'] .
@@ -1847,8 +1857,12 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                     if ( !isset( $tables[$table] ) ) continue;
                     foreach ( $columnList as $column )
                     {
-                        $db->query( "UPDATE $table SET $column = ( $column & ~$drop ) | $keep"
-                                  . " WHERE $column & $drop" );
+                        // eZDB's bitAnd()/bitOr() write the operators in each
+                        // database's dialect (BITAND on Oracle); the complement
+                        // mask ~$drop is worked out here, not in SQL
+                        $db->query( "UPDATE $table SET $column = " .
+                                    $db->bitOr( $db->bitAnd( $column, ~(int)$drop ), (int)$keep ) .
+                                    " WHERE " . $db->bitAnd( $column, (int)$drop ) . " <> 0" );
                     }
                 }
                 $db->query( "DELETE FROM ezcontent_language WHERE id = $drop" );
@@ -1918,19 +1932,21 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             $locale = $db->escapeString( $language['locale'] );
 
             // (language_id & 1) keeps the always-available bit, | id sets the
-            // right language. Rows already correct are left untouched.
+            // right language. Rows already correct are left untouched. The bit
+            // operators go through eZDB (BITAND on Oracle), and the complement
+            // mask ~1 is worked out here, not in SQL.
             $rows = $db->arrayQuery(
                 "SELECT COUNT(*) AS c FROM ezcontentobject_name" .
                 " WHERE content_translation = '$locale'" .
-                "   AND ( language_id & ~1 ) <> $id" );
+                "   AND " . $db->bitAnd( 'language_id', ~1 ) . " <> $id" );
             $count = $rows ? (int) $rows[0]['c'] : 0;
             if ( !$count )
                 continue;
 
             $db->query(
-                "UPDATE ezcontentobject_name SET language_id = ( language_id & 1 ) | $id" .
+                "UPDATE ezcontentobject_name SET language_id = " . $db->bitOr( $db->bitAnd( 'language_id', 1 ), $id ) .
                 " WHERE content_translation = '$locale'" .
-                "   AND ( language_id & ~1 ) <> $id" );
+                "   AND " . $db->bitAnd( 'language_id', ~1 ) . " <> $id" );
             $fixed += $count;
             eZDebug::writeNotice( "Repointed $count $locale name rows onto language id $id",
                                   __METHOD__ );
@@ -1945,9 +1961,9 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             $id = (int) $language['id'];
             $locale = $db->escapeString( $language['locale'] );
             $db->query(
-                "UPDATE ezcontentobject_attribute SET language_id = ( language_id & 1 ) | $id" .
+                "UPDATE ezcontentobject_attribute SET language_id = " . $db->bitOr( $db->bitAnd( 'language_id', 1 ), $id ) .
                 " WHERE language_code = '$locale'" .
-                "   AND ( language_id & ~1 ) <> $id" );
+                "   AND " . $db->bitAnd( 'language_id', ~1 ) . " <> $id" );
         }
 
         // The same disagreement exists one level up: ezcontentobject.language_mask
@@ -1961,104 +1977,40 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // object actually has, so the masks are rebuilt from them. Their
         // language_id already carries the always-available bit, so OR-ing them
         // reproduces it.
-        if ( $db->databaseName() === 'mongo' )
+        //
+        // One path for every database: the masks are folded here from the
+        // attributes' language ids and written back where they differ. BIT_OR
+        // does not exist in every engine (Oracle before 21c, MongoDB), and an
+        // UPDATE from a derived table is written differently in each (UPDATE ...
+        // JOIN in MySQL, UPDATE ... FROM in PostgreSQL, MERGE in Oracle), so a
+        // plain SELECT and single-row UPDATEs are the form every driver takes.
+        $masks = array();
+        foreach ( (array) $db->arrayQuery( 'SELECT contentobject_id, version, language_id FROM ezcontentobject_attribute' ) as $row )
         {
-            // The same rebuild, expressed as one aggregation over the
-            // attributes. MongoDB has no BIT_OR accumulator, so the ids are
-            // collected per group and folded with $bitOr; $convert keeps a
-            // mask that was stored as a string or left null from breaking it.
-            $masks = $db->aggregate( 'ezcontentobject_attribute', array(
-                array( '$group' => array(
-                    '_id' => array( 'contentobject_id' => '$contentobject_id', 'version' => '$version' ),
-                    'ids' => array( '$push' => array( '$convert' => array(
-                        'input' => '$language_id', 'to' => 'long', 'onError' => 0, 'onNull' => 0 ) ) ),
-                ) ),
-                array( '$project' => array(
-                    '_id' => 0,
-                    'contentobject_id' => '$_id.contentobject_id',
-                    'version' => '$_id.version',
-                    'm' => array( '$reduce' => array(
-                        'input' => '$ids',
-                        'initialValue' => 0,
-                        'in' => array( '$bitOr' => array( '$$value', '$$this' ) ),
-                    ) ),
-                ) ),
-            ) );
-
-            $byObjectVersion = array();
-            foreach ( $masks as $mask )
-            {
-                $objectID = (int) $mask['contentobject_id'];
-                $version  = (int) $mask['version'];
-                $value    = (int) $mask['m'];
-                if ( !$value )
-                    continue;
-
-                $byObjectVersion[$objectID][$version] = $value;
-
-                $db->mongoUpdateMany( 'ezcontentobject_version',
-                    array( 'contentobject_id' => $objectID, 'version' => $version ),
-                    array( '$set' => array( 'language_mask' => $value ) ) );
-            }
-
-            // The object's own mask follows its current version, which is the
-            // join on o2.current_version in the SQL above.
-            $objects = $db->arrayQuery( 'SELECT id, current_version FROM ezcontentobject' );
-            foreach ( $objects as $object )
-            {
-                $objectID = (int) $object['id'];
-                $current  = (int) $object['current_version'];
-                if ( !isset( $byObjectVersion[$objectID][$current] ) )
-                    continue;
-
-                $db->mongoUpdateMany( 'ezcontentobject',
-                    array( 'id' => $objectID ),
-                    array( '$set' => array( 'language_mask' => $byObjectVersion[$objectID][$current] ) ) );
-            }
+            $objectID = (int) $row['contentobject_id'];
+            $version  = (int) $row['version'];
+            $masks[$objectID][$version] = ( isset( $masks[$objectID][$version] ) ? $masks[$objectID][$version] : 0 ) | (int) $row['language_id'];
         }
-        elseif ( $db->databaseName() === 'postgresql' )
-        {
-            // PostgreSQL has BIT_OR too, but updates from a derived table with
-            // UPDATE ... FROM, not with MySQL's UPDATE ... JOIN.
-            $db->query(
-                'UPDATE ezcontentobject_version v SET language_mask = x.m' .
-                ' FROM ( SELECT contentobject_id, version, BIT_OR( language_id ) AS m' .
-                '        FROM ezcontentobject_attribute' .
-                '        GROUP BY contentobject_id, version ) x' .
-                ' WHERE x.contentobject_id = v.contentobject_id AND x.version = v.version' .
-                '   AND v.language_mask <> x.m' );
 
-            $db->query(
-                'UPDATE ezcontentobject o SET language_mask = x.m' .
-                ' FROM ( SELECT a.contentobject_id, BIT_OR( a.language_id ) AS m' .
-                '        FROM ezcontentobject_attribute a' .
-                '        INNER JOIN ezcontentobject o2' .
-                '          ON o2.id = a.contentobject_id AND a.version = o2.current_version' .
-                '        GROUP BY a.contentobject_id ) x' .
-                ' WHERE x.contentobject_id = o.id' .
-                '   AND o.language_mask <> x.m' );
+        foreach ( (array) $db->arrayQuery( 'SELECT contentobject_id, version, language_mask FROM ezcontentobject_version' ) as $row )
+        {
+            $objectID = (int) $row['contentobject_id'];
+            $version  = (int) $row['version'];
+            if ( empty( $masks[$objectID][$version] ) || $masks[$objectID][$version] == (int) $row['language_mask'] )
+                continue;
+            $db->query( 'UPDATE ezcontentobject_version SET language_mask = ' . $masks[$objectID][$version] .
+                        " WHERE contentobject_id = $objectID AND version = $version" );
         }
-        else
-        {
-        $db->query(
-            'UPDATE ezcontentobject_version v' .
-            ' INNER JOIN ( SELECT contentobject_id, version, BIT_OR( language_id ) AS m' .
-            '              FROM ezcontentobject_attribute' .
-            '              GROUP BY contentobject_id, version ) x' .
-            '   ON x.contentobject_id = v.contentobject_id AND x.version = v.version' .
-            ' SET v.language_mask = x.m' .
-            ' WHERE v.language_mask <> x.m' );
 
-        $db->query(
-            'UPDATE ezcontentobject o' .
-            ' INNER JOIN ( SELECT a.contentobject_id, BIT_OR( a.language_id ) AS m' .
-            '              FROM ezcontentobject_attribute a' .
-            '              INNER JOIN ezcontentobject o2' .
-            '                ON o2.id = a.contentobject_id AND a.version = o2.current_version' .
-            '              GROUP BY a.contentobject_id ) x' .
-            '   ON x.contentobject_id = o.id' .
-            ' SET o.language_mask = x.m' .
-            ' WHERE o.language_mask <> x.m' );
+        // The object's own mask follows its current version.
+        foreach ( (array) $db->arrayQuery( 'SELECT id, current_version, language_mask FROM ezcontentobject' ) as $row )
+        {
+            $objectID = (int) $row['id'];
+            $current  = (int) $row['current_version'];
+            if ( empty( $masks[$objectID][$current] ) || $masks[$objectID][$current] == (int) $row['language_mask'] )
+                continue;
+            $db->query( 'UPDATE ezcontentobject SET language_mask = ' . $masks[$objectID][$current] .
+                        " WHERE id = $objectID" );
         }
 
         eZContentObject::clearCache();
@@ -2189,7 +2141,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             if ( $escaped !== '' )
             {
                 $rows = $db->arrayQuery( "SELECT node_id, depth FROM ezcontentobject_tree" .
-                                         " WHERE remote_id = '$escaped' ORDER BY node_id ASC LIMIT 1" );
+                                         " WHERE remote_id = '$escaped' ORDER BY node_id ASC", array( 'limit' => 1 ) );
                 if ( $rows )
                 {
                     // The leading slash matters: eZ routes IndexPage as a full
@@ -2219,7 +2171,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         {
             $db = eZDB::instance();
             $id = (int) $userHome->attribute( 'node_id' );
-            $db->query( "UPDATE ezurlalias_ml SET action = 'eznode:$id' WHERE text = '' AND parent = 0" );
+            // ( text = '' OR text IS NULL ): the empty path is NULL where '' is NULL (Oracle)
+            $db->query( "UPDATE ezurlalias_ml SET action = 'eznode:$id' WHERE ( text = '' OR text IS NULL ) AND parent = 0" );
         }
 
         return true;
@@ -2400,7 +2353,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 $escaped = $db->escapeString( $parentRemote );
                 $parentRows = $db->arrayQuery( "SELECT node_id FROM ezcontentobject_tree" .
                                                " WHERE remote_id = '$escaped'" .
-                                               " ORDER BY node_id ASC LIMIT 1" );
+                                               " ORDER BY node_id ASC", array( 'limit' => 1 ) );
                 if ( !$parentRows ) continue;
 
                 // The row is written directly rather than through
@@ -2593,8 +2546,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 " INNER JOIN ezcontentobject o ON o.id = a.contentobject_id" .
                 " WHERE a.contentobject_id = $objectID" .
                 "   AND a.version = o.current_version" .
-                "   AND ca.identifier = '$identifier'" .
-                " LIMIT 1" );
+                "   AND ca.identifier = '$identifier'", array( 'limit' => 1 ) );
             if ( !$attrRows )
                 continue;
 
@@ -2843,14 +2795,17 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $language = eZContentLanguage::fetchByLocale( $locale );
         if ( $language )
         {
+            // text != '' matches nothing where '' is NULL (Oracle): NULL is
+            // excluded in SQL, the empty string here
             $rows = $db->arrayQuery( "
                 SELECT text FROM ezurlalias_ml
                 WHERE action = 'eznode:" . (int)$nodeID . "'
-                  AND text != ''
-                  AND ( lang_mask & " . (int)$language->attribute( 'id' ) . " ) > 0
-                ORDER BY id LIMIT 1" );
-            if ( $rows )
-                return $rows[0]['text'];
+                  AND text IS NOT NULL
+                  AND " . $db->bitAnd( 'lang_mask', (int)$language->attribute( 'id' ) ) . " > 0
+                ORDER BY id" );
+            foreach ( (array) $rows as $row )
+                if ( (string)$row['text'] !== '' )
+                    return $row['text'];
         }
 
         $node = eZContentObjectTreeNode::fetch( (int)$nodeID );
@@ -3155,7 +3110,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
 
             // Make sure the empty-root alias points to the home node so eZURLAliasML
             // resolves it for the empty path (it is not updated by updateSubTreePath).
-            $db->query( "UPDATE ezurlalias_ml SET action='eznode:" . $homeNodeId . "' WHERE text='' AND parent=0" );
+            $db->query( "UPDATE ezurlalias_ml SET action='eznode:" . $homeNodeId . "' WHERE ( text = '' OR text IS NULL ) AND parent = 0" );
 
             eZDebug::writeNotice( "Set home page to $homeURL and prefix to $homeAlias", __FUNCTION__ );
         }
@@ -3399,8 +3354,19 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $mysql = in_array( strtolower( $db->databaseName() ), array( 'mysql', 'mysqli' ) );
         if ( $mysql )
             $db->query( 'SET FOREIGN_KEY_CHECKS=0' );
+        // DROP TABLE IF EXISTS is what MySQL, PostgreSQL, SQLite and MongoDB take,
+        // Oracle only from 23ai on. There is no single neutral form: the other one,
+        // dropping what relationList() names, misses tables on SQLite, whose
+        // relationList() names ez* tables only. So Oracle drops the tables its
+        // relationList() (every table of the schema) names, through the driver.
+        $existing = $db->databaseName() === 'oracle' ? array_flip( (array) $db->relationList() ) : null;
         foreach ( array_keys( $tables ) as $t )
-            $db->query( 'DROP TABLE IF EXISTS ' . $t );
+        {
+            if ( $existing === null )
+                $db->query( 'DROP TABLE IF EXISTS ' . $t );
+            else if ( isset( $existing[$t] ) )
+                $db->removeRelation( $t, eZDBInterface::RELATION_TABLE );
+        }
         if ( $mysql )
             $db->query( 'SET FOREIGN_KEY_CHECKS=1' );
         eZDebug::writeNotice( count( $tables ) . ' extension tables reset before the extension schemas are inserted', __METHOD__ );
@@ -3734,7 +3700,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         {
             $escaped = $db->escapeString( $this->mainSiteaccessHomeRemoteID() );
             $rows = $db->arrayQuery( "SELECT node_id FROM ezcontentobject_tree" .
-                                     " WHERE remote_id = '$escaped' ORDER BY node_id ASC LIMIT 1" );
+                                     " WHERE remote_id = '$escaped' ORDER BY node_id ASC", array( 'limit' => 1 ) );
             if ( $rows )
                 return (int) $rows[0]['node_id'];
         }
@@ -4259,7 +4225,41 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings[] = $this->adminViewCacheINISettings();
         $settings[] = $this->adminODFINISettings();
         $settings[] = $this->adminOEINISettings();
+        $settings[] = $this->adminMenuINISettings();
         return $settings;
+    }
+
+    /*!
+     The order of the admin header tabs (menu.ini [TopAdminMenu] Tabs[]). The kernel lists its own tabs and every
+     extension appends its tab after them, so the whole list is written for the admin siteaccess to place the
+     extension tabs between the kernel's: Store, then Layouts, Setup, Tags, Design, Git, Export, CIE and Newsletter.
+     A tab of an extension that is not active has no [Topmenu_<tab>] block and is left out of the header.
+    */
+    function adminMenuINISettings()
+    {
+        return array(
+            'name' => 'menu.ini',
+            'reset_arrays' => true,
+            'settings' => array(
+                'TopAdminMenu' => array(
+                    'Tabs' => array(
+                        'dashboard',
+                        'content',
+                        'media',
+                        'users',
+                        'shop',
+                        'explayouts_ui_dashboard',
+                        'setup',
+                        'eztags',
+                        'design',
+                        'gitmanager',
+                        'xrowextract',
+                        'bccie_overview',
+                        'newsletter'
+                    )
+                )
+            )
+        );
     }
 
     function adminContentStructureMenuINISettings()

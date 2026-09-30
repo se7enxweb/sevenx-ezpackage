@@ -722,12 +722,16 @@ if ( !function_exists( 'sevenxCleanStaleUrlTextAttributes' ) )
             FROM ezcontentobject o
             JOIN ezcontentobject_attribute a ON a.contentobject_id = o.id
             JOIN ezcontentclass_attribute ca ON a.contentclassattribute_id = ca.id AND ca.identifier = 'url_text'
-            WHERE a.version = o.current_version AND a.data_text IS NOT NULL AND a.data_text <> ''"
+            WHERE a.version = o.current_version AND a.data_text IS NOT NULL"
         );
 
         $cleaned = 0;
-        foreach ( $rows as $row )
+        foreach ( (array) $rows as $row )
         {
+            // <> '' in SQL matches nothing where '' is NULL (Oracle): the empty
+            // string is skipped here
+            if ( (string)$row['url_text'] === '' )
+                continue;
             $name = eZURLAliasML::convertToAlias( $row['name'], 'node_' . $row['id'] );
             $url = strtolower( $row['url_text'] );
             $nameLower = strtolower( $name );
