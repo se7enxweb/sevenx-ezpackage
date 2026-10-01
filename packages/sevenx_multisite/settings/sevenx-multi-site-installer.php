@@ -166,6 +166,9 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         if ( $adminSiteaccess == 'sevenx_site_admin' || $adminSiteaccess == '' )
             $adminSiteaccess = 'admin';
         $this->addSetting( 'admin_siteaccess', $adminSiteaccess );
+        // the editor siteaccess: the admin for content editing only, which the
+        // setup creates from the admin one (eZStepCreateSites::createEditorSiteAccess())
+        $this->addSetting( 'editor_siteaccess', 'editor' );
         // Site title from the setup. When nobody typed one, the web wizard
         // offers the site package's summary ("MultiSite Default Installation")
         // and the kickstarter falls back to it, and that became the SiteName
@@ -184,7 +187,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $languageSiteaccessMap = array();
         // Names a translation siteaccess must not take: the siteaccesses the
         // installation has anyway.
-        $taken = array( $userSiteaccess, $this->setting( 'admin_siteaccess' ), 'site', 'admin', 'bold', 'bold_ger' );
+        $taken = array( $userSiteaccess, $this->setting( 'admin_siteaccess' ), $this->setting( 'editor_siteaccess' ), 'site', 'admin', 'editor', 'bold', 'bold_ger' );
         $translationLocales = array_values( array_diff( (array)$this->setting( 'locales' ), array( $primaryLanguage ) ) );
         foreach ( $this->setting( 'locales' ) as $locale )
         {
@@ -217,11 +220,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             $this->setting( 'user_siteaccess' ) 
         ), $languageBasedList ) );
         $this->addSetting( 'all_siteaccess_list', array_merge( $this->setting( 'user_siteaccess_list' ), array( 
-            $this->setting( 'admin_siteaccess' ) 
+            $this->setting( 'admin_siteaccess' ),
+            $this->setting( 'editor_siteaccess' )
         ) ) );
         $this->addSetting( 'access_type', eZSiteInstaller::getParam( $parameters, 'site_type/access_type', '' ) );
         $this->addSetting( 'access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/access_type_value', '' ) );
         $this->addSetting( 'admin_access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/admin_access_type_value', '' ) );
+        $editorAccessValue = trim( (string)eZSiteInstaller::getParam( $parameters, 'site_type/editor_access_type_value', '' ) );
+        if ( $editorAccessValue === '' && class_exists( 'eZStepSiteAccess' ) )
+            $editorAccessValue = (string)eZStepSiteAccess::defaultEditorAccessValue( $this->setting( 'access_type' ) );
+        $this->addSetting( 'editor_access_type_value', $editorAccessValue );
         // The host the site's addresses are built on. Nothing passes 'host',
         // and without it they were built on the host of the request running
         // the installation: "localhost" for the kickstarter, which runs on the
@@ -243,6 +251,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 'host_prepend_siteaccess' => false,
                 // The site runs with ForceVirtualHost=true (commonSiteINISettings):
                 // no index.php, which the web wizard's requests all carried
+                'index_file' => ''
+            ) ),
+            'editor' => $this->createSiteaccessUrls( array( 
+                'siteaccess_list' => array( 
+                    $this->setting( 'editor_siteaccess' ) 
+                ), 
+                'access_type' => $this->setting( 'access_type' ), 
+                'access_type_value' => $this->setting( 'editor_access_type_value' ), 
+                'host' => $this->setting( 'host' ),
+                'host_prepend_siteaccess' => false,
                 'index_file' => ''
             ) ),
             'user' => $this->createSiteaccessUrls( array( 
@@ -270,6 +288,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 'host' => $this->setting( 'host' ),
                 'exclude_port_list' => array( 
                     $this->setting( 'admin_access_type_value' ), 
+                    $this->setting( 'editor_access_type_value' ), 
                     $this->setting( 'access_type_value' )
                 ),
                 'index_file' => ''
