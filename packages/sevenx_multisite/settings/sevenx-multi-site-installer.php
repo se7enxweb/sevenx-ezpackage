@@ -5098,12 +5098,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         );
         // The static cache is generated from Setup > Cache > Static content
         // cache and served by the web server from var/<var dir>/static, ahead
-        // of the front controller. Enabling it here is what makes a generated
-        // page be refreshed when an editor publishes; without it the site
-        // would keep serving whatever was true when the cache was built, which
-        // is worse than having no static cache at all.
+        // of the front controller. It is installed switched off: with it on,
+        // every publish refreshes the cached pages of every address the
+        // object appears at, on every public siteaccess, over HTTP and inside
+        // the editor's request (a no-change publish of one product took six
+        // seconds). Everything it needs is written all the same, here and in
+        // staticcache.ini (commonStaticCacheINISettings()), so switching it on
+        // is this one setting. Do not switch it on without generating the
+        // cache: a generated page is only refreshed on publish while it is on.
         $settings['ContentSettings'] = array(
-            'StaticCache' => 'enabled',
+            'StaticCache' => 'disabled',
             'StaticCacheHandler' => 'eZStaticCache'
         );
         $settings['EmbedViewModeSettings'] = array( 
