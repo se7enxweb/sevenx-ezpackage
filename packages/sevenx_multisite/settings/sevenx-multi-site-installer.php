@@ -4384,19 +4384,22 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                         4 => 'setup_link' 
                     ) 
                 ), 
-                'Toolbar_admin_right' => array( 
-                    'Tool' => array( 
-                        0 => 'admin_current_user',
-                        1 => 'admin_preferences',
-                        2 => 'admin_bookmarks'
-                    ) 
-                ), 
-                'Toolbar_admin_developer' => array( 
-                    'Tool' => array( 
-                        0 => 'admin_clear_cache', 
-                        1 => 'admin_quick_settings' 
-                    ) 
-                ), 
+                // Clear cache and Bookmarks first in the right sidebar; the
+                // editor siteaccess, a copy of these, keeps Bookmarks first
+                // (kernel setup step createEditorSiteAccess)
+                'Toolbar_admin_right' => array(
+                    'Tool' => array(
+                        0 => 'admin_clear_cache',
+                        1 => 'admin_bookmarks',
+                        2 => 'admin_current_user',
+                        3 => 'admin_preferences'
+                    )
+                ),
+                'Toolbar_admin_developer' => array(
+                    'Tool' => array(
+                        0 => 'admin_quick_settings'
+                    )
+                ),
                 'Tool_setup_link' => array( 
                     'title' => '', 
                     'link_icon' => '', 
