@@ -92,6 +92,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // the UI that consumes them.
         $this->addSetting( 'extension_list', array( 
             'xrowmetadata',
+            // Exponential UI before ezjscore: its settings (ezjsc::jquery as jQuery 4,
+            // the admin's BackendJavaScriptList and BackendCSSFileList) win over
+            // ezjscore's, as an extension listed earlier does.
+            'expui',
             'ezjscore',
             'ezoe',
             // Cross site request forgery protection for every posted form. It
