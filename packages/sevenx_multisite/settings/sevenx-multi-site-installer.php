@@ -2089,7 +2089,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
 
             $ini = eZINI::instance( 'site.ini.append.php', $path, null, false, null, true );
             $design = $ini->hasVariable( 'DesignSettings', 'SiteDesign' ) ? (string)$ini->variable( 'DesignSettings', 'SiteDesign' ) : '';
-            if ( in_array( $design, array( 'admin', 'admin2', 'admin3' ), true ) )
+            if ( in_array( $design, array( 'admin', 'admin2', 'admin3', 'admin4' ), true ) )
                 continue;
 
             $ini->setVariable( 'SiteAccessRules', 'Rules', array( 'access;enable', 'moduleall', 'access;disable', 'module;ezinfo' ) );
@@ -4161,9 +4161,16 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     {
         $adminSiteaccess = $this->setting( 'admin_siteaccess' );
         $siteINI = eZINI::instance( 'site.ini.append.php', 'settings/siteaccess/' . $adminSiteaccess, null, false, null, true );
-        // Three designs, in this order, and all three are needed.
+        // admin4 first, then the three older designs, in this order, and all are needed.
         //
-        // admin3 is the skin: its own pagelayout and eighteen overrides. admin2
+        // admin4 is the default admin design: complete in itself (every template, stylesheet,
+        // image and script the admin needs), with the light and dark modes of the 2026 look.
+        // The three names after it stay for the extensions: a design name is looked up in
+        // every extension too, and extensions ship their admin screens in admin3, admin2 and
+        // admin folders. An installation whose kernel has no design/admin4 yet still works:
+        // the kernel skips a design folder that is not there, and admin3 takes over.
+        //
+        // admin3 is the previous skin: its own pagelayout and eighteen overrides. admin2
         // is where extensions put their administration interfaces. admin is the
         // complete base interface, all three hundred odd templates including the
         // contentstructuremenu ones the content tree is built from.
@@ -4181,8 +4188,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // eZ renders an unresolvable template as an empty string rather than an
         // error, the affected pages - /tags/dashboard among them - returned a
         // bare shell with no indication of what was wrong.
-        $siteINI->setVariable( 'DesignSettings', 'SiteDesign', 'admin3' );
-        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 'admin2', 'admin' ) );
+        $siteINI->setVariable( 'DesignSettings', 'SiteDesign', 'admin4' );
+        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 'admin3', 'admin2', 'admin' ) );
         $siteINI->setVariable( 'SiteAccessSettings', 'RelatedSiteAccessList', $this->servedSiteaccessList() );
         // Clean urls here too: the administration interface is where the
         // treemenu is used, and it is the entry point that misreads its
