@@ -118,8 +118,13 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'xrowextract',
             'enhancedezbinaryfile',
             'enhancedselection2',
+            // The ezbirthday datatype (a birthday field for user and person classes).
+            'birthday',
             'ezwebin',
             'ezmultiupload',
+            // Content syndication between installations (feeds, import and export
+            // filters, the ezsyndicate datatype); its tables come from extensionSchemas().
+            'syndication',
             'ezupdate',
             'git_manager',
             'eztags',
@@ -144,6 +149,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'expchangeclass',
             'cjw_newsletter',
             'recaptcha',
+            // An hCaptcha field for forms, next to recaptcha; it needs its keys set.
+            'hcaptcha',
             'powercontent',
             'sevenx_dse',
             'sevenx_themes_media',
@@ -3348,6 +3355,9 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             array( 'enhancedselection2', 'enhancedselection2', false ),
             // cjw_newsletter is in extension_list and owns eleven cjwnl_* tables.
             array( 'cjw_newsletter', 'cjw_newsletter', false ),
+            // syndication is in extension_list and owns ten ezsyndication_* tables
+            // and ezx_ezpnet_soap_log (share/db_schema.dba from syndication 1.3.1 on).
+            array( 'syndication', 'syndication', false ),
         );
     }
 
