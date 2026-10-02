@@ -4272,7 +4272,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     /*!
      The order of the admin header tabs (menu.ini [TopAdminMenu] Tabs[]). The kernel lists its own tabs and every
      extension appends its tab after them, so the whole list is written for the admin siteaccess to place the
-     extension tabs between the kernel's: Store, then Layouts, Setup, Tags, Design, Git, Export, CIE and Newsletter.
+     extension tabs between the kernel's: Store, then Layouts, Setup, Tags, Design, Audit, Git, Export, CIE and Newsletter.
      A tab of an extension that is not active has no [Topmenu_<tab>] block and is left out of the header.
     */
     function adminMenuINISettings()
@@ -4292,6 +4292,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                         'setup',
                         'eztags',
                         'design',
+                        'audit',
                         'gitmanager',
                         'xrowextract',
                         'bccie_overview',
