@@ -2570,6 +2570,17 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $report = CjwNewsletterClassInstaller::install( 'Newsletter' );
         foreach ( $report as $identifier => $state )
             eZDebug::writeNotice( "cjw_newsletter class $identifier: $state", __METHOD__ );
+
+        // The newsletter tree (root, system, one list) and the setting that points at its root.
+        $treeReport = array();
+        $rootNodeID = CjwNewsletterClassInstaller::installTree( null, $treeReport );
+        foreach ( $treeReport as $part => $state )
+            eZDebug::writeNotice( "cjw_newsletter tree $part: $state", __METHOD__ );
+        if ( $rootNodeID )
+        {
+            $written = CjwNewsletterClassInstaller::writeRootFolderSetting( $rootNodeID );
+            eZDebug::writeNotice( "cjw_newsletter RootFolderNodeId=$rootNodeID: $written", __METHOD__ );
+        }
         return true;
     }
 
