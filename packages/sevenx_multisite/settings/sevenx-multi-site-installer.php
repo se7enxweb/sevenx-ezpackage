@@ -97,6 +97,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             // ezjscore's, as an extension listed earlier does.
             'expui',
             'ezjscore',
+            // Remote services (ezjscore/call/exp<domain>::<service>) for remote admin apps
+            // and JavaScript frontends: doc/bc/6.0/backend_ezjscore_services.md. Only the
+            // services; its portal designs get no siteaccess in a default install.
+            'expservices',
             'ezoe',
             // Cross site request forgery protection for every posted form. It
             // has been active on the installation all along and was never in
