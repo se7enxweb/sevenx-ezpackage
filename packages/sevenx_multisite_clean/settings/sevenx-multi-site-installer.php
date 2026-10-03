@@ -343,6 +343,13 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_function' => 'postInstallRekeyStarRatings',
                 '_params' => array()
             ),
+            // cjw_newsletter is in extension_list; its content classes are not part of the
+            // site packages, so they are imported here into the "Newsletter" class group
+            // from the packages the extension ships. Idempotent and independent of the rest.
+            array(
+                '_function' => 'postInstallImportNewsletterClasses',
+                '_params' => array()
+            ),
 
             array( 
                 '_function' => 'postInstallAdminSiteaccessINIUpdate', 
@@ -2540,6 +2547,32 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
      Rows whose object is not installed are dropped: a rating pointing at an
      unrelated object is worse than no rating.
     */
+    /**
+     * Imports the cjw_newsletter content classes (root, system, list, list_virtual, edition,
+     * article) into the content class group "Newsletter". The class definitions are the
+     * .ezpkg packages in extension/cjw_newsletter/packages, read by
+     * CjwNewsletterClassInstaller, which reports a class that exists as "already present".
+     * A site without the extension is left alone, and a failure here never stops the install.
+     */
+    function postInstallImportNewsletterClasses( $params = false )
+    {
+        if ( !in_array( 'cjw_newsletter', (array)$this->setting( 'extension_list' ) ) )
+            return true;
+
+        if ( !class_exists( 'CjwNewsletterClassInstaller', false ) )
+        {
+            $file = eZSys::rootDir() . '/extension/cjw_newsletter/classes/cjwnewsletterclassinstaller.php';
+            if ( !file_exists( $file ) )
+                return true;
+            require_once $file;
+        }
+
+        $report = CjwNewsletterClassInstaller::install( 'Newsletter' );
+        foreach ( $report as $identifier => $state )
+            eZDebug::writeNotice( "cjw_newsletter class $identifier: $state", __METHOD__ );
+        return true;
+    }
+
     function postInstallRekeyStarRatings( $params = false )
     {
         $db = eZDB::instance();
