@@ -1476,6 +1476,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_params' => array()
             ),
             array(
+                '_function' => 'postInstallImportAdminLayouts',
+                '_params' => array()
+            ),
+            array(
                 '_function' => 'postInstallCleanUrlText',
                 '_params' => array()
             ),
@@ -2100,7 +2104,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
 
             $ini = eZINI::instance( 'site.ini.append.php', $path, null, false, null, true );
             $design = $ini->hasVariable( 'DesignSettings', 'SiteDesign' ) ? (string)$ini->variable( 'DesignSettings', 'SiteDesign' ) : '';
-            if ( in_array( $design, array( 'admin', 'admin2', 'admin3', 'admin4' ), true ) )
+            if ( in_array( $design, array( 'admin', 'admin2', 'admin3', 'admin4', 'admin4l', 'editor' ), true ) )
                 continue;
 
             $ini->setVariable( 'SiteAccessRules', 'Rules', array( 'access;enable', 'moduleall', 'access;disable', 'module;ezinfo' ) );
@@ -2656,6 +2660,63 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         if ( $result && class_exists( 'expLayoutsResolver' ) )
             expLayoutsResolver::clearCache();
         return $result;
+    }
+
+    /**
+     * The default admin layouts (admin_3col, admin_2col, admin_full) with their zones, blocks
+     * and rules, from explayouts' share/fragments/admin_layouts_db_data.dba. Their ids start at
+     * 100001, far above the layouts of the site, so nothing collides; the loader leaves the
+     * tables' sequences after the highest id (eZDbSchema corrects them on PostgreSQL).
+     * Idempotent: nothing is loaded when an admin layout already exists.
+     */
+    function postInstallImportAdminLayouts( $params = false )
+    {
+        $db = eZDB::instance();
+        $fragment = $this->extensionBasePath( 'explayouts', 'explayouts' ) . '/share/fragments/admin_layouts_db_data.dba';
+        if ( !file_exists( $fragment ) )
+        {
+            eZDebug::writeNotice( 'No admin layouts fragment at ' . $fragment . ', skipped', __FUNCTION__ );
+            return true;
+        }
+        $rows = $db->arrayQuery( "SELECT COUNT(*) AS c FROM explayouts_layout WHERE layout_type IN ( 'admin_3col', 'admin_2col', 'admin_full' )" );
+        if ( $rows === false || ( isset( $rows[0]['c'] ) && (int)$rows[0]['c'] > 0 ) )
+        {
+            eZDebug::writeNotice( 'Admin layouts exist already (or the explayouts tables do not), nothing imported', __FUNCTION__ );
+            return true;
+        }
+
+        $dataArray = eZDbSchema::read( $fragment, true );
+        $schemaFile = $this->extensionBasePath( 'explayouts', 'explayouts' ) . '/share/db_schema.dba';
+        $schemaArray = file_exists( $schemaFile ) ? eZDbSchema::read( $schemaFile, true ) : false;
+        if ( !is_array( $dataArray ) || !isset( $dataArray['data'] ) || !is_array( $schemaArray ) || !isset( $schemaArray['schema'] ) )
+        {
+            eZDebug::writeError( 'The admin layouts fragment or the explayouts schema cannot be read', __FUNCTION__ );
+            return false;
+        }
+        // Only the tables the fragment carries.
+        $schema = array( '_info' => isset( $schemaArray['schema']['_info'] ) ? $schemaArray['schema']['_info'] : array() );
+        foreach ( array_keys( $dataArray['data'] ) as $table )
+        {
+            if ( !isset( $schemaArray['schema'][$table] ) )
+            {
+                eZDebug::writeError( 'The table ' . $table . ' of the admin layouts fragment is not in the explayouts schema', __FUNCTION__ );
+                return false;
+            }
+            $schema[$table] = $schemaArray['schema'][$table];
+        }
+        $dbSchema = eZDbSchema::instance( array( 'type' => strtolower( $db->databaseName() ),
+                                                 'instance' => $db,
+                                                 'schema' => $schema,
+                                                 'data' => $dataArray['data'] ) );
+        if ( !$dbSchema || !$dbSchema->insertSchema( array( 'schema' => false, 'data' => true ) ) )
+        {
+            eZDebug::writeError( 'The admin layouts could not be imported: ' . $db->errorMessage(), __FUNCTION__ );
+            return false;
+        }
+        if ( class_exists( 'expLayoutsResolver' ) )
+            expLayoutsResolver::clearCache();
+        eZDebug::writeNotice( 'The default admin layouts and rules are imported', __FUNCTION__ );
+        return true;
     }
 
     function postInstallCleanUrlText( $params = false )
@@ -4231,14 +4292,19 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     {
         $adminSiteaccess = $this->setting( 'admin_siteaccess' );
         $siteINI = eZINI::instance( 'site.ini.append.php', 'settings/siteaccess/' . $adminSiteaccess, null, false, null, true );
-        // admin4 first, then the three older designs, in this order, and all are needed.
+        // admin4l first, then admin4 and the three older designs, in this order, and all are needed.
         //
-        // admin4 is the default admin design: complete in itself (every template, stylesheet,
+        // admin4l is the default admin design: it builds the page from the explayouts admin
+        // layouts (the default layouts and rules are imported by postInstallImportAdminLayouts)
+        // and draws every page part with the admin4 templates, so admin4 comes first in the list
+        // after it and supplies whatever admin4l does not override.
+        //
+        // admin4 is complete in itself (every template, stylesheet,
         // image and script the admin needs), with the light and dark modes of the 2026 look.
-        // The three names after it stay for the extensions: a design name is looked up in
-        // every extension too, and extensions ship their admin screens in admin3, admin2 and
-        // admin folders. An installation whose kernel has no design/admin4 yet still works:
-        // the kernel skips a design folder that is not there, and admin3 takes over.
+        // The names after admin4l stay for the extensions: a design name is looked up in
+        // every extension too, and extensions ship their admin screens in admin4, admin3, admin2
+        // and admin folders. An installation whose kernel has no design/admin4l yet still works:
+        // the kernel skips a design folder that is not there, and admin4 takes over.
         //
         // admin3 is the previous skin: its own pagelayout and eighteen overrides. admin2
         // is where extensions put their administration interfaces. admin is the
@@ -4251,15 +4317,15 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // admin3 pagelayout never won - the interface rendered against the old
         // base design instead.
         //
-        // admin2 must stay in the list. A design name is a namespace across
+        // admin2 must stay in the list (admin4 and admin3 too, for the same reason). A design name is a namespace across
         // every design root, not one directory: the project's own design/admin2
         // is empty, but eztags ships 36 templates there, cjw_newsletter 15 and
         // enhancedezbinaryfile 1. Dropping the name orphaned all 52, and since
         // eZ renders an unresolvable template as an empty string rather than an
         // error, the affected pages - /tags/dashboard among them - returned a
         // bare shell with no indication of what was wrong.
-        $siteINI->setVariable( 'DesignSettings', 'SiteDesign', 'admin4' );
-        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 'admin3', 'admin2', 'admin' ) );
+        $siteINI->setVariable( 'DesignSettings', 'SiteDesign', 'admin4l' );
+        $siteINI->setVariable( 'DesignSettings', 'AdditionalSiteDesignList', array( 'admin4', 'admin3', 'admin2', 'admin' ) );
         $siteINI->setVariable( 'SiteAccessSettings', 'RelatedSiteAccessList', $this->servedSiteaccessList() );
         // Clean urls here too: the administration interface is where the
         // treemenu is used, and it is the entry point that misreads its
