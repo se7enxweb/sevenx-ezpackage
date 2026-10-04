@@ -3389,6 +3389,28 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
      */
     function extensionSchemas()
     {
+        $schemas = $this->declaredExtensionSchemas();
+        // Every other extension of the install list that declares tables (a
+        // share/db_schema.dba, else sql/<engine>/schema.sql) gets them as well:
+        // a list kept by hand left xrowextract and expservices without theirs, and the
+        // upgrade check then asked to create them.
+        $listed = array();
+        foreach ( $schemas as $e )
+            $listed[$e[1]] = true;
+        foreach ( array_values( array_unique( (array)$this->setting( 'extension_list' ) ) ) as $extension )
+        {
+            if ( isset( $listed[$extension] ) )
+                continue;
+            $base = $this->extensionBasePath( $extension, $extension );
+            if ( file_exists( $base . '/share/db_schema.dba' ) || glob( $base . '/sql/*/schema.sql' ) )
+                $schemas[] = array( $extension, $extension, false );
+        }
+        return $schemas;
+    }
+
+    /** The extension schemas named by hand: package, extension, whether db_data.dba is loaded too. */
+    function declaredExtensionSchemas()
+    {
         return array(
             array( 'sevenx_themes_media', 'sevenx_themes_media', true ),
             // Schema only: ezstarrating ships DDL and no default rows; the demo
