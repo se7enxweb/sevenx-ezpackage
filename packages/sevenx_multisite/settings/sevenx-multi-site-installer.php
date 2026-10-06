@@ -159,6 +159,9 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'sevenx_dse',
             'sevenx_themes_media',
             'sevenx_themes_simple'
+            // exp_adminui is deliberately not here: it is an access extension, switched on by the adminui
+            // siteaccess alone (ActiveAccessExtensions[], see adminUISiteaccessName()), so every other
+            // siteaccess keeps its own design.
         ) );
         $this->addSetting( 'version', $this->solutionVersion() );
         $this->addSetting( 'locales', eZSiteInstaller::getParam( $parameters, 'all_language_codes', array() ) );
@@ -184,6 +187,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         // the editor siteaccess: the admin for content editing only, which the
         // setup creates from the admin one (eZStepCreateSites::createEditorSiteAccess())
         $this->addSetting( 'editor_siteaccess', 'editor' );
+        // the Admin UI siteaccess (exp_adminui), '' when the installation has none: adminUISiteaccessName()
+        $this->addSetting( 'adminui_siteaccess', $this->adminUISiteaccessName() );
         // Site title from the setup. When nobody typed one, the web wizard
         // offers the site package's summary ("MultiSite Default Installation")
         // and the kickstarter falls back to it, and that became the SiteName
@@ -202,7 +207,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $languageSiteaccessMap = array();
         // Names a translation siteaccess must not take: the siteaccesses the
         // installation has anyway.
-        $taken = array( $userSiteaccess, $this->setting( 'admin_siteaccess' ), $this->setting( 'editor_siteaccess' ), 'site', 'admin', 'editor', 'bold', 'bold_ger' );
+        $taken = array( $userSiteaccess, $this->setting( 'admin_siteaccess' ), $this->setting( 'editor_siteaccess' ), 'site', 'admin', 'editor', 'adminui', 'bold', 'bold_ger' );
         $translationLocales = array_values( array_diff( (array)$this->setting( 'locales' ), array( $primaryLanguage ) ) );
         foreach ( $this->setting( 'locales' ) as $locale )
         {
@@ -234,10 +239,12 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $this->addSetting( 'user_siteaccess_list', array_merge( array( 
             $this->setting( 'user_siteaccess' ) 
         ), $languageBasedList ) );
-        $this->addSetting( 'all_siteaccess_list', array_merge( $this->setting( 'user_siteaccess_list' ), array( 
+        // AvailableSiteAccessList, RelatedSiteAccessList and SiteList: adminui among them when there is one
+        $this->addSetting( 'all_siteaccess_list', array_values( array_filter( array_merge( $this->setting( 'user_siteaccess_list' ), array(
             $this->setting( 'admin_siteaccess' ),
-            $this->setting( 'editor_siteaccess' )
-        ) ) );
+            $this->setting( 'editor_siteaccess' ),
+            $this->setting( 'adminui_siteaccess' )
+        ) ), 'strlen' ) ) );
         $this->addSetting( 'access_type', eZSiteInstaller::getParam( $parameters, 'site_type/access_type', '' ) );
         $this->addSetting( 'access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/access_type_value', '' ) );
         $this->addSetting( 'admin_access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/admin_access_type_value', '' ) );
@@ -1516,6 +1523,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_function' => 'postInstallRepairClassNameLists',
                 '_params' => array()
             ),
+            // After every step that writes the admin siteaccess's settings: adminui is made from them.
+            array(
+                '_function' => 'postInstallCreateAdminUISiteaccess',
+                '_params' => array()
+            ),
 
             // Cosmetic, and deliberately last. executeSteps aborts the whole
             // chain on the first step that reports an error, and the template
@@ -1714,6 +1726,49 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $result = sevenxRepairClassNameLists( $this->primaryLanguageLocale() );
         if ( $result['left'] )
             eZDebug::writeError( 'Class/attribute name lists still without a language: ' . implode( ', ', $result['left'] ), __METHOD__ );
+        return true;
+    }
+
+    /**
+     * The name of the Admin UI siteaccess this installation gets, or '' for none.
+     *
+     * The siteaccess is the exp_adminui extension's adminui design on top of admin4l, made from the admin siteaccess
+     * by the kernel's eZStepCreateSites::createAdminUISiteAccess(), which the setup calls for every installation too:
+     * one place says what its settings are. It is made only when the extension is in the installation, and only by a
+     * kernel that knows how; otherwise the reason is logged and the installation has no adminui. It is reached by URI
+     * only (/adminui): siteaccess_urls has no entry for it, so it gets no host, port or HostMatchMapItems line.
+     */
+    function adminUISiteaccessName( $extensionRoot = 'extension' )
+    {
+        $reason = '';
+        if ( !class_exists( 'eZStepCreateSites' ) || !method_exists( 'eZStepCreateSites', 'createAdminUISiteAccess' ) )
+            $reason = 'this kernel cannot make it (no eZStepCreateSites::createAdminUISiteAccess)';
+        else if ( !eZStepCreateSites::adminUIAvailable( $extensionRoot ) )
+            $reason = 'the exp_adminui extension is not in ' . $extensionRoot;
+        if ( $reason === '' )
+            return eZStepCreateSites::ADMINUI_SITEACCESS;
+        eZDebug::writeNotice( "No adminui siteaccess: $reason", __METHOD__ );
+        eZLog::write( "sevenxMultiSiteInstaller: no adminui siteaccess, $reason", 'setup.log' );
+        return '';
+    }
+
+    /**
+     * settings/siteaccess/adminui from the admin siteaccess as the steps before have written it: the same database,
+     * languages, VarDir, login and access rules, override, menu, toolbar and content structure menu settings, with
+     * the adminui design chain and ActiveAccessExtensions[]=exp_adminui. Never stops the install.
+     */
+    function postInstallCreateAdminUISiteaccess( $params = false )
+    {
+        $name = (string)$this->setting( 'adminui_siteaccess' );
+        if ( $name === '' )
+            return true;
+        $siteaccessRoot = is_array( $params ) && isset( $params['siteaccess_root'] ) ? $params['siteaccess_root'] : 'settings/siteaccess';
+        $extensionRoot = is_array( $params ) && isset( $params['extension_root'] ) ? $params['extension_root'] : 'extension';
+        $made = eZStepCreateSites::createAdminUISiteAccess( $this->setting( 'admin_siteaccess' ), $siteaccessRoot, $extensionRoot );
+        if ( $made === false )
+            eZDebug::writeError( "The $name siteaccess could not be made from settings/siteaccess/" . $this->setting( 'admin_siteaccess' ), __METHOD__ );
+        else
+            eZDebug::writeNotice( "The $name siteaccess was made from settings/siteaccess/" . $this->setting( 'admin_siteaccess' ), __METHOD__ );
         return true;
     }
 
@@ -2111,7 +2166,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
 
             $ini = eZINI::instance( 'site.ini.append.php', $path, null, false, null, true );
             $design = $ini->hasVariable( 'DesignSettings', 'SiteDesign' ) ? (string)$ini->variable( 'DesignSettings', 'SiteDesign' ) : '';
-            if ( in_array( $design, array( 'admin', 'admin2', 'admin3', 'admin4', 'admin4l', 'editor' ), true ) )
+            if ( in_array( $design, array( 'admin', 'admin2', 'admin3', 'admin4', 'admin4l', 'editor', 'adminui' ), true ) )
                 continue;
 
             $ini->setVariable( 'SiteAccessRules', 'Rules', array( 'access;enable', 'moduleall', 'access;disable', 'module;ezinfo' ) );
@@ -4176,7 +4231,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $loginSiteAccessCRCs = array();
         foreach ( $this->servedSiteaccessList() as $servedSiteaccess )
         {
-            if ( $servedSiteaccess === $this->setting( 'admin_siteaccess' ) )
+            // the administration interfaces: the admin, and adminui, which is the admin in another design
+            if ( $servedSiteaccess === $this->setting( 'admin_siteaccess' ) || $servedSiteaccess === $this->setting( 'adminui_siteaccess' ) )
                 continue;
             $loginSiteAccessCRCs[] = eZSys::ezcrc32( $servedSiteaccess );
         }
@@ -5493,10 +5549,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     function publicSiteaccessList()
     {
         $admin = $this->setting( 'admin_siteaccess' );
+        $adminUI = (string)$this->setting( 'adminui_siteaccess' );
         $public = array();
         foreach ( $this->servedSiteaccessList() as $siteaccess )
         {
-            if ( $siteaccess === $admin || $siteaccess === '' )
+            if ( $siteaccess === $admin || $siteaccess === $adminUI || $siteaccess === '' )
                 continue;
             $public[] = $siteaccess;
         }
