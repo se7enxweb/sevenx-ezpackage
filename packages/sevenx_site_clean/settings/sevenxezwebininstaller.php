@@ -1776,17 +1776,21 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 ) 
             ) 
         );
-        // sevenx_authentication_2fa (its INSTALL.md, role policies): members manage their own second step. The
-        // steps before signing in need no policy: the extension lists them in [RoleSettings] PolicyOmitList.
+        // sevenx_authentication_2fa (its INSTALL.md, role policies): every role that signs in lets its users manage
+        // their own second step (Administrator has */* already). The steps before signing in need no policy: the
+        // extension lists them in [RoleSettings] PolicyOmitList.
         if ( $this->twoFactorAuthenticationAvailable() )
         {
-            $roles[] = array(
-                'name' => 'Member',
-                'policies' => array(
-                    array( 'module' => 'user2fa', 'function' => 'setup' ),
-                    array( 'module' => 'user2fa', 'function' => 'verify' )
-                )
-            );
+            foreach ( array( 'Member', 'Editor', 'Partner' ) as $twoFactorRole )
+            {
+                $roles[] = array(
+                    'name' => $twoFactorRole,
+                    'policies' => array(
+                        array( 'module' => 'user2fa', 'function' => 'setup' ),
+                        array( 'module' => 'user2fa', 'function' => 'verify' )
+                    )
+                );
+            }
         }
         return $roles;
     }
