@@ -1683,16 +1683,23 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
 
     /**
      * The locale class and attribute names are created in: the install's
-     * primary language, else the configured content locale.
+     * primary language, else the configured content locale, else the
+     * kernel's fallback locale (site.ini [RegionalSettings]
+     * ContentObjectFallbackLocale, eng-US; never eng-GB, which left names in a
+     * language the site did not have).
      */
     function primaryLanguageLocale()
     {
         $locale = $this->setting( 'primary_language' );
         if ( !$locale )
         {
+            if ( method_exists( 'eZSerializedObjectNameList', 'configuredLanguageLocale' ) )
+                return eZSerializedObjectNameList::configuredLanguageLocale();
             $ini = eZINI::instance();
             $locale = $ini->hasVariable( 'RegionalSettings', 'ContentObjectLocale' )
-                ? $ini->variable( 'RegionalSettings', 'ContentObjectLocale' ) : 'eng-GB';
+                ? trim( (string)$ini->variable( 'RegionalSettings', 'ContentObjectLocale' ) ) : '';
+            if ( $locale === '' )
+                $locale = 'eng-US';
         }
         return $locale;
     }
