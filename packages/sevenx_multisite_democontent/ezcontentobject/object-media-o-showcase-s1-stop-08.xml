@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="25584" name="Notifications" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="72" ezremote:published="Mon, 05 Oct 2026 14:32:06 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" remote_id="showcase-s1-stop-08" class_remote_id="71f8cc283a01e33187637fc0740cbeaa" ezremote:class_identifier="ng_shortcut" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 05 Oct 2026 15:17:48 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Notifications">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5411" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Notifications and digests</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5412" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Notifications</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5413" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="d033d29bca416468fe48221303d2a97f" alternative-text="Notifications and digests"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5414" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Editors follow the content they care about and get one mail per change, or one daily, weekly or monthly digest, gated by their e-mail preferences.</paragraph>
+            <paragraph><link href="/admin/notification/settings">My notification settings</link> <link href="/admin/notification/status">Notification status</link></paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5415" ezremote:identifier="use_shortcut_name" name="Use shortcut name" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5416" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="853ae1d68933f53e66a056f150d8b322" name="Notifications" node-id="26218" remote-id="a5d02afe1666f8aca7e9919c0b8154e6" sort-field="path" sort-order="1" priority="80"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

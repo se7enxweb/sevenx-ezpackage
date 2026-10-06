@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="25579" name="admin4 design" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="72" ezremote:published="Mon, 05 Oct 2026 14:32:05 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:47 GMT" remote_id="showcase-s1-stop-03" class_remote_id="71f8cc283a01e33187637fc0740cbeaa" ezremote:class_identifier="ng_shortcut" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 05 Oct 2026 15:17:47 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:47 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="admin4 design">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5381" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>A modern admin: light, dark and mobile</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5382" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>admin4 design</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5383" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="4659a94ecab6fff4128d953c353145fb" alternative-text="A modern admin: light, dark and mobile"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5384" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>One calm design for every admin page, in a light and a dark mode, that works on a phone as well as on a 4K screen.</paragraph>
+            <paragraph><link anchor_name="dark" href="/admin/content/dashboard">Open the admin in dark mode</link> <link anchor_name="light" href="/admin/content/dashboard">Open it in light mode</link></paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5385" ezremote:identifier="use_shortcut_name" name="Use shortcut name" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5386" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="853ae1d68933f53e66a056f150d8b322" name="admin4 design" node-id="26213" remote-id="7964c8ecf072f8b7c96ca31b4169b5fc" sort-field="path" sort-order="1" priority="30"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

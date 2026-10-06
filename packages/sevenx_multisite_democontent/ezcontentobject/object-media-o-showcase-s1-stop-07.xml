@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="25583" name="Collaboration" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="72" ezremote:published="Mon, 05 Oct 2026 14:32:06 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" remote_id="showcase-s1-stop-07" class_remote_id="71f8cc283a01e33187637fc0740cbeaa" ezremote:class_identifier="ng_shortcut" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 05 Oct 2026 15:17:48 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Collaboration">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5405" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Approval in one inbox</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5406" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Collaboration</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5407" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="b022f69cda9f483775cdb2e427eb99eb" alternative-text="Approval in one inbox"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5408" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>An edition that needs a second pair of eyes waits in the collaboration inbox until someone approves it, with the conversation kept next to it.</paragraph>
+            <paragraph>
+              <link href="/admin/collaboration/view/summary">Open the inbox</link>
+            </paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5409" ezremote:identifier="use_shortcut_name" name="Use shortcut name" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5410" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="853ae1d68933f53e66a056f150d8b322" name="Collaboration" node-id="26217" remote-id="85a762bc56c5a9c424447a5e9977f28b" sort-field="path" sort-order="1" priority="70"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

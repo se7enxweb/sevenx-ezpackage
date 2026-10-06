@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="25580" name="Exponential Velocity · port 8080" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="72" ezremote:published="Mon, 05 Oct 2026 14:32:06 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" remote_id="showcase-s1-stop-04" class_remote_id="71f8cc283a01e33187637fc0740cbeaa" ezremote:class_identifier="ng_shortcut" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 05 Oct 2026 15:17:48 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Exponential Velocity · port 8080">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5387" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>The same site, served by Exponential Velocity</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5388" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Exponential Velocity · port 8080</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5389" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="731a52509964cc03556adad9f99a89c6" alternative-text="The same site, served by Exponential Velocity"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5390" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Velocity boots Exponential once and keeps warm workers in memory, so pages answer in milliseconds without Apache or PHP-FPM.</paragraph>
+            <paragraph><link href="https://github.com/se7enxweb/exponential-velocity">Exponential Velocity on GitHub</link> <link href="https://github.com/se7enxweb/exponential/blob/main/doc/bc/6.0/velocity-engines.md">How to run it</link></paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5391" ezremote:identifier="use_shortcut_name" name="Use shortcut name" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5392" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="853ae1d68933f53e66a056f150d8b322" name="Exponential Velocity · port 8080" node-id="26214" remote-id="ff5d67d9508002f91723dc7d2fa1104e" sort-field="path" sort-order="1" priority="40"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

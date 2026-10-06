@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="25577" name="Exponential Layouts · public site" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="72" ezremote:published="Mon, 05 Oct 2026 14:32:05 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:47 GMT" remote_id="showcase-s1-stop-01" class_remote_id="71f8cc283a01e33187637fc0740cbeaa" ezremote:class_identifier="ng_shortcut" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 05 Oct 2026 15:17:47 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:47 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Exponential Layouts · public site">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5369" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Pages built from layouts</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5370" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Exponential Layouts · public site</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5371" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="2f97674b2d0514a66dea20c3571dfb76" alternative-text="Pages built from layouts"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5372" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>The front page and every landing page of this site are zones and blocks put together in a visual editor: editors rearrange a page, and nobody touches a template.</paragraph>
+            <paragraph><link href="/">See the front page</link> <link anchor_name="layout/29" href="/admin/explayouts_ui_api/app">Open its layout in the editor</link> <link href="/admin/explayouts_ui/dashboard">All layouts</link></paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5373" ezremote:identifier="use_shortcut_name" name="Use shortcut name" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5374" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="853ae1d68933f53e66a056f150d8b322" name="Exponential Layouts · public site" node-id="26211" remote-id="7093be87ae8d5a9e8c6396daec210c04" sort-field="path" sort-order="1" priority="10"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

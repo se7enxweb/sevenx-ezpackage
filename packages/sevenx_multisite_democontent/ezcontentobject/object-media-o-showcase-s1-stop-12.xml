@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="25588" name="Platform" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="72" ezremote:published="Mon, 05 Oct 2026 14:32:06 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" remote_id="showcase-s1-stop-12" class_remote_id="71f8cc283a01e33187637fc0740cbeaa" ezremote:class_identifier="ng_shortcut" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 05 Oct 2026 15:17:48 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Platform">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5435" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>PHP 8.0 to 8.5, and a console for everything</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5436" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Platform</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5437" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="b8b54295d75bb5668a603c1e810cbefd" alternative-text="PHP 8.0 to 8.5, and a console for everything"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5438" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>The same code runs on PHP 8.0 to 8.5 and is tested on every push; deploys, caches, Velocity and content jobs are console commands.</paragraph>
+            <paragraph><link href="/admin/setup/info">System information</link> <link href="https://github.com/se7enxweb/exponential">Source on GitHub</link></paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5439" ezremote:identifier="use_shortcut_name" name="Use shortcut name" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5440" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="853ae1d68933f53e66a056f150d8b322" name="Platform" node-id="26222" remote-id="01837930c840e251cbf99d79e1109611" sort-field="path" sort-order="1" priority="120"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

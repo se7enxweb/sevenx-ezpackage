@@ -329,6 +329,18 @@
     <simple-file key="2a828430685ad2b2f54cd82c433e15d3" original-path="var/site/storage/images/media/bold-agency/2650-1-eng-US/bold-agency-siteinfo.png" package-path="simplefiles/ee94d5e8.png"/>
     <simple-file key="e0a4c9175add985d0d29869c933706e6" original-path="var/site/storage/images/media/bold-agency/2651-1-eng-US/bold-agency-siteinfo.png" package-path="simplefiles/9506a79c.png"/>
     <simple-file key="99f806978c1509712eaa33f85501ed7f" original-path="var/site/storage/images/media/bold-agency/2652-1-eng-US/bold-agency-siteinfo.png" package-path="simplefiles/9ee2a9de.png"/>
+    <simple-file key="2f97674b2d0514a66dea20c3571dfb76" original-path="var/site/storage/images/fit-healthy/exponential-live/exponential-layouts-public-site/5371-3-eng-US/exponential-layouts-public-site.png" package-path="simplefiles/a95ccaa8.png"/>
+    <simple-file key="49d4bb30613b0655609222a8d99af0a6" original-path="var/site/storage/images/fit-healthy/exponential-live/exponential-layouts-admin4l/5377-3-eng-US/exponential-layouts-admin4l.png" package-path="simplefiles/c6d37124.png"/>
+    <simple-file key="4659a94ecab6fff4128d953c353145fb" original-path="var/site/storage/images/fit-healthy/exponential-live/admin4-design/5383-3-eng-US/admin4-design.png" package-path="simplefiles/93f1cb29.png"/>
+    <simple-file key="731a52509964cc03556adad9f99a89c6" original-path="var/site/storage/images/fit-healthy/exponential-live/exponential-velocity-port-8080/5389-3-eng-US/exponential-velocity-port-8080.png" package-path="simplefiles/a05a7e2c.png"/>
+    <simple-file key="2abcac999adf04975b95c1ffb876ed26" original-path="var/site/storage/images/fit-healthy/exponential-live/e-mail-preferences-and-consent/5395-3-eng-US/e-mail-preferences-and-consent.png" package-path="simplefiles/5b71673c.png"/>
+    <simple-file key="a236e1f373b48814f75405c81c26e183" original-path="var/site/storage/images/fit-healthy/exponential-live/newsletter-4.2/5401-3-eng-US/newsletter-4.2.png" package-path="simplefiles/3897bc7f.png"/>
+    <simple-file key="b022f69cda9f483775cdb2e427eb99eb" original-path="var/site/storage/images/fit-healthy/exponential-live/collaboration/5407-3-eng-US/collaboration.png" package-path="simplefiles/a927e93d.png"/>
+    <simple-file key="d033d29bca416468fe48221303d2a97f" original-path="var/site/storage/images/fit-healthy/exponential-live/notifications/5413-3-eng-US/notifications.png" package-path="simplefiles/12efc437.png"/>
+    <simple-file key="9f74efb2c9c12630f39fd516516a6a88" original-path="var/site/storage/images/fit-healthy/exponential-live/bookmark-folders/5419-3-eng-US/bookmark-folders.png" package-path="simplefiles/c0c91978.png"/>
+    <simple-file key="bf502cacab49255efb6ac32e3c095298" original-path="var/site/storage/images/fit-healthy/exponential-live/online-editor/5425-3-eng-US/online-editor.png" package-path="simplefiles/7bf87e11.png"/>
+    <simple-file key="ea17ec41af7e43c2b3a41332a301cfbe" original-path="var/site/storage/images/fit-healthy/exponential-live/audit-trail/5431-3-eng-US/audit-trail.png" package-path="simplefiles/43fc47ff.png"/>
+    <simple-file key="b8b54295d75bb5668a603c1e810cbefd" original-path="var/site/storage/images/fit-healthy/exponential-live/platform/5437-3-eng-US/platform.png" package-path="simplefiles/35fa270f.png"/>
 </simple-files>
   <version>
     <number>6.0</number>

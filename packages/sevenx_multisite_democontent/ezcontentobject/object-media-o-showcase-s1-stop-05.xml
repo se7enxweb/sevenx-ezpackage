@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="25581" name="E-mail preferences and consent" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="72" ezremote:published="Mon, 05 Oct 2026 14:32:06 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" remote_id="showcase-s1-stop-05" class_remote_id="71f8cc283a01e33187637fc0740cbeaa" ezremote:class_identifier="ng_shortcut" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 05 Oct 2026 15:17:48 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:48 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="E-mail preferences and consent">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5393" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>E-mail that visitors control</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5394" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>E-mail preferences and consent</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5395" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="2abcac999adf04975b95c1ffb876ed26" alternative-text="E-mail that visitors control"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5396" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Optional mail is off until a person turns it on, every mail carries a one-click unsubscribe, and every choice is logged and can be exported: built along US, EU and Canadian law.</paragraph>
+            <paragraph><link href="/mailpreferences/request">Manage e-mail without an account</link> <link href="/admin/mailpreferences/settings">Preferences in the admin</link> <link href="/admin/mailpreferences/admin/status">Status and law checklist</link></paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5397" ezremote:identifier="use_shortcut_name" name="Use shortcut name" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5398" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="853ae1d68933f53e66a056f150d8b322" name="E-mail preferences and consent" node-id="26215" remote-id="041827c2d642e527368b80e4800f5b69" sort-field="path" sort-order="1" priority="50"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

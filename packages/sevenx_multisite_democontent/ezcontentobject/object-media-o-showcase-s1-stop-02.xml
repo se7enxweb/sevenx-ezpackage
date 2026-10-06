@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="25578" name="Exponential Layouts · admin4l" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="72" ezremote:published="Mon, 05 Oct 2026 14:32:05 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:47 GMT" remote_id="showcase-s1-stop-02" class_remote_id="71f8cc283a01e33187637fc0740cbeaa" ezremote:class_identifier="ng_shortcut" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Mon, 05 Oct 2026 15:17:47 GMT" ezremote:modified="Mon, 05 Oct 2026 15:17:47 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Exponential Layouts · admin4l">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5375" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>The admin is built from layouts too</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5376" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
+          <text>Exponential Layouts · admin4l</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5377" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="49d4bb30613b0655609222a8d99af0a6" alternative-text="The admin is built from layouts too"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5378" ezremote:identifier="teaser_intro" name="Teaser intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Since 6.0.15 the administration interface itself is a set of layouts, so a team can give editors the admin they need, with one switch back to the stock page.</paragraph>
+            <paragraph><link href="/admin/content/dashboard">Open the admin</link> <link anchor_name="layout" href="/admin/explayouts_ui_api/app?group=admin">Admin layouts</link></paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5379" ezremote:identifier="use_shortcut_name" name="Use shortcut name" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5380" ezremote:identifier="link" name="Link" type="ngenhancedlink">
+          <text></text>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="853ae1d68933f53e66a056f150d8b322" name="Exponential Layouts · admin4l" node-id="26212" remote-id="315ba9486b5fe4e1ffc564dda5367154" sort-field="path" sort-order="1" priority="20"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>
