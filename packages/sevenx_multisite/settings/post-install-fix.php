@@ -485,7 +485,8 @@ if ( !function_exists( 'sevenxFixMenuINIFiles' ) )
     function sevenxFixMenuINIFiles( &$packageNodeMap )
     {
         // Fit & Healthy (default site) menu configuration.
-        $fitMainMenuPackageIds = array( 79, 117, 131, 150, 151 );
+        // 26210: the tour page /exponential-live (remote id showcase-s1-tour), last, as on the reference site.
+        $fitMainMenuPackageIds = array( 79, 117, 131, 150, 151, 26210 );
         $fitFooterMenuPackageIds = array( 150, 262, 172, 179, 77 );
 
         $fitMainMenuNexusMap = array(
@@ -718,7 +719,7 @@ if ( !function_exists( 'sevenxCleanStaleUrlTextAttributes' ) )
         $db = eZDB::instance();
 
         $rows = $db->arrayQuery( "
-            SELECT o.id, o.name, a.id AS attr_id, a.version, a.data_text AS url_text
+            SELECT o.id, o.name, o.remote_id, a.id AS attr_id, a.version, a.data_text AS url_text
             FROM ezcontentobject o
             JOIN ezcontentobject_attribute a ON a.contentobject_id = o.id
             JOIN ezcontentclass_attribute ca ON a.contentclassattribute_id = ca.id AND ca.identifier = 'url_text'
@@ -731,6 +732,10 @@ if ( !function_exists( 'sevenxCleanStaleUrlTextAttributes' ) )
             // <> '' in SQL matches nothing where '' is NULL (Oracle): the empty
             // string is skipped here
             if ( (string)$row['url_text'] === '' )
+                continue;
+            // The showcase pages set their address on purpose (the tour page is named "Tour" and lives at
+            // /exponential-live); only the imported Nexus content carries stale texts.
+            if ( strpos( (string)$row['remote_id'], 'showcase-' ) === 0 )
                 continue;
             $name = eZURLAliasML::convertToAlias( $row['name'], 'node_' . $row['id'] );
             $url = strtolower( $row['url_text'] );
