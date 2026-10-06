@@ -1528,6 +1528,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_function' => 'postInstallCreateAdminUISiteaccess',
                 '_params' => array()
             ),
+            // After the last step that writes a siteaccess's site.ini.
+            array(
+                '_function' => 'postInstallEnableSearchStatsOnEverySiteaccess',
+                '_params' => array()
+            ),
 
             // Cosmetic, and deliberately last. executeSteps aborts the whole
             // chain on the first step that reports an error, and the template
@@ -4120,6 +4125,59 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     function solutionExtensionName()
     {
         return 'sevenx_multisite_default_installer';
+    }
+
+    /**
+     * Search statistics on every siteaccess this installer writes: site.ini [SearchSettings] LogSearchStats=enabled in
+     * settings/siteaccess/<name>/site.ini.append.php (Exponential's settings/site.ini has it disabled). One step, after
+     * every siteaccess's site.ini is written, over the installer's own list of siteaccesses, so one added to that list
+     * later gets it too. A siteaccess whose directory is not there yet is left out and logged: the editor siteaccess
+     * (and adminui, when the setup makes it) is a copy of the admin one made after the post-install, and takes the
+     * setting with the copy. The file is saved round trip, everything else in it as it was. Never stops the install.
+     */
+    function postInstallEnableSearchStatsOnEverySiteaccess( $params = false )
+    {
+        $root = is_array( $params ) && isset( $params['siteaccess_root'] ) ? rtrim( $params['siteaccess_root'], '/' ) : 'settings/siteaccess';
+        $done = array();
+        $left = array();
+        foreach ( $this->searchStatsSiteaccessList() as $siteaccess )
+        {
+            $dir = $root . '/' . $siteaccess;
+            if ( !file_exists( $dir . '/site.ini.append.php' ) )
+            {
+                $left[] = $siteaccess;
+                continue;
+            }
+            $ini = new eZINI( 'site.ini.append.php', $dir, null, false, null, true, true );
+            $ini->setReadOnlySettingsCheck( false );
+            $ini->setVariable( 'SearchSettings', 'LogSearchStats', 'enabled' );
+            if ( $ini->save( false, false, false, false, true, false ) )
+                $done[] = $siteaccess;
+            else
+                eZDebug::writeError( "LogSearchStats=enabled could not be saved in $dir/site.ini.append.php", __METHOD__ );
+        }
+        eZDebug::writeNotice( 'LogSearchStats=enabled on: ' . ( $done ? implode( ', ', $done ) : 'no siteaccess' )
+                              . ( $left ? '; not there yet: ' . implode( ', ', $left ) : '' ), __METHOD__ );
+        return true;
+    }
+
+    /**
+     * The siteaccesses this installer writes settings for: the served list where the installer has one, otherwise
+     * every siteaccess it names (main, admin, and one per language).
+     */
+    function searchStatsSiteaccessList()
+    {
+        if ( method_exists( $this, 'servedSiteaccessList' ) )
+            $list = $this->servedSiteaccessList();
+        else
+            $list = $this->hasSetting( 'all_siteaccess_list' ) ? (array)$this->setting( 'all_siteaccess_list' ) : array();
+        if ( $this->hasSetting( 'language_based_siteaccess_list' ) )
+            $list = array_merge( $list, (array)$this->setting( 'language_based_siteaccess_list' ) );
+        // the installers without that list make one siteaccess per language (createTranslationSiteAccesses())
+        else if ( $this->hasSetting( 'locales' ) )
+            foreach ( (array)$this->setting( 'locales' ) as $locale )
+                $list[] = $this->languageNameFromLocale( $locale );
+        return array_values( array_unique( array_filter( array_map( 'strval', $list ), 'strlen' ) ) );
     }
 
     function createTranslationSiteAccesses()
