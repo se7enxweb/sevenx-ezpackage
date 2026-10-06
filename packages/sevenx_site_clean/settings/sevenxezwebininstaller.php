@@ -1363,6 +1363,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 'AvailableDataTypes' => $availableDatatype 
             ) 
         ) );
+        // sevenx_authentication_2fa: the two-step sign-in field on the user class (addTwoFactorUserField())
+        if ( $this->twoFactorAuthenticationAvailable() )
+            $this->addTwoFactorUserField();
         $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
         $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
     }
@@ -1631,6 +1634,65 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         return is_dir( 'extension/sevenx_authentication_2fa' );
     }
 
+    /**
+     * sevenx_authentication_2fa: adds the field "Two-step sign-in" (two_factor, datatype sevenxauthentication2fa)
+     * to the user class, with an empty attribute for each existing user object. The datatype is registered for
+     * this process first; without it, or when the class already has the field, nothing is changed.
+     */
+    function addTwoFactorUserField()
+    {
+        $contentINI = eZINI::instance( 'content.ini' );
+        $repositories = $contentINI->variable( 'DataTypeSettings', 'ExtensionDirectories' );
+        if ( !in_array( 'sevenx_authentication_2fa', $repositories, true ) )
+            $repositories[] = 'sevenx_authentication_2fa';
+        $available = $contentINI->variable( 'DataTypeSettings', 'AvailableDataTypes' );
+        if ( !in_array( 'sevenxauthentication2fa', $available, true ) )
+            $available[] = 'sevenxauthentication2fa';
+        $contentINI->setVariables( array( 'DataTypeSettings' => array( 'ExtensionDirectories' => $repositories,
+                                                                       'AvailableDataTypes' => $available ) ) );
+        if ( !eZDataType::create( 'sevenxauthentication2fa' ) )
+        {
+            eZDebug::writeError( 'The sevenxauthentication2fa datatype could not be loaded; the user class gets no two-step sign-in field', __METHOD__ );
+            return false;
+        }
+        $class = eZContentClass::fetchByIdentifier( 'user' );
+        if ( !$class )
+            return false;
+        foreach ( $class->fetchAttributes() as $attribute )
+        {
+            if ( $attribute->attribute( 'data_type_string' ) === 'sevenxauthentication2fa' )
+                return true;
+        }
+        $language = method_exists( $this, 'primaryLanguageLocale' ) ? $this->primaryLanguageLocale() : $this->setting( 'primary_language' );
+        $db = eZDB::instance();
+        $db->begin();
+        $this->addClassAttributes( array(
+            'class' => array( 'identifier' => 'user' ),
+            'attributes' => array(
+                array( 'identifier' => 'two_factor', 'name' => 'Two-step sign-in', 'data_type_string' => 'sevenxauthentication2fa',
+                       'can_translate' => 0, 'is_required' => 0, 'is_searchable' => 0, 'language' => $language ? $language : false )
+            )
+        ) );
+        $db->commit();
+        return true;
+    }
+
+    /**
+     * settings/override/sevenxauthentication2fa.ini.append.php: two-step sign-in is the users' choice
+     * (Enforce2FA=disabled; DefaultMethod applies once it is enforced), and the authenticator secrets are stored
+     * encrypted with a key made for this installation alone.
+     */
+    function twoFactorINISettings()
+    {
+        return array(
+            'name' => 'sevenxauthentication2fa.ini',
+            'settings' => array(
+                'General' => array( 'Enforce2FA' => 'disabled', 'DefaultMethod' => 'totp' ),
+                'TOTPSettings' => array( 'SecretKey' => base64_encode( random_bytes( 48 ) ) )
+            )
+        );
+    }
+
     function createTranslationSiteAccesses()
     {
         foreach ($this->setting( 'locales' ) as $locale)
@@ -1714,18 +1776,10 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 ) 
             ) 
         );
-        // sevenx_authentication_2fa (its INSTALL.md, role policies): the 2FA challenge and the social login for
-        // anonymous visitors, the 2FA setup for members
+        // sevenx_authentication_2fa (its INSTALL.md, role policies): members manage their own second step. The
+        // steps before signing in need no policy: the extension lists them in [RoleSettings] PolicyOmitList.
         if ( $this->twoFactorAuthenticationAvailable() )
         {
-            $roles[] = array(
-                'name' => 'Anonymous',
-                'policies' => array(
-                    array( 'module' => 'user2fa', 'function' => 'verify' ),
-                    array( 'module' => 'user2fa', 'function' => 'oauth' ),
-                    array( 'module' => 'user2fa', 'function' => 'callback' )
-                )
-            );
             $roles[] = array(
                 'name' => 'Member',
                 'policies' => array(
@@ -2277,6 +2331,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         $settings[] = $this->commonForumINISettings();
         $settings[] = $this->commonOEAttributesINISettings();
         $settings[] = $this->commonXMLINISettings();
+        // sevenx_authentication_2fa: opt-in, with a secret key of this installation (twoFactorINISettings())
+        if ( $this->twoFactorAuthenticationAvailable() )
+            $settings[] = $this->twoFactorINISettings();
         return $settings;
     }
 
