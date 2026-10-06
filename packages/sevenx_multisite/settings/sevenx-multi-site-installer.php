@@ -155,6 +155,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'recaptcha',
             // An hCaptcha field for forms, next to recaptcha; it needs its keys set.
             'hcaptcha',
+            // Two-factor (TOTP, e-mail) and social login; the login handler and policies: twoFactorAuthenticationAvailable()
+            'sevenx_authentication_2fa',
             'powercontent',
             'sevenx_dse',
             'sevenx_themes_media',
@@ -4180,6 +4182,15 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         return array_values( array_unique( array_filter( array_map( 'strval', $list ), 'strlen' ) ) );
     }
 
+    /**
+     * Whether the installation has the sevenx_authentication_2fa extension (two-factor and social login). Its login
+     * handler and role policies are written only then: a login handler that is not there breaks every login.
+     */
+    function twoFactorAuthenticationAvailable()
+    {
+        return is_dir( 'extension/sevenx_authentication_2fa' );
+    }
+
     function createTranslationSiteAccesses()
     {
         $primaryLanguage = $this->setting( 'primary_language' );
@@ -4358,6 +4369,26 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'policies' => array( $infoCollectionPolicy )
         );
 
+        // sevenx_authentication_2fa (its INSTALL.md, role policies): the 2FA challenge and the social login for
+        // anonymous visitors, the 2FA setup for members
+        if ( $this->twoFactorAuthenticationAvailable() )
+        {
+            $roles[] = array(
+                'name' => 'Anonymous',
+                'policies' => array(
+                    array( 'module' => 'user2fa', 'function' => 'verify' ),
+                    array( 'module' => 'user2fa', 'function' => 'oauth' ),
+                    array( 'module' => 'user2fa', 'function' => 'callback' )
+                )
+            );
+            $roles[] = array(
+                'name' => 'Member',
+                'policies' => array(
+                    array( 'module' => 'user2fa', 'function' => 'setup' ),
+                    array( 'module' => 'user2fa', 'function' => 'verify' )
+                )
+            );
+        }
         return $roles;
     }
 
@@ -5378,6 +5409,10 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $settings['UserSettings'] = array( 
             'LogoutRedirect' => '/' 
         );
+        // sevenx_authentication_2fa: its login handler before the standard one (its INSTALL.md, "Extension
+        // activation"). Without a 2FA method set up for a user (Enforce2FA=disabled) the login is as before.
+        if ( $this->twoFactorAuthenticationAvailable() )
+            $settings['UserSettings']['LoginHandler'] = array( 'sevenxUser2fa', 'standard' );
         // The static cache is generated from Setup > Cache > Static content
         // cache and served by the web server from var/<var dir>/static, ahead
         // of the front controller. It is installed switched off: with it on,

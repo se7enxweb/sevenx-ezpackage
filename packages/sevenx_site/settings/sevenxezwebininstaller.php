@@ -103,6 +103,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'enhancedezbinaryfile', 
             'enhancedselection2', 
             'bcwebshop', 
+            'sevenx_authentication_2fa',
             'ezwebin', 
             'ezmultiupload' 
         ) );
@@ -1649,6 +1650,15 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         return array_values( array_unique( array_filter( array_map( 'strval', $list ), 'strlen' ) ) );
     }
 
+    /**
+     * Whether the installation has the sevenx_authentication_2fa extension (two-factor and social login). Its login
+     * handler and role policies are written only then: a login handler that is not there breaks every login.
+     */
+    function twoFactorAuthenticationAvailable()
+    {
+        return is_dir( 'extension/sevenx_authentication_2fa' );
+    }
+
     function createTranslationSiteAccesses()
     {
         foreach ($this->setting( 'locales' ) as $locale)
@@ -1732,6 +1742,26 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 ) 
             ) 
         );
+        // sevenx_authentication_2fa (its INSTALL.md, role policies): the 2FA challenge and the social login for
+        // anonymous visitors, the 2FA setup for members
+        if ( $this->twoFactorAuthenticationAvailable() )
+        {
+            $roles[] = array(
+                'name' => 'Anonymous',
+                'policies' => array(
+                    array( 'module' => 'user2fa', 'function' => 'verify' ),
+                    array( 'module' => 'user2fa', 'function' => 'oauth' ),
+                    array( 'module' => 'user2fa', 'function' => 'callback' )
+                )
+            );
+            $roles[] = array(
+                'name' => 'Member',
+                'policies' => array(
+                    array( 'module' => 'user2fa', 'function' => 'setup' ),
+                    array( 'module' => 'user2fa', 'function' => 'verify' )
+                )
+            );
+        }
         return $roles;
     }
 
@@ -2295,6 +2325,10 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         $settings['UserSettings'] = array( 
             'LogoutRedirect' => '/' 
         );
+        // sevenx_authentication_2fa: its login handler before the standard one (its INSTALL.md, "Extension
+        // activation"). Without a 2FA method set up for a user (Enforce2FA=disabled) the login is as before.
+        if ( $this->twoFactorAuthenticationAvailable() )
+            $settings['UserSettings']['LoginHandler'] = array( 'sevenxUser2fa', 'standard' );
         $settings['EmbedViewModeSettings'] = array( 
             'AvailableViewModes' => array( 
                 'embed', 
