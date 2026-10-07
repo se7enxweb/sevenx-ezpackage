@@ -10,7 +10,7 @@
           <text></text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="4033" ezremote:identifier="full_intro" name="Intro" type="ezxmltext">
-          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4034" ezremote:identifier="sender_first_name" name="First name" type="ezstring">
           <text></text>

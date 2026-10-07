@@ -184,7 +184,7 @@
           <text></text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="3986" ezremote:identifier="item_7_description" name="Item 7 description" type="ezxmltext">
-          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3987" ezremote:identifier="item_7_icon" name="Item 7 icon" type="ezbinaryfile"/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3988" ezremote:identifier="item_7_image" name="Item 7 image" type="ezimage" alternative-text=""/>
@@ -204,7 +204,7 @@
           <text></text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="3994" ezremote:identifier="item_8_description" name="Item 8 description" type="ezxmltext">
-          <default:section xmlns="http://docbook.org/ns/docbook" xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/"/>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3995" ezremote:identifier="item_8_icon" name="Item 8 icon" type="ezbinaryfile"/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3996" ezremote:identifier="item_8_image" name="Item 8 image" type="ezimage" alternative-text=""/>
