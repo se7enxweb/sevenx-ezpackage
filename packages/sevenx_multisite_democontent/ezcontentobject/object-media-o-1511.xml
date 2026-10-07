@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="59" name="Privacy Policy" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Wed, 25 Jan 2023 17:49:16 GMT" ezremote:modified="Wed, 15 Feb 2023 08:02:33 GMT" remote_id="media-o-1511" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="59" name="Privacy policy" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="43" ezremote:published="Wed, 25 Jan 2023 17:49:16 GMT" ezremote:modified="Wed, 15 Feb 2023 08:02:33 GMT" remote_id="media-o-1511" class_remote_id="e6e3ca754beb50d1268c2d27588926cb" ezremote:class_identifier="ng_article" ezremote:always_available="0" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Wed, 15 Feb 2023 08:02:24 GMT" ezremote:modified="Wed, 15 Feb 2023 08:02:33 GMT" initial_language="eng-US">
-      <ezobject:object-translation language="eng-US" object_name="Privacy Policy">
+      <ezobject:object-translation language="eng-US" object_name="Privacy policy">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="226" ezremote:identifier="title" name="Title" type="ezstring">
-          <text>Privacy Policy</text>
+          <text>Privacy policy</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="227" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
-          <text>Datenschutz</text>
+          <text>Privacy policy</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="228" ezremote:identifier="authors" name="Author" type="ezobjectrelationlist">
           <related-objects>
@@ -24,7 +24,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="233" ezremote:identifier="body" name="Body text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <paragraph>This is Privacy Policy article</paragraph>
+            <paragraph>This is a privacy policy article.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="234" ezremote:identifier="related_content" name="Related content" type="ezobjectrelationlist">
@@ -149,7 +149,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="media-n-940" name="Privacy Policy" node-id="61" remote-id="media-n-1062" sort-field="published" sort-order="0" priority="110"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-940" name="Privacy policy" node-id="61" remote-id="media-n-1062" sort-field="published" sort-order="0" priority="110"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>
