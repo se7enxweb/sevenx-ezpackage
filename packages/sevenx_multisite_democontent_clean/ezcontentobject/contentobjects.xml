@@ -9,6 +9,14 @@
     <object-file filename="object-media-o-banners.xml" />
     <object-file filename="object-media-o-clients-partners.xml" />
     <object-file filename="object-media-o-configuration.xml" />
+    <object-file filename="object-media-o-footer-links.xml" />
+    <object-file filename="object-media-o-footer-link-login.xml" />
+    <object-file filename="object-media-o-footer-link-signup.xml" />
+    <object-file filename="object-media-o-footer-link-cart.xml" />
+    <object-file filename="object-media-o-footer-link-edit.xml" />
+    <object-file filename="object-media-o-footer-link-tagcloud.xml" />
+    <object-file filename="object-media-o-footer-link-sitemap.xml" />
+    <object-file filename="object-media-o-footer-link-forgot-password.xml" />
     <object-file filename="object-media-o-forms.xml" />
     <object-file filename="object-media-o-menu-items.xml" />
     <object-file filename="object-media-o-components-hero.xml" />

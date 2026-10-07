@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="9003830" name="Sitemap" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="71" ezremote:published="Wed, 07 Oct 2026 15:23:38 GMT" ezremote:modified="Wed, 07 Oct 2026 15:23:38 GMT" remote_id="media-o-footer-link-sitemap" class_remote_id="cab85b78089ec3b0770c3a3b05d07cdb" ezremote:class_identifier="ng_menu_item" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Wed, 07 Oct 2026 15:23:38 GMT" ezremote:modified="Wed, 07 Oct 2026 15:23:38 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Sitemap">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003831" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Sitemap</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003832" ezremote:identifier="item_object" name="Item object" type="ezobjectrelation"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003833" ezremote:identifier="item_url" name="Item URL" type="ezurl">
+          <url original-url-md5="6db3466e05ec1d7ac139d2c7e0f3f6c8" is-valid="1" last-checked="0" created="1791386618" modified="1791386618">%2Fcontent%2Fview%2Fsitemap</url>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003834" ezremote:identifier="menu_items" name="Menu items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003835" ezremote:identifier="parent_node" name="Parent node" type="ezobjectrelation"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003836" ezremote:identifier="class_filter" name="Class filter" type="ngclasslist">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003837" ezremote:identifier="class_filter_type" name="Class filter type" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003838" ezremote:identifier="depth" name="Max depth" type="ezinteger">
+          <value></value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003839" ezremote:identifier="limit" name="Limit" type="ezinteger">
+          <value></value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003840" ezremote:identifier="use_menu_item_name" name="Use menu item name" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003841" ezremote:identifier="target_blank" name="Target blank" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:object-translation language="ger-DE" object_name="Sitemap">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003831" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Sitemap</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003832" ezremote:identifier="item_object" name="Item object" type="ezobjectrelation"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003833" ezremote:identifier="item_url" name="Item URL" type="ezurl">
+          <url original-url-md5="6db3466e05ec1d7ac139d2c7e0f3f6c8" is-valid="1" last-checked="0" created="1791386618" modified="1791386618">%2Fcontent%2Fview%2Fsitemap</url>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003834" ezremote:identifier="menu_items" name="Menu items" type="ezobjectrelationlist">
+          <related-objects>
+            <relation-list/>
+          </related-objects>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003835" ezremote:identifier="parent_node" name="Parent node" type="ezobjectrelation"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003836" ezremote:identifier="class_filter" name="Class filter" type="ngclasslist">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003837" ezremote:identifier="class_filter_type" name="Class filter type" type="sckenhancedselection">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003838" ezremote:identifier="depth" name="Max depth" type="ezinteger">
+          <value></value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003839" ezremote:identifier="limit" name="Limit" type="ezinteger">
+          <value></value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003840" ezremote:identifier="use_menu_item_name" name="Use menu item name" type="ezboolean">
+          <value>1</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="9003841" ezremote:identifier="target_blank" name="Target blank" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="media-n-footer-links" name="Sitemap" remote-id="media-n-footer-link-sitemap" sort-field="path" sort-order="1" priority="60"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>
