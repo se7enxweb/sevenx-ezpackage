@@ -72,7 +72,7 @@
               <column num="0" id="specification">Specification</column>
               <column num="1" id="value">Value</column>
             </columns>
-            <rows number="7"/>
+            <rows number="6"/>
             <c>Material</c>
             <c>Recycled polyester</c>
             <c>Weight</c>
