@@ -9,7 +9,11 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5361" ezremote:identifier="teaser_title" name="Teaser title" type="ezstring">
           <text>Tour</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5362" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5362" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
+            <paragraph>A guided tour of Exponential 6 on this server: twelve stops, ten to fifteen minutes, real features and real speed.</paragraph>
+          </section>
+        </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="5363" ezremote:identifier="tags" name="Tags" type="eztags">
           <id-string></id-string>
           <keyword-string></keyword-string>

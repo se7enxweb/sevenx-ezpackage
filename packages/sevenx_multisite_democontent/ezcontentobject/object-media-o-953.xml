@@ -74,17 +74,12 @@
                 </link>
                 <emphasize>.</emphasize>
               </paragraph>
-              <paragraph>
+              <paragraph><line>
                 <emphasize>
                   <emphasize>Article credit: <link href="https://medium.com/@DanSanchezV">Dan Sanchez</link>  / <link href="https://creativecommons.org/licenses/by/4.0/">CC BY</link></emphasize>
-                </emphasize>
-                <line/>
-                <line/>
-                <emphasize>
+                </emphasize></line><line><emphasize>
                   <emphasize>Cover photo: <link href="https://unsplash.com/photos/2rMOrpr3GUk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charlotte Karlsen</link></emphasize>
-                </emphasize>
-                <line/>
-              </paragraph>
+                </emphasize></line></paragraph>
             </section>
           </section>
         </ezobject:attribute>

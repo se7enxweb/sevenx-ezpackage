@@ -212,15 +212,10 @@
                 </li>
               </ul></paragraph>
               <paragraph>Now you know, and knowing is half the battle.</paragraph>
-              <paragraph>
+              <paragraph><line>
                 <emphasize>
                   <emphasize>Article credit: <link href="https://www.skillbasedfitness.com/">Skill Based Fitness</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
-                </emphasize>
-                <line/>
-                <line/>
-                <emphasize>Cover photo: <link href="https://unsplash.com/photos/Vn39uEkX00s?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Webb</link></emphasize>
-                <line/>
-              </paragraph>
+                </emphasize></line><line><emphasize>Cover photo: <link href="https://unsplash.com/photos/Vn39uEkX00s?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Webb</link></emphasize></line></paragraph>
             </section>
           </section>
         </ezobject:attribute>

@@ -56,13 +56,8 @@
                     <paragraph>Remove from fridge next morning and enjoy!</paragraph>
                   </li>
                 </ol></paragraph>
-                <paragraph>
-                  <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
-                  <line/>
-                  <line/>
-                  <emphasize>Photo credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
-                  <line/>
-                </paragraph>
+                <paragraph><line>
+                  <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize></line><line><emphasize>Photo credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize></line></paragraph>
               </section>
             </section>
           </section>

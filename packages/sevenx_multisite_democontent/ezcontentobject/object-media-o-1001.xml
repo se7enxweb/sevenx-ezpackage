@@ -30,7 +30,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1014" ezremote:identifier="body" name="Body text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <paragraph>Serves 4-6<line/><line/><emphasize>Adapted from the Chiang Mai Cookery School in Thailand</emphasize><line/></paragraph>
+            <paragraph><line>Serves 4-6</line><line><emphasize>Adapted from the Chiang Mai Cookery School in Thailand</emphasize></line></paragraph>
             <section>
               <section>
                 <header>INGREDIENTS</header>
@@ -121,13 +121,8 @@
                     <paragraph>Transfer to a serving dish and garnish with the remaining chopped peanuts, fresh cilantro, and lime wedges.</paragraph>
                   </li>
                 </ol></paragraph>
-                <paragraph>
-                  <emphasize>Recipe credit: <link href="http://www.foodista.com/user/44">Sheri Wetherell</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
-                  <line/>
-                  <line/>
-                  <emphasize>Photo credit: <link href="https://pixabay.com/en/users/sharonang-99559/">sharonang</link> via <link href="https://pixabay.com/">Pixabay</link> / <link href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC BY</link></emphasize>
-                  <line/>
-                </paragraph>
+                <paragraph><line>
+                  <emphasize>Recipe credit: <link href="http://www.foodista.com/user/44">Sheri Wetherell</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize></line><line><emphasize>Photo credit: <link href="https://pixabay.com/en/users/sharonang-99559/">sharonang</link> via <link href="https://pixabay.com/">Pixabay</link> / <link href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC BY</link></emphasize></line></paragraph>
               </section>
             </section>
           </section>

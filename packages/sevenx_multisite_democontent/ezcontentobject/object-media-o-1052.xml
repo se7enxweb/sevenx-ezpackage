@@ -97,13 +97,8 @@
                   <paragraph>2: <link href="https://www.ncbi.nlm.nih.gov/pubmed/7886283">https://www.ncbi.nlm.nih.gov/pubmed/7886283</link></paragraph>
                 </li>
               </ul></paragraph>
-              <paragraph>
-                <emphasize>Article credit: <link href="http://www.markwk.com/">Mark Koester</link> / <link href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY</link></emphasize>
-                <line/>
-                <line/>
-                <emphasize>Cover photo: <link href="https://unsplash.com/photos/ky1w7eac5EM?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Maarten van den Heuvel</link></emphasize>
-                <line/>
-              </paragraph>
+              <paragraph><line>
+                <emphasize>Article credit: <link href="http://www.markwk.com/">Mark Koester</link> / <link href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY</link></emphasize></line><line><emphasize>Cover photo: <link href="https://unsplash.com/photos/ky1w7eac5EM?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Maarten van den Heuvel</link></emphasize></line></paragraph>
             </section>
           </section>
         </ezobject:attribute>
