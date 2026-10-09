@@ -22,9 +22,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="322" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We are seeking a product manager who will help us identify customer needs and more prominent business objectives for a particular project, articulate what success looks like in this case study and rally team members to help turn that vision into reality.</paragraph>
-            </section>
+            <paragraph>We are seeking a product manager who will help us identify customer needs and more prominent business objectives for a particular project, articulate what success looks like in this case study and rally team members to help turn that vision into reality.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="323" ezremote:identifier="teaser_intro" name="Meta Data" type="ezxmltext">
@@ -32,15 +30,12 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="324" ezremote:identifier="job_overview" name="Job overview" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>As a product manager, you will be responsible for developing and managing products from start to finish. This includes ideation, research, development, launch, and post-launch analysis. You will also be responsible for working with cross-functional teams to ensure that products are launched on time and within budget. If you are a self-starter with a passion for fitness, then we want to hear from you!</paragraph>
-            </section>
+            <paragraph>As a product manager, you will be responsible for developing and managing products from start to finish. This includes ideation, research, development, launch, and post-launch analysis. You will also be responsible for working with cross-functional teams to ensure that products are launched on time and within budget. If you are a self-starter with a passion for fitness, then we want to hear from you!</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="325" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <ul>
+            <paragraph><ul>
                 <li>
                   <paragraph>Proven work experience in product management or as an associate product manager</paragraph>
                 </li>
@@ -65,14 +60,12 @@
                 <li>
                   <paragraph>MS/BS degree in Computer Science, Engineering or equivalent preferred</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="326" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <ul>
+            <paragraph><ul>
                 <li>
                   <paragraph>Gain a deep understanding of customer experience, identify and fill product gaps and generate new ideas that grow market share, improve customer experience and drive growth</paragraph>
                 </li>
@@ -103,8 +96,7 @@
                 <li>
                   <paragraph>Represent the company by visiting customers to solicit feedback on company products and services</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="327" ezremote:identifier="url_text" name="URL  text" type="ezstring">
@@ -160,7 +152,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4144" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>Nachgewiesene Berufserfahrung im Product Management oder als stellvertretender Product Manager</paragraph>
               </li>
@@ -185,12 +177,12 @@
               <li>
                 <paragraph>MS/BS-Abschluss in Informatik, Ingenieurwesen oder gleichwertig bevorzugt</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4145" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>Ein tiefes Verständnis der Kundenerfahrung zu erlangen, Produktlücken zu identifizieren und zu schließen und neue Ideen zu entwickeln, die den Marktanteil erhöhen, die Kundenerfahrung verbessern und das Wachstum fördern</paragraph>
               </li>
@@ -221,7 +213,7 @@
               <li>
                 <paragraph>Repräsentation des Unternehmens durch Kundenbesuche, um Feedback zu den Produkten und Dienstleistungen des Unternehmens einzuholen</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4147" ezremote:identifier="url_text" name="URL  text" type="ezstring">

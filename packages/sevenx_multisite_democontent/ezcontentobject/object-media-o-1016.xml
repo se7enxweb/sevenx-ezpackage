@@ -33,7 +33,7 @@
             <section>
               <section>
                 <header>INGREDIENTS</header>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>1 large egg</paragraph>
                   </li>
@@ -61,9 +61,9 @@
                   <li>
                     <paragraph>1 tablespoon of butter for each slice, 6-8 slices total</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Heat 10- to 12-inch skillet (preferably cast-iron) over medium heat for 5 minutes.</paragraph>
                   </li>
@@ -88,7 +88,7 @@
                   <li>
                     <paragraph>Serve immediately. Continue, adding 1 tablespoon butter to skillet for each new batch.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

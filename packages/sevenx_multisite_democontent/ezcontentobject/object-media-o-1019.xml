@@ -34,7 +34,7 @@
               <section>
                 <header>INGREDIENTS</header>
                 <paragraph>For quinoa:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>1 cup quinoa</paragraph>
                   </li>
@@ -44,9 +44,9 @@
                   <li>
                     <paragraph>¼ teaspoon salt</paragraph>
                   </li>
-                </ul>
+                </ul></paragraph>
                 <paragraph>For the salad:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>1 cup grape tomatoes, halved</paragraph>
                   </li>
@@ -68,9 +68,9 @@
                   <li>
                     <paragraph>4 ounces (about ½ cup) feta cheese</paragraph>
                   </li>
-                </ul>
+                </ul></paragraph>
                 <paragraph>For vinaigrette:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>2 teaspoons red wine vinegar</paragraph>
                   </li>
@@ -89,10 +89,10 @@
                   <li>
                     <paragraph>5 tablespoons extra-virgin olive oil</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
                 <paragraph>Quinoa</paragraph>
-                <ol>
+                <paragraph><ol>
                   <li>
                     <paragraph>Using a fine mesh strainer, rinse quinoa under cold water.</paragraph>
                   </li>
@@ -102,9 +102,9 @@
                   <li>
                     <paragraph>Transfer quinoa to a large bowl.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>Salad</paragraph>
-                <ol>
+                <paragraph><ol>
                   <li>
                     <paragraph>Cut grape tomatoes in half and season lightly with salt. Place in a colander over the sink to let excess water drain.</paragraph>
                   </li>
@@ -120,9 +120,9 @@
                   <li>
                     <paragraph>Crumble feta cheese over vegetables.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>Vinaigrette</paragraph>
-                <ol>
+                <paragraph><ol>
                   <li>
                     <paragraph>In a small mixing bowl or measuring cup, whisk together vinegar, lemon juice, and spices.</paragraph>
                   </li>
@@ -132,7 +132,7 @@
                   <li>
                     <paragraph>Add the vinaigrette to the salad and toss to combine. Taste and add additional salt or pepper as desired. Serve immediately.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

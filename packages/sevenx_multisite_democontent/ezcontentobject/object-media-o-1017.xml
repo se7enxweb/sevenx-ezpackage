@@ -33,7 +33,7 @@
             <section>
               <section>
                 <header>INGREDIENTS</header>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>4 to 5 large sweet potatoes or yams</paragraph>
                   </li>
@@ -61,9 +61,9 @@
                   <li>
                     <paragraph>1 small can of crushed pineapples, undrained</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Peel the sweet potatoes and chop into 1 to 2 inch thick slices. Place in a large stock pot and fill with water until potatoes are completely submerged and are able to float with about ½ inch of room.</paragraph>
                   </li>
@@ -79,7 +79,7 @@
                   <li>
                     <paragraph>Stir in cranberries and crushed pineapple.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

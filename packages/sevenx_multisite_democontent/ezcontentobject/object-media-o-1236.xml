@@ -14,9 +14,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3930" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We prioritize the well-being of our employees, customers and communities, and strive to make a positive impact on the world.</paragraph>
-            </section>
+            <paragraph>We prioritize the well-being of our employees, customers and communities, and strive to make a positive impact on the world.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3931" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
@@ -40,9 +38,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3938" ezremote:identifier="item_1_description" name="Item 1 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We believe that a team of creatives is way more powerful than one lone wolf, so we never work alone. We rely on each other for support, resources, and expertise.</paragraph>
-            </section>
+            <paragraph>We believe that a team of creatives is way more powerful than one lone wolf, so we never work alone. We rely on each other for support, resources, and expertise.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3939" ezremote:identifier="item_1_icon" name="Item 1 icon" type="ezbinaryfile"/>
@@ -64,9 +60,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3946" ezremote:identifier="item_2_description" name="Item 2 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We care about what our colleagues are going through and want to help them grow. That’s why we always show up for each other with thoughtfulness and humility, listen, learn and empathize.</paragraph>
-            </section>
+            <paragraph>We care about what our colleagues are going through and want to help them grow. That’s why we always show up for each other with thoughtfulness and humility, listen, learn and empathize.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3947" ezremote:identifier="item_2_icon" name="Item 2 icon" type="ezbinaryfile"/>
@@ -88,9 +82,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3954" ezremote:identifier="item_3_description" name="Item 3 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We care about prioritizing our shared goals to make sure we spend our shared time wisely. We honor each other’s time and always bear in mind how important it is to take breaks and enjoy our personal life, too!</paragraph>
-            </section>
+            <paragraph>We care about prioritizing our shared goals to make sure we spend our shared time wisely. We honor each other’s time and always bear in mind how important it is to take breaks and enjoy our personal life, too!</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3955" ezremote:identifier="item_3_icon" name="Item 3 icon" type="ezbinaryfile"/>
@@ -112,9 +104,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3962" ezremote:identifier="item_4_description" name="Item 4 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We're constantly creating, discovering, and exploring new things. We encourage everyone to be curious and take risks, because we know that learning never stops.</paragraph>
-            </section>
+            <paragraph>We're constantly creating, discovering, and exploring new things. We encourage everyone to be curious and take risks, because we know that learning never stops.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3963" ezremote:identifier="item_4_icon" name="Item 4 icon" type="ezbinaryfile"/>
@@ -136,9 +126,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="3970" ezremote:identifier="item_5_description" name="Item 5 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xhtml:class="p1">No matter how big or small, our goal is always to create social good through marketing campaigns that will make an impact in people's lives and within their community.</paragraph>
-            </section>
+            <paragraph>No matter how big or small, our goal is always to create social good through marketing campaigns that will make an impact in people's lives and within their community.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3971" ezremote:identifier="item_5_icon" name="Item 5 icon" type="ezbinaryfile"/>
@@ -160,10 +148,8 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3978" ezremote:identifier="item_6_description" name="Item 6 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We believe the power of diversity and inclusion makes us stronger and more creative in our work. We're proud to be a team that celebrates all kinds of perspectives and backgrounds, and we're always looking for ways to make our workplace even more inclusive for everyone.</paragraph>
+            <paragraph>We believe the power of diversity and inclusion makes us stronger and more creative in our work. We're proud to be a team that celebrates all kinds of perspectives and backgrounds, and we're always looking for ways to make our workplace even more inclusive for everyone.</paragraph>
               <paragraph> </paragraph>
-            </section>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3979" ezremote:identifier="item_6_icon" name="Item 6 icon" type="ezbinaryfile"/>

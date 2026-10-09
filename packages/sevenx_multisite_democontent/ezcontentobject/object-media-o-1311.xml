@@ -36,9 +36,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3773" ezremote:identifier="item_1_description" name="Item 1 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>Today, when brands struggle to figure out the difference between hype and meaningful results, we work hard on creating a successful brand strategies, tailored specifically to our clients’ needs and budget. We bring fresh ideas and thoughtful analysis together so that you can stay ahead of your competition!</paragraph>
-            </section>
+            <paragraph>Today, when brands struggle to figure out the difference between hype and meaningful results, we work hard on creating a successful brand strategies, tailored specifically to our clients’ needs and budget. We bring fresh ideas and thoughtful analysis together so that you can stay ahead of your competition!</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3774" ezremote:identifier="item_1_icon" name="Item 1 icon" type="ezbinaryfile"/>
@@ -60,9 +58,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="3781" ezremote:identifier="item_2_description" name="Item 2 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xhtml:class="p1">We provide custom-built marketing solutions for fitness and sporting events like trade shows, fashion shows, expos and sports training. With the perfect stand layout and custom graphics we design, you get to focus on building relationships with customers.</paragraph>
-            </section>
+            <paragraph>We provide custom-built marketing solutions for fitness and sporting events like trade shows, fashion shows, expos and sports training. With the perfect stand layout and custom graphics we design, you get to focus on building relationships with customers.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3782" ezremote:identifier="item_2_icon" name="Item 2 icon" type="ezbinaryfile"/>
@@ -84,9 +80,8 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3789" ezremote:identifier="item_3_description" name="Item 3 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>Merging digital and physical media is just the beginning. We bring bold ideas to life through powerful tactics.</paragraph>
-              <ul>
+            <paragraph>Merging digital and physical media is just the beginning. We bring bold ideas to life through powerful tactics.</paragraph>
+              <paragraph><ul>
                 <li>
                   <paragraph>Web design</paragraph>
                 </li>
@@ -96,8 +91,7 @@
                 <li>
                   <paragraph>Graphic design</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3790" ezremote:identifier="item_3_icon" name="Item 3 icon" type="ezbinaryfile"/>
@@ -119,9 +113,8 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3797" ezremote:identifier="item_4_description" name="Item 4 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We help you attract, convert and engage the customers at scale using strategically planned campaigns that can be adapted for various platforms.</paragraph>
-              <ul>
+            <paragraph>We help you attract, convert and engage the customers at scale using strategically planned campaigns that can be adapted for various platforms.</paragraph>
+              <paragraph><ul>
                 <li>
                   <paragraph>PPC</paragraph>
                 </li>
@@ -134,8 +127,7 @@
                 <li>
                   <paragraph>Social media marketing</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3798" ezremote:identifier="item_4_icon" name="Item 4 icon" type="ezbinaryfile"/>
@@ -320,7 +312,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4696" ezremote:identifier="item_3_description" name="Item 3 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
             <paragraph>Die Verschmelzung von digitalen und physischen Medien ist nur der Anfang. Wir erwecken kühne Ideen durch wirkungsvolle Taktiken zum Leben.</paragraph>
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>Webdesign</paragraph>
               </li>
@@ -330,7 +322,7 @@
               <li>
                 <paragraph>Grafische Gestaltung</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4727" ezremote:identifier="item_3_icon" name="Item 3 icon" type="ezbinaryfile"/>
@@ -353,7 +345,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4700" ezremote:identifier="item_4_description" name="Item 4 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
             <paragraph>Wir helfen Ihnen, Kunden zu gewinnen, zu konvertieren und in großem Umfang zu binden, indem wir strategisch geplante Kampagnen einsetzen, die für verschiedene Plattformen angepasst werden können.</paragraph>
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>PPC</paragraph>
               </li>
@@ -366,7 +358,7 @@
               <li>
                 <paragraph>Marketing für soziale Medien</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4731" ezremote:identifier="item_4_icon" name="Item 4 icon" type="ezbinaryfile"/>

@@ -13,7 +13,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1818" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
             <paragraph>We help you attract, convert and engage the customers at scale using strategically planned campaigns that can be adapted for various platforms.</paragraph>
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>PPC</paragraph>
               </li>
@@ -26,7 +26,7 @@
               <li>
                 <paragraph>Social media marketing</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1819" ezremote:identifier="link" name="Link" type="ngenhancedlink">

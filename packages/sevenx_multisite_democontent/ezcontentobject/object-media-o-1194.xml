@@ -22,10 +22,8 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="336" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We are looking for a creative Art Director who enjoys working in a fast paced environment and loves the challenge of discovering what makes consumers “click”. You will cooperate with a design-savvy team to devise an overall concept.</paragraph>
+            <paragraph>We are looking for a creative Art Director who enjoys working in a fast paced environment and loves the challenge of discovering what makes consumers “click”. You will cooperate with a design-savvy team to devise an overall concept.</paragraph>
               <paragraph>The goal is to translate marketing and branding strategies into innovative and impressive campaigns that stimulate targeted audiences.</paragraph>
-            </section>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="337" ezremote:identifier="teaser_intro" name="Meta Data" type="ezxmltext">
@@ -33,15 +31,12 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="338" ezremote:identifier="job_overview" name="Job overview" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>As the Art Director, you will be responsible for leading the creative team and developing concepts and designs that meet the objectives of our clients. You will also be responsible for overseeing the production of all materials, from print to digital. If you are a strategic thinker with a passion for fitness and a strong sense of creativity, we want to hear from you!</paragraph>
-            </section>
+            <paragraph>As the Art Director, you will be responsible for leading the creative team and developing concepts and designs that meet the objectives of our clients. You will also be responsible for overseeing the production of all materials, from print to digital. If you are a strategic thinker with a passion for fitness and a strong sense of creativity, we want to hear from you!</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="339" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <ul>
+            <paragraph><ul>
                 <li>
                   <paragraph>Proven working experience as Art Director</paragraph>
                 </li>
@@ -66,14 +61,12 @@
                 <li>
                   <paragraph>Professional experience in health and fitness industry is a plus</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="340" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <ul>
+            <paragraph><ul>
                 <li>
                   <paragraph>Generate clear ideas and concepts in tandem with the copywriter</paragraph>
                 </li>
@@ -98,8 +91,7 @@
                 <li>
                   <paragraph>Stay on top of all trends and maintain best practices</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="341" ezremote:identifier="url_text" name="URL  text" type="ezstring">
@@ -156,7 +148,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4158" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>Nachgewiesene Berufserfahrung als Art Director</paragraph>
               </li>
@@ -181,12 +173,12 @@
               <li>
                 <paragraph>Berufserfahrung in der Gesundheits- und Fitnessbranche ist ein Plus</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4159" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>Entwicklung klarer Ideen und Konzepte in Zusammenarbeit mit dem Copywriter</paragraph>
               </li>
@@ -208,7 +200,7 @@
               <li>
                 <paragraph>Sie behalten den Überblick über alle Trends und halten Sie sich an bewährte Verfahren</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4161" ezremote:identifier="url_text" name="URL  text" type="ezstring">

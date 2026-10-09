@@ -33,7 +33,7 @@
             <section>
               <section>
                 <header>INGREDIENTS</header>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>cooking spray</paragraph>
                   </li>
@@ -70,9 +70,9 @@
                   <li>
                     <paragraph>¼ teaspoon salt</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Preheat oven to 375°F. Lightly grease a muffin tin with cooking spray.</paragraph>
                   </li>
@@ -94,7 +94,7 @@
                   <li>
                     <paragraph>Remove from oven and let cool in pan for 5 minutes. Gently remove from pan and let cool completely on wire rack. Muffins will keep in an airtight container for 5 days.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

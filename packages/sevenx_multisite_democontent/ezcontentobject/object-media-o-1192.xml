@@ -22,11 +22,9 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="308" ezremote:identifier="full_intro" name="Intro text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We are looking for a Brand Strategist to help us grow our clients' reputation in the fitness market and appeal to a larger audience.</paragraph>
+            <paragraph>We are looking for a Brand Strategist to help us grow our clients' reputation in the fitness market and appeal to a larger audience.</paragraph>
               <paragraph>Brand Strategist responsibilities include analyzing consumer insights, crafting plans for our creative team and developing guidelines to promote our clients across various channels. To be successful in this role, you should have extensive experience with brand management and a good understanding of fitness industry.</paragraph>
               <paragraph>Ultimately, you will ensure brand message and tone are consistent across all online and offline channels.</paragraph>
-            </section>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:default="http://docbook.org/ns/docbook" ezremote:id="309" ezremote:identifier="teaser_intro" name="Meta Data" type="ezxmltext">
@@ -34,8 +32,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="310" ezremote:identifier="job_overview" name="Job overview" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <ul>
+            <paragraph><ul>
                 <li>
                   <paragraph>Design &amp; Create highly engaging fitness-related content in both photo, gif &amp; video format</paragraph>
                 </li>
@@ -60,14 +57,12 @@
                 <li>
                   <paragraph>Manage the day-to-day handling of all social media channels such as LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok and YouTube, adapting content to suit different channels</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="311" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <ul>
+            <paragraph><ul>
                 <li>
                   <paragraph>Work experience as a Brand Strategist or similar role in Marketing</paragraph>
                 </li>
@@ -92,14 +87,12 @@
                 <li>
                   <paragraph>BSc/MSc in Marketing or relevant field</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="312" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <ul>
+            <paragraph><ul>
                 <li>
                   <paragraph>Gather feedback from sales and analyze consumer behavior to define our company’s positioning</paragraph>
                 </li>
@@ -124,8 +117,7 @@
                 <li>
                   <paragraph>Analyze market trends and identify new opportunities and challenges</paragraph>
                 </li>
-              </ul>
-            </section>
+              </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="313" ezremote:identifier="url_text" name="URL  text" type="ezstring">
@@ -178,7 +170,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4129" ezremote:identifier="job_overview" name="Job overview" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>Entwerfen und Erstellen von sehr ansprechenden fitnessbezogenen Inhalten im Foto-, Gif- und Videoformat</paragraph>
               </li>
@@ -203,12 +195,12 @@
               <li>
                 <paragraph>Verwaltung des täglichen Umgangs mit allen Social-Media-Kanälen wie LinkedIn, Facebook, Twitter, Pinterest, Instagram, Tiktok und YouTube und Anpassung der Inhalte</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4130" ezremote:identifier="requirements" name="Requirements" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>Berufserfahrung als Brand-Stratege oder in einer ähnlichen Funktion im Marketing</paragraph>
               </li>
@@ -233,12 +225,12 @@
               <li>
                 <paragraph>BSc/MSc in Marketing oder einem relevanten Bereich</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4131" ezremote:identifier="responsibilities" name="Responsibilities" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <ul>
+            <paragraph><ul>
               <li>
                 <paragraph>Einholen von Feedback aus dem Vertrieb und Analysieren des Verbraucherverhaltens, um die Positionierung unseres Unternehmens zu definieren</paragraph>
               </li>
@@ -263,7 +255,7 @@
               <li>
                 <paragraph>Analysieren von Markttrends und Erkennen neuer Chancen und Herausforderungen</paragraph>
               </li>
-            </ul>
+            </ul></paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4133" ezremote:identifier="url_text" name="URL  text" type="ezstring">

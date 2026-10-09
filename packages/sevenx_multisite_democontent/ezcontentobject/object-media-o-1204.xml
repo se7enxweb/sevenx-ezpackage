@@ -14,9 +14,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4013" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>Looking for a creative agency that can help you take your health&amp;fitness business to the next level? Contact us today to learn more about how we can help. </paragraph>
-            </section>
+            <paragraph>Looking for a creative agency that can help you take your health&amp;fitness business to the next level? Contact us today to learn more about how we can help. </paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4014" ezremote:identifier="video" name="Video" type="ezbinaryfile"/>

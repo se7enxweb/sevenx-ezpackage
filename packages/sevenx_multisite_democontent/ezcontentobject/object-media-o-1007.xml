@@ -33,7 +33,7 @@
             <section>
               <section>
                 <header>INGREDIENTS</header>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>cooking spray</paragraph>
                   </li>
@@ -70,9 +70,9 @@
                   <li>
                     <paragraph>agave or maple syrup</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Preheat a lightly greased cast iron skillet or griddle over medium heat.</paragraph>
                   </li>
@@ -100,7 +100,7 @@
                   <li>
                     <paragraph>Serve with a light drizzle of agave or maple syrup as appropriate.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

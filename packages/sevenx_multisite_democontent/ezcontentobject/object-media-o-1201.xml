@@ -14,9 +14,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3754" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We help our clients achieve their goals with strategy, creativity and execution, while staying true to their missions and beliefs.</paragraph>
-            </section>
+            <paragraph>We help our clients achieve their goals with strategy, creativity and execution, while staying true to their missions and beliefs.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3755" ezremote:identifier="video" name="Video" type="ezbinaryfile"/>

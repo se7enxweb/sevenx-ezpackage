@@ -33,7 +33,7 @@
             <section>
               <section>
                 <header>INGREDIENTS</header>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>10 eggs</paragraph>
                   </li>
@@ -52,9 +52,9 @@
                   <li>
                     <paragraph>salt and pepper to taste</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Preheat oven to 325º.</paragraph>
                   </li>
@@ -79,7 +79,7 @@
                   <li>
                     <paragraph>Bake for 25 minutes or until quiche cups are set. Remove from oven and serve immediately. If using for meal prep, let cool and store in plastic container in fridge for up to three days.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="http://www.foodista.com/user/117846">Karen Kelly</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

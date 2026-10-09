@@ -29,14 +29,14 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2149" ezremote:identifier="body" name="Body text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
             <paragraph>In fact, a <link href="http://archinte.jamanetwork.com/article.aspx?articleid=2434738">study</link> published earlier this week found that older Spanish women who were randomly assigned to stick to a Mediterranean diet — supplemented by extra olive oil — developed fewer cases of invasive breast cancer, compared to women who were merely advised to reduce dietary fat.</paragraph>
-            <embed view="embed" object_remote_id="media-o-1101"/>
+            <paragraph><embed view="embed" object_remote_id="media-o-1101"/></paragraph>
             <paragraph>This study was published by the same research team that <link href="http://archinte.jamanetwork.com/article.aspx?articleid=2293082">reported earlier this year</link> that Spaniards assigned to a Mediterranean diet — supplemented with either olive oil or nuts — experienced less cognitive decline. And a 2013 report from the same group found that the <link href="http://www.nytimes.com/2013/02/26/health/mediterranean-diet-can-cut-heart-disease-study-finds.html">Mediterranean diet led to a 30% decrease in cardiovascular events</link> (strokes and heart attacks).</paragraph>
             <paragraph>Does this mean you should hustle to make sure your older relatives are eating a Mediterranean diet? Well, maybe. I will go into the study details later in the post, but for now, let’s say that the diet used in the study seems very sensible, provided one doesn’t suffer unduly from limited access to pork and cookies.</paragraph>
             <paragraph>As is the case for many lifestyle changes that might affect cancer and dementia, a healthy diet reduces risk but is just one factor among many. Still, if we’ve learned of a good way to eat, why not consider it?</paragraph>
             <section>
               <header>Heading 1</header>
               <paragraph>So in this post, here’s what I’ll review:</paragraph>
-              <ul>
+              <paragraph><ul>
                 <li>
                   <paragraph>Just what people were eating, as part of the Spanish Mediterranean diet study (known as the PREDIMED study)</paragraph>
                 </li>
@@ -46,21 +46,21 @@
                 <li>
                   <paragraph>Where to find a comprehensive review of the scientific evidence for diet and brain health</paragraph>
                 </li>
-              </ul>
-              <embed view="embed" size="large" object_remote_id="media-o-1101"/>
-              <header>Heading 2 How to follow the PREDIMED Mediterranean diet</header>
-              <embed view="embed" size="large" object_remote_id="media-o-1101"/>
+              </ul></paragraph>
+              <paragraph><embed view="embed" size="large" object_remote_id="media-o-1101"/></paragraph>
+              </section><section><header>Heading 2 How to follow the PREDIMED Mediterranean diet</header>
+              <paragraph><embed view="embed" size="large" object_remote_id="media-o-1101"/></paragraph>
               <paragraph>PREDIMED (Prevención con Dieta Mediterránea) was a big randomized control trial conducted in Spain, from 2003 to 2009. It involved 7446 peopled aged 55-80. In the next section of the post I’ll describe the study in more detail, but let’s start with what you are probably most interested in:</paragraph>
               <paragraph>
                 <emphasize>Just what was the PREDIMED Mediterranean diet??</emphasize>
               </paragraph>
               <paragraph>Fortunately, it is possible to find the research study’s materials online, and they describe the recommended diet in detail.</paragraph>
-              <embed view="embed" size="large" object_remote_id="media-o-1101"/>
+              <paragraph><embed view="embed" size="large" object_remote_id="media-o-1101"/></paragraph>
               <paragraph>If you can read Spanish, you can view the patient education materials via this <link href="http://predimed.onmedic.net/eng/ImplementationoftheIntervention/FOODINFORMATIONLEAFLETS/tabid/580/Default.aspx">PREDIMED website</link>. This site also has recipes and shopping lists.</paragraph>
-              <embed view="embed" size="large" object_remote_id="media-o-1101"/>
+              <paragraph><embed view="embed" size="large" object_remote_id="media-o-1101"/></paragraph>
               <paragraph>For a description in English, visit <link href="http://www.predimed.es/investigators-tools.html">this PREDIMED site</link> and click “Supplemental Appendix (NEJM).” A technical description of the diet is on page 9. To summarize, here were the dietary do’s and don’ts for those assigned to a Mediterranean diet:</paragraph>
               <paragraph>Mediterranean Diet Do’s:</paragraph>
-              <ul>
+              <paragraph><ul>
                 <li>
                   <paragraph>Use olive oil abundantly for cooking, and for seasoning dishes</paragraph>
                 </li>
@@ -94,9 +94,9 @@
                 <li>
                   <paragraph>Consume the following foods as desired: nuts, eggs, fish, seafood, low-fat cheese, dark chocolate, and whole-grain cereals.</paragraph>
                 </li>
-              </ul>
+              </ul></paragraph>
               <paragraph>Mediterranean Diet Don’ts: Limit or avoid</paragraph>
-              <ul>
+              <paragraph><ul>
                 <li>
                   <paragraph>cream, butter, margarine</paragraph>
                 </li>
@@ -115,14 +115,14 @@
                 <li>
                   <paragraph>Aim for less than one serving per week of cured ham, red meat, and fatty cheeses.</paragraph>
                 </li>
-              </ul>
+              </ul></paragraph>
               <paragraph>In addition to the above recommendations, half of the people assigned to the Mediterranean diet also had to consume extra olive oil (one liter per week) or extra nuts (30g per day).</paragraph>
               <paragraph>Wondering how your diet compares? You can see the dietary quiz investigators used (in English) on page 22 of the <link href="http://www.predimed.es/investigators-tools.html">Supplemental Appendix</link>.</paragraph>
               <paragraph>You can also view the recommendations for the “low-fat” diet, which was used as a control group, on page 23 of the Appendix. Notably, the low-fat diet recommendations discouraged cooking with oil or eating nuts.</paragraph>
               <paragraph>In reviewing the Mediterranean diet,I was struck by the lack of limits on carbohydrates.(Note that the study period pre-dates the current trend to consider less gluten and grains, but then again having diabetes was one way to be eligible for the study.)Nor did I see anything about limiting salt, which is interesting given participantswere at high risk for things like stroke and heart attacks.</paragraph>
-              <header>Heading 2</header>
+              </section><section><header>Heading 2</header>
               <paragraph>I also wondered to what extent Mediterranean <emphasize>diet participants were encouraged</emphasize> to eat beans and similar foods; these are called “frijoles” (beans) or “garbanzos” (chickpeas) or “lentejas” (lentils), and I didn’t see them on the Spanish diet description handout that was given to participants, although those ingredients do turn up in the recipes.</paragraph>
-              <header>The Spanish Mediterranean Diet Study (PREDIMED)</header>
+              </section><section><header>The Spanish Mediterranean Diet Study (PREDIMED)</header>
               <paragraph>Now let’s talk a little about the study itself, so that you can learn more about whether the results are likely to apply to your family.</paragraph>
               <paragraph>The best studies in clinical medicine, when it comes to assessing the effectiveness of a treatment or intervention, are “randomized control trials,” (RCTs). In these research trials, participants are carefully recruited, randomly assigned to receive some kind of treatment, and then are assessed for a health outcome of interest after some period of time.</paragraph>
               <paragraph>Doing an RCT properly takes a lot of time, effort, and organization for the researchers; it’s much harder than doing an observational study, which is what many diet studies are. In a RCT, researchers have to specify at the beginning what kind of people they want to recruit, they have to decide which aspects of participant health to assess at the beginning, they have to deliver the intervention — and any placebo, or “control” treatment — reliably to participants for as long as the study takes, and then they have to properly follow participants and assess health outcomes of interest.</paragraph>
@@ -135,7 +135,7 @@
               <paragraph>They also had to be at high risk for cardiovascular disease, but not yet diagnosed with actual cardiovascular disease. In other words, the study excluded people with past coronary artery disease, heart attack, stroke, or peripheral artery disease. (They also excluded people with “any severe chronic illness,” substance abuse, or “low likelihood of changing dietary habits.”)</paragraph>
               <paragraph>To define people at “high risk” for cardiovascular disease, participants had to have either type 2 diabetes, or at least 3 of the following risk factors: smoking, high blood pressure, high cholesterol, obesity, or family history of premature heart disease.</paragraph>
               <paragraph>Once enrolled, participants were randomly assigned to one of three diet groups:</paragraph>
-              <ul>
+              <paragraph><ul>
                 <li>
                   <paragraph>Mediterranean diet plus supplemental extra-virgin olive oil (1 liter of olive oil per week given to participants)</paragraph>
                 </li>
@@ -145,20 +145,20 @@
                 <li>
                   <paragraph>Advice to follow a low-fat diet</paragraph>
                 </li>
-              </ul>
+              </ul></paragraph>
               <paragraph>Participants in each group met with dieticians every three months. To know whether participants were sticking to their assigned diets, the investigators asked people to complete diet questionnaires regularly, and they also checked bloodwork yearly.</paragraph>
               <paragraph>The research regarding the primary outcome of the study was <link href="http://www.nejm.org/doi/full/10.1056/NEJMoa1200303#t=abstract">published in 2013</link>. Out of 7446 people, most of whom were followed for 3-6 years, 288 (3.9%) had a major cardiovascular event: a heart attack, stroke, or death from cardiovascular causes.  People assigned to one of the Mediterranean diets had about a 30% lower risk of having an event.</paragraph>
               <paragraph>An<link href="http://www.nejm.org/doi/full/10.1056/NEJMe1301582"> interesting editorial published in the New England Journal in 2013</link> noted that PREDIMED was ended early when the researchers noted such a big benefit (it’s considered unethical to continue a randomized trial if one group is clearly doing better), and that early termination of trials tends to “spuriously inflate estimated benefit.” A number of interesting points are made in the editorial, so I would recommend it for those who want to dig deeper into this topic.</paragraph>
               <paragraph>To study the <link href="http://archinte.jamanetwork.com/article.aspx?articleid=2293082">effect of the Mediterranean diet on cognitive decline</link>, the researchers performed extra testing on a subset of 447 participants. These people had neuropsychological testing at the start of the study, and people with mild cognitive impairment or depression were excluded. Three-quarters of the initial participants had follow-up cognitive testing at the end of the study; average follow-up time was close to 4 years.</paragraph>
               <paragraph>This cognitive sub-study found that participants assigned to either of the Mediterranean diets maintained stable levels of cognition, whereas the ones advised to follow a low-fat diet experienced a small amount of cognitive decline.</paragraph>
-              <header>Where to learn more about diet and brain health</header>
+              </section><section><header>Where to learn more about diet and brain health</header>
               <paragraph>PREDIMED is a pretty good research study, as these things go. But the best scientific conclusions come from reviewing lots of studies.</paragraph>
               <paragraph>When it comes to diet and brain health, we are in luck because the Institute of Medicine just published a <link href="http://iom.nationalacademies.org/Reports/2015/Cognitive-Aging.aspx">report on cognitive aging</link> earlier this year, and to prepare it, their experts did extensively review the scientific research on diet and cognitive health.</paragraph>
               <paragraph>You can read the actual report online, in all its detailed glory, and the section on diet starts on page 124 <link href="http://books.nap.edu/openbook.php?record_id=21693&amp;page=124">here</link>.</paragraph>
               <paragraph>Their conclusion:</paragraph>
               <paragraph>“Dietary interventions such as the DASH and Mediterranean diets appear to have promise but their efficacy and effectiveness need to be confirmed in additional clinical trials and community-based studies. While interesting and promising in some studies, the evidence regarding their effects on cognitive aging is too inconclusive to warrant recommendations for dietary change. Yet the evidence summarized here provides some justification for individual choices to eat less meat and more nuts and legumes, whole grains, and monosaturated fats, such as olive oil, to preserve cognitive health.” (pg 126)</paragraph>
               <paragraph>DASH, by the way, stands for “<link href="http://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20048456">Dietary Approach to Stop Hypertension</link>,” and is another healthy eating approach seniors might want to consider.</paragraph>
-              <header>What to consider before applying research findings to your life</header>
+              </section><section><header>What to consider before applying research findings to your life</header>
               <paragraph>There are two main things to consider, when you read about research on the Mediterranean diet (or any intervention, for that matter).</paragraph>
               <paragraph>The first: how similar are you or your relative to the study participants?</paragraph>
               <paragraph>The second: how much of a beneficial effect should you expect?</paragraph>

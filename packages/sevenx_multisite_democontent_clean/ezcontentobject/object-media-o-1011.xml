@@ -56,8 +56,8 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1716" ezremote:identifier="success_text" name="Success text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <header>Thank you! </header>
-            <paragraph>We appreciate your interest and will respond to your inquiry as soon as possible. If you have any further questions or concerns, please do not hesitate to reach out. Have a great day!</paragraph>
+            <section><header>Thank you! </header>
+            <paragraph>We appreciate your interest and will respond to your inquiry as soon as possible. If you have any further questions or concerns, please do not hesitate to reach out. Have a great day!</paragraph></section>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1717" ezremote:identifier="referer" name="Referer" type="ezstring">

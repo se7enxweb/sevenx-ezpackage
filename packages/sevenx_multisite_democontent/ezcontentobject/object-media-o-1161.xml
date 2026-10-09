@@ -32,8 +32,8 @@
               <emphasize>Serves 4</emphasize>
             </paragraph>
             <paragraph>Note: if you are not following a low FODMAP diet, feel free to add onions and garlic to this recipe for added flavor.</paragraph>
-            <header>INGREDIENTS</header>
-            <ul>
+            <section><header>INGREDIENTS</header>
+            <paragraph><ul>
               <li>
                 <paragraph>1 package ground turkey (about 1+ lb)</paragraph>
               </li>
@@ -55,9 +55,9 @@
               <li>
                 <paragraph>For garnish, freshly grated Parmesan cheese and a drizzle of *basil olive oil (*see note below)</paragraph>
               </li>
-            </ul>
-            <header>PREPARATION</header>
-            <ol>
+            </ul></paragraph>
+            </section><section><header>PREPARATION</header>
+            <paragraph><ol>
               <li>
                 <paragraph>Add a drizzle or two of olive oil to a large and heat on medium-high (other oils that are wonderful drizzled over to finish this dish are truffle oil, lemon oil, or any non-flavored high-quality olive oil). Add ground turkey and cook, breaking up the meat with a spatula, until browned, about 3 to 4 minutes. Season to taste with salt, pepper, and Italian herbs. Transfer to a serving bowl and set aside.</paragraph>
               </li>
@@ -67,7 +67,7 @@
               <li>
                 <paragraph>Plate and top each serving with freshly grated Parmesan cheese and a drizzle of oil.</paragraph>
               </li>
-            </ol>
+            </ol></paragraph>
             <paragraph>
               <emphasize>Recipe credit: <link href="http://www.foodista.com/user/44">Sheri Wetherell</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
             </paragraph>
@@ -75,7 +75,7 @@
               <emphasize>
                 <emphasize>Photo credit: <emphasize><link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize></emphasize>
               </emphasize>
-            </paragraph>
+            </paragraph></section>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2492" ezremote:identifier="preparation_time" name="Preparation time" type="ezinteger">

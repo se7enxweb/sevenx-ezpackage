@@ -34,7 +34,7 @@
               <section>
                 <header>INGREDIENTS</header>
                 <paragraph>For the granola:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>1 cup almonds (crushed)</paragraph>
                   </li>
@@ -53,9 +53,9 @@
                   <li>
                     <paragraph>5 cups almond milk</paragraph>
                   </li>
-                </ul>
+                </ul></paragraph>
                 <paragraph>For the liquids:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>2 tablespoons extra virgin olive oil</paragraph>
                   </li>
@@ -65,18 +65,18 @@
                   <li>
                     <paragraph>1⁄2 tsp vanilla powder</paragraph>
                   </li>
-                </ul>
+                </ul></paragraph>
                 <paragraph>For the berries:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>1⁄2 cup dried cranberries (dried and cut in half)</paragraph>
                   </li>
                   <li>
                     <paragraph>2 tbsps dried goji berries</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Preheat the oven to 300 °F (150 degrees).</paragraph>
                   </li>
@@ -101,7 +101,7 @@
                   <li>
                     <paragraph>Serve with fortified almond milk.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="http://www.foodista.com/user/150433">Matt</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

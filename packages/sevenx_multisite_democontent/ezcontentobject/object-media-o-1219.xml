@@ -14,9 +14,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3857" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>Life at Bold Agency is more than just a job. We want you to have an impact and make a difference in what we do. We're here to help you get ahead. Here's what we offer:</paragraph>
-            </section>
+            <paragraph>Life at Bold Agency is more than just a job. We want you to have an impact and make a difference in what we do. We're here to help you get ahead. Here's what we offer:</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3858" ezremote:identifier="image" name="Image" type="ezimage" alternative-text=""/>
@@ -40,9 +38,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3865" ezremote:identifier="item_1_description" name="Item 1 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>You'll work on projects that change people's lives and health, with some of the coolest brands in the world.</paragraph>
-            </section>
+            <paragraph>You'll work on projects that change people's lives and health, with some of the coolest brands in the world.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3866" ezremote:identifier="item_1_icon" name="Item 1 icon" type="ezbinaryfile">
@@ -66,9 +62,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3873" ezremote:identifier="item_2_description" name="Item 2 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>There are always new challenges, new tech, and new projects coming up - it'll never get boring with us.</paragraph>
-            </section>
+            <paragraph>There are always new challenges, new tech, and new projects coming up - it'll never get boring with us.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3874" ezremote:identifier="item_2_icon" name="Item 2 icon" type="ezbinaryfile">
@@ -92,9 +86,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3881" ezremote:identifier="item_3_description" name="Item 3 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>We're a small agency with big aspirations, so you'll feel that when you're here too - whether you're working on something big or small, we want you to feel like you can make a difference.</paragraph>
-            </section>
+            <paragraph>We're a small agency with big aspirations, so you'll feel that when you're here too - whether you're working on something big or small, we want you to feel like you can make a difference.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3882" ezremote:identifier="item_3_icon" name="Item 3 icon" type="ezbinaryfile">
@@ -118,9 +110,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3889" ezremote:identifier="item_4_description" name="Item 4 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>There are no strict office hours here, which means you can work to your own routine—and enjoy a guilt-free Friday every once in a while.</paragraph>
-            </section>
+            <paragraph>There are no strict office hours here, which means you can work to your own routine—and enjoy a guilt-free Friday every once in a while.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3890" ezremote:identifier="item_4_icon" name="Item 4 icon" type="ezbinaryfile">
@@ -144,9 +134,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3897" ezremote:identifier="item_5_description" name="Item 5 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>Being at the top of the agency game means being known in the marketing world for your expertise in everything from branding to SEM and everything in between.</paragraph>
-            </section>
+            <paragraph>Being at the top of the agency game means being known in the marketing world for your expertise in everything from branding to SEM and everything in between.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3898" ezremote:identifier="item_5_icon" name="Item 5 icon" type="ezbinaryfile">
@@ -170,9 +158,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3905" ezremote:identifier="item_6_description" name="Item 6 description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>The Bold Agency experience is where you can hone your skills and set yourself apart from the competition.</paragraph>
-            </section>
+            <paragraph>The Bold Agency experience is where you can hone your skills and set yourself apart from the competition.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="3906" ezremote:identifier="item_6_icon" name="Item 6 icon" type="ezbinaryfile">

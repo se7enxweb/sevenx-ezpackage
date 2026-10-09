@@ -29,9 +29,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4039" ezremote:identifier="gdpr_consent_label" name="GDPR Consent label" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>I have read the <link>Privacy Policy</link> and agree to its terms.</paragraph>
-            </section>
+            <paragraph>I have read the <link>Privacy Policy</link> and agree to its terms.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4040" ezremote:identifier="newsletter_1_consent" name="Newsletter 1 Consent" type="ezboolean">
@@ -39,9 +37,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4041" ezremote:identifier="newsletter_1_label" name="Newsletter 1 Label" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
-            <section>
-              <paragraph>I consent to receiving the careers newsletter from Bold Agency and understand that I can unsubscribe at any time.</paragraph>
-            </section>
+            <paragraph>I consent to receiving the careers newsletter from Bold Agency and understand that I can unsubscribe at any time.</paragraph>
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4042" ezremote:identifier="newsletter_1_group_ids" name="Newsletter 1 Group IDs" type="ezstring">
@@ -53,7 +49,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4044" ezremote:identifier="success_text" name="Success text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
             <section>
-              <header level="2">Thank you!</header>
+              <header>Thank you!</header>
               <paragraph>We appreciate your interest in joining our team and will carefully review your qualifications. We will be in touch with you soon to discuss the next steps in the hiring process. </paragraph>
               <paragraph>If you have any further questions or concerns, please do not hesitate to reach out.</paragraph>
             </section>
@@ -119,7 +115,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="4946" ezremote:identifier="success_text" name="Success text" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/">
             <section>
-              <header level="2">Wir danken Ihnen!</header>
+              <header>Wir danken Ihnen!</header>
               <paragraph>Wir freuen uns über Ihr Interesse an einer Mitarbeit in unserem Team und werden Ihre Qualifikationen sorgfältig prüfen. Wir werden uns in Kürze mit Ihnen in Verbindung setzen, um die nächsten Schritte im Einstellungsprozess zu besprechen.</paragraph>
               <paragraph>Sollten Sie weitere Fragen oder Anliegen haben, zögern Sie bitte nicht, uns zu kontaktieren.</paragraph>
             </section>

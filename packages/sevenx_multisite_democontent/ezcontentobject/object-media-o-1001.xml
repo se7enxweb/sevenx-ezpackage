@@ -35,7 +35,7 @@
               <section>
                 <header>INGREDIENTS</header>
                 <paragraph>For the sauce:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>4 tablespoons sugar</paragraph>
                   </li>
@@ -48,9 +48,9 @@
                   <li>
                     <paragraph>4 tablespoons tamarind juice (or 2 tablespoons lime juice and 2 tablespoons light brown sugar)</paragraph>
                   </li>
-                </ul>
+                </ul></paragraph>
                 <paragraph>For the pad thai:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>3 tablespoons vegetable oil</paragraph>
                   </li>
@@ -96,9 +96,9 @@
                   <li>
                     <paragraph>Lime wedges, for garnish</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Mix sauce ingredients in a small bowl and set aside. (Note: you may have extra sauce left over depending on how "saucy" you like your noodles.)</paragraph>
                   </li>
@@ -120,7 +120,7 @@
                   <li>
                     <paragraph>Transfer to a serving dish and garnish with the remaining chopped peanuts, fresh cilantro, and lime wedges.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="http://www.foodista.com/user/44">Sheri Wetherell</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

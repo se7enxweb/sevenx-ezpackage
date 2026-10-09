@@ -33,7 +33,7 @@
             <section>
               <section>
                 <header>INGREDIENTS</header>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>2 slices <link href="https://www.makebetterfood.com/recipes/american-sandwich-bread/">bread</link></paragraph>
                   </li>
@@ -52,9 +52,9 @@
                   <li>
                     <paragraph>3 tablespoons crumbled goat cheese</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Preheat a cast iron skillet over medium heat.</paragraph>
                   </li>
@@ -76,7 +76,7 @@
                   <li>
                     <paragraph>Serve immediately.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

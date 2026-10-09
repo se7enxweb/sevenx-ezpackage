@@ -34,7 +34,7 @@
               <section>
                 <header>INGREDIENTS</header>
                 <paragraph>For the salad:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>2 bundle of kale finely chopped</paragraph>
                   </li>
@@ -59,9 +59,9 @@
                   <li>
                     <paragraph>w tablespoons golden raisins</paragraph>
                   </li>
-                </ul>
+                </ul></paragraph>
                 <paragraph>For honey lemon vinaigrette:</paragraph>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>1 tablespoon balsamic white vinegar</paragraph>
                   </li>
@@ -80,10 +80,10 @@
                   <li>
                     <paragraph>2 whole lemons squeezed</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
                 <paragraph>Salad</paragraph>
-                <ol>
+                <paragraph><ol>
                   <li>
                     <paragraph>Mix the kale, parsley, mint, green onions, roasted pine nuts, golden raisins and cranberries in a large salad bowl.</paragraph>
                   </li>
@@ -93,16 +93,16 @@
                   <li>
                     <paragraph>Add the shaved Parmesan cheese and serve</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>Honey lemon vinaigrette</paragraph>
-                <ol>
+                <paragraph><ol>
                   <li>
                     <paragraph>In a blender or food processor, mix all the above ingredients and whisk until smooth consistency.</paragraph>
                   </li>
                   <li>
                     <paragraph>Taste to adjust the flavor.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="http://www.foodista.com/user/account-7HX6YPKP">Giangi Townsend</link> via <link href="http://www.foodista.com/">Foodista</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>

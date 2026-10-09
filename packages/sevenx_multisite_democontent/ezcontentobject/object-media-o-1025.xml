@@ -31,7 +31,7 @@
             <section>
               <section>
                 <header>INGREDIENTS</header>
-                <ul>
+                <paragraph><ul>
                   <li>
                     <paragraph>85g / 3 ounces organic baby spinach</paragraph>
                   </li>
@@ -50,16 +50,16 @@
                   <li>
                     <paragraph>79ml / ⅓ cup mango juice concentrate</paragraph>
                   </li>
-                </ul>
-                <header>PREPARATION</header>
-                <ol>
+                </ul></paragraph>
+                </section></section><section><section><header>PREPARATION</header>
+                <paragraph><ol>
                   <li>
                     <paragraph>Place all ingredients in a large blender or a food processor fitted with a steel blade. Process until smooth.</paragraph>
                   </li>
                   <li>
                     <paragraph>Serve in a glass. Drink. Go be awesome.</paragraph>
                   </li>
-                </ol>
+                </ol></paragraph>
                 <paragraph>
                   <emphasize>Recipe credit: <link href="https://www.makebetterfood.com/">Make Better Food</link> / <link href="https://creativecommons.org/licenses/by/3.0/">CC BY</link></emphasize>
                   <line/>
