@@ -5212,6 +5212,53 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
     }
 
     /**
+     * The SiteURL of a secondary siteaccess (bold, bold_ger), without a scheme.
+     *
+     * A secondary siteaccess has no host or port of its own: it is reached by
+     * path on the address of the user siteaccess (MatchOrder starts with uri),
+     * so its SiteURL is that address followed by /<siteaccess>. It was the user
+     * siteaccess's own SiteURL, so every canonical and og:url link of the Bold
+     * site pointed at the main site, where the path is not found.
+     *
+     * - host access: the user siteaccess's host, example.com/bold
+     * - port access: its host and port, example.com:8080/bold
+     * - URI access:  the user siteaccess's address ends in its own path
+     *   (example.com/site), which is taken off first: example.com/bold
+     * A siteaccess that does have an address of its own in siteaccess_urls (a
+     * host, a port or a path) keeps that one, and an address that already ends
+     * in /<siteaccess> is not given it twice.
+     */
+    function secondarySiteaccessURL( $siteaccess )
+    {
+        $siteaccessUrl = (array)$this->setting( 'siteaccess_urls' );
+        foreach ( $siteaccessUrl as $list )
+        {
+            if ( isset( $list[$siteaccess]['url'] ) && (string)$list[$siteaccess]['url'] !== '' )
+                return (string)$list[$siteaccess]['url'];
+        }
+
+        $userSiteaccess = $this->setting( 'user_siteaccess' );
+        $base = isset( $siteaccessUrl['user'][$userSiteaccess]['url'] )
+            ? (string)$siteaccessUrl['user'][$userSiteaccess]['url']
+            : (string)$this->setting( 'host' );
+        $base = rtrim( preg_replace( '#^[a-zA-Z][a-zA-Z0-9+.-]*://#', '', trim( $base ) ), '/' );
+        if ( $base === '' )
+            return '';
+
+        if ( in_array( $this->setting( 'access_type' ), array( 'url', 'uri' ), true ) && $userSiteaccess !== '' )
+        {
+            $own = '/' . $userSiteaccess;
+            if ( substr( $base, -strlen( $own ) ) === $own )
+                $base = substr( $base, 0, -strlen( $own ) );
+        }
+
+        $suffix = '/' . $siteaccess;
+        if ( substr( $base, -strlen( $suffix ) ) === $suffix )
+            return $base;
+        return $base . $suffix;
+    }
+
+    /**
      * Write settings/siteaccess/<name>/site.ini.append.php for each secondary
      * siteaccess this installation provides.
      *
@@ -5249,13 +5296,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $loginFormURL = isset( $siteaccessUrl['admin'][$adminSiteaccess]['url'] )
             ? 'http://' . $siteaccessUrl['admin'][$adminSiteaccess]['url'] . '/user/login'
             : '';
-        $userSiteaccess = $this->setting( 'user_siteaccess' );
-        $siteURL = isset( $siteaccessUrl['user'][$userSiteaccess]['url'] )
-            ? $siteaccessUrl['user'][$userSiteaccess]['url']
-            : $this->setting( 'host' );
 
         foreach ( $secondary as $siteaccess )
         {
+            // Its own address, the user siteaccess's followed by /<siteaccess>
+            $siteURL = $this->secondarySiteaccessURL( $siteaccess );
             $dir = 'settings/siteaccess/' . $siteaccess;
             if ( !file_exists( $dir ) )
                 eZDir::mkdir( $dir, false, true );
