@@ -106,6 +106,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             // job types of the admin's access extensions (expai) are known:
             //   * * * * * cd <installation> && php runcronjobs.php -q -s <admin siteaccess> expqueue
             'expqueue',
+            // The Oracle database driver (DatabaseImplementation=ezoracle). Inert on any other database: its settings
+            // are the driver's alias and Oracle-only options, oci8 is needed only when that driver connects, it has
+            // no tables and its cron parts stop at once on another database. On Oracle the setup lists it first
+            // anyway; an extension that configures the Oracle connection goes before it.
+            'ezoracle',
             'ezoe',
             // Cross site request forgery protection for every posted form. It
             // has been active on the installation all along and was never in
