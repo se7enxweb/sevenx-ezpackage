@@ -101,6 +101,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             // and JavaScript frontends: doc/bc/6.0/backend_ezjscore_services.md. Only the
             // services; its portal designs get no siteaccess in a default install.
             'expservices',
+            // The job queue (Setup > Job queue): global, so the producers of every siteaccess and its worker see
+            // it; its tables come from extensionSchemas(). The worker runs with the admin siteaccess, where the
+            // job types of the admin's access extensions (expai) are known:
+            //   * * * * * cd <installation> && php runcronjobs.php -q -s <admin siteaccess> expqueue
+            'expqueue',
             'ezoe',
             // Cross site request forgery protection for every posted form. It
             // has been active on the installation all along and was never in
@@ -3530,7 +3535,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $listed = array();
         foreach ( $schemas as $e )
             $listed[$e[1]] = true;
-        foreach ( array_values( array_unique( (array)$this->setting( 'extension_list' ) ) ) as $extension )
+        // The admin's access extensions (adminAccessExtensionList(), expai) are not in extension_list but have tables.
+        foreach ( array_values( array_unique( array_merge( (array)$this->setting( 'extension_list' ), $this->adminAccessExtensionList() ) ) ) as $extension )
         {
             if ( isset( $listed[$extension] ) )
                 continue;
@@ -5064,10 +5070,36 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'SiteLanguageList' => $this->siteLanguageList(), 
             'TranslationSA' => $this->mainTranslationSAMap() 
         );
+        // The administration's own extensions (adminAccessExtensionList()). The kernel makes the editor and adminui
+        // siteaccesses from the admin's files afterwards, so they have them as well.
+        $accessExtensions = $this->adminAccessExtensionList();
+        if ( $accessExtensions )
+            $settings['ExtensionSettings'] = array( 'ActiveAccessExtensions' => $accessExtensions );
         return array( 
             'name' => 'site.ini', 
             'settings' => $settings 
         );
+    }
+
+    /**
+     * The extensions active in the administration siteaccesses only (ActiveAccessExtensions[] of the admin, which
+     * the editor and adminui siteaccesses inherit), each only when the installation has it.
+     *
+     * expai (Exponential Intelligence) belongs to the administration interface. It installs switched off: its own
+     * [AISettings] Enabled=false, no provider key is written (keys belong in settings/override only), the
+     * Administrator role holds its policies already and no other role is given any. Its tables come from
+     * extensionSchemas(). Its cron part needs the admin siteaccess, as does expqueue's worker:
+     * every five minutes, cd <installation> && php runcronjobs.php -q -s <admin siteaccess> expai
+     */
+    function adminAccessExtensionList()
+    {
+        $list = array();
+        foreach ( array( 'expai' ) as $extension )
+        {
+            if ( is_dir( eZExtension::baseDirectory() . '/' . $extension ) )
+                $list[] = $extension;
+        }
+        return $list;
     }
 
     function adminContentINISettings()
