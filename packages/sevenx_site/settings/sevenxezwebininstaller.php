@@ -1453,15 +1453,18 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                     'rss_version' => '2.0', 
                     'status' => '1', 
                     'title' => 'My RSS Feed', 
-                    'rss_export_itmes' => array( 
-                        0 => array( 
-                            'class_id' => '16', 
-                            'description' => 'intro', 
-                            'source_node_id' => '139', 
-                            'status' => '1', 
-                            'title' => 'title' 
-                        ) 
-                    ) 
+                    // Resolved when the step runs (setRSSExport()): the class by identifier, the source node by remote
+                    // id, and the attributes the item's title and description come from checked against the class.
+                    'rss_export_itmes' => array(
+                        0 => array(
+                            'class_identifier' => 'article',
+                            'source_node_remote_id' => 'f3e90596361e31d496d4026eb624c983',   // the content root: the website's home page
+                            'subnodes' => '1',
+                            'description' => 'intro',
+                            'status' => '1',
+                            'title' => 'title'
+                        )
+                    )
                 ) 
             ), 
             array( 
@@ -1594,43 +1597,128 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
     }
 
     /*!
-     Override setRSSExport so the feed is only made for content that is
-     installed. Its items name a content class and a source node by id; an
-     installation without the demo content (sevenx_site_clean) has neither,
-     and a feed over a node that is not there lists nothing. Items whose class
-     or node does not exist are left out, and without any item no feed is
-     made. Plain SQL: the language filter of the node fetch is stale while
-     the installation runs. Never stops the install.
+     Override setRSSExport so the feed is made for the content this package
+     installs, found when the step runs instead of by ids written into the
+     step (class 16 and node 139 of an older demo content are another
+     class and an image here). Each item names its content class by
+     identifier (class_identifier) and its source node by remote id
+     (source_node_remote_id); class_id and source_node_id are still taken
+     when an item gives them. An item is left out when its class or node is
+     not installed or the class has no attribute for the item's title; a
+     description attribute the class lacks is left empty. A package without
+     demo content (its name ends in _clean) makes no feed, and neither does
+     an export left without items. The feed's address is the user
+     siteaccess's. Plain SQL: the language filter of the class and node
+     fetches is stale while the installation runs. Never stops the install.
     */
     function setRSSExport( $params )
     {
+        $title = isset( $params['title'] ) ? (string)$params['title'] : '';
+        $package = $this->setting( 'package_object' );
+        $packageName = is_object( $package ) ? (string)$package->attribute( 'name' ) : '';
+        if ( substr( $packageName, -6 ) === '_clean' )
+        {
+            eZDebug::writeNotice( "Skipping setRSSExport: $packageName installs no demo content, so no feed '$title'", __METHOD__ );
+            return true;
+        }
+
         $db = eZDB::instance();
+        $defined = eZContentClass::VERSION_STATUS_DEFINED;
         $items = array();
         foreach ( isset( $params['rss_export_itmes'] ) ? (array)$params['rss_export_itmes'] : array() as $item )
         {
-            $nodeID = (int)$item['source_node_id'];
-            $classID = (int)$item['class_id'];
-            $node = $db->arrayQuery( "SELECT node_id FROM ezcontentobject_tree WHERE node_id = $nodeID" );
-            $class = $db->arrayQuery( "SELECT id FROM ezcontentclass WHERE id = $classID AND version = " . eZContentClass::VERSION_STATUS_DEFINED );
-            if ( $node && $class )
-                $items[] = $item;
+            if ( isset( $item['class_identifier'] ) )
+            {
+                $classRows = $db->arrayQuery( "SELECT id FROM ezcontentclass WHERE identifier = '" .
+                                              $db->escapeString( $item['class_identifier'] ) . "' AND version = $defined" );
+                $classLabel = 'class ' . $item['class_identifier'];
+            }
             else
-                eZDebug::writeNotice( "RSS export '" . $params['title'] . "': item for class $classID under node $nodeID left out, " .
-                                      ( $node ? 'no such class' : 'no such node' ), __METHOD__ );
+            {
+                $classRows = $db->arrayQuery( 'SELECT id FROM ezcontentclass WHERE id = ' . (int)$item['class_id'] . " AND version = $defined" );
+                $classLabel = 'class id ' . (int)$item['class_id'];
+            }
+            if ( isset( $item['source_node_remote_id'] ) )
+            {
+                $nodeRows = $db->arrayQuery( "SELECT node_id FROM ezcontentobject_tree WHERE remote_id = '" .
+                                             $db->escapeString( $item['source_node_remote_id'] ) . "'" );
+                $nodeLabel = 'node ' . $item['source_node_remote_id'];
+            }
+            else
+            {
+                $nodeRows = $db->arrayQuery( 'SELECT node_id FROM ezcontentobject_tree WHERE node_id = ' . (int)$item['source_node_id'] );
+                $nodeLabel = 'node id ' . (int)$item['source_node_id'];
+            }
+            if ( !$classRows || !$nodeRows )
+            {
+                eZDebug::writeNotice( "RSS export '$title': item for $classLabel below $nodeLabel left out, " .
+                                      ( $classRows ? 'no such node' : 'no such class' ), __METHOD__ );
+                continue;
+            }
+            $classID = (int)$classRows[0]['id'];
+            $attributes = array();
+            foreach ( (array)$db->arrayQuery( "SELECT identifier FROM ezcontentclass_attribute WHERE contentclass_id = $classID AND version = $defined" ) as $row )
+                $attributes[] = $row['identifier'];
+            if ( !isset( $item['title'] ) || !in_array( $item['title'], $attributes, true ) )
+            {
+                eZDebug::writeNotice( "RSS export '$title': item for $classLabel left out, the class has no attribute '" .
+                                      ( isset( $item['title'] ) ? $item['title'] : '' ) . "' for the title", __METHOD__ );
+                continue;
+            }
+            if ( isset( $item['description'] ) && $item['description'] !== '' && !in_array( $item['description'], $attributes, true ) )
+            {
+                eZDebug::writeNotice( "RSS export '$title': $classLabel has no attribute '{$item['description']}', the description stays empty", __METHOD__ );
+                $item['description'] = '';
+            }
+            $item['class_id'] = $classID;
+            $item['source_node_id'] = (int)$nodeRows[0]['node_id'];
+            $items[] = $item;
         }
         if ( !$items )
         {
-            eZDebug::writeNotice( "Skipping setRSSExport: no item of '" . $params['title'] . "' has its class and node installed", __METHOD__ );
+            eZDebug::writeNotice( "Skipping setRSSExport: no item of '$title' has its class and node installed", __METHOD__ );
             return true;
         }
-        $params['rss_export_itmes'] = $items;
-        $result = parent::setRSSExport( $params );
-        if ( $this->lastErrorCode() !== eZSiteInstaller::ERR_OK )
+
+        $rssExport = eZRSSExport::create( $params['creator'] );
+        $rssExport->setAttribute( 'access_url', $params['access_url'] );
+        $rssExport->setAttribute( 'main_node_only', $params['main_node_only'] );
+        $rssExport->setAttribute( 'number_of_objects', $params['number_of_objects'] );
+        $rssExport->setAttribute( 'rss_version', $params['rss_version'] );
+        $rssExport->setAttribute( 'status', $params['status'] );
+        $rssExport->setAttribute( 'title', $title );
+        // The user siteaccess's address: the links of the feed point at the public site
+        $userSiteaccess = $this->setting( 'user_siteaccess' );
+        $siteaccessURLs = (array)$this->setting( 'siteaccess_urls' );
+        if ( isset( $siteaccessURLs['user'][$userSiteaccess]['url'] ) && $siteaccessURLs['user'][$userSiteaccess]['url'] !== '' )
         {
-            eZDebug::writeWarning( 'setRSSExport reported an error (errCode=' . $this->lastErrorCode() . '), continuing post-install', __METHOD__ );
-            $this->setLastErrorCode( eZSiteInstaller::ERR_OK );
+            $url = rtrim( (string)$siteaccessURLs['user'][$userSiteaccess]['url'], '/' );
+            if ( !preg_match( '#^https?://#i', $url ) )
+            {
+                $scheme = parse_url( (string)$this->setting( 'host' ), PHP_URL_SCHEME );
+                $url = ( is_string( $scheme ) && $scheme !== '' ? strtolower( $scheme ) : 'http' ) . '://' . $url;
+            }
+            $rssExport->setAttribute( 'url', $url );
+            $rssExport->setAttribute( 'site_access', $userSiteaccess );
         }
-        return $result;
+        $rssExport->store();
+        $rssExportID = $rssExport->attribute( 'id' );
+
+        foreach ( $items as $item )
+        {
+            $rssExportItem = eZRSSExportItem::create( $rssExportID );
+            $rssExportItem->setAttribute( 'class_id', $item['class_id'] );
+            $rssExportItem->setAttribute( 'description', isset( $item['description'] ) ? $item['description'] : '' );
+            $rssExportItem->setAttribute( 'source_node_id', $item['source_node_id'] );
+            $rssExportItem->setAttribute( 'status', $item['status'] );
+            $rssExportItem->setAttribute( 'title', $item['title'] );
+            $rssExportItem->setAttribute( 'subnodes', isset( $item['subnodes'] ) ? (int)$item['subnodes'] : 0 );
+            if ( isset( $item['enclosure'] ) )
+                $rssExportItem->setAttribute( 'enclosure', $item['enclosure'] );
+            $rssExportItem->store();
+        }
+        eZDebug::writeNotice( "RSS export '$title' (/rss/feed/{$params['access_url']}): " . count( $items ) . ' item(s)', __METHOD__ );
+        return true;
     }
 
     /*!
