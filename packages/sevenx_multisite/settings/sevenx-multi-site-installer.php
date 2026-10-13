@@ -1042,6 +1042,15 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                             'module' => 'notification', 
                             'function' => 'use' 
                         ), 
+                        // the node data calls of the sub-items list and the rich text editor
+                        // (ezjscore.ini [ezjscServer_ezjscnode] RequirePolicy=enabled on new sites)
+                        array(
+                            'module' => 'ezjscore',
+                            'function' => 'call',
+                            'limitation' => array(
+                                'FunctionList' => array( 'ezjscnode' )
+                            )
+                        ),
                         array( 
                             'module' => 'content', 
                             'function' => 'manage_locations' 
