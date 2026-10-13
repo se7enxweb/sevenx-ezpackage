@@ -1571,6 +1571,21 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
     }
 
     /*!
+     Override removeContentObject so an object the step list names but this
+     installation does not have (the legacy 'eZ Publish' object of the old
+     clean data) is skipped with a notice: the kernel method warns about it.
+    */
+    function removeContentObject( $params )
+    {
+        if ( !is_object( $this->contentObjectByName( $params ) ) )
+        {
+            eZDebug::writeNotice( "Skipping removeContentObject: no object with name '" . $params['name'] . "'", __METHOD__ );
+            return true;
+        }
+        return parent::removeContentObject( $params );
+    }
+
+    /*!
      Override setSection so a missing target subtree does not abort the entire
      post-install sequence. The 'Restricted' section is created anyway; only
      assign it when the requested location actually exists in this package.
@@ -2742,7 +2757,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
      */
     function homeNodeID()
     {
-        $homeNodeID = $this->setting( 'home_node_id' );
+        // no step adds home_node_id; setting() would warn about the missing setting on every call
+        $homeNodeID = $this->hasSetting( 'home_node_id' ) ? $this->setting( 'home_node_id' ) : false;
         if ( $homeNodeID )
             return $homeNodeID;
         return 2; // the content root
