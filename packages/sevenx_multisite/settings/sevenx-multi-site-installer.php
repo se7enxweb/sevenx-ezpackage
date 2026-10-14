@@ -170,7 +170,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             'powercontent',
             'sevenx_dse',
             'sevenx_themes_media',
-            'sevenx_themes_simple'
+            'sevenx_themes_simple',
+            // Links to content of another site of the installation point to the siteaccess that serves it
+            // (a Fit & Healthy article on a Bold Agency tag page: /video/..., not /bold/fit-healthy/...);
+            // configured by postInstallWriteMultisiteURLSettings() with this installation's root node ids.
+            'ezurlmultisite'
             // exp_adminui is deliberately not here: it is an access extension, switched on by the adminui
             // siteaccess alone (ActiveAccessExtensions[], see adminUISiteaccessName()), so every other
             // siteaccess keeps its own design.
@@ -1555,6 +1559,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             // After the last step that writes a siteaccess's site.ini.
             array(
                 '_function' => 'postInstallEnableSearchStatsOnEverySiteaccess',
+                '_params' => array()
+            ),
+            // After every step that writes a siteaccess's PathPrefix, IndexPage or RootNode: it reads them back.
+            array(
+                '_function' => 'postInstallWriteMultisiteURLSettings',
                 '_params' => array()
             ),
 
@@ -4330,6 +4339,94 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                               . ( $left ? '; not there yet: ' . implode( ', ', $left ) : '' ), __METHOD__ );
         return true;
     }
+
+    /**
+     * settings/override/ezurlmultisite.ini.append.php: which siteaccess serves which subtree, so that a link to
+     * content of another site (a Fit & Healthy article on a Bold Agency tag page) points to the siteaccess that serves
+     * it instead of to /bold/fit-healthy/..., which answers 404.
+     *
+     * Read back from the siteaccess files this install wrote, so the node ids are this installation's: every served
+     * siteaccess (and translation) with a PathPrefix that is not an administration siteaccess takes part, with the
+     * root node of its content.ini RootNode, or else of its IndexPage. Nothing is hardcoded: node ids differ between
+     * installations. Never stops the install; without the file the extension falls back to the same rules at run
+     * time.
+     */
+    function postInstallWriteMultisiteURLSettings( $params = false )
+    {
+        $root = is_array( $params ) && isset( $params['siteaccess_root'] ) ? rtrim( $params['siteaccess_root'], '/' ) : 'settings/siteaccess';
+        $overrideDir = is_array( $params ) && isset( $params['override_dir'] ) ? rtrim( $params['override_dir'], '/' ) : 'settings/override';
+        if ( !in_array( 'ezurlmultisite', (array)$this->setting( 'extension_list' ), true ) )
+            return true;
+
+        $adminDesigns = array( 'admin', 'admin2', 'admin3', 'admin4', 'admin4l', 'editor', 'adminui' );
+        $list = array();
+        $roots = array();
+        foreach ( $this->searchStatsSiteaccessList() as $siteaccess )
+        {
+            $dir = $root . '/' . $siteaccess;
+            if ( !file_exists( $dir . '/site.ini.append.php' ) )
+                continue;
+            $site = new eZINI( 'site.ini.append.php', $dir, null, false, null, true, true );
+            $prefix = $site->hasVariable( 'SiteAccessSettings', 'PathPrefix' ) ? trim( (string)$site->variable( 'SiteAccessSettings', 'PathPrefix' ), '/' ) : '';
+            $login = $site->hasVariable( 'SiteAccessSettings', 'RequireUserLogin' ) ? strtolower( (string)$site->variable( 'SiteAccessSettings', 'RequireUserLogin' ) ) : 'false';
+            $design = $site->hasVariable( 'DesignSettings', 'SiteDesign' ) ? (string)$site->variable( 'DesignSettings', 'SiteDesign' ) : '';
+            if ( $prefix === '' || $login === 'true' || in_array( $design, $adminDesigns, true ) || $siteaccess === $this->setting( 'admin_siteaccess' ) )
+                continue;
+
+            $nodeID = 0;
+            if ( file_exists( $dir . '/content.ini.append.php' ) )
+            {
+                $content = new eZINI( 'content.ini.append.php', $dir, null, false, null, true, true );
+                if ( $content->hasVariable( 'NodeSettings', 'RootNode' ) )
+                    $nodeID = (int)$content->variable( 'NodeSettings', 'RootNode' );
+            }
+            if ( $nodeID <= 2 )
+            {
+                $nodeID = 0;
+                $index = $site->hasVariable( 'SiteSettings', 'IndexPage' ) ? (string)$site->variable( 'SiteSettings', 'IndexPage' ) : '';
+                if ( preg_match( '#content/view/[a-z_]+/(\d+)#', $index, $matches ) && (int)$matches[1] > 2 )
+                    $nodeID = (int)$matches[1];
+            }
+
+            $list[] = $siteaccess;
+            if ( $nodeID > 0 )
+                $roots[$siteaccess] = $nodeID;
+        }
+
+        if ( !$list )
+        {
+            eZDebug::writeNotice( 'No siteaccess with a PathPrefix: ezurlmultisite.ini not written', __METHOD__ );
+            return true;
+        }
+
+        $lines = array( '<?php /* #?ini charset="utf-8"?', '',
+                        '# Written by the multisite installer: the siteaccesses whose links to content of another',
+                        '# site point to the siteaccess that serves it (ezurlmultisite), with the root node of the',
+                        '# subtree each one serves. The node ids are those of this installation.', '',
+                        '[MultisiteSettings]', 'SiteAccessList[]' );
+        foreach ( $list as $siteaccess )
+            $lines[] = 'SiteAccessList[]=' . $siteaccess;
+        $lines[] = 'RootNodeList[]';
+        foreach ( $roots as $siteaccess => $nodeID )
+            $lines[] = 'RootNodeList[' . $siteaccess . ']=' . $nodeID;
+        $lines[] = '';
+        $lines[] = '*/ ?>';
+
+        if ( !is_dir( $overrideDir ) )
+            eZDir::mkdir( $overrideDir, false, true );
+        $file = $overrideDir . '/ezurlmultisite.ini.append.php';
+        if ( file_put_contents( $file, implode( "\n", $lines ) . "\n" ) === false )
+        {
+            eZDebug::writeError( "$file could not be written", __METHOD__ );
+            return true;
+        }
+        eZINI::resetInstance( 'ezurlmultisite.ini' );
+        eZDebug::writeNotice( 'ezurlmultisite: ' . implode( ', ', array_map( function ( $sa ) use ( $roots ) {
+            return $sa . ( isset( $roots[$sa] ) ? '=' . $roots[$sa] : '' );
+        }, $list ) ), __METHOD__ );
+        return true;
+    }
+
 
     /**
      * The siteaccesses this installer writes settings for: the served list where the installer has one, otherwise
