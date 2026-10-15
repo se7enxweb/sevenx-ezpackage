@@ -55,7 +55,7 @@
         {if $node.data_map.product_size.has_content}
         <div class="attribute-product_size">
           <p>
-           Size: {attribute_view_gui attribute=$node.object.data_map.product_size}
+           {'Size:'|i18n( 'design/ezwebin/full/product' )} {attribute_view_gui attribute=$node.object.data_map.product_size}
           </p>
         </div>
         {/if}
@@ -69,7 +69,7 @@
 
         <form method="post" action={"content/action"|ezurl}>
         <div class="content-action">
-	{if and( is_set( $node.data_map.product_inventory_count ), $node.data_map.product_inventory_count.content|le(0) )}<div class="warning-out-of-stock">Out of stock!</div>{/if}
+	{if and( is_set( $node.data_map.product_inventory_count ), $node.data_map.product_inventory_count.content|le(0) )}<div class="warning-out-of-stock">{'Out of stock!'|i18n( 'design/ezwebin/full/product' )}</div>{/if}
             <input {if and( is_set( $node.data_map.product_inventory_count ), $node.data_map.product_inventory_count.content|le(0) )}disabled{/if} type="submit" class="defaultbutton" name="ActionAddToBasket" value="{"Add to basket"|i18n("design/ezwebin/full/product")}">
 {*            <input class="button" type="submit" name="ActionAddToWishList" value="{"Add to wish list"|i18n("design/ezwebin/full/product")}">*}
             <input type="hidden" name="ContentNodeID" value="{$node.node_id}">

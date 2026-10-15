@@ -237,10 +237,10 @@
 
 <div class="feedback">
 <h3>{"You have no products in your cart."|i18n("design/ezwebin/shop/basket")}</h3>
-<h4><a href="/store" title="Shop now!">{"Add a product from our"|i18n("design/ezwebin/shop/basket")} store's selection of products</a></h4>
-<a href="/store" title="Shop now!"><img
+<h4><a href="/store" title="{'Shop now!'|i18n( 'design/ezwebin/shop/basket' )}">{'Add a product from our store\'s selection of products'|i18n( 'design/ezwebin/shop/basket' )}</a></h4>
+<a href="/store" title="{'Shop now!'|i18n( 'design/ezwebin/shop/basket' )}"><img
  src="{"favicon/favicon-banner.png"|ezimage(no)}"
- alt="Shop now!" class="sheep-icon" width=200 height=150></a>
+ alt="{'Shop now!'|i18n( 'design/ezwebin/shop/basket' )}" class="sheep-icon" width=200 height=150></a>
 </div>
 
 {/section}

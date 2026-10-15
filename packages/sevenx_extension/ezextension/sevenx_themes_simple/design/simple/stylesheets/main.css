@@ -739,7 +739,7 @@ li.current > .dropdown-button a {
 
 .copyright-text {
   padding: 0.5rem;
-  background-image: url(/extension/ezwebin/design/ezwebin/images/footer_bg.png);
+  background-image: url(../../../../ezwebin/design/ezwebin/images/footer_bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100% auto;

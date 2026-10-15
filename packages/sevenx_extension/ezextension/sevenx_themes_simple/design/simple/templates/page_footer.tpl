@@ -3,7 +3,7 @@
     <div class="container">
       <div class="copyright-text">
          {if $pagedesign.data_map.hide_powered_by.data_int|not}
-             Powered by <a href="https://exponential.se7enx.com" title="Exponential CMS Open Source Web Content Management">Exponential CMS{* Open Source Web Content Management *}</a>. 
+             {'Powered by %link.'|i18n( 'design/simple/page_footer',, hash( '%link', concat( '<a href="https://exponential.se7enx.com" title="', 'Exponential CMS Open Source Web Content Management'|i18n( 'design/ezwebin/page_footer' ), '">Exponential CMS</a>' ) ) )} 
          {/if}
 
 	 Copyright &#169; {$startyear} - {currentdate()|datetime( 'custom', '%Y' )} {ezini( 'SiteSettings', 'SiteName', 'site.ini' )}. All rights reserved.
@@ -11,7 +11,7 @@
 
         {if $pagedesign.data_map.hide_powered_by.data_int|not}
             <div class="poweredby-text">
-                Powered by <a href="/ezinfo/about" title="Exponential CMS Open Source Web Content Management">Exponential</a>
+                {'Powered by %link'|i18n( 'design/simple/page_footer',, hash( '%link', concat( '<a href="/ezinfo/about" title="', 'Exponential CMS Open Source Web Content Management'|i18n( 'design/ezwebin/page_footer' ), '">Exponential</a>' ) ) )}
             </div>
 	{/if}
 

@@ -59,7 +59,7 @@
             <div class="attribute-long">
                 <audio controls autoplay>
                   <source src={$node.data_map.file.content.filepath|ezroot} type="{$node.data_map.file.content.mime_type}">
-                 Your browser does not support the audio element.
+                 {'Your browser does not support the audio element.'|i18n( 'design/simple/full/episode' )}
                 </audio>
             </div>
         {/if}

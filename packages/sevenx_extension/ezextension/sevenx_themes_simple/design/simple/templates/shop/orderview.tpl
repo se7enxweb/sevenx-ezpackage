@@ -18,7 +18,7 @@
   <h1 class="long">{'Order %order_id [%order_status]'|i18n( 'design/ezwebin/shop/orderview',,
        hash( '%order_id', $order.order_nr,
              '%order_status', $order.status_name ) )}</h1>
-<p>Please bookmark this page for your records.</p>
+<p>{'Please bookmark this page for your records.'|i18n( 'design/ezwebin/shop/orderview' )}</p>
 </div>
 
 {shop_account_view_gui view=html order=$order}

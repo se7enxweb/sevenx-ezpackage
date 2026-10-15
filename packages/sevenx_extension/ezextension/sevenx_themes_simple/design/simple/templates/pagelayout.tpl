@@ -18,8 +18,14 @@
 {if is_set( $extra_cache_key )|not}
     {def $extra_cache_key = ''}
 {/if}
+{* Error pages can arrive with the same URI while their title and path name the error: key them
+   by error type and number too (every other page keeps the plain URI key) *}
+{def $uri_cache_key = $module_result.uri}
+{if is_set( $module_result.errorType )}
+{set $uri_cache_key = concat( $module_result.uri, '|error|', $module_result.errorType, '|', first_set( $module_result.errorNumber, '' ) )}
+{/if}
 
-{cache-block keys=array( $module_result.uri, $basket_is_empty, $current_user.contentobject_id, $extra_cache_key )}
+{cache-block keys=array( $uri_cache_key, $basket_is_empty, $current_user.contentobject_id, $extra_cache_key )}
 {def $pagedata         = ezpagedata()
      $pagestyle        = $pagedata.css_classes
      $locales          = fetch( 'content', 'translation_list' )
@@ -75,7 +81,7 @@
     {/foreach}
   {/if}
 
-  {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key )}
+  {cache-block keys=array( $uri_cache_key, $user_hash, $extra_cache_key )}
 
   {*<!-- Top menu area: START -->
   {if $pagedata.top_menu}
@@ -133,7 +139,7 @@
     <!-- Main area: END -->
   </main>
     <!-- main ends -->
-{cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
+{cache-block keys=array( $uri_cache_key, $user_hash, $access_type.name, $extra_cache_key )}
 
     {* if is_unset($pagedesign)}
         {def $pagedata   = ezpagedata()

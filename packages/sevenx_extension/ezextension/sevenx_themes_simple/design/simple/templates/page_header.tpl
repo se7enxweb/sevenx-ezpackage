@@ -14,7 +14,7 @@
                 {/if}
                 *}
             </a>
-            <button type="button" class="navbar-toggle" data-collapse-menu="#navbarCollapse" aria-label="Menu Icon">
+            <button type="button" class="navbar-toggle" data-collapse-menu="#navbarCollapse" aria-label="{'Menu Icon'|i18n( 'design/ezwebin/page_header' )}">
                 <span></span>
                 <span></span>
                 <span></span>

@@ -27,19 +27,8 @@
 {ezcss_require( 'star_rating.css' )}
 {* Enable rating code if not disabled on attribute and user has access to rate! *}
 {if and( $attribute.data_int|not, has_access_to_limitation( 'ezjscore', 'call', hash( 'FunctionList', 'ezstarrating_rate' ) ))}
-    {*
-       eZStarRating supports both yui3.0 and jQuery as decided by ezjscore.ini[eZJSCore]PreferredLibrary
-       For the JavaScript code look in: design/standard/javascript/ezstarrating_*.js
-
-       (This dual approach is not something you need to do in your extensions, but currently a service done on official extensions for now!)
-    *}
-    {def $preferred_lib = ezini('eZJSCore', 'PreferredLibrary', 'ezjscore.ini')}
-    {if array( 'yui3', 'jquery' )|contains( $preferred_lib )|not()}
-        {* Prefer jQuery if something else is used globally, since it's smaller then yui3. *}
-        {set $preferred_lib = 'jquery'}
-    {/if}
-    {ezscript_require(array( 'ezjsc::jquery', 'ezjsc::jqueryio') )}
-    {ezscript_require( array( concat( 'ezjsc::', $preferred_lib ), concat( 'ezjsc::', $preferred_lib, 'io' ), concat( 'ezstarrating_', $preferred_lib, '.js' ) ) )}
+    {* The rating runs on jQuery (design/standard/javascript/ezstarrating_jquery.js) *}
+    {ezscript_require( array( 'ezjsc::jquery', 'ezjsc::jqueryio', 'ezstarrating_jquery.js' ) )}
 {else}
     {if fetch( 'user', 'current_user' ).is_logged_in}
         <p id="ezsr_no_permission_{$attribute.id}" class="ezsr-no-permission">{"You don't have access to rate this page."|i18n( 'extension/ezstarrating/datatype' )}</p>

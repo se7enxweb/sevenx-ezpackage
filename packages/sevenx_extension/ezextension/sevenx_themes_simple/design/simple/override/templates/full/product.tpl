@@ -58,13 +58,13 @@
 
         {if $node.data_map.product_number.has_content}
         <div class="attribute-product-number">
-           Product Number: {attribute_view_gui attribute=$node.object.data_map.product_number}
+           {'Product Number:'|i18n( 'design/ezwebin/full/product' )} {attribute_view_gui attribute=$node.object.data_map.product_number}
         </div>
         {/if}
 
         {if $node.data_map.product_size.has_content}
         <div class="attribute-product-size">
-           Package Size: {attribute_view_gui attribute=$node.object.data_map.product_size}
+           {'Package Size:'|i18n( 'design/ezwebin/full/product' )} {attribute_view_gui attribute=$node.object.data_map.product_size}
         </div>
         {/if}
         <div class="attribute-price">

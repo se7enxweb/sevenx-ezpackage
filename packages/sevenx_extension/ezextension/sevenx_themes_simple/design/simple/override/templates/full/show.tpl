@@ -44,7 +44,7 @@
                  $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
                                                                       'class_filter_type', 'exclude',
                                                                       'class_filter_array', $classes ) )}
-            <h1>Episodes</h1>
+            <h1>{'Episodes'|i18n( 'design/simple/full/show' )}</h1>
             <div class="content-view-children">
                 {foreach $children as $child }
                     {node_view_gui view='line' content_node=$child}

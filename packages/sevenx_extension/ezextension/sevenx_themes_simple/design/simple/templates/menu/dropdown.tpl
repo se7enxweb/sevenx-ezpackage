@@ -70,7 +70,7 @@ onclick="return false;"
 <li class="dropdown {if $path_node_ids|contains($item.node_id)}active{/if}{if $item.node_id|eq($current_node_id)} current{/if}">
   <div class="dropdown-button">
     <a href={$item.url_alias|ezurl} role="button">{$item.name|wash()}</a>
-    <button type="button" class="dropdown-toggle" aria-label="dropdown toggler button"></button>
+    <button type="button" class="dropdown-toggle" aria-label="{'dropdown toggler button'|i18n( 'design/simple/menu/dropdown' )}"></button>
   </div>
 
 {/if}
@@ -124,7 +124,7 @@ href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|e
 <li class="dropdown {if $path_node_ids|contains($item.node_id)}active{/if}{if $item.node_id|eq($current_node_id)} current{/if}" id="node_id_{$item.node_id}">
   <div class="dropdown-button">
     <a href={$item.url_alias|ezurl} role="button">{$item.name|wash()}</a>
-    <button type="button" class="dropdown-toggle" aria-label="dropdown toggler button"></button>
+    <button type="button" class="dropdown-toggle" aria-label="{'dropdown toggler button'|i18n( 'design/simple/menu/dropdown' )}"></button>
   </div>
   <div class="dropdown-menu">
   <div>
