@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="576" ezremote:identifier="author" name="Author" type="ezauthor">
           <ezauthor>
             <authors>
-              <author id="0" name="Administrator User" email="bk@ez.no"/>
+              <author id="0" name="Administrator User" email="author@example.com"/>
             </authors>
           </ezauthor>
         </ezobject:attribute>
@@ -43,7 +43,7 @@
                 <section>
                   <section>
                     <header>Contact</header>
-                    <paragraph>Should anything be unclear ( after having read through the following :) ), or if you would like to ask a question, feel free to send an email to community@ez.no.</paragraph>
+                    <paragraph>Should anything be unclear ( after having read through the following :) ), or if you would like to ask a question, feel free to send an email to info@example.com.</paragraph>
                     <paragraph>
                       <anchor name="share"/>
                     </paragraph>

@@ -12,7 +12,7 @@
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="738" ezremote:identifier="author" name="Author" type="ezauthor">
           <ezauthor>
             <authors>
-              <author id="0" name="Administrator User" email="nospam@ez.no"/>
+              <author id="0" name="Administrator User" email="author@example.com"/>
             </authors>
           </ezauthor>
         </ezobject:attribute>
