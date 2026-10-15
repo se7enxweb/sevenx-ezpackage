@@ -1046,6 +1046,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                             'module' => 'notification', 
                             'function' => 'use' 
                         ), 
+                        // the display language of the administration (uiswitch, the right toolbar's interface choices)
+                        array(
+                            'module' => 'uiswitch',
+                            'function' => 'language'
+                        ),
                         // the node data calls of the sub-items list and the rich text editor
                         // (ezjscore.ini [ezjscServer_ezjscnode] RequirePolicy=enabled on new sites)
                         array(
@@ -4981,7 +4986,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                         1 => 'admin_current_user', 
                         2 => 'admin_bookmarks', 
                         3 => 'admin_clear_cache', 
-                        4 => 'admin_quick_settings' 
+                        4 => 'admin_quick_settings',
+                        5 => 'admin_ui_switch'
                     ) 
                 ), 
                 'Toolbar_setup' => array( 
@@ -4993,15 +4999,17 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                         4 => 'setup_link' 
                     ) 
                 ), 
-                // Clear cache and Bookmarks first in the right sidebar; the
-                // editor siteaccess, a copy of these, keeps Bookmarks first
+                // Clear cache and Bookmarks first in the right sidebar, the
+                // interface choices (uiswitch) after Bookmarks; the editor
+                // siteaccess, a copy of these, keeps Bookmarks first
                 // (kernel setup step createEditorSiteAccess)
                 'Toolbar_admin_right' => array(
                     'Tool' => array(
                         0 => 'admin_clear_cache',
                         1 => 'admin_bookmarks',
-                        2 => 'admin_current_user',
-                        3 => 'admin_preferences'
+                        2 => 'admin_ui_switch',
+                        3 => 'admin_current_user',
+                        4 => 'admin_preferences'
                     )
                 ),
                 'Toolbar_admin_developer' => array(
