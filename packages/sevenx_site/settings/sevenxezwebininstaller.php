@@ -156,6 +156,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'ngclasslist',
             'exp_enhanced_link',
             'expchangeclass',
+            // Changes the owner of an object or of a whole subtree (module owner: change, subtree); the
+            // Administrator role has it through */*.
+            'ezownerchange',
             'cjw_newsletter',
             'recaptcha',
             // An hCaptcha field for forms, next to recaptcha; it needs its keys set.
