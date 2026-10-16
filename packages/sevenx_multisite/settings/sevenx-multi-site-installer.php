@@ -1051,6 +1051,11 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                             'module' => 'uiswitch',
                             'function' => 'language'
                         ),
+                        // the design of the administration (uiswitch, the right toolbar's interface choices)
+                        array(
+                            'module' => 'uiswitch',
+                            'function' => 'design'
+                        ),
                         // the node data calls of the sub-items list and the rich text editor
                         // (ezjscore.ini [ezjscServer_ezjscnode] RequirePolicy=enabled on new sites)
                         array(
