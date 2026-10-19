@@ -2,7 +2,8 @@
 
 # Left out of every package: version control folders and files (.git, .gitignore, .gitattributes,
 # .gitmodules, .svn, .hg), editor and operating system leftovers (.DS_Store, .idea, .vscode, backups ending
-# in ~ such as *.php~, *.swp) and node_modules. An installed package needs none of them: the package
+# in ~ such as *.php~, *.swp, backup copies such as *.bak and *.xml.bak.<step>) and node_modules. An installed
+# package needs none of them: the package
 # handlers install the files below each package folder, and these only come along from the working copies
 # of the bundled extensions. tar applies each name at any depth, a folder with everything below it.
 EXCLUDES=(
@@ -18,6 +19,8 @@ EXCLUDES=(
     --exclude='node_modules'
     --exclude='*~'
     --exclude='*.swp'
+    --exclude='*.bak'
+    --exclude='*.bak.*'
 )
 
 
