@@ -64,6 +64,9 @@
       <require type="ezpackage"
                name="sevenx_multisite_democontent_clean"
                min-version="5.1" />
+      <require type="ezpackage"
+               name="sevenx_design_blue"
+               min-version="5.1" />
     </requires>
     <obsoletes />
     <conflicts />
