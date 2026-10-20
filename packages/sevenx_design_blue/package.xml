@@ -41,19 +41,19 @@
                  variable-name="thumbnail">
         <file name="thumbnail.png"
               path="var/ezwebin_site/storage/temp/thumbnail.png"
-              md5sum="d0a098ad93432761ff270ea553e549d4" />
+              md5sum="e8fbdb6ce011c6f921490ee494471964" />
       </file-list>
       <file-list type="file"
                  variable-name="sitecssfile">
         <file name="site-colors.css"
               path="var/ezwebin_site/storage/temp/site-colors.css"
-              md5sum="a3bd34d0f3ff613eb8c50b68d89f373b" />
+              md5sum="0523278a1971796c817cf98f9a4f5d6f" />
       </file-list>
       <file-list type="file"
                  variable-name="classescssfile">
         <file name="classes-colors.css"
               path="var/ezwebin_site/storage/temp/classes-colors.css"
-              md5sum="a8e5f030fd9c1801e91e6e14a43ab627" />
+              md5sum="afe97c35bf13ec9ce93778eca396cdfe" />
       </file-list>
       <file-list type="file"
                  variable-name="imagefiles">
