@@ -1608,7 +1608,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_params' => array( 
                     'object_id' => $this->setting( 'template_look_object_id' ), 
                     'class_attribute_identifier' => 'sitestyle', 
-                    'string' => 'ezwebin_design_blue' 
+                    'string' => 'sevenx_design_blue' 
                 ) 
             )
         );
