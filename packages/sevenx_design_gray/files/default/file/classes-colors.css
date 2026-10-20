@@ -1,0 +1,213 @@
+/* CLASSES-COLORS CSS
+ * Gray site style: the Website Interface's own palette, written out. These are the color
+ * declarations the ezwebin design's base stylesheets give the selectors the other site
+ * styles color here; images and layout stay in the base stylesheets. */
+
+div.border-box div.border-mc
+{
+    background-color: #ffffff;
+}
+
+table.cols th
+{
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+table.cols th
+{
+    color: #525345;
+    background-color: #DFDFDF;
+}
+
+table.cols col.bglight
+{
+    background-color: #F1F1ED;
+}
+
+table.cols col.bgdark
+{
+    background-color: #EAE9E1;
+}
+
+table.cols tr.bglight:hover, table.cols tr.bgdark:hover
+{
+    background-color: #EAE9E1;
+}
+
+table.cols tr.bglight:hover td, table.cols tr.bgdark:hover td
+{
+    background-color: #F1F1ED;
+}
+
+table.renderedtable th
+{
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+table.renderedtable th
+{
+    color: #525345;
+    background-color: #DFDFDF;
+}
+
+table.renderedtable tr.bglight
+{
+    background-color: #F1F1ED;
+}
+
+table.renderedtable tr.bgdark
+{
+    background-color: #EAE9E1;
+}
+
+table.renderedtable tr.bglight:hover, table.renderedtable tr.bgdark:hover
+{
+    background-color: #EAE9E1;
+}
+
+table.renderedtable tr.bglight:hover td, table.renderedtable tr.bgdark:hover td
+{
+    background-color: #F1F1ED;
+}
+
+table.comparison th
+{
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+table.comparison th
+{
+    color: #525345;
+    background-color: #DFDFDF;
+}
+
+table.comparison col.bglight
+{
+    background-color: #F1F1ED;
+}
+
+table.comparison col.bgdark
+{
+    color: #525345;
+    background-color: #DFDFDF;
+}
+
+table.comparison tr.bglight:hover, table.comparison tr.bgdark:hover
+{
+    background-color: #F1F1ED;
+}
+
+table.comparison tr.bglight:hover td, table.comparison tr.bgdark:hover td
+{
+    background-color: #EAE9E1;
+}
+
+div.content-view-full div.attribute-byline p.date
+{
+    color: #CCCCCC;
+}
+
+div.attribute-header h1
+{
+    color: #000000;
+}
+
+div.attribute-header h1.long
+{
+    color: #000000;
+}
+
+div.content-view-line div.class-forum table.forum th
+{
+    background-color: #E0E0D4;
+}
+
+div.content-view-line div.class-forum table.forum td
+{
+    background-color: #F2F1ED;
+}
+
+div.content-view-full div.class-forums table.forum th
+{
+    background-color: #E0E0D4;
+}
+
+div.content-view-full div.class-forums table.forum td
+{
+    background-color: #F2F1ED;
+}
+
+div.content-view-full div.attribute-image div.caption
+{
+    background-color: #EAE9E1;
+}
+
+div.calendar
+{
+    background-color: #f4f4f4;
+}
+
+div.calendar div.content
+{
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+div.calendar div.month a
+{
+    color: #525345;
+}
+
+div.calendar th, div.calendar td
+{
+    color: #525345;
+    border-color: #ffffff #e0e0e0 #e0e0e0 #ffffff;
+}
+
+div.calendar td.currentselected
+{
+    background-color: #e0e0e0;
+}
+
+div.content-view-full div.class-frontpage div.attribute-billboard
+{
+    background-color: #FFFFFF;
+}
+
+div.user-edit div.attribute-header h1
+{
+    color: #000000;
+}
+
+div#ezagenda_calendar_container table
+{
+    background-color: #F0F0F0;
+}
+
+div#ezagenda_calendar_container table th
+{
+    border-color: #fefffc #dee0dd #dee0dd #fefffc;
+}
+
+div#ezagenda_calendar_container table td
+{
+    border-color: #fefffc #dee0dd #dee0dd #fefffc;
+}
+
+div#ezagenda_calendar_container table td.ezagenda_selected
+{
+    background-color: #e4e5e4;
+}
+
+div#ezagenda_calendar_right table.ezagenda_month_event
+{
+    border: 1px solid #f1f1ed;
+}
+
+div#ezagenda_calendar_today div.ezagenda_day_event
+{
+    border: 1px solid #f1f1ed;
+}

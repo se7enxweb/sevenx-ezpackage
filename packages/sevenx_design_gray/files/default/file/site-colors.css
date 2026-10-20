@@ -1,0 +1,51 @@
+/* SITE-COLORS CSS
+ * Gray site style: the Website Interface's own palette, written out. These are the color
+ * declarations the ezwebin design's base stylesheets give the selectors the other site
+ * styles color here; images and layout stay in the base stylesheets. */
+
+div#header
+{
+    background-color: #FFFFFF;
+}
+
+div#links a
+{
+    color: #515346;
+    border-left: 1px solid #CECEC2;
+}
+
+input#searchtext
+{
+    border: 1px solid #A5ACB2;
+}
+
+div#topmenu
+{
+    background-color: #FFFFFF;
+}
+
+div#topmenu ul li a
+{
+    color: #4F5241;
+}
+
+div#topmenu ul li.selected a, div#topmenu ul li a:hover
+{
+    border-bottom: 3px solid #ABAB9E;
+}
+
+div#topmenu ul#topmenu-secondlevel
+{
+    background-color: #F5F6F1;
+    border-bottom: 1px solid #E9E9E1;
+}
+
+div#topmenu ul#topmenu-secondlevel li.selected a, div#topmenu ul#topmenu-secondlevel li a:hover
+{
+    color: #111;
+}
+
+div#topmenu ul#topmenu-secondlevel li a
+{
+    color: #555;
+}
