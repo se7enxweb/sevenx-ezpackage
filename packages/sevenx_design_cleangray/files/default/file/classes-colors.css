@@ -258,17 +258,17 @@ div.factbox-header div.border-mc
 
 div.factbox-header div.border-bl
 {
-    background-image: url(images/factbox-header/border-bl.gif);
+    background-image: none;
 }
 
 div.factbox-header div.border-br
 {
-    background-image: url(images/factbox-header/border-br.gif);
+    background-image: none;
 }
 
 div.factbox-header div.border-bc
 {
-    background-image: url(images/factbox-header/border-bc.gif);
+    background-image: none;
 }
 
 div.factbox-content div.attribute-image
@@ -279,17 +279,17 @@ div.factbox-content div.attribute-image
 
 div.factbox-content div.border-tl
 {
-    background-image: url(images/factbox/border-tl.gif);
+    background-image: none;
 }
 
 div.factbox-content div.border-tr
 {
-    background-image: url(images/factbox/border-tr.gif);
+    background-image: none;
 }
 
 div.factbox-content div.border-tc
 {
-    background-image: url(images/factbox/border-tc.gif);
+    background-image: none;
 }
 
 div.factbox-content div.border-ml
@@ -586,7 +586,7 @@ div#ezagenda_calendar_container div.border-box div.border-mr
 
 div#ezagenda_calendar_container div.border-box div.border-mc
 {
-    background:#F4F4F4 url(images/agendabox/border-mc.gif) repeat-x scroll left top;
+    background:#F4F4F4 none repeat-x scroll left top;
     padding: 0.25em 0 0.25em 0;
 }
 
