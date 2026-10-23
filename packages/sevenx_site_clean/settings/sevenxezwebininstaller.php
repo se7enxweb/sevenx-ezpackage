@@ -3188,7 +3188,51 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 );
             }
         }
+
+        // Registration and the newsletter's public views. A new installation takes user/register out of
+        // PolicyOmitList[] (PolicyOmitListExclude[]=user/register), so visitors can register only with the policy
+        // user/register; the kernel's base data has it from 6.0.15 on, an older one does not. cjw_newsletter's
+        // subscription form, the configure and unsubscribe links of its mails and the web version of a sent
+        // newsletter are opened by visitors who are not signed in. Each policy is added only when the role lacks it.
+        $anonymousPublicPolicies = array( array( 'module' => 'user', 'function' => 'register' ) );
+        if ( in_array( 'cjw_newsletter', (array)$this->setting( 'extension_list' ), true ) )
+        {
+            foreach ( array( 'subscribe', 'configure', 'unsubscribe', 'archive' ) as $newsletterFunction )
+                $anonymousPublicPolicies[] = array( 'module' => 'newsletter', 'function' => $newsletterFunction );
+        }
+        $anonymousMissing = array();
+        foreach ( $anonymousPublicPolicies as $anonymousPolicy )
+        {
+            if ( !$this->anonymousRoleHasPolicy( $anonymousPolicy['module'], $anonymousPolicy['function'] ) )
+                $anonymousMissing[] = $anonymousPolicy;
+        }
+        if ( $anonymousMissing )
+        {
+            $roles[] = array(
+                'name' => 'Anonymous',
+                'policies' => $anonymousMissing
+            );
+        }
         return $roles;
+    }
+
+    /**
+     * Whether the Anonymous role grants module/function already: * / *, module / * or module / function, with or
+     * without limitations.
+     */
+    function anonymousRoleHasPolicy( $module, $function )
+    {
+        $role = eZRole::fetchByName( 'Anonymous' );
+        if ( !is_object( $role ) )
+            return false;
+        foreach ( $role->policyList() as $policy )
+        {
+            $policyModule = $policy->attribute( 'module_name' );
+            $policyFunction = $policy->attribute( 'function_name' );
+            if ( $policyModule === '*' || ( $policyModule === $module && ( $policyFunction === '*' || $policyFunction === $function ) ) )
+                return true;
+        }
+        return false;
     }
 
     ///////////////////////////////////////////////////////////////////////////
