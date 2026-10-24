@@ -340,6 +340,23 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
         $this->addSetting( 'var_dir', eZSiteInstaller::getParam( $parameters, 'var_dir', 'var/site' ) );
     }
 
+    /**
+     * Member management (doc/eng-us/bc/6.0/member-management.md): the role "Member management" that lets the Editors
+     * group create, edit, enable and disable, move and remove the accounts below Members, never those of Administrator
+     * users or Editors, as the kernel's membermanagement.ini describes it. The kernel's setup step checks the same after
+     * the package; this step makes it part of the package's own role setup. A kernel without member management skips it.
+     */
+    function installMemberManagement( $params = false )
+    {
+        if ( !class_exists( 'expMemberManagement' ) )
+        {
+            eZDebug::writeNotice( 'This kernel has no member management (expMemberManagement); skipped', __METHOD__ );
+            return true;
+        }
+        eZDebug::writeNotice( expMemberManagement::ensure(), __METHOD__ );
+        return true;
+    }
+
     function initSteps()
     {
         $postInstallSteps = array( 
@@ -1502,6 +1519,12 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                     'role_name' => 'Member' 
                 ) 
             ), 
+            // Member management (doc/eng-us/bc/6.0/member-management.md): the Editors group manages the accounts below
+            // Members, never those of Administrator users or Editors (membermanagement.ini)
+            array(
+                '_function' => 'installMemberManagement',
+                '_params' => array()
+            ),
             array( 
                 '_function' => 'updateClassAttributes', 
                 '_params' => array( 
