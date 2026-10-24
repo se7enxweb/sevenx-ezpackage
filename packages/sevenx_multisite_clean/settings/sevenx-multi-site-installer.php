@@ -4987,6 +4987,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                         'audit',
                         'gitmanager',
                         'xrowextract',
+                        'sqliimport',
                         'bccie_overview',
                         'newsletter'
                     )
@@ -5439,11 +5440,18 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
      * from the admin's files) AdminUI is a choice of their design menu; its global settings (design.ini
      * DesignExtensions[]) come along. It stays an access extension, never in extension_list (ActiveExtensions[]),
      * and the admin and editor keep their own SiteDesign. It has no tables.
+     *
+     * sqliimport (last; it needs expqueue and expui, which are in extension_list): the Imports tab of the
+     * administration (adminMenuINISettings()). Its 13 tables come from extensionSchemas() through this list. Its
+     * schedules run from expqueue's worker and the cron part sqliimport, both with the admin siteaccess:
+     * cd <installation> && php runcronjobs.php -q -s <admin siteaccess> sqliimport
+     * The editor siteaccess is made without it (the kernel leaves it out there), and no role but Administrator is
+     * given its policies.
      */
     function adminAccessExtensionList()
     {
         $list = array();
-        foreach ( array( 'expai', 'exp_adminui' ) as $extension )
+        foreach ( array( 'expai', 'exp_adminui', 'sqliimport' ) as $extension )
         {
             if ( is_dir( eZExtension::baseDirectory() . '/' . $extension ) )
                 $list[] = $extension;

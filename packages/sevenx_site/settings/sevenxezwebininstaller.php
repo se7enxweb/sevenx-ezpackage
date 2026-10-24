@@ -3450,6 +3450,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                         'audit',
                         'gitmanager',
                         'xrowextract',
+                        'sqliimport',
                         'bccie_overview',
                         'newsletter'
                     )
@@ -3893,11 +3894,18 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
      * Administrator role holds its policies already and no other role is given any. Its tables come from
      * extensionSchemas(). Its cron part needs the admin siteaccess, as does expqueue's worker:
      * every five minutes, cd <installation> && php runcronjobs.php -q -s <admin siteaccess> expai
+     *
+     * sqliimport (last; it needs expqueue and expui, which are in extension_list): the Imports tab of the
+     * administration (adminMenuINISettings()). Its 13 tables come from extensionSchemas() through this list. Its
+     * schedules run from expqueue's worker and the cron part sqliimport, both with the admin siteaccess:
+     * cd <installation> && php runcronjobs.php -q -s <admin siteaccess> sqliimport
+     * The editor siteaccess is made without it (the kernel leaves it out there), and no role but Administrator is
+     * given its policies.
      */
     function adminAccessExtensionList()
     {
         $list = array();
-        foreach ( array( 'expai' ) as $extension )
+        foreach ( array( 'expai', 'sqliimport' ) as $extension )
         {
             if ( is_dir( eZExtension::baseDirectory() . '/' . $extension ) )
                 $list[] = $extension;
