@@ -1082,6 +1082,39 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                         array( 
                             'module' => 'content', 
                             'function' => 'view_embed' 
+                        ),
+                        // The everyday work the list above leaves out: hiding and revealing, the trash (looking into it
+                        // and restoring), the list of what uses an object, and uploading several files at once into
+                        // the media library. The kernel's setup step adds them too when a package does not
+                        // (doc/eng-us/bc/6.0/editor-role-policies.md).
+                        array( 'module' => 'content', 'function' => 'hide' ),
+                        array( 'module' => 'content', 'function' => 'restore' ),
+                        array( 'module' => 'content', 'function' => 'reverserelatedlist' ),
+                        array( 'module' => 'ezmultiupload', 'function' => '*' ),
+                        // The article with a map and the video of the class package, which the class lists above
+                        // predate: created below a folder, and edited from the website toolbar.
+                        array(
+                            'module' => 'content',
+                            'function' => 'create',
+                            'limitation' => array(
+                                'Class' => array(
+                                    array( '_function' => 'classIDbyIdentifier', '_params' => array( 'identifier' => 'geo_article' ) ),
+                                    array( '_function' => 'classIDbyIdentifier', '_params' => array( 'identifier' => 'video' ) )
+                                ),
+                                'ParentClass' => array(
+                                    array( '_function' => 'classIDbyIdentifier', '_params' => array( 'identifier' => 'folder' ) )
+                                )
+                            )
+                        ),
+                        array(
+                            'module' => 'websitetoolbar',
+                            'function' => 'use',
+                            'limitation' => array(
+                                'Class' => array(
+                                    array( '_function' => 'classIDbyIdentifier', '_params' => array( 'identifier' => 'geo_article' ) ),
+                                    array( '_function' => 'classIDbyIdentifier', '_params' => array( 'identifier' => 'video' ) )
+                                )
+                            )
                         )
                     ) 
                 ) 
