@@ -2985,16 +2985,43 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
     }
 
     /**
-     * settings/override/sevenxauthentication2fa.ini.append.php: two-step sign-in is the users' choice
-     * (Enforce2FA=disabled; DefaultMethod applies once it is enforced), and the authenticator secrets are stored
-     * encrypted with a key made for this installation alone.
+     * settings/override/sevenxauthentication2fa.ini.append.php: the accounts that run the site sign in with a second
+     * step, everyone else chooses for themselves.
+     *
+     * [General]
+     * - Enforce2FA=enabled: whoever EnforcedGroups[] names has to have a second step. A member of those groups
+     *   without one sets it up right after the password, before the first page (the forced setup of the extension).
+     * - DefaultMethod=totp: what that setup offers first, an authenticator app.
+     * - EnforcedGroups[]: the Administrator users and Editors groups of the base data, by object remote id, so the
+     *   same names hold on every installation made from it (a group below them is included). Members (front-end
+     *   accounts) are not listed: for them it stays a choice on their account page.
+     * - ExemptGroups[], ExemptEmailDomains[]: empty, nobody listed is let off.
+     * - GracePeriodDays=0: the setup comes first, there is no "later".
+     * [Security] RecoveryCodes=10: one-time codes for a lost phone, shown once after the authenticator is set up.
+     * [TOTPSettings] SecretKey: the authenticator secrets are stored encrypted with a key made for this installation
+     * alone. Losing or changing it means every user sets up the app again.
+     *
+     * A public demo whose visitors share one administrator account switches Enforce2FA off after the installation
+     * (doc/eng-us/examples/demo-mode/), or the first visitor's phone would lock out every other one.
      */
     function twoFactorINISettings()
     {
         return array(
             'name' => 'sevenxauthentication2fa.ini',
+            'reset_arrays' => true,
             'settings' => array(
-                'General' => array( 'Enforce2FA' => 'disabled', 'DefaultMethod' => 'totp' ),
+                'General' => array(
+                    'Enforce2FA' => 'enabled',
+                    'DefaultMethod' => 'totp',
+                    'EnforcedGroups' => array(
+                        '9b47a45624b023b1a76c73b74d704acf', // Administrator users
+                        '3c160cca19fb135f83bd02d911f04db2'  // Editors
+                    ),
+                    'ExemptGroups' => array(),
+                    'ExemptEmailDomains' => array(),
+                    'GracePeriodDays' => '0'
+                ),
+                'Security' => array( 'RecoveryCodes' => '10' ),
                 'TOTPSettings' => array( 'SecretKey' => base64_encode( random_bytes( 48 ) ) )
             )
         );
@@ -3953,7 +3980,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         $settings[] = $this->commonForumINISettings();
         $settings[] = $this->commonOEAttributesINISettings();
         $settings[] = $this->commonXMLINISettings();
-        // sevenx_authentication_2fa: opt-in, with a secret key of this installation (twoFactorINISettings())
+        // sevenx_authentication_2fa: required for Administrator users and Editors, a choice for everyone else, with a
+        // secret key of this installation (twoFactorINISettings())
         if ( $this->twoFactorAuthenticationAvailable() )
             $settings[] = $this->twoFactorINISettings();
         return $settings;
@@ -4092,7 +4120,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'LogoutRedirect' => '/' 
         );
         // sevenx_authentication_2fa: its login handler before the standard one (its INSTALL.md, "Extension
-        // activation"). Without a 2FA method set up for a user (Enforce2FA=disabled) the login is as before.
+        // activation"). Administrator users and Editors set up a second step at their first sign-in (Enforce2FA,
+        // twoFactorINISettings()); for everyone else without one the login is as before.
         if ( $this->twoFactorAuthenticationAvailable() )
             $settings['UserSettings']['LoginHandler'] = array( 'sevenxUser2fa', 'standard' );
         // The static cache is generated from Setup > Cache > Static content
