@@ -1,0 +1,5 @@
+Changes from 6.0.30 to 6.0.31 (2026-10-29)
+
+- Updated: One copyright notice, Exponential Foundation and 7x.
+
+Upgrading: composer update and clear the caches.

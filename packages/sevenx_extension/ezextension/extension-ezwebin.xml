@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension name="ezwebin">
-  <file name="LICENSE" md5sum="09e5ab0a2578bb8948c4cf98eba08b02"/>
+  <file name="LICENSE" md5sum="eee5f9135e5b658adce09e7e046c881f"/>
   <file name="README" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
   <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="ezarchive.php" path="/autoloads" md5sum="ab028b8ddeb859eb525680bc27f7729c"/>
-  <file name="ezkeywordlist.php" path="/autoloads" md5sum="17eaba29225067159247bbc7146ed753"/>
-  <file name="ezpagedata.php" path="/autoloads" md5sum="5616a5d1c5fe02ad4731c678ed1540e6"/>
-  <file name="eztagcloud.php" path="/autoloads" md5sum="86e92f7d9cff184c01a667fb693cf705"/>
-  <file name="eztemplateautoload.php" path="/autoloads" md5sum="d25c33e2d6f09bc320742d1bad4e0449"/>
+  <file name="ezarchive.php" path="/autoloads" md5sum="9e27c47afc854095d38a551fa1e90f4e"/>
+  <file name="ezkeywordlist.php" path="/autoloads" md5sum="bf07516b9ce350b30fc39a1246618819"/>
+  <file name="ezpagedata.php" path="/autoloads" md5sum="6ef3e3b67e716486b5047036473367b2"/>
+  <file name="eztagcloud.php" path="/autoloads" md5sum="e6ae0f73f6bf1daea70d5284947e6d30"/>
+  <file name="eztemplateautoload.php" path="/autoloads" md5sum="732f737a4485f47a8220d924d5c32880"/>
   <file name="composer.json" md5sum="3b2d8feedf6127f688b531ca693a4da9"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezwebin" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -382,7 +382,7 @@
   <file name="billboard.tpl" path="/design/ezwebin/templates/content/view" md5sum="041222e67bbe5976db447f44ca3c80a2"/>
   <file name="versionview.tpl" path="/design/ezwebin/templates/content/view" md5sum="734e2513a0e608c225d2a51acf5e8423"/>
   <file name="ezinfo" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="about.tpl" path="/design/ezwebin/templates/ezinfo" md5sum="48105f324d0e2de3e52fe048d440586f"/>
+  <file name="about.tpl" path="/design/ezwebin/templates/ezinfo" md5sum="f6389f975e1030d3dd6530743c3fc04c"/>
   <file name="ezodf" path="/design/ezwebin/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="browse_place.tpl" path="/design/ezwebin/templates/ezodf" md5sum="a565c95c96dddabc72321a4776bec592"/>
   <file name="export.tpl" path="/design/ezwebin/templates/ezodf" md5sum="6b44d4edb808822031ff676150afeabc"/>
@@ -497,9 +497,10 @@
   <file name="6.0" path="/doc/changelogs" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="CHANGELOG-6.0.28-to-6.0.29" path="/doc/changelogs/6.0" md5sum="476328aba31c90c5aa65f9fd8a66e566"/>
   <file name="CHANGELOG-6.0.29-to-6.0.30" path="/doc/changelogs/6.0" md5sum="6afa00bda5331d0d5ec398b9c1f4c3b4"/>
+  <file name="CHANGELOG-6.0.30-to-6.0.31" path="/doc/changelogs/6.0" md5sum="109e42db2a5c88f729698958d4524210"/>
   <file name="release-overview" path="/doc" md5sum="fb82a4d6443f2a555949e0d532ac7be1"/>
-  <file name="extension.xml" md5sum="4505f92c13de4577373337cdb30b6af0"/>
-  <file name="ezinfo.php" md5sum="77877460a74bb50e27a6a1fe2a722e28"/>
+  <file name="extension.xml" md5sum="aeaca9973af4714f137e4860af1911c1"/>
+  <file name="ezinfo.php" md5sum="3698da14a3a2fdbf51a672c4b87472dc"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="article-1.0-1.ezpkg" path="/packages" md5sum="f97ea3180f7a432577609869f80cd1d2"/>
   <file name="article_main_page-1.0-1.ezpkg" path="/packages" md5sum="5f3c9ea5857d7772bc1c8adeb08f78fd"/>

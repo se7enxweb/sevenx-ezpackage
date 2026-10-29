@@ -173,7 +173,7 @@
   <file name="kernel" path="/design/simple/templates/error" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="20.tpl" path="/design/simple/templates/error/kernel" md5sum="0f98c416fc1be8c6baca7fc19dfd7fb2"/>
   <file name="ezinfo" path="/design/simple/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="about.tpl" path="/design/simple/templates/ezinfo" md5sum="fb100b72d1d8c5d8fec60ca4f12758e0"/>
+  <file name="about.tpl" path="/design/simple/templates/ezinfo" md5sum="4c3041e6ae9715af25227cb4b6956eeb"/>
   <file name="link.tpl" path="/design/simple/templates" md5sum="9393d7967e3dcad1beff9658e6a72200"/>
   <file name="menu" path="/design/simple/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="#multi-dropdown.tpl#" path="/design/simple/templates/menu" md5sum="2bb106d9549470fb5de4cc5a15813836"/>
@@ -190,7 +190,7 @@
   <file name="node" path="/design/simple/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="view" path="/design/simple/templates/node" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="sitemap.tpl" path="/design/simple/templates/node/view" md5sum="54e9cf2ddf3daad1b2413c8032de7b54"/>
-  <file name="page_footer.tpl" path="/design/simple/templates" md5sum="bf735d5c7aaa7b52008797e080313109"/>
+  <file name="page_footer.tpl" path="/design/simple/templates" md5sum="d7611f4f0142fbb43001c7009235f3f9"/>
   <file name="page_head.tpl" path="/design/simple/templates" md5sum="6123f380bb80e7a9296315f7b68f4c1c"/>
   <file name="page_head_script.tpl" path="/design/simple/templates" md5sum="1171b8db32db4757796fc72ac91d4fbd"/>
   <file name="page_head_style.tpl" path="/design/simple/templates" md5sum="800e272993ef5d92596e979977168d36"/>
@@ -212,8 +212,8 @@
   <file name="userregister.tpl" path="/design/simple/templates/shop" md5sum="c2f2ed109a7d9743c99827a6a162b5a7"/>
   <file name="user" path="/design/simple/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="login.tpl" path="/design/simple/templates/user" md5sum="83bacd09676e171000093e761a056fd1"/>
-  <file name="extension.xml" md5sum="f00a36c80e775fbd00adc911ab652f75"/>
-  <file name="ezinfo.php" md5sum="20ca00b971caad4da50df6eb608624fe"/>
+  <file name="extension.xml" md5sum="2b6b2d90ccdaa94177ff7b724ef1ac81"/>
+  <file name="ezinfo.php" md5sum="80ba7f14d1915da8f22b82501eb687d3"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="article-1.0-1.ezpkg" path="/packages" md5sum="f97ea3180f7a432577609869f80cd1d2"/>
   <file name="article_main_page-1.0-1.ezpkg" path="/packages" md5sum="5f3c9ea5857d7772bc1c8adeb08f78fd"/>

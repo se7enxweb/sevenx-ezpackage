@@ -53,10 +53,10 @@
 </div>
 
 <p>
-    Copyright &copy; 1998-2026 <a href="https://se7enx.com">7x</a>, with portions copyright by other parties.
+    <a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998-2026 Exponential Foundation and <a href="https://se7enx.com">7x</a>, with portions copyright by other parties.
 </p>
 <p>
-    Copyright &copy; 1998 - 2026 <a href="https://se7enx.com">7x</a> &amp; Exponential Foundation. Copyright &copy; 1999-2014 <a href="http://ez.no/">eZ Systems AS</a>. Portions are copyright by other parties. 
+    Copyright &copy; 1999-2014 <a href="http://ez.no/">eZ Systems AS</a>. Portions are copyright by other parties. 
 </p>
 <p>
     A complete list of all contributors and third-party software follows.
