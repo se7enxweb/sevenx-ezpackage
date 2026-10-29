@@ -5,7 +5,7 @@
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: Exponential
 // SOFTWARE RELEASE: 6.0.x
-// COPYRIGHT NOTICE: Copyright (C) 1998 - 2026 7x
+// COPYRIGHT NOTICE: Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
 // SOFTWARE LICENSE: GNU General Public License v2.0 (or any later version)
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -2793,7 +2793,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 "DataText" => "Site settings" 
             ), 
             "footer_text" => array( 
-                "DataText" => "Copyright &#169; " . date( 'Y' ) . " <a href=\"https://se7enx.com\" title=\"7x\">7x</a> (except where otherwise noted). All rights reserved." 
+                "DataText" => "<a href=\"https://exponential.earth\">Exponential</a> Copyright &#169; 1998-2026 Exponential Foundation and 7x" 
             ), 
             "hide_powered_by" => array( 
                 "DataInt" => 0 
@@ -3133,7 +3133,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                                 'RootNodeDepth' => $homeNodeDepth,
                                 'MetaDataArray' => array(
                                     'author' => '7x',
-                                    'copyright' => '7x',
+                                    'copyright' => 'Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.',
                                     'description' => 'A website made with Exponential',
                                     'keywords' => 'exponential, cms, website'
                                 )
@@ -3436,7 +3436,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         $siteINI->setVariable( 'SiteSettings', 'RootNodeDepth', $this->homeNodeDepth() );
         $siteINI->setVariable( 'SiteSettings', 'MetaDataArray', array(
             'author' => '7x',
-            'copyright' => '7x',
+            'copyright' => 'Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.',
             'description' => 'A website made with Exponential',
             'keywords' => 'exponential, cms, website'
         ) );

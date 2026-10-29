@@ -4,7 +4,7 @@
 //
 // Copyright (C) 1999-2014 eZ Systems AS. All rights reserved.
 //
-// Copyright (C) 1998 - 2026 7x and others.
+// Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
 //
 // This file is part of Exponential. It may be distributed and/or modified
 // under the terms of the GNU General Public License v2.0 (or any later
