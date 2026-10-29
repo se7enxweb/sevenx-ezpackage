@@ -12,7 +12,7 @@
     <named-version>6.0</named-version>
   </ezpublish>
   <packaging>
-    <timestamp>1793268888</timestamp>
+    <timestamp>1793285197</timestamp>
     <host>packages.se7enx.com</host>
   </packaging>
   <documents>
@@ -37,9 +37,6 @@
           filename="extension-ezwebin"
           sub-directory="ezextension" />
     <item type="ezextension"
-          filename="extension-bcwebshop"
-          sub-directory="ezextension" />
-    <item type="ezextension"
           filename="extension-sevenx_themes_simple"
           sub-directory="ezextension" />
     <item type="ezextension"
@@ -49,9 +46,6 @@
   <uninstall>
     <item type="ezextension"
           filename="extension-ezwebin"
-          sub-directory="ezextension" />
-    <item type="ezextension"
-          filename="extension-bcwebshop"
           sub-directory="ezextension" />
     <item type="ezextension"
           filename="extension-sevenx_themes_simple"
