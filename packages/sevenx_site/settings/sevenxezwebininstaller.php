@@ -98,8 +98,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
         $this->addSetting( 'database_settings', eZSiteInstaller::getParam( $parameters, 'database_settings', array() ) );
         $this->addSetting( 'main_site_design', strtolower( $this->solutionName() ) );
         // The extensions of the multisite installer without those of its own
-        // content (the media design, the page layouts and the site API), plus
-        // the website's own (bcwebshop). Order matters: later extensions win
+        // content (the media design, the page layouts and the site API).
+        // Order matters: later extensions win
         // design and template overrides, so the theme stays at the end.
         $this->addSetting( 'extension_list', array( 
             'xrowmetadata',
@@ -141,8 +141,6 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'xrowextract',
             'enhancedezbinaryfile',
             'enhancedselection2',
-            // The website's shop additions (the sevenx_extension package ships it).
-            'bcwebshop',
             // The ezbirthday datatype (a birthday field for user and person classes).
             'birthday',
             'ezwebin',
