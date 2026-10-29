@@ -1,4 +1,5 @@
 {ezscript_require( 'tools/ezjsselection.js' )}
+{ezscript( array( 'ezwebin_actions.js' ) )}
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
@@ -52,7 +53,7 @@
 {if $list_count}
 <table class="list" cellspacing="0">
 <tr>
- <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Toggle selection'|i18n( 'design/ezwebin/content/history' )}" onclick="ezjs_toggleCheckboxes( document.versionsform, 'DeleteIDArray[]' ); return false;"></th>
+ <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Toggle selection'|i18n( 'design/ezwebin/content/history' )}" data-ezwebin-form="versionsform" data-ezwebin-toggle-checkboxes="DeleteIDArray[]"></th>
  <th>{'Version'|i18n( 'design/ezwebin/content/history' )}</th>
  <th>{'Status'|i18n( 'design/ezwebin/content/history' )}</th>
  <th>{'Modified translation'|i18n( 'design/ezwebin/content/history' )}</th>
@@ -359,24 +360,13 @@
 {/if}
 
 {elseif and( is_set( $object ), is_set( $diff ), is_set( $oldVersion ), is_set( $newVersion ) )}
-{literal}
-<script >
-function show( element, method )
-{
- document.getElementById( element ).className = method;
-}
-</script>
-{/literal}
-
 <div class="attribute-header">
  <h1 class="long">{'Differences between versions %oldVersion and %newVersion'|i18n( 'design/ezwebin/content/history',, hash( '%oldVersion', $oldVersion, '%newVersion', $newVersion ) )}</h1>
 </div>
 
 <div id="diffview">
 
-<script >
-document.write('<div class="context-toolbar"><div class="block"><ul><li><a href="#" onclick="show(\'diffview\', \'previous\'); return false;">{'Old version'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'inlinechanges\'); return false;">{'Inline changes'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'blockchanges\'); return false;">{'Block changes'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'latest\'); return false;">{'New version'|i18n( 'design/ezwebin/content/history' )}</a></li></ul></div></div>');
-</script>
+<div class="context-toolbar ezwebin-js-only" hidden><div class="block"><ul><li><a href="#" data-ezwebin-diff-target="diffview" data-ezwebin-diff-mode="previous">{'Old version'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" data-ezwebin-diff-target="diffview" data-ezwebin-diff-mode="inlinechanges">{'Inline changes'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" data-ezwebin-diff-target="diffview" data-ezwebin-diff-mode="blockchanges">{'Block changes'|i18n( 'design/ezwebin/content/history' )}</a></li><li><a href="#" data-ezwebin-diff-target="diffview" data-ezwebin-diff-mode="latest">{'New version'|i18n( 'design/ezwebin/content/history' )}</a></li></ul></div></div>
 
 {foreach $object.data_map as $attr}
 <div class="block">

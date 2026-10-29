@@ -4,13 +4,27 @@
  * See ../stylesheets/admin-maxlength.css
  */
 
-jQuery(document).ready(function() {
-    jQuery('input[data-maxlength]').on('input', function() {
-        if (jQuery(this).val().length > jQuery(this).data('maxlength')) {
-            jQuery(this).addClass('warn');
-        } else {
-            jQuery(this).removeClass('warn');
+(function() {
+    function check(input) {
+        if (input.value.length > input.getAttribute('data-maxlength')) {
+            input.classList.add('warn');
+        } else if (input.classList.contains('warn')) {
+            input.classList.remove('warn');
         }
-    });
-    jQuery('input[data-maxlength]').trigger('input');
-});
+    }
+
+    function init() {
+        Array.prototype.forEach.call(document.querySelectorAll('input[data-maxlength]'), function(input) {
+            input.addEventListener('input', function() {
+                check(input);
+            });
+            check(input);
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();

@@ -1,6 +1,6 @@
 {
     "name": "se7enxweb/ezwebin",
-    "description": "eZ Publish Legacy website interface extension",
+    "description": "Exponential Legacy website interface extension",
     "type": "ezpublish-legacy-extension",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -11,12 +11,13 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "se7enxweb/ezpublish-legacy-installer": "*"
+        "se7enxweb/ezpublish-legacy-installer": "*",
+        "se7enxweb/expui": "^1.0.0.1"
     },
     "suggest": {
-        "se7enxweb/ezwt-ls-extension": "~5.3",
-        "se7enxweb/ezstarrating-ls-extension": "~5.3",
-        "se7enxweb/ezgmaplocation-ls-extension": "~5.3"
+        "se7enxweb/ezwt": "~6.0.16",
+        "se7enxweb/ezstarrating": "~6.0.16",
+        "se7enxweb/ezgmaplocation": "~6.1"
     },
     "extra": {
         "ezpublish-legacy-extension-name": "ezwebin"

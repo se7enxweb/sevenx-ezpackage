@@ -101,12 +101,12 @@
 
 <div id="ezagenda_calendar_container">
 
-<table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
+<table cellspacing="0" cellpadding="0" border="0" summary="{'Event Calendar'|i18n( 'design/ezwebin/full/event_view_calendar' )}">
 <thead>
 <tr class="calendar_heading">
-    <th class="calendar_heading_prev first_col"><a href={$url_back|ezurl} title=" Previous month ">&#8249;&#8249;</a></th>
+    <th class="calendar_heading_prev first_col"><a href={$url_back|ezurl} title=" {'Previous month'|i18n( 'design/ezwebin/full/event_view_calendar' )} ">&#8249;&#8249;</a></th>
     <th class="calendar_heading_date" colspan="5">{$temp_ts|datetime( custom, '%F' )|upfirst()}{if $curr_year|ne( $temp_year )}&nbsp;{$temp_year}{/if}</th>
-    <th class="calendar_heading_next last_col"><a href={$url_forward|ezurl} title=" Next Month ">&#8250;&#8250;</a></th>
+    <th class="calendar_heading_next last_col"><a href={$url_forward|ezurl} title=" {'Next Month'|i18n( 'design/ezwebin/full/event_view_calendar' )} ">&#8250;&#8250;</a></th>
 </tr>
 <tr class="calendar_heading_days">
     <th class="first_col">{"Mon"|i18n("design/ezwebin/full/event_view_calendar")}</th>

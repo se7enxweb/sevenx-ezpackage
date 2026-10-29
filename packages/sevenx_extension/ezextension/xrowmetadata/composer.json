@@ -1,23 +1,23 @@
 {
     "name": "se7enxweb/xrowmetadata",
-    "description": "Add SEO Meta Data to content objects also provides sitemap capabilities to eZ Publish",
+    "description": "Add SEO Meta Data to content objects also provides sitemap capabilities to Exponential",
     "type": "ezpublish-legacy-extension",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name" : "7x",
+            "name": "7x",
             "homepage": "https://se7enx.com",
             "email": "info@se7enx.com",
             "role": "Developer"
         },
         {
-            "name" : "Brookins Consulting",
+            "name": "Brookins Consulting",
             "homepage": "https://brookinsconsulting.com",
             "email": "info@brookinsconsulting.com",
             "role": "Developer"
         },
         {
-            "name" : "Xrow GmbH",
+            "name": "Xrow GmbH",
             "homepage": "https://www.xrow.de",
             "email": "service@xrow.de",
             "role": "Author"
@@ -25,6 +25,9 @@
     ],
     "require": {
         "se7enxweb/ezpublish-legacy-installer": "*"
+    },
+    "replace": {
+        "netgen/xrowmetadata": "3.0.2"
     },
     "extra": {
         "ezpublish-legacy-extension-name": "xrowmetadata"

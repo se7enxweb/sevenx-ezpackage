@@ -1,27 +1,4 @@
 <?php
 
-$ini = eZINI::instance( 'site.ini' );
-$xrowsitemapINI = eZINI::instance( 'xrowsitemap.ini' );
-
-//getting custom set site access or default access
-if ( $xrowsitemapINI->hasVariable( 'MobileSitemapSettings', 'AvailableSiteAccessList' ) )
-{
-    $siteAccessArray = $xrowsitemapINI->variable( 'MobileSitemapSettings', 'AvailableSiteAccessList' );
-}
-else
-{
-    $siteAccessArray = array(
-        $ini->variable( 'SiteSettings', 'DefaultAccess' )
-    );
-}
-
-if ( $xrowsitemapINI->variable( 'Settings', 'MobileSitemap' ) == 'enabled' )
-{
-    if ( ! $isQuiet )
-    {
-        $cli->output( "Generating Mobile Sitemaps...\n" );
-    }
-    xrowSitemapTools::siteaccessCallFunction( $siteAccessArray, 'xrowSitemapTools::createMobileSitemap' );
-}
-
-xrowSitemapTools::ping();
+// The code is in extension/xrowmetadata/classes/runnable/cronjobs/mobilesitemap.php (#207); this file is the entry point.
+return \Exponential\Cronjob\Extension\Xrowmetadata\Mobilesitemap::main( __FILE__, get_defined_vars() );

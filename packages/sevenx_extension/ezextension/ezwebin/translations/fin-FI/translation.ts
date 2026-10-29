@@ -5,57 +5,57 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Vuosi</translation>
+        <translation>Vuosi</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Kuukausi</translation>
+        <translation>Kuukausi</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Päivä</translation>
+        <translation>Päivä</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Tunti</translation>
+        <translation>Tunti</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minuutti</translation>
+        <translation>Minuutti</translation>
     </message>
 </context>
 <context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>ei käännettävissä</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>pakollinen</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>tietojen kerääjä</translation>
     </message>
 </context>
 <context>
     <name>design/ezodf/import</name>
     <message>
         <source>Create or update the translation in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Luo tai päivitä käännös kielelle:</translation>
     </message>
     <message>
         <source>Existing translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Olemassa olevat käännökset</translation>
     </message>
     <message>
         <source>New translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Uudet käännökset</translation>
     </message>
     <message>
         <source>Import in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuo kohteeseen:</translation>
     </message>
 </context>
 <context>
@@ -161,7 +161,7 @@
     <name>design/ezwebin/collectedinfo/poll</name>
     <message>
         <source>Poll %pollname</source>
-        <translation>Kysely %kyselynnim</translation>
+        <translation>Kysely %pollname</translation>
     </message>
     <message>
         <source>Results</source>
@@ -351,94 +351,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation type="obsolete">Tunti</translation>
+        <translation>Tunti</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="obsolete">Minuutti</translation>
+        <translation>Minuutti</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse päivämäärä kalenterista.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">Versiot &lt;%object_name&gt; [%version_count]</translation>
+        <translation>Versiot &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="obsolete">Versio</translation>
+        <translation>Versio</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="obsolete">Tilanne</translation>
+        <translation>Tilanne</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation type="obsolete">Käännökset</translation>
+        <translation>Käännökset</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation type="obsolete">Luoja</translation>
+        <translation>Luoja</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="obsolete">Muokattu</translation>
+        <translation>Muokattu</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation type="obsolete">Luonnos</translation>
+        <translation>Luonnos</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation type="obsolete">Julkaistu</translation>
+        <translation>Julkaistu</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation type="obsolete">Odottaa</translation>
+        <translation>Odottaa</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation type="obsolete">Arkistoitu</translation>
+        <translation>Arkistoitu</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation type="obsolete">Hylätty</translation>
+        <translation>Hylätty</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation type="obsolete">Koskematon luonnos</translation>
+        <translation>Koskematon luonnos</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation type="obsolete">Tällä objektilla ei ole versioita.</translation>
+        <translation>Tällä objektilla ei ole versioita.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation type="obsolete">Näytä erot</translation>
+        <translation>Näytä erot</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">Erot versioiden %oldVersion ja %newVersion välillä</translation>
+        <translation>Erot versioiden %oldVersion ja %newVersion välillä</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation type="obsolete">Vanha versio</translation>
+        <translation>Vanha versio</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation type="obsolete">Avoimet muutokset</translation>
+        <translation>Avoimet muutokset</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation type="obsolete">Estä muutokset</translation>
+        <translation>Estä muutokset</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation type="obsolete">Uusi versio</translation>
+        <translation>Uusi versio</translation>
     </message>
 </context>
 <context>
@@ -498,7 +498,14 @@
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nämä ovat objektit, joita työstät parhaillaan. Luonnokset ovat sinun, ja vain sinä näet ne.
+      Voit muokata luonnoksia tai poistaa ne, jos et enää tarvitse niitä.</translation>
+    </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+ You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation>Nämä ovat objektit, joita työstät parhaillaan. Luonnokset ovat sinun, ja vain sinä näet ne.
+ Voit muokata luonnoksia tai poistaa ne, jos et enää tarvitse niitä.</translation>
     </message>
 </context>
 <context>
@@ -525,27 +532,27 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>Muokkaa objektia &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Julkaise muokattavan luonnoksen sisältö. Luonnoksesta tulee objektin julkaistu versio.</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna muokattavan luonnoksen sisältö ja jatka muokkausta. Tallenna työsi tällä painikkeella säännöllisesti muokkauksen aikana.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna luonnos ja poistu</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna muokattava luonnos ja poistu muokkaustilasta. Käytä tätä, kun haluat keskeyttää työn ja jatkaa sitä myöhemmin.</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Hylkää muokattava luonnos. Samalla poistetaan luonnokseen kuuluvat käännökset, jos niitä on.</translation>
     </message>
 </context>
 <context>
@@ -597,17 +604,20 @@
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinä ja muut muokkaatte jo tätä objektia.
+    Voit jatkaa jonkin luonnoksesi muokkaamista tai luoda uuden luonnoksen.</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muokkaat jo tätä objektia.
+        Voit joko jatkaa jonkin luonnoksesi muokkaamista tai luoda uuden luonnoksen.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Joku muu muokkaa jo tätä objektia.
+        Ota yhteyttä kyseiseen henkilöön hänen luonnoksestaan tai luo uusi luonnos omaan käyttöösi.</translation>
     </message>
 </context>
 <context>
@@ -1064,12 +1074,12 @@ Parametrit ovat linkitettynä alku- ja loppumerkkeihin</translation>
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
-        <translation>eZ Publish tiedot: %version</translation>
+        <source>Exponential information: %version</source>
+        <translation>Exponential tiedot: %version</translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
-        <translation>Mikä on eZ Publish?</translation>
+        <source>What is Exponential?</source>
+        <translation>Mikä on Exponential?</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -1108,7 +1118,11 @@ Parametrit ovat linkitettynä alku- ja loppumerkkeihin</translation>
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse OpenOffice.org-objektin sijainti.
+
+    Valitse sijainnit ja napsauta %buttonname-painiketta.
+    Voit sijoittaa nopeasti myös viimeksi käytettyjen kohteiden ja kirjanmerkkien avulla.
+    Vaihda selausluetteloa napsauttamalla sijaintien nimiä.</translation>
     </message>
 </context>
 <context>
@@ -1118,16 +1132,16 @@ Parametrit ovat linkitettynä alku- ja loppumerkkeihin</translation>
         <translation>OpenOffice.org-vienti</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>Vie eZ Publish -sisältö OpenOffice.org:iin</translation>
+        <source>Export Exponential content to OpenOffice.org</source>
+        <translation>Vie Exponential -sisältö OpenOffice.org:iin</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Virhe</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation>Täällä voit viedä minkä tahansa eZ Publish-sisältöobjektin OpenOffice.org Writer -asiakirjamuotoon.</translation>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
+        <translation>Täällä voit viedä minkä tahansa Exponential-sisältöobjektin OpenOffice.org Writer -asiakirjamuotoon.</translation>
     </message>
     <message>
         <source>Export Object</source>
@@ -1150,7 +1164,7 @@ Parametrit ovat linkitettynä alku- ja loppumerkkeihin</translation>
     </message>
     <message>
         <source>Document imported as</source>
-        <translation type="obsolete">Dokumentti on tuotu nimellä</translation>
+        <translation>Asiakirja tuotiin muodossa</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1177,15 +1191,18 @@ Parametrit ovat linkitettynä alku- ja loppumerkkeihin</translation>
         <translation>Tuo</translation>
     </message>
     <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
+        <source>You can import OpenOffice.org Writer documents directly into Exponential from this page. You are
+asked where to place the document and Exponential does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voit tuoda OpenOffice.org Writer -asiakirjoja suoraan Exponentialiin tällä sivulla. Sinulta
+kysytään, mihin asiakirja sijoitetaan, ja Exponential hoitaa loput. Asiakirja muunnetaan tuonnin aikana
+sopivaan luokkaan, ja saat siitä ilmoituksen tuonnin päätyttyä.
+Kuvat sijoitetaan mediakirjastoon, jotta voit käyttää niitä uudelleen muissa artikkeleissa.</translation>
     </message>
     <message>
         <source>File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedosto:</translation>
     </message>
 </context>
 <context>
@@ -1208,7 +1225,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>Liittyvä sisältö</translation>
     </message>
 </context>
 <context>
@@ -1302,7 +1319,23 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Show All Events..</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä kaikki tapahtumat..</translation>
+    </message>
+    <message>
+        <source>Event Calendar</source>
+        <translation>Tapahtumakalenteri</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Edellinen kuukausi</translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation>Seuraava kuukausi</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>Tapahtuman esikatselu</translation>
     </message>
 </context>
 <context>
@@ -1314,6 +1347,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Future events</source>
         <translation>Tulevat tapahtumat</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>Tapahtuman esikatselu</translation>
     </message>
 </context>
 <context>
@@ -1356,6 +1393,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Pages</source>
         <translation>Sivut</translation>
+    </message>
+    <message>
+        <source>Last reply by:</source>
+        <translation>Viimeisin vastaus:</translation>
     </message>
 </context>
 <context>
@@ -1452,7 +1493,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Forum</source>
-        <translation type="unfinished"></translation>
+        <translation>Foorumi</translation>
     </message>
 </context>
 <context>
@@ -1474,7 +1515,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>Liittyvä sisältö</translation>
     </message>
 </context>
 <context>
@@ -1523,6 +1564,13 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/full/silverlight</name>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Hanki Microsoft Silverlight</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
@@ -1534,7 +1582,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Tags:</source>
-        <translation type="unfinished">Merkit: </translation>
+        <translation>Asiasanat:</translation>
     </message>
 </context>
 <context>
@@ -1576,12 +1624,27 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Enter forum</source>
         <translation>Mene foorumiin</translation>
     </message>
+    <message>
+        <source>Forum</source>
+        <translation>Foorumi</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
         <translation>Vastaa:</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/link</name>
+    <message>
+        <source>Edit</source>
+        <translation>Muokkaa</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Poista</translation>
     </message>
 </context>
 <context>
@@ -1593,6 +1656,13 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Vote</source>
         <translation>Äänestä</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/product</name>
+    <message>
+        <source>(price ex. vat %ex_vat_price)</source>
+        <translation>(hinta ilman ALV:tä %ex_vat_price)</translation>
     </message>
 </context>
 <context>
@@ -1674,7 +1744,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kohteissa on enemmän solmuja kuin alipuun poistossa on mahdollista, eikä niitä poisteta. Voit poistaa tämän alipuun komentosarjalla ezsubtreeremove.php.</translation>
+    </message>
+    <message>
+        <source>Warning:</source>
+        <translation>Varoitus:</translation>
     </message>
 </context>
 <context>
@@ -1781,439 +1855,439 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation type="unfinished"></translation>
+        <translation>Siirry pääsisältöön</translation>
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hakuteksti:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
         <source>Remove node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista solmun RSS/ATOM-syöte</translation>
     </message>
     <message>
         <source>Create node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>Luo solmulle RSS/ATOM-syöte</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>Muokkaa &lt;%rss_export_name&gt; [RSS-vienti]</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen syöte</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos RSS-vienti on aktiivinen, kelvollinen käyttö-URL on pakollinen.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS-viennin nimi. Nimeä käytetään vain hallintaliittymässä erottamaan viennit toisistaan.</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Kuvaus</translation>
+        <translation>Kuvaus</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirjoita kuvauskenttään teksti, joka kertoo, mitä käyttäjät voivat odottaa RSS-viennistä.</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Sivuston URL-osoite</translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation type="unfinished"></translation>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
+        <translation>Anna tässä kentässä sivustosi perus-URL-osoite. Sen avulla viennin URL-osoitteet muodostetaan sivuston URL-osoitteesta (esim. ”http://www.example.com/index.php”) ja objektin polusta (esim. ”/articles/my_article”). Sivuston URL-osoite riippuu verkkopalvelimesi ja Exponentialin määrityksistä.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
-        <translation type="unfinished"></translation>
+        <translation>Jätä tämä kenttä tyhjäksi, jos haluat järjestelmän tunnistavan sivustosi URL-osoitteen automaattisesti siitä URL-osoitteesta, jolla syötettä käytetään</translation>
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuva</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Selaa</translation>
+        <translation>Selaa</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse RSS-viennin kuva napsauttamalla tätä painiketta. Huomaa, että kuvat toimivat vain RSS-versiossa 2.0</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista kuva</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista kuva RSS-viennistä napsauttamalla.</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS-versio</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tästä avattavasta valikosta viennissä käytettävä RSS-versio. Jos haluat viedä yllä valitun kuvan, valitse RSS 2.0.</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Objektien määrä</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tästä avattavasta valikosta RSS-syötteeseen sisällytettävien objektien enimmäismäärä.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiivinen</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tällä valintaruudulla määritetään, onko RSS-vienti aktiivinen. Vientiä, joka ei ole aktiivinen, ei päivitetä automaattisesti.</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>Vain pääsolmu</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse, jos haluat syötteeseen vain pääsolmun objektin.</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Käyttö-URL</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>Määritä tässä kentässä URL-osoite, jossa RSS-viennin tulee olla saatavilla. Huomaa, että varsinaiseen URL-osoitteeseen lisätään ”rss/feed/”. </translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Lähde</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>Lähdepolku</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse RSS-viennin lähteen lähdesolmu napsauttamalla tätä painiketta. RSS-vientiin sisällytetään alla olevasta avattavasta valikosta valitun tyypin objektit, jotka on julkaistu valitun solmun alikohteina.</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Alisolmut</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tämä valintaruutu, jos myös lähteen alisolmujen objektit halutaan syötteeseen.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Luokka</translation>
+        <translation>Luokka</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tästä avattavasta valikosta objektin tyyppi, joka käynnistää viennin. Lataa jäljellä olevien kenttien oikeat määritetyypit napsauttamalla ”Aseta”-painiketta.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Aseta</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lataa oikeat arvot alla oleviin avattaviin kenttiin napsauttamalla tätä painiketta. Valitse luokka vasemmalla olevasta avattavasta valikosta.</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsikko</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tästä avattavasta valikosta määrite, joka viedään RSS-viennin merkinnän otsikoksi.</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>valinnainen</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tästä avattavasta valikosta määrite, joka viedään RSS-viennin merkinnän kuvaukseksi.</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohita</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Kategoria</translation>
+        <translation>Kategoria</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tästä avattavasta valikosta määrite, joka viedään RSS-viennin merkinnän kategoriaksi.</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista tämä lähde</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista tämä lähde RSS-viennistä napsauttamalla.</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää lähde</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää RSS-vientiin uusi lähde napsauttamalla.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ota muutokset käyttöön ja palaa RSS-yleiskatsaukseen.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Peruuta</translation>
+        <translation>Peruuta</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peruuta muutokset ja palaa RSS-yleiskatsaukseen.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>Muokkaa &lt;%rss_import_name&gt; [RSS-tuonti]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS-tuonnin nimi. Nimeä käytetään vain hallintaliittymässä erottamaan tuonnit toisistaan.</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Lähteen URL-osoite</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anna tässä kentässä tuotavan RSS-syötteen lähde-URL-osoite.</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">Päivitä</translation>
+        <translation>Päivitä</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jatka ja analysoi tuontisyöte napsauttamalla tätä painiketta.</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS-versio</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kohdepolku</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Selaa</translation>
+        <translation>Selaa</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse kohdesolmu, johon tuonnin luomat objektit sijoitetaan, napsauttamalla tätä painiketta.</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuotujen objektien omistaja</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaihda käyttäjä</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse käyttäjä, joka omistaa tuonnin luomat objektit, napsauttamalla tätä painiketta.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Luokka</translation>
+        <translation>Luokka</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tästä avattavasta valikosta objektin tyyppi, jonka tuonti luo. Lataa jäljellä olevien kenttien määritetyypit napsauttamalla ”Aseta”-painiketta.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Aseta</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lataa oikeat arvot alla oleviin avattaviin kenttiin napsauttamalla tätä painiketta. Valitse luokka vasemmalla olevasta avattavasta valikosta.</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Luokan määritteet</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tästä avattavasta valikosta määrite, johon RSS-virran tieto asetetaan.</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohita</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Objektin määritteet</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiivinen</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tällä valintaruudulla määritetään, onko RSS-syöte aktiivinen. Syötettä, joka ei ole aktiivinen, ei päivitetä automaattisesti.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ota muutokset käyttöön ja palaa RSS-yleiskatsaukseen.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Peruuta</translation>
+        <translation>Peruuta</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Peruuta muutokset ja palaa RSS-yleiskatsaukseen.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/list</name>
     <message>
         <source>RSS exports [%exports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS-viennit [%exports_count]</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Käänteinen valinta</translation>
+        <translation>Käänteinen valinta</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">Käänteinen valinta.</translation>
+        <translation>Käänteinen valinta.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nimi</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Versio</translation>
+        <translation>Versio</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Tilanne</translation>
+        <translation>Tilanne</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Muokkaaja</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Muokattu</translation>
+        <translation>Muokattu</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse poistettava RSS-vienti.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiivinen</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei aktiivinen</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Muokkaa</translation>
+        <translation>Muokkaa</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muokkaa RSS-vientiä &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS-vientien luettelo on tyhjä.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Poista valitut</translation>
+        <translation>Poista valitut</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista valitut RSS-viennit.</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi vienti</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Luo uusi RSS-vienti.</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS-tuonnit [%imports_count]</translation>
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse poistettava RSS-tuonti.</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muokkaa RSS-tuontia &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS-tuontien luettelo on tyhjä.</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista valitut RSS-tuonnit.</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi tuonti</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Luo uusi RSS-tuonti.</translation>
     </message>
 </context>
 <context>
@@ -2395,15 +2469,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished">Yhteenveto</translation>
+        <translation>Yhteenveto</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">Kokonaissumma (ei sis. ALV)</translation>
+        <translation>Kokonaissumma (ei sis. ALV)</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">Kokonaissumma (sis. ALV)</translation>
+        <translation>Kokonaissumma (sis. ALV)</translation>
     </message>
 </context>
 <context>
@@ -2443,6 +2517,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Amount</source>
         <translation>Määrä</translation>
+    </message>
+    <message>
+        <source>view</source>
+        <translation>näytä</translation>
     </message>
 </context>
 <context>
@@ -2514,6 +2592,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Archive</source>
         <translation>Arkisto</translation>
+    </message>
+    <message>
+        <source>[ view ]</source>
+        <translation>[ näytä ]</translation>
     </message>
 </context>
 <context>
@@ -2699,6 +2781,25 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Node ID: %node_id Visibility: %visibility</source>
         <translation>Solmu-ID:%node_id Näkyvyys: %visibility</translation>
     </message>
+    <message>
+        <source>Visible</source>
+        <translation>Näkyvä</translation>
+    </message>
+    <message>
+        <source>Hidden by superior</source>
+        <translation>Piilotettu ylemmän tason vuoksi</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Piilotettu</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/tagcloud/tagcloud</name>
+    <message>
+        <source>%count objects tagged with &apos;%tag&apos;</source>
+        <translation>Objektit, joilla on asiasana ”%tag”: %count</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/activate</name>
@@ -2708,15 +2809,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="obsolete">Käyttäjätilisi on nyt aktivoitu.</translation>
+        <translation>Tilisi on nyt aktivoitu.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="obsolete">Käyttäjätilisi on jo aktiivinen.</translation>
+        <translation>Tilisi on jo aktiivinen.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Anteeksi, annettu avain ei ollu kelvollinen. Tiliä ei aktivoitu.</translation>
+        <translation>Lähetetty avain ei kelpaa. Tiliä ei aktivoitu.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2839,8 +2940,8 @@ Käyttäjänimi</translation>
         <translation>Salasana</translation>
     </message>
     <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
-        <translation>Kirjaudu eZ Publish-hallintaohjelmaan</translation>
+        <source>Log in to the Exponential Administration Interface</source>
+        <translation>Kirjaudu Exponential-hallintaohjelmaan</translation>
     </message>
     <message>
         <source>Remember me</source>
@@ -2973,11 +3074,15 @@ Nappi</translation>
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selaimesi ei tue HTML5-videota.</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selaimesi ei tue HTML5-ääntä.</translation>
+    </message>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Hanki Microsoft Silverlight</translation>
     </message>
 </context>
 <context>
@@ -2996,6 +3101,17 @@ Nappi</translation>
     </message>
 </context>
 <context>
+    <name>design/ezwebin/view/infobox</name>
+    <message>
+        <source>Edit</source>
+        <translation>Muokkaa</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Poista</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/view/sitemap</name>
     <message>
         <source>Site map</source>
@@ -3006,68 +3122,79 @@ Nappi</translation>
     <name>design/ezwebin/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation type="unfinished"></translation>
+        <translation>Objektin tilat</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisältöobjektin tilaryhmä</translation>
     </message>
     <message>
         <source>Available states</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytettävissä olevat tilat</translation>
     </message>
     <message>
         <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisältöobjektin tiloja ei ole määritetty. Sen voi tehdä %urlstart täällä %urlend.</translation>
     </message>
     <message>
         <source>Set states</source>
-        <translation type="unfinished"></translation>
+        <translation>Aseta tilat</translation>
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä yllä olevan luettelon tiloja.</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tähän sisältöobjektiin ei voi asettaa tiloja. Saatat tarvita sallivamman käyttöoikeuskäytännön.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekunti</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sähköpostiosoitteesi on vahvistettu. Järjestelmänvalvojan on vielä hyväksyttävä rekisteröitymispyyntösi, ennen kuin käyttäjätunnuksesi on voimassa.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">Käyttäjätilisi on nyt aktivoitu.</translation>
+        <translation>Tilisi on nyt aktivoitu.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">Käyttäjätilisi on jo aktiivinen.</translation>
+        <translation>Tilisi on jo aktiivinen.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">Anteeksi, annettu avain ei ollu kelvollinen. Tiliä ei aktivoitu.</translation>
+        <translation>Lähetetty avain ei kelpaa. Tiliä ei aktivoitu.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/forgotpassword</name>
+    <message>
+        <source>If an account is registered with the email address %1, a mail has been sent to it. This email contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
+        <translation>Jos sähköpostiosoitteella %1 on rekisteröity tili, siihen on lähetetty viesti. Viestissä on linkki, jota on napsautettava, jotta voimme varmistaa, että uuden salasanan saa oikea käyttäjä.</translation>
+    </message>
+    <message>
+        <source>Please enter a valid email address.</source>
+        <translation>Anna kelvollinen sähköpostiosoite.</translation>
     </message>
 </context>
 <context>
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished">Dokumentti on tuotu nimellä</translation>
+        <translation>Asiakirja tuotiin muodossa</translation>
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuotu asiakirja odottaa hyväksyntää ennen julkaisua.</translation>
     </message>
 </context>
 </TS>

@@ -44,20 +44,22 @@
  </div>
  {/foreach}
 
+ {include uri='design:mailpreferences/parts/signup.tpl' categories=first_set( $mail_categories, array() )}
+
  <div class="buttonblock">
  <input class="button" type="hidden" name="UserID" value="{$content_attributes[0].contentobject_id}">
  {if and( is_set( $checkErrNodeId ), $checkErrNodeId )|not()}
- <input class="button" type="submit" id="PublishButton" name="PublishButton" value="{'Register'|i18n('design/ezwebin/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;">
+ <input class="button" type="submit" id="PublishButton" name="PublishButton" value="{'Register'|i18n('design/ezwebin/user/register')}" data-ezwebin-disable-buttons="1">
  {else} 
- <input class="button" type="submit" id="PublishButton" name="PublishButton" disabled="disabled" value="{'Register'|i18n('design/ezwebin/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;">
+ <input class="button" type="submit" id="PublishButton" name="PublishButton" disabled="disabled" value="{'Register'|i18n('design/ezwebin/user/register')}" data-ezwebin-disable-buttons="1">
  {/if}
- <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Discard'|i18n('design/ezwebin/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;">
+ <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Discard'|i18n('design/ezwebin/user/register')}" data-ezwebin-disable-buttons="1">
  </div>
 {else}
  <div class="warning">
  <h2>{"Unable to register new user"|i18n("design/ezwebin/user/register")}</h2>
  </div>
- <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Back'|i18n('design/ezwebin/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;">
+ <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Back'|i18n('design/ezwebin/user/register')}" data-ezwebin-disable-buttons="1">
 {/if}
 </form>
 
@@ -67,12 +69,4 @@
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
 
-{literal}
-<script >
- function disableButtons()
- {
- document.getElementById( 'PublishButton' ).disabled = true;
- document.getElementById( 'CancelButton' ).disabled = true;
- }
-</script>
-{/literal}
+{ezscript( array( 'ezwebin_actions.js' ) )}

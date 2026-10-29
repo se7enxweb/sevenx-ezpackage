@@ -2987,8 +2987,47 @@ fieldset.ezcca-collapsible.ezcca-collapsed legend a
     background: url("../images/plus.png") no-repeat left center;
 }
 
-/* YUI2 Calendar */
-#page .yui-calcontainer .title
+
+/* The next steps of the registration result page (user/success.tpl): a list of links with 44px targets
+   and a visible keyboard focus, one per row on narrow screens and side by side where they fit. */
+div.user-success .user-success-next h2
 {
-    position:absolute;
+    margin: 1.5em 0 0.5em 0;
+}
+div.user-success .user-success-next ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div.user-success .user-success-next li
+{
+    flex: 1 1 12em;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+div.user-success .user-success-next a
+{
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0.5em 1em;
+    border: 1px solid #c0c0c0;
+    font-weight: bold;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+div.user-success .user-success-next a:hover
+{
+    border-color: currentColor;
+    text-decoration: underline;
+}
+div.user-success .user-success-next a:focus-visible
+{
+    outline: 3px solid currentColor;
+    outline-offset: 2px;
 }

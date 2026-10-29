@@ -1,0 +1,9 @@
+Changes from 6.0.28 to 6.0.29 (2026-10-26)
+
+- Updated: The login page offers passkey sign-in.
+- Updated: The profile page links Passkeys and Your devices, as the standard design's does.
+- Fixed: Translations that contradicted their language guide: wrong meanings, glossary breaches, forms of address,
+  typos and English left in the text, from ekked's pull request #5.
+- Fixed: Translations keep the placeholders of their source.
+
+Upgrading: nothing to do beyond composer update and clearing the template caches; no setting or database change.

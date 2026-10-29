@@ -1,9 +1,10 @@
 {ezscript_require( 'tools/ezjsselection.js' )}
+{ezscript( array( 'ezwebin_actions.js' ) )}
 <table class="list" cellspacing="0">
 <tr>
     <th class="tight">
     {section show=eq( $select_type, 'checkbox' )}
-        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection'|i18n( 'design/ezwebin/content/browse_mode_list' )}" title="{'Invert selection'|i18n( 'design/ezwebin/content/browse_mode_list' )}" onclick="ezjs_toggleCheckboxes( document.browse, '{$select_name}[]' ); return false;">
+        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection'|i18n( 'design/ezwebin/content/browse_mode_list' )}" title="{'Invert selection'|i18n( 'design/ezwebin/content/browse_mode_list' )}" data-ezwebin-form="browse" data-ezwebin-toggle-checkboxes="{$select_name|wash}[]">
     {section-else}
         &nbsp;
     {/section}

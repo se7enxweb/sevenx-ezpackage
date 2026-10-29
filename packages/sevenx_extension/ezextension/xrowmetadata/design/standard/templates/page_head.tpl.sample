@@ -53,6 +53,12 @@
     <meta name="{$key|wash}" content="{$item|wash}" />
     {/foreach}
 {/if}
+{* The content license: link rel="license", dcterms.license and JSON-LD *}
+{if is_set( $module_result.node_id )}
+    {include uri="design:xrowmetadata/license_head.tpl" node=$module_result.node_id}
+{else}
+    {include uri="design:xrowmetadata/license_head.tpl"}
+{/if}
     <meta name="MSSmartTagsPreventParsing" content="TRUE" />
     <meta name="generator" content="eZ Publish" />
 

@@ -43,19 +43,19 @@
     <name>design/ezodf/import</name>
     <message>
         <source>Create or update the translation in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea o aggiorna la traduzione in:</translation>
     </message>
     <message>
         <source>Existing translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Traduzioni esistenti</translation>
     </message>
     <message>
         <source>New translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuove traduzioni</translation>
     </message>
     <message>
         <source>Import in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Importa in:</translation>
     </message>
 </context>
 <context>
@@ -77,11 +77,11 @@
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog in%login_link_end o %create_link_startcrea un account utente%create_link_end per inviare un commento.</translation>
+        <translation>%login_link_startAccedi%login_link_end o %create_link_startcrea un account utente%create_link_end per inviare un commento.</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation>%login_link_startLog in%login_link_end per inviare un commento.</translation>
+        <translation>%login_link_startAccedi%login_link_end per inviare un commento.</translation>
     </message>
 </context>
 <context>
@@ -222,7 +222,7 @@
     </message>
     <message>
         <source>Search the exact phrase</source>
-        <translation>Cerca l&apos;espressione esatta</translation>
+        <translation>Cerca l'espressione esatta</translation>
     </message>
     <message>
         <source>Published</source>
@@ -246,7 +246,7 @@
     </message>
     <message>
         <source>Last year</source>
-        <translation>Ultim&apos;anno</translation>
+        <translation>Ultim'anno</translation>
     </message>
     <message>
         <source>Display per page</source>
@@ -277,12 +277,12 @@
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation>Nessun risultato corrisponde alla ricerca di &quot;%1&quot;</translation>
+        <source>No results were found when searching for "%1"</source>
+        <translation>Nessun risultato corrisponde alla ricerca di "%1"</translation>
     </message>
     <message>
-        <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>La ricerca di &quot;%1&quot; ha prodotto %2 risultati</translation>
+        <source>Search for "%1" returned %2 matches</source>
+        <translation>La ricerca di "%1" ha prodotto %2 risultati</translation>
     </message>
     <message>
         <source>Last month</source>
@@ -296,12 +296,12 @@
         <translation>Sfoglia</translation>
     </message>
     <message>
-        <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
-        <translation>Per selezionare gli oggetti, scegli il pulsante radio appropriato o il/i checkbox, e premi il pulsante &quot;Seleziona&quot;.</translation>
+        <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the "Select" button.</source>
+        <translation>Per selezionare gli oggetti, scegli il pulsante radio appropriato o il/i checkbox, e premi il pulsante "Seleziona".</translation>
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation>Per selezionare un oggetto che sia figlio di uno degli oggetti mostrati, premi sul nome dell&apos;oggetto padre per mostrare un elenco dei suoi figli.</translation>
+        <translation>Per selezionare un oggetto che sia figlio di uno degli oggetti mostrati, premi sul nome dell'oggetto padre per mostrare un elenco dei suoi figli.</translation>
     </message>
     <message>
         <source>Back</source>
@@ -350,95 +350,16 @@
         <translation>Giorno</translation>
     </message>
     <message>
-        <source>Hour</source>
-        <translation type="obsolete">Ora</translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="obsolete">Minuto</translation>
-    </message>
-    <message>
         <source>Show calendar to select a date.</source>
         <translation>Mostra il calendario per selezionare una data.</translation>
     </message>
-</context>
-<context>
-    <name>design/ezwebin/content/diff</name>
     <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">Versioni per &lt;%object_name&gt; [%version_count]</translation>
+        <source>Hour</source>
+        <translation>Ora</translation>
     </message>
     <message>
-        <source>Version</source>
-        <translation type="obsolete">Versione</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Stato</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="obsolete">Traduzioni</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation type="obsolete">Creatore</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation type="obsolete">Modificata il</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation type="obsolete">Bozza</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Pubblicato</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation type="obsolete">In attesa</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation type="obsolete">Archiviata</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation type="obsolete">Respinta</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation type="obsolete">Bozza non modificata</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="obsolete">Quest&apos;oggetto non ha alcuna versione.</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation type="obsolete">Mostra le differenze</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">Differenze fra le versioni %oldVersion e %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation type="obsolete">Vecchia versione</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation type="obsolete">Modifiche in linea</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation type="obsolete">Blocco modifiche</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation type="obsolete">Nuova versione</translation>
+        <source>Minute</source>
+        <translation>Minuto</translation>
     </message>
 </context>
 <context>
@@ -497,9 +418,15 @@
     </message>
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+      You can either edit the drafts or remove them if you don't need them any more.</source>
         <translation>Questi sono gli oggetti correnti sui quali stai lavorando. Le bozze sono tue e possono essere viste solo da te.
       Puoi sia modificare le bozze o eliminarle se non ti servono più.</translation>
+    </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+ You can either edit the drafts or remove them if you don't need them any more.</source>
+        <translation>Questi sono gli oggetti su cui stai lavorando. Le bozze sono tue e solo tu puoi vederle.
+ Puoi modificare le bozze oppure rimuoverle se non ti servono più.</translation>
     </message>
 </context>
 <context>
@@ -510,7 +437,7 @@
     </message>
     <message>
         <source>Store draft</source>
-        <translation>Registra bozza</translation>
+        <translation>Salva bozza</translation>
     </message>
     <message>
         <source>Discard draft</source>
@@ -530,19 +457,19 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation>Pubblica i contenuti delle bozze in fase di modifica. Le bozze diverranno la versione pubblicata dell&apos;oggetto.</translation>
+        <translation>Pubblica i contenuti delle bozze in fase di modifica. Le bozze diverranno la versione pubblicata dell'oggetto.</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation>Registra i contenuti della bozza in fase di modifica e continua a modificarla. Usa questo pulsante per salvare periodicamente il tuo lavoro mentre stai modificando.</translation>
+        <translation>Salva i contenuti della bozza in fase di modifica e continua a modificarla. Usa questo pulsante per salvare periodicamente il tuo lavoro mentre stai modificando.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation>Registra la bozza ed esci</translation>
+        <translation>Salva bozza ed esci</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation>Registra la bozza in fase di modifica ed esci dalla modalità di modifica. Usa questo pulsante per uscire dal tuo lavoro e tornare più tardi per continuare.</translation>
+        <translation>Salva la bozza in fase di modifica ed esci dalla modalità di modifica. Usa questo pulsante per uscire dal tuo lavoro e tornare più tardi per continuare.</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
@@ -557,11 +484,11 @@
     </message>
     <message>
         <source>The last modification was done at %modified.</source>
-        <translation>L&apos;ultima modifica è stata effettuata il %modified.</translation>
+        <translation>L'ultima modifica è stata effettuata il %modified.</translation>
     </message>
     <message>
         <source>The object is owned by %owner.</source>
-        <translation>L&apos;oggetto è di proprietà di %owner.</translation>
+        <translation>L'oggetto è di proprietà di %owner.</translation>
     </message>
     <message>
         <source>Current drafts</source>
@@ -598,19 +525,19 @@
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Quest&apos;oggetto viene già modificato da te e da altri.
+        <translation>Quest'oggetto viene già modificato da te e da altri.
     Puoi sia continuare a modificare una delle tue bozze o crearne una nuova.</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Quest&apos;oggetto viene già modificato da te.
+        <translation>Quest'oggetto viene già modificato da te.
     Puoi sia continuare a modificare una delle tue bozze che crearne una nuova.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Quest&apos;oggetto viene già modificato da altri.
+        <translation>Quest'oggetto viene già modificato da altri.
     Puoi sia contattare la persona a proposito delle sua bozza che crearne una nuova per te.</translation>
     </message>
 </context>
@@ -622,7 +549,7 @@
     </message>
     <message>
         <source>Select the language you want to use when editing the object.</source>
-        <translation>Seleziona la lingua che vuoi usare per modificare l&apos;oggetto.</translation>
+        <translation>Seleziona la lingua che vuoi usare per modificare l'oggetto.</translation>
     </message>
     <message>
         <source>New languages</source>
@@ -630,7 +557,7 @@
     </message>
     <message>
         <source>Select the language you want to add to the object.</source>
-        <translation>Seleziona la lingua che vuoi aggiungere all&apos;oggetto.</translation>
+        <translation>Seleziona la lingua che vuoi aggiungere all'oggetto.</translation>
     </message>
     <message>
         <source>Select the language the new translation will be based on.</source>
@@ -642,7 +569,7 @@
     </message>
     <message>
         <source>You do not have permission to create a translation in another language.</source>
-        <translation>Non sei abilitato a creare una traduzione in un&apos;altra lingua.</translation>
+        <translation>Non sei abilitato a creare una traduzione in un'altra lingua.</translation>
     </message>
     <message>
         <source>However, you can select one of the following languages for editing.</source>
@@ -650,7 +577,7 @@
     </message>
     <message>
         <source>You do not have permission to edit the object in any available languages.</source>
-        <translation>Non sei abilitato a modificare l&apos;oggetto in nessuna delle lingue disponibili.</translation>
+        <translation>Non sei abilitato a modificare l'oggetto in nessuna delle lingue disponibili.</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -729,7 +656,7 @@
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation>La versione #%version_number non può essere eliminata perché è la versione pubblicata dell&apos;oggetto o perché non sei abilitato ad eliminarla .</translation>
+        <translation>La versione #%version_number non può essere eliminata perché è la versione pubblicata dell'oggetto o perché non sei abilitato ad eliminarla .</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
@@ -760,12 +687,16 @@
         <translation>Bozza non modificata</translation>
     </message>
     <message>
+        <source>There is no need to do a copies of untouched drafts.</source>
+        <translation>Non è necessario fare delle copie di bozze intatte.</translation>
+    </message>
+    <message>
         <source>Create a copy of version #%version_number.</source>
         <translation>Crea una copia della versione #%version_number.</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation>Non puoi fare copie delle versioni perché non sei abilitato a modificare l&apos;oggetto.</translation>
+        <translation>Non puoi fare copie delle versioni perché non sei abilitato a modificare l'oggetto.</translation>
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
@@ -773,11 +704,11 @@
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation>Non puoi modificare i contenuti della versione #%version_number perché non è una bozza o perché non sei abilitato a modificare l&apos;oggetto.</translation>
+        <translation>Non puoi modificare i contenuti della versione #%version_number perché non è una bozza o perché non sei abilitato a modificare l'oggetto.</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Quest&apos;oggetto non ha alcuna versione.</translation>
+        <translation>Quest'oggetto non ha alcuna versione.</translation>
     </message>
     <message>
         <source>Remove selected</source>
@@ -785,7 +716,7 @@
     </message>
     <message>
         <source>Remove the selected versions from the object.</source>
-        <translation>Elimina le versioni selezionate dell&apos;oggetto.</translation>
+        <translation>Elimina le versioni selezionate dell'oggetto.</translation>
     </message>
     <message>
         <source>Show differences</source>
@@ -809,7 +740,7 @@
     </message>
     <message>
         <source>This object does not have any drafts.</source>
-        <translation>Quest&apos;oggetto non ha alcuna bozza.</translation>
+        <translation>Quest'oggetto non ha alcuna bozza.</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
@@ -838,10 +769,6 @@
     <message>
         <source>Modified translation</source>
         <translation>Traduzione modificata</translation>
-    </message>
-    <message>
-        <source>There is no need to do a copies of untouched drafts.</source>
-        <translation>Non è necessario fare delle copie di bozze intatte.</translation>
     </message>
 </context>
 <context>
@@ -901,12 +828,17 @@
         <translation>Cerca</translation>
     </message>
     <message>
+        <source>For more options try the %1Advanced search%2</source>
+        <comment>The parameters are link start and end tags.</comment>
+        <translation>Per maggiori opzioni prova la %1Ricerca avanzata%2</translation>
+    </message>
+    <message>
         <source>The following words were excluded from the search:</source>
         <translation>Le parole seguenti sono state escluse dalla ricerca:</translation>
     </message>
     <message>
-        <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation>Nessun risultato corrisponde alla ricerca di &quot;%1&quot;.</translation>
+        <source>No results were found when searching for "%1".</source>
+        <translation>Nessun risultato corrisponde alla ricerca di "%1".</translation>
     </message>
     <message>
         <source>Search tips</source>
@@ -914,11 +846,11 @@
     </message>
     <message>
         <source>Check spelling of keywords.</source>
-        <translation>Controlla l&apos;ortografia delle parole chiave.</translation>
+        <translation>Controlla l'ortografia delle parole chiave.</translation>
     </message>
     <message>
-        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation>Cerca di cambiare qualche parola chiave (es. &quot;casa&quot; invece di &quot;case&quot;).</translation>
+        <source>Try changing some keywords (eg, "car" instead of "cars").</source>
+        <translation>Cerca di cambiare qualche parola chiave (es. "casa" invece di "case").</translation>
     </message>
     <message>
         <source>Try searching with less specific keywords.</source>
@@ -929,13 +861,8 @@
         <translation>Riduci il numero delle parole chiave per avere più risultati.</translation>
     </message>
     <message>
-        <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>La ricerca di &quot;%1&quot; ha prodotto %2 risultati</translation>
-    </message>
-    <message>
-        <source>For more options try the %1Advanced search%2</source>
-        <comment>The parameters are link start and end tags.</comment>
-        <translation>Per maggiori opzioni prova la %1Ricerca avanzata%2</translation>
+        <source>Search for "%1" returned %2 matches</source>
+        <translation>La ricerca di "%1" ha prodotto %2 risultati</translation>
     </message>
 </context>
 <context>
@@ -958,7 +885,7 @@
     </message>
     <message>
         <source>The message was not sent due to an unknown error. Please notify the site administrator about this error.</source>
-        <translation>Messaggio non spedito a causa di un errore sconosciuto. Contattare l&apos;amministratore di sistema per notificare l&apos;errore.</translation>
+        <translation>Il messaggio non è stato inviato a causa di un errore sconosciuto. Segnala questo errore all'amministratore del sito.</translation>
     </message>
     <message>
         <source>Please correct the following errors:</source>
@@ -970,11 +897,11 @@
     </message>
     <message>
         <source>Your email address</source>
-        <translation>Il tuo indirizzo email</translation>
+        <translation>Il tuo indirizzo e-mail</translation>
     </message>
     <message>
-        <source>Recipient&apos;s email address</source>
-        <translation>Contenitore dell&apos;indirizzo email</translation>
+        <source>Recipient's email address</source>
+        <translation>Contenitore dell'indirizzo e-mail</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -1066,12 +993,12 @@
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
-        <translation>Informazioni su eZ Publish: %version</translation>
+        <source>Exponential information: %version</source>
+        <translation>Informazioni su Exponential: %version</translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
-        <translation>Che cos&apos;è eZ Publish?</translation>
+        <source>What is Exponential?</source>
+        <translation>Che cos'è Exponential?</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -1110,11 +1037,11 @@
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation>Scegli la collocazione per l&apos;oggetto OpenOffice.org.
+        <translation>Scegli la collocazione per l'oggetto OpenOffice.org.
 
     Seleziona la collocazione e premi il pulsante %buttonname.
-    E&apos; possibile usare anche gli elementi recenti e i preferiti per una collocazione veloce.
-    Clicca sui nomi delle collocazioni per cambiare l&apos;elenco da sfogliare.</translation>
+    È possibile usare anche gli elementi recenti e i preferiti per una collocazione veloce.
+    Clicca sui nomi delle collocazioni per cambiare l'elenco da sfogliare.</translation>
     </message>
 </context>
 <context>
@@ -1124,16 +1051,16 @@
         <translation>Esportazione OpenOffice.org</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>Esporta il contenuto eZ publish in OpenOffice.org</translation>
+        <source>Export Exponential content to OpenOffice.org</source>
+        <translation>Esporta il contenuto Exponential in OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation>Qui puoi esportare qualsiasi contenuto eZ publish in un documento in formato OpenOffice.org Writer.</translation>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
+        <translation>Qui puoi esportare qualsiasi contenuto Exponential in un documento in formato OpenOffice.org Writer.</translation>
     </message>
     <message>
         <source>Export Object</source>
@@ -1152,11 +1079,7 @@
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation>L&apos;oggetto è stato importato come: %class_name</translation>
-    </message>
-    <message>
-        <source>Document imported as</source>
-        <translation type="obsolete">Il documento è stato importato come</translation>
+        <translation>L'oggetto è stato importato come: %class_name</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1183,18 +1106,22 @@
         <translation>Importa a</translation>
     </message>
     <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
+        <source>You can import OpenOffice.org Writer documents directly into Exponential from this page. You are
+asked where to place the document and Exponential does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Puoi importare documenti OpenOffice.org Writer direttamente in eZ Publish da questa pagina. Ti verrà chiesto
-dove posizionare i documenti e eZ Publish farà il resto. Il documento viene convertito nella classe
-appropriata durante l&apos;importazione, ne riceverai notifica al completamento dell&apos;importazione.
+        <translation>Puoi importare documenti OpenOffice.org Writer direttamente in Exponential da questa pagina. Ti verrà chiesto
+dove posizionare i documenti e Exponential farà il resto. Il documento viene convertito nella classe
+appropriata durante l'importazione, ne riceverai notifica al completamento dell'importazione.
 Le immagini vengono collocate nella libreria media in modo da poter essere riutilizzate.</translation>
     </message>
     <message>
         <source>File:</source>
-        <translation type="unfinished"></translation>
+        <translation>File:</translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
+        <translation>Documento importato come</translation>
     </message>
 </context>
 <context>
@@ -1209,7 +1136,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog in%login_link_end o %create_link_startcrea un account utente%create_link_end per inviare un commento.</translation>
+        <translation>%login_link_startAccedi%login_link_end o %create_link_startcrea un account utente%create_link_end per inviare un commento.</translation>
     </message>
     <message>
         <source>Tip a friend</source>
@@ -1246,7 +1173,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation>%login_link_startLog in%login_link_end o %create_link_startcrea un account utente%create_link_end per inviare un commento.</translation>
+        <translation>%login_link_startAccedi%login_link_end o %create_link_startcrea un account utente%create_link_end per inviare un commento.</translation>
     </message>
 </context>
 <context>
@@ -1313,6 +1240,22 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <source>Show All Events..</source>
         <translation>Mostra tutti gli eventi..</translation>
     </message>
+    <message>
+        <source>Event Calendar</source>
+        <translation>Calendario eventi</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mese precedente</translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation>Mese successivo</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>Anteprima dell'evento</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1323,6 +1266,10 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>Future events</source>
         <translation>Eventi futuri</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>Anteprima dell'evento</translation>
     </message>
 </context>
 <context>
@@ -1365,6 +1312,10 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>Pages</source>
         <translation>Pagine</translation>
+    </message>
+    <message>
+        <source>Last reply by:</source>
+        <translation>Ultima risposta di:</translation>
     </message>
 </context>
 <context>
@@ -1442,7 +1393,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Remove this item.</source>
-        <translation>Elimina quest&apos;elemento.</translation>
+        <translation>Elimina quest'elemento.</translation>
     </message>
 </context>
 <context>
@@ -1532,6 +1483,13 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
 </context>
 <context>
+    <name>design/ezwebin/full/silverlight</name>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Scarica Microsoft Silverlight</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
@@ -1585,12 +1543,27 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <source>Enter forum</source>
         <translation>Accedi al forum</translation>
     </message>
+    <message>
+        <source>Forum</source>
+        <translation>Forum</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
         <translation>Rispondi a:</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/link</name>
+    <message>
+        <source>Edit</source>
+        <translation>Modifica</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Elimina</translation>
     </message>
 </context>
 <context>
@@ -1602,6 +1575,13 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>Vote</source>
         <translation>Vota</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/product</name>
+    <message>
+        <source>(price ex. vat %ex_vat_price)</source>
+        <translation>(prezzo IVA esclusa %ex_vat_price)</translation>
     </message>
 </context>
 <context>
@@ -1683,7 +1663,11 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation>Gli elementi contengono più nodi del numero massimo possibile per l&apos;eliminazione del sotto-albero e non verranno eliminati. Puoi eliminare questo sotto-albero usando lo script ezsubtreeremove.php.</translation>
+        <translation>Gli elementi contengono più nodi del numero massimo possibile per l'eliminazione del sottoalbero e non verranno eliminati. Puoi eliminare questo sottoalbero usando lo script ezsubtreeremove.php.</translation>
+    </message>
+    <message>
+        <source>Warning:</source>
+        <translation>Avviso:</translation>
     </message>
 </context>
 <context>
@@ -1709,7 +1693,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation>Ricevi tutti i messaggi combinati in un&apos;unica raccolta</translation>
+        <translation>Ricevi tutti i messaggi combinati in un'unica raccolta</translation>
     </message>
     <message>
         <source>Receive digests</source>
@@ -1721,7 +1705,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation>Settimanalmente, il</translation>
+        <translation>Una volta alla settimana, il </translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
@@ -1729,7 +1713,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation>Se il numero del giorno supera il numero dei giorni nel mese corrente, verrà usato l&apos;ultimo giorno del mese corrente.</translation>
+        <translation>Se il numero del giorno supera il numero dei giorni nel mese corrente, verrà usato l'ultimo giorno del mese corrente.</translation>
     </message>
 </context>
 <context>
@@ -1820,7 +1804,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation>Se l&apos;esportazione RSS è attiva viene richiesta una URL di accesso valida.</translation>
+        <translation>Se l'esportazione RSS è attiva viene richiesta una URL di accesso valida.</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1828,7 +1812,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation>Nome dell&apos;esportazione RSS. Questo nome viene usato solo nell&apos;Interfaccia di Amministrazione, per distinguere le diverse esportazioni.</translation>
+        <translation>Nome dell'esportazione RSS. Questo nome viene usato solo nell'Interfaccia di Amministrazione, per distinguere le diverse esportazioni.</translation>
     </message>
     <message>
         <source>Description</source>
@@ -1836,15 +1820,15 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation>Usa il campo descrizione per scrivere un testo spiegando agli utenti cosa riceveranno dall&apos;esportazione RSS.</translation>
+        <translation>Usa il campo descrizione per scrivere un testo spiegando agli utenti cosa riceveranno dall'esportazione RSS.</translation>
     </message>
     <message>
         <source>Site URL</source>
         <translation>URL sito</translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation>Usa questo campo per inserire la URL base del tuo sito web. Viene usata per produrre le URLs nell&apos;esportazione, composte dalla URL del sito web (e.g. &quot;http://www.example.com/index.php&quot;) ed il percorso dell&apos;oggetto (e.g. &quot;/articles/my_article&quot;). L&apos; URL del sito web depende dal tuo web server e dalla configurazione di eZ Publish.</translation>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. "http://www.example.com/index.php") and the path to the object (e.g. "/articles/my_article"). The Site URL depends on your web server and Exponential configuration.</source>
+        <translation>Usa questo campo per inserire la URL base del tuo sito web. Viene usata per produrre le URLs nell'esportazione, composte dalla URL del sito web (e.g. "http://www.example.com/index.php") ed il percorso dell'oggetto (e.g. "/articles/my_article"). L' URL del sito web depende dal tuo web server e dalla configurazione di Exponential.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
@@ -1860,15 +1844,15 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation>Premi questo pulsante per selezionare un immagine per l&apos;esportazione RSS. Nota che le immagini funzioneranno solo con RSS versione 2.0</translation>
+        <translation>Premi questo pulsante per selezionare un immagine per l'esportazione RSS. Nota che le immagini funzioneranno solo con RSS versione 2.0</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation>Elimina l&apos;immagine</translation>
+        <translation>Elimina l'immagine</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation>Premi qui per rimuovere l&apos;immagine dall&apos;esportazione RSS.</translation>
+        <translation>Premi qui per rimuovere l'immagine dall'esportazione RSS.</translation>
     </message>
     <message>
         <source>RSS version</source>
@@ -1876,7 +1860,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation>Usa questo menù a tendina per selezionare la versione RSS da usare per l&apos;esportazione. Devi selezionare RSS 2.0 per esportare l&apos;immagine sopra selezionata.</translation>
+        <translation>Usa questo menù a tendina per selezionare la versione RSS da usare per l'esportazione. Devi selezionare RSS 2.0 per esportare l'immagine sopra selezionata.</translation>
     </message>
     <message>
         <source>Number of objects</source>
@@ -1892,7 +1876,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation>Usa questo checkbox per controllare se l&apos;esportazione RSS è attiva o meno. Un&apos;esportazione inattiva non verrà aggiornata automaticamente.</translation>
+        <translation>Usa questo checkbox per controllare se l'esportazione RSS è attiva o meno. Un'esportazione inattiva non verrà aggiornata automaticamente.</translation>
     </message>
     <message>
         <source>Main node only</source>
@@ -1907,8 +1891,8 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <translation>URL accesso</translation>
     </message>
     <message>
-        <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation>Usa questo campo per impostare l&apos;URL dove sarà disponibile l&apos;esportazione RSS. Nota che la URL reale verrà seguita da &quot;rss/feed/&quot;. </translation>
+        <source>Use this field to set the URL where the RSS export should be available. Note that "rss/feed/" will be appended to the real URL. </source>
+        <translation>Usa questo campo per impostare l'URL dove sarà disponibile l'esportazione RSS. Nota che la URL reale verrà seguita da "rss/feed/". </translation>
     </message>
     <message>
         <source>Source</source>
@@ -1920,7 +1904,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation>Premi questo pulsante per selezionare il nodo di origine dell&apos;esportazione RSS. Gli oggetti del tipo selezionato nel menù a tendina in basso pubblicati come sotto-elementi del nodo selezionato verranno inclusi nell&apos;esportazione RSS.</translation>
+        <translation>Premi questo pulsante per selezionare il nodo di origine dell'esportazione RSS. Gli oggetti del tipo selezionato nel menù a tendina in basso pubblicati come sotto-elementi del nodo selezionato verranno inclusi nell'esportazione RSS.</translation>
     </message>
     <message>
         <source>Subnodes</source>
@@ -1928,15 +1912,15 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation>Attiva questo checkbox se anche gli oggetti dei nodi figli dell&apos;origine devono essere inseriti nel feed.</translation>
+        <translation>Attiva questo checkbox se anche gli oggetti dei nodi figli dell'origine devono essere inseriti nel feed.</translation>
     </message>
     <message>
         <source>Class</source>
         <translation>Classe</translation>
     </message>
     <message>
-        <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation>Usa questa tendina per selezionare il tipo di oggetti che i triggers devono esportare. Clicca il pulsante &quot;Imposta&quot; per caricare i tipi di attributi giusti per i campi rimanenti.</translation>
+        <source>Use this drop-down to select the type of object that triggers the export. Click the "Set" button to load the correct attribute types for the remaining fields.</source>
+        <translation>Usa questa tendina per selezionare il tipo di oggetti che i triggers devono esportare. Clicca il pulsante "Imposta" per caricare i tipi di attributi giusti per i campi rimanenti.</translation>
     </message>
     <message>
         <source>Set</source>
@@ -1952,7 +1936,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation>Usa questa tendina a sinistra per selezionare l&apos;attributo che deve essere esportato come titolo dell&apos;inserimento RSS.</translation>
+        <translation>Usa questa tendina a sinistra per selezionare l'attributo che deve essere esportato come titolo dell'inserimento RSS.</translation>
     </message>
     <message>
         <source>optional</source>
@@ -1960,7 +1944,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation>Usa questa tendina a sinistra per selezionare l&apos;attributo che deve essere esportato come descrizione dell&apos;inserimento RSS.</translation>
+        <translation>Usa questa tendina a sinistra per selezionare l'attributo che deve essere esportato come descrizione dell'inserimento RSS.</translation>
     </message>
     <message>
         <source>Skip</source>
@@ -1972,15 +1956,15 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation>Usa questa tendina a sinistra per selezionare l&apos;attributo che deve essere esportato come categoria dell&apos;inserimento RSS.</translation>
+        <translation>Usa questa tendina a sinistra per selezionare l'attributo che deve essere esportato come categoria dell'inserimento RSS.</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation>Elimina quest&apos;origine</translation>
+        <translation>Elimina quest'origine</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation>Premi qui per rimuovere quest&apos;origine dall&apos;esportazione RSS.</translation>
+        <translation>Premi qui per rimuovere quest'origine dall'esportazione RSS.</translation>
     </message>
     <message>
         <source>Add source</source>
@@ -1988,7 +1972,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation>Premi qui per aggiungere una nuova origine all&apos;esportazione RSS.</translation>
+        <translation>Premi qui per aggiungere una nuova origine all'esportazione RSS.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -1996,7 +1980,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation>Applica le modifiche e ritorna all&apos;anteprima RSS.</translation>
+        <translation>Applica le modifiche e ritorna all'anteprima RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -2004,7 +1988,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation>Annulla le modifiche e ritorna all&apos;anteprima RSS.</translation>
+        <translation>Annulla le modifiche e ritorna all'anteprima RSS.</translation>
     </message>
 </context>
 <context>
@@ -2019,7 +2003,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation>Nome dell&apos;importazione RSS. Questo nome viene usato solo nell&apos;Interfaccia di Amministrazione, per distinguere le diverse importazioni.</translation>
+        <translation>Nome dell'importazione RSS. Questo nome viene usato solo nell'Interfaccia di Amministrazione, per distinguere le diverse importazioni.</translation>
     </message>
     <message>
         <source>Source URL</source>
@@ -2027,7 +2011,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation>Usa questo campo per inserire l&apos;URL di origine del feed RSS da importare.</translation>
+        <translation>Usa questo campo per inserire l'URL di origine del feed RSS da importare.</translation>
     </message>
     <message>
         <source>Update</source>
@@ -2051,7 +2035,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation>Premi questo pulsante per selezionare il nodo di destinazione dove gli oggetti creati dall&apos;importazione vengono collocati.</translation>
+        <translation>Premi questo pulsante per selezionare il nodo di destinazione dove gli oggetti creati dall'importazione vengono collocati.</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
@@ -2063,15 +2047,15 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation>Premi questo pulsante per selezionare l&apos;utente proprietario degli oggetti creati dall&apos;importazione.</translation>
+        <translation>Premi questo pulsante per selezionare l'utente proprietario degli oggetti creati dall'importazione.</translation>
     </message>
     <message>
         <source>Class</source>
         <translation>Classe</translation>
     </message>
     <message>
-        <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation>Usa questa tendina per selezionare il tipo di oggetti che l&apos;importazione deve creare. Clicca il pulsante &quot;Imposta&quot; per caricare i tipi di attributi per i campi rimanenti.</translation>
+        <source>Use this drop-down to select the type of object the import should create. Click the "Set" button to load the attribute types for the remaining fields.</source>
+        <translation>Usa questa tendina per selezionare il tipo di oggetti che l'importazione deve creare. Clicca il pulsante "Imposta" per caricare i tipi di attributi per i campi rimanenti.</translation>
     </message>
     <message>
         <source>Set</source>
@@ -2087,7 +2071,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation>Usa questo menù tendina a sinistra per selezionare l&apos;attributo che deve essere impostato come informazione dal flusso RSS.</translation>
+        <translation>Usa questo menù tendina a sinistra per selezionare l'attributo che deve essere impostato come informazione dal flusso RSS.</translation>
     </message>
     <message>
         <source>Ignore</source>
@@ -2103,7 +2087,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation>Usa questo checkbox per controllare se l&apos;importazione RSS è attiva o meno. Un&apos;importazione inattiva non verrà aggiornata automaticamente.</translation>
+        <translation>Usa questo checkbox per controllare se l'importazione RSS è attiva o meno. Un'importazione inattiva non verrà aggiornata automaticamente.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2111,7 +2095,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation>Applica le modifiche e ritorna all&apos;anteprima RSS.</translation>
+        <translation>Applica le modifiche e ritorna all'anteprima RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -2119,7 +2103,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation>Annulla le modifiche e ritorna all&apos;anteprima RSS.</translation>
+        <translation>Annulla le modifiche e ritorna all'anteprima RSS.</translation>
     </message>
 </context>
 <context>
@@ -2174,7 +2158,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation>Modifica l&apos;esportazione &lt;%name&gt;.</translation>
+        <translation>Modifica l'esportazione &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
@@ -2206,7 +2190,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation>Modifica l&apos;importazione &lt;%name&gt;.</translation>
+        <translation>Modifica l'importazione &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
@@ -2233,11 +2217,11 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Account information</source>
-        <translation>Informazioni sull&apos;account </translation>
+        <translation>Informazioni sull'account</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Conferma l&apos;ordine</translation>
+        <translation>Conferma l'ordine</translation>
     </message>
     <message>
         <source>Basket</source>
@@ -2344,11 +2328,11 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Account information</source>
-        <translation>Informazioni sull&apos;account </translation>
+        <translation>Informazioni sull'account</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Conferma l&apos;ordine</translation>
+        <translation>Conferma l'ordine</translation>
     </message>
     <message>
         <source>Product items</source>
@@ -2453,6 +2437,10 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <source>Amount</source>
         <translation>Importo</translation>
     </message>
+    <message>
+        <source>view</source>
+        <translation>visualizza</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
@@ -2524,6 +2512,10 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <source>Archive</source>
         <translation>Archivio</translation>
     </message>
+    <message>
+        <source>[ view ]</source>
+        <translation>[ visualizza ]</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderview</name>
@@ -2581,7 +2573,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Order history</source>
-        <translation>Storia dell&apos;ordine</translation>
+        <translation>Storia dell'ordine</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2589,7 +2581,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Order status</source>
-        <translation>Stato dell&apos;ordine</translation>
+        <translation>Stato dell'ordine</translation>
     </message>
 </context>
 <context>
@@ -2600,11 +2592,11 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Account information</source>
-        <translation>Informazioni sull&apos;account </translation>
+        <translation>Informazioni sull'account</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Conferma l&apos;ordine</translation>
+        <translation>Conferma l'ordine</translation>
     </message>
     <message>
         <source>Your account information</source>
@@ -2624,7 +2616,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>E-mail</translation>
     </message>
     <message>
         <source>Company</source>
@@ -2687,7 +2679,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Store</source>
-        <translation>Registra</translation>
+        <translation>Salva</translation>
     </message>
     <message>
         <source>Remove items</source>
@@ -2708,6 +2700,25 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <source>Node ID: %node_id Visibility: %visibility</source>
         <translation>ID Nodo: %node_id Visibilità: %visibility</translation>
     </message>
+    <message>
+        <source>Visible</source>
+        <translation>Visibile</translation>
+    </message>
+    <message>
+        <source>Hidden by superior</source>
+        <translation>Nascosto dal superiore</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Nascosto</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/tagcloud/tagcloud</name>
+    <message>
+        <source>%count objects tagged with '%tag'</source>
+        <translation>%count oggetti con il tag '%tag'</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/activate</name>
@@ -2716,20 +2727,20 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <translation>Account attivato</translation>
     </message>
     <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">Il tuo account ora è attivo.</translation>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">Il tuo account è già attivo.</translation>
+        <source>Your account is now activated.</source>
+        <translation>Il tuo account ora è attivo.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
+        <translation>Spiacenti, la chiave inserita non è valida. L'account non è stato attivato.</translation>
     </message>
     <message>
-        <source>OK</source>
-        <translation>OK</translation>
+        <source>Your account is already active.</source>
+        <translation>Il tuo account è già attivo.</translation>
     </message>
 </context>
 <context>
@@ -2744,7 +2755,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>E-mail</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2783,7 +2794,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <name>design/ezwebin/user/forgotpassword</name>
     <message>
         <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
-        <translation>Un&apos; email è stata inviata al seguente indirizzo: %1. Contiene un link che devi cliccare per darci conferma che l&apos;utente giusto ha ricevuto la nuova password.</translation>
+        <translation>Un' e-mail è stata inviata al seguente indirizzo: %1. Contiene un link che devi cliccare per darci conferma che l'utente giusto ha ricevuto la nuova password.</translation>
     </message>
     <message>
         <source>There is no registered user with that email address.</source>
@@ -2795,7 +2806,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>The key is invalid or has been used. </source>
-        <translation>Chiave non valida o in uso.</translation>
+        <translation>La chiave non è valida o è già stata usata. </translation>
     </message>
     <message>
         <source>Have you forgotten your password?</source>
@@ -2803,11 +2814,11 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
-        <translation>Se hai dimenticato la tua password, inserisci il tuo indirizzo email e noi creeremo una nuova password e te la invieremo.</translation>
+        <translation>Se hai dimenticato la tua password, inserisci il tuo indirizzo e-mail e noi creeremo una nuova password e te la invieremo.</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>E-mail</translation>
     </message>
     <message>
         <source>Generate new password</source>
@@ -2818,7 +2829,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <name>design/ezwebin/user/login</name>
     <message>
         <source>Login</source>
-        <translation>Login</translation>
+        <translation>Accedi</translation>
     </message>
     <message>
         <source>Could not login</source>
@@ -2837,49 +2848,49 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <translation>Non sei abilitato ad accedere a %1.</translation>
     </message>
     <message>
+        <source>Username</source>
+        <comment>User name</comment>
+        <translation>Nome utente</translation>
+    </message>
+    <message>
         <source>Password</source>
         <translation>Password</translation>
     </message>
     <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
-        <translation>Accedi all&apos; Interfaccia di Amministrazione di eZ Publish</translation>
+        <source>Log in to the Exponential Administration Interface</source>
+        <translation>Accedi all' Interfaccia di Amministrazione di Exponential</translation>
     </message>
     <message>
         <source>Remember me</source>
         <translation>Ricordami</translation>
     </message>
     <message>
-        <source>Forgot your password?</source>
-        <translation>Hai dimenticato la password?</translation>
-    </message>
-    <message>
-        <source>Username</source>
-        <comment>User name</comment>
-        <translation>Nome utente</translation>
-    </message>
-    <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation>Login</translation>
+        <translation>Accedi</translation>
     </message>
     <message>
         <source>Sign up</source>
         <comment>Button</comment>
         <translation>Iscriviti</translation>
     </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation>Hai dimenticato la password?</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/password</name>
     <message>
         <source>Change password for user</source>
-        <translation>Cambia password per l&apos;utente</translation>
+        <translation>Cambia password per l'utente</translation>
     </message>
     <message>
         <source>Please retype your old password.</source>
         <translation>Reinserisci la tua vecchia password.</translation>
     </message>
     <message>
-        <source>Password didn&apos;t match, please retype your new password.</source>
+        <source>Password didn't match, please retype your new password.</source>
         <translation>Le password non coincidono, reinserisci la tua nuova password.</translation>
     </message>
     <message>
@@ -2910,6 +2921,74 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
         <source>The new password must be at least %1 characters long, please retype your new password.</source>
         <translation>La nuova password deve contenere almeno %1 caratteri, sei pregato di reinserire la tua nuova password.</translation>
     </message>
+    <message>
+        <source>Change your password</source>
+        <translation>Cambia la tua password</translation>
+    </message>
+    <message>
+        <source>Your password has been changed</source>
+        <translation>La tua password è stata cambiata</translation>
+    </message>
+    <message>
+        <source>You are still signed in here. Use the new password the next time you sign in.</source>
+        <translation>Qui hai ancora effettuato l'accesso. Usa la nuova password al prossimo accesso.</translation>
+    </message>
+    <message>
+        <source>We sent a confirmation to your e-mail address.</source>
+        <translation>Abbiamo inviato una conferma al tuo indirizzo e-mail.</translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation>Continua</translation>
+    </message>
+    <message>
+        <source>Your password was not changed</source>
+        <translation>La tua password non è stata cambiata</translation>
+    </message>
+    <message>
+        <source>Signed in as %1.</source>
+        <translation>Accesso effettuato come %1.</translation>
+    </message>
+    <message>
+        <source>Current password</source>
+        <translation>Password attuale</translation>
+    </message>
+    <message>
+        <source>current password</source>
+        <translation>password attuale</translation>
+    </message>
+    <message>
+        <source>new password</source>
+        <translation>nuova password</translation>
+    </message>
+    <message>
+        <source>Your new password needs:</source>
+        <translation>La nuova password deve contenere:</translation>
+    </message>
+    <message>
+        <source>Generate a strong password</source>
+        <translation>Genera una password sicura</translation>
+    </message>
+    <message>
+        <source>new password again</source>
+        <translation>ripeti la nuova password</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Cambia password</translation>
+    </message>
+    <message>
+        <source>Confirm new password</source>
+        <translation>Conferma la nuova password</translation>
+    </message>
+    <message>
+        <source>At least %1 characters</source>
+        <translation>Almeno %1 caratteri</translation>
+    </message>
+    <message>
+        <source>You were signed out on your other devices.</source>
+        <translation>Sei stato disconnesso dagli altri dispositivi.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/register</name>
@@ -2923,7 +3002,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Input was stored successfully</source>
-        <translation>Inserimento registrato con successo</translation>
+        <translation>Dati inseriti salvati correttamente</translation>
     </message>
     <message>
         <source>Register</source>
@@ -2950,11 +3029,155 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation>Il tuo account è stato creato con successo. Un&apos;email verrà spedita all&apos;indirizzo specificato. Segui le istruzioni nell&apos;email per attivare il tuo account.</translation>
+        <translation>Il tuo account è stato creato con successo. Un'e-mail verrà spedita all'indirizzo specificato. Segui le istruzioni nell'e-mail per attivare il tuo account.</translation>
     </message>
     <message>
         <source>Your account was successfully created.</source>
         <translation>Account creato con successo.</translation>
+    </message>
+    <message>
+        <source>Check your e-mail</source>
+        <translation>Controlla la tua e-mail</translation>
+    </message>
+    <message>
+        <source>Your account has been created. One step is left: confirm your e-mail address.</source>
+        <translation>Il tuo account è stato creato. Manca un passaggio: conferma il tuo indirizzo e-mail.</translation>
+    </message>
+    <message>
+        <source>We sent a message to %email. Open the link in it to activate your account; then you can sign in.</source>
+        <translation>Abbiamo inviato un messaggio a %email. Apri il link che contiene per attivare il tuo account; poi potrai accedere.</translation>
+    </message>
+    <message>
+        <source>We sent a message to the e-mail address you entered. Open the link in it to activate your account; then you can sign in.</source>
+        <translation>Abbiamo inviato un messaggio all'indirizzo e-mail che hai inserito. Apri il link che contiene per attivare il tuo account; poi potrai accedere.</translation>
+    </message>
+    <message>
+        <source>No message after a few minutes? Look in your spam folder.</source>
+        <translation>Nessun messaggio dopo qualche minuto? Controlla nella cartella dello spam.</translation>
+    </message>
+    <message>
+        <source>Your account is waiting for approval</source>
+        <translation>Il tuo account è in attesa di approvazione</translation>
+    </message>
+    <message>
+        <source>Your account has been created. An administrator checks new accounts before they can be used.</source>
+        <translation>Il tuo account è stato creato. Un amministratore controlla i nuovi account prima che possano essere usati.</translation>
+    </message>
+    <message>
+        <source>You will get an e-mail as soon as your account is approved; then you can sign in.</source>
+        <translation>Riceverai un'e-mail non appena il tuo account sarà approvato; poi potrai accedere.</translation>
+    </message>
+    <message>
+        <source>Welcome, %name</source>
+        <translation>Ti diamo il benvenuto, %name</translation>
+    </message>
+    <message>
+        <source>Welcome</source>
+        <translation>Benvenuto</translation>
+    </message>
+    <message>
+        <source>Your account is ready and you are signed in.</source>
+        <translation>Il tuo account è pronto e hai eseguito l'accesso.</translation>
+    </message>
+    <message>
+        <source>Your e-mail address is confirmed</source>
+        <translation>Il tuo indirizzo e-mail è confermato</translation>
+    </message>
+    <message>
+        <source>Your account is active and you are signed in.</source>
+        <translation>Il tuo account è attivo e hai eseguito l'accesso.</translation>
+    </message>
+    <message>
+        <source>Your account is active. You can sign in now.</source>
+        <translation>Il tuo account è attivo. Ora puoi accedere.</translation>
+    </message>
+    <message>
+        <source>An administrator checks new accounts before they can be used.</source>
+        <translation>Un amministratore controlla i nuovi account prima che possano essere usati.</translation>
+    </message>
+    <message>
+        <source>Your account is already active</source>
+        <translation>Il tuo account è già attivo</translation>
+    </message>
+    <message>
+        <source>You are signed in.</source>
+        <translation>Hai eseguito l'accesso.</translation>
+    </message>
+    <message>
+        <source>The account was activated before. You can sign in.</source>
+        <translation>L'account era già stato attivato. Puoi accedere.</translation>
+    </message>
+    <message>
+        <source>This activation link does not work</source>
+        <translation>Questo link di attivazione non funziona</translation>
+    </message>
+    <message>
+        <source>The link is not valid, or it has been used already. Your account was not activated.</source>
+        <translation>Il link non è valido oppure è già stato usato. Il tuo account non è stato attivato.</translation>
+    </message>
+    <message>
+        <source>Copy the whole link from the e-mail into the address bar of your browser. If you activated the account before, sign in.</source>
+        <translation>Copia l'intero link dall'e-mail nella barra degli indirizzi del browser. Se hai già attivato l'account, accedi.</translation>
+    </message>
+    <message>
+        <source>We could not find your account</source>
+        <translation>Non siamo riusciti a trovare il tuo account</translation>
+    </message>
+    <message>
+        <source>The account of this registration does not exist (any more).</source>
+        <translation>L'account di questa registrazione non esiste (più).</translation>
+    </message>
+    <message>
+        <source>Please register again, or contact us if the problem stays.</source>
+        <translation>Registrati di nuovo oppure contattaci se il problema persiste.</translation>
+    </message>
+    <message>
+        <source>Your account is ready</source>
+        <translation>Il tuo account è pronto</translation>
+    </message>
+    <message>
+        <source>Your account has been created and you are signed in.</source>
+        <translation>Il tuo account è stato creato e hai eseguito l'accesso.</translation>
+    </message>
+    <message>
+        <source>Your account has been created. You can sign in now.</source>
+        <translation>Il tuo account è stato creato. Ora puoi accedere.</translation>
+    </message>
+    <message>
+        <source>Next steps</source>
+        <translation>Prossimi passi</translation>
+    </message>
+    <message>
+        <source>Sign in</source>
+        <translation>Accedi</translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation>Il mio profilo</translation>
+    </message>
+    <message>
+        <source>Edit profile</source>
+        <translation>Modifica profilo</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>Registra</translation>
+    </message>
+    <message>
+        <source>Home</source>
+        <translation>Home</translation>
+    </message>
+    <message>
+        <source>Sitemap</source>
+        <translation>Mappa sito</translation>
+    </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation>Nuvola di tag</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Amministrazione</translation>
     </message>
 </context>
 <context>
@@ -2967,12 +3190,12 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
 <context>
     <name>design/ezwebin/view/ezmedia</name>
     <message>
-        <source>No media file is available.</source>
-        <translation>Nessun file media disponibile.</translation>
-    </message>
-    <message>
         <source>No %link_startFlash player%link_end avaliable!</source>
         <translation>Nessun %link_startFlash player%link_end disponibile!</translation>
+    </message>
+    <message>
+        <source>No media file is available.</source>
+        <translation>Nessun file media disponibile.</translation>
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
@@ -2981,6 +3204,10 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <message>
         <source>Your browser does not support html5 audio.</source>
         <translation>Il tuo browser non supporta gli audio html5.</translation>
+    </message>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Scarica Microsoft Silverlight</translation>
     </message>
 </context>
 <context>
@@ -2999,6 +3226,17 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
 </context>
 <context>
+    <name>design/ezwebin/view/infobox</name>
+    <message>
+        <source>Edit</source>
+        <translation>Modifica</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Elimina</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/view/sitemap</name>
     <message>
         <source>Site map</source>
@@ -3009,11 +3247,11 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <name>design/ezwebin/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation>Stato oggetto per l&apos;oggetto</translation>
+        <translation>Stato oggetto per l'oggetto</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation>Gruppo di stato dell&apos;oggetto contenuto</translation>
+        <translation>Gruppo di stato dell'oggetto contenuto</translation>
     </message>
     <message>
         <source>Available states</source>
@@ -3029,11 +3267,11 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation>Applica gli stati dall&apos;elenco in alto.</translation>
+        <translation>Applica gli stati dall'elenco in alto.</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation>Nessuno stato da applicare a quest&apos;oggetto contenuto. Hai bisogno di avere permessi più ampi.</translation>
+        <translation>Nessuno stato da applicare a quest'oggetto contenuto. Hai bisogno di avere permessi più ampi.</translation>
     </message>
 </context>
 <context>
@@ -3047,7 +3285,7 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation>Il tuo indirizzo email è stato confermato. Un amministratore deve approvare la tua richiesta di registrazione, prima che il tuo login diventi valido.</translation>
+        <translation>Il tuo indirizzo e-mail è stato confermato. Un amministratore deve approvare la tua richiesta di registrazione, prima che il tuo login diventi valido.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
@@ -3059,7 +3297,18 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
+        <translation>Spiacenti, la chiave inserita non è valida. L'account non è stato attivato.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/forgotpassword</name>
+    <message>
+        <source>If an account is registered with the email address %1, a mail has been sent to it. This email contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
+        <translation>Se esiste un account registrato con l'indirizzo e-mail %1, gli è stata inviata un'e-mail. L'e-mail contiene un link su cui devi fare clic per permetterci di confermare che la nuova password venga ricevuta dall'utente corretto.</translation>
+    </message>
+    <message>
+        <source>Please enter a valid email address.</source>
+        <translation>Inserisci un indirizzo e-mail valido.</translation>
     </message>
 </context>
 <context>
@@ -3070,7 +3319,86 @@ Le immagini vengono collocate nella libreria media in modo da poter essere riuti
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
-        <translation>Il documento importato attende l&apos;approvazione per essere pubblicato.</translation>
+        <translation>Il documento importato attende l'approvazione per essere pubblicato.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/diff</name>
+    <message>
+        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
+        <translation>Versioni per &lt;%object_name&gt; [%version_count]</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versione</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stato</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traduzioni</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Creatore</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modificato il</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Bozza</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Pubblicato</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>In attesa</translation>
+    </message>
+    <message>
+        <source>Archived</source>
+        <translation>Archiviata</translation>
+    </message>
+    <message>
+        <source>Rejected</source>
+        <translation>Respinto</translation>
+    </message>
+    <message>
+        <source>Untouched draft</source>
+        <translation>Bozza non modificata</translation>
+    </message>
+    <message>
+        <source>This object does not have any versions.</source>
+        <translation>Quest'oggetto non ha alcuna versione.</translation>
+    </message>
+    <message>
+        <source>Show differences</source>
+        <translation>Mostra le differenze</translation>
+    </message>
+    <message>
+        <source>Differences between versions %oldVersion and %newVersion</source>
+        <translation>Differenze fra le versioni %oldVersion e %newVersion</translation>
+    </message>
+    <message>
+        <source>Old version</source>
+        <translation>Vecchia versione</translation>
+    </message>
+    <message>
+        <source>Inline changes</source>
+        <translation>Modifiche in linea</translation>
+    </message>
+    <message>
+        <source>Block changes</source>
+        <translation>Blocco modifiche</translation>
+    </message>
+    <message>
+        <source>New version</source>
+        <translation>Nuova versione</translation>
     </message>
 </context>
 </TS>

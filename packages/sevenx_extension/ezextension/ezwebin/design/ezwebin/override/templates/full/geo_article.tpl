@@ -54,9 +54,12 @@
             {attribute_view_gui attribute=$node.data_map.location width=440}
         </div>
 
+        {* star_rating is optional: an article class without it (and the ezstarrating extension) shows none *}
+        {if is_set( $node.data_map.star_rating )}
         <div class="attribute-star-rating">
             {attribute_view_gui attribute=$node.data_map.star_rating}
         </div>
+        {/if}
 
         {if $node.data_map.tags.content.related_objects}
         <div class="attribute-relatedcontent">

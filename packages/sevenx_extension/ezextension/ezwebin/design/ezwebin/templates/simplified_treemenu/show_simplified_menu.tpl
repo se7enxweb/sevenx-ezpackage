@@ -5,7 +5,7 @@
          haveChildren   = $numChildren|gt(0)
          showToolTips   = ezini( 'TreeMenu', 'ToolTips'         , 'contentstructuremenu.ini' )
          toolTip        = ""
-         visibility     = 'Visible'
+         visibility     = 'Visible'|i18n( 'design/ezwebin/simplified_treemenu/show_simplified_menu' )
          isRootNode     = false() }
 {default last_item = false() }
 {section show=is_set($is_root_node)}{set isRootNode=$is_root_node}{/section}
@@ -41,10 +41,10 @@ class="currentnode"
 {* Icon Label Tooltip *}
 {section show=$:showToolTips|eq('enabled')}
 {section show=$:parentNode.node.is_invisible}
-{set visibility='Hidden by superior'}
+{set visibility='Hidden by superior'|i18n( 'design/ezwebin/simplified_treemenu/show_simplified_menu' )}
 {/section}
 {section show=$:parentNode.node.is_hidden}
-{set visibility='Hidden'}
+{set visibility='Hidden'|i18n( 'design/ezwebin/simplified_treemenu/show_simplified_menu' )}
 {/section}
 {set toolTip='Node ID: %node_id Visibility: %visibility'|i18n("design/ezwebin/simplified_treemenu/show_simplified_menu", , hash( '%node_id'      , $:parentNode.node.node_id, '%visibility'   , $:visibility ) ) }
 {section-else}

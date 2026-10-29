@@ -27,11 +27,11 @@
     <div class="controls">
         <form action={"/content/action"|ezurl} method="post">
         {if $node.object.can_edit}
-            <input type="image" name="EditButton" src={"edit-infobox-ico.gif"|ezimage} alt="Edit">
+            <input type="image" name="EditButton" src={"edit-infobox-ico.gif"|ezimage} alt="{'Edit'|i18n( 'design/ezwebin/view/infobox' )}">
             <input type="hidden" name="ContentObjectLanguageCode" value="{$node.object.current_language}">
         {/if}
         {if $node.object.can_remove}
-            <input type="image" name="ActionRemove" src={"trash-infobox-ico.gif"|ezimage} alt="Remove">
+            <input type="image" name="ActionRemove" src={"trash-infobox-ico.gif"|ezimage} alt="{'Remove'|i18n( 'design/ezwebin/view/infobox' )}">
         {/if}
             <input type="hidden" name="ContentObjectID" value="{$node.object.id}">
             <input type="hidden" name="NodeID" value="{$node.node_id}">

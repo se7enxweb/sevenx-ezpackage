@@ -401,7 +401,7 @@ class xrowSitemapTools
         $dir = new eZClusterDirectoryIterator( $dirname );
         foreach ( $dir as $file )
         {
-            echo "$file\n";
+            echo $file->name() . "\n";
             if ( $file->exists() )
             {
                 $file->delete();
@@ -617,11 +617,11 @@ class xrowSitemapTools
 
             if ( ! is_dir( $dir ) )
             {
-                mkdir( $dir, 0777, true );
+                mkdir( $dir, self::dirMode( 0777 ), true );
             }
             if ( ! is_dir( $cachedir ) )
             {
-                mkdir( $cachedir, 0777, true );
+                mkdir( $cachedir, self::dirMode( 0777 ), true );
             }
 
             $filename = xrowSitemap::BASENAME . '_' . $GLOBALS['eZCurrentAccess']['name'] . '.' . xrowSitemap::SUFFIX;
@@ -844,6 +844,11 @@ class xrowSitemapTools
             }
         }
         $subtreeCount = eZContentObjectTreeNode::subTreeCountByNodeID( $params, $rootNode->NodeID );
+        if ( $subtreeCount == 0 )
+        {
+            eZDebug::writeDebug( "No news found for the news sitemap", __METHOD__ );
+            return;
+        }
 
         $max = min( $max, $subtreeCount );
         $max_all = $max;
@@ -906,7 +911,7 @@ class xrowSitemapTools
             // write XML Sitemap to file
             if ( ! is_dir( $dir ) )
             {
-                mkdir( $dir, 0777, true );
+                mkdir( $dir, self::dirMode( 0777 ), true );
             }
 
             $filename = $dir . '/' . xrowSitemap::BASENAME . '_' . self::FILETYP_NEWS . '_' . $GLOBALS['eZCurrentAccess']['name'] . '.' . xrowSitemap::SUFFIX;
@@ -1086,7 +1091,7 @@ class xrowSitemapTools
         $dir = eZSys::storageDirectory() . '/sitemap/' . self::domain();
         if ( ! is_dir( $dir ) )
         {
-            mkdir( $dir, 0777, true );
+            mkdir( $dir, self::dirMode( 0777 ), true );
         }
         $filename = $dir . '/' . xrowSitemap::BASENAME . '_' . self::FILETYP_MOBILE . '_' . $GLOBALS['eZCurrentAccess']['name'] . '.' . xrowSitemap::SUFFIX;
         $sitemap->save( $filename );
@@ -1737,5 +1742,17 @@ class xrowSitemapTools
             }
         }
         return $uri;
+    }
+
+    /**
+     * The mode $mode within the limit EZP_DIR_MODE_MAX of the kernel (eZDir::dirMode()); on a kernel without that
+     * helper $mode as it is.
+     *
+     * @param int $mode
+     * @return int
+     */
+    private static function dirMode( $mode )
+    {
+        return method_exists( 'eZDir', 'dirMode' ) ? eZDir::dirMode( $mode ) : (int)$mode;
     }
 }

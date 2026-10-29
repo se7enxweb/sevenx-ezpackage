@@ -4,43 +4,7 @@
 
 <div class="content-draft">
 
-<script >
-{literal}
-function checkAll()
-{
-{/literal}
- if ( document.draftaction.selectall.value == "{'Select all'|i18n('design/ezwebin/content/draft')}" )
-{literal}
- {
-{/literal}
- document.draftaction.selectall.value = "{'Deselect all'|i18n('design/ezwebin/content/draft')}";
-{literal}
- with (document.draftaction) 
- {
- for (var i=0; i < elements.length; i++) 
- {
- if (elements[i].type == 'checkbox' && elements[i].name == 'DeleteIDArray[]')
- elements[i].checked = true;
- }
- }
- }
- else
- {
-{/literal}
- document.draftaction.selectall.value = "{'Select all'|i18n('design/ezwebin/content/draft')}";
-{literal}
- with (document.draftaction) 
- {
- for (var i=0; i < elements.length; i++) 
- {
- if (elements[i].type == 'checkbox' && elements[i].name == 'DeleteIDArray[]')
- elements[i].checked = false;
- }
- }
- }
-}
-{/literal}
-</script>
+{ezscript( array( 'ezwebin_actions.js' ) )}
 {def $page_limit=30
  $list_count=fetch('content','draft_count')}
 
@@ -110,7 +74,7 @@ function checkAll()
  </td>
 </tr>
 </table>
-<input class="button" name="selectall" onclick=checkAll() type="button" value="{'Select all'|i18n('design/ezwebin/content/draft')}">
+<input class="button" name="selectall" type="button" value="{'Select all'|i18n('design/ezwebin/content/draft')|wash}" data-ezwebin-select-all="1" data-ezwebin-label-select="{'Select all'|i18n('design/ezwebin/content/draft')|wash}" data-ezwebin-label-deselect="{'Deselect all'|i18n('design/ezwebin/content/draft')|wash}">
 {include name=navigator
  uri='design:navigator/google.tpl'
  page_uri='/content/draft'

@@ -22,7 +22,7 @@
 
  <div class="block">
  <label>{'Name'|i18n( 'design/ezwebin/rss/edit_export' )}:</label>
- <input class="halfbox" id="exportName" type="text" name="title" value="{$rss_export.title|wash}" title="{'Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.'|i18n('design/ezwebin/rss/edit_export')}">
+ <input class="halfbox" id="exportName" data-ezwebin-autofocus="1" type="text" name="title" value="{$rss_export.title|wash}" title="{'Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.'|i18n('design/ezwebin/rss/edit_export')}">
  </div>
 
  <div class="block">
@@ -34,7 +34,7 @@
  <label>{'Site URL'|i18n( 'design/ezwebin/rss/edit_export' )}:</label>
  <input class="halfbox" type="text" name="url" value="{$rss_export.url|wash}">
  <div class="context-attributes">
- <p>{'Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. "http://www.example.com/index.php") and the path to the object (e.g. "/articles/my_article"). The Site URL depends on your web server and eZ Publish configuration.'|i18n( 'design/ezwebin/rss/edit_export')}</p>
+ <p>{'Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. "http://www.example.com/index.php") and the path to the object (e.g. "/articles/my_article"). The Site URL depends on your web server and Exponential configuration.'|i18n( 'design/ezwebin/rss/edit_export')}</p>
  <p>{'Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with'|i18n( 'design/ezwebin/rss/edit_export')}</p>
  </div>
  </div>
@@ -129,12 +129,12 @@
  
  <div class="block">
  <label>{'Subnodes'|i18n( 'design/ezwebin/rss/edit_export' )}:</label>
- <input type="checkbox" name="Item_Subnodes_{$Source:index}" {section show=$Source:item.subnodes|wash|eq( 1 )}checked="checked"{/section} title="{'Activate this checkbox if objects from the subnodes of the source should also be fed.'|i18n('design/ezwebin/rss/edit_export')}" onchange="document.getElementById('Ignore_Values_On_Browse_{$Source:index}').value=0;">
+ <input type="checkbox" name="Item_Subnodes_{$Source:index}" {section show=$Source:item.subnodes|wash|eq( 1 )}checked="checked"{/section} title="{'Activate this checkbox if objects from the subnodes of the source should also be fed.'|i18n('design/ezwebin/rss/edit_export')}" data-ezwebin-reset="Ignore_Values_On_Browse_{$Source:index}">
  </div>
  
  <div class="block">
  <label>{'Class'|i18n( 'design/ezwebin/rss/edit_export' )}:</label>
- <select name="Item_Class_{$Source:index}" title="{'Use this drop-down to select the type of object that triggers the export. Click the "Set" button to load the correct attribute types for the remaining fields.'|i18n('design/ezwebin/rss/edit_export')|wash}" onchange="document.getElementById('Ignore_Values_On_Browse_{$Source:index}').value=0;">
+ <select name="Item_Class_{$Source:index}" title="{'Use this drop-down to select the type of object that triggers the export. Click the "Set" button to load the correct attribute types for the remaining fields.'|i18n('design/ezwebin/rss/edit_export')|wash}" data-ezwebin-reset="Ignore_Values_On_Browse_{$Source:index}">
  {section name=ContentClass loop=$rss_class_array }
  <option
  {section name=Class show=eq( $:item.id, $Source:item.class_id )}
@@ -149,7 +149,7 @@
 
  <div class="block">
  <label>{'Title'|i18n( 'design/ezwebin/rss/edit_export' )}:</label>
- <select name="Item_Class_Attribute_Title_{$Source:index}" title="{'Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.'|i18n('design/ezwebin/rss/edit_export')}" onchange="document.getElementById('Ignore_Values_On_Browse_{$Source:index}').value=0;">
+ <select name="Item_Class_Attribute_Title_{$Source:index}" title="{'Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.'|i18n('design/ezwebin/rss/edit_export')}" data-ezwebin-reset="Ignore_Values_On_Browse_{$Source:index}">
  {section name=ClassAttribute loop=$rss_export.item_list[$Source:index].class_attributes}
  <option value="{$:item.identifier}"
  {section name=ShowSelected show=eq( $Source:item.title, $:item.identifier )}
@@ -161,7 +161,7 @@
 
  <div class="block">
  <label>{'Description'|i18n( 'design/ezwebin/rss/edit_export' )} ({'optional'|i18n( 'design/ezwebin/rss/edit_export' )}):</label>
- <select name="Item_Class_Attribute_Description_{$Source:index}" title="{'Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.'|i18n('design/ezwebin/rss/edit_export')}" onchange="document.getElementById('Ignore_Values_On_Browse_{$Source:index}').value=0;">
+ <select name="Item_Class_Attribute_Description_{$Source:index}" title="{'Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.'|i18n('design/ezwebin/rss/edit_export')}" data-ezwebin-reset="Ignore_Values_On_Browse_{$Source:index}">
  <option value="">[{'Skip'|i18n('design/ezwebin/rss/edit_export')}]</option>
  {section name=ClassAttribute loop=$rss_export.item_list[$Source:index].class_attributes}
  <option value="{$:item.identifier|wash}"
@@ -174,7 +174,7 @@
 
  <div class="block">
  <label>{'Category'|i18n( 'design/ezwebin/rss/edit_export' )} ({'optional'|i18n( 'design/ezwebin/rss/edit_export' )}):</label>
- <select name="Item_Class_Attribute_Category_{$Source:index}" title="{'Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.'|i18n('design/ezwebin/rss/edit_export')}" onchange="document.getElementById('Ignore_Values_On_Browse_{$Source:index}').value=0;">
+ <select name="Item_Class_Attribute_Category_{$Source:index}" title="{'Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.'|i18n('design/ezwebin/rss/edit_export')}" data-ezwebin-reset="Ignore_Values_On_Browse_{$Source:index}">
  <option value="">[{'Skip'|i18n('design/ezwebin/rss/edit_export')}]</option>
  {section name=ClassAttribute loop=$rss_export.item_list[$Source:index].class_attributes}
  <option value="{$:item.identifier|wash}"
@@ -203,15 +203,7 @@
 
 </form>
 
-{literal}
-<script >
- window.onload=function()
- {
- document.getElementById('exportName').select();
- document.getElementById('exportName').focus();
- }
-</script>
-{/literal}
+{ezscript( array( 'ezwebin_actions.js' ) )}
 
 </div></div></div>
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>

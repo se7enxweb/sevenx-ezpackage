@@ -1,27 +1,4 @@
 <?php
 
-$ini = eZINI::instance( 'site.ini' );
-$xrowsitemapINI = eZINI::instance( 'xrowsitemap.ini' );
-
-//getting custom set site access or default access
-if ( $xrowsitemapINI->hasVariable( 'SitemapSettings', 'AvailableSiteAccessList' ) )
-{
-    $siteAccessArray = $xrowsitemapINI->variable( 'SitemapSettings', 'AvailableSiteAccessList' );
-}
-else
-{
-    $siteAccessArray = array(
-        $ini->variable( 'SiteSettings', 'DefaultAccess' )
-    );
-}
-
-if ( $xrowsitemapINI->variable( 'Settings', 'Sitemap' ) == 'enabled' )
-{
-    if ( ! $isQuiet )
-    {
-        $cli->output( "Generating Archive Sitemaps...\n" );
-    }
-    xrowSitemapTools::siteaccessCallFunction( $siteAccessArray, 'xrowSitemapTools::createArchiveSitemap' );
-}
-
-xrowSitemapTools::ping();
+// The code is in extension/xrowmetadata/classes/runnable/cronjobs/archivesitemap.php (#207); this file is the entry point.
+return \Exponential\Cronjob\Extension\Xrowmetadata\Archivesitemap::main( __FILE__, get_defined_vars() );

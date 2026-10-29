@@ -9,7 +9,7 @@
  {* Title. *}
  <div class="block">
  <label>{"Name"|i18n( 'design/ezwebin/rss/edit_import' )}:</label>
- <input class="halfbox" id="importName" type="text" name="name" value="{$rss_import.name|wash}" title="{'Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.'|i18n('design/ezwebin/rss/edit_import')}">
+ <input class="halfbox" id="importName" data-ezwebin-autofocus="1" type="text" name="name" value="{$rss_import.name|wash}" title="{'Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.'|i18n('design/ezwebin/rss/edit_import')}">
  </div>
 
  {* URL. *}
@@ -113,15 +113,7 @@
  </div>
 </form>
 
-{literal}
-<script >
- window.onload=function()
- {
- document.getElementById('importName').select();
- document.getElementById('importName').focus();
- }
-</script>
-{/literal}
+{ezscript( array( 'ezwebin_actions.js' ) )}
 </div></div></div>
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

@@ -1,0 +1,13 @@
+Changes from 6.0.29 to 6.0.30 (2026-10-28)
+
+- Added: Translations into 103 more languages: afr-ZA, aka-GH, amh-ET, ara-SA, arc-IQ, asm-IN, aze-AZ, bel-BY,
+  ben-BD, bho-IN, bod-CN, bos-BA, bul-BG, ceb-PH, che-RU, ckb-IQ, cym-GB, dsb-DE, ell-GR, eng-AU, est-EE, eus-ES,
+  fas-IR, fil-PH, ful-SN, gla-GB, gle-IE, glg-ES, guj-IN, hau-NG, haw-US, hin-IN, hun-HU, huy-IL, hye-AM, ibo-NG,
+  ind-ID, isl-IS, jav-ID, kal-GL, kan-IN, kat-GE, kaz-KZ, khm-KH, kik-KE, kin-RW, kir-KG, kor-KR, kur-TR, lao-LA,
+  lav-LV, lin-CD, lit-LT, ltz-LU, lug-UG, mai-IN, mal-IN, mar-IN, mkd-MK, mlg-MG, mlt-MT, mon-MN, mri-NZ, msa-MY,
+  mya-MM, nep-NP, ori-IN, orm-ET, pan-IN, pcm-NG, pnb-PK, por-PT, pus-AF, ron-RO, run-BI, sin-LK, slk-SK, slv-SI,
+  sna-ZW, snd-PK, som-SO, sqi-AL, srp-RS, sun-ID, swa-KE, syr-IQ, tam-IN, tat-RU, tel-IN, tgk-TJ, tha-TH, tir-ET,
+  tuk-TM, uig-CN, ukr-UA, urd-PK, uzb-UZ, vie-VN, wol-SN, xho-ZA, yid-US, yor-NG and zul-ZA.
+- Updated: The cat-ES, chi-CN, chi-TW, fin-FI, fre-FR, ger-DE, jpn-JP, rus-RU and ser-SR translations are complete.
+
+Upgrading: nothing to do beyond composer update and clearing the translation cache; no code, setting or database change.

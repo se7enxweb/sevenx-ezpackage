@@ -2,10 +2,6 @@
 
  {switch name=mediaType match=$attribute.contentclass_attribute.data_text1}
  {case match=flash}
- <script >
- insertMedia( '<object type="application/x-shockwave-flash" data={concat("content/download/",$attribute.contentobject_id,"/",$attribute.content.contentobject_attribute_id,"/",$attribute.content.original_filename)|ezurl} {if $attribute.content.width|gt( 0 )}width="{$attribute.content.width}"{/if} {if $attribute.content.height|gt( 0 )}height="{$attribute.content.height}"{/if}>', '<param name="movie" value={concat("content/download/",$attribute.contentobject_id,"/",$attribute.content.contentobject_attribute_id,"/",$attribute.content.original_filename)|ezurl}>', '<param name="loop" value="{if $attribute.content.is_loop}true{/if}">', '<param name="play" value="{if $attribute.content.is_autoplay}true{/if}">', '<param name="quality" value="{$attribute.content.quality}">', '<p>No <a href="http://www.macromedia.com/go/getflashplayer">Flash player<\/a> avaliable!<\/p>', '<\/object>' );
- </script>
- <noscript>
  <object type="application/x-shockwave-flash" data={concat("content/download/",$attribute.contentobject_id,"/",$attribute.content.contentobject_attribute_id,"/",$attribute.content.original_filename)|ezurl} {if $attribute.content.width|gt( 0 )}width="{$attribute.content.width}"{/if} {if $attribute.content.height|gt( 0 )}height="{$attribute.content.height}"{/if}>
  <param name="movie" value={concat("content/download/",$attribute.contentobject_id,"/",$attribute.content.contentobject_attribute_id,"/",$attribute.content.original_filename)|ezurl}>
  <param name="quality" value="{$attribute.content.quality}">
@@ -13,7 +9,6 @@
  <param name="loop" value="{if $attribute.content.is_loop}true{/if}">
  <p>{'No %link_startFlash player%link_end avaliable!'|i18n( 'design/ezwebin/view/ezmedia', , hash( '%link_start', '<a href="http://www.macromedia.com/go/getflashplayer">', '%link_end', '</a>' ) )}</p>
  </object>
- </noscript>
  {/case}
 
  {case match=quick_time}
@@ -70,12 +65,7 @@
  {/case}
 
  {case match=silverlight}
- {literal}
- <script >
- function onErrorHandler(sender, args) { }
- function onResizeHandler(sender, args) { }
- </script>
- {/literal}
+{ezscript( array( 'ezwebin_actions.js' ) )}
  <div id="silverlightControlHost">
  <!-- Silverlight plug-in control -->
  <object data="data:application/x-silverlight," type="application/x-silverlight-2-b1" {if $attribute.content.width|gt( 0 )}width="{$attribute.content.width}"{/if} {if $attribute.content.height|gt( 0 )}height="{$attribute.content.height}"{/if}>
@@ -83,7 +73,7 @@
  <param name="onError" value="onErrorHandler">
  <param name="onResize" value="onResizeHandler">
  <a href="http://go.microsoft.com/fwlink/?LinkID=108182" style="text-decoration: none;">
- <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" style="border-style: none;">
+ <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="{'Get Microsoft Silverlight'|i18n( 'design/ezwebin/view/ezmedia' )}" style="border-style: none;">
  </a>
  </object>
  <iframe style="visibility: hidden; height: 0; width: 0; border: 0px;"></iframe>

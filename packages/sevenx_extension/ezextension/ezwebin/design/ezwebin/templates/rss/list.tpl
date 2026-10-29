@@ -1,4 +1,5 @@
 {ezscript_require( 'tools/ezjsselection.js' )}
+{ezscript( array( 'ezwebin_actions.js' ) )}
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
@@ -11,7 +12,7 @@
 {section show=$rssexport_list}
 <table class="list" cellspacing="0">
 <tr>
-    <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection'|i18n( 'design/ezwebin/rss/list' )}" onclick="ezjs_toggleCheckboxes( document.rssexportslist, 'DeleteIDArray[]' ); return false;" title="{'Invert selection.'|i18n( 'design/ezwebin/rss/list' )}"></th>
+    <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection'|i18n( 'design/ezwebin/rss/list' )}" data-ezwebin-form="rssexportslist" data-ezwebin-toggle-checkboxes="DeleteIDArray[]" title="{'Invert selection.'|i18n( 'design/ezwebin/rss/list' )}"></th>
     <th>{'Name'|i18n( 'design/ezwebin/rss/list' )}</th>
     <th>{'Version'|i18n( 'design/ezwebin/rss/list' )}</th>
     <th>{'Status'|i18n( 'design/ezwebin/rss/list' )}</th>
@@ -67,7 +68,7 @@
 {section show=$rssimport_list}
 <table class="list" cellspacing="0">
 <tr>
-    <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection'|i18n( 'design/ezwebin/rss/list' )}" onclick="ezjs_toggleCheckboxes( document.rssimportslist, 'DeleteIDArrayImport[]' ); return false;" title="{'Invert selection.'|i18n( 'design/ezwebin/rss/list' )}"></th>
+    <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection'|i18n( 'design/ezwebin/rss/list' )}" data-ezwebin-form="rssimportslist" data-ezwebin-toggle-checkboxes="DeleteIDArrayImport[]" title="{'Invert selection.'|i18n( 'design/ezwebin/rss/list' )}"></th>
     <th>{'Name'|i18n( 'design/ezwebin/rss/list' )}</th>
     <th>{'Status'|i18n( 'design/ezwebin/rss/list' )}</th>
     <th>{'Modifier'|i18n( 'design/ezwebin/rss/list' )}</th>

@@ -51,7 +51,7 @@ href={$item.data_map.location.content|ezurl}
 {/if}
   {/if}
   {if $pagedata.is_edit}
-onclick="return false;"
+data-exp-no-follow=""
   {/if}
   title="{$item.data_map.location.data_text|wash}"
   {if $item_class}class="{$item_class|implode(" ")}"{/if}
@@ -64,7 +64,7 @@ onclick="return false;"
   <a role="button" href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}
  {if $item_class}class="{$item_class|implode(" ")}"{/if}
  {if $pagedata.is_edit}
-  onclick="return false;"
+  data-exp-no-follow=""
  {/if}>{$item.name|wash()}</a>
 {else}
 <li class="dropdown {if $path_node_ids|contains($item.node_id)}active{/if}{if $item.node_id|eq($current_node_id)} current{/if}">
@@ -106,7 +106,7 @@ onclick="return false;"
 {if eq( $ui_context, 'browse' )} href={concat("content/browse/", $item.node_id)|ezurl}{else} href={$item.data_map.location.content|ezurl}
 {if and( is_set( $item.data_map.open_in_new_window ), $item.data_map.open_in_new_window.data_int )} target="_blank" {/if}
 {/if}
-{if $pagedata.is_edit} onclick="return false;" {/if}
+{if $pagedata.is_edit} data-exp-no-follow="" {/if}
 title="{$item.data_map.location.data_text|wash}"
 role="button"
 {if $item_class} class="{$item_class|implode(" ")}"{/if}
@@ -118,7 +118,7 @@ rel={$item.url_alias|ezurl}>{if $item.data_map.location.data_text}{$item.data_ma
 <a
 href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}
 {if $item_class} class="{$item_class|implode(" ")}"{/if}
-{if $pagedata.is_edit} onclick="return false;"{/if}>{$item.name|wash()}</a>
+{if $pagedata.is_edit} data-exp-no-follow=""{/if}>{$item.name|wash()}</a>
 </li>
 {else}
 <li class="dropdown {if $path_node_ids|contains($item.node_id)}active{/if}{if $item.node_id|eq($current_node_id)} current{/if}" id="node_id_{$item.node_id}">
@@ -150,7 +150,7 @@ href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|e
 {if eq( $ui_context, 'browse' )} href={concat("content/browse/", $item.node_id)|ezurl}{else} href={$item.data_map.location.content|ezurl}
 {if and( is_set( $item.data_map.open_in_new_window ), $item.data_map.open_in_new_window.data_int )} target="_blank" {/if}
 {/if}
-{if $pagedata.is_edit} onclick="return false;" {/if}
+{if $pagedata.is_edit} data-exp-no-follow="" {/if}
 title="{$item.data_map.location.data_text|wash}"
 role="button"
 {if $item_class} class="{$item_class|implode(" ")}"{/if}
@@ -161,7 +161,7 @@ rel={$item.url_alias|ezurl}>{if $item.data_map.location.data_text}{$item.data_ma
 <a
 href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}
 {if $item_class} class="{$item_class|implode(" ")}"{/if}
-{if $pagedata.is_edit} onclick="return false;"{/if}>{$item.name|wash()}</a>
+{if $pagedata.is_edit} data-exp-no-follow=""{/if}>{$item.name|wash()}</a>
 </li>
  {/if}
 {/foreach}

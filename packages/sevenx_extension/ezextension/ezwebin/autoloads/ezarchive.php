@@ -3,6 +3,7 @@
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ Publish Website Interface
 // SOFTWARE RELEASE: 1.4.0
+// COPYRIGHT NOTICE: Copyright (C) 1998 - 2026 7x & Exponential Foundation
 // COPYRIGHT NOTICE: Copyright (C) 1999-2014 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
@@ -105,6 +106,29 @@ class eZArchive
                                          EXTRACT(EPOCH FROM DATE(EXTRACT(YEAR FROM to_timestamp( ezcontentobject_attribute.data_int ) ) || '-' || EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ) || '-' || '01' ) )
                                 ORDER BY EXTRACT(YEAR FROM to_timestamp( ezcontentobject_attribute.data_int ) ) DESC, 
                                          EXTRACT(MONTH FROM to_timestamp( ezcontentobject_attribute.data_int ) ) DESC";
+                        break;
+                    case 'oracle':
+                        // Oracle has neither FROM_UNIXTIME nor to_timestamp( epoch ): the
+                        // publication date is turned into a DATE by adding days to the epoch
+                        // (UTC), and the month's first second is taken back the same way.
+                        $SQL = "SELECT EXTRACT( MONTH FROM pub_date ) AS month,
+                                       EXTRACT( YEAR FROM pub_date ) AS year,
+                                       ( TRUNC( pub_date, 'MM' ) - DATE '1970-01-01' ) * 86400 AS timestamp
+                                FROM ( SELECT DATE '1970-01-01' + ezcontentobject_attribute.data_int / 86400 AS pub_date
+                                       FROM ezcontentobject_attribute,
+                                            ezcontentclass,
+                                            ezcontentclass_attribute,
+                                            ezcontentobject_tree
+                                       WHERE ezcontentclass_attribute.contentclass_id = ezcontentclass.id
+                                           AND ezcontentclass.identifier = '" . $db->escapeString( $classIdentifier ) . "'
+                                           AND ezcontentclass_attribute.id = ezcontentobject_attribute.contentclassattribute_id
+                                           AND ezcontentclass_attribute.identifier = 'publication_date'
+                                           AND ezcontentobject_attribute.contentobject_id = ezcontentobject_tree.contentobject_id
+                                           AND ezcontentobject_attribute.version = ezcontentobject_tree.contentobject_version
+                                           AND ezcontentobject_tree.is_hidden = 0
+                                           AND ezcontentobject_tree.parent_node_id = " . (int) $parentNodeID . " )
+                                GROUP BY EXTRACT( YEAR FROM pub_date ), EXTRACT( MONTH FROM pub_date ), TRUNC( pub_date, 'MM' )
+                                ORDER BY EXTRACT( YEAR FROM pub_date ) DESC, EXTRACT( MONTH FROM pub_date ) DESC";
                         break;
                 }
 

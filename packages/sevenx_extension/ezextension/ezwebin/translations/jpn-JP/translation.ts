@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">年</translation>
+        <translation>年</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">月</translation>
+        <translation>月</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">日</translation>
+        <translation>日</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">時間</translation>
+        <translation>時</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">分</translation>
+        <translation>分</translation>
     </message>
 </context>
 <context>
@@ -43,19 +43,19 @@
     <name>design/ezodf/import</name>
     <message>
         <source>Create or update the translation in:</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳の作成または更新先:</translation>
     </message>
     <message>
         <source>Existing translations</source>
-        <translation type="unfinished"></translation>
+        <translation>既存の翻訳</translation>
     </message>
     <message>
         <source>New translations</source>
-        <translation type="unfinished"></translation>
+        <translation>新しい翻訳</translation>
     </message>
     <message>
         <source>Import in:</source>
-        <translation type="unfinished"></translation>
+        <translation>インポート先:</translation>
     </message>
 </context>
 <context>
@@ -351,95 +351,94 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation type="obsolete">時間</translation>
+        <translation>時</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="obsolete">分</translation>
+        <translation>分</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>カレンダーを表示して日付を選択します。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">&lt;%object_name&gt; [%version_count] 
-のバージョン</translation>
+        <translation>&lt;%object_name&gt; [%version_count] のバージョン</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="obsolete">バージョン</translation>
+        <translation>バージョン</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="obsolete">ステータス</translation>
+        <translation>ステータス</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation type="obsolete">翻訳</translation>
+        <translation>翻訳</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation type="obsolete">作成者</translation>
+        <translation>作成者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="obsolete">修正日時</translation>
+        <translation>修正日時</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation type="obsolete">ドラフト</translation>
+        <translation>ドラフト</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation type="obsolete">公開中</translation>
+        <translation>公開中</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation type="obsolete">保留中</translation>
+        <translation>保留</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation type="obsolete">保管</translation>
+        <translation>保管</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation type="obsolete">非承認</translation>
+        <translation>非承認</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation type="obsolete">未変更ドラフト</translation>
+        <translation>未変更のドラフト</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation type="obsolete">このオブジェクトにはバージョンが存在しません。</translation>
+        <translation>このオブジェクトにはバージョンはありません。</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation type="obsolete">違いを表示</translation>
+        <translation>違いを表示</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">%oldVersion と %newVersionの違い</translation>
+        <translation>%oldVersion と %newVersionの違い</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation type="obsolete">旧バージョン</translation>
+        <translation>旧バージョン</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation type="obsolete">インライン変更</translation>
+        <translation>インライン変更</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation type="obsolete">ブロック変更</translation>
+        <translation>ブロック変更</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation type="obsolete">新バージョン</translation>
+        <translation>新バージョン</translation>
     </message>
 </context>
 <context>
@@ -502,6 +501,12 @@
         <translation>現在作業中のオブジェクトです。ドラフトの所有者はあなたです、そのためあなたしか見えないです。
 ドラフトを編集するか、必要ない場合に削除することができます。</translation>
     </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+ You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation>現在作業中のオブジェクトです。下書きの所有者はご自身で、ご自身にのみ表示されます。
+ 下書きを編集するか、不要になった場合は削除できます。</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/edit</name>
@@ -531,23 +536,23 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>編集中の下書きの内容を公開します。下書きはオブジェクトの公開済みバージョンになります。</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>編集中の下書きの内容を保存して、編集を続けます。編集中に作業内容を定期的に保存するには、このボタンを使用します。</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>下書きを保存して終了</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>編集中の下書きを保存して、編集モードを終了します。作業を中断して後で再開する場合に使用します。</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>編集中の下書きを破棄します。下書きに属する翻訳がある場合は、それも削除されます。</translation>
     </message>
 </context>
 <context>
@@ -775,7 +780,7 @@
     </message>
     <message>
         <source>New drafts [%newerDraftCount]</source>
-        <translation>新規ドラフト</translation>
+        <translation>新規ドラフト [%newerDraftCount]</translation>
     </message>
     <message>
         <source>This object does not have any drafts.</source>
@@ -1068,12 +1073,12 @@
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
-        <translation>eZ Publish情報: %version</translation>
+        <source>Exponential information: %version</source>
+        <translation>Exponential情報: %version</translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
-        <translation>eZ Publishとは?</translation>
+        <source>What is Exponential?</source>
+        <translation>Exponentialとは?</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -1125,16 +1130,16 @@
         <translation>OpenOffice.org形式エクスポート</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>eZ PublishコンテンツをOpenOffice.orgファイルとしてエクスポートする</translation>
+        <source>Export Exponential content to OpenOffice.org</source>
+        <translation>ExponentialコンテンツをOpenOffice.orgファイルとしてエクスポートする</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation>eZ PublishのオブジェクトをOpenOffice.orgライタードキュメント形式にエクスポートをすることができます。</translation>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
+        <translation>ExponentialのオブジェクトをOpenOffice.orgライタードキュメント形式にエクスポートをすることができます。</translation>
     </message>
     <message>
         <source>Export Object</source>
@@ -1157,7 +1162,7 @@
     </message>
     <message>
         <source>Document imported as</source>
-        <translation type="obsolete">ドキュメントは次の名前でインポートされました: </translation>
+        <translation>ドキュメントのインポート形式</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1184,17 +1189,17 @@
         <translation>インポート先</translation>
     </message>
     <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
+        <source>You can import OpenOffice.org Writer documents directly into Exponential from this page. You are
+asked where to place the document and Exponential does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>OpenOffice.org Writerドキュメントを直接eZ Publishにインポートします。ドキュメントの配置先を選択する必要があります。
+        <translation>OpenOffice.org Writerドキュメントを直接Exponentialにインポートします。ドキュメントの配置先を選択する必要があります。
 ドキュメントは自動的に適切なクラスに変換されます。インポートが終わりましたら、通知が表示されます。
 画像はメディアリソースに登録されるため、他のオブジェクトと共有できます。</translation>
     </message>
     <message>
         <source>File:</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル:</translation>
     </message>
 </context>
 <context>
@@ -1313,6 +1318,22 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Show All Events..</source>
         <translation>すべてのイベントを表示。</translation>
     </message>
+    <message>
+        <source>Event Calendar</source>
+        <translation>イベントカレンダー</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>先月</translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation>翌月</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>イベントのプレビュー</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1323,6 +1344,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Future events</source>
         <translation>今後のイベント</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>イベントのプレビュー</translation>
     </message>
 </context>
 <context>
@@ -1365,6 +1390,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Pages</source>
         <translation>ページ</translation>
+    </message>
+    <message>
+        <source>Last reply by:</source>
+        <translation>最終返信者:</translation>
     </message>
 </context>
 <context>
@@ -1532,6 +1561,13 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/full/silverlight</name>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Microsoft Silverlight の入手</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
@@ -1585,12 +1621,27 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Number of posts</source>
         <translation>ポスト数</translation>
     </message>
+    <message>
+        <source>Forum</source>
+        <translation>掲示板</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
         <translation>返信先:</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/link</name>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
     </message>
 </context>
 <context>
@@ -1602,6 +1653,13 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Vote</source>
         <translation>投票</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/product</name>
+    <message>
+        <source>(price ex. vat %ex_vat_price)</source>
+        <translation>(税抜価格 %ex_vat_price)</translation>
     </message>
 </context>
 <context>
@@ -1683,7 +1741,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>これらのアイテムには、サブツリーの削除で処理できる最大ノード数を超えるノードが含まれているため、削除されません。このサブツリーは ezsubtreeremove.php スクリプトを使用して削除できます。</translation>
+    </message>
+    <message>
+        <source>Warning:</source>
+        <translation>警告:</translation>
     </message>
 </context>
 <context>
@@ -1843,8 +1905,8 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>サイトURL</translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation>サイトのベースURLはこのフィールドで設定できます。エクスポートする際のURLに使われます、サイトURL（例えば&quot;http://www.example.com/index.php&quot;）とオブジェクトへのパス(例えば&quot;/articles/my_article&quot;)の組み合わせになります。サイトURLはeZ Publishの設定とウェブサーバに依存します。</translation>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
+        <translation>サイトのベースURLはこのフィールドで設定できます。エクスポートする際のURLに使われます、サイトURL（例えば&quot;http://www.example.com/index.php&quot;）とオブジェクトへのパス(例えば&quot;/articles/my_article&quot;)の組み合わせになります。サイトURLはExponentialの設定とウェブサーバに依存します。</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
@@ -2453,6 +2515,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Customer information</source>
         <translation>お客様情報</translation>
     </message>
+    <message>
+        <source>view</source>
+        <translation>表示</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
@@ -2523,6 +2589,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Archive</source>
         <translation>保管</translation>
+    </message>
+    <message>
+        <source>[ view ]</source>
+        <translation>[ 表示 ]</translation>
     </message>
 </context>
 <context>
@@ -2706,7 +2776,26 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Node ID: %node_id Visibility: %visibility</source>
-        <translation>ノードID: %node_id 表示設定: %node_visibility </translation>
+        <translation>ノードID: %node_id 表示設定: %visibility</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>Hidden by superior</source>
+        <translation>上位によって非表示</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>非表示</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/tagcloud/tagcloud</name>
+    <message>
+        <source>%count objects tagged with &apos;%tag&apos;</source>
+        <translation>「%tag」タグが付いたオブジェクト: %count</translation>
     </message>
 </context>
 <context>
@@ -2717,15 +2806,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="obsolete">アカウントは有効になりました。</translation>
+        <translation>アカウントが有効になりました。</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">パスワードが無効なためアカウントを有効に出来ません。</translation>
+        <translation>申し訳ありませんが、送信されたキーは有効なキーではありません。アカウントは有効になりませんでした。</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="obsolete">あなたのアカウントは既に有効です。</translation>
+        <translation>アカウントは既に有効です。</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2859,8 +2948,8 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>パスワードを忘れましたか?</translation>
     </message>
     <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
-        <translation>eZ Publishの管理画面にログインする</translation>
+        <source>Log in to the Exponential Administration Interface</source>
+        <translation>Exponentialの管理画面にログインする</translation>
     </message>
     <message>
         <source>Sign up</source>
@@ -2982,6 +3071,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Your browser does not support html5 audio.</source>
         <translation>利用しているブラウザはHTML5オーディオを対応しません。</translation>
     </message>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Microsoft Silverlight の入手</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezprice</name>
@@ -2996,6 +3089,17 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>You save</source>
         <translation>割引額</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/view/infobox</name>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
     </message>
 </context>
 <context>
@@ -3040,37 +3144,48 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>秒</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>メールアドレスが確認されました。ログインが有効になる前に、管理者が登録申請を承認する必要があります。</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">アカウントは有効になりました。</translation>
+        <translation>アカウントが有効になりました。</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">あなたのアカウントは既に有効です。</translation>
+        <translation>アカウントは既に有効です。</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">パスワードが無効なためアカウントを有効に出来ません。</translation>
+        <translation>申し訳ありませんが、送信されたキーは有効なキーではありません。アカウントは有効になりませんでした。</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/forgotpassword</name>
+    <message>
+        <source>If an account is registered with the email address %1, a mail has been sent to it. This email contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
+        <translation>メールアドレス %1 でアカウントが登録されている場合は、そのアドレスにメールが送信されました。このメールには、正しいユーザーが新しいパスワードを取得していることを確認するために、クリックする必要があるリンクが含まれています。</translation>
+    </message>
+    <message>
+        <source>Please enter a valid email address.</source>
+        <translation>有効なメールアドレスを入力してください。</translation>
     </message>
 </context>
 <context>
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished">ドキュメントは次の名前でインポートされました: </translation>
+        <translation>ドキュメントのインポート形式</translation>
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートされたドキュメントは公開の承認を待っています。</translation>
     </message>
 </context>
 </TS>

@@ -351,11 +351,11 @@
     </message>
     <message>
         <source>Hour</source>
-        <translation type="obsolete">Heure</translation>
+        <translation>Heure</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="obsolete">Minute</translation>
+        <translation>Minute</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
@@ -366,79 +366,79 @@
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">Versions pour &amp;lt;%object_name&amp;gt; [%version_count]</translation>
+        <translation>Versions pour &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="obsolete">Version</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="obsolete">Status</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation type="obsolete">Traductions</translation>
+        <translation>Traductions</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation type="obsolete">Créateur</translation>
+        <translation>Créateur</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="obsolete">Modifié</translation>
+        <translation>Modifié</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation type="obsolete">Brouillon</translation>
+        <translation>Brouillon</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation type="obsolete">Publié</translation>
+        <translation>Publié</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation type="obsolete">En attente</translation>
+        <translation>En attente</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation type="obsolete">Archivé</translation>
+        <translation>Archivé</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation type="obsolete">Rejeté</translation>
+        <translation>Rejeté</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation type="obsolete">Brouillon non modifié</translation>
+        <translation>Brouillon non modifié</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation type="obsolete">Cet objet n&apos;a pas de version.</translation>
+        <translation>Cet objet n&apos;a pas de versions.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation type="obsolete">Montrer les différences</translation>
+        <translation>Montrer les différences</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">Différences entre les versions %oldVersion et %newVersion</translation>
+        <translation>Différences entre les versions %oldVersion et %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation type="obsolete">Ancienne version</translation>
+        <translation>Ancienne version</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation type="obsolete">Changements de type Ligne</translation>
+        <translation>Changements de type Ligne</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation type="obsolete">Changement de type Block</translation>
+        <translation>Changement de type Block</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation type="obsolete">Nouvelle version</translation>
+        <translation>Nouvelle version</translation>
     </message>
 </context>
 <context>
@@ -500,6 +500,12 @@
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
         <translation>Ce sont les objects sur lesquels vous travaillez. Ces brouillons vous appartiennent et ne peuvent être vus que par vous.
 Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en avez plus besoin.</translation>
+    </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+ You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation>Voici les objets sur lesquels vous travaillez actuellement. Les brouillons vous appartiennent et vous seul pouvez les voir.
+ Vous pouvez modifier les brouillons ou les supprimer si vous n&apos;en avez plus besoin.</translation>
     </message>
 </context>
 <context>
@@ -1067,12 +1073,12 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
-        <translation>information sur eZ Publish : %version</translation>
+        <source>Exponential information: %version</source>
+        <translation>information sur Exponential : %version</translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
-        <translation>Qu&apos;est-ce qu&apos;eZ Publish ?</translation>
+        <source>What is Exponential?</source>
+        <translation>Qu&apos;est-ce qu&apos;Exponential ?</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -1125,16 +1131,16 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
         <translation>Exportation OpenOffice.org</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>Exporter du contenu eZ Publish vers OpenOffice.org</translation>
+        <source>Export Exponential content to OpenOffice.org</source>
+        <translation>Exporter du contenu Exponential vers OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation>Vous pouvez exporter ici tout objet de contenu eZ Publish vers un format de document OpenOffice.org Writer.</translation>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
+        <translation>Vous pouvez exporter ici tout objet de contenu Exponential vers un format de document OpenOffice.org Writer.</translation>
     </message>
     <message>
         <source>Export Object</source>
@@ -1157,7 +1163,7 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
     </message>
     <message>
         <source>Document imported as</source>
-        <translation type="obsolete">Document importé en tant que</translation>
+        <translation>Document importé en tant que</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
@@ -1184,11 +1190,11 @@ Vous pouvez soit éditer les brouillons soit les supprimer si vous n&apos;en ave
         <translation>Importer vers</translation>
     </message>
     <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
+        <source>You can import OpenOffice.org Writer documents directly into Exponential from this page. You are
+asked where to place the document and Exponential does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation>Vous pouvez importez un document OpenOffice.org Writer directement dans eZ publish depuis cette page. Dites nous où placer le document er eZ Publish s&apos;occupe du reste. Ce document est converti dans la classe appropriée durant l&apos;import, vous serez averti une fois l&apos;import effectué.
+        <translation>Vous pouvez importez un document OpenOffice.org Writer directement dans Exponential depuis cette page. Dites nous où placer le document er Exponential s&apos;occupe du reste. Ce document est converti dans la classe appropriée durant l&apos;import, vous serez averti une fois l&apos;import effectué.
 Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans d&apos;autres articles.</translation>
     </message>
     <message>
@@ -1312,6 +1318,22 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
         <source>Show All Events..</source>
         <translation>Vois tous les événements.</translation>
     </message>
+    <message>
+        <source>Event Calendar</source>
+        <translation>Calendrier des évènements</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mois précédent</translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation>Mois suivant</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>Prévisualisation de l&apos;évènement</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1322,6 +1344,10 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>Future events</source>
         <translation>Evènements futurs</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>Prévisualisation de l&apos;évènement</translation>
     </message>
 </context>
 <context>
@@ -1364,6 +1390,10 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>Pages</source>
         <translation>Pages</translation>
+    </message>
+    <message>
+        <source>Last reply by:</source>
+        <translation>Dernière réponse de :</translation>
     </message>
 </context>
 <context>
@@ -1531,6 +1561,13 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
 </context>
 <context>
+    <name>design/ezwebin/full/silverlight</name>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Obtenir Microsoft Silverlight</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
@@ -1584,12 +1621,27 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
         <source>Enter forum</source>
         <translation>Entrer sur le forum</translation>
     </message>
+    <message>
+        <source>Forum</source>
+        <translation>Forum</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
         <translation>Répondre à : </translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/link</name>
+    <message>
+        <source>Edit</source>
+        <translation>Modifier</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Supprimer</translation>
     </message>
 </context>
 <context>
@@ -1601,6 +1653,13 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>Vote</source>
         <translation>Vote</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/product</name>
+    <message>
+        <source>(price ex. vat %ex_vat_price)</source>
+        <translation>(prix HT %ex_vat_price)</translation>
     </message>
 </context>
 <context>
@@ -1683,6 +1742,10 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
         <translation>Cet élément contient plus que le nombre maximum possible de noeuds pour une suppression de sous-éléments et ne sera pas supprimé. Vous pouvez supprimer cette sous-arborescence avec le script ezsubtreeremove.php.</translation>
+    </message>
+    <message>
+        <source>Warning:</source>
+        <translation>Avertissement :</translation>
     </message>
 </context>
 <context>
@@ -1842,8 +1905,8 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
         <translation>URL du site</translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation>Utilisez ce champ pour entrer l&apos;URL de base de votre site. Il est utilisé pour produire les URL dans les exportations, composées par l&apos;URL du site (par exemple &quot;http://www.example.com/index.php») et le chemin de l&apos;objet (par exemple &quot;/ articles / my_article»). L&apos;URL du site dépend de votre serveur web et la configuration d&apos;eZ Publish.</translation>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
+        <translation>Utilisez ce champ pour entrer l&apos;URL de base de votre site. Il est utilisé pour produire les URL dans les exportations, composées par l&apos;URL du site (par exemple &quot;http://www.example.com/index.php») et le chemin de l&apos;objet (par exemple &quot;/ articles / my_article»). L&apos;URL du site dépend de votre serveur web et la configuration d&apos;Exponential.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
@@ -2452,6 +2515,10 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
         <source>Amount</source>
         <translation>Montant</translation>
     </message>
+    <message>
+        <source>view</source>
+        <translation>voir</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
@@ -2522,6 +2589,10 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>Archive</source>
         <translation>Archive</translation>
+    </message>
+    <message>
+        <source>[ view ]</source>
+        <translation>[ voir ]</translation>
     </message>
 </context>
 <context>
@@ -2705,7 +2776,26 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Node ID: %node_id Visibility: %visibility</source>
-        <translation>Plier / Déplier</translation>
+        <translation>ID du nœud : %node_id Visibilité : %visibility</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Visible</translation>
+    </message>
+    <message>
+        <source>Hidden by superior</source>
+        <translation>Caché par un élément supérieur</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Caché</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/tagcloud/tagcloud</name>
+    <message>
+        <source>%count objects tagged with &apos;%tag&apos;</source>
+        <translation>%count objets associés au mot-clé &apos;%tag&apos;</translation>
     </message>
 </context>
 <context>
@@ -2716,15 +2806,15 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="obsolete">Votre compte est désormais actif.</translation>
+        <translation>Votre compte est désormais activé.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="obsolete">Votre compte est déjà actif.</translation>
+        <translation>Votre compte est déjà activé.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Désolé, la clefs fournit n&apos;est pas une clef valide. Le compte n&apos;a pas été activé.</translation>
+        <translation>Désolé, la clé transmise est invalide. Le compte n&apos;a pas été activé.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2845,8 +2935,8 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
         <translation>Mot de passe</translation>
     </message>
     <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
-        <translation>Aller dans l&apos;interface d&apos;administration d&apos;eZ Publish</translation>
+        <source>Log in to the Exponential Administration Interface</source>
+        <translation>Aller dans l&apos;interface d&apos;administration d&apos;Exponential</translation>
     </message>
     <message>
         <source>Remember me</source>
@@ -2981,6 +3071,10 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
         <source>Your browser does not support html5 audio.</source>
         <translation>Votre navigateur ne supporte pas l&apos;audio en html5.</translation>
     </message>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Obtenir Microsoft Silverlight</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezprice</name>
@@ -2995,6 +3089,17 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>You save</source>
         <translation>Vous économisez</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/view/infobox</name>
+    <message>
+        <source>Edit</source>
+        <translation>Modifier</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Supprimer</translation>
     </message>
 </context>
 <context>
@@ -3059,6 +3164,17 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
         <translation>Désolé, la clé transmise est invalide. Le compte n&apos;a pas été activé.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/forgotpassword</name>
+    <message>
+        <source>If an account is registered with the email address %1, a mail has been sent to it. This email contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
+        <translation>Si un compte est enregistré avec l&apos;adresse e-mail %1, un message y a été envoyé. Ce message contient un lien sur lequel vous devez cliquer afin que nous puissions confirmer que c&apos;est le bon utilisateur qui reçoit le nouveau mot de passe.</translation>
+    </message>
+    <message>
+        <source>Please enter a valid email address.</source>
+        <translation>Veuillez saisir une adresse e-mail valide.</translation>
     </message>
 </context>
 <context>

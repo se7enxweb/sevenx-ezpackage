@@ -10,7 +10,7 @@
 
 <div class="warning">
 {if eq( $exceeded_limit, true() )}
-<h2>Warning:</h2>
+<h2>{'Warning:'|i18n( 'design/ezwebin/node/removeobject' )}</h2>
 <p>{'The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.'|i18n( 'design/ezwebin/node/removeobject' )}</p>
 {else}
 <h2>{"Are you sure you want to remove these items?"|i18n("design/ezwebin/node/removeobject")}</h2>
@@ -33,6 +33,11 @@
 </ul>
 </div>
 
+{* The objects that point at what goes (content.ini [RemoveSettings] ReverseRelationCheck): listed with warn, and with
+   block Confirm stays disabled while there are any; the view refuses the removal itself as well. *}
+{def $rr_blocked = false()}
+{if and( is_set( $reverse_relation_check ), $reverse_relation_check )}{set $rr_blocked = $reverse_relation_check.blocked}{include uri='design:content/reverse_relation_check.tpl' check=$reverse_relation_check operation='remove'}{/if}
+
 {if and( $move_to_trash_allowed, eq( $exceeded_limit, false() ) )}
   <input type="hidden" name="SupportsMoveToTrash" value="1">
   <p><input type="checkbox" name="MoveToTrash" value="1" checked="checked">{'Move to trash'|i18n('design/ezwebin/node/removeobject')}</p>
@@ -45,11 +50,12 @@
 
 
 <div class="buttonblock">
-{include uri="design:gui/button.tpl" name=Store id_name=ConfirmButton value="Confirm"|i18n("design/ezwebin/node/removeobject") disabled=$exceeded_limit}
+{include uri="design:gui/button.tpl" name=Store id_name=ConfirmButton value="Confirm"|i18n("design/ezwebin/node/removeobject") disabled=or( $exceeded_limit, $rr_blocked )}
 {include uri="design:gui/defaultbutton.tpl" name=Discard id_name=CancelButton value="Cancel"|i18n("design/ezwebin/node/removeobject")}
 </div>
 
 </form>
+{undef $rr_blocked}
 
 </div></div></div>
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>

@@ -61,7 +61,7 @@
     {$Order.item.total_inc_vat|l10n( 'currency', $locale, $symbol )}
     </td>
     <td>
-    <a href={concat("/shop/orderview/",$Order.item.id,"/")|ezurl}>view</a>
+    <a href={concat("/shop/orderview/",$Order.item.id,"/")|ezurl}>{'view'|i18n( 'design/ezwebin/shop/customerorderview' )}</a>
     </td>
 </tr>
 {/section}

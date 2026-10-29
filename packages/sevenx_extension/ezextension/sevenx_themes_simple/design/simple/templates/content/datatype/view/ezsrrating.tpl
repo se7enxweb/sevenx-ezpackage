@@ -1,4 +1,5 @@
-{def $rating = $attribute.content}
+{def $rating = $attribute.content
+     $ezsr_can_rate = and( $attribute.data_int|not, has_access_to_limitation( 'ezjscore', 'call', hash( 'FunctionList', 'ezstarrating_rate' ) ) )}
 
 <div class="hreview-aggregate">
    <span class="item">
@@ -8,7 +9,7 @@
     <ul id="ezsr_rating_{$attribute.id}" class="ezsr-star-rating">
     <li id="ezsr_rating_percent_{$attribute.id}" class="ezsr-current-rating" style="width:{$rating.rounded_average|div(5)|mul(100)}%;">{'Currently %current_rating out of 5 Stars.'|i18n('extension/ezstarrating/datatype', '', hash( '%current_rating', concat('<span>', $rating.rounded_average|wash, '</span>') ))}</li>
     {for 1 to 5 as $num}
-	<li><a href="JavaScript:void(0);" id="ezsr_{$attribute.id}_{$attribute.version}_{$num}" title="{'Rate %rating stars out of 5'|i18n('extension/ezstarrating/datatype', '', hash( '%rating', $num ))}" class="ezsr-stars-{$num}" rel="nofollow" onfocus="this.blur();">{$num}</a></li>
+	<li><a{if $ezsr_can_rate} href="#"{/if} id="ezsr_{$attribute.id}_{$attribute.version}_{$num}" title="{'Rate %rating stars out of 5'|i18n('extension/ezstarrating/datatype', '', hash( '%rating', $num ))}" class="ezsr-stars-{$num}" rel="nofollow">{$num}</a></li>
     {/for}
     </ul>
 
@@ -26,8 +27,9 @@
 {run-once}
 {ezcss_require( 'star_rating.css' )}
 {* Enable rating code if not disabled on attribute and user has access to rate! *}
-{if and( $attribute.data_int|not, has_access_to_limitation( 'ezjscore', 'call', hash( 'FunctionList', 'ezstarrating_rate' ) ))}
-    {* The rating runs on jQuery (design/standard/javascript/ezstarrating_jquery.js) *}
+{if $ezsr_can_rate}
+    {* The rating runs on jQuery (design/standard/javascript/ezstarrating_jquery.js): the stars are links to "#" that the
+       script handles, without inline code. Without the right to rate they are no links. *}
     {ezscript_require( array( 'ezjsc::jquery', 'ezjsc::jqueryio', 'ezstarrating_jquery.js' ) )}
 {else}
     {if fetch( 'user', 'current_user' ).is_logged_in}
@@ -41,4 +43,4 @@
     {/if}
 {/if}
 {/run-once}
-{undef $rating}
+{undef $rating $ezsr_can_rate}

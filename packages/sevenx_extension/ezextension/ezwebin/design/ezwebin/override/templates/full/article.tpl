@@ -50,9 +50,12 @@
             </div>
         {/if}
 
+        {* star_rating is optional: an article class without it (and the ezstarrating extension) shows none *}
+        {if is_set( $node.data_map.star_rating )}
         <div class="attribute-star-rating">
             {attribute_view_gui attribute=$node.data_map.star_rating}
         </div>
+        {/if}
 
         {include uri='design:parts/related_content.tpl'}
 

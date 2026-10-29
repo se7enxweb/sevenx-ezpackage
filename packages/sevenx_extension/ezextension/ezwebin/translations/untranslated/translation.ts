@@ -353,6 +353,14 @@
         <source>Show calendar to select a date.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/draft</name>
@@ -411,6 +419,11 @@
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+ You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -975,11 +988,11 @@
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
+        <source>Exponential information: %version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
+        <source>What is Exponential?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1029,7 +1042,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
+        <source>Export Exponential content to OpenOffice.org</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1037,7 +1050,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1084,14 +1097,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
+        <source>You can import OpenOffice.org Writer documents directly into Exponential from this page. You are
+asked where to place the document and Exponential does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1211,6 +1228,22 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Show All Events..</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Event Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1220,6 +1253,10 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Future events</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1262,6 +1299,10 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last reply by:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1430,6 +1471,13 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/full/silverlight</name>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
@@ -1483,11 +1531,26 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Enter forum</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Forum</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/link</name>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1499,6 +1562,13 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Vote</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/product</name>
+    <message>
+        <source>(price ex. vat %ex_vat_price)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1581,6 +1651,10 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1741,7 +1815,7 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2351,6 +2425,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Amount</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>view</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
@@ -2420,6 +2498,10 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Archive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[ view ]</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2606,6 +2688,25 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Node ID: %node_id Visibility: %visibility</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Visible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hidden by superior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/tagcloud/tagcloud</name>
+    <message>
+        <source>%count objects tagged with &apos;%tag&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/activate</name>
@@ -2615,6 +2716,18 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>OK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2732,7 +2845,7 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
+        <source>Log in to the Exponential Administration Interface</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2868,6 +2981,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Your browser does not support html5 audio.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezprice</name>
@@ -2881,6 +2998,17 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>You save</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/view/infobox</name>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2949,6 +3077,17 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/standard/user/forgotpassword</name>
+    <message>
+        <source>If an account is registered with the email address %1, a mail has been sent to it. This email contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please enter a valid email address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
@@ -2956,6 +3095,85 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/diff</name>
+    <message>
+        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Archived</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rejected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Untouched draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object does not have any versions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show differences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Differences between versions %oldVersion and %newVersion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Old version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inline changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New version</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -2,7 +2,7 @@
     <div class="class-forum">
         <table class="list forum" cellspacing="0">
             <tr>
-                <th class="topic"> Forum </th>
+                <th class="topic"> {'Forum'|i18n( 'design/ezwebin/line/forum' )} </th>
                 <th class="topic"> {"Number of topics"|i18n("design/ezwebin/line/forum")} </th>
                 <th class="replies"> {"Number of posts"|i18n("design/ezwebin/line/forum")} </th>
                 <th class="lastreply"> {"Last reply"|i18n( "design/ezwebin/line/forum" )} </th>

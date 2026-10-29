@@ -1,31 +1,91 @@
+{* The page after a registration (user/success): the state of the new account, then the next steps.
+
+   $registration_state (kernel/private/classes/views/user/success.php; a kernel older than that passes only $verify_user_email): verify_email, pending_approval, active,
+   signed_in or error; $registered_user is the account of the registration, or false. The message is a live region
+   (role="status", role="alert" for an error); the next steps are a nav named by its heading, with Sign in (not
+   signed in, the account active), My profile and Edit profile (signed in), Register (after an error), Home, and the
+   sitemap and the tag cloud of the content root. ezwebin design: the framed box, its heading and message classes (stylesheets/content.css). *}
+{def $su_state = 'active'
+     $su_user = false()
+     $su_current = fetch( 'user', 'current_user' )
+     $su_root = ezini( 'NodeSettings', 'RootNode', 'content.ini' )
+     $su_title = 'User registered'|i18n( 'design/ezwebin/user/success' )
+     $su_texts = array()
+     $su_role = 'status'}
+{if is_set( $registration_state )}{set $su_state = $registration_state}{elseif is_set( $verify_user_email )}{if $verify_user_email}{set $su_state = 'verify_email'}{/if}{/if}
+{if is_set( $registered_user )}{set $su_user = $registered_user}{/if}
+{switch match=$su_state}
+{case match='verify_email'}
+    {set $su_title = 'Check your e-mail'|i18n( 'design/ezwebin/user/success' )
+         $su_texts = array( 'Your account has been created. One step is left: confirm your e-mail address.'|i18n( 'design/ezwebin/user/success' ) )}
+    {if $su_user}
+    {set $su_texts = $su_texts|append( 'We sent a message to %email. Open the link in it to activate your account; then you can sign in.'|i18n( 'design/ezwebin/user/success',, hash( '%email', $su_user.email ) ) )}
+    {else}
+    {set $su_texts = $su_texts|append( 'We sent a message to the e-mail address you entered. Open the link in it to activate your account; then you can sign in.'|i18n( 'design/ezwebin/user/success' ) )}
+    {/if}
+    {set $su_texts = $su_texts|append( 'No message after a few minutes? Look in your spam folder.'|i18n( 'design/ezwebin/user/success' ) )}
+{/case}
+{case match='pending_approval'}
+    {set $su_title = 'Your account is waiting for approval'|i18n( 'design/ezwebin/user/success' )
+         $su_texts = array( 'Your account has been created. An administrator checks new accounts before they can be used.'|i18n( 'design/ezwebin/user/success' ),
+                            'You will get an e-mail as soon as your account is approved; then you can sign in.'|i18n( 'design/ezwebin/user/success' ) )}
+{/case}
+{case match='signed_in'}
+    {set $su_title = 'Welcome, %name'|i18n( 'design/ezwebin/user/success',, hash( '%name', $su_current.contentobject.name ) )
+         $su_texts = array( 'Your account is ready and you are signed in.'|i18n( 'design/ezwebin/user/success' ) )}
+{/case}
+{case match='error'}
+    {set $su_title = 'We could not find your account'|i18n( 'design/ezwebin/user/success' )
+         $su_role = 'alert'
+         $su_texts = array( 'The account of this registration does not exist (any more).'|i18n( 'design/ezwebin/user/success' ),
+                            'Please register again, or contact us if the problem stays.'|i18n( 'design/ezwebin/user/success' ) )}
+{/case}
+{case}
+    {set $su_title = 'Your account is ready'|i18n( 'design/ezwebin/user/success' )
+         $su_texts = array( 'Your account has been created. You can sign in now.'|i18n( 'design/ezwebin/user/success' ) )}
+{/case}
+{/switch}
+
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
-<div class="user-success">
-
-{if $verify_user_email}
+<div class="user-success" data-exp-result-state="{$su_state|wash}">
 <div class="attribute-header">
-    <h1 class="long">{"User registered"|i18n("design/ezwebin/user/success")}</h1>
+    <h1 class="long">{$su_title|wash}</h1>
 </div>
 
-<div class="feedback">
-<p>
-{'Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.'|i18n('design/ezwebin/user/success')}
-</p>
-</div>
-{else}
-<div class="attribute-header">
-    <h1 class="long">{"User registered"|i18n("design/ezwebin/user/success")}</h1>
+<div class="{if $su_role|eq( 'alert' )}message-error{else}message-feedback{/if}" role="{$su_role}">
+{foreach $su_texts as $su_text}
+<p>{$su_text|wash}</p>
+{/foreach}
 </div>
 
-<div class="feedback">
-    <h2>{"Your account was successfully created."|i18n("design/ezwebin/user/success")}</h2>
-</div>
+<nav class="user-success-next" aria-labelledby="user-success-next-title">
+<h2 id="user-success-next-title">{'Next steps'|i18n( 'design/ezwebin/user/success' )}</h2>
+<ul>
+{if and( $su_current.is_logged_in|not, $su_state|eq( 'active' ) )}
+    <li><a href={'/user/login'|ezurl} data-exp-rn="login">{'Sign in'|i18n( 'design/ezwebin/user/success' )}</a></li>
 {/if}
-
+{if $su_current.is_logged_in}
+    {if fetch( 'user', 'can_open', hash( 'uri', 'user/edit' ) )}
+    <li><a href={'/user/edit'|ezurl} data-exp-rn="profile">{'My profile'|i18n( 'design/ezwebin/user/success' )}</a></li>
+    {/if}
+    {if $su_current.contentobject.can_edit}
+    <li><a href={concat( '/content/edit/', $su_current.contentobject_id, '/' )|ezurl} data-exp-rn="edit">{'Edit profile'|i18n( 'design/ezwebin/user/success' )}</a></li>
+    {/if}
+{/if}
+{if and( $su_state|eq( 'error' ), $su_current.is_logged_in|not, fetch( 'user', 'can_open', hash( 'uri', 'user/register' ) ) )}
+    <li><a href={'/user/register'|ezurl} data-exp-rn="register">{'Register'|i18n( 'design/ezwebin/user/success' )}</a></li>
+{/if}
+    <li><a href={'/'|ezurl} data-exp-rn="home">{'Home'|i18n( 'design/ezwebin/user/success' )}</a></li>
+    <li><a href={concat( '/content/view/sitemap/', $su_root )|ezurl} data-exp-rn="sitemap">{'Sitemap'|i18n( 'design/ezwebin/user/success' )}</a></li>
+    <li><a href={concat( '/content/view/tagcloud/', $su_root )|ezurl} data-exp-rn="tagcloud">{'Tag cloud'|i18n( 'design/ezwebin/user/success' )}</a></li>
+</ul>
+</nav>
 </div>
 
 </div></div></div>
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
+{undef $su_state $su_user $su_current $su_root $su_title $su_texts $su_role}

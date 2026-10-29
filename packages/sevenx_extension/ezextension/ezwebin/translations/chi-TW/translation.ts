@@ -5,57 +5,57 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>年</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>月</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>日</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>小時</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>分鐘</translation>
     </message>
 </context>
 <context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>無法翻譯</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>必填</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>資訊收集器</translation>
     </message>
 </context>
 <context>
     <name>design/ezodf/import</name>
     <message>
         <source>Create or update the translation in:</source>
-        <translation type="unfinished"></translation>
+        <translation>建立或更新以下語言的翻譯：</translation>
     </message>
     <message>
         <source>Existing translations</source>
-        <translation type="unfinished"></translation>
+        <translation>現有的翻譯</translation>
     </message>
     <message>
         <source>New translations</source>
-        <translation type="unfinished"></translation>
+        <translation>新翻譯</translation>
     </message>
     <message>
         <source>Import in:</source>
-        <translation type="unfinished"></translation>
+        <translation>匯入至：</translation>
     </message>
 </context>
 <context>
@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>請先 %login_link_start登入%login_link_end 再留言。</translation>
     </message>
 </context>
 <context>
@@ -286,7 +286,7 @@
     </message>
     <message>
         <source>Last month</source>
-        <translation type="unfinished">前一月</translation>
+        <translation>最近一個月</translation>
     </message>
 </context>
 <context>
@@ -339,98 +339,106 @@
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>年</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>月</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>日</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示日曆以選取日期。</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation>小時</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation>分鐘</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="obsolete">&lt;%object_name&gt; 的版本 [%version_count]</translation>
+        <translation>&lt;%object_name&gt; 的版本 [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="obsolete">版本</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="obsolete">狀態</translation>
+        <translation>狀態</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation type="obsolete">翻譯</translation>
+        <translation>翻譯</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation type="obsolete">建立者</translation>
+        <translation>建立者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="obsolete">已經修改</translation>
+        <translation>已修改</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation type="obsolete">草稿</translation>
+        <translation>草稿</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation type="obsolete">已發布</translation>
+        <translation>已發布</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation type="obsolete">擱置</translation>
+        <translation>擱置</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation type="obsolete">歸檔</translation>
+        <translation>歸檔</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation type="obsolete">拒絕</translation>
+        <translation>拒絕</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation type="obsolete">未更動的草稿</translation>
+        <translation>未更動的草稿</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation type="obsolete">此物件沒有任何版本。</translation>
+        <translation>此物件沒有任何版本。</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation type="obsolete">顯示差異</translation>
+        <translation>顯示差異</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="obsolete">版本 %oldVersion 和 %newVersion 之間的差異</translation>
+        <translation>在版本 %oldVersion 和 %newVersion 之間的差異</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation type="obsolete">舊版本</translation>
+        <translation>舊版本</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation type="obsolete">內聯變更</translation>
+        <translation>內聯變更</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation type="obsolete">區塊變更</translation>
+        <translation>區塊變更</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation type="obsolete">新版本</translation>
+        <translation>新增版本</translation>
     </message>
 </context>
 <context>
@@ -490,7 +498,14 @@
     <message>
         <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation type="unfinished"></translation>
+        <translation>這些是您目前正在處理的物件。草稿歸您所有，且只有您能看到。
+      您可以編輯這些草稿，若不再需要也可以將其移除。</translation>
+    </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+ You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation>這些是您目前正在處理的物件。草稿歸您所有，且只有您能看到。
+ 您可以編輯這些草稿，若不再需要也可以將其移除。</translation>
     </message>
 </context>
 <context>
@@ -509,35 +524,35 @@
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished"></translation>
+        <translation>正在將內容從 %from_lang 翻譯為 %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
-        <translation type="unfinished"></translation>
+        <translation>%language 的內容</translation>
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>編輯 &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>發佈正在編輯的草稿內容。此草稿將成為物件的已發佈版本。</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>儲存正在編輯的草稿內容並繼續編輯。編輯時請定期使用此按鈕儲存您的工作。</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>儲存草稿並離開</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>儲存正在編輯的草稿並離開編輯模式。需要先離開、稍後再繼續時請使用。</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>捨棄正在編輯的草稿。屬於此草稿的翻譯（如果有的話）也會一併移除。</translation>
     </message>
 </context>
 <context>
@@ -589,17 +604,20 @@
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>您和其他人已在編輯此物件。
+    您可以繼續編輯您的其中一份草稿，或建立新的草稿。</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>您已在編輯此物件。
+您可以繼續編輯您的其中一份草稿，或建立新草稿。</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="unfinished"></translation>
+        <translation>其他人已在編輯此物件。
+        您應該就其草稿與該人員聯絡，或建立一份供自己使用的新草稿。</translation>
     </message>
 </context>
 <context>
@@ -829,7 +847,7 @@
     </message>
     <message>
         <source>Modified translation</source>
-        <translation type="unfinished"></translation>
+        <translation>已修改的翻譯</translation>
     </message>
 </context>
 <context>
@@ -851,35 +869,35 @@
     <name>design/ezwebin/content/pendinglist</name>
     <message>
         <source>My pending items [%pending_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>我的待處理項目 [%pending_count]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名稱</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">類別</translation>
+        <translation>類別</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">區段</translation>
+        <translation>區段</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">版本</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished">上次修改日期</translation>
+        <translation>上次修改日期</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">不明</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>您的待處理清單是空的</translation>
     </message>
 </context>
 <context>
@@ -1054,8 +1072,8 @@
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
-        <translation>eZ publish 資訊：%version</translation>
+        <source>Exponential information: %version</source>
+        <translation>Exponential 資訊：%version</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -1078,19 +1096,19 @@
         <translation>擴充功能</translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
-        <translation>eZ Publish 是什麼?</translation>
+        <source>What is Exponential?</source>
+        <translation>Exponential 是什麼?</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇文件位置</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished">選取</translation>
+        <translation>選取</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1098,80 +1116,91 @@
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation>請選擇 OpenOffice.org 物件的位置。
+
+    選取位置後按一下「%buttonname」按鈕。
+    也可以使用最近使用的項目和書籤快速放置。
+    按一下位置名稱可變更瀏覽清單。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/export</name>
     <message>
         <source>OpenOffice.org export</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenOffice.org 匯出</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation type="unfinished"></translation>
+        <source>Export Exponential content to OpenOffice.org</source>
+        <translation>將 Exponential 內容匯出至 OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>錯誤</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation type="unfinished"></translation>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
+        <translation>您可以在這裡將任何 Exponential 內容物件匯出為 OpenOffice.org Writer 文件格式。</translation>
     </message>
     <message>
         <source>Export Object</source>
-        <translation type="unfinished"></translation>
+        <translation>匯出物件</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/ezodf/import</name>
     <message>
         <source>Document is now imported</source>
-        <translation type="unfinished"></translation>
+        <translation>文件已匯入</translation>
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenOffice.org 匯入</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation type="unfinished"></translation>
+        <translation>物件已匯入為：%class_name</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation type="unfinished"></translation>
+        <translation>圖片已放置在媒體庫中，可以重複使用。</translation>
     </message>
     <message>
         <source>Import another document</source>
-        <translation type="unfinished"></translation>
+        <translation>匯入其他文件</translation>
     </message>
     <message>
         <source>Upload file</source>
-        <translation type="unfinished"></translation>
+        <translation>上傳檔案</translation>
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation type="unfinished"></translation>
+        <translation>匯入 OpenOffice.org 文件</translation>
     </message>
     <message>
         <source>Replace document</source>
-        <translation type="unfinished"></translation>
+        <translation>取代文件</translation>
     </message>
     <message>
         <source>Import to</source>
-        <translation type="unfinished"></translation>
+        <translation>匯入至</translation>
     </message>
     <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
+        <source>You can import OpenOffice.org Writer documents directly into Exponential from this page. You are
+asked where to place the document and Exponential does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
+        <translation>您可以在此頁面將 OpenOffice.org Writer 文件直接匯入 Exponential。系統會
+詢問您要將文件放在何處，其餘工作由 Exponential 完成。匯入時文件會轉換為
+適當的類別，匯入完成後您會收到相關通知。
+圖片會放在媒體庫中，以便您在其他文章中重複使用。</translation>
     </message>
     <message>
         <source>File:</source>
-        <translation type="unfinished"></translation>
+        <translation>檔案：</translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
+        <translation>文件匯入為</translation>
     </message>
 </context>
 <context>
@@ -1194,7 +1223,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>相關內容</translation>
     </message>
 </context>
 <context>
@@ -1288,7 +1317,23 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Show All Events..</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示所有活動..</translation>
+    </message>
+    <message>
+        <source>Event Calendar</source>
+        <translation>活動行事曆</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>前一個月</translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation>下個月</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>活動預覽</translation>
     </message>
 </context>
 <context>
@@ -1300,6 +1345,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Future events</source>
         <translation>未來事件</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>活動預覽</translation>
     </message>
 </context>
 <context>
@@ -1342,6 +1391,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Pages</source>
         <translation>頁面</translation>
+    </message>
+    <message>
+        <source>Last reply by:</source>
+        <translation>最後回覆者：</translation>
     </message>
 </context>
 <context>
@@ -1438,7 +1491,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Forum</source>
-        <translation type="unfinished"></translation>
+        <translation>論壇</translation>
     </message>
 </context>
 <context>
@@ -1460,7 +1513,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Related content</source>
-        <translation type="unfinished"></translation>
+        <translation>相關內容</translation>
     </message>
 </context>
 <context>
@@ -1509,18 +1562,25 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/full/silverlight</name>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>取得 Microsoft Silverlight</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
-        <translation type="unfinished"></translation>
+        <translation>檢視留言</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation type="unfinished"></translation>
+        <translation>新增留言</translation>
     </message>
     <message>
         <source>Tags:</source>
-        <translation type="unfinished">標籤:</translation>
+        <translation>標籤:</translation>
     </message>
 </context>
 <context>
@@ -1562,12 +1622,27 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Number of posts</source>
         <translation>張貼數量</translation>
     </message>
+    <message>
+        <source>Forum</source>
+        <translation>論壇</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
         <translation>回覆到：</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/link</name>
+    <message>
+        <source>Edit</source>
+        <translation>編輯</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>移除</translation>
     </message>
 </context>
 <context>
@@ -1579,6 +1654,13 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Vote</source>
         <translation>投票</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/product</name>
+    <message>
+        <source>(price ex. vat %ex_vat_price)</source>
+        <translation>（不含稅價格 %ex_vat_price）</translation>
     </message>
 </context>
 <context>
@@ -1599,7 +1681,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/silverlight</name>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>檢視</translation>
     </message>
 </context>
 <context>
@@ -1660,7 +1742,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>這些項目包含的節點數超過子樹移除所允許的上限，因此不會被刪除。您可以使用 ezsubtreeremove.php 指令碼移除此子樹。</translation>
+    </message>
+    <message>
+        <source>Warning:</source>
+        <translation>警告：</translation>
     </message>
 </context>
 <context>
@@ -1686,66 +1772,66 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation type="unfinished"></translation>
+        <translation>將所有訊息合併成一封摘要郵件</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation type="unfinished"></translation>
+        <translation>接收摘要</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation type="unfinished"></translation>
+        <translation>每天一次，於</translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation type="unfinished"></translation>
+        <translation>每週一次，於 </translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation type="unfinished"></translation>
+        <translation>每月一次，日期為</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果日期數字大於當月天數，將使用當月的最後一天。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
     <message>
         <source>My item notifications [%notification_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>我的項目通知 [%notification_count]</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>反向選取。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名稱</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">型態</translation>
+        <translation>型態</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">區段</translation>
+        <translation>區段</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">不明</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="unfinished"></translation>
+        <translation>您尚未訂閱任何項目的通知。</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">移除所選</translation>
+        <translation>移除所選</translation>
     </message>
     <message>
         <source>Add items</source>
-        <translation type="unfinished"></translation>
+        <translation>新增項目</translation>
     </message>
 </context>
 <context>
@@ -1756,7 +1842,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation>套用變更</translation>
     </message>
 </context>
 <context>
@@ -1767,439 +1853,439 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation type="unfinished"></translation>
+        <translation>跳至主要內容</translation>
     </message>
     <message>
         <source>Search text:</source>
-        <translation type="unfinished"></translation>
+        <translation>搜尋文字：</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/parts/website_toolbar</name>
     <message>
         <source>Remove node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>移除節點的 RSS/ATOM 摘要</translation>
     </message>
     <message>
         <source>Create node RSS/ATOM feed</source>
-        <translation type="unfinished"></translation>
+        <translation>建立節點的 RSS/ATOM 摘要</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>編輯 &lt;%rss_export_name&gt; [RSS 匯出]</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>輸入無效</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>若 RSS 匯出已啟用，則必須提供有效的存取 URL。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名稱</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 匯出的名稱。此名稱僅用於管理介面，用來區分不同的匯出。</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">描述</translation>
+        <translation>描述</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>請使用描述欄位撰寫文字，說明使用者可以從此 RSS 匯出預期獲得什麼。</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>網站 URL</translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation type="unfinished"></translation>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
+        <translation>請使用此欄位輸入網站的基本 URL。它用於產生匯出中的 URL，由網站 URL（例如&quot;http://www.example.com/index.php&quot;）和物件的路徑（例如&quot;/articles/my_article&quot;）組成。網站 URL 取決於您的 Web 伺服器和 Exponential 組態。</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
-        <translation type="unfinished"></translation>
+        <translation>若要讓系統根據您存取摘要時使用的 URL 自動偵測網站的 URL，請將此欄位留空</translation>
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>圖片</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">瀏覽</translation>
+        <translation>瀏覽</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下此按鈕即可選取用於 RSS 匯出的圖片。請注意，圖片僅適用於 RSS 2.0 版。</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>移除圖片</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下即可從 RSS 匯出移除圖片。</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 版本</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>請使用此下拉式選單選取匯出時使用的 RSS 版本。您必須選取 RSS 2.0，才能匯出上方所選的圖片。</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>物件數量</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>請使用此下拉式選單選取 RSS 摘要所含物件的最大數量。</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>請使用此核取方塊控制 RSS 匯出是否啟用。未啟用的匯出不會自動更新。</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>僅限主要節點</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>勾選此項，則只會從主要節點提供物件。</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>存取 URL</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>請使用此欄位設定 RSS 匯出的 URL。請注意，實際 URL 後面會附加「rss/feed/」。 </translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>來源</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>來源路徑</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下此按鈕即可選取 RSS 匯出來源的來源節點。在所選節點之下發佈、且屬於下方下拉式選單所選類型的物件，都會納入 RSS 匯出。</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>子節點</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>若來源子節點的物件也要一併提供，請啟用此核取方塊。</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">類別</translation>
+        <translation>類別</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>請使用此下拉式選單選取觸發匯出的物件類型。按一下「設定」按鈕，即可為其餘欄位載入正確的屬性類型。</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下此按鈕即可將正確的值載入下方的下拉式欄位。請使用左側的下拉式選單選取類別。</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>標題</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>請使用此下拉式選單選取要作為 RSS 匯出項目標題匯出的屬性。</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>選填</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>請使用此下拉式選單選取要作為 RSS 匯出項目描述匯出的屬性。</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>略過</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">分類</translation>
+        <translation>分類</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>請使用此下拉式選單選取要作為 RSS 匯出項目分類匯出的屬性。</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>移除此來源</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下即可從 RSS 匯出移除此來源。</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>新增來源</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下即可為 RSS 匯出新增來源。</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">確定</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>套用變更並返回 RSS 概觀。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>取消變更並返回 RSS 概觀。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>編輯 &lt;%rss_import_name&gt; [RSS 匯入]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名稱</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 匯入的名稱。此名稱僅用於管理介面，以區分不同的匯入。</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>來源 URL</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此欄位輸入要匯入的 RSS 摘要來源 URL。</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">更新</translation>
+        <translation>更新</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下此按鈕以繼續並分析匯入摘要。</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 版本</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>目的路徑</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">瀏覽</translation>
+        <translation>瀏覽</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下此按鈕以選取目的節點，匯入所建立的物件會位於該節點下。</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>匯入的物件擁有者為</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>變更使用者</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下此按鈕以選取將擁有匯入所建立物件的使用者。</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">類別</translation>
+        <translation>類別</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉式清單選取匯入要建立的物件類型。按一下「設定」按鈕可載入其餘欄位的屬性類型。</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>按一下此按鈕即可將正確的值載入下方的下拉式欄位。請使用左側的下拉式選單選取類別。</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>類別屬性</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉式清單選取要設為 RSS 串流資訊的屬性。</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>忽略</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>物件屬性</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此核取方塊控制 RSS 摘要是否啟用。未啟用的摘要不會自動更新。</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">確定</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>套用變更並返回 RSS 概觀。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>取消變更並返回 RSS 概觀。</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/list</name>
     <message>
         <source>RSS exports [%exports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 匯出 [%exports_count]</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">反向選擇</translation>
+        <translation>反向選擇</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>反向選取。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名稱</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">版本</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">狀態</translation>
+        <translation>狀態</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation>修改者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>已修改</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>請選取要移除的 RSS 匯出。</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>未啟用</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">編輯</translation>
+        <translation>編輯</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>編輯 &lt;%name&gt; RSS 匯出。</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 匯出清單是空的。</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">移除所選</translation>
+        <translation>移除所選</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>移除所選的 RSS 匯出。</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>新增匯出</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>建立新的 RSS 匯出。</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 匯入 [%imports_count]</translation>
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>請選取要移除的 RSS 匯入。</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>編輯 &lt;%name&gt; RSS 匯入。</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 匯入清單是空的。</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>移除所選的 RSS 匯入。</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>新增匯入</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>建立新的 RSS 匯入。</translation>
     </message>
 </context>
 <context>
@@ -2381,15 +2467,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished">概要</translation>
+        <translation>概要</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">稅前總計</translation>
+        <translation>稅前總計</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">稅後總計</translation>
+        <translation>稅後總計</translation>
     </message>
 </context>
 <context>
@@ -2429,6 +2515,10 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Customer information</source>
         <translation>客戶資訊</translation>
+    </message>
+    <message>
+        <source>view</source>
+        <translation>檢視</translation>
     </message>
 </context>
 <context>
@@ -2501,6 +2591,10 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Archive</source>
         <translation>歸檔</translation>
     </message>
+    <message>
+        <source>[ view ]</source>
+        <translation>[ 檢視 ]</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderview</name>
@@ -2562,11 +2656,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">日期</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Order status</source>
-        <translation type="unfinished"></translation>
+        <translation>訂單狀態</translation>
     </message>
 </context>
 <context>
@@ -2685,6 +2779,25 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Node ID: %node_id Visibility: %visibility</source>
         <translation>節點 ID：%node_id 可見性：%visibility</translation>
     </message>
+    <message>
+        <source>Visible</source>
+        <translation>可見</translation>
+    </message>
+    <message>
+        <source>Hidden by superior</source>
+        <translation>由上層隱藏</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>隱藏</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/tagcloud/tagcloud</name>
+    <message>
+        <source>%count objects tagged with &apos;%tag&apos;</source>
+        <translation>%count 個物件標記為「%tag」</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/user/activate</name>
@@ -2694,15 +2807,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="obsolete">您的帳號現在已啟用。</translation>
+        <translation>您的帳號現已啟用。</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">抱歉，提交的金鑰無效。帳號未啟用。</translation>
+        <translation>很抱歉，提交的金鑰無效，帳號未啟用。</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="obsolete">您的帳號已啟用。</translation>
+        <translation>您的帳號已經啟用。</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2753,7 +2866,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>My pending items</source>
-        <translation type="unfinished"></translation>
+        <translation>我的待處理項目</translation>
     </message>
 </context>
 <context>
@@ -2836,8 +2949,8 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>登入</translation>
     </message>
     <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
-        <translation>登入 eZ Publish 的管理介面</translation>
+        <source>Log in to the Exponential Administration Interface</source>
+        <translation>登入 Exponential 的管理介面</translation>
     </message>
     <message>
         <source>Sign up</source>
@@ -2849,43 +2962,43 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/user/password</name>
     <message>
         <source>Change password for user</source>
-        <translation type="unfinished"></translation>
+        <translation>變更使用者的密碼</translation>
     </message>
     <message>
         <source>Please retype your old password.</source>
-        <translation type="unfinished"></translation>
+        <translation>請重新輸入舊密碼。</translation>
     </message>
     <message>
         <source>Password didn&apos;t match, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>密碼不相符，請重新輸入新密碼。</translation>
     </message>
     <message>
         <source>Password successfully updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>已成功更新密碼。</translation>
     </message>
     <message>
         <source>Old password</source>
-        <translation type="unfinished"></translation>
+        <translation>舊密碼</translation>
     </message>
     <message>
         <source>New password</source>
-        <translation type="unfinished"></translation>
+        <translation>新密碼</translation>
     </message>
     <message>
         <source>Retype password</source>
-        <translation type="unfinished"></translation>
+        <translation>重新輸入密碼</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">確定</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>The new password must be at least %1 characters long, please retype your new password.</source>
-        <translation type="unfinished"></translation>
+        <translation>新密碼長度至少須為 %1 個字元，請重新輸入新密碼。</translation>
     </message>
 </context>
 <context>
@@ -2945,19 +3058,23 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/view/ezmedia</name>
     <message>
         <source>No %link_startFlash player%link_end avaliable!</source>
-        <translation type="unfinished"></translation>
+        <translation>沒有可用的 %link_startFlash 播放器%link_end！</translation>
     </message>
     <message>
         <source>No media file is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>沒有可用的媒體檔案。</translation>
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>您的瀏覽器不支援 HTML5 影片。</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>您的瀏覽器不支援 HTML5 音訊。</translation>
+    </message>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>取得 Microsoft Silverlight</translation>
     </message>
 </context>
 <context>
@@ -2976,6 +3093,17 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/view/infobox</name>
+    <message>
+        <source>Edit</source>
+        <translation>編輯</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>移除</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/view/sitemap</name>
     <message>
         <source>Site map</source>
@@ -2986,68 +3114,79 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation type="unfinished"></translation>
+        <translation>物件狀態，物件：</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation type="unfinished"></translation>
+        <translation>內容物件狀態群組</translation>
     </message>
     <message>
         <source>Available states</source>
-        <translation type="unfinished"></translation>
+        <translation>可用的狀態</translation>
     </message>
     <message>
         <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation type="unfinished"></translation>
+        <translation>尚未設定任何內容物件狀態。可以在 %urlstart此處%urlend 進行設定。</translation>
     </message>
     <message>
         <source>Set states</source>
-        <translation type="unfinished"></translation>
+        <translation>設定狀態</translation>
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>套用上方清單中的狀態。</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
+        <translation>沒有可套用至此內容物件的狀態。您可能需要被指派權限較寬鬆的存取原則。</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>秒</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>您的電子郵件地址已確認。系統管理員需要先核准您的註冊要求，您的登入才會生效。</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">您的帳號現在已啟用。</translation>
+        <translation>您的帳號現已啟用。</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">您的帳號已啟用。</translation>
+        <translation>您的帳號已經啟用。</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">抱歉，提交的金鑰無效。帳號未啟用。</translation>
+        <translation>很抱歉，提交的金鑰無效，帳號未啟用。</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/forgotpassword</name>
+    <message>
+        <source>If an account is registered with the email address %1, a mail has been sent to it. This email contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
+        <translation>如果有帳號註冊了電子郵件地址 %1，系統已傳送郵件到該地址。此郵件含有一個連結，您需要按一下該連結，我們才能確認是正確的使用者取得新密碼。</translation>
+    </message>
+    <message>
+        <source>Please enter a valid email address.</source>
+        <translation>請輸入有效的電子郵件地址。</translation>
     </message>
 </context>
 <context>
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished"></translation>
+        <translation>文件匯入為</translation>
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
-        <translation type="unfinished"></translation>
+        <translation>匯入的文件正在等待核准才能發佈。</translation>
     </message>
 </context>
 </TS>

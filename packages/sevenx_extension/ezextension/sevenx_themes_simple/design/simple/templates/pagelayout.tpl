@@ -58,14 +58,16 @@
     {include uri='design:page_header.tpl'}
   <!-- Header area: END -->
 
-<script>
-<!--
-    var ezpRoot = "{'/'|ezurl( no )|rtrim( '/' )}";
-    var ezpFilesRoot = "{'/'|ezroot( no )|rtrim( '/' )}";
-    var ezpCurrentURL = {cond( is_set( $module_result.node_id ), concat( '"', $module_result.uri|wash( 'javascript' ), '"' ), 'false' )};
-    var ezpReturnURL = {cond( is_set( $module_result.node_id ), $module_result.uri, '/' )|ezurl( , 'full' )};
-// -->
-</script>
+{* ezpRoot, ezpFilesRoot, ezpCurrentURL and ezpReturnURL for scripts that read them: set by
+   javascript/sevenx_themes_simple_page.js from this data block (no inline script) *}
+{set-block variable=$simple_page_conf}{json_encode( hash(
+    'ezpRoot', '/'|ezurl( no )|rtrim( '/' ),
+    'ezpFilesRoot', '/'|ezroot( no )|rtrim( '/' ),
+    'ezpCurrentURL', cond( is_set( $module_result.node_id ), $module_result.uri, false() ),
+    'ezpReturnURL', cond( is_set( $module_result.node_id ), $module_result.uri, '/' )|ezurl( no, 'full' ) ) )}{/set-block}
+<script type="application/json" id="sevenx-themes-simple-page">{$simple_page_conf|explode( '<' )|implode( '\u003c' )|explode( '>' )|implode( '\u003e' )}</script>
+{undef $simple_page_conf}
+{ezscript( array( 'sevenx_themes_simple_page.js' ) )}
 
     <!-- main starts -->
   <main class="main-sections">

@@ -37,10 +37,11 @@ class xrowMetaDataFunctions
             {
                 $dataType = eZDataType::create( 'xrowmetadata' );
                 $default = $dataType->classAttributeDefault( $classAttribute );
-                if ( isset( $default['og_image'] ) and (int) $default['og_image'] > 0 )
+                if ( isset( $default['og_image'] ) and xrowMetaDataOpenGraphImage::usableObject( $default['og_image'] ) )
                 {
                     $meta = new xrowMetaData();
-                    $meta->og_image = (int) $default['og_image'];
+                    $meta->og_image = (string) (int) $default['og_image'];
+                    $meta->og_image_source = 'class';
                     return $meta;
                 }
             }

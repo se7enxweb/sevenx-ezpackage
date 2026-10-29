@@ -1,0 +1,25 @@
+/*
+ * xrowmetadata: the edit forms of the metadata datatype (content and class) and the license picker
+ * (xrowmetadata/license_picker.tpl). Loaded by settings/design.ini.append.php [StylesheetSettings]
+ * (BackendCSSFileList and FrontendCSSFileList) and bundled by the ezjscore packer. The templates carry no <style>
+ * block and no style="" attribute: a Content-Security-Policy without 'unsafe-inline' for style-src drops them
+ * (tests/xrowmetadata_inline_css_test.php). No colours: the rules inherit the design's.
+ */
+
+/* the license picker */
+.xrowmetadata-license-picker { max-width: 48em; }
+.xrowmetadata-license-filter { display: flex; flex-wrap: wrap; gap: 0.5em 1em; align-items: flex-end; margin: 0.25em 0 0.5em; }
+.xrowmetadata-license-filter-item { display: inline-flex; flex-direction: column; min-width: 0; }
+.xrowmetadata-license-filter-search { flex: 1 1 16em; }
+.xrowmetadata-license-filter-item label { font-weight: normal; }
+.xrowmetadata-license-select { width: 100%; max-width: 100%; height: auto; }
+/* A list box, not a drop-down: no drop-down arrow of the design's select style */
+select.xrowmetadata-license-select[size] { background-image: none; padding-right: 0.5em; }
+.xrowmetadata-license-select option { white-space: normal; }
+.xrowmetadata-license-terms { list-style: none; margin: 0.25em 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25em 1.5em; }
+.xrowmetadata-license-count { opacity: 0.8; }
+
+/* the thumbnail of the Open Graph image: the object's own or the class default (content edit form) */
+.xrowmetadata-og-image-chosen .xrowmetadata-og-image-thumb { display: block; max-width: 200px; max-height: 120px; margin-bottom: 0.5em; }
+/* the default image of the class (class edit form) */
+.xrowmetadata-class-og-image-thumb { max-width: 200px; max-height: 100px; }

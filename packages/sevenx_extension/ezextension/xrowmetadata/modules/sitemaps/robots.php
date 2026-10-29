@@ -1,32 +1,4 @@
 <?php
 
-$xrowsitemapINI = eZINI::instance( 'xrowsitemap.ini' );
-if ( $xrowsitemapINI->hasVariable( 'SitemapSettings', 'RobotsPath' ) )
-{
-    $robotspath = $xrowsitemapINI->variable( 'SitemapSettings', 'RobotsPath' );
-}
-else
-{
-    $robotspath = 'robots.txt';
-}
-$content = "Sitemap: https://" . $_SERVER['HTTP_HOST'] . "/sitemaps/index\n";
-
-if ( file_exists( $robotspath ) )
-{
-    $content .= file_get_contents( $robotspath );
-}
-else
-{
-    $content .= '';
-}
-
-// Set header settings
-header( 'Content-Type: text/plain; charset=UTF-8' );
-header( 'Content-Length: ' . strlen( $content ) );
-header( 'X-Powered-By: eZ Publish' );
-
-while ( @ob_end_clean() );
-
-echo $content;
-
-eZExecution::cleanExit();
+// The code is in extension/xrowmetadata/classes/runnable/views/sitemaps/robots.php (#207); this file is the entry point.
+return \Exponential\View\Extension\Xrowmetadata\Sitemaps\Robots::main( __FILE__, get_defined_vars() );

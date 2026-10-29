@@ -6,11 +6,12 @@
 <h2>{'My item notifications [%notification_count]'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit', , hash( '%notification_count', $subscribed_nodes_count ) )}</h2>
 
 {if $subscribed_nodes_count}
+{ezscript( array( 'ezwebin_actions.js' ) )}
 
 <table class="list" width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <th class="tight">
-        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection.'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" title="{'Invert selection.'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" onclick="ezjs_toggleCheckboxes( document.notification, 'SelectedRuleIDArray_{$handler.id_string}[]' ); return false;">
+        <img src={'toggle-button-16x16.gif'|ezimage} alt="{'Invert selection.'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" title="{'Invert selection.'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}" data-ezwebin-form="notification" data-ezwebin-toggle-checkboxes="SelectedRuleIDArray_{$handler.id_string|wash}[]">
     </th>
     <th>
     {'Name'|i18n( 'design/ezwebin/notification/handler/ezsubtree/settings/edit' )}

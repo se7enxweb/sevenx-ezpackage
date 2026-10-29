@@ -4,15 +4,15 @@
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 <div class="attribute-header">
-    <h1 class="long">{'eZ Publish information: %version'|i18n('design/ezwebin/ezinfo/about',,hash( '%version', $ezinfo ) )|wash}</h1>
+    <h1 class="long">{'Exponential information: %version'|i18n('design/ezwebin/ezinfo/about',,hash( '%version', $ezinfo ) )|wash}</h1>
 </div>
 
 <div class="attribute-header">
-    <h2>eZ Publish</h2>
+    <h2>Exponential</h2>
 </div>
 
 <div class="attribute-header">
-    <h3>{'What is eZ Publish?'|i18n( 'design/ezwebin/ezinfo/about' )}</h3>
+    <h3>{'What is Exponential?'|i18n( 'design/ezwebin/ezinfo/about' )}</h3>
 </div>
 
 {if is_set( $what_is_ez_publish )}
@@ -33,7 +33,7 @@
     </div>
 
     <p>
-        The following is a list of <a href="http://ez.no/ezpublish">eZ Publish</a> contributors who have licensed their work for use by <a href="http://ez.no/">eZ Systems AS</a> under the terms and conditions of
+        The following is a list of <a href="https://exponential.earth">Exponential</a> contributors who have licensed their work for use by <a href="http://ez.no/">eZ Systems AS</a> under the terms and conditions of
         the eZ Contributor Licensing Agreement. As permitted by this agreement with the contributors, <a href="http://ez.no/">eZ Systems AS</a> is redistributing the
         contribution under the same license as the file that the contribution is included in. The list of contributors includes the contributors&apos;s
         name, optional contact info and a list of files that they have either contributed or contributed work to.
@@ -51,7 +51,7 @@
 </div>
 
 <p>
-    Copyright &copy; 1999-2014 <a href="http://ez.no/">eZ Systems AS</a>, with portions copyright by other parties. A complete list of all contributors and third-party
+    Copyright &copy; 1998 - 2026 <a href="https://se7enx.com">7x</a> &amp; Exponential Foundation. Copyright &copy; 1999-2014 <a href="http://ez.no/">eZ Systems AS</a>. Portions are copyright by other parties. A complete list of all contributors and third-party
     software follows.
 </p>
 
@@ -61,7 +61,7 @@
     </div>
 
     <p>
-        The following is a list of the third-party software that is distributed with this copy of <a href="http://ez.no/ezpublish">eZ Publish</a>. The list of third party
+        The following is a list of the third-party software that is distributed with this copy of <a href="https://exponential.earth">Exponential</a>. The list of third party
         software includes the license for the software in question and the directory or files that contain the third-party software.
     </p>
 
@@ -76,7 +76,7 @@
     <h2>{'Extensions'|i18n('design/ezwebin/ezinfo/about')}</h2>
 </div>
 
-<p>The following is a list of the extensions that have been loaded at run-time by this copy of <a href="http://ez.no/ezpublish">eZ Publish</a>.</p>
+<p>The following is a list of the extensions that have been loaded at run-time by this copy of <a href="https://exponential.earth">Exponential</a>.</p>
 {if is_set( $extensions )}
     {foreach $extensions as $ext_name => $extension}
         {if is_array( $extension )}

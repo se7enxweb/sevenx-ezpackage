@@ -1,4 +1,5 @@
 {* Event Calendar - Full Calendar view *}
+{ezscript( array( 'ezwebin_actions.js' ) )}
 {def
 
     $event_node    = $node
@@ -118,12 +119,12 @@
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
-<table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
+<table cellspacing="0" cellpadding="0" border="0" summary="{'Event Calendar'|i18n( 'design/ezwebin/full/event_view_calendar' )}">
 <thead>
 <tr class="calendar_heading">
-    <th class="calendar_heading_prev first_col"><a href={$url_back|ezurl} title=" Previous month ">&#8249;&#8249;</a></th>
+    <th class="calendar_heading_prev first_col"><a href={$url_back|ezurl} title=" {'Previous month'|i18n( 'design/ezwebin/full/event_view_calendar' )} ">&#8249;&#8249;</a></th>
     <th class="calendar_heading_date" colspan="5">{$temp_ts|datetime( custom, '%F' )|upfirst()}&nbsp;{$temp_year}</th>
-    <th class="calendar_heading_next last_col"><a href={$url_forward|ezurl} title=" Next Month ">&#8250;&#8250;</a></th>
+    <th class="calendar_heading_next last_col"><a href={$url_forward|ezurl} title=" {'Next Month'|i18n( 'design/ezwebin/full/event_view_calendar' )} ">&#8250;&#8250;</a></th>
 </tr>
 <tr class="calendar_heading_days">
     <th class="first_col">{"Mon"|i18n("design/ezwebin/full/event_view_calendar")}</th>
@@ -234,11 +235,11 @@
 <h2>{$temp_ts|datetime( custom, '%F %Y' )|upfirst()}:</h2> 
 {foreach $events as $event}
     {if and( ne($view_parameters.offset, 2), eq($loop_count, 8))}
-        <a id="ezagenda_month_hidden_show" href={$url_reload|ezurl} onclick="document.getElementById('ezagenda_month_hidden').style.display='';this.style.display='none';return false;">{"Show All Events.."|i18n("design/ezwebin/full/event_view_calendar")}</a>
+        <a id="ezagenda_month_hidden_show" href={$url_reload|ezurl} data-ezwebin-show="ezagenda_month_hidden">{"Show All Events.."|i18n("design/ezwebin/full/event_view_calendar")}</a>
         <div id="ezagenda_month_hidden" style="display:none;">
     {/if}
     
-    <table class="ezagenda_month_event" cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="Previw of event">
+    <table class="ezagenda_month_event" cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="{'Preview of event'|i18n( 'design/ezwebin/full/event_view_calendar' )}">
     <tr>
     <td class="ezagenda_month_label">
         <h2>

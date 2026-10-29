@@ -37,7 +37,7 @@
     <a href={concat( '/content/browse/', $main_node.parent_node_id, '/' )|ezurl}><img src={'back-button-16x16.gif'|ezimage} alt="{'Back'|i18n( 'design/ezwebin/content/browse' )}"></a>
     {$current_node.name|wash}&nbsp;[{$current_node.children_count}]</h2>
 {else}
-    <h2 class="context-title"><img src={'back-button-16x16.gif'|ezimage} alt="Back">&nbsp;{'Top level'|i18n( 'design/ezwebin/content/browse' )}&nbsp;[{$current_node.children_count}]</h2>
+    <h2 class="context-title"><img src={'back-button-16x16.gif'|ezimage} alt="{'Back'|i18n( 'design/ezwebin/content/browse' )}">&nbsp;{'Top level'|i18n( 'design/ezwebin/content/browse' )}&nbsp;[{$current_node.children_count}]</h2>
 {/if}
 
 {include uri='design:content/browse_mode_list.tpl'}

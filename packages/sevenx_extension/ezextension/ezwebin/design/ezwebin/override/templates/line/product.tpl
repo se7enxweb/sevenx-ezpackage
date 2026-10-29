@@ -20,7 +20,7 @@
           <p>
            {attribute_view_gui attribute=$node.object.data_map.price}
           </p>
-          <p class="ex-vat">(price ex. vat {$node.object.data_map.price.content.ex_vat_price})</p>
+          <p class="ex-vat">{'(price ex. vat %ex_vat_price)'|i18n( 'design/ezwebin/line/product',, hash( '%ex_vat_price', $node.object.data_map.price.content.ex_vat_price ) )}</p>
         </div>
 
    </div>

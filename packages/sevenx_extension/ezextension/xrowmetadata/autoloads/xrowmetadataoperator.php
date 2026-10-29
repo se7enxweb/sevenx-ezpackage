@@ -40,12 +40,9 @@ class xrowMetaDataOperator
         $page_limit = $ini->variable( 'EditorInputSettings', 'MaxPageLimit' );
         $uri = eZURI::instance( eZSys::requestURI() );
         $viewParameters = $uri->UserParameters();
-        if(count($viewParameters)==0)
-        {
-            $page_offset=0;
-        }else{
-            $page_offset=$viewParameters['offset'];
-        }
+        // Any other user parameter (a filter, a tracking value) comes without
+        // an offset: then the page is the first one.
+        $page_offset = isset( $viewParameters['offset'] ) ? (int)$viewParameters['offset'] : 0;
         switch ( $operatorName )
         {
             case 'metadata':

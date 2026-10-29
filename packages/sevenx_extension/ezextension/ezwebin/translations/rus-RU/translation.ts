@@ -32,37 +32,37 @@
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished">требуется</translation>
+        <translation>обязательно</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished">сбор информации</translation>
+        <translation>сборщик информации</translation>
     </message>
 </context>
 <context>
     <name>design/ezodf/import</name>
     <message>
         <source>Create or update the translation in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Создать или обновить перевод на:</translation>
     </message>
     <message>
         <source>Existing translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Существующие переводы</translation>
     </message>
     <message>
         <source>New translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Новые переводы</translation>
     </message>
     <message>
         <source>Import in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортировать в:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/article/article_index</name>
     <message>
         <source>Article index</source>
-        <translation type="unfinished">Индекс статьи</translation>
+        <translation>Указатель статей</translation>
     </message>
 </context>
 <context>
@@ -77,11 +77,11 @@
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startВойдите%login_link_end или %create_link_startсоздайте учетную запись%create_link_end, чтобы оставить комментарий.</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startВойдите%login_link_end, чтобы оставить комментарий.</translation>
     </message>
 </context>
 <context>
@@ -192,22 +192,22 @@
     <name>design/ezwebin/collectedinfomail/feedback</name>
     <message>
         <source>Feedback from %1</source>
-        <translation type="unfinished">Форма обратной связи %1</translation>
+        <translation>Отзыв от %1</translation>
     </message>
     <message>
         <source>The following feedback was collected</source>
-        <translation type="unfinished">Для обратной связи были собраны следующие данные</translation>
+        <translation>Собран следующий отзыв</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/collectedinfomail/form</name>
     <message>
         <source>Collected information from %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Собранная информация от %1</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation type="unfinished"></translation>
+        <translation>Была собрана следующая информация</translation>
     </message>
 </context>
 <context>
@@ -274,15 +274,15 @@
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Поиск</translation>
+        <translation>Поиск</translation>
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation type="unfinished">К сожалению не найдены результаты по запрусу &quot;%1&quot;</translation>
+        <translation>По запросу «%1» ничего не найдено</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation type="unfinished">Вы искали &quot;%1&quot; было найдено %2</translation>
+        <translation>Поиск по запросу «%1» вернул совпадений: %2</translation>
     </message>
     <message>
         <source>Last month</source>
@@ -353,6 +353,14 @@
         <source>Show calendar to select a date.</source>
         <translation>Показать календарь для выбора даты.</translation>
     </message>
+    <message>
+        <source>Hour</source>
+        <translation>Час</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation>Минуты</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/draft</name>
@@ -413,6 +421,12 @@
       You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
         <translation>Это текущие объекты с которыми вы работаете. Черновики принадлежат вам и могут быть просмотрены только вами.
 Вы можете отредактировать черновики или удалить их, если вы больше в них не нуждаетесь.</translation>
+    </message>
+    <message>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+ You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
+        <translation>Это объекты, над которыми вы сейчас работаете. Черновики принадлежат вам, и видеть их можете только вы.
+ Вы можете изменить черновики или удалить их, если они больше не нужны.</translation>
     </message>
 </context>
 <context>
@@ -531,11 +545,11 @@
     <name>design/ezwebin/content/edit_languages</name>
     <message>
         <source>Existing languages</source>
-        <translation type="unfinished"></translation>
+        <translation>Существующие языки</translation>
     </message>
     <message>
         <source>Select the language you want to use when editing the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите язык, который будет использоваться при редактировании объекта.</translation>
     </message>
     <message>
         <source>New languages</source>
@@ -547,23 +561,23 @@
     </message>
     <message>
         <source>Select the language the new translation will be based on.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите язык, на основе которого будет создан новый перевод.</translation>
     </message>
     <message>
         <source>Use an empty, untranslated draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать пустой непереведенный черновик</translation>
     </message>
     <message>
         <source>You do not have permission to create a translation in another language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Недостаточно прав для создания перевода на другой язык.</translation>
     </message>
     <message>
         <source>However, you can select one of the following languages for editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Однако вы можете выбрать для редактирования один из следующих языков.</translation>
     </message>
     <message>
         <source>You do not have permission to edit the object in any available languages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Недостаточно прав для редактирования объекта ни на одном из доступных языков.</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -578,43 +592,43 @@
     <name>design/ezwebin/content/history</name>
     <message>
         <source>Version not a draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Версия не является черновиком</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Версия %1 больше недоступна для редактирования. Редактировать можно только черновики.</translation>
     </message>
     <message>
         <source>To edit this version, first create a copy of it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чтобы изменить эту версию, сначала создайте ее копию.</translation>
     </message>
     <message>
         <source>Version not yours</source>
-        <translation type="unfinished"></translation>
+        <translation>Это не ваша версия</translation>
     </message>
     <message>
         <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Версия %1 создана не вами. Изменять можно только собственные черновики.</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось создать новую версию</translation>
     </message>
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Достигнут предел истории версий, и система не может удалить ни одной архивной версии.</translation>
     </message>
     <message>
         <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Можно изменить параметры истории версий в content.ini, удалить черновики или изменить существующие черновики.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Версии для &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Toggle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Переключить выделение</translation>
     </message>
     <message>
         <source>Version</source>
@@ -634,79 +648,79 @@
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменено</translation>
     </message>
     <message>
         <source>Select version #%version_number for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите версию #%version_number для удаления.</translation>
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Версию #%version_number нельзя удалить: она либо является опубликованной версией объекта, либо у вас нет прав на ее удаление.</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Просмотр содержимого версии #%version_number. Перевод: %translation.</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Черновик</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished">Опубликовано</translation>
+        <translation>Опубликовано</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation type="unfinished"></translation>
+        <translation>Ожидает</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation type="unfinished"></translation>
+        <translation>В архиве</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation type="unfinished"></translation>
+        <translation>Отклонена</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Неизмененный черновик</translation>
     </message>
     <message>
         <source>There is no need to do a copies of untouched drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет необходимости копировать неизмененные черновики.</translation>
     </message>
     <message>
         <source>Create a copy of version #%version_number.</source>
-        <translation type="unfinished"></translation>
+        <translation>Создать копию версии #%version_number.</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы не можете копировать версии, так как у вас нет прав на редактирование объекта.</translation>
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменить содержимое версии #%version_number.</translation>
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы не можете изменить содержимое версии #%version_number: она не является черновиком или у вас нет прав на редактирование объекта.</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation type="unfinished"></translation>
+        <translation>У этого объекта нет версий.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Удалить выделенное</translation>
+        <translation>Удалить выделенное</translation>
     </message>
     <message>
         <source>Remove the selected versions from the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить выбранные версии объекта.</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать различия</translation>
     </message>
     <message>
         <source>Back</source>
@@ -714,47 +728,47 @@
     </message>
     <message>
         <source>Published version</source>
-        <translation type="unfinished"></translation>
+        <translation>Опубликованная версия</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Переводы</translation>
     </message>
     <message>
         <source>New drafts [%newerDraftCount]</source>
-        <translation type="unfinished"></translation>
+        <translation>Новые черновики [%newerDraftCount]</translation>
     </message>
     <message>
         <source>This object does not have any drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation>У этого объекта нет черновиков.</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation type="unfinished"></translation>
+        <translation>Различия между версиями %oldVersion и %newVersion</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation type="unfinished"></translation>
+        <translation>Старая версия</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменения в строке</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменения в блоке</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation type="unfinished"></translation>
+        <translation>Новая версия</translation>
     </message>
     <message>
         <source>Back to history</source>
-        <translation type="unfinished"></translation>
+        <translation>Вернуться к журналу</translation>
     </message>
     <message>
         <source>Modified translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Измененный перевод</translation>
     </message>
 </context>
 <context>
@@ -776,35 +790,35 @@
     <name>design/ezwebin/content/pendinglist</name>
     <message>
         <source>My pending items [%pending_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Мои ожидающие элементы [%pending_count]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Имя</translation>
+        <translation>Имя</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Класс</translation>
+        <translation>Класс</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Секция</translation>
+        <translation>Секция</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Версия</translation>
+        <translation>Версия</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished">Последние изменения</translation>
+        <translation>Последние изменения</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Неизвестно</translation>
+        <translation>Неизвестно</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Ваш список ожидания пуст</translation>
     </message>
 </context>
 <context>
@@ -816,39 +830,39 @@
     <message>
         <source>For more options try the %1Advanced search%2</source>
         <comment>The parameters are link start and end tags.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Для более точного поиска попробуйте %1расширенный поиск%2</translation>
     </message>
     <message>
         <source>The following words were excluded from the search:</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующие слова были исключены из поиска:</translation>
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>По запросу «%1» ничего не найдено.</translation>
     </message>
     <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Советы по поиску</translation>
     </message>
     <message>
         <source>Check spelling of keywords.</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверьте написание ключевых слов.</translation>
     </message>
     <message>
         <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Попробуйте изменить некоторые ключевые слова (например, «машина» вместо «машины»).</translation>
     </message>
     <message>
         <source>Try searching with less specific keywords.</source>
-        <translation type="unfinished"></translation>
+        <translation>Попробуйте искать по менее конкретным ключевым словам.</translation>
     </message>
     <message>
         <source>Reduce number of keywords to get more results.</source>
-        <translation type="unfinished"></translation>
+        <translation>Уменьшите число ключевых слов, чтобы получить больше результатов.</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation type="unfinished">Вы искали &quot;%1&quot; было найдено %2</translation>
+        <translation>Поиск по запросу «%1» вернул совпадений: %2</translation>
     </message>
 </context>
 <context>
@@ -871,7 +885,7 @@
     </message>
     <message>
         <source>The message was not sent due to an unknown error. Please notify the site administrator about this error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сообщение не отправлено из-за неизвестной ошибки. Сообщите об этой ошибке администратору сайта.</translation>
     </message>
     <message>
         <source>Please correct the following errors:</source>
@@ -966,7 +980,7 @@
     <name>design/ezwebin/embed/forum</name>
     <message>
         <source>Latest from</source>
-        <translation type="unfinished"></translation>
+        <translation>Последнее от</translation>
     </message>
 </context>
 <context>
@@ -979,12 +993,12 @@
 <context>
     <name>design/ezwebin/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
-        <translation type="unfinished"></translation>
+        <source>Exponential information: %version</source>
+        <translation>Информация об Exponential: %version</translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
-        <translation>Что такое eZ Publish?</translation>
+        <source>What is Exponential?</source>
+        <translation>Что такое Exponential?</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -992,15 +1006,15 @@
     </message>
     <message>
         <source>Contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>Участники разработки</translation>
     </message>
     <message>
         <source>Copyright Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>Уведомление об авторских правах</translation>
     </message>
     <message>
         <source>Third-Party Software</source>
-        <translation type="unfinished"></translation>
+        <translation>Стороннее программное обеспечение</translation>
     </message>
     <message>
         <source>Extensions</source>
@@ -1011,11 +1025,11 @@
     <name>design/ezwebin/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать расположение документа</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished">Выбрать</translation>
+        <translation>Выбрать</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1023,7 +1037,11 @@
     Select the placements and click the %buttonname button.
     Using the recent and bookmark items for quick placement is also possible.
     Click on placement names to change the browse listing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите расположение для объекта OpenOffice.org.
+
+    Выберите расположения и нажмите кнопку «%buttonname».
+    Для быстрого размещения можно также использовать недавние элементы и закладки.
+    Щелкните имя расположения, чтобы изменить список просмотра.</translation>
     </message>
 </context>
 <context>
@@ -1033,16 +1051,16 @@
         <translation>OpenOffice.org экспорт</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>Экспортировать контент eZ Publish в OpenOffice.org</translation>
+        <source>Export Exponential content to OpenOffice.org</source>
+        <translation>Экспортировать контент Exponential в OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation type="unfinished"></translation>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
+        <translation>Здесь можно экспортировать любой объект содержимого Exponential в формат документа OpenOffice.org Writer.</translation>
     </message>
     <message>
         <source>Export Object</source>
@@ -1057,15 +1075,15 @@
     </message>
     <message>
         <source>OpenOffice.org import</source>
-        <translation type="unfinished"></translation>
+        <translation>Импорт OpenOffice.org</translation>
     </message>
     <message>
         <source>The object was imported as: %class_name</source>
-        <translation type="unfinished"></translation>
+        <translation>Объект импортирован как: %class_name</translation>
     </message>
     <message>
         <source>The images are placed in the media and can be re-used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изображения помещены в медиатеку и могут использоваться повторно.</translation>
     </message>
     <message>
         <source>Import another document</source>
@@ -1077,7 +1095,7 @@
     </message>
     <message>
         <source>Import OpenOffice.org document</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортировать документ OpenOffice.org</translation>
     </message>
     <message>
         <source>Replace document</source>
@@ -1088,15 +1106,22 @@
         <translation>Импортировать в</translation>
     </message>
     <message>
-        <source>You can import OpenOffice.org Writer documents directly into eZ publish from this page. You are
-asked where to place the document and eZ publish does the rest. The document is converted into
+        <source>You can import OpenOffice.org Writer documents directly into Exponential from this page. You are
+asked where to place the document and Exponential does the rest. The document is converted into
 the appropriate class during the import, you get a notice about this after the import is done.
 Images are placed in the media library so you can re-use them in other articles.</source>
-        <translation type="unfinished"></translation>
+        <translation>На этой странице можно импортировать документы OpenOffice.org Writer непосредственно в Exponential. Вас
+спросят, куда поместить документ, а остальное Exponential сделает сам. При импорте документ преобразуется
+в соответствующий класс; по завершении импорта вы получите об этом уведомление.
+Изображения помещаются в медиатеку, чтобы их можно было повторно использовать в других статьях.</translation>
     </message>
     <message>
         <source>File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл:</translation>
+    </message>
+    <message>
+        <source>Document imported as</source>
+        <translation>Документ импортирован как</translation>
     </message>
 </context>
 <context>
@@ -1111,7 +1136,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startВойдите%login_link_end или %create_link_startсоздайте учетную запись%create_link_end, чтобы оставить комментарий.</translation>
     </message>
     <message>
         <source>Tip a friend</source>
@@ -1148,14 +1173,14 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
-        <translation type="unfinished"></translation>
+        <translation>%login_link_startВойдите%login_link_end или %create_link_startсоздайте учетную запись%create_link_end, чтобы оставить комментарий.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/documentation_page</name>
     <message>
         <source>Table of contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Содержание</translation>
     </message>
     <message>
         <source>Created:</source>
@@ -1189,7 +1214,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Thu</source>
-        <translation type="unfinished">Чтв</translation>
+        <translation>Чтв</translation>
     </message>
     <message>
         <source>Fri</source>
@@ -1215,16 +1240,36 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Show All Events..</source>
         <translation>Показать все события..</translation>
     </message>
+    <message>
+        <source>Event Calendar</source>
+        <translation>Календарь событий</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Предыдущий месяц</translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation>Следующий месяц</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>Предварительный просмотр события</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
     <message>
         <source>Past events</source>
-        <translation type="unfinished"></translation>
+        <translation>Прошедшие события</translation>
     </message>
     <message>
         <source>Future events</source>
-        <translation type="unfinished"></translation>
+        <translation>Предстоящие события</translation>
+    </message>
+    <message>
+        <source>Preview of event</source>
+        <translation>Предварительный просмотр события</translation>
     </message>
 </context>
 <context>
@@ -1242,11 +1287,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Keep me updated</source>
-        <translation type="unfinished"></translation>
+        <translation>Уведомлять меня об изменениях</translation>
     </message>
     <message>
         <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
-        <translation type="unfinished"></translation>
+        <translation>Для доступа к форумам необходимо войти в систему. Это можно сделать %login_link_start%здесь%login_link_end%</translation>
     </message>
     <message>
         <source>Topic</source>
@@ -1254,7 +1299,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Replies</source>
-        <translation type="unfinished"></translation>
+        <translation>Ответы</translation>
     </message>
     <message>
         <source>Author</source>
@@ -1262,18 +1307,22 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Last reply</source>
-        <translation type="unfinished"></translation>
+        <translation>Последний ответ</translation>
     </message>
     <message>
         <source>Pages</source>
         <translation>Страницы</translation>
+    </message>
+    <message>
+        <source>Last reply by:</source>
+        <translation>Последний ответ:</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/full/forum_reply</name>
     <message>
         <source>Message preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Предварительный просмотр сообщения</translation>
     </message>
     <message>
         <source>Author</source>
@@ -1300,7 +1349,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/full/forum_topic</name>
     <message>
         <source>Previous topic</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущая тема</translation>
     </message>
     <message>
         <source>Next topic</source>
@@ -1312,11 +1361,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Keep me updated</source>
-        <translation type="unfinished"></translation>
+        <translation>Уведомлять меня об изменениях</translation>
     </message>
     <message>
         <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
-        <translation type="unfinished"></translation>
+        <translation>Для доступа к форумам необходимо войти в систему. Это можно сделать %login_link_start%здесь%login_link_end%</translation>
     </message>
     <message>
         <source>Author</source>
@@ -1344,7 +1393,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Remove this item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Убрать этот элемент.</translation>
     </message>
 </context>
 <context>
@@ -1359,7 +1408,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Last reply</source>
-        <translation type="unfinished"></translation>
+        <translation>Последний ответ</translation>
     </message>
     <message>
         <source>Forum</source>
@@ -1396,7 +1445,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Start date</source>
-        <translation type="unfinished"></translation>
+        <translation>Дата начала</translation>
     </message>
     <message>
         <source>Category</source>
@@ -1434,6 +1483,13 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
 </context>
 <context>
+    <name>design/ezwebin/full/silverlight</name>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Получить Microsoft Silverlight</translation>
+    </message>
+</context>
+<context>
     <name>design/ezwebin/line/blog_post</name>
     <message>
         <source>View comments</source>
@@ -1459,7 +1515,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/event_calendar</name>
     <message>
         <source>Next events</source>
-        <translation type="unfinished"></translation>
+        <translation>Ближайшие события</translation>
     </message>
 </context>
 <context>
@@ -1473,26 +1529,41 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/line/forum</name>
     <message>
         <source>Number of topics</source>
-        <translation type="unfinished"></translation>
+        <translation>Число тем</translation>
     </message>
     <message>
         <source>Number of posts</source>
-        <translation type="unfinished"></translation>
+        <translation>Число сообщений</translation>
     </message>
     <message>
         <source>Last reply</source>
-        <translation type="unfinished"></translation>
+        <translation>Последний ответ</translation>
     </message>
     <message>
         <source>Enter forum</source>
-        <translation type="unfinished"></translation>
+        <translation>Войти в форум</translation>
+    </message>
+    <message>
+        <source>Forum</source>
+        <translation>Форум</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/line/forum_reply</name>
     <message>
         <source>Reply to:</source>
-        <translation type="unfinished"></translation>
+        <translation>В ответ на:</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/link</name>
+    <message>
+        <source>Edit</source>
+        <translation>Редактировать</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Удалить</translation>
     </message>
 </context>
 <context>
@@ -1504,6 +1575,13 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Vote</source>
         <translation>Голосование</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/line/product</name>
+    <message>
+        <source>(price ex. vat %ex_vat_price)</source>
+        <translation>(цена без НДС %ex_vat_price)</translation>
     </message>
 </context>
 <context>
@@ -1538,11 +1616,11 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/link</name>
     <message>
         <source>%sitetitle front page</source>
-        <translation type="unfinished"></translation>
+        <translation>Главная страница %sitetitle</translation>
     </message>
     <message>
         <source>Search %sitetitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Поиск по %sitetitle</translation>
     </message>
     <message>
         <source>Printable version</source>
@@ -1557,11 +1635,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>%nodename and its %childcount children. %additionalwarning</source>
-        <translation type="unfinished"></translation>
+        <translation>%nodename и его дочерние элементы (%childcount). %additionalwarning</translation>
     </message>
     <message>
         <source>%nodename %additionalwarning</source>
-        <translation type="unfinished"></translation>
+        <translation>%nodename %additionalwarning</translation>
     </message>
     <message>
         <source>Move to trash</source>
@@ -1569,11 +1647,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Примечание</translation>
     </message>
     <message>
         <source>If %trashname is checked, removed items can be found in the trash.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если отмечен параметр %trashname, удаленные элементы можно найти в корзине.</translation>
     </message>
     <message>
         <source>Confirm</source>
@@ -1585,7 +1663,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элементы содержат больше узлов, чем допустимо для удаления поддерева, и не будут удалены. Это поддерево можно удалить скриптом ezsubtreeremove.php.</translation>
+    </message>
+    <message>
+        <source>Warning:</source>
+        <translation>Предупреждение:</translation>
     </message>
 </context>
 <context>
@@ -1596,11 +1678,11 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Уведомление для узла &lt;%node_name&gt; уже существует.</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; was added successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Уведомление для узла &lt;%node_name&gt; успешно добавлено.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -1611,34 +1693,34 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation type="unfinished"></translation>
+        <translation>Получать все сообщения, объединенные в один дайджест</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation type="unfinished"></translation>
+        <translation>Получать дайджесты</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation type="unfinished"></translation>
+        <translation>Ежедневно, в</translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation type="unfinished"></translation>
+        <translation>Раз в неделю, в </translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation type="unfinished"></translation>
+        <translation>Раз в месяц, в день с номером</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если номер дня больше числа дней в текущем месяце, будет использован последний день текущего месяца.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/notification/handler/ezsubtree/settings/edit</name>
     <message>
         <source>My item notifications [%notification_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Мои уведомления об элементах [%notification_count]</translation>
     </message>
     <message>
         <source>Invert selection.</source>
@@ -1662,7 +1744,7 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы не подписаны на уведомления ни об одном элементе.</translation>
     </message>
     <message>
         <source>Remove selected</source>
@@ -1714,23 +1796,23 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменение экспорта RSS &lt;%rss_export_name&gt;</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>Недопустимый ввод</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если экспорт RSS активен, необходим допустимый URL доступа.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Имя</translation>
+        <translation>Имя</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Название экспорта RSS. Оно используется только в интерфейсе администратора, чтобы отличать экспорты друг от друга.</translation>
     </message>
     <message>
         <source>Description</source>
@@ -1738,19 +1820,19 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>В поле «Описание» опишите, чего пользователи могут ожидать от этого экспорта RSS.</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished">Ссылка URL</translation>
+        <translation>URL сайта</translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation type="unfinished"></translation>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
+        <translation>Введите в этом поле базовый URL вашего сайта. Из него формируются URL в экспорте: URL сайта (например, «http://www.example.com/index.php») и путь к объекту (например, «/articles/my_article»). URL сайта зависит от вашего веб-сервера и конфигурации Exponential.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
-        <translation type="unfinished"></translation>
+        <translation>Оставьте это поле пустым, если система должна автоматически определять URL-адрес сайта по URL-адресу, с которого запрашивается лента</translation>
     </message>
     <message>
         <source>Image</source>
@@ -1758,649 +1840,653 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Выбрать</translation>
+        <translation>Выбрать</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы выбрать изображение для экспорта RSS. Изображения поддерживаются только в RSS версии 2.0.</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished">Удалить изображение</translation>
+        <translation>Убрать изображение</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите, чтобы убрать изображение из экспорта RSS.</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished">Версия RSS</translation>
+        <translation>Версия RSS</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите в этом раскрывающемся списке версию RSS для экспорта. Чтобы экспортировать выбранное выше изображение, нужно выбрать RSS 2.0.</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Число объектов</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите в этом раскрывающемся списке максимальное число объектов в ленте RSS.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Активно</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот флажок определяет, активен ли экспорт RSS. Неактивный экспорт автоматически не обновляется.</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>Только основной узел</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметьте, если в ленту должны попадать только объекты с основного узла.</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL доступа</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>Укажите в этом поле URL, по которому должен быть доступен экспорт RSS. К настоящему URL будет добавлено «rss/feed/». </translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished">Источник</translation>
+        <translation>Источник</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>Путь к источнику</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы выбрать узел-источник для источника экспорта RSS. В экспорт RSS войдут объекты класса, выбранного в раскрывающемся списке ниже, опубликованные как дочерние элементы выбранного узла.</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Дочерние узлы</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметьте этот флажок, если в ленту должны попадать и объекты из дочерних узлов источника.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Класс</translation>
+        <translation>Класс</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите в этом раскрывающемся списке класс объектов, которые попадают в экспорт. Нажмите кнопку «Установить», чтобы загрузить подходящие типы атрибутов для остальных полей.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Задать</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы загрузить подходящие значения в раскрывающиеся списки ниже. Класс выбирается в раскрывающемся списке слева.</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">Заголовок</translation>
+        <translation>Заголовок</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите в этом раскрывающемся списке атрибут, который должен экспортироваться как заголовок записи экспорта RSS.</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>необязательно</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите в этом раскрывающемся списке атрибут, который должен экспортироваться как описание записи экспорта RSS.</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished">Пропустить</translation>
+        <translation>Пропустить</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Категория</translation>
+        <translation>Категория</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите в этом раскрывающемся списке атрибут, который должен экспортироваться как категория записи экспорта RSS.</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>Убрать этот источник</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите, чтобы убрать этот источник из экспорта RSS.</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить источник</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите, чтобы добавить в экспорт RSS новый источник.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Применить изменения и вернуться к обзору RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменить изменения и вернуться к обзору RSS.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменение импорта RSS &lt;%rss_import_name&gt;</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Имя</translation>
+        <translation>Имя</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Название импорта RSS. Оно используется только в интерфейсе администратора, чтобы отличать импорты друг от друга.</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес источника</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Введите в это поле адрес импортируемой ленты RSS.</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Обновить</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы продолжить и проанализировать ленту импорта.</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Версия RSS</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>Путь назначения</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Выбрать</translation>
+        <translation>Выбрать</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы выбрать узел назначения, в котором будут размещены объекты, созданные при импорте.</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортированные объекты будут принадлежать пользователю</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменить пользователя</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы выбрать пользователя, который будет владельцем объектов, созданных при импорте.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Класс</translation>
+        <translation>Класс</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите в этом раскрывающемся списке тип объекта, который должен создавать импорт. Нажмите кнопку «Задать», чтобы загрузить типы атрибутов для остальных полей.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Задать</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите эту кнопку, чтобы загрузить подходящие значения в раскрывающиеся списки ниже. Класс выбирается в раскрывающемся списке слева.</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибуты класса</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите в этом раскрывающемся списке атрибут, в который нужно поместить информацию из потока RSS.</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Игнорировать</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибуты объекта</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Активно</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот флажок определяет, активна ли лента RSS. Неактивная лента не обновляется автоматически.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Применить изменения и вернуться к обзору RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменить изменения и вернуться к обзору RSS.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/rss/list</name>
     <message>
         <source>RSS exports [%exports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Экспорт RSS [%exports_count]</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Инвертировать выбранное</translation>
+        <translation>Инвертировать выбранное</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">Инвертировать выделенное.</translation>
+        <translation>Инвертировать выделенное.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Имя</translation>
+        <translation>Имя</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Версия</translation>
+        <translation>Версия</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Статус</translation>
+        <translation>Статус</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменил</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменено</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите экспорт RSS для удаления.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Активно</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>Неактивно</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Редактировать</translation>
+        <translation>Редактировать</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменить экспорт RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Список экспорта RSS пуст.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Удалить выделенное</translation>
+        <translation>Удалить выделенное</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Убрать выбранные экспорты RSS.</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>Новый экспорт</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished">Создать новый RSS экспорт.</translation>
+        <translation>Создать новый экспорт RSS.</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Импорт RSS [%imports_count]</translation>
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите импорт RSS для удаления.</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменить импорт RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Список импорта RSS пуст.</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Убрать выбранные импорты RSS.</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>Новый импорт</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished">Создать новый RSS импорт.</translation>
+        <translation>Создать новый импорт RSS.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/basket</name>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished"></translation>
+        <translation>Корзина покупок</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация об учетной записи</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation type="unfinished">Подтвердить заказ</translation>
+        <translation>Подтвердить заказ</translation>
     </message>
     <message>
         <source>Basket</source>
-        <translation type="unfinished"></translation>
+        <translation>Корзина</translation>
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующие позиции были удалены из корзины, так как продукты изменились.</translation>
     </message>
     <message>
         <source>VAT is unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>НДС неизвестен</translation>
     </message>
     <message>
         <source>VAT percentage is not yet known for some of the items being purchased.</source>
-        <translation type="unfinished"></translation>
+        <translation>Процент НДС пока не известен для некоторых приобретаемых товаров.</translation>
     </message>
     <message>
         <source>This probably means that some information about you is not yet available and will be obtained during checkout.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорее всего, это означает, что некоторые сведения о вас пока недоступны и будут получены при оформлении заказа.</translation>
     </message>
     <message>
         <source>Attempted to add object without price to basket.</source>
-        <translation type="unfinished"></translation>
+        <translation>Попытка добавить в корзину объект без цены.</translation>
     </message>
     <message>
         <source>Your payment was aborted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ваш платеж был прерван.</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Количество</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>НДС</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Цена с НДС</translation>
     </message>
     <message>
         <source>Discount</source>
-        <translation type="unfinished">Скидка</translation>
+        <translation>Скидка</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Общая стоимость без НДС</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Общая стоимость с НДС</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Неизвестно</translation>
+        <translation>Неизвестно</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Обновить</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Удалить</translation>
+        <translation>Удалить</translation>
     </message>
     <message>
         <source>Selected options</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбранные параметры</translation>
     </message>
     <message>
         <source>Subtotal ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Сумма без НДС</translation>
     </message>
     <message>
         <source>Subtotal inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Промежуточный итог с НДС</translation>
     </message>
     <message>
         <source>Shipping</source>
-        <translation type="unfinished"></translation>
+        <translation>Доставка</translation>
     </message>
     <message>
         <source>Order total</source>
-        <translation type="unfinished"></translation>
+        <translation>Итого по заказу</translation>
     </message>
     <message>
         <source>Continue shopping</source>
-        <translation type="unfinished"></translation>
+        <translation>Продолжить покупки</translation>
     </message>
     <message>
         <source>Checkout</source>
-        <translation type="unfinished"></translation>
+        <translation>Оформить заказ</translation>
     </message>
     <message>
         <source>You have no products in your basket.</source>
-        <translation type="unfinished"></translation>
+        <translation>В корзине нет товаров.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/confirmorder</name>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished"></translation>
+        <translation>Корзина покупок</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация об учетной записи</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation type="unfinished">Подтвердить заказ</translation>
+        <translation>Подтвердить заказ</translation>
     </message>
     <message>
         <source>Product items</source>
-        <translation type="unfinished"></translation>
+        <translation>Товары</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Количество</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>НДС</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Цена с НДС</translation>
     </message>
     <message>
         <source>Discount</source>
-        <translation type="unfinished">Скидка</translation>
+        <translation>Скидка</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Общая стоимость без НДС</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Общая стоимость с НДС</translation>
     </message>
     <message>
         <source>Selected options</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбранные параметры</translation>
     </message>
     <message>
         <source>Order summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Итог заказа</translation>
     </message>
     <message>
         <source>Subtotal of items</source>
-        <translation type="unfinished"></translation>
+        <translation>Сумма за товары</translation>
     </message>
     <message>
         <source>Order total</source>
-        <translation type="unfinished"></translation>
+        <translation>Итого по заказу</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished">Подтвердить</translation>
+        <translation>Подтвердить</translation>
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Сводка</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Всего без НДС</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Всего с НДС</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/customerorderview</name>
     <message>
         <source>Customer information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация о клиенте</translation>
     </message>
     <message>
         <source>Order list</source>
-        <translation type="unfinished"></translation>
+        <translation>Список заказов</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">Дата</translation>
+        <translation>Дата</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Всего без НДС</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Всего с НДС</translation>
     </message>
     <message>
         <source>Purchase list</source>
-        <translation type="unfinished"></translation>
+        <translation>Список покупок</translation>
     </message>
     <message>
         <source>Product</source>
-        <translation type="unfinished">Продукт</translation>
+        <translation>Продукт</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Количество</translation>
+    </message>
+    <message>
+        <source>view</source>
+        <translation>просмотреть</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderlist</name>
     <message>
         <source>Order list</source>
-        <translation type="unfinished"></translation>
+        <translation>Список заказов</translation>
     </message>
     <message>
         <source>Sort result by</source>
-        <translation type="unfinished"></translation>
+        <translation>Сортировать результаты по</translation>
     </message>
     <message>
         <source>Order time</source>
-        <translation type="unfinished"></translation>
+        <translation>Время заказа</translation>
     </message>
     <message>
         <source>User name</source>
-        <translation type="unfinished">Имя пользователя</translation>
+        <translation>Имя пользователя</translation>
     </message>
     <message>
         <source>Order ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID заказа</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>По возрастанию</translation>
     </message>
     <message>
         <source>Sort ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>По возрастанию</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished"></translation>
+        <translation>По убыванию</translation>
     </message>
     <message>
         <source>Sort descending</source>
-        <translation type="unfinished"></translation>
+        <translation>По убыванию</translation>
     </message>
     <message>
         <source>Sort</source>
-        <translation type="unfinished">Сортировка</translation>
+        <translation>Сортировать</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2408,165 +2494,169 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Customer</source>
-        <translation type="unfinished"></translation>
+        <translation>Клиент</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Всего без НДС</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Всего с НДС</translation>
     </message>
     <message>
         <source>The order list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Список заказов пуст</translation>
     </message>
     <message>
         <source>Archive</source>
         <translation>Архив</translation>
+    </message>
+    <message>
+        <source>[ view ]</source>
+        <translation>[ просмотреть ]</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderview</name>
     <message>
         <source>Order %order_id [%order_status]</source>
-        <translation type="unfinished"></translation>
+        <translation>Заказ № %order_id [%order_status]</translation>
     </message>
     <message>
         <source>Product items</source>
-        <translation type="unfinished"></translation>
+        <translation>Товары</translation>
     </message>
     <message>
         <source>Product</source>
-        <translation type="unfinished">Продукт</translation>
+        <translation>Продукт</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Количество</translation>
     </message>
     <message>
         <source>VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>НДС</translation>
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Цена с НДС</translation>
     </message>
     <message>
         <source>Discount</source>
-        <translation type="unfinished">Скидка</translation>
+        <translation>Скидка</translation>
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Общая стоимость без НДС</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation>Общая стоимость с НДС</translation>
     </message>
     <message>
         <source>Order summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Итог заказа</translation>
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Сводка</translation>
     </message>
     <message>
         <source>Subtotal of items</source>
-        <translation type="unfinished"></translation>
+        <translation>Сумма за товары</translation>
     </message>
     <message>
         <source>Order total</source>
-        <translation type="unfinished"></translation>
+        <translation>Итого по заказу</translation>
     </message>
     <message>
         <source>Order history</source>
-        <translation type="unfinished"></translation>
+        <translation>История заказа</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">Дата</translation>
+        <translation>Дата</translation>
     </message>
     <message>
         <source>Order status</source>
-        <translation type="unfinished"></translation>
+        <translation>Статус заказа</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/userregister</name>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished"></translation>
+        <translation>Корзина покупок</translation>
     </message>
     <message>
         <source>Account information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация об учетной записи</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation type="unfinished">Подтвердить заказ</translation>
+        <translation>Подтвердить заказ</translation>
     </message>
     <message>
         <source>Your account information</source>
-        <translation type="unfinished">Информация вашей учетной записи</translation>
+        <translation>Данные вашей учетной записи</translation>
     </message>
     <message>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Введенные данные не прошли проверку. Все поля, отмеченные *, должны быть заполнены.</translation>
     </message>
     <message>
         <source>First name</source>
-        <translation type="unfinished">Имя</translation>
+        <translation>Имя</translation>
     </message>
     <message>
         <source>Last name</source>
-        <translation type="unfinished">Фамилия</translation>
+        <translation>Фамилия</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation type="unfinished">email</translation>
+        <translation>email</translation>
     </message>
     <message>
         <source>Company</source>
-        <translation type="unfinished">Компания</translation>
+        <translation>Компания</translation>
     </message>
     <message>
         <source>Street</source>
-        <translation type="unfinished">Улица</translation>
+        <translation>Улица</translation>
     </message>
     <message>
         <source>Zip</source>
-        <translation type="unfinished">ZIP-код</translation>
+        <translation>Индекс</translation>
     </message>
     <message>
         <source>Place</source>
-        <translation type="unfinished">Место</translation>
+        <translation>Место</translation>
     </message>
     <message>
         <source>State</source>
-        <translation type="unfinished">Штат</translation>
+        <translation>Область</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished">Страна</translation>
+        <translation>Страна</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">Комментарий</translation>
+        <translation>Комментарий</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished">Продолжить</translation>
+        <translation>Продолжить</translation>
     </message>
     <message>
         <source>All fields marked with * must be filled in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Все поля, отмеченные знаком *, должны быть заполнены.</translation>
     </message>
 </context>
 <context>
@@ -2581,15 +2671,15 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Количество</translation>
     </message>
     <message>
         <source>Selected options</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбранные параметры</translation>
     </message>
     <message>
         <source>Store</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранить</translation>
     </message>
     <message>
         <source>Remove items</source>
@@ -2597,29 +2687,60 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Empty wish list</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистить список желаний</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/simplified_treemenu/show_simplified_menu</name>
     <message>
         <source>Fold/Unfold</source>
-        <translation type="unfinished"></translation>
+        <translation>Свернуть/развернуть</translation>
     </message>
     <message>
         <source>Node ID: %node_id Visibility: %visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>ID узла: %node_id Видимость: %visibility</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Виден</translation>
+    </message>
+    <message>
+        <source>Hidden by superior</source>
+        <translation>Скрыто вышестоящим элементом</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Скрыто</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/tagcloud/tagcloud</name>
+    <message>
+        <source>%count objects tagged with &apos;%tag&apos;</source>
+        <translation>Объекты с тегом «%tag»: %count</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/activate</name>
     <message>
         <source>Activate account</source>
-        <translation type="unfinished"></translation>
+        <translation>Активировать учетную запись</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">ОК</translation>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation>Ваша учтеная запись активирована.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation>К сожалению, отправленный ключ недействителен. Учетная запись не активирована.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation>Ваша учетная запись уже активна.</translation>
     </message>
 </context>
 <context>
@@ -2736,7 +2857,7 @@ Images are placed in the media library so you can re-use them in other articles.
         <translation>Пароль</translation>
     </message>
     <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
+        <source>Log in to the Exponential Administration Interface</source>
         <translation>Вход в систему администрирования</translation>
     </message>
     <message>
@@ -2858,7 +2979,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/view/ezmedia</name>
     <message>
         <source>No %link_startFlash player%link_end avaliable!</source>
-        <translation type="unfinished"></translation>
+        <translation>%link_startFlash-проигрыватель%link_end недоступен!</translation>
     </message>
     <message>
         <source>No media file is available.</source>
@@ -2872,20 +2993,35 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Your browser does not support html5 audio.</source>
         <translation>К сожалению ваш браузер не поддерживает аудио формата html5.</translation>
     </message>
+    <message>
+        <source>Get Microsoft Silverlight</source>
+        <translation>Получить Microsoft Silverlight</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/view/ezprice</name>
     <message>
         <source>Price</source>
-        <translation type="unfinished"></translation>
+        <translation>Цена</translation>
     </message>
     <message>
         <source>Your price</source>
-        <translation type="unfinished"></translation>
+        <translation>Ваша цена</translation>
     </message>
     <message>
         <source>You save</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы экономите</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/view/infobox</name>
+    <message>
+        <source>Edit</source>
+        <translation>Редактировать</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Удалить</translation>
     </message>
 </context>
 <context>
@@ -2899,31 +3035,31 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/ezwebin/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation type="unfinished"></translation>
+        <translation>Состояния объекта для объекта</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation type="unfinished"></translation>
+        <translation>Группа состояний объекта содержимого</translation>
     </message>
     <message>
         <source>Available states</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступные состояния</translation>
     </message>
     <message>
         <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation type="unfinished"></translation>
+        <translation>Состояния объектов содержимого не настроены. Это можно сделать %urlstart здесь %urlend.</translation>
     </message>
     <message>
         <source>Set states</source>
-        <translation type="unfinished"></translation>
+        <translation>Задать состояния</translation>
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Применить состояния из списка выше.</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет состояний, которые можно применить к этому объекту содержимого. Возможно, вам нужно назначить более широкое правило доступа.</translation>
     </message>
 </context>
 <context>
@@ -2937,7 +3073,7 @@ Images are placed in the media library so you can re-use them in other articles.
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ваш адрес электронной почты подтвержден. Прежде чем ваш вход станет действительным, администратор должен утвердить ваш запрос на регистрацию.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
@@ -2949,18 +3085,108 @@ Images are placed in the media library so you can re-use them in other articles.
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">К сожалению предоставленный ключ является недействительным. Учетная запись не может быть активирована.</translation>
+        <translation>К сожалению, отправленный ключ недействителен. Учетная запись не активирована.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/forgotpassword</name>
+    <message>
+        <source>If an account is registered with the email address %1, a mail has been sent to it. This email contains a link you need to click so that we can confirm that the correct user is getting the new password.</source>
+        <translation>Если на адрес электронной почты %1 зарегистрирована учетная запись, на него отправлено письмо. В письме есть ссылка, по которой нужно перейти, чтобы мы могли убедиться, что новый пароль получает нужный пользователь.</translation>
+    </message>
+    <message>
+        <source>Please enter a valid email address.</source>
+        <translation>Введите допустимый адрес электронной почты.</translation>
     </message>
 </context>
 <context>
     <name>extension/ezodf</name>
     <message>
         <source>Document imported as</source>
-        <translation type="unfinished"></translation>
+        <translation>Документ импортирован как</translation>
     </message>
     <message>
         <source>The imported document is waiting for an approbation to be published.</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортированный документ ожидает утверждения для публикации.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/diff</name>
+    <message>
+        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
+        <translation>Версии для &lt;%object_name&gt; [%version_count]</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Переводы</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Создатель</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Изменено</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Черновик</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Опубликовано</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ожидает</translation>
+    </message>
+    <message>
+        <source>Archived</source>
+        <translation>В архиве</translation>
+    </message>
+    <message>
+        <source>Rejected</source>
+        <translation>Отклонена</translation>
+    </message>
+    <message>
+        <source>Untouched draft</source>
+        <translation>Неизмененный черновик</translation>
+    </message>
+    <message>
+        <source>This object does not have any versions.</source>
+        <translation>У этого объекта нет версий.</translation>
+    </message>
+    <message>
+        <source>Show differences</source>
+        <translation>Показать различия</translation>
+    </message>
+    <message>
+        <source>Differences between versions %oldVersion and %newVersion</source>
+        <translation>Различия между версиями %oldVersion и %newVersion</translation>
+    </message>
+    <message>
+        <source>Old version</source>
+        <translation>Старая версия</translation>
+    </message>
+    <message>
+        <source>Inline changes</source>
+        <translation>Изменения в строке</translation>
+    </message>
+    <message>
+        <source>Block changes</source>
+        <translation>Изменения в блоке</translation>
+    </message>
+    <message>
+        <source>New version</source>
+        <translation>Новая версия</translation>
     </message>
 </context>
 </TS>
