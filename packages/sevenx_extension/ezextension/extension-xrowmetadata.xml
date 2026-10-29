@@ -93,8 +93,8 @@
   <file name="doc" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="licenses.md" path="/doc" md5sum="09bb71b69b7b563d9d5cceb0a716a8bd"/>
   <file name="readme.txt" path="/doc" md5sum="deec8692def855d00320333e7e204bd3"/>
-  <file name="extension.xml" md5sum="346c1933938d93299a5d22b81b9a8f2e"/>
-  <file name="ezinfo.php" md5sum="be585be9ac9343c7b1ee70fce4b5ecd2"/>
+  <file name="extension.xml" md5sum="5e079075f5f77f4cf98fb3856c5ea5e9"/>
+  <file name="ezinfo.php" md5sum="2d5cb21cab32ea1f13341346c69afd5f"/>
   <file name="modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="sitemaps" path="/modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="index.php" path="/modules/sitemaps" md5sum="de562f6b63a7faa746b52967a95c7d2a"/>
