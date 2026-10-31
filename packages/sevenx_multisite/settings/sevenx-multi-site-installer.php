@@ -1666,6 +1666,14 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                     'class_attribute_identifier' => 'sitestyle', 
                     'string' => 'sevenx_design_blue' 
                 ) 
+            ),
+            array(
+                '_function' => 'addMetaDataAttributeToEveryClass',
+                '_params' => array()
+            ),
+            array(
+                '_function' => 'raiseTitleFieldMaxLength',
+                '_params' => array()
             )
         );
         $this->Steps['post_install'] = $postInstallSteps;
@@ -4090,6 +4098,54 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             ), 
             'attributes' => $newAttributesInfo 
         ) );
+    }
+
+    /*!
+     Every content class of the site gets the Meta Data attribute (identifier metadata, datatype xrowmetadata) in
+     the category Meta, with the default license GPL-2.0-or-later and the Open Graph image chosen per object: the
+     classes of the base data and the ones made during the installation as well, which no class package reaches.
+     A class that has the attribute keeps it and gets only what it lacks. Done by xrowmetadata
+     (xrowMetaDataType::addToEveryClass()); an older xrowmetadata without it leaves the classes as they are.
+    */
+    function addMetaDataAttributeToEveryClass( $params = false )
+    {
+        $dataType = eZDataType::create( 'xrowmetadata' );
+        if ( !$dataType || !method_exists( $dataType, 'addToEveryClass' ) )
+        {
+            eZDebug::writeWarning( 'xrowmetadata cannot add the Meta Data attribute to every class (not active, or a version without addToEveryClass()): the classes keep what their packages gave them', __METHOD__ );
+            return true;
+        }
+        $report = call_user_func( array( get_class( $dataType ), 'addToEveryClass' ), 'GPL-2.0-or-later' );
+        eZDebug::writeNotice( 'Meta Data attribute: added to ' . count( $report['added'] ) . ' class(es), completed in ' .
+                              count( $report['updated'] ) . ', already complete in ' . count( $report['kept'] ) .
+                              ( $report['conflict'] ? ', "metadata" of another datatype in ' . implode( ', ', $report['conflict'] ) : '' ), __METHOD__ );
+        return true;
+    }
+
+    /*!
+     Title fields are not cut short: every text line attribute (ezstring) holding a title - title, name, headline,
+     teaser_title, short_title, short_name, sub_title, site_name and every *_title, *_headline, *_heading - whose
+     maximum length is between 1 and 254 gets none (0), as the class packages have it. It reaches the classes of the
+     base data (image name, folder short name) and the ones made during the installation as well.
+    */
+    function raiseTitleFieldMaxLength( $params = false )
+    {
+        $pattern = '/^(title|name|headline|heading|header|teaser_title|short_title|short_name|sub_title|subtitle|site_name)$|_title$|_headline$|_heading$/';
+        $raised = array();
+        foreach ( eZContentClassAttribute::fetchFilteredList( array( 'data_type_string' => 'ezstring', 'version' => eZContentClass::VERSION_STATUS_DEFINED ) ) as $classAttribute )
+        {
+            $max = (int)$classAttribute->attribute( 'data_int1' );
+            if ( $max > 0 && $max < 255 && preg_match( $pattern, $classAttribute->attribute( 'identifier' ) ) )
+            {
+                $classAttribute->setAttribute( 'data_int1', 0 );
+                $classAttribute->store();
+                $raised[] = $classAttribute->attribute( 'identifier' ) . ' of class ' . $classAttribute->attribute( 'contentclass_id' ) . " (was $max)";
+            }
+        }
+        if ( $raised )
+            eZContentClass::expireCache();
+        eZDebug::writeNotice( 'Title fields without a maximum length now: ' . ( $raised ? implode( ', ', $raised ) : 'none needed it' ), __METHOD__ );
+        return true;
     }
 
     function updateTemplateLookObjectAttributes( $params = false )
