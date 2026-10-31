@@ -134,7 +134,11 @@
       <category>meta</category>
       <serialized-data-text>a:0:{}</serialized-data-text>
       <placement>7</placement>
-      <datatype-parameters/>
+      <datatype-parameters>
+        <default-license>GPL-2.0-or-later</default-license>
+        <allow-object-license>true</allow-object-license>
+        <og-image-source>object</og-image-source>
+      </datatype-parameters>
     </attribute>
   </ezcontentclass-attri:attributes>
 </content-class>

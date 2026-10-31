@@ -25,6 +25,10 @@
     <entry timestamp="1705211779" person="Administrator User" email="nospam@se7enx.com" release="1">
       <change>Creation of package.</change>
     </entry>
+    <entry timestamp="1793404800" person="7x" email="info@se7enx.com" release="2">
+      <change>Every content class carries the Meta Data attribute (metadata, xrowmetadata) in the category Meta, with the default license GPL-2.0-or-later and the Open Graph image chosen per object.</change>
+      <change>Title fields (title, name, headline, teaser title, short title and the like) have no maximum length; a longer title is not cut short.</change>
+    </entry>
   </changelog>
   <simple-files>
     <simple-file key="a0d2425f8f7336a92389b0c26755a902" original-path="var/site/storage/images/bold-agency/careers/job-positions/brand-strategist/303-5-eng-US/brand-strategist.jpg" package-path="simplefiles/4d7492d6.jpg"/>

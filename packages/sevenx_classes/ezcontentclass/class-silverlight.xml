@@ -69,5 +69,18 @@
         <type>silverlight</type>
       </datatype-parameters>
     </attribute>
+    <attribute datatype="xrowmetadata" required="false" searchable="true" information-collector="false" translatable="true">
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Meta Data";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>metadata</identifier>
+      <serialized-description-list>a:2:{s:6:"eng-US";s:0:"";s:16:"always-available";s:6:"eng-US";}</serialized-description-list>
+      <category>meta</category>
+      <serialized-data-text>a:0:{}</serialized-data-text>
+      <placement>4</placement>
+      <datatype-parameters>
+        <default-license>GPL-2.0-or-later</default-license>
+        <allow-object-license>true</allow-object-license>
+        <og-image-source>object</og-image-source>
+      </datatype-parameters>
+    </attribute>
   </ezcontentclass-attri:attributes>
 </content-class>
