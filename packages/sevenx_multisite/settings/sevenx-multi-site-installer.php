@@ -116,7 +116,7 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             // has been active on the installation all along and was never in
             // this list, so a reinstall switched it off.
             'ezformtoken',
-            'ezwt',
+            'expwt',
             'ezstarrating',
             'ezgmaplocation',
             'ezautosave',
@@ -3798,8 +3798,8 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             array( 'sevenx_themes_media', 'sevenx_themes_media', true ),
             // Schema only: ezstarrating ships DDL and no default rows; the demo
             // rating data lives in sevenx_themes_media's db_data.dba.
-            array( 'ezstarrating_extension', 'ezstarrating', false ),
-            array( 'ezgmaplocation_extension', 'ezgmaplocation', false ),
+            array( 'ezstarrating', 'ezstarrating', false ),
+            array( 'ezgmaplocation', 'ezgmaplocation', false ),
             array( 'eztags', 'eztags', false ),
             array( 'explayouts', 'explayouts', true ),
             // enhancedselection2 owns sckenhancedselection, which twenty class

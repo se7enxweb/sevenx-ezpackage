@@ -125,7 +125,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'ezoe',
             // Cross site request forgery protection for every posted form.
             'ezformtoken',
-            'ezwt',
+            'expwt',
             'ezstarrating',
             'ezgmaplocation',
             'ezautosave',
@@ -2435,8 +2435,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
      * whether its db_data.dba is loaded too.
      *
      * The tables of ezstarrating and ezgmaplocation come from the share/db_schema.dba
-     * of the packages the site package requires (ezstarrating_extension,
-     * ezgmaplocation_extension), else of the extension; without a .dba the
+     * of the extensions Composer installs (no package carries them any more);
+     * without a .dba the
      * extension's sql/<database>/ files are read, as the insertDBFile() of
      * earlier versions of this installer did.
      */
@@ -2467,8 +2467,8 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
     {
         return array(
             // Schema only: ezstarrating ships DDL and no default rows.
-            array( 'ezstarrating_extension', 'ezstarrating', false ),
-            array( 'ezgmaplocation_extension', 'ezgmaplocation', false ),
+            array( 'ezstarrating', 'ezstarrating', false ),
+            array( 'ezgmaplocation', 'ezgmaplocation', false ),
             array( 'eztags', 'eztags', false ),
             // enhancedselection2 owns sckenhancedselection.
             array( 'enhancedselection2', 'enhancedselection2', false ),

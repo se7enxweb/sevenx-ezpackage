@@ -33,7 +33,7 @@ the package installs.
 |---|---|
 | `sevenx_multisite` | `sevenx_classes`, `sevenx_multisite_democontent` |
 | `sevenx_multisite_clean` | `sevenx_classes`, `sevenx_multisite_democontent_clean` |
-| `sevenx_site` | `sevenx_extension`, `sevenx_classes`, `sevenx_banners`, `sevenx_democontent`, the three `sevenx_design_*` styles, and `ezwt_extension`, `ezstarrating_extension`, `ezgmaplocation_extension`, `ezpaypal_extension` from their own repositories |
+| `sevenx_site` | `sevenx_extension`, `sevenx_classes`, `sevenx_banners`, `sevenx_democontent`, the three `sevenx_design_*` styles. expwt (the website sidebar, in place of ezwt), ezstarrating, ezgmaplocation and ezpaypal are not packages: Composer installs them, the installer activates them and their tables come from each extension's `share/db_schema.dba` |
 | `sevenx_site_clean` | as `sevenx_site`, with `sevenx_democontent_clean` and without `sevenx_banners` |
 
 The page layouts of the two multisite websites are not in these packages. The installer seeds them from the

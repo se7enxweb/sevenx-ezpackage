@@ -20,7 +20,7 @@
     </maintainer>
   </maintainers>
   <packaging>
-    <timestamp>1793285197</timestamp>
+    <timestamp>1793710029</timestamp>
     <host>packages.se7enx.com</host>
   </packaging>
   <documents>
@@ -58,15 +58,6 @@
   <dependencies>
     <provides />
     <requires>
-      <require type="ezpackage"
-               name="ezwt_extension"
-               min-version="5.1" />
-      <require type="ezpackage"
-               name="ezstarrating_extension"
-               min-version="1.0" />
-      <require type="ezpackage"
-               name="ezgmaplocation_extension"
-               min-version="1.0" />
       <require type="ezpackage"
                name="sevenx_extension"
                min-version="5.1" />
