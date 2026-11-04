@@ -367,6 +367,20 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             array( 
                 '_function' => 'setVersion', 
                 '_params' => array() 
+            ),
+            // The website sidebar (expwt) is on for the site's pages; only Administrator and Editor hold its
+            // policies, and visitors who are not signed in never see it (ShowToAnonymous stays disabled)
+            array(
+                '_function' => 'updateINIFiles',
+                '_params' => array(
+                    'settings_dir' => 'settings/override',
+                    'groups' => array(
+                        array(
+                            'name' => 'expwt.ini',
+                            'settings' => array( 'ExpwtSettings' => array( 'Enabled' => 'enabled' ) )
+                        )
+                    )
+                )
             ), 
 
             array(
@@ -872,158 +886,22 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                                 ) 
                             ) 
                         ), 
-                        array( 
-                            'module' => 'websitetoolbar', 
-                            'function' => 'use', 
-                            'limitation' => array( 
-                                'Class' => array( 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'folder' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'link' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'article' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'article_mainpage' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'article_subpage' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'blog' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'blog_post' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'product' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'feedback_form' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'frontpage' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'documentation_page' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'multicalendar' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'poll' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'file' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'flash' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'image' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'quicktime' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'windows_media' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'real_video' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'gallery' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'forum' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'event' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'event_calendar' 
-                                        ) 
-                                    ), 
-                                    array( 
-                                        '_function' => 'classIDbyIdentifier', 
-                                        '_params' => array( 
-                                            'identifier' => 'forums' 
-                                        ) 
-                                    ) 
-                                ) 
-                            ) 
-                        ), 
+                        array(
+                            'module' => 'expwt',
+                            'function' => 'use'
+                        ),
+                        array(
+                            'module' => 'expwt',
+                            'function' => 'edit'
+                        ),
+                        array(
+                            'module' => 'expwt',
+                            'function' => 'create'
+                        ),
+                        array(
+                            'module' => 'expwt',
+                            'function' => 'structure'
+                        ),
                         array( 
                             'module' => 'content', 
                             'function' => 'edit' 
@@ -1156,16 +1034,6 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                                 )
                             )
                         ),
-                        array(
-                            'module' => 'websitetoolbar',
-                            'function' => 'use',
-                            'limitation' => array(
-                                'Class' => array(
-                                    array( '_function' => 'classIDbyIdentifier', '_params' => array( 'identifier' => 'geo_article' ) ),
-                                    array( '_function' => 'classIDbyIdentifier', '_params' => array( 'identifier' => 'video' ) )
-                                )
-                            )
-                        )
                     ) 
                 ) 
             ), 
