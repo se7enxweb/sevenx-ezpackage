@@ -17,84 +17,10 @@
           </ezauthor>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="799" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph>Enterprise Web Content Management</paragraph>
-          </section>
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"><paragraph>Open source content management, maintained by the Exponential Foundation and 7x</paragraph></section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/" ezremote:id="800" ezremote:identifier="body" name="Body" type="ezxmltext">
-          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-              <table class="default" border="0" width="100%" custom:summary="paragraph" custom:caption="">
-                <tr>
-                  <td>
-                    <paragraph>A global web content management system leader, eZ Systems was founded in 1999 and has 10 offices worldwide. eZ Systems’ flagship product, Exponential, is the leading enterprise Web Content Management (WCM) platform specializing in multichannel content distribution for web, mobile, tablets, print and more.</paragraph>
-                    <paragraph>Because Exponential is a commercial open source product, eZ Systems engineers can leverage the innovation from a global community of over 38 000 developers and certified implementation partners. This innovation drives over 200 000 worldwide installations, proving that Exponential is one of the most adaptable, open and reliable WCM platforms in the market.</paragraph>
-                  </td>
-                  <td>
-                    <paragraph>
-                      <embed view="embed-inline" size="listitem" align="center" custom:offset="0" custom:limit="5" object_remote_id="ezoo-0b8f65be2b80b4a7138990b335736563"/>
-                    </paragraph>
-                  </td>
-                </tr>
-              </table>
-            </paragraph>
-            <paragraph>The Exponential Enterprise Edition is the perfect blend of reliable vendor support and quality</paragraph>
-            <paragraph>assured innovation: enterprise customers pay a cost effective yearly subscription fee for support, maintenance, update training and other services, and eZ Systems releases major software updates every 6 months. All of this comes with no license fee.</paragraph>
-            <paragraph>With offices in Europe, the Nordics, the Americas and Asia, eZ Systems is a recognized global WCM leader in the media and publishing industry. This industry demands the most flexible, secure, maintainable and complex solutions to power large web properties and generate revenue from an array of content sources. With a track record spanning more than 10 years in this space, Exponential has now become the software of choice for customers in banking and finance, retail, government and non- government organizations. If you have advanced publishing needs, Exponential is right for you.</paragraph>
-            <section>
-              <section>
-                <header>Multichannel Content Distribution</header>
-                <paragraph>Exponential delivers unsurpassed multichannel capabilities that enable customers to reach out and engage your audience. eZ’s out-of-the-box functionality, intrinsic scalability and robust API help you to do this quickly, accelerating your time to market while reducing your implementation costs. </paragraph>
-                <paragraph>
-                  <strong> </strong>
-                </paragraph>
-              </section>
-            </section>
-            <section>
-              <section>
-                <header>Enabling Editors</header>
-                <paragraph>Exponential provides a rich tool set that makes authoring and editing content simple and engaging. Exponential frees your editorial and creative staff to do what they do best: publish content with enthusiasm and minimal effort.</paragraph>
-                <section>
-                  <header>Plan, Review, Automate</header>
-                  <paragraph>Publishing is one thing, but managing portals and front pages is a different story. Exponential Enterprise has a unique portal management solution that enables editors to build complex page layouts and plan, review and automate the publication schedule to ensure a constant flow of rich content through portal pages.</paragraph>
-                  <paragraph>For example, editors can define multiple “zones” within a single page layout. Within each zone, editors create “blocks” that promote content in a certain way. Next, editors explicitly or implicitly add content objects to these blocks and then schedule</paragraph>
-                  <paragraph>the promotion, flow and rotation of content. To “look into the future,” editors simply drag a slider across a timeline to preview content before it goes live. This entire process can be managed without the support of a web developer.</paragraph>
-                </section>
-                <section>
-                  <header>Collaborate</header>
-                  <paragraph>We know that editors do not work alone. Exponential provides flexible workflow and collaboration tools and dashboards to keep your team in sync. And you can configure the system to adapt to your own workflows, however intricate they may be.</paragraph>
-                </section>
-              </section>
-            </section>
-            <section>
-              <section>
-                <header>Adaptable Content Engine and User Interfaces</header>
-                <paragraph>eZ’s unique, flexible content model completely separates content from presentation, so that the delivery of your content can adapt to any current or future distribution channel. Furthermore, you can design the system to fit your needs—your do not have to force your content into a “one size fits all” construct. This structure sets your content free for re-use and re-purposing. This powerful flexibility is the source of eZ’s strength as multichannel content management platform.</paragraph>
-                <paragraph>The system also adapts to your editors’ style of work. They can choose to import content from multiple sources, utilize a simple editing toolbar while browsing your site, or use the powerful back office editing suite. The efficient user interfaces and flexibility flattens the learning curve and accelerates internal adoption of Exponential.</paragraph>
-              </section>
-            </section>
-            <section>
-              <section>
-                <header>Open Enterprise Technology</header>
-                <paragraph>Exponential’s open architecture supports Interoperability Open Standards like XML, ODF, SOAP, REST, JSON. When you utilize the powerful API, it’s simple to integrate the eZ Enterprise platform with all of your information management systems. In fact, there are over 1000 extensions available to accelerate your project and reduce development costs.</paragraph>
-              </section>
-            </section>
-            <section>
-              <section>
-                <header>Reliable Vendor Support</header>
-                <paragraph>eZ Systems is dedicated to your success. We succeed only if you do. Our customers benefit from our commercial support packages that are customized to meet the nature of your project and service level agreements. Our highly qualified product support engineers thrive on your complete satisfaction, and enjoy enabling our partners and customers with accurate and thorough responses to support requests.</paragraph>
-                <paragraph>In addition to this unlimited product support, we provide a variety of expert training and consulting services to certify and assist developers and implementation partners around the globe. We host self-service tools like user and technical documentation, forums, books, tutorials, articles and community sites to distribute and share best practices. Our dedication to supporting our clients and partners is the core service of eZ’s Enterprise Open Source Business model.</paragraph>
-              </section>
-            </section>
-            <section>
-              <section>
-                <header>They trust in eZ</header>
-                <paragraph>
-                  <embed view="embed-inline" size="large" custom:offset="0" custom:limit="5" object_remote_id="ezoo-db3fcade578f2fc9da52a81f503394c2"/>
-                </paragraph>
-              </section>
-            </section>
-          </section>
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"><paragraph>Exponential is an open source content management platform and development framework. Version 6.0.15 runs on PHP 7.4 to 8.5 and on MySQL, MariaDB, PostgreSQL, SQLite, MongoDB and Oracle Database, and it powers everything from a personal site to multilingual, multi-site installations.</paragraph><paragraph>The Exponential Foundation and its community develop, document and support the platform. 7x maintains the code, publishes the releases and offers hosting, support and development services. Everything is GPL licensed: you can read the code, adapt it and extend it, and you are never tied to one vendor.</paragraph><section><header>Content first</header><paragraph>Content classes describe your content field by field, and the templates decide how it looks. The same article can appear on the web, in a feed, in an app through the REST API or as a static page on any web host.</paragraph></section><section><header>Made for editors</header><paragraph>The website toolbar (expwt) lets editors change a page where they read it. The administration interface adds drafts, versions, translations, an image picker and an assistant that suggests text and alt texts, always staged for review.</paragraph><section><header>Layouts and planning</header><paragraph>Exponential Layouts places blocks in the zones of a page, with rules that decide which layout a page gets, and lets editors plan what each block shows.</paragraph></section><section><header>Collaboration</header><paragraph>Workflows, approval and notifications keep a team in step, and every change is recorded in the audit log.</paragraph></section></section><section><header>Fast and secure</header><paragraph>Exponential Velocity keeps PHP workers warm and serves pages from its cache. Two-factor sign-in, "Verify it's you" for sensitive actions, content security policies and form tokens protect the site.</paragraph></section><section><header>Open technology</header><paragraph>Extensions add modules, datatypes, template operators and workflow events. Composer installs them, and the console (./console) runs installs, deploys, migrations and user management. Start with the <link href="https://doc.exponential.earth">documentation</link> and the extensions on <link href="https://projects.exponential.earth">projects.exponential.earth</link>.</paragraph></section><section><header>Support and community</header><paragraph>Ask questions and share solutions on <link href="https://share.exponential.earth">share.exponential.earth</link>, report problems on the <link href="https://issues.exponential.earth">issue tracker</link> and follow the code on <link href="https://github.com/se7enxweb/exponential">GitHub</link>.</paragraph></section></section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="801" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
           <value>0</value>

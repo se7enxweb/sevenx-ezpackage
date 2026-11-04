@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="130" name="eZ Highlights" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="1" ezremote:published="Thu, 10 Mar 2011 18:12:29 GMT" ezremote:modified="Fri, 21 Oct 2011 14:03:22 GMT" remote_id="5602aa2e97cc42199dbdf09d39602fa1" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="130" name="Exponential Highlights" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="1" ezremote:published="Thu, 10 Mar 2011 18:12:29 GMT" ezremote:modified="Fri, 21 Oct 2011 14:03:22 GMT" remote_id="5602aa2e97cc42199dbdf09d39602fa1" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="1">
     <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="1" ezremote:status="1" ezremote:created="Fri, 21 Oct 2011 14:03:16 GMT" ezremote:modified="Fri, 21 Oct 2011 14:03:22 GMT" initial_language="eng-US">
-      <ezobject:object-translation language="eng-US" object_name="eZ Highlights">
+      <ezobject:object-translation language="eng-US" object_name="Exponential Highlights">
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="729" ezremote:identifier="name" name="Name" type="ezstring">
-          <text>eZ Highlights</text>
+          <text>Exponential Highlights</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="730" ezremote:identifier="short_name" name="Short name" type="ezstring">
           <text></text>
@@ -26,7 +26,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3" name="eZ Highlights" node-id="132" remote-id="423b6d20325263abaa2012536cc736a4" sort-field="published" sort-order="0" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="e81507d3446726ebd7361352fef5fad3" name="Exponential Highlights" node-id="132" remote-id="423b6d20325263abaa2012536cc736a4" sort-field="published" sort-order="0" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

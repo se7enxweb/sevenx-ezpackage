@@ -25,6 +25,8 @@
   <documents>
     <document mime-type="text/plain"
               name="LICENCE" />
+    <document mime-type="text/markdown"
+              name="CREDITS.md" />
   </documents>
   <changelog>
     <entry timestamp="1705211779"

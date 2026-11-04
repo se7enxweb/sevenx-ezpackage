@@ -27,42 +27,42 @@
               <ul>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <link anchor_name="eztoolbar" href="http://ez.no/ezpublish/use_ez_publish"> Publish content from your web browser </link>
+                    <link anchor_name="eztoolbar" href="https://doc.exponential.earth"> Publish content from your web browser </link>
                   </paragraph>
                 </li>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <link anchor_name="openofficeimport" href="http://ez.no/ezpublish/use_ez_publish">Publish content from word processors </link>
+                    <link anchor_name="openofficeimport" href="https://doc.exponential.earth">Publish content from word processors </link>
                   </paragraph>
                 </li>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <link anchor_name="contenttranslation" href="http://ez.no/ezpublish/use_ez_publish">Translate your content </link>
+                    <link anchor_name="contenttranslation" href="https://doc.exponential.earth">Translate your content </link>
                   </paragraph>
                 </li>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <link anchor_name="multiupload" href="http://ez.no/ezpublish/use_ez_publish"> Upload multiple files at once </link>
+                    <link anchor_name="multiupload" href="https://doc.exponential.earth"> Upload multiple files at once </link>
                   </paragraph>
                 </li>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <link anchor_name="picturegalleries" href="http://ez.no/ezpublish/use_ez_publish">Picture galleries </link>
+                    <link anchor_name="picturegalleries" href="https://doc.exponential.earth">Picture galleries </link>
                   </paragraph>
                 </li>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <link anchor_name="videopublishing" href="http://ez.no/ezpublish/use_ez_publish">Video publishing </link>
+                    <link anchor_name="videopublishing" href="https://doc.exponential.earth">Video publishing </link>
                   </paragraph>
                 </li>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <link anchor_name="web2.0" href="http://ez.no/ezpublish/use_ez_publish">Web 2.0 features </link>
+                    <link anchor_name="web2.0" href="https://doc.exponential.earth">Web 2.0 features </link>
                   </paragraph>
                 </li>
                 <li>
                   <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                    <link anchor_name="defaultsearch" href="http://ez.no/ezpublish/use_ez_publish"> Search </link>
+                    <link anchor_name="defaultsearch" href="https://doc.exponential.earth"> Search </link>
                   </paragraph>
                 </li>
               </ul>
@@ -144,7 +144,7 @@
                 <paragraph>
                   <embed view="embed" size="original" custom:offset="0" custom:limit="5" object_remote_id="2ff25f3949e9c4d49442170ca0726fea"/>
                 </paragraph>
-                <paragraph>To find any content on your Exponential site, you can use the integrated search engine in Exponential. To add more functionality and scale high-loaded websites, <link href="http://ez.no/ezfind">eZ Find</link> is an enterprise search extension for Exponential.</paragraph>
+                <paragraph>To find any content on your Exponential site, you can use the integrated search engine in Exponential. For large sites, the ezfind extension adds Apache Solr: faceted navigation, relevance tuning and fast results across millions of objects (<link href="https://doc.exponential.earth">documentation</link>).</paragraph>
               </section>
             </section>
           </section>

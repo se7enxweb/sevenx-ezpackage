@@ -17,66 +17,10 @@
           </ezauthor>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="720" ezremote:identifier="intro" name="Summary" type="ezxmltext">
-          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph>This tutorial gives developers the power to extend the features and flexibility of eZ
-                            Publish beyond a single website, to having an unlimited number in one installation. At the
-                            end of this tutorial you will have learned how to best leverage Exponential's siteaccess
-                            concept to create multiple websites. It will let you apply this concept through the concrete
-                            case of building two different, multilingual websites on one single Exponential instance.
-                        </paragraph>
-          </section>
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"><paragraph>This tutorial shows developers how one Exponential installation serves any number of websites. You learn how siteaccesses work and apply them to build two multilingual websites on a single Exponential instance.</paragraph></section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" ezremote:id="721" ezremote:identifier="body" name="Body" type="ezxmltext">
-          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <section>
-              <header>Introduction</header>
-              <paragraph>Users of Exponential sometimes wonder if it is possible to make use of a single
-                                installation of Exponential for multiple websites. The answer is yes—through the power of
-                                the “siteaccess”. In fact, an understanding of siteaccesses gives one the ability to do
-                                much more than just host multiple sites in one installation. With this technique you
-                                can:
-                            </paragraph>
-              <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
-                <ul>
-                  <li>
-                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">make it
-                                            easier to share content between databases
-                                        </paragraph>
-                  </li>
-                  <li>
-                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">copy and
-                                            add locations to objects
-                                        </paragraph>
-                  </li>
-                  <li>
-                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">use a
-                                            single Premium agreement and one eZ Network extension for multiple sites
-                                            with the same or different content
-                                        </paragraph>
-                  </li>
-                  <li>
-                    <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">simplify eZ
-                                            Publish upgrades by consolidating several sites on one installation
-                                        </paragraph>
-                  </li>
-                </ul>
-              </paragraph>
-              <paragraph>This is demo content, to continue real reading, please visit&amp;nbsp;
-                                <link target="_blank" href="https://share.se7enx.com/tutorials/ez-publish/lots-of-websites-one-ez-publish-installation-adding-siteaccesses-in-ez-publish">
-                                    share.se7enx.com
-                                </link>
-                            </paragraph>
-            </section>
-            <section>
-              <header>About the author : Greg McAvoy-Jensen</header>
-              <paragraph>Greg is the executive director of&amp;nbsp;<link target="_blank" xhtml:title="Granite Horizon" href="http://granitehorizon.com/">
-                                Granite Horizon</link>, one of the largest Exponential development firms in the United
-                                States of America. A certified Exponential developer, he has served clients and trained
-                                developers on four continents since he started working with Exponential in 2003. His wife
-                                Heather and he are proud parents of three wonderful children.
-                            </paragraph>
-            </section>
-          </section>
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"><section><header>Introduction</header><paragraph>Users of Exponential sometimes wonder whether one installation can serve several websites. It can, through the siteaccess. Siteaccesses do much more than host several sites in one installation. With them you can:</paragraph><paragraph><ul><li><paragraph>share content, classes and users between sites</paragraph></li><li><paragraph>show the same content in several places with additional locations</paragraph></li><li><paragraph>give each site its own design, languages and settings while keeping one code base</paragraph></li><li><paragraph>upgrade every site at once, because they share one installation</paragraph></li></ul></paragraph><paragraph>The full guide is part of the <link href="https://doc.exponential.earth">Exponential documentation</link>.</paragraph></section><section><header>About this tutorial</header><paragraph>This tutorial is maintained by 7x for the Exponential Foundation and updated for Exponential 6.0.15.</paragraph></section></section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="722" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
           <value>1</value>

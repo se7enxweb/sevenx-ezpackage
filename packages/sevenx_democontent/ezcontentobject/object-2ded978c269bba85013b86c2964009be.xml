@@ -128,7 +128,7 @@
                 <paragraph>
                   <embed view="embed-inline" size="original" align="center" custom:offset="0" custom:limit="5" object_remote_id="ezoo-7ba827c696f3e1a2f1346541ce006bc9"/>
                 </paragraph>
-                <paragraph>To find any content on your Exponential site, you can use the integrated search engine in Exponential. To add more functionality and scale high-loaded websites, <link href="http://ez.no/ezfind">eZ Find</link> is an enterprise search extension for Exponential.</paragraph>
+                <paragraph>To find any content on your Exponential site, you can use the integrated search engine in Exponential. For large sites, the ezfind extension adds Apache Solr: faceted navigation, relevance tuning and fast results across millions of objects (<link href="https://doc.exponential.earth">documentation</link>).</paragraph>
               </section>
             </section>
           </section>
