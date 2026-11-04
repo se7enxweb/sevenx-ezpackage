@@ -16,7 +16,7 @@
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1674" ezremote:identifier="video_file" name="Video file" type="ezbinaryfile"/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1675" ezremote:identifier="video_identifier" name="Video identifier" type="ezstring">
-          <text>0eDoSMkmuJw</text>
+          <text>UwYywSzAXW4</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1676" ezremote:identifier="poster" name="Poster" type="ezimage" alternative-text=""/>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="1677" ezremote:identifier="teaser_intro" name="Teaser intro text" type="ezxmltext">
