@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>བྱུང་རིམ་གྱི་སྔོན་ལྟ།</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ལོ་ཐོ།</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ཕབ་ལེན།</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>རྣམ་གྲངས་མ་རྙེད།</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>སྒྲོན་འབྲེལ་གྱི་ཚུལ་དུ་ལྟ།</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ཁ་རྒྱག</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>མཚམས་འཇོག</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>འཚོལ་བཤེར་ཡིག་ཚགས།:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>ཐོ་གཞུང་།</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>གཙོ་བོའི་ཁ་ཕྱོགས།</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>སྡེ་ཚན་འདིའི་ནང་།</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>སྦྲེལ་ཐག</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ཤོག་ངོས་ཀྱི་ལམ།</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>སྐད་ཡིག</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>ཚོས་གཞིའི་རྣམ་པ། དཀར་པོ།</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>ཚོས་གཞིའི་རྣམ་པ། ནག་པོ།</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>ཚོས་གཞིའི་རྣམ་པ། མ་ལག་ལྟར།</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ཡང་།</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ཚང་མ་མངོན།</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>སྐྱེད་སྤྲོད་མཁན།</translation>
     </message>
 </context>
 <context>

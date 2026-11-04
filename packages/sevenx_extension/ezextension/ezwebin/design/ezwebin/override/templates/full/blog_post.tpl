@@ -7,8 +7,6 @@
         <div class="main-column-position">
             <div class="main-column float-break">
                 <div class="border-box">
-                <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-                <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
                         <div class="content-view-full">
                             <div class="class-blog-post float-break">
@@ -65,8 +63,6 @@
                             </div>
                         </div>
 
-                </div></div></div>
-                <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
                 </div>
             </div>
         </div>
@@ -74,11 +70,7 @@
         <div class="extrainfo-column-position">
             <div class="extrainfo-column">
                 <div class="border-box">
-                <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-                <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
                         {include uri='design:parts/blog/extra_info.tpl' used_node=$node.parent}
-                </div></div></div>
-                <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
                 </div>
             </div>
         </div>

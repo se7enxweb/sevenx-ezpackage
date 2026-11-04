@@ -905,6 +905,250 @@ class xrowMetaDataType extends eZDataType
         return $xml->saveXML();
     }
 
+    /**
+     * The class-level settings in a package's <datatype-parameters>, so a
+     * package export and import keeps them:
+     *
+     *   <default-license>GPL-2.0-or-later</default-license>  (empty: none)
+     *   <allow-object-license>true</allow-object-license>
+     *   <og-image-source>object</og-image-source>
+     *   <default-og-image remote-id="..."/>                  (only when set)
+     *
+     * og-image-source is "object" when an object may choose its own Open
+     * Graph image (the class default is the fallback) and "class" when the
+     * class sets it (data_int3 = 1). The default image is an object of the
+     * installation, so it travels by its remote id.
+     */
+    function serializeContentClassAttribute( $classAttribute, $attributeNode, $attributeParametersNode )
+    {
+        $dom = $attributeParametersNode->ownerDocument;
+        $license = self::classLicenseSettings( $classAttribute );
+        $node = $dom->createElement( 'default-license' );
+        $node->appendChild( $dom->createTextNode( $license['default_license'] ) );
+        $attributeParametersNode->appendChild( $node );
+        $attributeParametersNode->appendChild( $dom->createElement( 'allow-object-license', $license['allow_object_license'] ? 'true' : 'false' ) );
+        $attributeParametersNode->appendChild( $dom->createElement( 'og-image-source', self::allowsObjectOgImage( $classAttribute ) ? 'object' : 'class' ) );
+        $default = self::classAttributeDefault( $classAttribute );
+        if ( isset( $default['og_image'] ) )
+        {
+            $object = eZContentObject::fetch( (int) $default['og_image'] );
+            if ( $object instanceof eZContentObject )
+            {
+                $node = $dom->createElement( 'default-og-image' );
+                $node->setAttribute( 'remote-id', $object->attribute( 'remote_id' ) );
+                $attributeParametersNode->appendChild( $node );
+            }
+        }
+    }
+
+    /**
+     * Reads what serializeContentClassAttribute() writes. An element the
+     * package does not have leaves that setting as it is, so a package made
+     * without these settings (empty <datatype-parameters/>) imports as it always did.
+     */
+    function unserializeContentClassAttribute( $classAttribute, $attributeNode, $attributeParametersNode )
+    {
+        if ( !$attributeParametersNode instanceof DOMElement )
+        {
+            return;
+        }
+        $element = function ( $name ) use ( $attributeParametersNode )
+        {
+            $node = $attributeParametersNode->getElementsByTagName( $name )->item( 0 );
+            return $node instanceof DOMElement ? $node : null;
+        };
+        $default = self::classAttributeDefault( $classAttribute );
+        if ( $node = $element( 'default-license' ) )
+        {
+            $license = trim( $node->textContent );
+            if ( $license === '' )
+            {
+                unset( $default['license'] );
+            }
+            elseif ( xrowMetaDataLicensePicker::info( $license ) )
+            {
+                $default['license'] = $license;
+            }
+            else
+            {
+                eZDebug::writeWarning( 'The license "' . $license . '" of the package is not in the catalogue, the class default license is left as it was', __METHOD__ );
+            }
+        }
+        if ( $node = $element( 'allow-object-license' ) )
+        {
+            $default['allow_object_license'] = strtolower( trim( $node->textContent ) ) === 'false' ? 0 : 1;
+        }
+        if ( $node = $element( 'og-image-source' ) )
+        {
+            $source = strtolower( trim( $node->textContent ) );
+            if ( $source === 'object' || $source === 'class' )
+            {
+                $classAttribute->setAttribute( self::CLASS_SETS_OG_IMAGE_FIELD, $source === 'class' ? 1 : 0 );
+            }
+        }
+        if ( $node = $element( 'default-og-image' ) )
+        {
+            $object = eZContentObject::fetchByRemoteID( $node->getAttribute( 'remote-id' ) );
+            if ( $object instanceof eZContentObject )
+            {
+                $default['og_image'] = (int) $object->attribute( 'id' );
+            }
+        }
+        self::setClassAttributeDefault( $classAttribute, $default );
+    }
+
+    /**
+     * The names of the Meta Data attribute by language; any other language
+     * gets the English one.
+     */
+    static $classAttributeNames = array( 'eng-US' => 'Meta Data', 'eng-GB' => 'Meta Data', 'ger-DE' => 'Metadaten',
+                                         'fre-FR' => 'Métadonnées', 'nor-NO' => 'Metadata', 'pol-PL' => 'Metadane',
+                                         'esl-ES' => 'Metadatos', 'ita-IT' => 'Metadati' );
+
+    /**
+     * Gives every defined content class the Meta Data attribute: identifier
+     * "metadata", category "meta", the class default license $license with a
+     * per-object license allowed, and the Open Graph image chosen per object.
+     * For site installers, after the classes are in place: a class without
+     * it gets it after its last attribute, named in the class's languages,
+     * and every object of the class gets its empty value. A class that has it
+     * gets only what is missing (category, default license, the two
+     * switches); a license or switch already set is kept. A class whose
+     * "metadata" attribute has another datatype is left alone.
+     *
+     * With $identifiers only the classes of those identifiers are handled
+     * (one that does not exist is passed over), e.g. the kernel's own help
+     * classes when it creates them; null handles every class.
+     *
+     * @param string $license catalogue id of the class default license
+     * @param string[]|null $identifiers
+     * @return array lists of class identifiers: 'added', 'updated', 'kept', 'conflict'
+     */
+    static function addToEveryClass( $license = 'GPL-2.0-or-later', $identifiers = null )
+    {
+        $only = is_array( $identifiers ) ? array_flip( array_map( 'strval', $identifiers ) ) : null;
+        $report = array( 'added' => array(), 'updated' => array(), 'kept' => array(), 'conflict' => array() );
+        if ( !xrowMetaDataLicensePicker::info( $license ) )
+        {
+            eZDebug::writeWarning( "The license \"$license\" is not in the catalogue, the classes get no default license", __METHOD__ );
+            $license = '';
+        }
+        foreach ( eZContentClass::fetchList( eZContentClass::VERSION_STATUS_DEFINED, true ) as $class )
+        {
+            $identifier = $class->attribute( 'identifier' );
+            if ( $only !== null && !isset( $only[$identifier] ) )
+            {
+                continue;
+            }
+            $classAttribute = $class->fetchAttributeByIdentifier( 'metadata' );
+            if ( $classAttribute && $classAttribute->attribute( 'data_type_string' ) !== self::DATA_TYPE_STRING )
+            {
+                $report['conflict'][] = $identifier;
+                continue;
+            }
+            $added = false;
+            if ( !$classAttribute )
+            {
+                $classNames = new eZSerializedObjectNameList( $class->attribute( 'serialized_name_list' ) );
+                $locales = $classNames->languageLocaleList();
+                if ( !$locales )
+                {
+                    $locales = array( $class->attribute( 'top_priority_language_locale' ) );
+                }
+                $always = $classNames->alwaysAvailableLanguageLocale();
+                // an empty list, not an unset one: setNameByLanguageLocale() drops every name on an unset list
+                $names = new eZSerializedObjectNameList();
+                $names->resetNameList();
+                $descriptions = new eZSerializedObjectNameList();
+                $descriptions->resetNameList();
+                foreach ( $locales as $locale )
+                {
+                    $names->setNameByLanguageLocale( isset( self::$classAttributeNames[$locale] ) ? self::$classAttributeNames[$locale] : 'Meta Data', $locale );
+                    $descriptions->setNameByLanguageLocale( '', $locale );
+                }
+                $always = $always ? $always : $locales[0];
+                $names->setAlwaysAvailableLanguage( $always );
+                $descriptions->setAlwaysAvailableLanguage( $always );
+                $placement = 0;
+                foreach ( $class->fetchAttributes() as $attribute )
+                {
+                    $placement = max( $placement, (int) $attribute->attribute( 'placement' ) );
+                }
+                $classAttribute = eZContentClassAttribute::create( $class->attribute( 'id' ), self::DATA_TYPE_STRING, array(
+                    'version' => eZContentClass::VERSION_STATUS_DEFINED,
+                    'identifier' => 'metadata',
+                    'serialized_name_list' => $names->serializeNames(),
+                    'serialized_description_list' => $descriptions->serializeNames(),
+                    'category' => 'meta',
+                    'is_searchable' => 1,
+                    'can_translate' => 1,
+                    'placement' => $placement + 1 ) );
+                $classAttribute->setAttribute( self::CLASS_SETS_OG_IMAGE_FIELD, 0 );
+                $classAttribute->store();
+                $added = true;
+            }
+            $changed = false;
+            // a name list without any name (1.4.23 and 1.4.24 added the attribute without one): name it in the
+            // class's languages
+            $nameList = new eZSerializedObjectNameList( $classAttribute->attribute( 'serialized_name_list' ) );
+            $named = array_filter( (array)$nameList->cleanNameList(), function ( $name ) { return trim( (string)$name ) !== ''; } );
+            if ( !$added && !$named )
+            {
+                $classNames = new eZSerializedObjectNameList( $class->attribute( 'serialized_name_list' ) );
+                $locales = $classNames->languageLocaleList();
+                $locales = $locales ? $locales : array( $class->attribute( 'top_priority_language_locale' ) );
+                // through the attribute's own name list: store() writes serialized_name_list from it
+                foreach ( $locales as $locale )
+                {
+                    $classAttribute->setName( isset( self::$classAttributeNames[$locale] ) ? self::$classAttributeNames[$locale] : 'Meta Data', $locale );
+                }
+                $always = $classNames->alwaysAvailableLanguageLocale();
+                $classAttribute->setAlwaysAvailableLanguage( $always ? $always : $locales[0] );
+                $changed = true;
+            }
+            if ( $classAttribute->attribute( 'category' ) !== 'meta' )
+            {
+                $classAttribute->setAttribute( 'category', 'meta' );
+                $changed = true;
+            }
+            $default = self::classAttributeDefault( $classAttribute );
+            if ( $license !== '' && ( !isset( $default['license'] ) || $default['license'] === '' ) )
+            {
+                $default['license'] = $license;
+                $changed = true;
+            }
+            if ( !isset( $default['allow_object_license'] ) )
+            {
+                $default['allow_object_license'] = 1;
+                $changed = true;
+            }
+            if ( $classAttribute->attribute( self::CLASS_SETS_OG_IMAGE_FIELD ) === null || $classAttribute->attribute( self::CLASS_SETS_OG_IMAGE_FIELD ) === '' )
+            {
+                $classAttribute->setAttribute( self::CLASS_SETS_OG_IMAGE_FIELD, 0 );
+                $changed = true;
+            }
+            if ( $changed || $added )
+            {
+                self::setClassAttributeDefault( $classAttribute, $default );
+                $classAttribute->store();
+            }
+            if ( $added )
+            {
+                $classAttribute->initializeObjectAttributes();
+                $report['added'][] = $identifier;
+            }
+            else
+            {
+                $report[$changed ? 'updated' : 'kept'][] = $identifier;
+            }
+        }
+        if ( $report['added'] || $report['updated'] )
+        {
+            eZContentClass::expireCache();
+        }
+        return $report;
+    }
+
     /*!
      \reimp
      \param package

@@ -8,3 +8,4 @@ GroupedInput[]=xrowmetadata
 
 [CollectionSettings]
 GroupedInput[]=xrowmetadata
+*/ ?>

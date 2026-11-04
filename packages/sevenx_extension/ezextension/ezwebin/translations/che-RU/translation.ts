@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>Хилларан хьалххе хьажар</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Календарь</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Охьадаккха</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Элементаш ца карийна.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>Слайд-шоу санна хьажа</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ДӀакъовла</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Паузе тоха</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>Лехаран текст:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Меню</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Коьрта навигаци</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>ХӀокху декъехь</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Хьажоргаш</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Некъан хьажоргаш</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Меттанаш</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Басан хорша: Серло</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Басан хорша: Бода</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Басан хорша: Системица</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Кхин</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Массо гайта</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Болх беш бу</translation>
     </message>
 </context>
 <context>

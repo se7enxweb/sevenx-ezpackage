@@ -1256,6 +1256,18 @@ at du kan gjenbruke dem i andre artikler.</translation>
         <source>Preview of event</source>
         <translation>Forhåndsvisning av arrangement</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Last ned</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Fant ingen elementer.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ at du kan gjenbruke dem i andre artikler.</translation>
     <message>
         <source>View as slideshow</source>
         <translation>Se som lysbildevisning</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Lukk</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pause</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ at du kan gjenbruke dem i andre artikler.</translation>
     <message>
         <source>Search text:</source>
         <translation>Søketekst:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Meny</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Hovednavigasjon</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>I denne delen</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Lenker</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Brødsmulesti</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Språk</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Fargemodus: Lys</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Fargemodus: Mørk</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Fargemodus: Følg systemet</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mer</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Vis alle</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Drevet av</translation>
     </message>
 </context>
 <context>

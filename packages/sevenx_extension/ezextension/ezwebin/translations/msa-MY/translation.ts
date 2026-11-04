@@ -1256,6 +1256,18 @@ Imej diletakkan dalam pustaka media supaya anda boleh menggunakannya semula dala
         <source>Preview of event</source>
         <translation>Pratonton acara</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendar</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Muat turun</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Tiada item ditemui.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Imej diletakkan dalam pustaka media supaya anda boleh menggunakannya semula dala
     <message>
         <source>View as slideshow</source>
         <translation>Lihat sebagai tayangan slaid</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tutup</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Jeda</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Imej diletakkan dalam pustaka media supaya anda boleh menggunakannya semula dala
     <message>
         <source>Search text:</source>
         <translation>Teks carian:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navigasi utama</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Dalam bahagian ini</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Pautan</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Jejak navigasi</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Bahasa</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mod warna: Cerah</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mod warna: Gelap</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mod warna: Ikut sistem</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Lagi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tunjukkan semua</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Dikuasakan oleh</translation>
     </message>
 </context>
 <context>

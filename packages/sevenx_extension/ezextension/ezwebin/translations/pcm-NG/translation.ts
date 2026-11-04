@@ -1256,6 +1256,18 @@ Dem put di pictures for di media library so you fit use dem again for other arti
         <source>Preview of event</source>
         <translation>See how di event go look</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendar</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Download</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>We no see any item.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Dem put di pictures for di media library so you fit use dem again for other arti
     <message>
         <source>View as slideshow</source>
         <translation>See am as slideshow</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Close</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pause</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Dem put di pictures for di media library so you fit use dem again for other arti
     <message>
         <source>Search text:</source>
         <translation>Wetin you wan search for:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Main navigation</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>For dis section</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Breadcrumbs</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Languages</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Color mode: Light</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Color mode: Dark</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Color mode: Follow di system</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>More</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Show all</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Powered by</translation>
     </message>
 </context>
 <context>

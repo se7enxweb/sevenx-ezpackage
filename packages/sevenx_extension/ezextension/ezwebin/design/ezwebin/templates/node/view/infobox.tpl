@@ -1,13 +1,9 @@
 <div class="border-box infobox-header">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
 
     <h2>{attribute_view_gui attribute=$node.object.data_map.header}</h2>
 
-</div></div></div>
 </div>
 <div class="border-box infobox">
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
 
 {if $node.object.data_map.image.has_content}
     <div class="attribute-image"> 
@@ -40,6 +36,4 @@
     </div>
 {/if}
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

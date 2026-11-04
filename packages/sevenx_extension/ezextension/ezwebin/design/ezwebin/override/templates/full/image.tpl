@@ -5,8 +5,6 @@
      $next_item     = false()}
 
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="content-view-full">
     <div class="class-image parent-class-{$parent.class_identifier|wash}">
@@ -44,10 +42,10 @@
              {/while}
              {undef $siblings $index $node_id}
         {/if}
-        <div class="content-navigator">
+        <nav class="content-navigator" data-ezwebin-pager aria-label="{$parent.name|wash}">
             {if $previous_item}
                 <div class="content-navigator-previous">
-                    <div class="content-navigator-arrow">&laquo;&nbsp;</div><a href={$previous_item.url_alias|ezurl} title="{$previous_item.name|wash}">{'Previous image'|i18n( 'design/ezwebin/full/image' )}</a>
+                    <div class="content-navigator-arrow">&laquo;&nbsp;</div><a rel="prev" href={$previous_item.url_alias|ezurl} title="{$previous_item.name|wash}">{'Previous image'|i18n( 'design/ezwebin/full/image' )}</a>
                 </div>
                 <div class="content-navigator-separator">|</div>
             {else}
@@ -62,7 +60,7 @@
             {if $next_item}
                 <div class="content-navigator-separator">|</div>
                 <div class="content-navigator-next">
-                    <a href={$next_item.url_alias|ezurl} title="{$next_item.name|wash}">{'Next image'|i18n( 'design/ezwebin/full/image' )}</a><div class="content-navigator-arrow">&nbsp;&raquo;</div>
+                    <a rel="next" href={$next_item.url_alias|ezurl} title="{$next_item.name|wash}">{'Next image'|i18n( 'design/ezwebin/full/image' )}</a><div class="content-navigator-arrow">&nbsp;&raquo;</div>
                 </div>
             {else}
                 <div class="content-navigator-separator-disabled">|</div>
@@ -70,7 +68,7 @@
                     {'Next image'|i18n( 'design/ezwebin/full/image' )}<div class="content-navigator-arrow">&nbsp;&raquo;</div>
                 </div>
             {/if}
-        </div>
+        </nav>
     {/if}
 
         <div class="attribute-image">
@@ -86,6 +84,4 @@
     </div>
 </div>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

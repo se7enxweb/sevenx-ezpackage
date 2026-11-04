@@ -1,6 +1,4 @@
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="user-login">
 
@@ -46,7 +44,7 @@
 {/if}
 {if ezini( 'Session', 'RememberMeTimeout' )}
 <div class="block">
-<input type="checkbox" tabindex="1" name="Cookie" id="id4" checked="checked"><label for="id4" style="display:inline;">{"Remember me"|i18n("design/ezwebin/user/login")}</label>
+<input type="checkbox" tabindex="1" name="Cookie" id="id4" checked="checked"><label for="id4" class="inline-label">{"Remember me"|i18n("design/ezwebin/user/login")}</label>
 </div>
 {/if}
 
@@ -77,6 +75,4 @@
 
 </div>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

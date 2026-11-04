@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>پێشبینینی ڕووداو</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ڕۆژمێر</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>داگرتن</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>هیچ بڕگەیەک نەدۆزرایەوە.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>بینین وەک پیشاندانی سلاید</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>داخستن</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>ڕاگرتن</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>دەقی گەڕان:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>مینیو</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>ڕێپێوانی سەرەکی</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>لەم بەشەدا</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>بەستەرەکان</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ڕێڕەوی پەڕە</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>زمانەکان</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>شێوازی ڕەنگ: ڕووناک</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>شێوازی ڕەنگ: تاریک</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>شێوازی ڕەنگ: بەپێی سیستەم</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>زیاتر</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>پیشاندانی هەمووی</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>بە هێزی</translation>
     </message>
 </context>
 <context>

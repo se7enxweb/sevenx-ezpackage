@@ -29,12 +29,8 @@
 <input id="{$id_base}_day" class="ezcc-{$attribute.object.content_class.identifier} ezcca-{$attribute.object.content_class.identifier}_{$attribute.contentclass_attribute_identifier}" type="text" name="{$attribute_base}_datetime_day_{$attribute.id}" size="3" value="{section show=$attribute.content.is_valid}{$attribute.content.day}{/section}">
 </div>
 <div class="element">
-<img class="datepicker-icon" src={"calendar_icon.png"|ezimage} id="{$attribute_base}_datetime_cal_{$attribute.id}" width="24" height="28" data-ezwebin-datepicker="datetime" data-ezwebin-datepicker-base="{$attribute_base|wash}" data-ezwebin-datepicker-id="{$attribute.id}" style="cursor: pointer;">
-<div id="{$attribute_base}_datetime_cal_container_{$attribute.id}" style="display: none; position: absolute;"></div>
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+<button type="button" class="datepicker-button" id="{$attribute_base}_datetime_cal_{$attribute.id}" data-ezwebin-datepicker="datetime" data-ezwebin-datepicker-base="{$attribute_base|wash}" data-ezwebin-datepicker-id="{$attribute.id}" title="{'Show calendar to select a date.'|i18n( 'design/ezwebin/content/datatype' )|wash}"><img class="datepicker-icon" src={"calendar_icon.png"|ezimage} width="24" height="28" alt="{'Show calendar to select a date.'|i18n( 'design/ezwebin/content/datatype' )|wash}"></button>
+<div id="{$attribute_base}_datetime_cal_container_{$attribute.id}" class="datepicker-container"></div>
 </div>
 </div>
 

@@ -1256,6 +1256,18 @@ Cuirtear íomhánna i Leabharlann na meán ionas gur féidir leat iad a athúsá
         <source>Preview of event</source>
         <translation>Réamhamharc ar an imeacht</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Féilire</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Íoslódáil</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Níor aimsíodh aon mhíreanna.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Cuirtear íomhánna i Leabharlann na meán ionas gur féidir leat iad a athúsá
     <message>
         <source>View as slideshow</source>
         <translation>Féach mar thaispeántas sleamhnán</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Dún</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Cuir ar sos</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Cuirtear íomhánna i Leabharlann na meán ionas gur féidir leat iad a athúsá
     <message>
         <source>Search text:</source>
         <translation>Téacs cuardaigh:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Roghchlár</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Príomh-nascleanúint</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Sa chuid seo</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Naisc</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Conair nascleanúna</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Teangacha</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mód datha: Geal</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mód datha: Dorcha</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mód datha: De réir an chórais</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Tuilleadh</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Taispeáin gach rud</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Faoi chumhacht</translation>
     </message>
 </context>
 <context>

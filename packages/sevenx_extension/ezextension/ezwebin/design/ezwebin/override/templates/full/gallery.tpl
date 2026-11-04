@@ -1,8 +1,6 @@
 {* Gallery - Full view *}
 
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="content-view-full">
     <div class="class-gallery">
@@ -40,21 +38,17 @@
                                                              'sort_by', $node.sort_array ) )}
             <div class="attribute-link">
                 <p>
-                <a href={$children[0].url_alias|ezurl}>{'View as slideshow'|i18n( 'design/ezwebin/full/gallery' )}</a>
+                <a href={$children[0].url_alias|ezurl} data-ezwebin-slideshow-start>{'View as slideshow'|i18n( 'design/ezwebin/full/gallery' )}</a>
                 </p>
             </div>
 
-            <div class="content-view-children">
-                {def $filters = ezini( 'gallerythumbnail', 'Filters', 'image.ini' )}
-
-                    {foreach $filters as $filter}
-                    {if or($filter|contains( "geometry/scale" ), $filter|contains( "geometry/scaledownonly" ), $filter|contains( "geometry/crop" ) )}
-                        {def $image_style = $filter|explode("=").1}
-                        {set $image_style = concat("width:", $image_style|explode(";").0, "px ;", "height:", $image_style|explode(";").1, "px")}
-                        {break}
-                    {/if}
-                    {/foreach}
-
+            <div class="content-view-children gallery-grid" data-ezwebin-gallery
+                 data-label-close="{'Close'|i18n( 'design/ezwebin/full/gallery' )|wash}"
+                 data-label-previous="{'Previous image'|i18n( 'design/ezwebin/full/image' )|wash}"
+                 data-label-next="{'Next image'|i18n( 'design/ezwebin/full/image' )|wash}"
+                 data-label-play="{'View as slideshow'|i18n( 'design/ezwebin/full/gallery' )|wash}"
+                 data-label-pause="{'Pause'|i18n( 'design/ezwebin/full/gallery' )|wash}"
+>
                 {foreach $children as $child}
                     {node_view_gui view=galleryline content_node=$child}
                 {/foreach}
@@ -71,6 +65,4 @@
     </div>
 </div>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

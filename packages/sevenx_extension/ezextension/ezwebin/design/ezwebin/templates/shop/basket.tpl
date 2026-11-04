@@ -1,6 +1,4 @@
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="shop-basket">
 
@@ -13,13 +11,9 @@
 
 </div>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
 
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
 <div class="shop-basket">
 
@@ -137,7 +131,7 @@
 </tr>
 {section show=$Basket:ProductItem:item.item_object.option_list}
 <tr>
-  <td colspan="7" style="padding: 0;">
+  <td colspan="7" class="cell-flush">
      <table cellpadding="0" cellspacing="0">
 <tr>
 <td colspan="3">
@@ -229,6 +223,4 @@
 
 </div>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

@@ -1256,6 +1256,18 @@ Izithombe zibekwa emtapweni wemidiya ukuze nikwazi ukuzisebenzisa futhi kwezinye
         <source>Preview of event</source>
         <translation>Ukubuka kuqala komcimbi</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Ikhalenda</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Landa</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Azikho izinto ezitholakele.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Izithombe zibekwa emtapweni wemidiya ukuze nikwazi ukuzisebenzisa futhi kwezinye
     <message>
         <source>View as slideshow</source>
         <translation>Buka njengesilayidi</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Vala</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Misa isikhashana</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Izithombe zibekwa emtapweni wemidiya ukuze nikwazi ukuzisebenzisa futhi kwezinye
     <message>
         <source>Search text:</source>
         <translation>Umbhalo wokusesha:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Imenyu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Ukuzulazula okukhulu</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Kulesi sigaba</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Izixhumanisi</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Umkhondo wendlela</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Izilimi</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Imodi yombala: Ekhanyayo</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Imodi yombala: Emnyama</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Imodi yombala: Landela isistimu</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Okuningi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Bonisa konke</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Kunikwe amandla ngu</translation>
     </message>
 </context>
 <context>

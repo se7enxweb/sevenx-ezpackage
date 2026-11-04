@@ -119,6 +119,18 @@
         <source>Preview of event</source>
         <translation>Preview of event</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendar</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Download</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>No items found.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/embed/forum</name>
@@ -390,6 +402,14 @@
     <message>
         <source>View as slideshow</source>
         <translation>View as slideshow</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Close</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pause</translation>
     </message>
 </context>
 <context>
@@ -1799,6 +1819,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search</source>
         <translation>Search</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Main navigation</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>In this section</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Breadcrumbs</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Languages</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Color mode: Light</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Color mode: Dark</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Color mode: Follow system</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>More</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Show all</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Powered by</translation>
     </message>
 </context>
 <context>

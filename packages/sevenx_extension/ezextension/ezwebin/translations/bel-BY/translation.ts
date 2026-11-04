@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>Папярэдні прагляд падзеі</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Каляндар</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Спампаваць</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Элементы не знойдзены.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>Праглядзець як слайд-шоу</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрыць</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Прыпыніць</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>Тэкст для пошуку:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Меню</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Асноўная навігацыя</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>У гэтым раздзеле</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Спасылкі</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Навігацыйны шлях</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Мовы</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Каляровы рэжым: Светлы</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Каляровы рэжым: Цёмны</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Каляровы рэжым: Як у сістэме</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Яшчэ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Паказаць усе</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Працуе на</translation>
     </message>
 </context>
 <context>

@@ -1256,6 +1256,18 @@ Wɔde mfonini no sie wɔ media sukuu mu sɛ wobɛtumi de adi dwuma wɔ nsɛm fof
         <source>Preview of event</source>
         <translation>Nsɛm a ɛsii no hwɛ kane</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Bosome nhoma</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Twe gu so</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Wɔanhunu adeɛ biara.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Wɔde mfonini no sie wɔ media sukuu mu sɛ wobɛtumi de adi dwuma wɔ nsɛm fof
     <message>
         <source>View as slideshow</source>
         <translation>Hwɛ sɛ slideshow</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Mua mu</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Gyina so</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Wɔde mfonini no sie wɔ media sukuu mu sɛ wobɛtumi de adi dwuma wɔ nsɛm fof
     <message>
         <source>Search text:</source>
         <translation>Nsɛm a wobɛhwehwɛ:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Akwankyerɛ titiriw</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Wɔ ɔfa yi mu</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Link</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Kwan a wɔfa so ba ha</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Kasa</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Kɔla kwan: Hann</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Kɔla kwan: Sum</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Kɔla kwan: Di sistem no akyi</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Bio</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Kyerɛ nyinaa</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Deɛ ɔma ɛyɛ adwuma</translation>
     </message>
 </context>
 <context>

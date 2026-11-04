@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>پیش‌نمایش رویداد</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>تقویم</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>دانلود</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>هیچ موردی یافت نشد.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>مشاهده به‌صورت نمایش اسلاید</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بستن</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>توقف</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>متن جستجو:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>منو</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>ناوبری اصلی</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>در این بخش</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>پیوندها</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>مسیر راهنما</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>زبان‌ها</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>حالت رنگ: روشن</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>حالت رنگ: تیره</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>حالت رنگ: مطابق سیستم</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>بیشتر</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>نمایش همه</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>قدرت‌گرفته از</translation>
     </message>
 </context>
 <context>

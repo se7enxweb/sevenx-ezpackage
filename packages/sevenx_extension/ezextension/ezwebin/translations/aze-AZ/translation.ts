@@ -1256,6 +1256,18 @@ uyğun sinfə çevrilir, idxal bitdikdən sonra bu barədə bildiriş alırsın�
         <source>Preview of event</source>
         <translation>Tədbirin önbaxışı</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Təqvim</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Endir</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Element tapılmadı.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ uyğun sinfə çevrilir, idxal bitdikdən sonra bu barədə bildiriş alırsın�
     <message>
         <source>View as slideshow</source>
         <translation>Slayd-şou kimi bax</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Bağla</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Müvəqqəti dayandır</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ uyğun sinfə çevrilir, idxal bitdikdən sonra bu barədə bildiriş alırsın�
     <message>
         <source>Search text:</source>
         <translation>Axtarış mətni:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menyu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Əsas naviqasiya</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Bu bölmədə</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Keçidlər</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Naviqasiya cığırı</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Dillər</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Rəng rejimi: İşıqlı</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Rəng rejimi: Qaranlıq</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Rəng rejimi: Sistemə uyğun</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Daha çox</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hamısını göstər</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Dəstəkləyən:</translation>
     </message>
 </context>
 <context>

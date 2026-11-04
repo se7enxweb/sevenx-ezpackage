@@ -1256,6 +1256,18 @@ Myndir eru settar í miðlasafnið svo þú getir endurnýtt þær í öðrum gr
         <source>Preview of event</source>
         <translation>Forskoðun viðburðar</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Dagatal</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Sækja</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Engin atriði fundust.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Myndir eru settar í miðlasafnið svo þú getir endurnýtt þær í öðrum gr
     <message>
         <source>View as slideshow</source>
         <translation>Skoða sem skyggnusýningu</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Loka</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Gera hlé</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Myndir eru settar í miðlasafnið svo þú getir endurnýtt þær í öðrum gr
     <message>
         <source>Search text:</source>
         <translation>Leitartexti:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Valmynd</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Aðalvalmynd</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Í þessum hluta</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Tenglar</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Brauðmolar</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Tungumál</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Litastilling: Ljós</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Litastilling: Dökk</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Litastilling: Eins og kerfið</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Meira</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Sýna allt</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Knúið af</translation>
     </message>
 </context>
 <context>

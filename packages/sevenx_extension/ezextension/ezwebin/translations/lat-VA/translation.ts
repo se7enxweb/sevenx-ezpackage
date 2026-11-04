@@ -1259,6 +1259,18 @@ Imagines in mediatheca ponuntur, ut eas in aliis articulis iterum adhibere possi
         <source>Preview of event</source>
         <translation>Praevisio eventus</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendarium</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Depromere</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Nullae res inventae.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1423,6 +1435,14 @@ Imagines in mediatheca ponuntur, ut eas in aliis articulis iterum adhibere possi
     <message>
         <source>View as slideshow</source>
         <translation>Ut seriem imaginum inspicere</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Claudere</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Intermittere</translation>
     </message>
 </context>
 <context>
@@ -1782,6 +1802,54 @@ Imagines in mediatheca ponuntur, ut eas in aliis articulis iterum adhibere possi
     <message>
         <source>Search text:</source>
         <translation>Textus quaerendus:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Index</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navigatio principalis</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>In hac sectione</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Nexus</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Vestigia paginarum</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Linguae</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Modus colorum: Clarus</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Modus colorum: Obscurus</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Modus colorum: Ut systema</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Plura</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Omnia ostendere</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Agitatum per</translation>
     </message>
 </context>
 <context>

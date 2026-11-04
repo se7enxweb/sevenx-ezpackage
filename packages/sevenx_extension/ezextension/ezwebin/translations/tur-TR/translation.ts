@@ -1256,6 +1256,18 @@ Görseller medya kitaplığına yerleştirilir; böylece onları başka makalele
         <source>Preview of event</source>
         <translation>Etkinlik önizlemesi</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Takvim</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>İndir</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Öğe bulunamadı.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Görseller medya kitaplığına yerleştirilir; böylece onları başka makalele
     <message>
         <source>View as slideshow</source>
         <translation>Slayt gösterisi olarak görüntüle</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kapat</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Duraklat</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Görseller medya kitaplığına yerleştirilir; böylece onları başka makalele
     <message>
         <source>Search text:</source>
         <translation>Arama metni:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menü</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Ana gezinme</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Bu bölümde</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Bağlantılar</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>İçerik haritası</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Diller</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Renk modu: Açık</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Renk modu: Koyu</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Renk modu: Sisteme göre</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Diğer</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tümünü göster</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Destekleyen:</translation>
     </message>
 </context>
 <context>

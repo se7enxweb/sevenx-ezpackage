@@ -1256,6 +1256,18 @@ Ka tukua ngā atahanga ki te pātaka pāpāho kia taea ai te whakamahi anō i ē
         <source>Preview of event</source>
         <translation>Arokite o te takahanga</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Maramataka</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Tikiake</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Kāore he tūemi i kitea.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Ka tukua ngā atahanga ki te pātaka pāpāho kia taea ai te whakamahi anō i ē
     <message>
         <source>View as slideshow</source>
         <translation>Tiro hei whakaaturanga kiriata</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kati</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Whakatārewa</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Ka tukua ngā atahanga ki te pātaka pāpāho kia taea ai te whakamahi anō i ē
     <message>
         <source>Search text:</source>
         <translation>Kuputuhi rapu:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Tahua</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Whakatere matua</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>I tēnei wāhanga</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ngā hono</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Ara whārangi</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ngā reo</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Aratau tae: Mārama</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Aratau tae: Pōuri</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Aratau tae: Whai i te pūnaha</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ētahi atu</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Whakaatu katoa</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Whakamanahia e</translation>
     </message>
 </context>
 <context>

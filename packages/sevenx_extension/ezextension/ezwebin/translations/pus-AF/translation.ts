@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>د پېښې مخکتنه</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>جنتري</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ښکته کول</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>هیڅ توکی ونه موندل شو.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>د سلایډشو په توګه کتل</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>تړل</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>ځنډول</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>د لټون متن:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>مینو</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>اصلي ګرځېدنه</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>په دې برخه کې</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>لینکونه</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>د ګرځېدنې لار</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ژبې</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>د رنګ حالت: روښانه</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>د رنګ حالت: تیاره</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>د رنګ حالت: د سیسټم په څېر</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>نور</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ټول ښودل</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>په ملاتړ د</translation>
     </message>
 </context>
 <context>

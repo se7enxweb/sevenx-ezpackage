@@ -1,7 +1,9 @@
 <div id="logo">
 {if $pagedesign.data_map.image.content.is_valid|not()}
-    <h1><a href={"/"|ezurl} title="{ezini('SiteSettings','SiteName')|wash}">{ezini('SiteSettings','SiteName')|wash}</a></h1>
+    <a class="site-name" href={"/"|ezurl} rel="home">{ezini('SiteSettings','SiteName')|wash}</a>
 {else}
-    <a href={"/"|ezurl} title="{ezini('SiteSettings','SiteName')|wash}"><img src={$pagedesign.data_map.image.content[original].full_path|ezroot} alt="{$pagedesign.data_map.image.content[original].text}" width="{$pagedesign.data_map.image.content[original].width}" height="{$pagedesign.data_map.image.content[original].height}"></a>
+    {def $logo = $pagedesign.data_map.image.content[original]}
+    <a href={"/"|ezurl} rel="home"><img src={$logo.full_path|ezroot} alt="{if $logo.text|trim}{$logo.text|wash}{else}{ezini('SiteSettings','SiteName')|wash}{/if}" width="{$logo.width}" height="{$logo.height}"></a>
+    {undef $logo}
 {/if}
 </div>

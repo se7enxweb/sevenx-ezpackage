@@ -1256,6 +1256,18 @@ Ebifaananyi biteekebwa mu ggwanika ly&apos;ebifaananyi osobole okuddamu okubikoz
         <source>Preview of event</source>
         <translation>Okusooka okulaba ekibaddewo</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Wanula</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Tewali bintu bizuuliddwa.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Ebifaananyi biteekebwa mu ggwanika ly&apos;ebifaananyi osobole okuddamu okubikoz
     <message>
         <source>View as slideshow</source>
         <translation>Laba ng&apos;okulaga ebifaananyi</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Ggalawo</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Wummuza</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Ebifaananyi biteekebwa mu ggwanika ly&apos;ebifaananyi osobole okuddamu okubikoz
     <message>
         <source>Search text:</source>
         <translation>Ebigambo eby&apos;okunoonya:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menyu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Okutambulira okukulu</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Mu kitundu kino</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Lingi</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Ekkubo ly'okudda emabega</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ennimi</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Embeera ya langi: Ekitangaala</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Embeera ya langi: Ekizikiza</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Embeera ya langi: Goberera sisitimu</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ebisingawo</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Laga byonna</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Gukozesa</translation>
     </message>
 </context>
 <context>

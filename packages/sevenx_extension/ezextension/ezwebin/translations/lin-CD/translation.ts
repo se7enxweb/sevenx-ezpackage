@@ -1256,6 +1256,18 @@ Bilili etyami na bibliothèque ya média mpo okoka kosalela yango lisusu na baka
         <source>Preview of event</source>
         <translation>Kotala liboso ya likambo</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendrier</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Kitisá</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Eloko moko ezwami te.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Bilili etyami na bibliothèque ya média mpo okoka kosalela yango lisusu na baka
     <message>
         <source>View as slideshow</source>
         <translation>Talá lokola slideshow</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Pekisá</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Tɛlɛmisá</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Bilili etyami na bibliothèque ya média mpo okoka kosalela yango lisusu na baka
     <message>
         <source>Search text:</source>
         <translation>Maloba ya koluka:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navigation ya liboso</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Na eteni oyo</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ba-lien</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Nzela ya kokende</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Nkóta</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Lolenge ya langi: Pole</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Lolenge ya langi: Molili</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Lolenge ya langi: Landa sistɛmɛ</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mingi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Lakisá nyɔ́nsɔ</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Esalemi na</translation>
     </message>
 </context>
 <context>

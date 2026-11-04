@@ -130,6 +130,33 @@ Everything else is in [doc/licenses.md](doc/licenses.md): levels and
 precedence, the catalogue and how to refresh it, settings, output formats, the
 HTTP header and caching, troubleshooting.
 
+# Packages and installers
+
+A package export and import of a class keeps the class-level settings of its
+metadata attribute, in the attribute's `<datatype-parameters>`:
+
+    <datatype-parameters>
+      <default-license>GPL-2.0-or-later</default-license>
+      <allow-object-license>true</allow-object-license>
+      <og-image-source>object</og-image-source>
+      <default-og-image remote-id="..."/>
+    </datatype-parameters>
+
+`og-image-source` is `object` when an object may choose its own Open Graph
+image and `class` when the class sets it (`data_int3`). The default image
+travels by the remote id of its object and is set on import only when that
+object exists. An element a package does not have leaves that setting as it
+is, so packages made without them import as before.
+
+A site installer gives every class of a new site the attribute with
+`xrowMetaDataType::addToEveryClass( 'GPL-2.0-or-later' )`: a class without it
+gets it after its last attribute (category `meta`, named in the class's
+languages, an empty value in every existing object); a class that has it gets
+only what it lacks. It returns the class identifiers added, updated, kept and
+in conflict (a `metadata` attribute of another datatype, left alone).
+A second argument, a list of class identifiers, limits it to those classes:
+the kernel gives its help classes the attribute that way when it creates them.
+
 # Troubleshooting & support
 
 Send email to service [at] xrow [dot] de

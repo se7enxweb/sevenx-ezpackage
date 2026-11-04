@@ -1256,6 +1256,18 @@ Caiff delweddau eu gosod yn y llyfrgell gyfryngau fel y gallwch eu hailddefnyddi
         <source>Preview of event</source>
         <translation>Rhagolwg o&apos;r digwyddiad</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendr</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Llwytho i lawr</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Ni chanfuwyd eitemau.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Caiff delweddau eu gosod yn y llyfrgell gyfryngau fel y gallwch eu hailddefnyddi
     <message>
         <source>View as slideshow</source>
         <translation>Gweld fel sioe sleidiau</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Cau</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Oedi</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Caiff delweddau eu gosod yn y llyfrgell gyfryngau fel y gallwch eu hailddefnyddi
     <message>
         <source>Search text:</source>
         <translation>Testun chwilio:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Dewislen</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Prif lywio</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Yn yr adran hon</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Dolenni</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Briwsion bara</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ieithoedd</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Modd lliw: Golau</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Modd lliw: Tywyll</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Modd lliw: Dilyn y system</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mwy</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Dangos y cyfan</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Wedi'i bweru gan</translation>
     </message>
 </context>
 <context>

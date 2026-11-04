@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>មើលព្រឹត្តិការណ៍ជាមុន</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ប្រតិទិន</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ទាញយក</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>រកមិនឃើញធាតុទេ។</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>មើលជាស្លាយ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>បិទ</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>ផ្អាក</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>អត្ថបទស្វែងរក៖</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>ម៉ឺនុយ</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>ការរុករកមេ</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>នៅក្នុងផ្នែកនេះ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>តំណ</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ផ្លូវរុករក</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ភាសា</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>របៀបពណ៌៖ ភ្លឺ</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>របៀបពណ៌៖ ងងឹត</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>របៀបពណ៌៖ តាមប្រព័ន្ធ</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ច្រើនទៀត</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>បង្ហាញទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>ដំណើរការដោយ</translation>
     </message>
 </context>
 <context>

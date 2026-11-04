@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>واقعي جو پيش منظر</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ڪئلينڊر</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ڊائونلوڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>ڪو آئٽم نه مليو.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>سلائيڊ شو طور ڏسو</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بند ڪريو</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>مؤقت روڪيو</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>ڳولا جو متن:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>مينيو</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>مکيه نيويگيشن</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>هن حصي ۾</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>لنڪ</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>بريڊ ڪرمب</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ٻوليون</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>رنگ موڊ: هلڪو</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>رنگ موڊ: اونداهو</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>رنگ موڊ: سسٽم مطابق</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>وڌيڪ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سڀ ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>هلائيندڙ</translation>
     </message>
 </context>
 <context>

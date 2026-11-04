@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>Үйл явдлыг урьдчилан харах</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Календарь</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Татаж авах</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Зүйл олдсонгүй.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>Слайд шоу хэлбэрээр харах</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Хаах</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Түр зогсоох</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>Хайх текст:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Цэс</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Үндсэн навигаци</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Энэ хэсэгт</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Холбоосууд</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Навигацийн зам</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Хэлүүд</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Өнгөний горим: Цайвар</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Өнгөний горим: Бараан</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Өнгөний горим: Системийн дагуу</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Илүү</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Бүгдийг харуулах</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Ажиллуулсан:</translation>
     </message>
 </context>
 <context>

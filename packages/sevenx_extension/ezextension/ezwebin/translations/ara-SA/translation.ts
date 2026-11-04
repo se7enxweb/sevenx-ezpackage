@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>معاينة الحدث</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>التقويم</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>تنزيل</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>لم يتم العثور على عناصر.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>عرض كشريحة عرض</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>إغلاق</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>إيقاف مؤقت</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>نص البحث:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>القائمة</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>التنقل الرئيسي</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>في هذا القسم</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>الروابط</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>مسار التنقل</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>اللغات</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>وضع الألوان: فاتح</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>وضع الألوان: داكن</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>وضع الألوان: حسب النظام</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>المزيد</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>إظهار الكل</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>مدعوم من</translation>
     </message>
 </context>
 <context>

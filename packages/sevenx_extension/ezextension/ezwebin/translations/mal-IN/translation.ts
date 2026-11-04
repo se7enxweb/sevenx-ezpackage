@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>ഇവന്റിന്റെ പ്രിവ്യൂ</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>കലണ്ടർ</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ഡൗൺലോഡ് ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>ഇനങ്ങളൊന്നും കണ്ടെത്തിയില്ല.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>സ്ലൈഡ്ഷോ ആയി കാണുക</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>അടയ്ക്കുക</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>താൽക്കാലികമായി നിർത്തുക</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>തിരയൽ വാചകം:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>മെനു</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>പ്രധാന നാവിഗേഷൻ</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>ഈ വിഭാഗത്തിൽ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ലിങ്കുകൾ</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ബ്രെഡ്ക്രംബുകൾ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ഭാഷകൾ</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>നിറ മോഡ്: ലൈറ്റ്</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>നിറ മോഡ്: ഡാർക്ക്</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>നിറ മോഡ്: സിസ്റ്റം പിന്തുടരുക</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>കൂടുതൽ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>എല്ലാം കാണിക്കുക</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>കരുത്ത് നൽകുന്നത്</translation>
     </message>
 </context>
 <context>

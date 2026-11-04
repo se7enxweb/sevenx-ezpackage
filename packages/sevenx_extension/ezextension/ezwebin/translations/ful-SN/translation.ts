@@ -1256,6 +1256,18 @@ bibliyoteek media ngam huutinde ɗe e deftere goɗɗe.</translation>
         <source>Preview of event</source>
         <translation>Yiyde adan ñaawoore</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalaandiriye</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Telchin</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Alaa huunde yiyaaka.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ bibliyoteek media ngam huutinde ɗe e deftere goɗɗe.</translation>
     <message>
         <source>View as slideshow</source>
         <translation>Yiy no slideshow</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Uddu</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Dartir</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ bibliyoteek media ngam huutinde ɗe e deftere goɗɗe.</translation>
     <message>
         <source>Search text:</source>
         <translation>Binndol yiylagol:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Yahdugol ɓerniwol</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>E ndee taƴre</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Jokkorde</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Laawol hello</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ɗemɗe</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mbaydi noone: Annoore</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mbaydi noone: Niɓɓere</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mbaydi noone: Rewu siistem</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ɓuri</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hollu fof</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Huuɓnaama ko</translation>
     </message>
 </context>
 <context>

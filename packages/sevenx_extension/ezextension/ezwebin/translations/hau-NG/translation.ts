@@ -1256,6 +1256,18 @@ Ana sanya hotuna a ɗakin watsa labarai don ku iya sake amfani da su a wasu laba
         <source>Preview of event</source>
         <translation>Duba samfoti na abin da ya faru</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalanda</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Saukar</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Ba a sami abubuwa ba.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Ana sanya hotuna a ɗakin watsa labarai don ku iya sake amfani da su a wasu laba
     <message>
         <source>View as slideshow</source>
         <translation>Duba a matsayin nunin hotuna</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Rufe</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Dakatar</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Ana sanya hotuna a ɗakin watsa labarai don ku iya sake amfani da su a wasu laba
     <message>
         <source>Search text:</source>
         <translation>Rubutun nema:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Babban kewayawa</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>A wannan sashe</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Hanyoyin haɗi</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Hanyar shafi</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Harsuna</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Yanayin launi: Haske</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Yanayin launi: Duhu</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Yanayin launi: Bi tsarin na'ura</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ƙari</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Nuna duka</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Tare da ƙarfin</translation>
     </message>
 </context>
 <context>

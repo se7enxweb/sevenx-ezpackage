@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>이벤트 미리 보기</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>달력</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>다운로드</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>항목을 찾을 수 없습니다.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>슬라이드 쇼로 보기</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>닫기</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>일시 중지</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>검색 텍스트:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>메뉴</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>기본 탐색</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>이 섹션</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>링크</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>이동 경로</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>언어</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>색상 모드: 라이트</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>색상 모드: 다크</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>색상 모드: 시스템 설정</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>더 보기</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>모두 표시</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>제공</translation>
     </message>
 </context>
 <context>

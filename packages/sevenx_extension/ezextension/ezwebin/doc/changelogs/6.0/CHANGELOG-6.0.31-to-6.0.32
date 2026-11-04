@@ -1,0 +1,11 @@
+Changes from 6.0.31 to 6.0.32 (2026-11-03)
+
+- Updated: The ezwebin design is rebuilt as a modern, responsive and accessible design: design tokens, light and dark mode, plain JavaScript on expui in place of the jQuery and YUI scripts, every feature kept (menus, galleries, slideshow, event calendar, blog).
+- Updated: The event calendar, its events and the blog sidebar get the modern design.
+- Updated: The gallery slideshow closes with a click beside the picture and with Back.
+- Updated: The header search suggests content while typing, and the search page has filters.
+- Updated: Front-end editing uses the edit actions of expwt, the website sidebar, in place of ezwt's website toolbar.
+- Updated: The design's new strings are translated in every catalog.
+- Updated: The about page names eZ Systems and its product only as past history, without links to the closed ez.no site.
+
+Upgrading: composer update, clear the caches, and install expwt in place of ezwt (exp:wt:migrate-from-ezwt --apply).

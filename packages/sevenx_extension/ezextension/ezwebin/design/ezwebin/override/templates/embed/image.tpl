@@ -11,7 +11,7 @@
         {if is_set($object_parameters.border_size)}
             {set $image_width = $image_width|sum(  $object_parameters.border_size|mul( 2 ) )}
         {/if}
-        <div class="attribute-caption" style="width: {$image_width}px">
+        <div class="attribute-caption">
     {else}
         <div class="attribute-caption">
     {/if}

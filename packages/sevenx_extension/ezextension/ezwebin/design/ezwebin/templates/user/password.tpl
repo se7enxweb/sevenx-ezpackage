@@ -31,8 +31,6 @@
                              $pw_errors.confirmPassword|count, 'password-confirm', '' )}
 {if $pw_modern}<link rel="stylesheet" type="text/css" href={'stylesheets/exp_password_page.css'|ezdesign} />{/if}
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
 
 <div class="exp-pw">
 <div class="attribute-header">
@@ -125,7 +123,5 @@
 {/if}
 </div>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
 {undef $pw_errors $pw_rules $pw_min $pw_t $pw_changed $pw_modern $pw_ids $pw_first_error}

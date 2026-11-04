@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>ܚܙܝܐ ܩܕܡܝܐ ܕܓܕܫܐ</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ܠܘܚܐ ܕܬܐܪܝ̈ܟܐ</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ܡܚܬܐ</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>ܠܐ ܐܫܬܟܚܘ ܡ̈ܢܘܬܐ.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>ܚܙܝܐ ܐܝܟ ܡܚܘܝܬܐ ܕܨܘܪ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ܣܟܪܐ</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>ܡܦܣܩܐ</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>ܟܬܝܒܬܐ ܕܒܨܝܐ:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>ܡܢܘ</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>ܣܘܥܪܐ ܪܫܝܐ</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>ܒܦܠܓܘܬܐ ܗܕܐ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ܐܣܘܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ܥܩܒܐ ܕܐܘܪܚܐ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ܠܫ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>ܐܘܦܢܐ ܕܓܘܢܐ: ܢܗܝܪܐ</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>ܐܘܦܢܐ ܕܓܘܢܐ: ܚܫܘܟܐ</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>ܐܘܦܢܐ ܕܓܘܢܐ: ܒܬܪ ܡܪܟܒܬܐ</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ܝܬܝܪ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ܡܚܘܝܐ ܕܟܠ</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>ܡܬܚܝܠ ܒܝܕ</translation>
     </message>
 </context>
 <context>

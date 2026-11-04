@@ -1334,6 +1334,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>イベントのプレビュー</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>カレンダー</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ダウンロード</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>アイテムが見つかりませんでした。</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1498,6 +1510,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>スライドショーを表示</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>一時停止</translation>
     </message>
 </context>
 <context>
@@ -1857,6 +1877,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>検索テキスト: </translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>メニュー</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>メインナビゲーション</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>このセクション</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>リンク</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>階層リンク</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>カラーモード: ライト</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>カラーモード: ダーク</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>カラーモード: システムに合わせる</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>その他</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>すべて表示</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>提供</translation>
     </message>
 </context>
 <context>

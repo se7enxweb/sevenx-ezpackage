@@ -19,7 +19,7 @@
  *   data-ezwebin-reset="<id>"                 change sets the value of the element <id> to 0
  *   data-ezwebin-autofocus                    the field is selected and focused when the page has loaded
  *   meta[name="ezwebin-print-link"]           adds the print <link> with the current query string
- *   fieldset.ezcca-collapsible                collapsible attribute groups of the edit page (jQuery)
+ *   (the collapsible attribute groups of the edit page are native <details> now, edit_attribute.tpl: no script)
  *   object[data-ezwebin-silverlight-autosize] the Silverlight plug-in takes the size of its content
  */
 (function ( window, document )
@@ -135,8 +135,9 @@
             if ( target )
             {
                 event.preventDefault();
-                target.style.display = '';
-                el.style.display = 'none';
+                target.hidden = false;
+                target.style.removeProperty( 'display' );
+                el.hidden = true;
             }
         }
         else if ( ( el = closest( event.target, '[data-ezwebin-noop]' ) ) )
@@ -188,29 +189,6 @@
             hidden[i].removeAttribute( 'hidden' );
         }
 
-        var $ = window.jQuery;
-        if ( $ && document.querySelector( 'fieldset.ezcca-collapsible' ) )
-        {
-            $( 'fieldset.ezcca-collapsible legend a' ).on( 'click', function ( e )
-            {
-                e.preventDefault();
-                var container = $( this.parentNode.parentNode ), inner = container.find( 'div.ezcca-collapsible-fieldset-content' );
-                if ( container.hasClass( 'ezcca-collapsed' ) )
-                {
-                    container.removeClass( 'ezcca-collapsed' );
-                    inner.slideDown( 150 );
-                }
-                else
-                {
-                    inner.slideUp( 150, function ()
-                    {
-                        $( this.parentNode ).addClass( 'ezcca-collapsed' );
-                    } );
-                }
-            } );
-            // Collapse by default
-            $( 'fieldset.ezcca-collapsible' ).addClass( 'ezcca-collapsed' ).find( 'div.ezcca-collapsible-fieldset-content' ).hide();
-        }
     }
 
     window.addEventListener( 'load', function ()

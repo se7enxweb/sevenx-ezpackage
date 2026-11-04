@@ -1256,6 +1256,18 @@ Imaginile sunt plasate în biblioteca media, astfel încât să le puteți reuti
         <source>Preview of event</source>
         <translation>Previzualizare eveniment</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendar</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Descărcare</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Nu s-au găsit elemente.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Imaginile sunt plasate în biblioteca media, astfel încât să le puteți reuti
     <message>
         <source>View as slideshow</source>
         <translation>Vizualizare ca expunere de diapozitive</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Închidere</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pauză</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Imaginile sunt plasate în biblioteca media, astfel încât să le puteți reuti
     <message>
         <source>Search text:</source>
         <translation>Text de căutat:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Meniu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navigare principală</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>În această secțiune</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Linkuri</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Traseu de navigare</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Limbi</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mod culori: Luminos</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mod culori: Întunecat</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mod culori: Ca sistemul</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mai multe</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Afișare toate</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Susținut de</translation>
     </message>
 </context>
 <context>

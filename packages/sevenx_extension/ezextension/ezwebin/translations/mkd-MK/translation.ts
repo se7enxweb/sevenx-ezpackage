@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>Преглед на настанот</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Календар</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Преземи</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Не се пронајдени ставки.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>Прегледај како слајдшоу</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Затвори</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Паузирај</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>Текст за пребарување:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Мени</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Главна навигација</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Во овој дел</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Врски</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Патека на навигација</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Јазици</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Режим на бои: Светол</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Режим на бои: Темен</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Режим на бои: Според системот</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Повеќе</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Прикажи ги сите</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Овозможено од</translation>
     </message>
 </context>
 <context>

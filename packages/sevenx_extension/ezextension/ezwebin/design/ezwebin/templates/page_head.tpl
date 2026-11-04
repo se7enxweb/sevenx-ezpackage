@@ -47,12 +47,6 @@
 
     {/foreach}
 
-    {* Prefer chrome frame on IE 8 and lower, or at least as new engine as possible *}
-    <!--[if lt IE 9 ]>
-        <meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1">
-    <![endif]-->
-
-    <meta name="MSSmartTagsPreventParsing" content="TRUE">
     <meta name="generator" content="Exponential">
 
 {if $canonical_link}

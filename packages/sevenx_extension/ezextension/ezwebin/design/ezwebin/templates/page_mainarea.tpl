@@ -1,9 +1,7 @@
-    <div id="main-position">
-      <div id="main" class="float-break">
-        <div class="overflow-fix">
+    <main id="main-position">
+      <div id="main" tabindex="-1">
           <!-- Main area content: START -->
           {$module_result.content}
           <!-- Main area content: END -->
-        </div>
       </div>
-    </div>
+    </main>

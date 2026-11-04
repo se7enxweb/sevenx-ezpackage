@@ -7,8 +7,6 @@
      $uniq_post = array()}
 
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
 
 <div class="attribute-header">
     <h1 class="long">{'Keyword: %keyword'|i18n( 'design/ezwebin/content/keyword', ,
@@ -49,6 +47,4 @@ hash( '%keyword', $alphabet ) )|wash()}</h1>
          view_parameters=$view_parameters
          item_limit=$page_limit}
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

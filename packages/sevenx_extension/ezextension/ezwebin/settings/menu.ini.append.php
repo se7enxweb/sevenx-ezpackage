@@ -24,6 +24,7 @@ LeftIdentifierList[]=multicalendar
 LeftIdentifierList[]=link
 LeftIdentifierList[]=blog
 LeftIdentifierList[]=frontpage
+LeftIdentifierList[]=article
 
 # Classes to use in extra menu (infobox)
 #ExtraIdentifierList[]

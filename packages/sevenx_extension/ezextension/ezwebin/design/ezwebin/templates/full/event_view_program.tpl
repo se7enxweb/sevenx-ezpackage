@@ -74,92 +74,47 @@
 {set $daymode=true()}
 {/if}
 
+{def $ec_base = concat( $node.url_alias, '/(show)/program/(offset)/' )}
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
-
 <div class="content-view-full">
  <div class="class-event-calendar event-calendar-programview">
+    <div class="attribute-header event-calendar-header">
+        <h1>{$node.name|wash()}</h1>
+        {include uri='design:parts/event_tabs.tpl' node=$node show='program'}
+    </div>
 
-<div class="attribute-header">
-    <h1>{$node.name|wash()}</h1>
-</div>
-
-<div id="ezagenda_calendar_right">
+    {if $events|count}
+    <ol class="event-list">
     {foreach $events as $event}
-    <table class="ezagenda_month_event" cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="{'Preview of event'|i18n( 'design/ezwebin/full/event_view_program' )}">
-    <tr>
-    {if $daymode}
-    <td  class="ezagenda_month_label"><h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")}</h2></td>
-    {else}
-    <td class="ezagenda_month_label"><h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%M<br>%y")}</h2></td>
-    {/if}
-    <td class="ezagenda_month_info">
-    
-    <h4><a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h4>
-
-    <p>
-    <span class="ezagenda_date">
-    {$event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i")}
-    {if $event.object.data_map.to_time.has_content}
-        {if $event.object.data_map.to_time.content.day|int()|eq( $event.object.data_map.from_time.content.day|int() )}
-        - {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i")}
-        {else}
-        - {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
-        {/if}
-    {/if}
-    </span>
-    
-    {if $event.object.data_map.category.has_content}
-        <span class="ezagenda_keyword">
-        {attribute_view_gui attribute=$event.object.data_map.category}
-        </span>
-    {/if}
-    </p>
-    
-    {if $event.object.data_map.text.has_content}
-        <div class="attribute-short">{attribute_view_gui attribute=$event.object.data_map.text}</div>
-    {/if}
-
-    </td>
-    </tr>
-    </table>
-
+        <li>{include uri='design:parts/event_item.tpl' event=$event heading='h2'}</li>
     {/foreach}
-</div>
-<div class="block">
-{if $direction}{* '-' direction  *}
-    <div class="left">
+    </ol>
+    {else}
+    <p class="empty-state">{'No items found.'|i18n( 'design/ezwebin/full/event_view_calendar' )}</p>
+    {/if}
+
+    <nav class="event-pager" aria-label="{$node.name|wash}">
+{if $direction}{* '-' direction: past events *}
     {if $older_event_count|gt(0)}
-        <a href={concat("/content/view/full/",  $node.node_id, "/offset/-", $temp_offset|sum(2))|ezurl}>&lt;&lt; {"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
+        <a class="event-pager-prev" href={concat( $ec_base, '-', $temp_offset|sum(2) )|ezurl}>{"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
     {/if}
-    </div>
-    <div class="right">
     {if $temp_offset|gt(0)}
-        <a href={concat("/content/view/full/",  $node.node_id, "/offset/-", $temp_offset)|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")} &gt;&gt;</a>
+        <a class="event-pager-next" href={concat( $ec_base, '-', $temp_offset )|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")}</a>
     {elseif $newer_event_count|gt(0)}
-        <a href={concat("/content/view/full/",  $node.node_id, "/offset/0")|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")} &gt;&gt;</a>
+        <a class="event-pager-next" href={concat( $ec_base, '0' )|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")}</a>
     {/if}
-    </div>
 {else}
-    <div class="left">
     {if $temp_offset|gt(0)}
-        <a href={concat("/content/view/full/",  $node.node_id, "/offset/", $temp_offset|dec)|ezurl}>&lt;&lt; {"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
+        <a class="event-pager-prev" href={concat( $ec_base, $temp_offset|dec )|ezurl}>{"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
     {elseif $older_event_count|gt(0)}
-        <a href={concat("/content/view/full/",  $node.node_id, "/offset/-1")|ezurl}>&lt;&lt; {"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
+        <a class="event-pager-prev" href={concat( $ec_base, '-1' )|ezurl}>{"Past events"|i18n("design/ezwebin/full/event_view_program")}</a>
     {/if}
-    </div>
-    <div class="right">
     {if $newer_event_count|gt(0)}
-        <a href={concat("/content/view/full/",  $node.node_id, "/offset/", $temp_offset|inc)|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")} &gt;&gt;</a>
+        <a class="event-pager-next" href={concat( $ec_base, $temp_offset|inc )|ezurl}>{"Future events"|i18n("design/ezwebin/full/event_view_program")}</a>
     {/if}
-    </div>
 {/if}
+    </nav>
+ </div>
+</div>
 </div>
 {undef}
-</div>
-</div>
-
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
-</div>

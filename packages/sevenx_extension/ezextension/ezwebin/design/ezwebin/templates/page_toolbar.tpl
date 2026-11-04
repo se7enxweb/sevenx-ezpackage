@@ -1,3 +1,3 @@
   <div id="toolbar">
-  {include uri='design:parts/website_toolbar.tpl'}
+  {include uri='design:parts/expwt_page_toolbar.tpl'}
   </div>

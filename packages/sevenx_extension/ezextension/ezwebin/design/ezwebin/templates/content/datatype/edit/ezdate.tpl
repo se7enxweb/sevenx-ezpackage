@@ -24,12 +24,8 @@
 <input id="ezcoa-{if ne( $attribute_base, 'ContentObjectAttribute' )}{$attribute_base}-{/if}{$attribute.contentclassattribute_id}_{$attribute.contentclass_attribute_identifier}_day" class="ezcc-{$attribute.object.content_class.identifier} ezcca-{$attribute.object.content_class.identifier}_{$attribute.contentclass_attribute_identifier}" type="text" name="{$attribute_base}_date_day_{$attribute.id}" size="3" value="{section show=$attribute.content.is_valid}{$attribute.content.day}{/section}">
 </div>
 <div class="element">
-<img class="datepicker-icon" src={"calendar_icon.png"|ezimage} id="{$attribute_base}_date_cal_{$attribute.id}" width="24" height="28" data-ezwebin-datepicker="date" data-ezwebin-datepicker-base="{$attribute_base|wash}" data-ezwebin-datepicker-id="{$attribute.id}" style="cursor: pointer;" alt="{'Show calendar to select a date.'|i18n( 'design/ezwebin/content/datatype' )}">
-<div id="{$attribute_base}_date_cal_container_{$attribute.id}" style="display: none; position: absolute;"></div>
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+<button type="button" class="datepicker-button" id="{$attribute_base}_date_cal_{$attribute.id}" data-ezwebin-datepicker="date" data-ezwebin-datepicker-base="{$attribute_base|wash}" data-ezwebin-datepicker-id="{$attribute.id}" title="{'Show calendar to select a date.'|i18n( 'design/ezwebin/content/datatype' )}"><img class="datepicker-icon" src={"calendar_icon.png"|ezimage} width="24" height="28" alt="{'Show calendar to select a date.'|i18n( 'design/ezwebin/content/datatype' )}"></button>
+<div id="{$attribute_base}_date_cal_container_{$attribute.id}" class="datepicker-container"></div>
 </div>
 
 <div class="break"></div>

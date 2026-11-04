@@ -1256,6 +1256,18 @@ A képek a médiatárba kerülnek, így más cikkekben is újra felhasználhatja
         <source>Preview of event</source>
         <translation>Esemény előnézete</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Naptár</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Letöltés</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Nem található elem.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ A képek a médiatárba kerülnek, így más cikkekben is újra felhasználhatja
     <message>
         <source>View as slideshow</source>
         <translation>Megtekintés diavetítésként</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Bezárás</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Szüneteltetés</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ A képek a médiatárba kerülnek, így más cikkekben is újra felhasználhatja
     <message>
         <source>Search text:</source>
         <translation>Keresett szöveg:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menü</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Fő navigáció</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Ebben a részben</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Hivatkozások</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Morzsamenü</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Nyelvek</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Színmód: Világos</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Színmód: Sötét</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Színmód: A rendszer szerint</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Továbbiak</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Az összes megjelenítése</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Működteti:</translation>
     </message>
 </context>
 <context>

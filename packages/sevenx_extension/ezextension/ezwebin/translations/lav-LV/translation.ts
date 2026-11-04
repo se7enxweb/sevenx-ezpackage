@@ -1256,6 +1256,18 @@ Attēli tiek ievietoti multivides bibliotēkā, lai tos varētu atkārtoti izman
         <source>Preview of event</source>
         <translation>Notikuma priekšskatījums</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendārs</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Lejupielādēt</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Netika atrasts neviens vienums.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Attēli tiek ievietoti multivides bibliotēkā, lai tos varētu atkārtoti izman
     <message>
         <source>View as slideshow</source>
         <translation>Skatīt kā slaidrādi</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Aizvērt</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pauzēt</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Attēli tiek ievietoti multivides bibliotēkā, lai tos varētu atkārtoti izman
     <message>
         <source>Search text:</source>
         <translation>Meklējamais teksts:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Izvēlne</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Galvenā navigācija</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Šajā sadaļā</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Saites</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Navigācijas ceļš</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Valodas</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Krāsu režīms: Gaišs</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Krāsu režīms: Tumšs</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Krāsu režīms: Kā sistēmā</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Vairāk</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Rādīt visu</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Darbina</translation>
     </message>
 </context>
 <context>

@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>تقریب کا پیش منظر</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>کیلنڈر</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ڈاؤن لوڈ کریں</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>کوئی آئٹم نہیں ملا۔</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>سلائیڈ شو کے طور پر دیکھیں</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بند کریں</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>موقوف کریں</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>تلاش کا متن:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>مینو</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>مرکزی نیویگیشن</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>اس حصے میں</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>لنکس</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>بریڈ کرمب</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>زبانیں</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>رنگ موڈ: ہلکا</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>رنگ موڈ: گہرا</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>رنگ موڈ: سسٹم کے مطابق</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>مزید</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سب دکھائیں</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>تقویت یافتہ از</translation>
     </message>
 </context>
 <context>

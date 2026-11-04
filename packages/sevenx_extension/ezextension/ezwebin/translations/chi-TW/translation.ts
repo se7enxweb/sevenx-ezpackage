@@ -1335,6 +1335,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>活動預覽</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>行事曆</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>下載</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>找不到項目。</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1499,6 +1511,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>投影片放映方式檢視</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>暫停</translation>
     </message>
 </context>
 <context>
@@ -1858,6 +1878,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>搜尋文字：</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>選單</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>主要導覽</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>本欄目</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>連結</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>導覽路徑</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>語言</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>色彩模式：淺色</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>色彩模式：深色</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>色彩模式：跟隨系統</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>更多</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>顯示全部</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>技術支援提供者</translation>
     </message>
 </context>
 <context>

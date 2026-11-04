@@ -1336,6 +1336,18 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
         <source>Preview of event</source>
         <translation>Vista prèvia de l&apos;esdeveniment</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendari</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Baixa</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>No s'ha trobat cap element.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1500,6 +1512,14 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>View as slideshow</source>
         <translation>Reprodueix com a presentació</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tanca</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Atura</translation>
     </message>
 </context>
 <context>
@@ -1859,6 +1879,54 @@ Les imatges es col·loquen a la biblioteca multimèdia per a poder ser reutilitz
     <message>
         <source>Search text:</source>
         <translation>Cercar texte:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menú</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navegació principal</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>En aquesta secció</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Enllaços</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Ruta de navegació</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Idiomes</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mode de color: Clar</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mode de color: Fosc</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mode de color: Segons el sistema</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Més</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mostra-ho tot</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Funciona amb</translation>
     </message>
 </context>
 <context>

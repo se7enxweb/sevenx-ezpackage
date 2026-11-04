@@ -1256,6 +1256,18 @@ Gambar disimpen dina perpustakaan média supados tiasa dianggo deui dina artikel
         <source>Preview of event</source>
         <translation>Pratinjau acara</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalénder</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Unduh</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Euweuh item kapanggih.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Gambar disimpen dina perpustakaan média supados tiasa dianggo deui dina artikel
     <message>
         <source>View as slideshow</source>
         <translation>Tingali salaku tayangan slide</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tutup</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Jeda</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Gambar disimpen dina perpustakaan média supados tiasa dianggo deui dina artikel
     <message>
         <source>Search text:</source>
         <translation>Téks paluruh:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Ménu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navigasi utama</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Dina bagian ieu</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Tumbu</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Jejak kaca</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Basa</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mode warna: Caang</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mode warna: Poek</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mode warna: Nuturkeun sistem</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Langkungna</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Témbongkeun sadayana</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Dijalankeun ku</translation>
     </message>
 </context>
 <context>

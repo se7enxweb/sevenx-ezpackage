@@ -2,3 +2,4 @@
 
 [SolrFieldMapSettings]
 CustomMap[xrowmetadata]=ezfSolrDocumentFieldxrowMetadata
+*/ ?>

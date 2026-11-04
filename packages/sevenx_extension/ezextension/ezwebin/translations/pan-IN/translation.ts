@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>ਸਮਾਗਮ ਦੀ ਝਲਕ</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ਕੈਲੰਡਰ</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ਡਾਊਨਲੋਡ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>ਕੋਈ ਆਈਟਮ ਨਹੀਂ ਮਿਲੀ।</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>ਸਲਾਈਡਸ਼ੋ ਵਜੋਂ ਵੇਖੋ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ਬੰਦ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>ਰੋਕੋ</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>ਖੋਜ ਟੈਕਸਟ:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>ਮੀਨੂ</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>ਮੁੱਖ ਨੈਵੀਗੇਸ਼ਨ</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>ਇਸ ਭਾਗ ਵਿੱਚ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ਲਿੰਕ</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ਬ੍ਰੈੱਡਕ੍ਰੰਬ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ਭਾਸ਼ਾਵਾਂ</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>ਰੰਗ ਮੋਡ: ਹਲਕਾ</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>ਰੰਗ ਮੋਡ: ਗੂੜ੍ਹਾ</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>ਰੰਗ ਮੋਡ: ਸਿਸਟਮ ਮੁਤਾਬਕ</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ਹੋਰ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ਸਭ ਵਿਖਾਓ</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>ਸੰਚਾਲਕ</translation>
     </message>
 </context>
 <context>

@@ -13,7 +13,7 @@
 
     {if $node.data_map.location.has_content}
         <div class="attribute-link">
-            <p><a href="{$node.data_map.location.content}" target="_blank">{if $node.data_map.location.data_text|count|gt( 0 )}{$node.data_map.location.data_text|wash}{else}{$node.data_map.location.content|wash}{/if}</a></p>
+            <p><a href="{$node.data_map.location.content}" target="_blank" rel="noopener">{if $node.data_map.location.data_text|count|gt( 0 )}{$node.data_map.location.data_text|wash}{else}{$node.data_map.location.content|wash}{/if}</a></p>
         </div>
     {/if}
 

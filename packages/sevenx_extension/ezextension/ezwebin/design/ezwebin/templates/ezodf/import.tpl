@@ -1,6 +1,4 @@
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
 
 <form enctype="multipart/form-data" method="post" action={"/ezodf/import"|ezurl}>
 {if $error}
@@ -114,6 +112,4 @@ Images are placed in the media library so you can re-use them in other articles.
 
 </form>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

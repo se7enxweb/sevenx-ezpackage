@@ -1256,6 +1256,18 @@ Waiho ʻia nā kiʻi ma ka waihona pāpaho i hiki iā ʻoe ke hoʻohana hou ma n
         <source>Preview of event</source>
         <translation>Nānā mua i ka hanana</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kālena</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Hoʻoiho</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>ʻAʻohe mea i loaʻa.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Waiho ʻia nā kiʻi ma ka waihona pāpaho i hiki iā ʻoe ke hoʻohana hou ma n
     <message>
         <source>View as slideshow</source>
         <translation>Nānā ma ke ʻano hōʻikeʻike kiʻi</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Pani</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Hoʻomaha</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Waiho ʻia nā kiʻi ma ka waihona pāpaho i hiki iā ʻoe ke hoʻohana hou ma n
     <message>
         <source>Search text:</source>
         <translation>Kikokikona ʻimi:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Papa kuhikuhi</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Hoʻokele nui</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Ma kēia māhele</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Nā loulou</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Ala ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Nā ʻōlelo</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Ke ʻano kala: Mālamalama</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Ke ʻano kala: Pōuliuli</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Ke ʻano kala: E like me ka ʻōnaehana</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Hou aku</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hōʻike i nā mea a pau</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Hāʻawi ʻia e</translation>
     </message>
 </context>
 <context>

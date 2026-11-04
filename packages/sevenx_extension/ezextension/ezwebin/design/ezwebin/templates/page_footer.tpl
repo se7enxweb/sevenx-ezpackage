@@ -1,12 +1,14 @@
   <!-- Footer area: START -->
-  <div id="footer">
-    <address>
-    {if $pagedesign.data_map.hide_powered_by.data_int|not}
-        Powered by <a href="https://exponential.earth" title="Exponential CMS Open Source Web Content Management">Exponential CMS Open Source Web Content Management</a>. 
-    {/if}
+  <footer id="footer">
     {if $pagedesign.data_map.footer_text.has_content}
-        {$pagedesign.data_map.footer_text.content} 
+    <div class="footer-text">
+        {$pagedesign.data_map.footer_text.content}
+    </div>
     {/if}
-    </address>
-  </div>
+    {if $pagedesign.data_map.hide_powered_by.data_int|not}
+    <p class="footer-powered">
+        {'Powered by'|i18n( 'design/ezwebin/pagelayout' )} <a href="https://exponential.earth">Exponential</a>
+    </p>
+    {/if}
+  </footer>
   <!-- Footer area: END -->

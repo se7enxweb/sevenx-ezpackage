@@ -1256,6 +1256,18 @@ Slike so shranjene v knjižnici medijev, zato jih lahko znova uporabite v drugih
         <source>Preview of event</source>
         <translation>Predogled dogodka</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Koledar</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Prenesi</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Ni najdenih elementov.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Slike so shranjene v knjižnici medijev, zato jih lahko znova uporabite v drugih
     <message>
         <source>View as slideshow</source>
         <translation>Prikaži kot diaprojekcijo</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zapri</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Začasno ustavi</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Slike so shranjene v knjižnici medijev, zato jih lahko znova uporabite v drugih
     <message>
         <source>Search text:</source>
         <translation>Iskalno besedilo:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Meni</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Glavna navigacija</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>V tem razdelku</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Povezave</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Drobtinice</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Jeziki</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Barvni način: Svetel</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Barvni način: Temen</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Barvni način: Po sistemu</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Več</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Prikaži vse</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Poganja</translation>
     </message>
 </context>
 <context>

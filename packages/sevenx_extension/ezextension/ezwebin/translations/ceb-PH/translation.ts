@@ -1256,6 +1256,18 @@ Ang mga hulagway gibutang sa media library aron magamit nimo kini pag-usab sa ub
         <source>Preview of event</source>
         <translation>Preview sa panghitabo</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendaryo</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>I-download</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Walay nakitang mga butang.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Ang mga hulagway gibutang sa media library aron magamit nimo kini pag-usab sa ub
     <message>
         <source>View as slideshow</source>
         <translation>Tan-awa isip slideshow</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Sirado</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>I-pause</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Ang mga hulagway gibutang sa media library aron magamit nimo kini pag-usab sa ub
     <message>
         <source>Search text:</source>
         <translation>Teksto sa pagpangita:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Panguna nga nabigasyon</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Niining seksyon</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Mga link</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Dalan sa nabigasyon</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Mga pinulongan</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mode sa kolor: Hayag</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mode sa kolor: Ngitngit</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mode sa kolor: Sunda sa sistema</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Dugang pa</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ipakita tanan</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Gipaandar sa</translation>
     </message>
 </context>
 <context>

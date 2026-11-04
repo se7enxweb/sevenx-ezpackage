@@ -1260,6 +1260,18 @@ Afbeeldingen worden in de mediabibliotheek geplaatst, zodat je ze in andere arti
         <source>Preview of event</source>
         <translation>Voorbeeld van evenement</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Downloaden</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Geen items gevonden.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1424,6 +1436,14 @@ Afbeeldingen worden in de mediabibliotheek geplaatst, zodat je ze in andere arti
     <message>
         <source>View as slideshow</source>
         <translation>Als diavoorstelling bekijken</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Sluiten</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pauzeren</translation>
     </message>
 </context>
 <context>
@@ -1783,6 +1803,54 @@ Afbeeldingen worden in de mediabibliotheek geplaatst, zodat je ze in andere arti
     <message>
         <source>Search text:</source>
         <translation>Zoektekst:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Hoofdnavigatie</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>In deze sectie</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Kruimelpad</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Talen</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Kleurmodus: Licht</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Kleurmodus: Donker</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Kleurmodus: Systeem volgen</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Meer</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Alles tonen</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Mogelijk gemaakt door</translation>
     </message>
 </context>
 <context>

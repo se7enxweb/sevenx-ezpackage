@@ -1,8 +1,6 @@
 {set-block scope=global variable=title}{'Poll %pollname'|i18n( 'design/ezwebin/collectedinfo/poll', , hash( '%pollname', $node.name|wash() ) )}{/set-block}
 
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc">
 
 <div class="content-view-full">
     <div class="class-poll">
@@ -40,55 +38,22 @@
 
                 <h3>{$contentobject_attribute.content.name}</h3>
 
-                <table class="poll-resultlist">
-                <tr>
-
+                <ul class="poll-resultlist">
                 {foreach $contentobject_attribute.content.option_list as $option}
                     {def $item_count=0}
                     {if is_set( $item_counts[$option.id] )}
                         {set $item_count=$item_counts[$option.id]}
                     {/if}
-                    <td class="poll-resultname">
-                        <p>
-                            {$option.value}
-                        </p>
-                    </td>
-
-                    {def $percentage=cond( $total_count|gt( 0 ), round( div( mul( $item_count, 100 ), $total_count ) ), 0 )
-                         $tenth=cond( $total_count|gt( 0 ), round( div( mul( $item_count, 10 ), $total_count ) ), 0 )}
-                    <td class="poll-resultbar">
-                        <table class="poll-resultbar">
-                        <tr>
-                            <td class="poll-percentage">
-                                <i>{$percentage}%</i>
-                            </td>
-                            <td class="poll-votecount">
-                                {'Votes'|i18n( 'design/ezwebin/collectedinfo/poll' )}: {$item_count}
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                            <div class="chart-bar-edge-start">
-                                <div class="chart-bar-edge-end">
-                                    <div class="chart-bar-resultbox">
-                                        <div class="chart-bar-resultbar chart-bar-{$percentage}-of-100 chart-bar-{$tenth}-of-10" style="width: {$percentage}%;">
-                                            <div class="chart-bar-result-divider"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </td>
-                        </tr>
-                        </table>
-                    </td>
-                    {delimiter}
-                </tr>
-                <tr>
-                    {/delimiter}
-                    {undef $item_count $percentage $tenth}
+                    {def $percentage=cond( $total_count|gt( 0 ), round( div( mul( $item_count, 100 ), $total_count ) ), 0 )}
+                    <li class="poll-result">
+                        <span class="poll-resultname" id="poll-option-{$option.id}">{$option.value}</span>
+                        <meter class="poll-resultbar chart-bar-resultbar" min="0" max="100" value="{$percentage}" aria-labelledby="poll-option-{$option.id}">{$percentage}%</meter>
+                        <span class="poll-percentage">{$percentage}%</span>
+                        <span class="poll-votecount">{'Votes'|i18n( 'design/ezwebin/collectedinfo/poll' )}: {$item_count}</span>
+                    </li>
+                    {undef $item_count $percentage}
                 {/foreach}
-                </tr>
-                </table>
+                </ul>
             {else}
                 {if $attribute_hide_list|contains( $contentobject_attribute_item.contentclass_attribute.identifier )|not}
                     <div class="attribute-short">{attribute_view_gui attribute=$contentobject_attribute_item}</div>
@@ -111,6 +76,4 @@
     </div>
 </div>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

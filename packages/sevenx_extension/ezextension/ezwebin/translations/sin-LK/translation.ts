@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>සිදුවීමේ පෙරදසුන</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>දින දර්ශනය</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>බාගන්න</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>අයිතම හමු නොවීය.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>ස්ලයිඩ් ප්‍රදර්ශනයක් ලෙස බලන්න</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>වසන්න</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>විරාම කරන්න</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>සෙවුම් පෙළ:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>මෙනුව</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>ප්‍රධාන සංචාලනය</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>මෙම කොටසේ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>සබැඳි</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>බ්‍රෙඩ්ක්‍රම්බ්ස්</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>භාෂා</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>වර්ණ ප්‍රකාරය: ආලෝක</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>වර්ණ ප්‍රකාරය: අඳුරු</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>වර්ණ ප්‍රකාරය: පද්ධතියට අනුව</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>තවත්</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>සියල්ල පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>බලගන්වන ලද්දේ</translation>
     </message>
 </context>
 <context>

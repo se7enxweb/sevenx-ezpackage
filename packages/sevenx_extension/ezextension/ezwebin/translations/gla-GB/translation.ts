@@ -1256,6 +1256,18 @@ Thèid na dealbhan a chur ann an leabharlann nam meadhanan gus an ath-chleachdad
         <source>Preview of event</source>
         <translation>Ro-shealladh dhen tachartas</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Mìosachan</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Luchdaich a-nuas</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Cha deach nì a lorg.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Thèid na dealbhan a chur ann an leabharlann nam meadhanan gus an ath-chleachdad
     <message>
         <source>View as slideshow</source>
         <translation>Seall mar thaisbeanadh-sleamhnagan</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Dùin</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Cuir stad</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Thèid na dealbhan a chur ann an leabharlann nam meadhanan gus an ath-chleachdad
     <message>
         <source>Search text:</source>
         <translation>Teacsa-luirg:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Clàr-taice</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Prìomh sheòladaireachd</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Anns an earrann seo</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ceanglaichean</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Lorg-slighe</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Cànanan</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Modh dathan: Soilleir</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Modh dathan: Dorcha</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Modh dathan: Lean an siostam</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Barrachd</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Seall na h-uile</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Le cumhachd o</translation>
     </message>
 </context>
 <context>

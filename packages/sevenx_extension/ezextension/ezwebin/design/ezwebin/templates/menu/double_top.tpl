@@ -1,10 +1,8 @@
 {if $pagedata.is_edit}{ezscript( array( 'ezwebin_actions.js' ) )}{/if}
 <div class="topmenu-design">
     <!-- Top menu content: START -->
-    <div id="topmenu-firstlevel-overlay"></div>
-
     <div id="topmenu-firstlevel-position">
-        <ul id="topmenu-firstlevel">
+        <ul id="topmenu-firstlevel" data-ezwebin-keynav="horizontal">
         {def $root_node = fetch( 'content', 'node', hash( 'node_id', $pagedata.root_node ) )
              $top_menu_class_filter = ezini( 'MenuContentSettings', 'TopIdentifierList', 'menu.ini' )
              $top_menu_items = fetch( 'content', 'list', hash( 'parent_node_id', $root_node.node_id,
@@ -38,20 +36,18 @@
                 {/if}
 
                 {if eq( $item.class_identifier, 'link')}
-                    <li id="node_id_{$item.node_id}"{if $item_class} class="{$item_class|implode(" ")}"{/if}><div><a {if eq( $ui_context, 'browse' )}href={concat("content/browse/", $item.node_id)|ezurl}{else}href={$item.data_map.location.content|ezurl}{if and( is_set( $item.data_map.open_in_new_window ), $item.data_map.open_in_new_window.data_int )} target="_blank"{/if}{/if}{if $pagedata.is_edit} data-ezwebin-noop="1"{/if} title="{$item.data_map.location.data_text|wash}" class="menu-item-link" rel={$item.url_alias|ezurl}><span>{if $item.data_map.location.data_text}{$item.data_map.location.data_text|wash()}{else}{$item.name|wash()}{/if}</span></a></div></li>
+                    <li id="node_id_{$item.node_id}"{if $item_class} class="{$item_class|implode(" ")}"{/if}><a{if $item.node_id|eq( $current_node_id )} aria-current="page"{/if} {if eq( $ui_context, 'browse' )}href={concat("content/browse/", $item.node_id)|ezurl}{else}href={$item.data_map.location.content|ezurl}{if and( is_set( $item.data_map.open_in_new_window ), $item.data_map.open_in_new_window.data_int )} target="_blank" rel="noopener"{/if}{/if}{if $pagedata.is_edit} data-ezwebin-noop="1"{/if} class="menu-item-link">{if $item.data_map.location.data_text}{$item.data_map.location.data_text|wash()}{else}{$item.name|wash()}{/if}</a></li>
                 {else}
-                    <li id="node_id_{$item.node_id}"{if $item_class} class="{$item_class|implode(" ")}"{/if}><div><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}{if $pagedata.is_edit} data-ezwebin-noop="1"{/if}><span>{$item.name|wash()}</span></a></div></li>
+                    <li id="node_id_{$item.node_id}"{if $item_class} class="{$item_class|implode(" ")}"{/if}><a{if $item.node_id|eq( $current_node_id )} aria-current="page"{/if} href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}{if $pagedata.is_edit} data-ezwebin-noop="1"{/if}>{$item.name|wash()}</a></li>
                 {/if}
             {/foreach}
         {/if}
         </ul>
     </div>
 
-    {if $level_2_items|count()}
-    <div id="topmenu-secondlevel-overlay"></div>
-        
+    {if $level_2_items|count()}        
     <div id="topmenu-secondlevel-position">
-        <ul id="topmenu-secondlevel">
+        <ul id="topmenu-secondlevel" data-ezwebin-keynav="horizontal">
             {foreach $level_2_items as $key => $item}
                 {set $item_class = array()}
                 {if $current_node_in_path_2|eq($item.node_id)}
@@ -68,9 +64,9 @@
                 {/if}
 
                 {if eq( $item.class_identifier, 'link')}
-                    <li id="node_id_{$item.node_id}"{if $item_class} class="{$item_class|implode(" ")}"{/if}><div><a {if eq( $ui_context, 'browse' )}href={concat("content/browse/", $item.node_id)|ezurl}{else}href={$item.data_map.location.content|ezurl}{if and( is_set( $item.data_map.open_in_new_window ), $item.data_map.open_in_new_window.data_int )} target="_blank"{/if}{/if}{if $pagedata.is_edit} data-ezwebin-noop="1"{/if} title="{$item.data_map.location.data_text|wash}" class="menu-item-link" rel={$item.url_alias|ezurl}><span>{if $item.data_map.location.data_text}{$item.data_map.location.data_text|wash()}{else}{$item.name|wash()}{/if}</span></a></div></li>
+                    <li id="node_id_{$item.node_id}"{if $item_class} class="{$item_class|implode(" ")}"{/if}><a{if $item.node_id|eq( $current_node_id )} aria-current="page"{/if} {if eq( $ui_context, 'browse' )}href={concat("content/browse/", $item.node_id)|ezurl}{else}href={$item.data_map.location.content|ezurl}{if and( is_set( $item.data_map.open_in_new_window ), $item.data_map.open_in_new_window.data_int )} target="_blank" rel="noopener"{/if}{/if}{if $pagedata.is_edit} data-ezwebin-noop="1"{/if} class="menu-item-link">{if $item.data_map.location.data_text}{$item.data_map.location.data_text|wash()}{else}{$item.name|wash()}{/if}</a></li>
                 {else}
-                    <li id="node_id_{$item.node_id}"{if $item_class} class="{$item_class|implode(" ")}"{/if}><div><a href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}{if $pagedata.is_edit} data-ezwebin-noop="1"{/if}><span>{$item.name|wash()}</span></a></div></li>
+                    <li id="node_id_{$item.node_id}"{if $item_class} class="{$item_class|implode(" ")}"{/if}><a{if $item.node_id|eq( $current_node_id )} aria-current="page"{/if} href={if eq( $ui_context, 'browse' )}{concat("content/browse/", $item.node_id)|ezurl}{else}{$item.url_alias|ezurl}{/if}{if $pagedata.is_edit} data-ezwebin-noop="1"{/if}>{$item.name|wash()}</a></li>
                 {/if}
             {/foreach}
         </ul>

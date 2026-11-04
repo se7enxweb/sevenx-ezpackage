@@ -1256,6 +1256,18 @@ Picha huwekwa kwenye maktaba ya midia ili uweze kuzitumia tena katika makala nyi
         <source>Preview of event</source>
         <translation>Onyesho la kukagua la tukio</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Pakua</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Hakuna vipengee vilivyopatikana.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Picha huwekwa kwenye maktaba ya midia ili uweze kuzitumia tena katika makala nyi
     <message>
         <source>View as slideshow</source>
         <translation>Tazama kama onyesho la slaidi</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Funga</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Sitisha</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Picha huwekwa kwenye maktaba ya midia ili uweze kuzitumia tena katika makala nyi
     <message>
         <source>Search text:</source>
         <translation>Maandishi ya utafutaji:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menyu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Urambazaji mkuu</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Katika sehemu hii</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Viungo</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Njia ya urambazaji</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Lugha</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Hali ya rangi: Angavu</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Hali ya rangi: Giza</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Hali ya rangi: Fuata mfumo</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Zaidi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Onyesha zote</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Inaendeshwa na</translation>
     </message>
 </context>
 <context>

@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>ຕົວຢ່າງເຫດການ</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ປະຕິທິນ</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ດາວໂຫຼດ</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>ບໍ່ພົບລາຍການ.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>ເບິ່ງເປັນສະໄລໂຊ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ປິດ</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>ຢຸດຊົ່ວຄາວ</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>ຂໍ້ຄວາມຄົ້ນຫາ:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>ເມນູ</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>ການນຳທາງຫຼັກ</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>ໃນພາກນີ້</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ລິ້ງ</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ເສັ້ນທາງນຳທາງ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ພາສາ</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>ໂໝດສີ: ແຈ້ງ</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>ໂໝດສີ: ມືດ</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>ໂໝດສີ: ຕາມລະບົບ</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ເພີ່ມເຕີມ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ສະແດງທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>ຂັບເຄື່ອນໂດຍ</translation>
     </message>
 </context>
 <context>

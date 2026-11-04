@@ -1335,6 +1335,18 @@ Bilder werden in der Medienbibliothek abgelegt, damit Sie sie in anderen Artikel
         <source>Preview of event</source>
         <translation>Vorschau der Veranstaltung</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Herunterladen</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Keine Einträge gefunden.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1499,6 +1511,14 @@ Bilder werden in der Medienbibliothek abgelegt, damit Sie sie in anderen Artikel
     <message>
         <source>View as slideshow</source>
         <translation>Als Dia-Show ansehen</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Anhalten</translation>
     </message>
 </context>
 <context>
@@ -1858,6 +1878,54 @@ Bilder werden in der Medienbibliothek abgelegt, damit Sie sie in anderen Artikel
     <message>
         <source>Search text:</source>
         <translation>Suchtext:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menü</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Hauptnavigation</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>In diesem Bereich</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Brotkrumennavigation</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Sprachen</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Farbmodus: Hell</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Farbmodus: Dunkel</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Farbmodus: Wie das System</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mehr</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Alle zeigen</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Betrieben von</translation>
     </message>
 </context>
 <context>

@@ -1256,6 +1256,18 @@ Wobraze se w medijowej bibliotece składuju, tak až móžośo je w drugich nast
         <source>Preview of event</source>
         <translation>Pśeglěd tšojenja</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Ześěgnuś</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Žedne zapiski njejsu se namakali.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Wobraze se w medijowej bibliotece składuju, tak až móžośo je w drugich nast
     <message>
         <source>View as slideshow</source>
         <translation>Ako diashow pokazaś</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zacyniś</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pśestajiś</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Wobraze se w medijowej bibliotece składuju, tak až móžośo je w drugich nast
     <message>
         <source>Search text:</source>
         <translation>Pytański tekst:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Meni</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Głowna nawigacija</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>W toś tom wótrězku</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Wótkaze</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Nawigaciska sćažka</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Rěcy</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Barwowy modus: Swětły</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Barwowy modus: Śamny</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Barwowy modus: Pó systemje</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Wěcej</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Wšykno pokazaś</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Z pomocu</translation>
     </message>
 </context>
 <context>

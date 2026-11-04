@@ -1258,6 +1258,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>תצוגה מקדימה של האירוע</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>לוח שנה</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>הורדה</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>לא נמצאו פריטים.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1422,6 +1434,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>הצגה כמצגת</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>סגירה</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>השהיה</translation>
     </message>
 </context>
 <context>
@@ -1781,6 +1801,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>טקסט לחיפוש:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>תפריט</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>ניווט ראשי</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>בחלק זה</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>קישורים</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>פירורי לחם</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>שפות</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>מצב צבע: בהיר</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>מצב צבע: כהה</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>מצב צבע: לפי המערכת</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>עוד</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>הצגת הכול</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>מופעל על ידי</translation>
     </message>
 </context>
 <context>

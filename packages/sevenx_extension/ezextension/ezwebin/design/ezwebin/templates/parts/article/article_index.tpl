@@ -7,8 +7,6 @@
 {if $article_subpages|count}
         <div class="attribute-article-index">
             <div class="border-box">
-            <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-            <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
         <h2>{'Article index'|i18n( 'design/ezwebin/article/article_index' )}</h2>
 
@@ -50,8 +48,6 @@
                 {/if}
             {/foreach}
             </ol>
-            </div></div></div>
-            <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
             </div>
         </div>
 {/if}

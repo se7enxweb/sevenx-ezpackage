@@ -1256,6 +1256,18 @@ Imifanekiso ibekwa kwilayibrari yemidiya ukuze niyisebenzise kwakhona kwamanye a
         <source>Preview of event</source>
         <translation>Jonga kuqala umsitho</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Ikhalenda</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Khuphela</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Akukho zinto zifunyenweyo.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Imifanekiso ibekwa kwilayibrari yemidiya ukuze niyisebenzise kwakhona kwamanye a
     <message>
         <source>View as slideshow</source>
         <translation>Jonga njengeslayidishowu</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Vala</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Misa okwethutyana</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Imifanekiso ibekwa kwilayibrari yemidiya ukuze niyisebenzise kwakhona kwamanye a
     <message>
         <source>Search text:</source>
         <translation>Umbhalo wokukhangela:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Imenyu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Uhambo oluphambili</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Kweli candelo</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Amakhonkco</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Umkhondo wekhonkco</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Iilwimi</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Imowudi yombala: Ekhanyayo</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Imowudi yombala: Emnyama</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Imowudi yombala: Landela inkqubo</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ngakumbi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Bonisa zonke</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Ixhaswa ngu</translation>
     </message>
 </context>
 <context>

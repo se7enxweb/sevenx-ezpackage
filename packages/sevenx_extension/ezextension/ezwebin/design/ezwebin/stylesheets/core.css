@@ -1,588 +1,664 @@
-/* CORE CSS - 20060601 */
+/*
+ * ezwebin core.css: the design tokens (light and dark), the base elements, forms, tables, messages and the
+ * position classes the content templates and the XML text use (object-left, object-right ...).
+ *
+ * Every color, radius, space and font of the design comes from the --ew-* tokens below; pagelayout.css and
+ * content.css use only these. Dark mode: the system's (prefers-color-scheme) unless the visitor chose a mode with
+ * the header's switch (html[data-exp-theme], set by ezwebin-theme.js), the same attribute the other Exponential
+ * designs use. The accent follows the site's design package (body[data-ezwebin-skin]: blue, gray, cleangray ...).
+ */
 
+/* TOKENS */
 
-/* BODY */
-
-body /* These becomes the initial settings for most other elements */
+:root
 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
-    color: #535548;
-    background-color: #ffffff;
-    background-image: url(../images/body_bg.png);
-    background-repeat: repeat-x;
-    text-align: center; /* IE method for centering page if it has fixed width */
+    color-scheme: light;
+    --ew-bg: #f5f6f8;
+    --ew-surface: #ffffff;
+    --ew-surface-2: #eef1f5;
+    --ew-surface-3: #e2e7ee;
+    --ew-text: #1b1f24;
+    --ew-muted: #545d69;
+    --ew-border: #cfd6df;
+    --ew-border-strong: #8a95a3;
+    --ew-accent: #1d5fbf;
+    --ew-accent-hover: #164a96;
+    --ew-accent-contrast: #ffffff;
+    --ew-accent-soft: #e3edfb;
+    --ew-link: #1a56b0;
+    --ew-link-visited: #5b3b9e;
+    --ew-focus: #1d5fbf;
+    --ew-danger: #b42318;
+    --ew-danger-soft: #fdecea;
+    --ew-success: #1e7b3c;
+    --ew-success-soft: #e6f4ea;
+    --ew-warning: #8a5a00;
+    --ew-warning-soft: #fff4d6;
+    --ew-shadow: 0 1px 2px rgb(16 24 40 / 0.06), 0 2px 8px rgb(16 24 40 / 0.06);
+    --ew-shadow-raised: 0 8px 30px rgb(16 24 40 / 0.18);
+    --ew-overlay: rgb(10 12 16 / 0.92);
+    --ew-radius: 0.75rem;
+    --ew-radius-large: 1.25rem;
+    --ew-radius-pill: 999px;
+    --ew-radius-small: 0.25rem;
+    --ew-space-1: 0.25rem;
+    --ew-space-2: 0.5rem;
+    --ew-space-3: 0.75rem;
+    --ew-space-4: 1rem;
+    --ew-space-5: 1.5rem;
+    --ew-space-6: 2rem;
+    --ew-space-7: 3rem;
+    --ew-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --ew-font-heading: var(--ew-font);
+    --ew-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --ew-line: 1.6;
+    --ew-page-width: 76rem;
+    --ew-gutter: max(1rem, calc((100% - var(--ew-page-width)) / 2));
+    --ew-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+    --ew-hero-from: #1e1b4b;
+    --ew-hero-to: #0e7490;
+    --ew-on-hero: #ffffff;
+    --ew-footer-bg: #0f172a;
+    --ew-footer-text: #cbd5e1;
+    --ew-footer-link: #ffffff;
+    --ew-header-bg: rgb(255 255 255 / 0.85);
+    --ew-side-width: 15rem;
+    --ew-extra-width: 17rem;
+    --ew-target: 2.75rem;
+}
+
+@media (prefers-color-scheme: dark)
+{
+    :root:not([data-exp-theme="light"])
+    {
+        color-scheme: dark;
+        --ew-bg: #0f1216;
+        --ew-surface: #171b21;
+        --ew-surface-2: #1f252d;
+        --ew-surface-3: #2a313b;
+        --ew-text: #e8ecf1;
+        --ew-muted: #a8b2bf;
+        --ew-border: #343c47;
+        --ew-border-strong: #6b7685;
+        --ew-accent: #7fb0ff;
+        --ew-accent-hover: #a6c8ff;
+        --ew-accent-contrast: #0b1220;
+        --ew-accent-soft: #1a2a44;
+        --ew-link: #8dbaff;
+        --ew-link-visited: #c4a8ff;
+        --ew-focus: #8dbaff;
+        --ew-danger: #ff8a80;
+        --ew-danger-soft: #3a1a18;
+        --ew-success: #6fd08f;
+        --ew-success-soft: #14301f;
+        --ew-warning: #f5c35b;
+        --ew-warning-soft: #3a2e10;
+        --ew-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 2px 8px rgb(0 0 0 / 0.3);
+        --ew-shadow-raised: 0 8px 30px rgb(0 0 0 / 0.6);
+        --ew-overlay: rgb(0 0 0 / 0.94);
+        --ew-header-bg: rgb(23 27 33 / 0.85);
+        --ew-footer-bg: #090c10;
+        --ew-footer-text: #a8b2bf;
+    }
+}
+
+:root[data-exp-theme="dark"]
+{
+    color-scheme: dark;
+    --ew-bg: #0f1216;
+    --ew-surface: #171b21;
+    --ew-surface-2: #1f252d;
+    --ew-surface-3: #2a313b;
+    --ew-text: #e8ecf1;
+    --ew-muted: #a8b2bf;
+    --ew-border: #343c47;
+    --ew-border-strong: #6b7685;
+    --ew-accent: #7fb0ff;
+    --ew-accent-hover: #a6c8ff;
+    --ew-accent-contrast: #0b1220;
+    --ew-accent-soft: #1a2a44;
+    --ew-link: #8dbaff;
+    --ew-link-visited: #c4a8ff;
+    --ew-focus: #8dbaff;
+    --ew-danger: #ff8a80;
+    --ew-danger-soft: #3a1a18;
+    --ew-success: #6fd08f;
+    --ew-success-soft: #14301f;
+    --ew-warning: #f5c35b;
+    --ew-warning-soft: #3a2e10;
+    --ew-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 2px 8px rgb(0 0 0 / 0.3);
+    --ew-shadow-raised: 0 8px 30px rgb(0 0 0 / 0.6);
+    --ew-overlay: rgb(0 0 0 / 0.94);
+    --ew-header-bg: rgb(23 27 33 / 0.85);
+    --ew-footer-bg: #090c10;
+    --ew-footer-text: #a8b2bf;
+}
+
+/* The accent of the site's design package (ezwebin_design_<name>), light and dark */
+[data-ezwebin-skin="blue"] { --ew-accent: #005493; --ew-accent-hover: #003f6f; --ew-link: #005493; --ew-focus: #005493; --ew-accent-soft: #e0eef8; }
+[data-ezwebin-skin="gray"] { --ew-accent: #3f4a57; --ew-accent-hover: #2b333d; --ew-link: #2f5d8a; --ew-focus: #2f5d8a; --ew-accent-soft: #e7eaee; }
+[data-ezwebin-skin="cleangray"] { --ew-accent: #4a5563; --ew-accent-hover: #353d48; --ew-link: #2f5d8a; --ew-focus: #2f5d8a; --ew-accent-soft: #eceef1; }
+
+@media (prefers-color-scheme: dark)
+{
+    :root:not([data-exp-theme="light"]) [data-ezwebin-skin="blue"] { --ew-accent: #6cb4ec; --ew-accent-hover: #98cbf2; --ew-link: #7cc0f2; --ew-focus: #7cc0f2; --ew-accent-soft: #10283b; }
+    :root:not([data-exp-theme="light"]) [data-ezwebin-skin="gray"],
+    :root:not([data-exp-theme="light"]) [data-ezwebin-skin="cleangray"] { --ew-accent: #b8c2cf; --ew-accent-hover: #d3dae3; --ew-link: #8fb8e6; --ew-focus: #8fb8e6; --ew-accent-soft: #252b33; }
+}
+
+:root[data-exp-theme="dark"] [data-ezwebin-skin="blue"] { --ew-accent: #6cb4ec; --ew-accent-hover: #98cbf2; --ew-link: #7cc0f2; --ew-focus: #7cc0f2; --ew-accent-soft: #10283b; }
+:root[data-exp-theme="dark"] [data-ezwebin-skin="gray"],
+:root[data-exp-theme="dark"] [data-ezwebin-skin="cleangray"] { --ew-accent: #b8c2cf; --ew-accent-hover: #d3dae3; --ew-link: #8fb8e6; --ew-focus: #8fb8e6; --ew-accent-soft: #252b33; }
+
+/* BASE */
+
+*, *::before, *::after
+{
+    box-sizing: border-box;
+}
+
+html
+{
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background-color: var(--ew-bg);
+}
+
+body
+{
     margin: 0;
-    padding: 0;
+    background-color: var(--ew-bg);
+    color: var(--ew-text);
+    font-family: var(--ew-font);
+    font-size: 1rem;
+    line-height: var(--ew-line);
+    overflow-wrap: break-word;
+}
+
+img, video, svg, canvas, iframe, object, embed
+{
+    max-width: 100%;
+}
+
+img, video
+{
+    height: auto;
+}
+
+img
+{
+    border: 0;
+    vertical-align: middle;
 }
 
 /* HEADINGS */
 
-h1, h2, h3, h4, h5, h6 /* Set general styles for all headings; some may be overridden later */
+h1, h2, h3, h4, h5, h6
 {
-    font-weight: bold;
-    font-style: normal;
-    margin: 0 0 0.5em 0;
-    padding: 0;
+    margin: 0 0 var(--ew-space-3);
+    font-family: var(--ew-font-heading);
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--ew-text);
 }
 
-h1
+h1 { font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.25rem); }
+h2 { font-size: clamp(1.3rem, 1.1rem + 0.8vw, 1.6rem); }
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.05rem; }
+h5, h6 { font-size: 1rem; }
+
+/* PARAGRAPHS AND TEXT */
+
+p, ul, ol, dl, pre, blockquote, table, fieldset, figure
 {
-    margin-top: 0;
-    font-size: 1.4em;
-    font-weight: normal;
+    margin: 0 0 var(--ew-space-4);
 }
 
-h2
+small, .small { font-size: 0.875rem; }
+
+hr, .hr
 {
-    font-size: 1.3em;
+    height: 0;
+    margin: var(--ew-space-5) 0;
+    border: 0;
+    border-top: 1px solid var(--ew-border);
 }
-
-h3
-{
-    font-size: 1.2em;
-}
-
-h4
-{
-    font-size: 1.1em;
-}
-
-h5
-{
-    font-size: 1em;
-}
-
-h6
-{
-    font-size: 1em;
-    font-weight: normal;
-}
-
-
-/* PARAGRAPHS */
-
-p
-{
-    margin: 0.5em 0 0.5em 0;
-    line-height: 1.25em; /* This is aprox. default line height in most popular browsers; set explicitly to ensure consitency. */
-}
-
 
 /* LINKS */
 
 a
 {
-    color: #048FFD;
-    text-decoration: underline;
+    color: var(--ew-link);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
 }
 
 a:hover
 {
-    color: #000000;
-    cursor: pointer;
-    text-decoration: underline;
+    color: var(--ew-accent-hover);
+    text-decoration-thickness: 2px;
 }
 
-a img
+:focus-visible
 {
-    border: none; /* Some browsers may display a border around a linked image without this attribute set to _none_. */
+    outline: 3px solid var(--ew-focus);
+    outline-offset: 2px;
+    border-radius: var(--ew-radius-small);
 }
-
 
 /* PRE TEXT */
 
-pre, code
+pre, code, kbd, samp, tt
 {
-    font-family: "Courier New", Courier, monospace; /* Usually defaulted to monospaced font anyway, but browwsers may vary which one is used, so giving exact alternatives helps visual consistenct */
-    font-size: 1em; /* Setting this exact size may also help visual consistency */
+    font-family: var(--ew-font-mono);
+    font-size: 0.9em;
 }
 
 pre
 {
-    background-color: #f8f8f8;
-    margin: 1em 0 1em 0;
-    padding: 0.2em;
-    border: 1px solid #e0e0e0;
+    padding: var(--ew-space-4);
+    overflow-x: auto;
+    background-color: var(--ew-surface-2);
+    border: 1px solid var(--ew-border);
+    border-radius: var(--ew-radius);
 }
 
-pre.wordwrap /* Style for ensuring long lines in pre field won't break the design; use &nbsp; instead to preserve white-space where desired */
+blockquote
 {
-    white-space: normal;
+    padding: var(--ew-space-2) var(--ew-space-4);
+    border-left: 4px solid var(--ew-accent);
+    color: var(--ew-muted);
 }
-
-pre.wordwrap span.line /* Style for tag wrapping around each line of text */
-{
-    display: block;
-}
-
 
 /* TABLES */
 
 table
 {
-    font-size: 1em; /* Fix for size "loss" in tables in IE; redundant for most other browsers */
-    margin: 0;
-    padding: 0;
+    border-collapse: collapse;
+    max-width: 100%;
 }
 
 th, td
 {
-    padding: 0;
+    padding: var(--ew-space-2) var(--ew-space-3);
+    vertical-align: top;
+    text-align: left;
 }
 
-table.list /* Standard class usable for most regular tables presenting lists, with additional related styles */
+th
+{
+    font-weight: 600;
+}
+
+table.list, table.renderedtable, table.default, table.cols, table.comparison
 {
     width: 100%;
-    margin: 1em 0 1em 0;
-    border: none;
+    background-color: var(--ew-surface);
+    border: 1px solid var(--ew-border);
 }
 
-table.list th, table.list td
+table.list th, table.renderedtable th, table.default th, table.cols th, table.comparison th
 {
-    padding: 0.5em;
-    border-right: 1px solid #ffffff;
-    border-bottom: none;
-    vertical-align: top;
+    background-color: var(--ew-surface-2);
+    border-bottom: 1px solid var(--ew-border-strong);
 }
 
-table.list th
+table.list td, table.renderedtable td, table.default td, table.cols td, table.comparison td
 {
-    font-weight: bold;
-    color: #525345;
-    background-color: #DFDFDF;
-    white-space: nowrap;
-    text-align: left;
-    background-image: url(../images/th_bg.png);
-    background-repeat: repeat-x;
-    background-position: top left;
+    border-top: 1px solid var(--ew-border);
 }
 
-table.list td
+tr.bglight, .bglight { background-color: var(--ew-surface); }
+tr.bgdark, .bgdark { background-color: var(--ew-surface-2); }
+
+td.cell-flush { padding: 0; }
+
+/* Wide tables scroll inside their column instead of widening the page */
+.table-scroll, .attribute-long table, .attribute-body table
 {
-    border-top: 1px solid #f8f8f8;
-    font-weight: normal;
+    display: block;
+    overflow-x: auto;
 }
 
-table.list th:first-child, table.list td:first-child
-{
-    border-left: 1px solid #ffffff;
-}
-
-table.list tr.bglight
-{
-    background-color: #F1F1ED;
-}
-
-table.list tr.bgdark
-{
-    background-color: #EAE9E1;
-}
-
-table.list tr.bglight:hover, table.list tr.bgdark:hover /* This has no effect in IE6 and below */
-{
-    background-color: #ffffff;
-}
-
-table.list tr.bglight:hover td, table.list tr.bgdark:hover td
-{
-    border-color: #ffffff;
-}
-
-table.list a
-{
-    border-bottom-color: #EAE9E1;
-}
-
-table.list img
-{
-    vertical-align: middle;
-}
-
-th.tight, td.tight
-{
-    width: 1%;
-}
-
-td.nowrap
-{
-    white-space: nowrap;
-}
-
-td.number
-{
-    text-align: right;
-}
-
-/* ORDERED AND UNORDERED LISTS */
+/* LISTS */
 
 ul, ol
 {
-    margin: 0.75em 0 1em 2.5em;
-    padding: 0;
-}
-
-ul ul, ol ul
-{
-    margin: 0.3em 0 0.5em 1.3em;
-}
-
-ul ol, ol ol
-{
-    margin: 0.3em 0 0.5em 1.9em;
+    padding-left: 1.5rem;
 }
 
 li
 {
-    margin: 0 0 0.3em 0;
-    padding: 0;
-    line-height: 1.25em;
-}
-
-/* DEFINITION LISTS */
-
-dl
-{
-    margin: 0.25em 0 0.25em 0;
-    padding: 0;
-}
-
-dt, dd
-{
-    font-style: normal;
-    margin: 0 0 0.25em 0;
+    margin-bottom: var(--ew-space-1);
 }
 
 dt
 {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 dd
 {
-    margin: 0 1em 0.5em 2.5em;
+    margin: 0 0 var(--ew-space-2) var(--ew-space-4);
 }
-
 
 /* FORM ELEMENTS */
 
-form
-{
-    margin: 0;
-    padding: 0;
-}
-
-label
-{
-    font-weight: bold;
-    padding-right: 0.5em;
-    display: block;
-    white-space: nowrap;
-}
-
-input, select
-{
-    font-family: Arial, Helvetica, sans-serif; /* Needs to be set for some browsers, to prevent other default font from being used */
-}
-
-input.box, input.halfbox
-{
-    font-size: 1em;
-}
-
-textarea
-{
-    font-family: Arial, Helvetica, sans-serif; /* Usually defaulted to monospaced font; so it needs to be set if to change */
-    font-size: 1em; /* Needs to be specified for IE */
-}
-
-optgroup
-{
-    font-weight: bold;
-    font-style: normal;
-}
-
-input.button, button, input.defaultbutton, input.button-disabled
-{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    font-size: 0.8em;
-    color: #343434;
-}
-
-input.defaultbutton
-{
-	font-weight: bold;
-}
-
-input.button-disabled
-{
-    cursor: default;
-    color: #999;
-}
-
-input.box, textarea.box
-{
-    width: 100%;
-    border: 1px solid #A5ACB2;
-    font-size: 1em;
-}
-
-input.halfbox, textarea.halfbox
-{
-    width: 48%;
-}
-
-div.input, div.textarea
-{
-    margin: 0.5em 0 0.5em 0;
-    padding: 0 0.25em 0 0.25em;
-    border: 1px solid;
-    border-color: #808080 #e0e0e0 #e0e0e0 #808080;
-}
-
-div.textarea
-{
-    padding-right: 0;
-}
-
-div.input input, div.textarea textarea
-{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
 fieldset
 {
-    border: 1px solid #ccccc3;
-    padding: 0.5em;
+    padding: var(--ew-space-4);
+    border: 1px solid var(--ew-border);
+    border-radius: var(--ew-radius);
+    min-width: 0;
 }
 
 legend
 {
-    font-weight: bold;
-    color: #000000;
-    padding: 0 0.25em 0 0.25em;
+    padding: 0 var(--ew-space-2);
+    font-weight: 600;
 }
 
-fieldset label
+label
 {
-    color: #000000;
+    display: block;
+    margin-bottom: var(--ew-space-1);
+    font-weight: 600;
 }
 
-fieldset input.button, fieldset input.defaultbutton, fieldset input.button-disabled
+label.inline-label, .inline-label
 {
-    margin-top: 0.5em;
+    display: inline;
+    font-weight: 400;
+    margin-left: var(--ew-space-1);
 }
 
-/* HORIZONTAL RULERS */
-
-hr /* General formatting for all horizontal rulers */
+input, select, textarea, button
 {
-    color: #ffffff; /* Color must be set to the same as the background color to hide default formatting in IE */
-    border: none; /* All borders must be removed as they are default for Opera */
-    border-top: 1px solid #e0e0e0; /* This single top border is the one replacing the default look of the ruler */
-    height: 1px;
-    margin: 0.35em 0 0.35em 0; /* Be aware that these margins may not be calculated consistently across browsers */
+    font: inherit;
+    color: inherit;
 }
 
+input[type="text"], input[type="search"], input[type="email"], input[type="password"], input[type="url"],
+input[type="number"], input[type="tel"], input[type="date"], input[type="file"], input:not([type]), select, textarea, .box
+{
+    max-width: 100%;
+    min-height: var(--ew-target);
+    padding: var(--ew-space-2) var(--ew-space-3);
+    background-color: var(--ew-surface);
+    color: var(--ew-text);
+    border: 1px solid var(--ew-border-strong);
+    border-radius: var(--ew-radius-small);
+}
+
+input.box, textarea.box, select.box
+{
+    width: 100%;
+}
+
+textarea
+{
+    width: 100%;
+    min-height: 8rem;
+    line-height: 1.5;
+}
+
+input[type="checkbox"], input[type="radio"]
+{
+    width: 1.125rem;
+    height: 1.125rem;
+    margin: 0 var(--ew-space-1) 0 0;
+    accent-color: var(--ew-accent);
+    vertical-align: -0.15em;
+}
+
+input:disabled, select:disabled, textarea:disabled
+{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+input.button, input.defaultbutton, input.button-disabled, button.button, button.defaultbutton, button.button-disabled,
+input[type="submit"], input[type="button"], input[type="reset"], a.button
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--ew-target);
+    padding: var(--ew-space-2) var(--ew-space-4);
+    background-color: var(--ew-surface);
+    color: var(--ew-accent);
+    border: 1px solid var(--ew-accent);
+    border-radius: var(--ew-radius-small);
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input.defaultbutton, button.defaultbutton
+{
+    background-color: var(--ew-accent);
+    color: var(--ew-accent-contrast);
+}
+
+input.button:hover, button.button:hover, a.button:hover, input[type="submit"]:hover, input[type="button"]:hover
+{
+    background-color: var(--ew-accent-soft);
+}
+
+input.defaultbutton:hover, button.defaultbutton:hover
+{
+    background-color: var(--ew-accent-hover);
+    color: var(--ew-accent-contrast);
+}
+
+input.button-disabled, button.button-disabled, input[type="submit"]:disabled, button:disabled
+{
+    color: var(--ew-muted);
+    border-color: var(--ew-border);
+    background-color: var(--ew-surface-2);
+    cursor: not-allowed;
+}
+
+input[type="image"]
+{
+    min-width: var(--ew-target);
+    min-height: var(--ew-target);
+    padding: var(--ew-space-2);
+}
+
+div.block, .block
+{
+    margin-bottom: var(--ew-space-4);
+}
+
+div.buttonblock, .buttonblock
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--ew-space-2);
+    margin: var(--ew-space-4) 0;
+}
+
+div.element, .element
+{
+    display: inline-block;
+    margin-right: var(--ew-space-3);
+    vertical-align: top;
+}
+
+.labelbreak { display: block; height: 0; }
+
+.required { color: var(--ew-danger); font-weight: 400; }
+.classattribute-description, .nontranslatable, .collector { color: var(--ew-muted); font-weight: 400; }
+
+.datepicker-button
+{
+    min-width: var(--ew-target);
+    min-height: var(--ew-target);
+    padding: var(--ew-space-1);
+    background: none;
+    border: 1px solid transparent;
+    border-radius: var(--ew-radius-small);
+    cursor: pointer;
+}
+
+.datepicker-button:hover { border-color: var(--ew-border); }
+.datepicker-container { position: absolute; z-index: 20; }
 
 /* MESSAGES TO THE USER */
 
-div.message-confirmation, div.message-feedback, div.message-warning, div.message-error, div.warning
+div.message-feedback, div.message-warning, div.message-error, div.message-confirmation, .warning, .feedback
 {
-    margin: 0.5em 0 1em 0;
-    padding: 0.5em 1em 0.5em 1em;
-    border: 6px solid #808080;
-    background-color: #f8f8f8;
+    margin: 0 0 var(--ew-space-4);
+    padding: var(--ew-space-3) var(--ew-space-4);
+    border: 1px solid var(--ew-border);
+    border-left-width: 4px;
+    border-radius: var(--ew-radius-small);
+    background-color: var(--ew-surface);
 }
 
-div.message-feedback
+div.message-feedback, .feedback, div.message-confirmation { border-left-color: var(--ew-success); background-color: var(--ew-success-soft); }
+div.message-warning, .warning { border-left-color: var(--ew-warning); background-color: var(--ew-warning-soft); }
+div.message-error { border-left-color: var(--ew-danger); background-color: var(--ew-danger-soft); }
+
+div.message-feedback h2, div.message-warning h2, div.message-error h2, .warning h2, .feedback h2
 {
-    border-color: #40b040;
+    font-size: 1.05rem;
+    margin-bottom: var(--ew-space-2);
 }
 
-div.message-warning, div.warning
+label.message-error, legend.message-error, span.message-error { color: var(--ew-danger); }
+
+/* POSITION CONTROL (the content templates and the XML text: images, embeds, tables, factboxes) */
+
+.object-left, div.object-left, img.object-left, table.object-left
 {
-    border-color: #c0c040;
+    float: left;
+    margin: 0 var(--ew-space-4) var(--ew-space-3) 0;
+    max-width: 50%;
 }
 
-div.message-error
+.object-right, div.object-right, img.object-right, table.object-right
 {
-    border-color: #c04040;
+    float: right;
+    margin: 0 0 var(--ew-space-3) var(--ew-space-4);
+    max-width: 50%;
 }
 
-
-/* The remaining styles are important for proper content rendering in eZ publish - Do not remove or alter them without proper knowledge of the possible consequences */
-
-/* POSITION CONTROL */
-
-div.block /* Used around groups of objects which are connected in some way, and requires extra margins to the surroundings */
+.object-center, div.object-center
 {
-    margin: 0.5em 0 0.5em 0;
-    padding: 0;
     clear: both;
-}
-
-div.block div.element, div.block div.halfelement /* Used if several objects are to be stacked horizontally within the same block */
-{
-    padding-right: 1em;
-    float: left;
-}
-
-div.halfelement
-{
-    width: 48%;
-}
-
-div.block div.left /* Floats elements to the left in a block */
-{
-    width: 48%;
-    float: left;
-    clear: left;
-}
-
-div.block div.right /* Floats elements to the right in a block */
-{
-    width: 48%;
-    float: right;
-    clear: right;
-}
-
-div.button-left
-{
-    float: left;
-}
-
-div.button-right
-{
-    float: right;
-}
-
-p.text-left, td.text-left, th.text-left, *.text-left
-{
-    text-align: left;
-}
-
-p.text-right, td.text-right, th.text-right, *.text-right
-{
-    text-align: right;
-}
-
-p.text-center, td.text-center, th.text-center, *.text-center
-{
+    margin: 0 auto var(--ew-space-4);
     text-align: center;
 }
 
-p.text-justify, td.text-justify, th.text-justify, *.text-justify
+table.object-center { margin-left: auto; margin-right: auto; }
+
+.left { float: left; }
+.right { float: right; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+
+.float-break::after, .content-view-full::after, .border-box::after
 {
-    text-align: justify;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-div.object-left, table.object-left /* Used for floating images and other content elements to the left inside other content */
+.break, div.break
 {
-    margin: 0.25em 0.25em 0.25em 0;
-    float: left;
-    clear: left;
-}
-
-div.object-right, table.object-right /* Used for floating images and other content elements to the right inside other content */
-{
-    margin: 0.25em 0 0.25em 0.25em;
-    float: right;
-    clear: right;
-}
-
-div.object-center, table.object-center
-{
-    margin: 0.25em auto 0.25em auto;
-}
-
-.embed-inline-left
-{
-    float: left;
-}
-
-.embed-inline-right
-{
-    float: right;
-}
-
-.float-break
-{
-    height: 1%; /* Fix for IE */
-}
-
-.float-break:after /* Terminate floating elements flow */
-{
-    content: "-";
+    clear: both;
     height: 0;
-    font-size: 0;
-    visibility: hidden;
-    display: block;
-    clear: both;
+    overflow: hidden;
 }
 
-div.break /* Old method for terminating floating elements flow; kept for backwards compatibility */
+@media (max-width: 35.99em)
 {
-    clear: both;
-    font-size: 1px; /* Fix for IE */
+    .object-left, .object-right, div.object-left, div.object-right, img.object-left, img.object-right,
+    table.object-left, table.object-right
+    {
+        float: none;
+        max-width: 100%;
+        margin: 0 0 var(--ew-space-4);
+    }
+}
+
+/* SPLIT THREE / SPLIT CONTENT */
+
+.split, .split-content
+{
+    display: grid;
+    gap: var(--ew-space-4);
+}
+
+@media (min-width: 48em)
+{
+    .split { grid-template-columns: 1fr 1fr 1fr; }
+    .split-content { grid-template-columns: 1fr 1fr; }
+}
+
+.three-left, .three-center, .three-right, .halfbox
+{
+    min-width: 0;
+}
+
+/* MISCELLANEOUS */
+
+.hide, .sr-only
+{
+    position: absolute !important;
+    width: 1px;
     height: 1px;
-    margin-bottom: -1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
 }
 
-/* SPLIT THREE */
+[hidden] { display: none !important; }
 
-div.split
+.limitdisplay-user { display: none; }
+.limitdisplay-user.limitdisplay-visible { display: inline; }
+.limitdisplay-user.limitdisplay-visible-block { display: block; }
+
+.flag-icon { vertical-align: middle; }
+
+@media (prefers-reduced-motion: reduce)
 {
-    clear: both;
+    *, *::before, *::after
+    {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
 
-div.split-content
+/* The kernel's front search (front_search.css: header suggestions and the search page) in this design's tokens,
+   set on the body so they win over front_search.css's own :root values in light and dark mode */
+body.ezwebin
 {
-    border: none;
+    --exps-font: var(--ew-font);
+    --exps-ink: var(--ew-text);
+    --exps-muted: var(--ew-muted);
+    --exps-surface: var(--ew-surface);
+    --exps-surface-alt: var(--ew-surface-2);
+    --exps-line: var(--ew-border);
+    --exps-accent: var(--ew-accent);
+    --exps-accent-ink: var(--ew-accent-contrast);
+    --exps-accent-soft: var(--ew-accent-soft);
+    --exps-mark: var(--ew-warning-soft);
+    --exps-bad: var(--ew-danger);
+    --exps-radius: var(--ew-radius);
+    --exps-shadow: var(--ew-shadow-raised);
 }
 
-div.split div.three-left
-{
-    width: 31%;
-    float: left;
-}
-
-div.split div.three-right
-{
-    width: 31%;
-    float: right;
-}
-
-div.split div.three-center
-{
-    margin: 0 35% 0 35%;
-}
-
-
-/* MISCELLANEOUS STYLES */
-
-div.oe-window /* Needed by OE 5.0 when translating content */
-{
-    clear: both;
-}
-
-.small
-{
-    font-size: 85%;
-}
-
-.hide /* Used on elements which should only be visible if CSS in disabled or unavailable */
-{
-    display: none;
-}
-
-.spamfilter /* Simple fix for stopping spambots from getting correct e-mail addresses from a web page: info<span class="spamfilter>SPAMFILTER</span>@ez.no <span class="spamfilter>(Remove SPAMFILTER to reply)</span> */
-{
-    display: none;
-}
+/* The search page's filter labels are options, not field labels */
+body.ezwebin [class^="exps-"] label, body.ezwebin [class*=" exps-"] label { font-weight: 400; }

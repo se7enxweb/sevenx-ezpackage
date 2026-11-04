@@ -1256,6 +1256,18 @@ D&apos;Biller ginn an d&apos;Mediebibliothéik gesat, sou datt Dir se an anere A
         <source>Preview of event</source>
         <translation>Virschau vum Evenement</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenner</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Eroflueden</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Keng Elementer fonnt.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ D&apos;Biller ginn an d&apos;Mediebibliothéik gesat, sou datt Dir se an anere A
     <message>
         <source>View as slideshow</source>
         <translation>Als Diashow ukucken</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zoumaachen</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pauséieren</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ D&apos;Biller ginn an d&apos;Mediebibliothéik gesat, sou datt Dir se an anere A
     <message>
         <source>Search text:</source>
         <translation>Sichtext:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menü</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Haaptnavigatioun</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>An dësem Deel</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Linken</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Brotkrumm-Navigatioun</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Sproochen</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Faarfmodus: Hell</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Faarfmodus: Däischter</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Faarfmodus: Wéi de System</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Méi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>All weisen</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Ugedriwwen vun</translation>
     </message>
 </context>
 <context>

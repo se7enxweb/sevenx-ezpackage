@@ -11,7 +11,7 @@ class xrowmetadataInfo
     {
         return array(
             'Name' => "Xrow Meta Data",
-            'Version' => "1.4.22",
+            'Version' => "1.4.27",
             'Copyright' => "Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved. Copyright (C) 1999 - 2022 xrow GmbH",
             'Author' => "xrow GmbH",
             'License' => "GNU General Public License v2.0 (or any later version)",

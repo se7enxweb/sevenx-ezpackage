@@ -1256,6 +1256,18 @@ Obrázky se umístí do knihovny médií, takže je můžete znovu použít v da
         <source>Preview of event</source>
         <translation>Náhled události</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendář</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Stáhnout</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Nebyly nalezeny žádné položky.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Obrázky se umístí do knihovny médií, takže je můžete znovu použít v da
     <message>
         <source>View as slideshow</source>
         <translation>Zobrazit jako prezentaci</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zavřít</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pozastavit</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Obrázky se umístí do knihovny médií, takže je můžete znovu použít v da
     <message>
         <source>Search text:</source>
         <translation>Hledaný text:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Nabídka</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Hlavní navigace</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>V této sekci</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Odkazy</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Drobečková navigace</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Jazyky</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Barevný režim: Světlý</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Barevný režim: Tmavý</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Barevný režim: Podle systému</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Další</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Zobrazit vše</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Běží na</translation>
     </message>
 </context>
 <context>

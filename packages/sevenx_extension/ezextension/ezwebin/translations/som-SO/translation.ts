@@ -1256,6 +1256,18 @@ Sawirrada waxaa la dhigaa maktabadda warbaahinta si aad dib ugu isticmaasho maqa
         <source>Preview of event</source>
         <translation>Horu-eegga dhacdada</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalandar</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Soo deji</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Lama helin shayo.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Sawirrada waxaa la dhigaa maktabadda warbaahinta si aad dib ugu isticmaasho maqa
     <message>
         <source>View as slideshow</source>
         <translation>Ku daawo sidii bandhig sawireed</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Xidh</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Hakii</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Sawirrada waxaa la dhigaa maktabadda warbaahinta si aad dib ugu isticmaasho maqa
     <message>
         <source>Search text:</source>
         <translation>Qoraalka raadinta:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Hagidda ugu weyn</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Qaybtan</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Xiriirro</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Raadraac</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Luqadaha</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Habka midabka: Iftiin</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Habka midabka: Mugdi</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Habka midabka: Raac nidaamka</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Wax badan</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Muuji dhammaan</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Waxaa ku shaqeeya</translation>
     </message>
 </context>
 <context>

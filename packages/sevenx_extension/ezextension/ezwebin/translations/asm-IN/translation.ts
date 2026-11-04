@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>অনুষ্ঠানৰ পূৰ্বদৰ্শন</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>কেলেণ্ডাৰ</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ডাউনলোড কৰক</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>কোনো বস্তু পোৱা নগ'ল।</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>স্লাইডশ্ব হিচাপে চাওক</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>বন্ধ কৰক</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>বিৰতি দিয়ক</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>সন্ধানৰ লিখনী:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>মেনু</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>মুখ্য নেভিগেচন</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>এই শাখাত</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>লিংক</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ব্ৰেডক্ৰাম্ব</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ভাষাসমূহ</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>ৰঙৰ ধৰণ: পোহৰ</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>ৰঙৰ ধৰণ: আন্ধাৰ</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>ৰঙৰ ধৰণ: ছিষ্টেম অনুসৰি</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>অধিক</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>সকলো দেখুৱাওক</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>চালিত</translation>
     </message>
 </context>
 <context>

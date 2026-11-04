@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="{$site.http_equiv.Content-language|wash}">
+<html lang="{$site.http_equiv.Content-language|wash}" class="ezwebin-html">
 <head>
 {def $basket_is_empty   = cond( $current_user.is_logged_in, fetch( shop, basket ).is_empty, 1 )
      $user_hash         = concat( $current_user.role_id_list|implode( ',' ), ',', $current_user.limited_assignment_value_list|implode( ',' ) )}
-
-{include uri='design:page_head_displaystyles.tpl'}
 
 {if is_set( $extra_cache_key )|not}
     {def $extra_cache_key = ''}
@@ -23,19 +21,26 @@
      $pagedesign       = $pagedata.template_look
      $current_node_id  = $pagedata.node_id}
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+{* The color mode is set before the stylesheets are drawn (a file, not an inline script: CSP script-src 'self') *}
+{ezscript( array( 'ezwebin-theme.js' ) )}
 {include uri='design:page_head.tpl'}
 {include uri='design:page_head_style.tpl'}
 {include uri='design:page_head_script.tpl'}
 
 </head>
-{* To simplify IE css targeting. IE9 conforms, so threat as rest *}
-<!--[if lt IE 7 ]><body class="ie6"><![endif]-->
-<!--[if IE 7 ]>   <body class="ie7"><![endif]-->
-<!--[if IE 8 ]>   <body class="ie8"><![endif]-->
-<!--[if (gt IE 8)|!(IE)]><!--><body><!--<![endif]-->
+{* data-exp-user: the signed-in user's object id, read by ezwebin.js for the .limitdisplay-user-<id> elements
+   (in place of the inline <style> of page_head_displaystyles.tpl); the block is keyed by the user's id *}
+{def $skin = ezini( 'StylesheetSettings', 'SiteCSS', 'design.ini' )}
+{if $skin|contains( 'ezwebin_design_' )}{set $skin = $skin|explode( 'ezwebin_design_' ).1|explode( '/' ).0}{else}{set $skin = 'default'}{/if}
+<body class="ezwebin" data-exp-user="{$current_user.contentobject_id|wash}" data-ezwebin-skin="{$skin|wash}">
+{undef $skin}
+<a class="skip-link" href="#main">{'Skip to main content'|i18n( 'design/ezwebin/pagelayout' )}</a>
 <!-- Complete page area: START -->
 
-<!-- Change between "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" to switch display of side columns on or off  -->
+{* $pagestyle switches the side columns: "sidemenu"/"nosidemenu" and "extrainfo"/"noextrainfo" *}
 <div id="page" class="{$pagestyle}">
 
   {if and( is_set( $pagedata.persistent_variable.extra_template_list ),
@@ -71,7 +76,7 @@
 
   <!-- Columns area: START -->
   <div id="columns-position">
-  <div id="columns" class="float-break">
+  <div id="columns">
 
     <!-- Side menu area: START -->
     {if $pagedata.left_menu}

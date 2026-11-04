@@ -1,13 +1,12 @@
   <!-- Path content: START -->
-  <p>
+  <ol class="path-list">
   {foreach $pagedata.path_array as $path}
   {if $path.url}
-    <a href={cond( is_set( $path.url_alias ), $path.url_alias,
-                                        $path.url )|ezurl}>{$path.text|wash}</a>
+    <li><a href={cond( is_set( $path.url_alias ), $path.url_alias,
+                                        $path.url )|ezurl}>{$path.text|wash}</a></li>
   {else}
-    <span class="path-text">{$path.text|wash}</span>
+    <li><span class="path-text" aria-current="page">{$path.text|wash}</span></li>
   {/if}
-  {delimiter}<span class="path-separator">/</span>{/delimiter}
   {/foreach}
-  </p>
+  </ol>
   <!-- Path content: END -->

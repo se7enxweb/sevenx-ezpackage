@@ -1256,6 +1256,18 @@ L-immaġnijiet jitpoġġew fil-librerija tal-midja sabiex tkun tista&apos; terġ
         <source>Preview of event</source>
         <translation>Dehra minn qabel tal-avveniment</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendarju</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Niżżel</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Ma nstab l-ebda element.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ L-immaġnijiet jitpoġġew fil-librerija tal-midja sabiex tkun tista&apos; terġ
     <message>
         <source>View as slideshow</source>
         <translation>Ara bħala slideshow</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Agħlaq</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Agħmel pawża</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ L-immaġnijiet jitpoġġew fil-librerija tal-midja sabiex tkun tista&apos; terġ
     <message>
         <source>Search text:</source>
         <translation>Test tat-tfittxija:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navigazzjoni ewlenija</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>F’din it-taqsima</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Mogħdija tan-navigazzjoni</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Lingwi</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Modalità tal-kulur: Ċar</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Modalità tal-kulur: Skur</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Modalità tal-kulur: Skont is-sistema</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Aktar</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Uri kollox</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Imħaddem minn</translation>
     </message>
 </context>
 <context>

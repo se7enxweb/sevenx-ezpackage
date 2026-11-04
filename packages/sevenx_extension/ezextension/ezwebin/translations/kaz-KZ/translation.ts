@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>Оқиғаны алдын ала қарау</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Күнтізбе</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Жүктеп алу</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Элементтер табылмады.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>Слайдшоу ретінде қарау</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Жабу</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Тоқтата тұру</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>Іздеу мәтіні:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Мәзір</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Негізгі навигация</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Осы бөлімде</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Сілтемелер</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Навигация жолы</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Тілдер</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Түс режимі: Ашық</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Түс режимі: Қараңғы</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Түс режимі: Жүйе бойынша</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Тағы</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Барлығын көрсету</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Қуат беруші</translation>
     </message>
 </context>
 <context>

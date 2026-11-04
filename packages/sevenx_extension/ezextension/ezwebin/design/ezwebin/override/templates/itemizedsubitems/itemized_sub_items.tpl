@@ -4,8 +4,6 @@
     <h2><a href={$object.main_node.url_alias|ezurl}>{$object.name|wash()}</a></h2>
 
     <div class="border-box">
-    <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-    <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
     {def $children = array()
          $limit = 5
          $offset = 0}
@@ -25,16 +23,14 @@
 
     {if $children|count()}
     
-    <ul>
+    <ul class="itemized-list">
     {foreach $children as $child}
-       <li><div><a href={$child.url_alias|ezurl}>{$child.name|wash()}</a></div></li>
+       <li><a href={$child.url_alias|ezurl}>{$child.name|wash()}</a></li>
     {/foreach}
     </ul>
     
     {/if}
     
-    </div></div></div>
-    <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
     </div>
 
     </div>

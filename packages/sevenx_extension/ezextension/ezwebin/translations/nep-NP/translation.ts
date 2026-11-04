@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>कार्यक्रमको पूर्वावलोकन</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>क्यालेन्डर</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>डाउनलोड गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>कुनै आइटम फेला परेन।</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>स्लाइडसोका रूपमा हेर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>बन्द गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>रोक्नुहोस्</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>खोज पाठ:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>मेनु</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>मुख्य नेभिगेसन</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>यस खण्डमा</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>लिङ्कहरू</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ब्रेडक्रम्ब्स</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>भाषाहरू</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>रङ मोड: उज्यालो</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>रङ मोड: अँध्यारो</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>रङ मोड: प्रणाली अनुसार</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>थप</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>सबै देखाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>द्वारा सञ्चालित</translation>
     </message>
 </context>
 <context>

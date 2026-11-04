@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension name="xrowmetadata">
-  <file name="README.md" md5sum="27ebaab7f9fd1b27a19080ee41eb875e"/>
+  <file name=".github" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="FUNDING.yml" path="/.github" md5sum="a65c763ef0340e232cfe8c274f56fca0"/>
+  <file name="README.md" md5sum="de6ebad73ab13076cf800d088c0fb394"/>
   <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="eztemplateautoload.php" path="/autoloads" md5sum="19e0a3b1bfa91dd428ce08ed37cccbf2"/>
   <file name="xrowmetadatalicenseoperator.php" path="/autoloads" md5sum="736f64876d6fa27f5b13fab70c1141ad"/>
@@ -58,7 +60,7 @@
   <file name="sitemap.php" path="/cronjobs" md5sum="71ea657bbe3bd39386c37bdc27d14c17"/>
   <file name="datatypes" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="xrowmetadata" path="/datatypes" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="xrowmetadatatype.php" path="/datatypes/xrowmetadata" md5sum="7ac891265eb33dc4d68f704a3d18f701"/>
+  <file name="xrowmetadatatype.php" path="/datatypes/xrowmetadata" md5sum="7db880f6bee2de8a9822da325dadc48c"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="standard" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="javascript" path="/design/standard" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -93,19 +95,19 @@
   <file name="doc" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="licenses.md" path="/doc" md5sum="09bb71b69b7b563d9d5cceb0a716a8bd"/>
   <file name="readme.txt" path="/doc" md5sum="deec8692def855d00320333e7e204bd3"/>
-  <file name="extension.xml" md5sum="5e079075f5f77f4cf98fb3856c5ea5e9"/>
-  <file name="ezinfo.php" md5sum="2d5cb21cab32ea1f13341346c69afd5f"/>
+  <file name="extension.xml" md5sum="0c82f78b78ad0ddf6fc4feaca8022b98"/>
+  <file name="ezinfo.php" md5sum="c730549a4dc8717e5d110d70c50d4570"/>
   <file name="modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="sitemaps" path="/modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="index.php" path="/modules/sitemaps" md5sum="de562f6b63a7faa746b52967a95c7d2a"/>
   <file name="module.php" path="/modules/sitemaps" md5sum="403f06c9f7740ac6691500d0be165a98"/>
   <file name="robots.php" path="/modules/sitemaps" md5sum="ea02ae5b50f3625dbfd69e91c94b8a10"/>
   <file name="settings" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="content.ini.append.php" path="/settings" md5sum="4ff1fd46afc0a5d7421ea6a7acc7b3c8"/>
-  <file name="cronjob.ini.append.php" path="/settings" md5sum="1c0518984a409c8941db362cbef9d5eb"/>
-  <file name="datatype.ini.append.php" path="/settings" md5sum="729eb40f1c7d639defa9c0fb451c2762"/>
-  <file name="design.ini.append.php" path="/settings" md5sum="fa0112a1f5d8b1d37feb1020435e0412"/>
-  <file name="ezfind.ini.append.php" path="/settings" md5sum="f1497602fa8d2e9fb4774e14ae8a0395"/>
+  <file name="content.ini.append.php" path="/settings" md5sum="6863c966525d638ed62ae02a51f92eee"/>
+  <file name="cronjob.ini.append.php" path="/settings" md5sum="413580acf73c36ce1f502c9bcb093f2c"/>
+  <file name="datatype.ini.append.php" path="/settings" md5sum="0e9e6d3741dc2c6c93c58f4213b14258"/>
+  <file name="design.ini.append.php" path="/settings" md5sum="b0a195c8d59a95cc1a5d603898bc0381"/>
+  <file name="ezfind.ini.append.php" path="/settings" md5sum="623dc2152c2b9e3b1ef086a0b1bea2d9"/>
   <file name="image.ini.append.php" path="/settings" md5sum="ff6749bdb43211c892f8d349572ba7f4"/>
   <file name="module.ini.append.php" path="/settings" md5sum="83be4b856fb3718505983f7d1996ab81"/>
   <file name="site.ini.append.php" path="/settings" md5sum="c837a5452b306f93fd8d5c3b04da7a3b"/>
@@ -117,6 +119,7 @@
   <file name="licenses.json" path="/share/licenses" md5sum="a85bfa460d9b8c1225068bd49f042c87"/>
   <file name="tests" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="xrowmetadataTranslationFilesTest.php" path="/tests" md5sum="72c933df82c8cd4bdca33b54c8d43993"/>
+  <file name="xrowmetadata_class_package_settings_test.php" path="/tests" md5sum="9a6eb93f94f9173fe99e405fdf7363de"/>
   <file name="xrowmetadata_inline_css_test.php" path="/tests" md5sum="5bc79b5eb5d3bd0818259efc06f50433"/>
   <file name="xrowmetadatalicense_test.php" path="/tests" md5sum="d6bd3758a3a28b1a42e7cf88f7352ecf"/>
   <file name="translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>

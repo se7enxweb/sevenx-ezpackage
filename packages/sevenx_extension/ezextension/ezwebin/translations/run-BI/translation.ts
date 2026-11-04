@@ -1256,6 +1256,18 @@ Amashusho arashirwa mu bubiko bw&apos;ibitangazamakuru kugira ngo mushobore kuya
         <source>Preview of event</source>
         <translation>Kubanza kuraba igikorwa</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendari</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Kumanura</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Nta bintu vyabonetse.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Amashusho arashirwa mu bubiko bw&apos;ibitangazamakuru kugira ngo mushobore kuya
     <message>
         <source>View as slideshow</source>
         <translation>Kuraba nk&apos;ikiganiro c&apos;amashusho akurikirana</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Gufunga</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Guhagarika</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Amashusho arashirwa mu bubiko bw&apos;ibitangazamakuru kugira ngo mushobore kuya
     <message>
         <source>Search text:</source>
         <translation>Ijambo ryo kurondera:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Kuyobora nyamukuru</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Muri iki gice</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Amahuza</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Inzira y'impapuro</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Indimi</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Uburyo bw'amabara: Umuco</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Uburyo bw'amabara: Umwiza</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Uburyo bw'amabara: Kurikira sisitemu</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ibindi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Kwerekana vyose</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Rukoreshwa na</translation>
     </message>
 </context>
 <context>

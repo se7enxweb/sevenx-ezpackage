@@ -1256,6 +1256,18 @@ A na-etinye foto n&apos;ụlọ akwụkwọ mgbasa ozi ka i nwee ike iji ha ọz
         <source>Preview of event</source>
         <translation>Ọhụụ mbụ nke mmemme</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Budata</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Ahụghị ihe edepụtara ọ bụla.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ A na-etinye foto n&apos;ụlọ akwụkwọ mgbasa ozi ka i nwee ike iji ha ọz
     <message>
         <source>View as slideshow</source>
         <translation>Lelee dị ka slaidshọ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Mechie</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Kwụsịtụ nwa oge</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ A na-etinye foto n&apos;ụlọ akwụkwọ mgbasa ozi ka i nwee ike iji ha ọz
     <message>
         <source>Search text:</source>
         <translation>Ederede nchọ:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Nchọgharị bụ isi</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Na ngalaba a</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Njikọ</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Ụzọ nchọgharị</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Asụsụ</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Ụdị agba: Ìhè</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Ụdị agba: Ọchịchịrị</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Ụdị agba: Soro sistemụ</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ọzọ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Gosi ha niile</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Onye na-akwado ya</translation>
     </message>
 </context>
 <context>

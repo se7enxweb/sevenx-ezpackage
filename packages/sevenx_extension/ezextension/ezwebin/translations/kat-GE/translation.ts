@@ -1256,6 +1256,18 @@ Images are placed in the media library so you can re-use them in other articles.
         <source>Preview of event</source>
         <translation>ღონისძიების წინასწარი ნახვა</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>კალენდარი</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>ჩამოტვირთვა</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>ელემენტები ვერ მოიძებნა.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>View as slideshow</source>
         <translation>სლაიდშოუდ ნახვა</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>დახურვა</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>დაპაუზება</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Images are placed in the media library so you can re-use them in other articles.
     <message>
         <source>Search text:</source>
         <translation>საძიებო ტექსტი:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>მენიუ</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>მთავარი ნავიგაცია</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>ამ განყოფილებაში</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ბმულები</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>ნავიგაციის ბილიკი</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ენები</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>ფერის რეჟიმი: ღია</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>ფერის რეჟიმი: მუქი</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>ფერის რეჟიმი: სისტემის მიხედვით</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>მეტი</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ყველას ჩვენება</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>შექმნილია</translation>
     </message>
 </context>
 <context>

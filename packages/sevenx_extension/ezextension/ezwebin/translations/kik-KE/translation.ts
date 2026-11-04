@@ -1256,6 +1256,18 @@ Mbica nĩ ciigagwo thĩinĩ wa gĩkundi kĩa mbica nĩguo ũciuge rĩngĩ nyaũ 
         <source>Preview of event</source>
         <translation>Rora ũndũ mbere</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Ikũrũkia</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Gũtirĩ indo ciaboneka.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Mbica nĩ ciigagwo thĩinĩ wa gĩkundi kĩa mbica nĩguo ũciuge rĩngĩ nyaũ 
     <message>
         <source>View as slideshow</source>
         <translation>Rora ta ũonanio wa slaidi</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Inge</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Rũgamia kwa ihinda</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Mbica nĩ ciigagwo thĩinĩ wa gĩkundi kĩa mbica nĩguo ũciuge rĩngĩ nyaũ 
     <message>
         <source>Search text:</source>
         <translation>Kĩrĩũrũ gĩa gũcaria:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Mũthiĩre mũnene</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Gĩcunjĩ-inĩ gĩkĩ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ikĩgwatanio</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Njĩra ya ũrũa</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ũthiomi</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mũthemba wa rangi: Ũtheri</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mũthemba wa rangi: Nduma</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mũthemba wa rangi: Rũmĩrĩra sisitemu</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ingĩ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Rora ciothe</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Nĩ ĩtengeretio nĩ</translation>
     </message>
 </context>
 <context>

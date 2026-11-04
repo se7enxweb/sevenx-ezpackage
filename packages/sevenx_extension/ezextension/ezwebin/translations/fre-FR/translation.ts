@@ -1334,6 +1334,18 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
         <source>Preview of event</source>
         <translation>Prévisualisation de l&apos;évènement</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendrier</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Télécharger</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Aucun élément trouvé.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1498,6 +1510,14 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>View as slideshow</source>
         <translation>Voir en diaporama</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Fermer</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pause</translation>
     </message>
 </context>
 <context>
@@ -1857,6 +1877,54 @@ Les images sont placées dans la médiathèque, vous pouvez les réutiliser dans
     <message>
         <source>Search text:</source>
         <translation>Texte à rechercher :</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navigation principale</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Dans cette rubrique</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Liens</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Fil d’Ariane</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Langues</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Mode de couleur : clair</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Mode de couleur : sombre</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Mode de couleur : selon le système</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Plus</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tout afficher</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Propulsé par</translation>
     </message>
 </context>
 <context>

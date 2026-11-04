@@ -4,9 +4,14 @@
 
 {foreach $content_attributes_grouped_data_map as $attribute_group => $content_attributes_grouped}
 {if $attribute_group|ne( $attribute_default_category )}
-	<fieldset class="ezcca-collapsible">
-	<legend><a href="#">{$attribute_categorys[$attribute_group]}</a></legend>
+	{* An attribute group: a native disclosure (collapsed, open when one of its fields has an error) in place of the
+	   old jQuery collapsible fieldset *}
+	{def $group_open = false()}
+	{foreach $content_attributes_grouped as $group_attribute}{if $group_attribute.has_validation_error}{set $group_open = true()}{/if}{/foreach}
+	<details class="ezcca-collapsible"{if $group_open} open{/if}>
+	<summary>{$attribute_categorys[$attribute_group]|wash}</summary>
 	<div class="ezcca-collapsible-fieldset-content">
+	{undef $group_open}
 {/if}
 {foreach $content_attributes_grouped as $attribute_identifier => $attribute}
 {def $contentclass_attribute = $attribute.contentclass_attribute}
@@ -74,13 +79,10 @@
 {/foreach}
 {if $attribute_group|ne( $attribute_default_category )}
  </div>
- </fieldset>
+ </details>
 {/if}
 {/foreach}
 {run-once}
-{* if is_set( $content_attributes_grouped_data_map[1] ) *}
-{ezscript_require(array( 'ezjsc::jquery' ) )}
 {ezscript( array( 'ezwebin_actions.js' ) )}
-{* /if *}
 {/run-once}
 {/default}

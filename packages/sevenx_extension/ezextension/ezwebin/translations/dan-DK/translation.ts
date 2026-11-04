@@ -1256,6 +1256,18 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
         <source>Preview of event</source>
         <translation>Forhåndsvisning af arrangement</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Hent</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Ingen elementer fundet.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     <message>
         <source>View as slideshow</source>
         <translation>Vis som diasshow</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Luk</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pause</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Billeder placeres i mediebiblioteket, så du kan genbruge dem i andre artikler.<
     <message>
         <source>Search text:</source>
         <translation>Søgetekst:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Hovednavigation</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>I denne sektion</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Brødkrummer</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Sprog</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Farvetilstand: Lys</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Farvetilstand: Mørk</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Farvetilstand: Følg systemet</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mere</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Vis alle</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Drevet af</translation>
     </message>
 </context>
 <context>

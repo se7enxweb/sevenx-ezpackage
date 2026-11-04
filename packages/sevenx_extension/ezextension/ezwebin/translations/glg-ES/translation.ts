@@ -1256,6 +1256,18 @@ As imaxes colócanse na biblioteca de medios para que as poida reutilizar noutro
         <source>Preview of event</source>
         <translation>Vista previa do evento</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendario</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Descargar</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Non se atoparon elementos.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ As imaxes colócanse na biblioteca de medios para que as poida reutilizar noutro
     <message>
         <source>View as slideshow</source>
         <translation>Ver como presentación</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Pechar</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pór en pausa</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ As imaxes colócanse na biblioteca de medios para que as poida reutilizar noutro
     <message>
         <source>Search text:</source>
         <translation>Texto de busca:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menú</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navegación principal</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Nesta sección</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ligazóns</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Ruta de navegación</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Idiomas</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Modo de cor: Claro</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Modo de cor: Escuro</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Modo de cor: Segundo o sistema</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Máis</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Amosar todo</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Con tecnoloxía de</translation>
     </message>
 </context>
 <context>

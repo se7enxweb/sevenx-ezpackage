@@ -1,8 +1,6 @@
 {* Article - Full view *}
 
 <div class="border-box">
-<div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-<div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
     <div class="content-view-full">
         <div class="class-article">
@@ -25,10 +23,17 @@
         {if eq( ezini( 'article', 'ImageInFullView', 'content.ini' ), 'enabled' )}
             {if $node.data_map.image.has_content}
                 <div class="attribute-image">
-                    {attribute_view_gui attribute=$node.data_map.image image_class=medium}
+                    {* the image: an image attribute, or a relation to an image object (the article class of the site packages) *}
+                    {if and( $node.data_map.image.data_type_string|eq( 'ezobjectrelation' ), is_set( $node.data_map.image.content.data_map.image ) )}
+                        {def $article_image = $node.data_map.image.content.data_map.image.content}
+                        <img src={$article_image[imagelarge].full_path|ezroot} width="{$article_image[imagelarge].width}" height="{$article_image[imagelarge].height}" alt="{$article_image.alternative_text|wash}" fetchpriority="high">
+                        {undef $article_image}
+                    {else}
+                        {attribute_view_gui attribute=$node.data_map.image image_class=imagelarge}
+                    {/if}
 
                     {if $node.data_map.caption.has_content}
-                    <div class="caption" style="width: {$node.data_map.image.content.medium.width}px">
+                    <div class="caption">
                         {attribute_view_gui attribute=$node.data_map.caption}
                     </div>
                     {/if}
@@ -98,6 +103,4 @@
         </div>
     </div>
 
-</div></div></div>
-<div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>

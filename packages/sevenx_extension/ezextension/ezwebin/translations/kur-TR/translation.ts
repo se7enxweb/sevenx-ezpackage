@@ -1256,6 +1256,18 @@ Wêne di pirtûkxaneya medyayê de tên danîn da ku hûn wan di gotarên din de
         <source>Preview of event</source>
         <translation>Pêşdîtina bûyerê</translation>
     </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Salname</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Daxistin</translation>
+    </message>
+    <message>
+        <source>No items found.</source>
+        <translation>Tu hêman nehatin dîtin.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/full/event_view_program</name>
@@ -1420,6 +1432,14 @@ Wêne di pirtûkxaneya medyayê de tên danîn da ku hûn wan di gotarên din de
     <message>
         <source>View as slideshow</source>
         <translation>Wekî pêşandana slaytan dîtin</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Girtin</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Rawestandin</translation>
     </message>
 </context>
 <context>
@@ -1779,6 +1799,54 @@ Wêne di pirtûkxaneya medyayê de tên danîn da ku hûn wan di gotarên din de
     <message>
         <source>Search text:</source>
         <translation>Nivîsa lêgerînê:</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menû</translation>
+    </message>
+    <message>
+        <source>Main navigation</source>
+        <translation>Navîgasyona sereke</translation>
+    </message>
+    <message>
+        <source>In this section</source>
+        <translation>Di vê beşê de</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Girêdan</translation>
+    </message>
+    <message>
+        <source>Breadcrumbs</source>
+        <translation>Şopa rûpelan</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ziman</translation>
+    </message>
+    <message>
+        <source>Color mode: Light</source>
+        <translation>Moda rengan: Ronî</translation>
+    </message>
+    <message>
+        <source>Color mode: Dark</source>
+        <translation>Moda rengan: Tarî</translation>
+    </message>
+    <message>
+        <source>Color mode: Follow system</source>
+        <translation>Moda rengan: Li gorî pergalê</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Zêdetir</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hemûyan nîşan dan</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Bi hêza</translation>
     </message>
 </context>
 <context>
