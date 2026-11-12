@@ -153,6 +153,9 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
             'eztags',
             'ngclasslist',
             'exp_enhanced_link',
+            // request-shield in front of the site (Setup > Request shield); it filters once config.php loads its
+            // hook, which config.php-RECOMMENDED does (extension/exp_request_shield/INSTALL.md).
+            'exp_request_shield',
             'expchangeclass',
             // Changes the owner of an object or of a whole subtree (module owner: change, subtree); the
             // Administrator role has it through */*.
