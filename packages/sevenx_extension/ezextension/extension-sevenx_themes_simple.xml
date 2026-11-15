@@ -152,7 +152,7 @@
   <file name="types" path="/design/simple/stylesheets/libs/splide" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="index.d.ts" path="/design/simple/stylesheets/libs/splide/types" md5sum="2861aecaa7fe69f8fca2acdf3f246f44"/>
   <file name="magnific-popup.css" path="/design/simple/stylesheets" md5sum="30b593b71d7672658f89bfea0ab360c9"/>
-  <file name="main.css" path="/design/simple/stylesheets" md5sum="5f4b6c7f48a6471131a405aa4242205a"/>
+  <file name="main.css" path="/design/simple/stylesheets" md5sum="0dda11520d7a2a65163745b832d2650e"/>
   <file name="main.min.css" path="/design/simple/stylesheets" md5sum="73eff6264c6c359ecf679cba1433b8ad"/>
   <file name="main.res.css" path="/design/simple/stylesheets" md5sum="8b86271270f4292a128c8c85251bdb20"/>
   <file name="main.res.min.css" path="/design/simple/stylesheets" md5sum="9b80365dba5aaff7428d9d39db06273b"/>
@@ -165,9 +165,10 @@
   <file name="ezimage.tpl" path="/design/simple/templates/content/datatype/view" md5sum="d2f06b8d1b4277a371c275a683be53ef"/>
   <file name="ezmedia.tpl" path="/design/simple/templates/content/datatype/view" md5sum="1a6d6a27f0e8961a41f63c1858ec2745"/>
   <file name="ezsrrating.tpl" path="/design/simple/templates/content/datatype/view" md5sum="9998e3889c3b0a350a0ccfd2cf8f0718"/>
+  <file name="search.tpl" path="/design/simple/templates/content" md5sum="1971bc3dcab6cd5d6474fa3697d93c52"/>
   <file name="view" path="/design/simple/templates/content" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="billboard.tpl" path="/design/simple/templates/content/view" md5sum="b1dcf8a4f02f55c0749a2382be80a3c8"/>
-  <file name="lightbox-thumb.tpl" path="/design/simple/templates/content/view" md5sum="f723cbaa1ed8c67b658b90b3383a9025"/>
+  <file name="lightbox-thumb.tpl" path="/design/simple/templates/content/view" md5sum="e5a248a5294b6c577fa331e3755ad28b"/>
   <file name="error" path="/design/simple/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="error500.tpl" path="/design/simple/templates/error" md5sum="c467cc9c4893797e633839b81c7a01d5"/>
   <file name="kernel" path="/design/simple/templates/error" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -194,7 +195,7 @@
   <file name="page_head.tpl" path="/design/simple/templates" md5sum="6123f380bb80e7a9296315f7b68f4c1c"/>
   <file name="page_head_script.tpl" path="/design/simple/templates" md5sum="1171b8db32db4757796fc72ac91d4fbd"/>
   <file name="page_head_style.tpl" path="/design/simple/templates" md5sum="800e272993ef5d92596e979977168d36"/>
-  <file name="page_header.tpl" path="/design/simple/templates" md5sum="311bb5a7e4f88a6b682b1aa3ce0065cf"/>
+  <file name="page_header.tpl" path="/design/simple/templates" md5sum="871323f4ec804ee884244e0c1caefc99"/>
   <file name="pagelayout.tpl" path="/design/simple/templates" md5sum="a54df79a39379df8252854f5a24fbd07"/>
   <file name="parts" path="/design/simple/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="blog" path="/design/simple/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -212,8 +213,8 @@
   <file name="userregister.tpl" path="/design/simple/templates/shop" md5sum="c2f2ed109a7d9743c99827a6a162b5a7"/>
   <file name="user" path="/design/simple/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="login.tpl" path="/design/simple/templates/user" md5sum="83bacd09676e171000093e761a056fd1"/>
-  <file name="extension.xml" md5sum="2b6b2d90ccdaa94177ff7b724ef1ac81"/>
-  <file name="ezinfo.php" md5sum="80ba7f14d1915da8f22b82501eb687d3"/>
+  <file name="extension.xml" md5sum="7982bcb07e7364cfe05489787c486a3f"/>
+  <file name="ezinfo.php" md5sum="3e43162c597b5158273735b80a1e2bba"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="article-1.0-1.ezpkg" path="/packages" md5sum="f97ea3180f7a432577609869f80cd1d2"/>
   <file name="article_main_page-1.0-1.ezpkg" path="/packages" md5sum="5f3c9ea5857d7772bc1c8adeb08f78fd"/>

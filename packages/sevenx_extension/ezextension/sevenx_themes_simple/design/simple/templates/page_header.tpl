@@ -23,6 +23,14 @@
                 {* include uri='design:menu/multi-dropdown.tpl' *}
                 {include uri='design:menu/dropdown.tpl'}
             </div>
+            {* the header search: posted to content/search (answered with a 303 to the filtered search page), with the
+               suggestions while typing (the kernel's parts/front_search_suggest.tpl) *}
+            <form class="simple-search" method="post" action={'/content/search'|ezurl} role="search">
+                <label for="simple-search-field" class="exps-sr-only">{'Search for'|i18n( 'design/admin/content/search' )}</label>
+                <input id="simple-search-field" class="simple-search-field" type="search" name="SearchText" placeholder="{'Search'|i18n( 'design/admin/content/search' )}" />
+                <button type="submit" class="simple-search-button">{'Search'|i18n( 'design/admin/content/search' )}</button>
+                {include uri='design:parts/front_search_suggest.tpl'}
+            </form>
             <a href="/shop/cart"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a>
     </nav>
   </header>

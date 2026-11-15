@@ -1,3 +1,6 @@
-{def    $image_variation=ezini( 'LightboxSettings' , 'FullImageSize' , 'lightbox.ini' )}
+{* The image the lightbox opens: the original. lightbox.ini [LightboxSettings] FullImageSize only exists where a
+   lightbox extension is installed, and reading it (even behind an if: the template compiler reads ezini() while
+   compiling) logged an error on every other site. A site with the extension can override this template. *}
+{def $image_variation = 'original'}
 
 <a href={$object.data_map.image.content[$image_variation].full_path|ezroot( 'double' , 'full' )} rel="lightbox" title="{if $object.data_map.caption.has_content}{$object.data_map.caption.content.output.output_text|strip_tags|trim}{else}{$object.name|wash}{/if}">{attribute_view_gui attribute=$object.data_map.image image_class=$object_parameters.size}</a>
