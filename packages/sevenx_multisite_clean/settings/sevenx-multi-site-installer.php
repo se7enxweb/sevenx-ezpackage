@@ -1458,6 +1458,12 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
                 '_function' => 'postInstallCleanUrlText',
                 '_params' => array()
             ),
+            // The store configuration tree (postInstallCreateConfigurationTree()), before the alias regeneration, which
+            // gives its folders their url aliases as it does all other content.
+            array(
+                '_function' => 'postInstallCreateConfigurationTree',
+                '_params' => array()
+            ),
             array(
                 '_function' => 'postInstallRegenerateURLAliases',
                 '_params' => array()
@@ -1481,6 +1487,12 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
             ),
             array(
                 '_function' => 'postInstallCloseInformationPagesOnPublicSiteaccesses',
+                '_params' => array()
+            ),
+            // After every step that places content at the top level: the anonymous read limit that keeps visitors
+            // out of the configuration tree (postInstallLimitAnonymousReadToPublicSubtrees()).
+            array(
+                '_function' => 'postInstallLimitAnonymousReadToPublicSubtrees',
                 '_params' => array()
             ),
             array(
@@ -1826,6 +1838,168 @@ class sevenxMultiSiteInstaller extends eZSiteInstaller
      * ContentObjectFallbackLocale, eng-US; never eng-GB, which left names in a
      * language the site did not have).
      */
+    /**
+     * The store configuration tree and the anonymous read limit (owner 2026-11-16).
+     *
+     * Settings content that belongs to no site, such as the store's coupons, lives in the folders Configuration,
+     * Store and Coupons (/configuration/store/coupons) directly under the content root, in the Standard section like
+     * all other content. Editors and administrators read and edit them as any other content; visitors who are not
+     * signed in must not read them. That is done by one policy: the Anonymous role's content/read policy of the
+     * Standard section (base data: Section = Standard and nothing else) gets two more limitation parameters:
+     *
+     *   Node    = the content root itself (a site that shows the content root as its front page keeps it),
+     *   Subtree = every other top-level subtree: each child of the content root except /configuration, and each
+     *             other top-level node (Users, Media, ...: Standard content placed there stays as readable as before).
+     *
+     * Node and Subtree in one policy are alternatives (either one grants), and both go together with Section, so the
+     * policy reads "content of the Standard section that is the content root or below one of the public subtrees".
+     * Content moved inside a public subtree stays readable; a new top-level folder under the content root is not
+     * readable by visitors until its subtree is added to the policy (Roles and policies, Anonymous, edit the policy).
+     *
+     * Two steps: this one creates the folders before the url alias regeneration, which gives them their aliases;
+     * postInstallLimitAnonymousReadToPublicSubtrees() sets the policy at the end, when every top-level node is in
+     * place. Existing folders (by remote id) are kept, a rerun recomputes the two parameters, and nothing here aborts
+     * the installation: what cannot be done is logged and the remaining steps run.
+     */
+    function postInstallCreateConfigurationTree( $params = false )
+    {
+        $contentRoot = eZContentObjectTreeNode::fetch( 2 );
+        if ( !$contentRoot || (int)$contentRoot->attribute( 'parent_node_id' ) !== 1 )
+        {
+            eZDebug::writeWarning( 'No content root (node 2): no configuration tree', __METHOD__ );
+            return true;
+        }
+        $configuration = $this->configurationFolderNode( $contentRoot, 'exp-configuration', 'Configuration' );
+        $store = $configuration ? $this->configurationFolderNode( $configuration, 'exp-configuration-store', 'Store' ) : false;
+        $coupons = $store ? $this->configurationFolderNode( $store, 'exp-configuration-store-coupons', 'Coupons' ) : false;
+        if ( !$coupons )
+            eZDebug::writeWarning( 'The configuration tree could not be created completely', __METHOD__ );
+        return true;
+    }
+
+    /**
+     * The anonymous read limit of postInstallCreateConfigurationTree(): see limitAnonymousReadToPublicSubtrees().
+     * Runs when every top-level node is in place; without the configuration tree the policy stays as it is.
+     */
+    function postInstallLimitAnonymousReadToPublicSubtrees( $params = false )
+    {
+        $contentRoot = eZContentObjectTreeNode::fetch( 2 );
+        $object = eZContentObject::fetchByRemoteID( 'exp-configuration' );
+        $configuration = $object ? $object->attribute( 'main_node' ) : null;
+        if ( !$contentRoot || !$configuration || (int)$configuration->attribute( 'parent_node_id' ) !== 2 )
+        {
+            eZDebug::writeWarning( 'No configuration tree below the content root: the anonymous read policy is unchanged', __METHOD__ );
+            return true;
+        }
+        $result = self::limitAnonymousReadToPublicSubtrees( $contentRoot, $configuration );
+        if ( $result !== true )
+            eZDebug::writeWarning( 'Anonymous read policy unchanged: ' . $result, __METHOD__ );
+        else
+            eZDebug::writeNotice( 'Anonymous content/read limited to the public subtrees; node ' . $configuration->attribute( 'node_id' ) . ' (/configuration) is not among them', __METHOD__ );
+        return true;
+    }
+
+    /**
+     * The folder with the remote id $remoteID (its main node), created as a folder named $name below $parentNode in
+     * the primary language when it does not exist. The node gets the same remote id. False when it cannot be made.
+     */
+    function configurationFolderNode( eZContentObjectTreeNode $parentNode, $remoteID, $name )
+    {
+        $object = eZContentObject::fetchByRemoteID( $remoteID );
+        if ( !$object )
+        {
+            $object = eZContentFunctions::createAndPublishObject( array(
+                'parent_node_id' => $parentNode->attribute( 'node_id' ),
+                'class_identifier' => 'folder',
+                'creator_id' => 14,
+                'remote_id' => $remoteID,
+                'language' => $this->primaryLanguageLocale(),
+                'attributes' => array( 'name' => $name )
+            ) );
+            if ( !$object )
+            {
+                eZDebug::writeWarning( "Folder $name ($remoteID) not created", __METHOD__ );
+                return false;
+            }
+        }
+        $node = $object->attribute( 'main_node' );
+        if ( !$node )
+            return false;
+        if ( $node->attribute( 'remote_id' ) !== $remoteID && !eZContentObjectTreeNode::fetchByRemoteID( $remoteID ) )
+        {
+            $node->setAttribute( 'remote_id', $remoteID );
+            $node->store();
+        }
+        return $node;
+    }
+
+    /**
+     * Gives the Anonymous role's content/read policy of the Standard section the limitation parameters Node = the
+     * content root and Subtree = the other top-level subtrees (every child of the content root except $excluded, and
+     * every other child of the root node). Any Node or Subtree values it had are replaced; Section and
+     * everything else stay. The policy is the one whose limitations are Section = Standard alone (with Node and
+     * Subtree on a rerun). True, or the reason nothing was changed.
+     */
+    static function limitAnonymousReadToPublicSubtrees( eZContentObjectTreeNode $contentRoot, eZContentObjectTreeNode $excluded )
+    {
+        $role = eZRole::fetchByName( 'Anonymous' );
+        if ( !$role )
+            return 'no Anonymous role';
+        $standard = eZSection::fetchByIdentifier( 'standard', false );
+        $standardID = $standard ? (int)$standard['id'] : 1;
+        $policy = false;
+        foreach ( $role->policyList() as $candidate )
+        {
+            if ( $candidate->attribute( 'module_name' ) !== 'content' || $candidate->attribute( 'function_name' ) !== 'read' )
+                continue;
+            $identifiers = array();
+            $sectionValues = array();
+            foreach ( eZPolicyLimitation::fetchByPolicyID( $candidate->attribute( 'id' ) ) as $limitation )
+            {
+                $identifiers[] = $limitation->attribute( 'identifier' );
+                if ( $limitation->attribute( 'identifier' ) === 'Section' )
+                    foreach ( $limitation->valueList() as $value )
+                        $sectionValues[] = (int)$value->attribute( 'value' );
+            }
+            if ( $sectionValues === array( $standardID ) && !array_diff( $identifiers, array( 'Section', 'Node', 'Subtree' ) ) )
+            {
+                $policy = $candidate;
+                break;
+            }
+        }
+        if ( !$policy )
+            return 'the Anonymous role has no content/read policy limited to the Standard section alone';
+
+        // The top-level nodes from their rows: during an installation the in-process language filter of the node
+        // fetch functions can be stale and leave nodes out (see sevenxRegenerateURLAliases()), and a site left out
+        // here would be closed to visitors.
+        $db = eZDB::instance();
+        $rootID = (int)$contentRoot->attribute( 'node_id' );
+        $rows = $db->arrayQuery( "SELECT node_id, path_string FROM ezcontentobject_tree WHERE parent_node_id IN ( 1, $rootID ) AND node_id <> 1 ORDER BY path_string" );
+        $subtrees = array();
+        foreach ( (array)$rows as $row )
+        {
+            $nodeID = (int)$row['node_id'];
+            if ( $nodeID === (int)$excluded->attribute( 'node_id' ) || $nodeID === $rootID )
+                continue;
+            $subtrees[] = $row['path_string'];
+        }
+        $subtrees = array_values( array_unique( $subtrees ) );
+
+        $db->begin();
+        foreach ( eZPolicyLimitation::fetchByPolicyID( $policy->attribute( 'id' ) ) as $limitation )
+        {
+            if ( in_array( $limitation->attribute( 'identifier' ), array( 'Node', 'Subtree' ), true ) )
+                eZPolicyLimitation::removeByID( $limitation->attribute( 'id' ) );
+        }
+        $policy->appendLimitation( 'Node', array( (int)$contentRoot->attribute( 'node_id' ) ) );
+        if ( $subtrees )
+            $policy->appendLimitation( 'Subtree', $subtrees );
+        $db->commit();
+        eZRole::expireCache();
+        return true;
+    }
+
     function primaryLanguageLocale()
     {
         $locale = $this->setting( 'primary_language' );
